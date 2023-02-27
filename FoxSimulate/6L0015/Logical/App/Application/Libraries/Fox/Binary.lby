@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="1.00.1" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>Fox.typ</File>
+    <File>Fox.var</File>
+    <File>Fox.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsString" FromVersion="1.01.1" />
+    <Dependency ObjectName="FoldTool" FromVersion="1.02.0" />
+    <Dependency ObjectName="SYS_LIB" FromVersion="1.40.1" />
+    <Dependency ObjectName="runtime" FromVersion="1.09.0" />
+    <Dependency ObjectName="asieccon" FromVersion="0.00.0" />
+    <Dependency ObjectName="Trace2Lib" FromVersion="1.00.1" ToVersion="1.00.1" />
+    <Dependency ObjectName="AsTime" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

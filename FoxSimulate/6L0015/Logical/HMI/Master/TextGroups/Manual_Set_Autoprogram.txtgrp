@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Manual_Set_Autoprogram">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="49"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="524039" Value="Current Value"/>
+    <Text ID="524040" Value="Button"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="524039" Value="Current Value"/>
+    <Text ID="524040" Value="Button"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="524039" Value="Current Value"/>
+    <Text ID="524040" Value="Button"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="524039" Value="Current Value"/>
+    <Text ID="524040" Value="Button"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="524039" Value="Current Value"/>
+    <Text ID="524040" Value="Button"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="524039" Value="Current Value"/>
+    <Text ID="524040" Value="Button"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="524039" Value="Current Value"/>
+    <Text ID="524040" Value="Button"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="524039" Value="Current Value"/>
+    <Text ID="524040" Value="Button"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="524039" Value="Current Value"/>
+    <Text ID="524040" Value="Button"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="524039" Value="Current Value"/>
+    <Text ID="524040" Value="Button"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="524039" Value="Valor Actual"/>
+    <Text ID="524040" Value="Botón"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Modo Inicio"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="524039" Value="Valor atual"/>
+    <Text ID="524040" Value="Botão"/>
+    <Text ID="524041" Value="Modo manual do programa automático"/>
+    <Text ID="524042" Value="Modo automático do programa automático"/>
+    <Text ID="524043" Value="Modo de arranque"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="524039" Value=""/>
+    <Text ID="524040" Value=""/>
+    <Text ID="524041" Value=""/>
+    <Text ID="524042" Value=""/>
+    <Text ID="524043" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="524039" Value=""/>
+    <Text ID="524040" Value=""/>
+    <Text ID="524041" Value=""/>
+    <Text ID="524042" Value=""/>
+    <Text ID="524043" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="524039" Value=""/>
+    <Text ID="524040" Value=""/>
+    <Text ID="524041" Value=""/>
+    <Text ID="524042" Value=""/>
+    <Text ID="524043" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="524039" Value="Current Value"/>
+    <Text ID="524040" Value="Button"/>
+    <Text ID="524041" Value="Autoprogram Manual Mode"/>
+    <Text ID="524042" Value="Autoprogram Automatic Mode"/>
+    <Text ID="524043" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="524039" Value=""/>
+    <Text ID="524040" Value=""/>
+    <Text ID="524041" Value=""/>
+    <Text ID="524042" Value=""/>
+    <Text ID="524043" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="524039" Value="0"/>
+    <Index ID="524040" Value="1"/>
+    <Index ID="524041" Value="2"/>
+    <Index ID="524042" Value="3"/>
+    <Index ID="524043" Value="4"/>
+  </IndexMap>
+</TextGroup>

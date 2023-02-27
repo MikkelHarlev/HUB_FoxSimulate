@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Stackergroup5">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.App.Application.g_StackerProcess[5].Common.AlarmList.Ack]"/>
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.App.Application.g_StackerProcess[5].Common.AlarmList.Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="Source[global].Variable[Master.App.Application.g_StackerProcess[5].Common.AlarmList.Bypassed]"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="18"/>
+  <Property Name="LatchedBackColor" Value="47"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="2"/>
+  <Property Name="QuitBackColor" Value="11"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="7412" Value="Photocell covered at start STG 5"/>
+      <Text ID="7414" Value="Jam inlet STG 5"/>
+      <Text ID="7415" Value="Startup error STG 5"/>
+      <Text ID="7416" Value="Coupled settings wrong"/>
+      <Text ID="7417" Value="Photocell covered at foldpoint STG 5"/>
+      <Text ID="7418" Value="Photocell covered STG5"/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="7412" Value="Fotozelle betaetigt bei start STG 5"/>
+      <Text ID="7414" Value="Stau Einlauf STG 5"/>
+      <Text ID="7415" Value="Start Fehler STG 5"/>
+      <Text ID="7416" Value="Verbindungs-einstellungs fehler"/>
+      <Text ID="7417" Value="Fotozelle betaetigt bei Faltpunkt STG 5"/>
+      <Text ID="7418" Value="Fotozelle betaetigt  STG5"/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="7412" Value="Photocell covered at start STG 5"/>
+      <Text ID="7414" Value="Jam inlet STG 5"/>
+      <Text ID="7415" Value="Startup error STG 5"/>
+      <Text ID="7416" Value="Kopplings parameter fel"/>
+      <Text ID="7417" Value="Photocell covered at foldpoint STG 5"/>
+      <Text ID="7418" Value="Övertid manuell inmatning"/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="7412" Value="Photocellule couverte au depart STG 5"/>
+      <Text ID="7414" Value="Surveillance STG 5"/>
+      <Text ID="7415" Value="Erreur startup STG 5"/>
+      <Text ID="7416" Value="Erreur couplage empileurs"/>
+      <Text ID="7417" Value="Photocellule couverte au point pliage STG 5"/>
+      <Text ID="7418" Value="Photocellule couverte au STG 5"/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="7412" Value="Fotocelle tildäkket under start STG 5"/>
+      <Text ID="7414" Value="Fejl STG 5"/>
+      <Text ID="7415" Value="Startup error STG 5"/>
+      <Text ID="7416" Value="Coupled settings wrong"/>
+      <Text ID="7417" Value="Fotocelle tildäkket foldepunkt STG 5"/>
+      <Text ID="7418" Value="Fotocelle tildäkket STG 5"/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="7412" Value="Fotocellula Coperta alla partenza STG 5"/>
+      <Text ID="7414" Value="Inceppamento STG5"/>
+      <Text ID="7415" Value="Errore Avviamento STG 5"/>
+      <Text ID="7416" Value="Impostaz. Accoppiam. Errata"/>
+      <Text ID="7417" Value="Fotocellula Coperta al punto di piega STG 5"/>
+      <Text ID="7418" Value="Fotocellula Coperta STG5"/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="7412" Value="Photocell covered at start STG 5"/>
+      <Text ID="7414" Value="Jam inlet STG 5"/>
+      <Text ID="7415" Value="Startup error STG 5"/>
+      <Text ID="7416" Value="Coupled settings wrong"/>
+      <Text ID="7417" Value="Photocell covered at foldpoint STG 5"/>
+      <Text ID="7418" Value="Photocell covered STG5"/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="7412" Value="Photocell covered at start STG 5"/>
+      <Text ID="7414" Value="Jam inlet STG 5"/>
+      <Text ID="7415" Value="Startup error STG 5"/>
+      <Text ID="7416" Value="Coupled settings wrong"/>
+      <Text ID="7417" Value="Photocell covered at foldpoint STG 5"/>
+      <Text ID="7418" Value="Photocell covered STG5"/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="7412" Value="Fotocélula cubierta en inicio STG5"/>
+      <Text ID="7414" Value="Atasco en entrada STG5"/>
+      <Text ID="7415" Value="Error en inicio STG5"/>
+      <Text ID="7416" Value="Ajustes de acoplamiento erróneos"/>
+      <Text ID="7417" Value="Fotocélula cubierta en plegado STG5"/>
+      <Text ID="7418" Value="Fotocélula cubierta STG5"/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="7412" Value=""/>
+      <Text ID="7414" Value=""/>
+      <Text ID="7415" Value=""/>
+      <Text ID="7416" Value=""/>
+      <Text ID="7417" Value=""/>
+      <Text ID="7418" Value=""/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="7412" Value=""/>
+      <Text ID="7414" Value=""/>
+      <Text ID="7415" Value=""/>
+      <Text ID="7416" Value=""/>
+      <Text ID="7417" Value=""/>
+      <Text ID="7418" Value=""/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="7412" Value=""/>
+      <Text ID="7414" Value=""/>
+      <Text ID="7415" Value=""/>
+      <Text ID="7416" Value=""/>
+      <Text ID="7417" Value=""/>
+      <Text ID="7418" Value=""/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="7412" Value=""/>
+      <Text ID="7414" Value=""/>
+      <Text ID="7415" Value=""/>
+      <Text ID="7416" Value=""/>
+      <Text ID="7417" Value=""/>
+      <Text ID="7418" Value=""/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="7412" Value=""/>
+      <Text ID="7414" Value=""/>
+      <Text ID="7415" Value=""/>
+      <Text ID="7416" Value=""/>
+      <Text ID="7417" Value=""/>
+      <Text ID="7418" Value=""/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="7412" Value=""/>
+      <Text ID="7414" Value=""/>
+      <Text ID="7415" Value=""/>
+      <Text ID="7416" Value=""/>
+      <Text ID="7417" Value=""/>
+      <Text ID="7418" Value=""/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="7412" Value="Fotocelle tildekket under start STG 5"/>
+      <Text ID="7414" Value="Jam inlet STG 5"/>
+      <Text ID="7415" Value="Startup error STG 5"/>
+      <Text ID="7416" Value="Coupled settings wrong"/>
+      <Text ID="7417" Value="Fotocelle tildekket foldepunkt STG 5"/>
+      <Text ID="7418" Value="Fotocelle tildekket STG 5"/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="7412" Value=""/>
+      <Text ID="7414" Value=""/>
+      <Text ID="7415" Value=""/>
+      <Text ID="7416" Value=""/>
+      <Text ID="7417" Value=""/>
+      <Text ID="7418" Value=""/>
+      <Text ID="12309" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="7412" Value="5"/>
+      <Index ID="7414" Value="2"/>
+      <Index ID="7415" Value="3"/>
+      <Index ID="7416" Value="4"/>
+      <Index ID="7417" Value="6"/>
+      <Index ID="7418" Value="7"/>
+      <Index ID="12309" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

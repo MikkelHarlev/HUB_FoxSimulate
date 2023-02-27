@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<methodCall>
+    <methodName>ShowMessage</methodName>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>MessageText</name>
+                    <value>
+                        <base64>"Message to be shown"</base64>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodCall>

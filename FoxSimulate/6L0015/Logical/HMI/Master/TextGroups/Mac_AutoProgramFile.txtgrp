@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_AutoProgramFile">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="29"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="307740" Value="Copy:"/>
+    <Text ID="307741" Value="From:"/>
+    <Text ID="307742" Value="To:"/>
+    <Text ID="307743" Value="Start:"/>
+    <Text ID="307744" Value="End:"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="307740" Value="Copieren:"/>
+    <Text ID="307741" Value="Von:"/>
+    <Text ID="307742" Value="Nach:"/>
+    <Text ID="307743" Value="Start:"/>
+    <Text ID="307744" Value="Ende:"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="307740" Value="Copy:"/>
+    <Text ID="307741" Value="From:"/>
+    <Text ID="307742" Value="To:"/>
+    <Text ID="307743" Value="Start:"/>
+    <Text ID="307744" Value="End:"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="307740" Value="Copier:"/>
+    <Text ID="307741" Value="De:"/>
+    <Text ID="307742" Value="à:"/>
+    <Text ID="307743" Value="Marche:"/>
+    <Text ID="307744" Value="Fin:"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="307740" Value="Kopier:"/>
+    <Text ID="307741" Value="Fra:"/>
+    <Text ID="307742" Value="Til:"/>
+    <Text ID="307743" Value="Start:"/>
+    <Text ID="307744" Value="Slut:"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="307740" Value="Copia:"/>
+    <Text ID="307741" Value="Da:"/>
+    <Text ID="307742" Value="A:"/>
+    <Text ID="307743" Value="Inizio:"/>
+    <Text ID="307744" Value="Fine:"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="307740" Value="Copy:"/>
+    <Text ID="307741" Value="From:"/>
+    <Text ID="307742" Value="To:"/>
+    <Text ID="307743" Value="Start:"/>
+    <Text ID="307744" Value="End:"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="307740" Value="Copy:"/>
+    <Text ID="307741" Value="From:"/>
+    <Text ID="307742" Value="To:"/>
+    <Text ID="307743" Value="Start:"/>
+    <Text ID="307744" Value="End:"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="307740" Value="Copy:"/>
+    <Text ID="307741" Value="From:"/>
+    <Text ID="307742" Value="To:"/>
+    <Text ID="307743" Value="Start:"/>
+    <Text ID="307744" Value="End:"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="307740" Value=""/>
+    <Text ID="307741" Value=""/>
+    <Text ID="307742" Value=""/>
+    <Text ID="307743" Value=""/>
+    <Text ID="307744" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="307740" Value=""/>
+    <Text ID="307741" Value=""/>
+    <Text ID="307742" Value=""/>
+    <Text ID="307743" Value=""/>
+    <Text ID="307744" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="307740" Value=""/>
+    <Text ID="307741" Value=""/>
+    <Text ID="307742" Value=""/>
+    <Text ID="307743" Value=""/>
+    <Text ID="307744" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="307740" Value=""/>
+    <Text ID="307741" Value=""/>
+    <Text ID="307742" Value=""/>
+    <Text ID="307743" Value=""/>
+    <Text ID="307744" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="307740" Value=""/>
+    <Text ID="307741" Value=""/>
+    <Text ID="307742" Value=""/>
+    <Text ID="307743" Value=""/>
+    <Text ID="307744" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="307740" Value=""/>
+    <Text ID="307741" Value=""/>
+    <Text ID="307742" Value=""/>
+    <Text ID="307743" Value=""/>
+    <Text ID="307744" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="307740" Value="Kopier:"/>
+    <Text ID="307741" Value="Fra:"/>
+    <Text ID="307742" Value="Til:"/>
+    <Text ID="307743" Value="Start:"/>
+    <Text ID="307744" Value="Slutt:"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="307740" Value=""/>
+    <Text ID="307741" Value=""/>
+    <Text ID="307742" Value=""/>
+    <Text ID="307743" Value=""/>
+    <Text ID="307744" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="307740" Value="0"/>
+    <Index ID="307741" Value="1"/>
+    <Index ID="307742" Value="2"/>
+    <Index ID="307743" Value="3"/>
+    <Index ID="307744" Value="4"/>
+  </IndexMap>
+</TextGroup>

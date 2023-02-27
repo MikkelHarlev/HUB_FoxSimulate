@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">rtkFiles</Object>
+    <Object Type="File">httpscan.h</Object>
+    <Object Type="File">librtk_lib.a</Object>
+    <Object Type="File">rtk.h</Object>
+    <Object Type="File">rtkuser.h</Object>
+    <Object Type="File">packed.h</Object>
+    <Object Type="File">rpc2d.h</Object>
+    <Object Type="File">sax_stack.h</Object>
+    <Object Type="File">rpcd.h</Object>
+    <Object Type="File">rpcd_cfg.h</Object>
+    <Object Type="File">sax_def.h</Object>
+    <Object Type="File">sax_hash.h</Object>
+    <Object Type="File">sax_impl.h</Object>
+    <Object Type="File">br_rpcd.h</Object>
+    <Object Type="File">errutils.h</Object>
+    <Object Type="File">jentranscommon.h</Object>
+    <Object Type="File">jenutils.h</Object>
+    <Object Type="File">errdef.h</Object>
+    <Object Type="File">sax_impl_types.h</Object>
+    <Object Type="File">xmldef.h</Object>
+    <Object Type="File">foldxmlcommon.h</Object>
+    <Object Type="File">cachelist.h</Object>
+    <Object Type="File">cache_c.h</Object>
+    <Object Type="File">crc.h</Object>
+    <Object Type="File">metspec.h</Object>
+    <Object Type="File">rpc2d1.h</Object>
+    <Object Type="File">XMLPVs.h</Object>
+    <Object Type="File">metutils.h</Object>
+    <Object Type="File">CMSupport.h</Object>
+    <Object Type="File">comportshared.h</Object>
+    <Object Type="File">scanlibdef.h</Object>
+    <Object Type="File">XML_IVs.h</Object>
+  </Objects>
+</Package>

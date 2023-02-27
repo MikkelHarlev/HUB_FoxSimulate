@@ -1,0 +1,15 @@
+/**/Binaries
+/**/Diagnosis
+/**/Temp
+/**/CHANGELOG.md
+/**/DOC
+*.isopen
+*.set
+*.zip
+*.7z
+*_GitIgnore
+/CHANGELOG.md
+/DOC
+!LastUser.set
+node_modules/
+Log.txt

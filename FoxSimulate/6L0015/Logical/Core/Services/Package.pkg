@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="Ma">File</Object>
+    <Object Type="Package" Description="Communication handlers">Communication</Object>
+    <Object Type="Package" Description="Layer for setting up a JEDK machine to the Core Template">CoreLink</Object>
+    <Object Type="Package" Description="Configuration Handlers">Configuration</Object>
+    <Object Type="Package" Description="Alarm handlers">Alarms</Object>
+    <Object Type="Package" Description="Business Intelligence">BI</Object>
+    <Object Type="Package" Description="IO Services">IO</Object>
+    <Object Type="Package" Description="Time services">Time</Object>
+    <Object Type="Package" Description="HMI Services">HMI</Object>
+    <Object Type="Package" Description="An empty package">GlobalCoreTypes</Object>
+    <Object Type="Package" Description="Global Core Variables">GlobalCoreVars</Object>
+    <Object Type="Package">Safety</Object>
+  </Objects>
+</Package>

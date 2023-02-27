@@ -1,0 +1,25 @@
+VAR
+	HangerConveyor : HangerConveyorCounter_Type;
+	Speed : INT;
+	Start : ARRAY[0..9] OF BOOL;
+	Cnt : USINT;
+	SpeedSource : UDINT;
+	localMCfg : GearAdjust_Type;
+	REnable : BOOL;
+	StartInTrig : BOOL;
+	StartInTrig_TP_10ms : TP_10ms;
+	StopInTrig_TP_10ms : TP_10ms;
+	RSpeed : REAL;
+	SpeedDefault : REAL := 0.0;
+	RTestSpeed : BOOL;
+	TestSpeed : INT;
+	REnableQuickStop : BOOL;
+	RHangerConveyor_MTR_DelayOff : TOF_10ms;
+	RTestOutFreq : BOOL;
+	RSpeedWatch : REAL;
+	SpeedHzHangerBeltInfeed : UINT := 0;
+	SpeedSlowHangerBeltDeloader : UINT := 0;
+	SelectedAutoProgram : UINT := 0;
+	SpeedHzHangerBelt : UINT := 0;
+	OldMilliSeconds : UDINT := 0;
+END_VAR

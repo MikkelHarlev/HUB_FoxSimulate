@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="XML_Conf_Text">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="8"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002001" Name="remoteNo">
+      <Property Name="Datapoint" Value="Source[global].Variable[Master.Core.Services.GlobalCoreVars.g_Core.Services.Remote.Runtime.remoteID]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="101231" Value="Feeder M2M"/>
+    <Text ID="101232" Value="Folder M2M"/>
+    <Text ID="101233" Value="Stacker M2M"/>
+    <Text ID="101234" Value="Ironer M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Enable:"/>
+    <Text ID="102197" Value="Save"/>
+    <Text ID="102198" Value="Save and Reboot"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Off"/>
+    <Text ID="111458" Value="On"/>
+    <Text ID="111965" Value="Rail M2M"/>
+    <Text ID="111966" Value="Separator M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="Base 64 ON"/>
+    <Text ID="166636" Value="Base 64 OFF"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="Not in use"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Feeder ArcNet"/>
+    <Text ID="403847" Value="Ironer ArcNet"/>
+    <Text ID="403848" Value="Folder ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="101231" Value="Eingabemaschine  M2M"/>
+    <Text ID="101232" Value="Faltmaschine  M2M"/>
+    <Text ID="101233" Value="Stapler M2M"/>
+    <Text ID="101234" Value="Mangel M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Freigeben"/>
+    <Text ID="102197" Value="Speichern"/>
+    <Text ID="102198" Value="Speichern und Neustart"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Aus"/>
+    <Text ID="111458" Value="An "/>
+    <Text ID="111965" Value="Jenrail M2M"/>
+    <Text ID="111966" Value="Viking M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="Base 64 EIN"/>
+    <Text ID="166636" Value="Base 64 AUS"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="Nicht benutzt"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Eingabemaschine ArcNet"/>
+    <Text ID="403847" Value="Mangel ArcNet"/>
+    <Text ID="403848" Value="Faltmaschine ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="101231" Value="Inmatare M2M"/>
+    <Text ID="101232" Value="Vikare M2M"/>
+    <Text ID="101233" Value="Staplare M2M"/>
+    <Text ID="101234" Value="Mangel M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Aktivera"/>
+    <Text ID="102197" Value="Spara"/>
+    <Text ID="102198" Value="Spara och boota om"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Från"/>
+    <Text ID="111458" Value="Till"/>
+    <Text ID="111965" Value="Räls M2M"/>
+    <Text ID="111966" Value="Separator M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="Bas 64 På"/>
+    <Text ID="166636" Value="Bas 64 Bort"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="Används ej"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value=""/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value=""/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Inmatare ArcNet"/>
+    <Text ID="403847" Value="Mangel ArcNet"/>
+    <Text ID="403848" Value="Vikare ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="101231" Value="Engageuse M2M"/>
+    <Text ID="101232" Value="Plieuse M2M"/>
+    <Text ID="101233" Value="Empileur M2M"/>
+    <Text ID="101234" Value="Sécheuse M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Connecte"/>
+    <Text ID="102197" Value="Svgarde"/>
+    <Text ID="102198" Value="Svgarde et reboot"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Non"/>
+    <Text ID="111458" Value="En marche"/>
+    <Text ID="111965" Value="Rail M2M"/>
+    <Text ID="111966" Value="Separateur M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="Base 64 ON"/>
+    <Text ID="166636" Value="Base 64 OFF"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="Pas utilise"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Engageuse ArcNet"/>
+    <Text ID="403847" Value="Sécheuse ArcNet"/>
+    <Text ID="403848" Value="Plieuse ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="101231" Value="Ilægger M2M"/>
+    <Text ID="101232" Value="Folder M2M"/>
+    <Text ID="101233" Value="Stakker M2M"/>
+    <Text ID="101234" Value="Rulle M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Aktiver"/>
+    <Text ID="102197" Value="Gem"/>
+    <Text ID="102198" Value="Gem og Genstart"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Fra"/>
+    <Text ID="111458" Value="Til"/>
+    <Text ID="111965" Value="Rail M2M"/>
+    <Text ID="111966" Value="Separator M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="Base 64 TIL"/>
+    <Text ID="166636" Value="Base 64 FRA"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="Ikke i brug"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Ilægger ArcNet"/>
+    <Text ID="403847" Value="Rulle ArcNet"/>
+    <Text ID="403848" Value="Folder ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="101231" Value="Introduttore M2M"/>
+    <Text ID="101232" Value="Piegatrice M2M"/>
+    <Text ID="101233" Value="Accatastatore M2M"/>
+    <Text ID="101234" Value="Mangano M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Abilita"/>
+    <Text ID="102197" Value="Salva"/>
+    <Text ID="102198" Value="Salva e riavvia"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Off"/>
+    <Text ID="111458" Value="On"/>
+    <Text ID="111965" Value="Binario M2M"/>
+    <Text ID="111966" Value="Separatore M2M"/>
+    <Text ID="166632" Value="Porta 81"/>
+    <Text ID="166634" Value="Porta 80"/>
+    <Text ID="166635" Value="Base 64 ON"/>
+    <Text ID="166636" Value="Base 64 OFF"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="Non in uso"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Introduttore ArcNet"/>
+    <Text ID="403847" Value="Mangano ArcNet"/>
+    <Text ID="403848" Value="Piegatrice ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="101231" Value="Syöttökone M2M"/>
+    <Text ID="101232" Value="Taittokone M2M"/>
+    <Text ID="101233" Value="Niputtaja M2M"/>
+    <Text ID="101234" Value="Mankeli M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Mahdollinen"/>
+    <Text ID="102197" Value="Tallenna"/>
+    <Text ID="102198" Value="Tallenna ja uudelleen käynnistä"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Pois"/>
+    <Text ID="111458" Value="Päällä"/>
+    <Text ID="111965" Value="rata M2M"/>
+    <Text ID="111966" Value="Erottelija M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="Base 64 ON"/>
+    <Text ID="166636" Value="Base 64 OFF"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="Ei käytössä"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Syöttökone ArcNet"/>
+    <Text ID="403847" Value="Mankeli ArcNet"/>
+    <Text ID="403848" Value="Taittokone ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="101231" Value="Insteekmachine M2M"/>
+    <Text ID="101232" Value="Vouwmachine M2M"/>
+    <Text ID="101233" Value="Stapelaar M2M"/>
+    <Text ID="101234" Value="Mangel M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Mogelijk maken"/>
+    <Text ID="102197" Value="Opslaan"/>
+    <Text ID="102198" Value="Opslaan en herstarten"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Uit"/>
+    <Text ID="111458" Value="Aan"/>
+    <Text ID="111965" Value="Rail M2M"/>
+    <Text ID="111966" Value="Separator M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="Base 64 ON"/>
+    <Text ID="166636" Value="Base 64 OFF"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="Niet in gebruik"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Insteekmachine ArcNet"/>
+    <Text ID="403847" Value="Mangel ArcNet"/>
+    <Text ID="403848" Value="Vouwmachine ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="101231" Value="Alimentador M2M"/>
+    <Text ID="101232" Value="Plegadora M2M"/>
+    <Text ID="101233" Value="Apilador M2M"/>
+    <Text ID="101234" Value="Ironer M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Habilitar"/>
+    <Text ID="102197" Value="Guardar"/>
+    <Text ID="102198" Value="Guardar y volver a arrancar"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Apagado/desconectado"/>
+    <Text ID="111458" Value="Conectado/Encendido"/>
+    <Text ID="111965" Value="Raíl M2M"/>
+    <Text ID="111966" Value="Separador M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="Base 64 ON"/>
+    <Text ID="166636" Value="Base 64 OFF"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="No en uso"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Alimentador ArcNet"/>
+    <Text ID="403847" Value="Ironer ArcNet"/>
+    <Text ID="403848" Value="Plegadora ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="101231" Value="Wprowadzarka M2M"/>
+    <Text ID="101232" Value="Składarka M2M"/>
+    <Text ID="101233" Value="Sztaplarka M2M"/>
+    <Text ID="101234" Value="Ironer M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Możliwy"/>
+    <Text ID="102197" Value="Zapisz"/>
+    <Text ID="102198" Value="Zapisz i zrestartuj"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Wył"/>
+    <Text ID="111458" Value="Włącz"/>
+    <Text ID="111965" Value="Szyna M2M"/>
+    <Text ID="111966" Value="Separator M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="Base 64 ON"/>
+    <Text ID="166636" Value="Base 64 OFF"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="Nie w użyciu"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Wprowadzarka ArcNet"/>
+    <Text ID="403847" Value="Ironer ArcNet"/>
+    <Text ID="403848" Value="Składarka ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="101231" Value="Фидер M2M"/>
+    <Text ID="101232" Value="Складыватель M2M"/>
+    <Text ID="101233" Value="Штабелёр M2M"/>
+    <Text ID="101234" Value="Каток M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Активировать"/>
+    <Text ID="102197" Value="Сохранить"/>
+    <Text ID="102198" Value="Сохранить и перезагрузить"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Выкл."/>
+    <Text ID="111458" Value="Вкл."/>
+    <Text ID="111965" Value="Рельс M2M"/>
+    <Text ID="111966" Value="Разделитель M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="База 64 ВКЛ"/>
+    <Text ID="166636" Value="База 64 ВЫКЛ"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="Не Используется"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Фидер ArcNet"/>
+    <Text ID="403847" Value="Каток ArcNet"/>
+    <Text ID="403848" Value="Складыватель ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="101231" Value="Feeder M2M"/>
+    <Text ID="101232" Value="Folder M2M"/>
+    <Text ID="101233" Value="Stacker M2M"/>
+    <Text ID="101234" Value="Ironer M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Enable:"/>
+    <Text ID="102197" Value="Save"/>
+    <Text ID="102198" Value="Save and Reboot"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Off"/>
+    <Text ID="111458" Value="On"/>
+    <Text ID="111965" Value="Rail M2M"/>
+    <Text ID="111966" Value="Separator M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="Base 64 ON"/>
+    <Text ID="166636" Value="Base 64 OFF"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3."/>
+    <Text ID="173621" Value="4."/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2."/>
+    <Text ID="203696" Value="Not in use"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Disabled"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initializing"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Feeder ArcNet"/>
+    <Text ID="403847" Value="Ironer ArcNet"/>
+    <Text ID="403848" Value="Folder ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="101231" Value=""/>
+    <Text ID="101232" Value=""/>
+    <Text ID="101233" Value=""/>
+    <Text ID="101234" Value=""/>
+    <Text ID="101235" Value=""/>
+    <Text ID="101236" Value=""/>
+    <Text ID="102197" Value=""/>
+    <Text ID="102198" Value=""/>
+    <Text ID="110663" Value=""/>
+    <Text ID="111457" Value=""/>
+    <Text ID="111458" Value=""/>
+    <Text ID="111965" Value=""/>
+    <Text ID="111966" Value=""/>
+    <Text ID="166632" Value=""/>
+    <Text ID="166634" Value=""/>
+    <Text ID="166635" Value=""/>
+    <Text ID="166636" Value=""/>
+    <Text ID="173617" Value=""/>
+    <Text ID="173620" Value=""/>
+    <Text ID="173621" Value=""/>
+    <Text ID="174677" Value=""/>
+    <Text ID="174678" Value=""/>
+    <Text ID="203696" Value=""/>
+    <Text ID="390576" Value=""/>
+    <Text ID="390577" Value=""/>
+    <Text ID="390580" Value=""/>
+    <Text ID="390581" Value=""/>
+    <Text ID="391164" Value=""/>
+    <Text ID="391846" Value=""/>
+    <Text ID="391847" Value=""/>
+    <Text ID="391848" Value=""/>
+    <Text ID="391849" Value=""/>
+    <Text ID="391858" Value=""/>
+    <Text ID="392494" Value=""/>
+    <Text ID="393110" Value=""/>
+    <Text ID="393111" Value=""/>
+    <Text ID="396590" Value=""/>
+    <Text ID="396591" Value=""/>
+    <Text ID="397621" Value=""/>
+    <Text ID="398658" Value=""/>
+    <Text ID="398659" Value=""/>
+    <Text ID="398660" Value=""/>
+    <Text ID="398661" Value=""/>
+    <Text ID="398662" Value=""/>
+    <Text ID="398663" Value=""/>
+    <Text ID="401344" Value=""/>
+    <Text ID="401345" Value=""/>
+    <Text ID="401346" Value=""/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value=""/>
+    <Text ID="402391" Value=""/>
+    <Text ID="403846" Value=""/>
+    <Text ID="403847" Value=""/>
+    <Text ID="403848" Value=""/>
+    <Text ID="513096" Value=""/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="101231" Value=""/>
+    <Text ID="101232" Value=""/>
+    <Text ID="101233" Value=""/>
+    <Text ID="101234" Value=""/>
+    <Text ID="101235" Value=""/>
+    <Text ID="101236" Value=""/>
+    <Text ID="102197" Value=""/>
+    <Text ID="102198" Value=""/>
+    <Text ID="110663" Value=""/>
+    <Text ID="111457" Value=""/>
+    <Text ID="111458" Value=""/>
+    <Text ID="111965" Value=""/>
+    <Text ID="111966" Value=""/>
+    <Text ID="166632" Value=""/>
+    <Text ID="166634" Value=""/>
+    <Text ID="166635" Value=""/>
+    <Text ID="166636" Value=""/>
+    <Text ID="173617" Value=""/>
+    <Text ID="173620" Value=""/>
+    <Text ID="173621" Value=""/>
+    <Text ID="174677" Value=""/>
+    <Text ID="174678" Value=""/>
+    <Text ID="203696" Value=""/>
+    <Text ID="390576" Value=""/>
+    <Text ID="390577" Value=""/>
+    <Text ID="390580" Value=""/>
+    <Text ID="390581" Value=""/>
+    <Text ID="391164" Value=""/>
+    <Text ID="391846" Value=""/>
+    <Text ID="391847" Value=""/>
+    <Text ID="391848" Value=""/>
+    <Text ID="391849" Value=""/>
+    <Text ID="391858" Value=""/>
+    <Text ID="392494" Value=""/>
+    <Text ID="393110" Value=""/>
+    <Text ID="393111" Value=""/>
+    <Text ID="396590" Value=""/>
+    <Text ID="396591" Value=""/>
+    <Text ID="397621" Value=""/>
+    <Text ID="398658" Value=""/>
+    <Text ID="398659" Value=""/>
+    <Text ID="398660" Value=""/>
+    <Text ID="398661" Value=""/>
+    <Text ID="398662" Value=""/>
+    <Text ID="398663" Value=""/>
+    <Text ID="401344" Value=""/>
+    <Text ID="401345" Value=""/>
+    <Text ID="401346" Value=""/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value=""/>
+    <Text ID="402391" Value=""/>
+    <Text ID="403846" Value=""/>
+    <Text ID="403847" Value=""/>
+    <Text ID="403848" Value=""/>
+    <Text ID="513096" Value=""/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="101231" Value=""/>
+    <Text ID="101232" Value=""/>
+    <Text ID="101233" Value=""/>
+    <Text ID="101234" Value=""/>
+    <Text ID="101235" Value=""/>
+    <Text ID="101236" Value=""/>
+    <Text ID="102197" Value=""/>
+    <Text ID="102198" Value=""/>
+    <Text ID="110663" Value=""/>
+    <Text ID="111457" Value=""/>
+    <Text ID="111458" Value=""/>
+    <Text ID="111965" Value=""/>
+    <Text ID="111966" Value=""/>
+    <Text ID="166632" Value=""/>
+    <Text ID="166634" Value=""/>
+    <Text ID="166635" Value=""/>
+    <Text ID="166636" Value=""/>
+    <Text ID="173617" Value=""/>
+    <Text ID="173620" Value=""/>
+    <Text ID="173621" Value=""/>
+    <Text ID="174677" Value=""/>
+    <Text ID="174678" Value=""/>
+    <Text ID="203696" Value=""/>
+    <Text ID="390576" Value=""/>
+    <Text ID="390577" Value=""/>
+    <Text ID="390580" Value=""/>
+    <Text ID="390581" Value=""/>
+    <Text ID="391164" Value=""/>
+    <Text ID="391846" Value=""/>
+    <Text ID="391847" Value=""/>
+    <Text ID="391848" Value=""/>
+    <Text ID="391849" Value=""/>
+    <Text ID="391858" Value=""/>
+    <Text ID="392494" Value=""/>
+    <Text ID="393110" Value=""/>
+    <Text ID="393111" Value=""/>
+    <Text ID="396590" Value=""/>
+    <Text ID="396591" Value=""/>
+    <Text ID="397621" Value=""/>
+    <Text ID="398658" Value=""/>
+    <Text ID="398659" Value=""/>
+    <Text ID="398660" Value=""/>
+    <Text ID="398661" Value=""/>
+    <Text ID="398662" Value=""/>
+    <Text ID="398663" Value=""/>
+    <Text ID="401344" Value=""/>
+    <Text ID="401345" Value=""/>
+    <Text ID="401346" Value=""/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value=""/>
+    <Text ID="402391" Value=""/>
+    <Text ID="403846" Value=""/>
+    <Text ID="403847" Value=""/>
+    <Text ID="403848" Value=""/>
+    <Text ID="513096" Value=""/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="101231" Value="Feeder M2M"/>
+    <Text ID="101232" Value="Folder M2M"/>
+    <Text ID="101233" Value="Stacker M2M"/>
+    <Text ID="101234" Value="Ironer M2M"/>
+    <Text ID="101235" Value="Address:"/>
+    <Text ID="101236" Value="Aktiver"/>
+    <Text ID="102197" Value="Lagre"/>
+    <Text ID="102198" Value="Lagre og start på nytt"/>
+    <Text ID="110663" Value="Jenscan M2M"/>
+    <Text ID="111457" Value="Av"/>
+    <Text ID="111458" Value="På"/>
+    <Text ID="111965" Value="Rail M2M"/>
+    <Text ID="111966" Value="Separator M2M"/>
+    <Text ID="166632" Value="Port 81"/>
+    <Text ID="166634" Value="Port 80"/>
+    <Text ID="166635" Value="Base 64 PÅ"/>
+    <Text ID="166636" Value="Base 64 AV"/>
+    <Text ID="173617" Value="Connection ID:"/>
+    <Text ID="173620" Value="3"/>
+    <Text ID="173621" Value="4"/>
+    <Text ID="174677" Value="Service ID:"/>
+    <Text ID="174678" Value="2"/>
+    <Text ID="203696" Value="Ikke i bruk"/>
+    <Text ID="390576" Value="Intercom Server"/>
+    <Text ID="390577" Value="Intercom Client"/>
+    <Text ID="390580" Value="Master"/>
+    <Text ID="390581" Value="Slave"/>
+    <Text ID="391164" Value="OnB64"/>
+    <Text ID="391846" Value="Server Timout"/>
+    <Text ID="391847" Value="Avslått"/>
+    <Text ID="391848" Value="Link Up"/>
+    <Text ID="391849" Value="Link Down"/>
+    <Text ID="391858" Value="Initialisering"/>
+    <Text ID="392494" Value="Client Timeout"/>
+    <Text ID="393110" Value="Metricon Server"/>
+    <Text ID="393111" Value="Metricon Client"/>
+    <Text ID="396590" Value="Remote Server"/>
+    <Text ID="396591" Value="Remote Client"/>
+    <Text ID="397621" Value="Cockpit"/>
+    <Text ID="398658" Value="Remote Panel 1"/>
+    <Text ID="398659" Value="Remote Panel 2"/>
+    <Text ID="398660" Value="Remote Panel 3"/>
+    <Text ID="398661" Value="Remote Panel 4"/>
+    <Text ID="398662" Value="Remote Panel 5"/>
+    <Text ID="398663" Value="Remote Panel 6"/>
+    <Text ID="401344" Value="InterProcess 1"/>
+    <Text ID="401345" Value="InterProcess 2"/>
+    <Text ID="401346" Value="InterProcess 3"/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value="Connecting Remote Panel {remoteNo} To Master Panel"/>
+    <Text ID="402391" Value="Updating Remote Panel {remoteNo}"/>
+    <Text ID="403846" Value="Feeder ArcNet"/>
+    <Text ID="403847" Value="Ironer ArcNet"/>
+    <Text ID="403848" Value="Folder ArcNet"/>
+    <Text ID="513096" Value="MLabel printing"/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="101231" Value=""/>
+    <Text ID="101232" Value=""/>
+    <Text ID="101233" Value=""/>
+    <Text ID="101234" Value=""/>
+    <Text ID="101235" Value=""/>
+    <Text ID="101236" Value=""/>
+    <Text ID="102197" Value=""/>
+    <Text ID="102198" Value=""/>
+    <Text ID="110663" Value=""/>
+    <Text ID="111457" Value=""/>
+    <Text ID="111458" Value=""/>
+    <Text ID="111965" Value=""/>
+    <Text ID="111966" Value=""/>
+    <Text ID="166632" Value=""/>
+    <Text ID="166634" Value=""/>
+    <Text ID="166635" Value=""/>
+    <Text ID="166636" Value=""/>
+    <Text ID="173617" Value=""/>
+    <Text ID="173620" Value=""/>
+    <Text ID="173621" Value=""/>
+    <Text ID="174677" Value=""/>
+    <Text ID="174678" Value=""/>
+    <Text ID="203696" Value=""/>
+    <Text ID="390576" Value=""/>
+    <Text ID="390577" Value=""/>
+    <Text ID="390580" Value=""/>
+    <Text ID="390581" Value=""/>
+    <Text ID="391164" Value=""/>
+    <Text ID="391846" Value=""/>
+    <Text ID="391847" Value=""/>
+    <Text ID="391848" Value=""/>
+    <Text ID="391849" Value=""/>
+    <Text ID="391858" Value=""/>
+    <Text ID="392494" Value=""/>
+    <Text ID="393110" Value=""/>
+    <Text ID="393111" Value=""/>
+    <Text ID="396590" Value=""/>
+    <Text ID="396591" Value=""/>
+    <Text ID="397621" Value=""/>
+    <Text ID="398658" Value=""/>
+    <Text ID="398659" Value=""/>
+    <Text ID="398660" Value=""/>
+    <Text ID="398661" Value=""/>
+    <Text ID="398662" Value=""/>
+    <Text ID="398663" Value=""/>
+    <Text ID="401344" Value=""/>
+    <Text ID="401345" Value=""/>
+    <Text ID="401346" Value=""/>
+    <Text ID="401347" Value=""/>
+    <Text ID="401348" Value=""/>
+    <Text ID="402391" Value=""/>
+    <Text ID="403846" Value=""/>
+    <Text ID="403847" Value=""/>
+    <Text ID="403848" Value=""/>
+    <Text ID="513096" Value=""/>
+    <Text ID="625301" Value="Jenway"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="101231" Value="103"/>
+    <Index ID="101232" Value="105"/>
+    <Index ID="101233" Value="106"/>
+    <Index ID="101234" Value="104"/>
+    <Index ID="101235" Value="1"/>
+    <Index ID="101236" Value="2"/>
+    <Index ID="102197" Value="4"/>
+    <Index ID="102198" Value="5"/>
+    <Index ID="110663" Value="107"/>
+    <Index ID="111457" Value="6"/>
+    <Index ID="111458" Value="7"/>
+    <Index ID="111965" Value="102"/>
+    <Index ID="111966" Value="101"/>
+    <Index ID="166632" Value="17"/>
+    <Index ID="166634" Value="18"/>
+    <Index ID="166635" Value="19"/>
+    <Index ID="166636" Value="20"/>
+    <Index ID="173617" Value="22"/>
+    <Index ID="173620" Value="25"/>
+    <Index ID="173621" Value="26"/>
+    <Index ID="174677" Value="23"/>
+    <Index ID="174678" Value="24"/>
+    <Index ID="203696" Value="100"/>
+    <Index ID="390576" Value="111"/>
+    <Index ID="390577" Value="112"/>
+    <Index ID="390580" Value="113"/>
+    <Index ID="390581" Value="114"/>
+    <Index ID="391164" Value="8"/>
+    <Index ID="391846" Value="54"/>
+    <Index ID="391847" Value="50"/>
+    <Index ID="391848" Value="53"/>
+    <Index ID="391849" Value="52"/>
+    <Index ID="391858" Value="51"/>
+    <Index ID="392494" Value="55"/>
+    <Index ID="393110" Value="115"/>
+    <Index ID="393111" Value="116"/>
+    <Index ID="396590" Value="117"/>
+    <Index ID="396591" Value="118"/>
+    <Index ID="397621" Value="119"/>
+    <Index ID="398658" Value="120"/>
+    <Index ID="398659" Value="121"/>
+    <Index ID="398660" Value="122"/>
+    <Index ID="398661" Value="123"/>
+    <Index ID="398662" Value="124"/>
+    <Index ID="398663" Value="125"/>
+    <Index ID="401344" Value="126"/>
+    <Index ID="401345" Value="127"/>
+    <Index ID="401346" Value="128"/>
+    <Index ID="401347" Value="129"/>
+    <Index ID="401348" Value="130"/>
+    <Index ID="402391" Value="131"/>
+    <Index ID="403846" Value="133"/>
+    <Index ID="403847" Value="134"/>
+    <Index ID="403848" Value="135"/>
+    <Index ID="513096" Value="140"/>
+    <Index ID="625301" Value="141"/>
+  </IndexMap>
+</TextGroup>

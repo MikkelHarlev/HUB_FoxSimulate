@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html dir="ltr">
+<head>
+  <meta name="generator" content="Microsoft FrontPage 5.0">
+  <meta order="1">
+  <title>LogInit.html</title>
+  <link rel="StyleSheet" href="../styles.css">
+<!--NavHead-->
+  <link rel="stylesheet" type="text/css" href="../navigate.css">
+<!--/NavHead-->
+</head>
+<body>
+<h1> LogLib - LogInit()</h1>
+<p>LogInit() initializes the
+library.</p>
+<p>LogInit() has to be called in
+the Init part of a task. Otherwise you
+will get a cycletime violation.<br>
+The following actions are done:<br>
+&nbsp;&nbsp;&nbsp; - Check if the csv file already exists,
+if not it
+will be created <br>
+&nbsp;&nbsp;&nbsp; - If the csv file is not correct, it
+will be deleted
+and created again<br>
+&nbsp;&nbsp;&nbsp; - Read last log number and row number
+referring to
+the last entry</p>
+<p>A device must be initialized
+using the configuration dialog box "CPU
+Properties\File devices"</p>
+<p></p>
+<p class="important"><span style="font-weight: bold;">Important:</span><br>
+The datatype of the Write-Structure must be the same than the datatype
+of the Read Structure.<br>
+More than 1 write variable are allowed (so you can use for every Task
+an own variable), but every<br>
+variable must have the same datatype!</p>
+<p></p>
+<h2> Parameters:</h2>
+<center>
+<div style="text-align: left;"></div>
+<table class="parameter_tab" border="1">
+  <tbody>
+    <tr>
+      <th class="parameter_tab">
+      <p style="text-align: left;"><b>I/O</b></p>
+      </th>
+      <th class="parameter_tab">
+      <p> <b>Parameter</b></p>
+      </th>
+      <th class="parameter_tab">
+      <p> <b>Data
+Type</b></p>
+      </th>
+      <th class="parameter_tab">
+      <p> <b>Description</b></p>
+      </th>
+    </tr>
+    <tr>
+      <td class="parameter_tab">IN</td>
+      <td class="parameter_tab">enable</td>
+      <td class="parameter_tab">BOOL</td>
+      <td class="parameter_tab">Enables
+function block (<a href="FBKs.htm">FBK</a>) </td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">IN</td>
+      <td class="parameter_tab">EntrysLogfile</td>
+      <td class="parameter_tab">UINT</td>
+      <td class="parameter_tab">max.
+Logentrys in the file</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">IN</td>
+      <td class="parameter_tab">sizeLogbuffer</td>
+      <td class="parameter_tab">UDINT</td>
+      <td class="parameter_tab">size
+of the Logbuffer</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">IN</td>
+      <td class="parameter_tab">pNameDevice</td>
+      <td class="parameter_tab">STRING
+(given as a pointer)</td>
+      <td class="parameter_tab">Name
+of the File device</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">IN</td>
+      <td class="parameter_tab">pNameFile</td>
+      <td class="parameter_tab">STRING (given as a pointer)</td>
+      <td class="parameter_tab">Name of the File<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">IN</td>
+      <td class="parameter_tab">AdrLogbuffer</td>
+      <td class="parameter_tab">UDINT </td>
+      <td class="parameter_tab">Startaddress
+of the Logbuffer<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">IN</td>
+      <td class="parameter_tab">pNameWriteData</td>
+      <td class="parameter_tab">STRING
+(given as a pointer)</td>
+      <td class="parameter_tab">Name
+of the Variable<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">OUT</td>
+      <td class="parameter_tab">ident</td>
+      <td class="parameter_tab">UDINT </td>
+      <td class="parameter_tab">Ident
+- used internal</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">OUT</td>
+      <td class="parameter_tab">AdrNameArray</td>
+      <td class="parameter_tab">UDINT</td>
+      <td class="parameter_tab">Address
+of the name array of the
+structure</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">OUT</td>
+      <td class="parameter_tab">CountVariables</td>
+      <td class="parameter_tab">UDINT </td>
+      <td class="parameter_tab">Number
+of Variables in the structure</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">OUT</td>
+      <td class="parameter_tab">ErrorStringInfo</td>
+      <td class="parameter_tab">STRING(32)</td>
+      <td class="parameter_tab">ErrorString</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">OUT</td>
+      <td class="parameter_tab">ErrorStringDetail</td>
+      <td class="parameter_tab">STRING(32)</td>
+      <td class="parameter_tab">ErrorString</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">OUT</td>
+      <td class="parameter_tab">status</td>
+      <td class="parameter_tab">UINT</td>
+      <td class="parameter_tab"><a
+ href="../General/Status%20Numbers.html">Status Number</a>
+(0 -&gt; FUB
+finished succesfull)<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</center>
+<h2> Call Syntax (Automation
+Basic):</h2>
+<p class="pSourceCode">LogInit(enable,
+EntrysLogfile, <font color="#0000ff">sizeof</font>(LogBuffer),
+<font color="#0000ff">adr</font>(DeviceName),
+<font color="#0000ff">adr</font>(FileName),
+<font color="#0000ff">adr</font>(Logbuffer),
+<font color="#0000ff">adr</font>(NameWriteData),
+ident, AdrNameArray,
+CountVariables, ErrorStringInfo, ErrorStringDetail, status)<br>
+&nbsp;</p>
+<h2>Examples:</h2>
+<p><a href="../Samples/AB/ex_ab_CalcChecksum.html">
+Automation Basic</a></p>
+<!--NavBottom-->
+<div class="DoNotPrintNavItems" id="NavBottom_8"> <br>
+<table class="Nav" cellpadding="0" cellspacing="2" width="100%">
+  <tbody>
+    <tr class="Nav">
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      <p class="Nav">&lt;&lt; Previous Topic<br>
+      <a class="Nav" href="FBKs.html">Functions
+and Function Blocks</a> </p>
+      </td>
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      <p class="NavCenter">&nbsp; <a class="Nav" href="../LogLib.html">Start&nbsp;Page</a>
+&nbsp; </p>
+      </td>
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      <p class="NavRight">Next Topic &gt;&gt;<br>
+      <a class="Nav" href="LogRead.html">LogRead</a> </p>
+      </td>
+    </tr>
+    <tr class="Nav">
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      <p class="NavCenter">&nbsp; <a class="Nav" href="FBKs.html">Start&nbsp;of&nbsp;Chapter</a>
+&nbsp; </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!--/NavBottom-->
+</body>
+</html>

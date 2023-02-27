@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ProcessManagerErrorText">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="9"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="147730" Value="Shutting down"/>
+    <Text ID="147731" Value="Door open"/>
+    <Text ID="147732" Value="Stopped"/>
+    <Text ID="273804" Value="Master machine not running"/>
+    <Text ID="273819" Value="Emergency Stop or Fuse Fault"/>
+    <Text ID="273820" Value="Protective Motor Switch          "/>
+    <Text ID="273823" Value="Machine in Operation               "/>
+    <Text ID="274343" Value="No air pressure"/>
+    <Text ID="292789" Value="ServiceMode in process."/>
+    <Text ID="364254" Value="Jenway blocked"/>
+    <Text ID="371970" Value="Machine ready to start           "/>
+    <Text ID="423080" Value="Empty hanger blocked"/>
+    <Text ID="478158" Value="Machine reset"/>
+    <Text ID="488152" Value="Customer-Change in progress"/>
+    <Text ID="488153" Value="Customer-Change done"/>
+    <Text ID="489835" Value="Jenway 1 blocked"/>
+    <Text ID="489836" Value="Jenway 2 blocked"/>
+    <Text ID="500980" Value="Fuse Fault"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Inverter Error"/>
+    <Text ID="505487" Value="Inverter Thermofault"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="147730" Value="Runterfahren"/>
+    <Text ID="147731" Value="Tuer offen"/>
+    <Text ID="147732" Value="Gestoppt"/>
+    <Text ID="273804" Value="Master Maschine arbeitet nicht"/>
+    <Text ID="273819" Value="Not-Aus stop oder Sicherungs fehler"/>
+    <Text ID="273820" Value="Motorschutz         "/>
+    <Text ID="273823" Value="Maschine in Betrieb"/>
+    <Text ID="274343" Value="kein Luftdruck"/>
+    <Text ID="292789" Value="Service Mode in in Arbeit."/>
+    <Text ID="364254" Value="Jenway blockiert"/>
+    <Text ID="371970" Value="Maschine startbereit"/>
+    <Text ID="423080" Value="Leerbuegel blockiert"/>
+    <Text ID="478158" Value="Maschine zurueck setzen"/>
+    <Text ID="488152" Value="Kundenwechsel in Arbeit"/>
+    <Text ID="488153" Value="Kunde gewechselt"/>
+    <Text ID="489835" Value="Jenway 1 blockiert"/>
+    <Text ID="489836" Value="Jenway 2 blockiert"/>
+    <Text ID="500980" Value="Sicherungs fehler"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="FU Fehler"/>
+    <Text ID="505487" Value="Umrichter Temparatur fehler"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="147730" Value="Stänger ner"/>
+    <Text ID="147731" Value="Skyddsdörr öppen"/>
+    <Text ID="147732" Value="Stoppad"/>
+    <Text ID="273804" Value="Mastermaskin ej i drift"/>
+    <Text ID="273819" Value="Nödstopp eller skyddslucka öppen                 "/>
+    <Text ID="273820" Value="Motorskyddsbrytare               "/>
+    <Text ID="273823" Value="Maskin i drift                  "/>
+    <Text ID="274343" Value="Inget lufttryck"/>
+    <Text ID="292789" Value="Serviceläge pågår."/>
+    <Text ID="364254" Value="Jenway blockerad"/>
+    <Text ID="371970" Value="Maskin driftklar              "/>
+    <Text ID="423080" Value="Tomgalge blockerat"/>
+    <Text ID="478158" Value="Maskin reset"/>
+    <Text ID="488152" Value="Kundbyte pågår"/>
+    <Text ID="488153" Value="Kundbyte utfört"/>
+    <Text ID="489835" Value="Jenway 1 blockerad"/>
+    <Text ID="489836" Value="Jenway 2 blockerad"/>
+    <Text ID="500980" Value="Fuse Fault"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Inverter Error"/>
+    <Text ID="505487" Value="Inverter Thermofault"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="147730" Value="En cours d'arrêt"/>
+    <Text ID="147731" Value="Porte ouverte"/>
+    <Text ID="147732" Value="Arrêté"/>
+    <Text ID="273804" Value="Machine maître arrêtée. "/>
+    <Text ID="273819" Value="Arrêt d'urgence ou défaut fusible"/>
+    <Text ID="273820" Value="Disjoncteur-protecteur moteur          "/>
+    <Text ID="273823" Value="Machine en service"/>
+    <Text ID="274343" Value="Pas de pression d'air"/>
+    <Text ID="292789" Value="Mode Service en cours"/>
+    <Text ID="364254" Value="Jenway bloqué"/>
+    <Text ID="371970" Value="Machine prête pour marche      "/>
+    <Text ID="423080" Value="Cintre vide bloqué"/>
+    <Text ID="478158" Value="Réinitialisation machine"/>
+    <Text ID="488152" Value="Modification client en cours"/>
+    <Text ID="488153" Value="Modification client effectuée"/>
+    <Text ID="489835" Value="Jenway 1 bloqué"/>
+    <Text ID="489836" Value="Jenway 2 bloqué"/>
+    <Text ID="500980" Value="Défaut fusible"/>
+    <Text ID="500983" Value="Défaut fusible 24V"/>
+    <Text ID="505486" Value="Défaut variateur"/>
+    <Text ID="505487" Value="Variateur défaut thermique"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="147730" Value="Soft stop"/>
+    <Text ID="147731" Value="Dør åben"/>
+    <Text ID="147732" Value="Stoppet"/>
+    <Text ID="273804" Value="Mastermaskine ikke startet eller kører ikke"/>
+    <Text ID="273819" Value="Nødstop eller sikkerhedsskærm åben"/>
+    <Text ID="273820" Value="Motorværn frakoblet"/>
+    <Text ID="273823" Value="Maskine i drift              "/>
+    <Text ID="274343" Value="Luft Mangler"/>
+    <Text ID="292789" Value="Prosseserer Servicemode"/>
+    <Text ID="364254" Value="Jenway blokkeret"/>
+    <Text ID="371970" Value="Maskin drifstklar             "/>
+    <Text ID="423080" Value="Tombøjle blokkeret"/>
+    <Text ID="478158" Value="Machine reset"/>
+    <Text ID="488152" Value="Customer-Change in progress"/>
+    <Text ID="488153" Value="Customer-Change done"/>
+    <Text ID="489835" Value="Jenway 1 blokkeret"/>
+    <Text ID="489836" Value="Jenway 2 blokkeret"/>
+    <Text ID="500980" Value="Fuse Fault"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Inverter Error"/>
+    <Text ID="505487" Value="Inverter Thermofault"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="147730" Value="Stop dolce"/>
+    <Text ID="147731" Value="Porta Aperta"/>
+    <Text ID="147732" Value="Fermata"/>
+    <Text ID="273804" Value="Macchina Master non in funzione"/>
+    <Text ID="273819" Value="Arresto di emergenza o copertura sicurezza aperta"/>
+    <Text ID="273820" Value="Interruttore protezione motore   "/>
+    <Text ID="273823" Value="Macchina in funzione               "/>
+    <Text ID="274343" Value="No pressione Aria"/>
+    <Text ID="292789" Value="Modalità di Manutenzione in processo"/>
+    <Text ID="364254" Value="Jenway bloccato"/>
+    <Text ID="371970" Value="Macchina pronta              "/>
+    <Text ID="423080" Value="Grucce Vuote Bloccate"/>
+    <Text ID="478158" Value="Machine reset"/>
+    <Text ID="488152" Value="Customer-Change in progress"/>
+    <Text ID="488153" Value="Customer-Change done"/>
+    <Text ID="489835" Value="Jenway 1 bloccato"/>
+    <Text ID="489836" Value="Jenway 2 bloccato"/>
+    <Text ID="500980" Value="Fuse Fault"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Inverter Error"/>
+    <Text ID="505487" Value="Inverter Thermofault"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="147730" Value="Shutting down"/>
+    <Text ID="147731" Value="Door open"/>
+    <Text ID="147732" Value="Stopped"/>
+    <Text ID="273804" Value="Master machine not running"/>
+    <Text ID="273819" Value="Emergency Stop or Security-Cover open            "/>
+    <Text ID="273820" Value="Protective Motor Switch          "/>
+    <Text ID="273823" Value="Machine in Operation               "/>
+    <Text ID="274343" Value="No air pressure"/>
+    <Text ID="292789" Value="ServiceMode in process."/>
+    <Text ID="364254" Value="Jenway blocked"/>
+    <Text ID="371970" Value="Machine ready to start           "/>
+    <Text ID="423080" Value="Empty hanger blocked"/>
+    <Text ID="478158" Value="Machine reset"/>
+    <Text ID="488152" Value="Customer-Change in progress"/>
+    <Text ID="488153" Value="Customer-Change done"/>
+    <Text ID="489835" Value="Jenway 1 blocked"/>
+    <Text ID="489836" Value="Jenway 2 blocked"/>
+    <Text ID="500980" Value="Fuse Fault"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Inverter Error"/>
+    <Text ID="505487" Value="Inverter Thermofault"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="147730" Value="Afsluiten"/>
+    <Text ID="147731" Value="Deur open"/>
+    <Text ID="147732" Value="Gestopt"/>
+    <Text ID="273804" Value="Mastermachine werkt niet. "/>
+    <Text ID="273819" Value="Noodstop of zekeringfout"/>
+    <Text ID="273820" Value="Motorbeveiligingsschakelaar      "/>
+    <Text ID="273823" Value="Machine in bedrijf"/>
+    <Text ID="274343" Value="Geen luchtdruk"/>
+    <Text ID="292789" Value="ServiceMode in werking."/>
+    <Text ID="364254" Value="Jenway geblokkeerd"/>
+    <Text ID="371970" Value="Machine startklaar"/>
+    <Text ID="423080" Value="Lege hanger geblokkeerd"/>
+    <Text ID="478158" Value="Machinereset"/>
+    <Text ID="488152" Value="Klantwissel in uitvoering"/>
+    <Text ID="488153" Value="Klantwissel voltooid"/>
+    <Text ID="489835" Value="Jenway 1 geblokkeerd"/>
+    <Text ID="489836" Value="Jenway 2 geblokkeerd"/>
+    <Text ID="500980" Value="Zekeringfout"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Frequentieregelaar Fout"/>
+    <Text ID="505487" Value="Thermische fout frequentieregelaar"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="147730" Value="Apagando"/>
+    <Text ID="147731" Value="Puerta abierta"/>
+    <Text ID="147732" Value="Parado"/>
+    <Text ID="273804" Value="Máquina principal sin funcionamiento"/>
+    <Text ID="273819" Value="Parada de emergencia o error en fusible"/>
+    <Text ID="273820" Value="Guardamotor"/>
+    <Text ID="273823" Value="Máquina en funcionamiento"/>
+    <Text ID="274343" Value="Sin presión de aire"/>
+    <Text ID="292789" Value="En modo servicio"/>
+    <Text ID="364254" Value="Jenway bloqueado"/>
+    <Text ID="371970" Value="Máquina lista para el arranque"/>
+    <Text ID="423080" Value="Salida de perchas vacías bloqueado"/>
+    <Text ID="478158" Value="Reseteo de máquina"/>
+    <Text ID="488152" Value="Cambio de cliente en progreso"/>
+    <Text ID="488153" Value="Cambio de cliente realizado"/>
+    <Text ID="489835" Value="Jenway 1 bloqueado"/>
+    <Text ID="489836" Value="Jenway 2 bloqueado"/>
+    <Text ID="500980" Value="Error en fusible"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Error en inversor"/>
+    <Text ID="505487" Value="Fallo térmico en inversor"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="147730" Value="Wyłączanie"/>
+    <Text ID="147731" Value="Otwarte drzwi"/>
+    <Text ID="147732" Value="Zatrzymana"/>
+    <Text ID="273804" Value="Maszyna główna nie pracuje"/>
+    <Text ID="273819" Value="Zatrzymanie awaryjne lub błąd bezpiecznika"/>
+    <Text ID="273820" Value="Wyłącznik zabezpieczający silnik          "/>
+    <Text ID="273823" Value="Maszyna pracuje"/>
+    <Text ID="274343" Value="Brak ciśnienia powietrza"/>
+    <Text ID="292789" Value="Tryb serwisowy w procesie."/>
+    <Text ID="364254" Value="Jenway zablokowany"/>
+    <Text ID="371970" Value="Maszyna jest gotowa do uruchomienia           "/>
+    <Text ID="423080" Value="Blokada z powodu pustych wieszaków"/>
+    <Text ID="478158" Value="Reset maszyny"/>
+    <Text ID="488152" Value="Trwa zmiana klienta"/>
+    <Text ID="488153" Value="Zmiana klienta zakończona"/>
+    <Text ID="489835" Value="Jenway 1 zablokowany"/>
+    <Text ID="489836" Value="Jenway 2 zablokowany"/>
+    <Text ID="500980" Value="Błąd bezpiecznika"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Błąd przemiennika"/>
+    <Text ID="505487" Value="Błąd termiczny przemiennika"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="147730" Value=""/>
+    <Text ID="147731" Value=""/>
+    <Text ID="147732" Value=""/>
+    <Text ID="273804" Value=""/>
+    <Text ID="273819" Value=""/>
+    <Text ID="273820" Value=""/>
+    <Text ID="273823" Value=""/>
+    <Text ID="274343" Value=""/>
+    <Text ID="292789" Value=""/>
+    <Text ID="364254" Value=""/>
+    <Text ID="371970" Value=""/>
+    <Text ID="423080" Value=""/>
+    <Text ID="478158" Value=""/>
+    <Text ID="488152" Value=""/>
+    <Text ID="488153" Value=""/>
+    <Text ID="489835" Value=""/>
+    <Text ID="489836" Value=""/>
+    <Text ID="500980" Value=""/>
+    <Text ID="500983" Value=""/>
+    <Text ID="505486" Value=""/>
+    <Text ID="505487" Value=""/>
+    <Text ID="518488" Value=""/>
+    <Text ID="531421" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="147730" Value=""/>
+    <Text ID="147731" Value=""/>
+    <Text ID="147732" Value=""/>
+    <Text ID="273804" Value=""/>
+    <Text ID="273819" Value=""/>
+    <Text ID="273820" Value=""/>
+    <Text ID="273823" Value=""/>
+    <Text ID="274343" Value=""/>
+    <Text ID="292789" Value=""/>
+    <Text ID="364254" Value=""/>
+    <Text ID="371970" Value=""/>
+    <Text ID="423080" Value=""/>
+    <Text ID="478158" Value=""/>
+    <Text ID="488152" Value=""/>
+    <Text ID="488153" Value=""/>
+    <Text ID="489835" Value=""/>
+    <Text ID="489836" Value=""/>
+    <Text ID="500980" Value=""/>
+    <Text ID="500983" Value=""/>
+    <Text ID="505486" Value=""/>
+    <Text ID="505487" Value=""/>
+    <Text ID="518488" Value=""/>
+    <Text ID="531421" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="147730" Value="Wyłączanie"/>
+    <Text ID="147731" Value="Otwarte drzwi"/>
+    <Text ID="147732" Value="Zatrzymana"/>
+    <Text ID="273804" Value="Maszyna główna nie pracuje"/>
+    <Text ID="273819" Value="Zatrzymanie awaryjne lub błąd bezpiecznika"/>
+    <Text ID="273820" Value="Wyłącznik zabezpieczający silnik          "/>
+    <Text ID="273823" Value="Maszyna pracuje"/>
+    <Text ID="274343" Value="Brak ciśnienia powietrza"/>
+    <Text ID="292789" Value="Tryb serwisowy w procesie."/>
+    <Text ID="364254" Value="Jenway zablokowany"/>
+    <Text ID="371970" Value="Maszyna jest gotowa do uruchomienia           "/>
+    <Text ID="423080" Value="Blokada z powodu pustych wieszaków"/>
+    <Text ID="478158" Value="Reset maszyny"/>
+    <Text ID="488152" Value="Trwa zmiana klienta"/>
+    <Text ID="488153" Value="Zmiana klienta zakończona"/>
+    <Text ID="489835" Value="Jenway 1 zablokowany"/>
+    <Text ID="489836" Value="Jenway 2 zablokowany"/>
+    <Text ID="500980" Value="Błąd bezpiecznika"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Błąd przemiennika"/>
+    <Text ID="505487" Value="Błąd termiczny przemiennika"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="147730" Value="Shutting down"/>
+    <Text ID="147731" Value="Door open"/>
+    <Text ID="147732" Value="Stopped"/>
+    <Text ID="273804" Value="Master machine not running"/>
+    <Text ID="273819" Value="Emergency Stop or Fuse Fault"/>
+    <Text ID="273820" Value="Protective Motor Switch          "/>
+    <Text ID="273823" Value="Machine in Operation               "/>
+    <Text ID="274343" Value="No air pressure"/>
+    <Text ID="292789" Value="ServiceMode in process."/>
+    <Text ID="364254" Value="Jenway blockiert"/>
+    <Text ID="371970" Value="Machine ready to start           "/>
+    <Text ID="423080" Value="Empty hanger blocked"/>
+    <Text ID="478158" Value="Machine reset"/>
+    <Text ID="488152" Value="Customer-Change in progress"/>
+    <Text ID="488153" Value="Customer-Change done"/>
+    <Text ID="489835" Value="Jenway 1 blockiert"/>
+    <Text ID="489836" Value="Jenway 2 blockiert"/>
+    <Text ID="500980" Value="Fuse Fault"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Inverter Error"/>
+    <Text ID="505487" Value="Inverter Thermofault"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="147730" Value="Shutting down"/>
+    <Text ID="147731" Value="Door open"/>
+    <Text ID="147732" Value="Stopped"/>
+    <Text ID="273804" Value="Master machine not running"/>
+    <Text ID="273819" Value="Emergency Stop or Security-Cover open            "/>
+    <Text ID="273820" Value="Protective Motor Switch          "/>
+    <Text ID="273823" Value="Machine in Operation               "/>
+    <Text ID="274343" Value="No air pressure"/>
+    <Text ID="292789" Value="ServiceMode in process."/>
+    <Text ID="364254" Value="Jenway blocked"/>
+    <Text ID="371970" Value="Machine ready to start           "/>
+    <Text ID="423080" Value="Empty hanger blocked"/>
+    <Text ID="478158" Value="Machine reset"/>
+    <Text ID="488152" Value="Customer-Change in progress"/>
+    <Text ID="488153" Value="Customer-Change done"/>
+    <Text ID="489835" Value="Jenway 1 blocked"/>
+    <Text ID="489836" Value="Jenway 2 blocked"/>
+    <Text ID="500980" Value="Fuse Fault"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Inverter Error"/>
+    <Text ID="505487" Value="Inverter Thermofault"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="147730" Value="Shutting down"/>
+    <Text ID="147731" Value="Dør Åpen"/>
+    <Text ID="147732" Value="Stoppet"/>
+    <Text ID="273804" Value="Master maskin ikke startet eller kjører ikke"/>
+    <Text ID="273819" Value="Nödstopp eller sikkerhetsdeksel åpent            "/>
+    <Text ID="273820" Value="Motorvernbryter                  "/>
+    <Text ID="273823" Value="Maskin i drift                  "/>
+    <Text ID="274343" Value="Luft Mangler"/>
+    <Text ID="292789" Value="Prosseserer Servicemode"/>
+    <Text ID="364254" Value="Jenway Blokkert"/>
+    <Text ID="371970" Value="Maskin drifstklar             "/>
+    <Text ID="423080" Value="Tom Henger blokkert"/>
+    <Text ID="478158" Value="Machine reset"/>
+    <Text ID="488152" Value="Customer-Change in progress"/>
+    <Text ID="488153" Value="Customer-Change done"/>
+    <Text ID="489835" Value="Jenway 1 Blokkert"/>
+    <Text ID="489836" Value="Jenway 2 Blokkert"/>
+    <Text ID="500980" Value="Fuse Fault"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Inverter Error"/>
+    <Text ID="505487" Value="Inverter Thermofault"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="147730" Value="A desligar"/>
+    <Text ID="147731" Value="Porta aberta"/>
+    <Text ID="147732" Value="Parado"/>
+    <Text ID="273804" Value="Máquina principal parada. "/>
+    <Text ID="273819" Value="Paragem de emergência ou falha de fusível"/>
+    <Text ID="273820" Value="Interruptor protetor do motor          "/>
+    <Text ID="273823" Value="Machine in Operation               "/>
+    <Text ID="274343" Value="Nenhuma pressão de ar"/>
+    <Text ID="292789" Value="Modo de assistência em curso."/>
+    <Text ID="364254" Value="Jenway blocked"/>
+    <Text ID="371970" Value="Machine ready to start           "/>
+    <Text ID="423080" Value="Cabide vazio bloqueado"/>
+    <Text ID="478158" Value="Reinicialização da máquina"/>
+    <Text ID="488152" Value="Mudança de cliente em curso"/>
+    <Text ID="488153" Value="Mudança de cliente efetuada"/>
+    <Text ID="489835" Value="Jenway 1 bloqueada"/>
+    <Text ID="489836" Value="Jenway 2 bloqueada"/>
+    <Text ID="500980" Value="Falha de fusível"/>
+    <Text ID="500983" Value="Fuse Fault 24V Supply"/>
+    <Text ID="505486" Value="Inverter Error"/>
+    <Text ID="505487" Value="Falha térmica no inversor"/>
+    <Text ID="518488" Value="Fuse Fault at Cross Conveyor"/>
+    <Text ID="531421" Value="Duo Inlet Only"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="147730" Value="12"/>
+    <Index ID="147731" Value="10"/>
+    <Index ID="147732" Value="99"/>
+    <Index ID="273804" Value="7"/>
+    <Index ID="273819" Value="1"/>
+    <Index ID="273820" Value="2"/>
+    <Index ID="273823" Value="5"/>
+    <Index ID="274343" Value="9"/>
+    <Index ID="292789" Value="11"/>
+    <Index ID="364254" Value="20"/>
+    <Index ID="371970" Value="0"/>
+    <Index ID="423080" Value="21"/>
+    <Index ID="478158" Value="100"/>
+    <Index ID="488152" Value="101"/>
+    <Index ID="488153" Value="102"/>
+    <Index ID="489835" Value="3"/>
+    <Index ID="489836" Value="4"/>
+    <Index ID="500980" Value="6"/>
+    <Index ID="500983" Value="8"/>
+    <Index ID="505486" Value="14"/>
+    <Index ID="505487" Value="13"/>
+    <Index ID="518488" Value="15"/>
+    <Index ID="531421" Value="30"/>
+  </IndexMap>
+</TextGroup>

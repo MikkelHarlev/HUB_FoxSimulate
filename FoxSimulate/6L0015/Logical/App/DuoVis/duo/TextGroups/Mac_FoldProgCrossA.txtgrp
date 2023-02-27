@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_FoldProgCrossA">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="45"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="inch"/>
+    <Text ID="258879" Value="msec"/>
+    <Text ID="258918" Value="Folding"/>
+    <Text ID="258919" Value="Gap rollers"/>
+    <Text ID="258920" Value="Blowtime"/>
+    <Text ID="258922" Value="Start belt delay   "/>
+    <Text ID="258924" Value="Knife ontime"/>
+    <Text ID="258932" Value="Air-Pipe "/>
+    <Text ID="258933" Value="Knife   "/>
+    <Text ID="258934" Value="Air&amp;Knife"/>
+    <Text ID="258935" Value="No function"/>
+    <Text ID="258936" Value="Close &gt; Close"/>
+    <Text ID="258937" Value="Open &gt; Close"/>
+    <Text ID="304125" Value="Close &gt; Open"/>
+    <Text ID="304126" Value="Open &gt; Open"/>
+    <Text ID="420965" Value="Gap delay"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="inch"/>
+    <Text ID="258879" Value="msek"/>
+    <Text ID="258918" Value="Faltung"/>
+    <Text ID="258919" Value="Abstand Rollen"/>
+    <Text ID="258920" Value="Blas-Zeit"/>
+    <Text ID="258922" Value="Start Band verzoegerung   "/>
+    <Text ID="258924" Value="Schwert An-Zeit"/>
+    <Text ID="258932" Value="Luft Rohr "/>
+    <Text ID="258933" Value="Schwert"/>
+    <Text ID="258934" Value="Luft und Schwert"/>
+    <Text ID="258935" Value="Keine Funktion"/>
+    <Text ID="258936" Value="Geschlossen &gt; Geschlossen"/>
+    <Text ID="258937" Value="Offen &gt; Geschlossen"/>
+    <Text ID="304125" Value="Geschlossen &gt; Offen"/>
+    <Text ID="304126" Value="Offen &gt; Offen"/>
+    <Text ID="420965" Value="Abstands verzoegerung"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="tum "/>
+    <Text ID="258879" Value="ms"/>
+    <Text ID="258918" Value="Vikning"/>
+    <Text ID="258919" Value="Öppning valsar"/>
+    <Text ID="258920" Value="Blåstid"/>
+    <Text ID="258922" Value="Startfördröjning conveyer"/>
+    <Text ID="258924" Value="Kniv påtid"/>
+    <Text ID="258932" Value="Blåsrör  "/>
+    <Text ID="258933" Value="Kniv    "/>
+    <Text ID="258934" Value="Luft&amp;kniv"/>
+    <Text ID="258935" Value="Ingen funktion"/>
+    <Text ID="258936" Value="Stängd &gt; Stängd"/>
+    <Text ID="258937" Value="Öppen &gt; Stängd"/>
+    <Text ID="304125" Value="Stängd &gt; Öppen"/>
+    <Text ID="304126" Value="Öppen &gt; Öppen"/>
+    <Text ID="420965" Value="Fördröjning öppning"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="pouce"/>
+    <Text ID="258879" Value="ms"/>
+    <Text ID="258918" Value="Pliage"/>
+    <Text ID="258919" Value="Ecart entre rouleaux"/>
+    <Text ID="258920" Value="Durée soufflage"/>
+    <Text ID="258922" Value="Retard démarrage courroie   "/>
+    <Text ID="258924" Value="Durée activ. lame"/>
+    <Text ID="258932" Value="Tuyau d'air "/>
+    <Text ID="258933" Value="Lame"/>
+    <Text ID="258934" Value="Air&amp;Lame"/>
+    <Text ID="258935" Value="Pas de fonction"/>
+    <Text ID="258936" Value="Fermeture &gt; Fermeture"/>
+    <Text ID="258937" Value="Ouverture &gt; Fermeture"/>
+    <Text ID="304125" Value="Fermeture &gt; Ouverture"/>
+    <Text ID="304126" Value="Ouverture &gt; Ouverture"/>
+    <Text ID="420965" Value="Retard écart"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="inch"/>
+    <Text ID="258879" Value="msek"/>
+    <Text ID="258918" Value="Foldning"/>
+    <Text ID="258919" Value="Mellemrum valser"/>
+    <Text ID="258920" Value="Blæsetid"/>
+    <Text ID="258922" Value="Startforsinkelse bånd"/>
+    <Text ID="258924" Value="Tid Kniv På"/>
+    <Text ID="258932" Value="Blæserør"/>
+    <Text ID="258933" Value="Kniv    "/>
+    <Text ID="258934" Value="Begge    "/>
+    <Text ID="258935" Value="Ingen funktion"/>
+    <Text ID="258936" Value="Lukket&gt;lukket"/>
+    <Text ID="258937" Value="Åben&gt;lukket"/>
+    <Text ID="304125" Value="Lukket&gt;åben"/>
+    <Text ID="304126" Value="Åben&gt;åben"/>
+    <Text ID="420965" Value="Forsinkelse mellemrum"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="pollici"/>
+    <Text ID="258879" Value="millisec"/>
+    <Text ID="258918" Value="TipoPiega"/>
+    <Text ID="258919" Value="Rulli di sovrapposizione"/>
+    <Text ID="258920" Value="Tempo di Soffio"/>
+    <Text ID="258922" Value="Ritardo avviamento cinghie"/>
+    <Text ID="258924" Value="Lama in tempo"/>
+    <Text ID="258932" Value="Soffio   "/>
+    <Text ID="258933" Value="Lama    "/>
+    <Text ID="258934" Value="Aria e  Lama "/>
+    <Text ID="258935" Value="Nessuna funzione"/>
+    <Text ID="258936" Value="Chiusa &gt; Chiusa"/>
+    <Text ID="258937" Value="Aperta &gt; Chiusa"/>
+    <Text ID="304125" Value="Chiusa &gt; Aperta"/>
+    <Text ID="304126" Value="Aperta &gt; Aperta"/>
+    <Text ID="420965" Value="Ritardo sovrapposizione"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="inch"/>
+    <Text ID="258879" Value="msec"/>
+    <Text ID="258918" Value="Folding"/>
+    <Text ID="258919" Value="Gap rollers"/>
+    <Text ID="258920" Value="Blowtime"/>
+    <Text ID="258922" Value="Start belt delay   "/>
+    <Text ID="258924" Value="Knife ontime"/>
+    <Text ID="258932" Value="Air-Pipe "/>
+    <Text ID="258933" Value="Knife   "/>
+    <Text ID="258934" Value="Air&amp;Knife"/>
+    <Text ID="258935" Value="No function"/>
+    <Text ID="258936" Value="Close &gt; Close"/>
+    <Text ID="258937" Value="Open &gt; Close"/>
+    <Text ID="304125" Value="Close &gt; Open"/>
+    <Text ID="304126" Value="Open &gt; Open"/>
+    <Text ID="420965" Value="Gap delay"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="inch"/>
+    <Text ID="258879" Value="msec"/>
+    <Text ID="258918" Value="Vouw"/>
+    <Text ID="258919" Value="Opening rollen"/>
+    <Text ID="258920" Value="Blaastijd"/>
+    <Text ID="258922" Value="Vertr. singels starten"/>
+    <Text ID="258924" Value="Vouwmes ingesch."/>
+    <Text ID="258932" Value="Blaaspijp"/>
+    <Text ID="258933" Value="Vouwmes "/>
+    <Text ID="258934" Value="Blaas&amp;Mes"/>
+    <Text ID="258935" Value="Geen functie"/>
+    <Text ID="258936" Value="Dicht &gt; Dicht"/>
+    <Text ID="258937" Value="Open &gt; Dicht"/>
+    <Text ID="304125" Value="Dicht &gt; Open"/>
+    <Text ID="304126" Value="Open &gt; Open"/>
+    <Text ID="420965" Value="Vertraging openen"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="pulg"/>
+    <Text ID="258879" Value="ms"/>
+    <Text ID="258918" Value="Plegado por"/>
+    <Text ID="258919" Value="Separación de rodillos"/>
+    <Text ID="258920" Value="Tiempo de soplado"/>
+    <Text ID="258922" Value="Retardo en inicio de cinta"/>
+    <Text ID="258924" Value="Tiempo de cuchilla activa"/>
+    <Text ID="258932" Value="Soplado"/>
+    <Text ID="258933" Value="Cuchilla"/>
+    <Text ID="258934" Value="Aire y Soplado"/>
+    <Text ID="258935" Value="Sin función"/>
+    <Text ID="258936" Value="Cerrado &gt; Cerrado"/>
+    <Text ID="258937" Value="Abierto &gt; Cerrado"/>
+    <Text ID="304125" Value="Cerrado &gt; Abierto"/>
+    <Text ID="304126" Value="Abierto &gt; Abierto"/>
+    <Text ID="420965" Value="Retardo de apertura de hueco"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="cale"/>
+    <Text ID="258879" Value="msek"/>
+    <Text ID="258918" Value="Składanie"/>
+    <Text ID="258919" Value="Rolki odstępu"/>
+    <Text ID="258920" Value="Czas nadmuchu"/>
+    <Text ID="258922" Value="Opóźnienie startu taśmy   "/>
+    <Text ID="258924" Value="Czas pracy noża"/>
+    <Text ID="258932" Value="Rura nadmuchowa powietrza "/>
+    <Text ID="258933" Value="Nóż   "/>
+    <Text ID="258934" Value="Powietrze i nóż"/>
+    <Text ID="258935" Value="Brak przypisania"/>
+    <Text ID="258936" Value="Zamknięte &gt; Zamknięte"/>
+    <Text ID="258937" Value="Otwarte &gt; Zamknięte"/>
+    <Text ID="304125" Value="Zamknięte &gt; Otwarte"/>
+    <Text ID="304126" Value="Otwarte &gt; Otwarte"/>
+    <Text ID="420965" Value="Opóźnienie odstępu"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="258877" Value=""/>
+    <Text ID="258878" Value=""/>
+    <Text ID="258879" Value=""/>
+    <Text ID="258918" Value=""/>
+    <Text ID="258919" Value=""/>
+    <Text ID="258920" Value=""/>
+    <Text ID="258922" Value=""/>
+    <Text ID="258924" Value=""/>
+    <Text ID="258932" Value=""/>
+    <Text ID="258933" Value=""/>
+    <Text ID="258934" Value=""/>
+    <Text ID="258935" Value=""/>
+    <Text ID="258936" Value=""/>
+    <Text ID="258937" Value=""/>
+    <Text ID="304125" Value=""/>
+    <Text ID="304126" Value=""/>
+    <Text ID="420965" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="258877" Value=""/>
+    <Text ID="258878" Value=""/>
+    <Text ID="258879" Value=""/>
+    <Text ID="258918" Value=""/>
+    <Text ID="258919" Value=""/>
+    <Text ID="258920" Value=""/>
+    <Text ID="258922" Value=""/>
+    <Text ID="258924" Value=""/>
+    <Text ID="258932" Value=""/>
+    <Text ID="258933" Value=""/>
+    <Text ID="258934" Value=""/>
+    <Text ID="258935" Value=""/>
+    <Text ID="258936" Value=""/>
+    <Text ID="258937" Value=""/>
+    <Text ID="304125" Value=""/>
+    <Text ID="304126" Value=""/>
+    <Text ID="420965" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="cale"/>
+    <Text ID="258879" Value="msek"/>
+    <Text ID="258918" Value="Składanie"/>
+    <Text ID="258919" Value="Rolki odstępu"/>
+    <Text ID="258920" Value="Czas nadmuchu"/>
+    <Text ID="258922" Value="Opóźnienie startu taśmy   "/>
+    <Text ID="258924" Value="Czas pracy noża"/>
+    <Text ID="258932" Value="Rura nadmuchowa powietrza "/>
+    <Text ID="258933" Value="Nóż   "/>
+    <Text ID="258934" Value="Powietrze i nóż"/>
+    <Text ID="258935" Value="Brak przypisania"/>
+    <Text ID="258936" Value="Zamknięte &gt; Zamknięte"/>
+    <Text ID="258937" Value="Otwarte &gt; Zamknięte"/>
+    <Text ID="304125" Value="Zamknięte &gt; Otwarte"/>
+    <Text ID="304126" Value="Otwarte &gt; Otwarte"/>
+    <Text ID="420965" Value="Opóźnienie odstępu"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="inch"/>
+    <Text ID="258879" Value="msec"/>
+    <Text ID="258918" Value="Skladani"/>
+    <Text ID="258919" Value="Gap rollers"/>
+    <Text ID="258920" Value="Cas fuku"/>
+    <Text ID="258922" Value="Start belt delay   "/>
+    <Text ID="258924" Value="Knife ontime"/>
+    <Text ID="258932" Value="Air-Pipe "/>
+    <Text ID="258933" Value="Knife   "/>
+    <Text ID="258934" Value="Air&amp;Knife"/>
+    <Text ID="258935" Value="No function"/>
+    <Text ID="258936" Value="Close &gt; Close"/>
+    <Text ID="258937" Value="Open &gt; Close"/>
+    <Text ID="304125" Value="Close &gt; Open"/>
+    <Text ID="304126" Value="Open &gt; Open"/>
+    <Text ID="420965" Value="Gap delay"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="inch"/>
+    <Text ID="258879" Value="msec"/>
+    <Text ID="258918" Value="Folding"/>
+    <Text ID="258919" Value="Gap rollers"/>
+    <Text ID="258920" Value="Blowtime"/>
+    <Text ID="258922" Value="Start belt delay   "/>
+    <Text ID="258924" Value="Knife ontime"/>
+    <Text ID="258932" Value="Air-Pipe "/>
+    <Text ID="258933" Value="Knife   "/>
+    <Text ID="258934" Value="Air&amp;Knife"/>
+    <Text ID="258935" Value="No function"/>
+    <Text ID="258936" Value="Close &gt; Close"/>
+    <Text ID="258937" Value="Open &gt; Close"/>
+    <Text ID="304125" Value="Close &gt; Open"/>
+    <Text ID="304126" Value="Open &gt; Open"/>
+    <Text ID="420965" Value="Gap delay"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="tom."/>
+    <Text ID="258879" Value="msek"/>
+    <Text ID="258918" Value="Folding"/>
+    <Text ID="258919" Value="Mellomrom valser"/>
+    <Text ID="258920" Value="Blåsetid"/>
+    <Text ID="258922" Value="Startforsinkelse bånd"/>
+    <Text ID="258924" Value="Tid Kniv På"/>
+    <Text ID="258932" Value="Blåserör "/>
+    <Text ID="258933" Value="Kniv    "/>
+    <Text ID="258934" Value="Begge    "/>
+    <Text ID="258935" Value="Ingen funksjon"/>
+    <Text ID="258936" Value="Stengt &gt; Stengt"/>
+    <Text ID="258937" Value="Åpen &gt; Stengt"/>
+    <Text ID="304125" Value="Stengt &gt; Åpen"/>
+    <Text ID="304126" Value="Åpen &gt; Åpen"/>
+    <Text ID="420965" Value="Forsinkelse Mellomrom"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="258877" Value="cm"/>
+    <Text ID="258878" Value="inch"/>
+    <Text ID="258879" Value="ms"/>
+    <Text ID="258918" Value="Dobrar"/>
+    <Text ID="258919" Value="Distância entre rolos"/>
+    <Text ID="258920" Value="Tempo de sopragem"/>
+    <Text ID="258922" Value="Iniciar atraso da correia   "/>
+    <Text ID="258924" Value="Tempo de funcionamento da faca"/>
+    <Text ID="258932" Value="Tubagem de ar "/>
+    <Text ID="258933" Value="Knife   "/>
+    <Text ID="258934" Value="Ar e Faca"/>
+    <Text ID="258935" Value="Sem função"/>
+    <Text ID="258936" Value="Fechado &gt; Fechado"/>
+    <Text ID="258937" Value="Aberto &gt; Fechado"/>
+    <Text ID="304125" Value="Fechado &gt; Aberto"/>
+    <Text ID="304126" Value="Aberto &gt; Aberto"/>
+    <Text ID="420965" Value="Atraso do intervalo"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="258877" Value="0"/>
+    <Index ID="258878" Value="1"/>
+    <Index ID="258879" Value="5"/>
+    <Index ID="258918" Value="12"/>
+    <Index ID="258919" Value="13"/>
+    <Index ID="258920" Value="14"/>
+    <Index ID="258922" Value="16"/>
+    <Index ID="258924" Value="18"/>
+    <Index ID="258932" Value="45"/>
+    <Index ID="258933" Value="46"/>
+    <Index ID="258934" Value="47"/>
+    <Index ID="258935" Value="50"/>
+    <Index ID="258936" Value="51"/>
+    <Index ID="258937" Value="52"/>
+    <Index ID="304125" Value="53"/>
+    <Index ID="304126" Value="54"/>
+    <Index ID="420965" Value="19"/>
+  </IndexMap>
+</TextGroup>

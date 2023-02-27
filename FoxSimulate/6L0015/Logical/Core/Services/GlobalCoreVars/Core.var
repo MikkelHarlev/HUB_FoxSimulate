@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT -- Jensen Denmark A/S
+ ********************************************************************
+ * Package: MachineSetup
+ * File: MachineSetup.var
+ * Author: eg
+ * Created: December 22, 2010
+ ********************************************************************
+ * Variables of package MachineSetup
+ ********************************************************************)
+VAR RETAIN
+	g_MachinePermInfo : MachinePermInfo_Type;
+	g_PermLogData : ARRAY[0..1] OF JenStatLog_Type;
+END_VAR
+VAR
+	g_Core : CoreMachine_Type;
+	g_ModuleFuseFault : ARRAY[0..1] OF BOOL;
+END_VAR

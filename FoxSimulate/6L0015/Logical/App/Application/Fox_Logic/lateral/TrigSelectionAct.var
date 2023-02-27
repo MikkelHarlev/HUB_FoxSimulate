@@ -1,0 +1,14 @@
+
+VAR
+	Index : UINT;
+	LocalSearchAutoProgram : REFERENCE TO ACfg_Type;
+	Found : BOOL;
+	AutoProgramToSearch : UINT := 0;
+	AutoprogramNoMatch : UINT := 0;
+	AutoprogramNoMatchType : UINT := 0;
+	LogBookFlag : UINT;
+END_VAR
+
+VAR CONSTANT
+	MAX_AUTO_LIST_5 : UINT := 5;
+END_VAR

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="0.24.0" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>JenVar.fun</File>
+    <File>JenVar.typ</File>
+    <File>JenVar.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="SYS_LIB" Target="SG4" FromVersion="1.38.5" />
+    <Dependency ObjectName="AsString" Target="SG4" FromVersion="1.01.1" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,152 @@
+
+<!doctype html public "-//W3C//DTD HTML 3.2//EN">
+<html DIR=LTR>
+ <head>
+  <meta name="ORDER" content="2">
+  <meta name="generator" content="Microsoft FrontPage 5.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <title>FBKs</title>
+  <link rel="StyleSheet" href="../styles.css">
+ </head>
+ <body>
+  <h1>jercp_lib Function Blocks and Functions</h1>
+
+  <p>The jercp_lib contains the following function blocks and functions</p>
+
+  <center>
+   <table width="90%" cellpadding="4" cellspacing="2" border="1" height="76">
+    <tr>
+     <td width="24%" valign="TOP" height="1">
+      <b>Call</b></td>
+
+     <td width="76%" valign="TOP" height="1">
+      <b>Description</b></td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="23">
+      <a href="RcpInit.html">RcpInit()</a></td>
+
+     <td width="76%" valign="TOP" height="23">
+      Initialize the recipe data. Create the CSV header with the given 
+      structure, create a database with all addresses and datatypes of all 
+      structure elements.</td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="20">
+      <a href="ParScroInit.html">ParScroInit()</a></td>
+
+     <td width="76%" valign="TOP" height="20">
+      Initialize the parameter scroll. Create a list with all parameternames for 
+      scrolling</td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="23">
+      <a href="RcpDirList.html">RcpDirList()</a></td>
+
+     <td width="76%" valign="TOP" height="23">
+      Build a list with the filenames of a directory</td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="20">
+      <a href="ParScroCyclic.html">ParScroCyclic()</a></td>
+
+     <td width="76%" valign="TOP" height="20">
+      Scroll in the list of parameternames, view their value and edit 
+      parameters; Switch between languages if configured</td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="23">
+      <a href="RcpFileListScroll.html">RcpFileListScroll()</a></td>
+
+     <td width="76%" valign="TOP" height="23">
+      Scroll in the list of files built by RcpDirList()</td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="20">
+      <a href="RcpLoad.html">RcpLoad()</a></td>
+
+     <td width="76%" valign="TOP" height="20">
+      Load a Csv file. All recipes will be copied to the memory.</td>
+    </tr>
+    <tr>
+     <td width="24%" valign="TOP" height="20">
+      <a href="RcpSave.html">RcpSave()</a></td>
+
+     <td width="76%" valign="TOP" height="20">
+      Save a Csv file. All recipes will be stored in a file.</td>
+    </tr>
+    <tr>
+     <td width="24%" valign="TOP" height="20">
+      <a href="RcpAdd.html">RcpAdd()</a></td>
+
+     <td width="76%" valign="TOP" height="20">
+      Add a recipe. A blank recipe will be added to the existing ones in the 
+      memory (only when working with dynamic allocated memory)</td>
+    </tr>
+    <tr>
+     <td width="24%" valign="TOP" height="20">
+      <a href="RcpCopy.html">RcpCopy()</a></td>
+
+     <td width="76%" valign="TOP" height="20">
+      Copy recipes from source index X a number or recipes Y to destination 
+      index Z</td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="23">
+      <a href="RcpNameList.html">RcpNameList()</a></td>
+
+     <td width="76%" valign="TOP" height="23">
+      Create a recipe name List to scroll within for the display (Recipe name is part of the Recipe)</td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="23">
+      <a href="RcpGetNames.html">RcpGetNames()</a></td>
+
+     <td width="76%" valign="TOP" height="23">
+      Copy all recipe names into a string array</td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="23">
+      <a href="RcpPointInit.html">RcpPointInit()</a></td>
+
+     <td width="76%" valign="TOP" height="23">
+      Initialize FBK when working with recipe pointers (call for each pointer!!)</td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="20">
+      <a href="RcpPointRef.html">RcpPointRef()</a></td>
+
+     <td width="76%" valign="TOP" height="20">
+      References the recipe pointer (RcpPointInit must be done before!)</td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="20">
+      <a href="RcpDeInit.html">RcpDeInit()</a></td>
+
+     <td width="76%" valign="TOP" height="20">
+      Release all allocated memory. Function for the _EXIT in C language</td>
+    </tr>
+
+    <tr>
+     <td width="24%" valign="TOP" height="20">
+      <a href="RcpGetMemInfo.html">RcpGetMemInfo()</a></td>
+
+     <td width="76%" valign="TOP" height="20">
+      Get Information from the Memory Partition</td>
+    </tr>
+
+    </table>
+  </center>
+  </body>
+</html>

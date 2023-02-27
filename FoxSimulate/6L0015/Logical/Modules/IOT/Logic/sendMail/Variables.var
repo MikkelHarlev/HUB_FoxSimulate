@@ -1,0 +1,14 @@
+VAR
+	SmtpSend_0 : SmtpSend := (0);
+	GO : BOOL := 0;
+	receiver : STRING[50] := '';
+	body : STRING[2000] := '';
+	subject : STRING[80] := '0';
+	sender : STRING[80] := '0';
+	types : ARRAY[0..99] OF USINT := [100(0)];
+END_VAR
+(*types*)
+VAR
+	counts : INT := 0;
+	values : ARRAY[0..99] OF STRING[32] := [100('')];
+END_VAR

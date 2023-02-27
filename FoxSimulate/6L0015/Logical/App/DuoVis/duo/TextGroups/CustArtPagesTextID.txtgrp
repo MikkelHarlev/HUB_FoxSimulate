@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="CustArtPagesTextID">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="6"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="208697" Value="Cust/Article Name"/>
+    <Text ID="208698" Value="CustNo."/>
+    <Text ID="208699" Value="ArticleNo."/>
+    <Text ID="208700" Value="RecipeNo."/>
+    <Text ID="208701" Value="Operator Name"/>
+    <Text ID="208702" Value="Operator No."/>
+    <Text ID="208703" Value="Article Name"/>
+    <Text ID="208704" Value="Customer Name"/>
+    <Text ID="208705" Value="No Article "/>
+    <Text ID="208706" Value="Cust-Article "/>
+    <Text ID="208707" Value="Add"/>
+    <Text ID="208708" Value="ADD Customer"/>
+    <Text ID="208709" Value="ADD Article"/>
+    <Text ID="208710" Value="ADD Customer - Article"/>
+    <Text ID="208711" Value="LOAD List"/>
+    <Text ID="208712" Value="SAVE List"/>
+    <Text ID="208713" Value="SHOW Customer List"/>
+    <Text ID="208714" Value="SHOW Article List"/>
+    <Text ID="208715" Value="SHOW Customer-Article"/>
+    <Text ID="208731" Value="Customer and Article List Selected"/>
+    <Text ID="208732" Value="Delete"/>
+    <Text ID="208735" Value="Customer and Article List Selected"/>
+    <Text ID="208736" Value="DELETE Customer"/>
+    <Text ID="208737" Value="DELETE Article"/>
+    <Text ID="208738" Value="DELETE Customer - Article"/>
+    <Text ID="209381" Value="No Customer"/>
+    <Text ID="209906" Value="No Customer added"/>
+    <Text ID="209907" Value="No Article added"/>
+    <Text ID="279471" Value="Batch ID"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="208697" Value="Kunden-/ Artikelname"/>
+    <Text ID="208698" Value="KundenNr."/>
+    <Text ID="208699" Value="ArtikelNr."/>
+    <Text ID="208700" Value="Programm Nr."/>
+    <Text ID="208701" Value="Name Bedienperson"/>
+    <Text ID="208702" Value="Bediener Nr. "/>
+    <Text ID="208703" Value="Artikelname:"/>
+    <Text ID="208704" Value="Kundenname"/>
+    <Text ID="208705" Value="Kein Artikel"/>
+    <Text ID="208706" Value="Kund.-Artikel"/>
+    <Text ID="208707" Value="Hinzufügen"/>
+    <Text ID="208708" Value="Kunden hinzufuegen"/>
+    <Text ID="208709" Value="Artickel hinzufuegen"/>
+    <Text ID="208710" Value="Kunden und Artickel hinzufuegen"/>
+    <Text ID="208711" Value="Lade Liste"/>
+    <Text ID="208712" Value="Sicher Liste"/>
+    <Text ID="208713" Value="Zeige Kundenliste "/>
+    <Text ID="208714" Value="Zeige Artickelliste"/>
+    <Text ID="208715" Value="Zeige Kunden-Artickel"/>
+    <Text ID="208731" Value="Kunde und Artikelliste ausgewählt"/>
+    <Text ID="208732" Value="Löschen"/>
+    <Text ID="208735" Value="Kunde und Artikelliste ausgewählt"/>
+    <Text ID="208736" Value="Loesche Kunden"/>
+    <Text ID="208737" Value="Loesche Artickel"/>
+    <Text ID="208738" Value="Loesche Kunden-Artickel"/>
+    <Text ID="209381" Value="Kein Kunde"/>
+    <Text ID="209906" Value="Kein Kunde hinzugefuegt"/>
+    <Text ID="209907" Value="Kein Artikel hinzugefuegt"/>
+    <Text ID="279471" Value="Chargen-ID"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="208697" Value="Kund/artikelnamn"/>
+    <Text ID="208698" Value="Kund nr"/>
+    <Text ID="208699" Value="Artikel nr"/>
+    <Text ID="208700" Value="Recept nr"/>
+    <Text ID="208701" Value="Operatörs namn"/>
+    <Text ID="208702" Value="Operatörs nr"/>
+    <Text ID="208703" Value="Artikelnamn"/>
+    <Text ID="208704" Value=" Kundnamn"/>
+    <Text ID="208705" Value="Ingen artikel"/>
+    <Text ID="208706" Value="Kund-artikel"/>
+    <Text ID="208707" Value="Lägg till"/>
+    <Text ID="208708" Value="Lägg till kund"/>
+    <Text ID="208709" Value="Lägg till artikel"/>
+    <Text ID="208710" Value="Lägg till kund -artikel"/>
+    <Text ID="208711" Value="Ladda lista"/>
+    <Text ID="208712" Value="Spara lista"/>
+    <Text ID="208713" Value="Visa kundlista"/>
+    <Text ID="208714" Value="Visa artikellista"/>
+    <Text ID="208715" Value="Visa kund artikel"/>
+    <Text ID="208731" Value="Customer and Article List Selected"/>
+    <Text ID="208732" Value="Radera"/>
+    <Text ID="208735" Value="Customer and Article List Selected"/>
+    <Text ID="208736" Value="Radera kund"/>
+    <Text ID="208737" Value="Radera artikel"/>
+    <Text ID="208738" Value="Radera kund-artikel"/>
+    <Text ID="209381" Value="Ingen artikel"/>
+    <Text ID="209906" Value="Ingen kund adderad"/>
+    <Text ID="209907" Value="Ingen artikel adderad"/>
+    <Text ID="279471" Value="Batch ID"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="208697" Value="Nom client/article"/>
+    <Text ID="208698" Value="Client n°"/>
+    <Text ID="208699" Value="Article n°"/>
+    <Text ID="208700" Value="Programme N°"/>
+    <Text ID="208701" Value="Nom opérateur"/>
+    <Text ID="208702" Value="N° d'opérateur"/>
+    <Text ID="208703" Value="Nom article:"/>
+    <Text ID="208704" Value="Nom client"/>
+    <Text ID="208705" Value="Pas d'article"/>
+    <Text ID="208706" Value="Article-client"/>
+    <Text ID="208707" Value="Ajouter"/>
+    <Text ID="208708" Value="AJOUTER client"/>
+    <Text ID="208709" Value="AJOUTER article"/>
+    <Text ID="208710" Value="AJOUTER client - article"/>
+    <Text ID="208711" Value="CHARGER liste"/>
+    <Text ID="208712" Value="ENREGISTRER liste"/>
+    <Text ID="208713" Value="AFFICHER liste clients"/>
+    <Text ID="208714" Value="AFFICHER liste articles"/>
+    <Text ID="208715" Value="AFFICHER client-article"/>
+    <Text ID="208731" Value="Client et liste article sélectionnés"/>
+    <Text ID="208732" Value="Effacer"/>
+    <Text ID="208735" Value="Client et liste article sélectionnés"/>
+    <Text ID="208736" Value="SUPPRIMER client"/>
+    <Text ID="208737" Value="SUPPRIMER article"/>
+    <Text ID="208738" Value="SUPPRIMER client - article"/>
+    <Text ID="209381" Value="Pas de client"/>
+    <Text ID="209906" Value="Pas de client ajouté"/>
+    <Text ID="209907" Value="Pas d'article ajouté"/>
+    <Text ID="279471" Value="Lot ID"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="208697" Value="Kunde/Artikkelnavn"/>
+    <Text ID="208698" Value="Kunde nummer"/>
+    <Text ID="208699" Value="Artikkel nummer"/>
+    <Text ID="208700" Value="Program Nummer"/>
+    <Text ID="208701" Value="Operatør navn"/>
+    <Text ID="208702" Value="Operatør nummer"/>
+    <Text ID="208703" Value="Artikkel Navn"/>
+    <Text ID="208704" Value="Kunde Navn"/>
+    <Text ID="208705" Value="Ingen artikkel"/>
+    <Text ID="208706" Value="kunde-artikkel"/>
+    <Text ID="208707" Value="Legg til"/>
+    <Text ID="208708" Value="Legg til Kunde"/>
+    <Text ID="208709" Value="Legg til Artikkel"/>
+    <Text ID="208710" Value="Legg til Kunde-Artikkel"/>
+    <Text ID="208711" Value="Last Liste"/>
+    <Text ID="208712" Value="Lagre liste"/>
+    <Text ID="208713" Value="Vise Kundeliste"/>
+    <Text ID="208714" Value="Vise Artikkelliste"/>
+    <Text ID="208715" Value="Vise Kunde-Artikkelliste"/>
+    <Text ID="208731" Value="Kunde og artikkelliste valg"/>
+    <Text ID="208732" Value="Slett"/>
+    <Text ID="208735" Value="Customer and Article List Selected"/>
+    <Text ID="208736" Value="Slette Kunde"/>
+    <Text ID="208737" Value="Slette Artikkel"/>
+    <Text ID="208738" Value="Slette Kunde-Artikkel"/>
+    <Text ID="209381" Value="Ingen kunde"/>
+    <Text ID="209906" Value="Ingen kunde lagt til"/>
+    <Text ID="209907" Value="Ingen artikkel Lagt til"/>
+    <Text ID="279471" Value="Batch ID"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="208697" Value="nome cliente\articolo"/>
+    <Text ID="208698" Value="num cliente"/>
+    <Text ID="208699" Value="num articolo"/>
+    <Text ID="208700" Value="numero di programma"/>
+    <Text ID="208701" Value="nome operatore"/>
+    <Text ID="208702" Value="num operatoe"/>
+    <Text ID="208703" Value="nome articolo"/>
+    <Text ID="208704" Value="nome cliente"/>
+    <Text ID="208705" Value="No articolo"/>
+    <Text ID="208706" Value="Cliente-articolo"/>
+    <Text ID="208707" Value="Aggiungere"/>
+    <Text ID="208708" Value="AGGIUNGI Cliente"/>
+    <Text ID="208709" Value="AGGIUNGI Articolo"/>
+    <Text ID="208710" Value="AGGIUNGI Cliente_ Articolo"/>
+    <Text ID="208711" Value="CARICA Lista"/>
+    <Text ID="208712" Value="SALVA  Lista"/>
+    <Text ID="208713" Value="MOSTRA Lista Clienti"/>
+    <Text ID="208714" Value="MOSTRA Lista Articolo"/>
+    <Text ID="208715" Value="MOSTRA Clienti- Articolo"/>
+    <Text ID="208731" Value="Lista Cliente ed Articolo Selezionata"/>
+    <Text ID="208732" Value="Cancellazione"/>
+    <Text ID="208735" Value="Lista Cliente ed Articolo Selezionata"/>
+    <Text ID="208736" Value="CANCELLA Cliente"/>
+    <Text ID="208737" Value="CANCELLA Articolo"/>
+    <Text ID="208738" Value="CANCELLA  Cliente- Articolo"/>
+    <Text ID="209381" Value="No articolo"/>
+    <Text ID="209906" Value="Nessuna Cliente aggiunto"/>
+    <Text ID="209907" Value="Nessun Articol Aggiunto"/>
+    <Text ID="279471" Value="ID Lotto"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="208697" Value="Cust/Article Name"/>
+    <Text ID="208698" Value="CustNo."/>
+    <Text ID="208699" Value="ArticleNo."/>
+    <Text ID="208700" Value="RecipeNo."/>
+    <Text ID="208701" Value="Operator Name"/>
+    <Text ID="208702" Value="Operator No."/>
+    <Text ID="208703" Value="Article Name"/>
+    <Text ID="208704" Value="Customer Name"/>
+    <Text ID="208705" Value="Cust/Article Name"/>
+    <Text ID="208706" Value="Cust-Article "/>
+    <Text ID="208707" Value="Add"/>
+    <Text ID="208708" Value="ADD Customer"/>
+    <Text ID="208709" Value="ADD Article"/>
+    <Text ID="208710" Value="ADD Customer - Article"/>
+    <Text ID="208711" Value="LOAD List"/>
+    <Text ID="208712" Value="SAVE List"/>
+    <Text ID="208713" Value="SHOW Customer List"/>
+    <Text ID="208714" Value="SHOW Article List"/>
+    <Text ID="208715" Value="SHOW Customer-Article"/>
+    <Text ID="208731" Value="Customer and Article List Selected"/>
+    <Text ID="208732" Value="Delete"/>
+    <Text ID="208735" Value="Customer and Article List Selected"/>
+    <Text ID="208736" Value="DELETE Customer"/>
+    <Text ID="208737" Value="DELETE Article"/>
+    <Text ID="208738" Value="DELETE Customer - Article"/>
+    <Text ID="209381" Value="Cust/Article Name"/>
+    <Text ID="209906" Value="No Customer added"/>
+    <Text ID="209907" Value="No Article added"/>
+    <Text ID="279471" Value="Batch ID"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="208697" Value="Artikelnaam:"/>
+    <Text ID="208698" Value="Klantnr."/>
+    <Text ID="208699" Value="ArtikelNr."/>
+    <Text ID="208700" Value="RecipeNr."/>
+    <Text ID="208701" Value="Operator Naam"/>
+    <Text ID="208702" Value="Bedienernr."/>
+    <Text ID="208703" Value="Artikelnaam:"/>
+    <Text ID="208704" Value="Klantnaam:"/>
+    <Text ID="208705" Value="No Artikel"/>
+    <Text ID="208706" Value="Artikel"/>
+    <Text ID="208707" Value="Toev."/>
+    <Text ID="208708" Value="Klant toevoegen"/>
+    <Text ID="208709" Value="Artikel toevoegen"/>
+    <Text ID="208710" Value="Klant - artikel toevoegen"/>
+    <Text ID="208711" Value="Lijst laden"/>
+    <Text ID="208712" Value="Lijst opslaan"/>
+    <Text ID="208713" Value="Klantenlijst tonen"/>
+    <Text ID="208714" Value="Artikellijst tonen"/>
+    <Text ID="208715" Value="Klant - artikel tonen"/>
+    <Text ID="208731" Value="Klant- en artikellijst geselecteerd"/>
+    <Text ID="208732" Value="Verw."/>
+    <Text ID="208735" Value="Klant- en artikellijst geselecteerd"/>
+    <Text ID="208736" Value="Klant verwijderen"/>
+    <Text ID="208737" Value="Artikel verwijderen"/>
+    <Text ID="208738" Value="Klant - artikel verwijderen"/>
+    <Text ID="209381" Value="Geen klant"/>
+    <Text ID="209906" Value="Geen klant toegevoegd"/>
+    <Text ID="209907" Value="Geen artikel toegevoegd"/>
+    <Text ID="279471" Value="Batch ID"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="208697" Value="Nombre Cliente/Artículo"/>
+    <Text ID="208698" Value="Cliente Nº"/>
+    <Text ID="208699" Value="Artículo Nº:"/>
+    <Text ID="208700" Value="Número de programa"/>
+    <Text ID="208701" Value="Nombre de operario"/>
+    <Text ID="208702" Value="Número de operario"/>
+    <Text ID="208703" Value="Nombre de artículo:"/>
+    <Text ID="208704" Value="Nombre de cliente"/>
+    <Text ID="208705" Value="Sin artículo"/>
+    <Text ID="208706" Value="Cliente-Artículo"/>
+    <Text ID="208707" Value="Añadir"/>
+    <Text ID="208708" Value="AÑADIR cliente"/>
+    <Text ID="208709" Value="AÑADIR artículo"/>
+    <Text ID="208710" Value="AÑADIR Cliente - Artículo"/>
+    <Text ID="208711" Value="CARGAR lista"/>
+    <Text ID="208712" Value="GUARDAR lista"/>
+    <Text ID="208713" Value="MOSTRAR lista de clientes"/>
+    <Text ID="208714" Value="MOSTRAR lista de artículos"/>
+    <Text ID="208715" Value="MOSTRAR Cliente - Artículo"/>
+    <Text ID="208731" Value="Seleccionado listado Cliente y Artículo"/>
+    <Text ID="208732" Value="Borrar"/>
+    <Text ID="208735" Value="Seleccionado listado Cliente y Artículo"/>
+    <Text ID="208736" Value="BORRAR cliente"/>
+    <Text ID="208737" Value="BORRAR artículo"/>
+    <Text ID="208738" Value="BORRAR Cliente - Artículo"/>
+    <Text ID="209381" Value="Sin cliente"/>
+    <Text ID="209906" Value="Cliente no añadido"/>
+    <Text ID="209907" Value="Artículo no añadido"/>
+    <Text ID="279471" Value="Identificador de lote"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="208697" Value="Nazwa klienta/artykułu"/>
+    <Text ID="208698" Value="Nr klienta"/>
+    <Text ID="208699" Value="Nr artykułu"/>
+    <Text ID="208700" Value="Nr receptury"/>
+    <Text ID="208701" Value="Nazwisko operatora"/>
+    <Text ID="208702" Value="Nr operatora"/>
+    <Text ID="208703" Value="Nazwa artykułu"/>
+    <Text ID="208704" Value="Nazwa klienta"/>
+    <Text ID="208705" Value="Brak artykułu "/>
+    <Text ID="208706" Value="Klient-Artykuł "/>
+    <Text ID="208707" Value="Dodaj"/>
+    <Text ID="208708" Value="DODAJ klienta"/>
+    <Text ID="208709" Value="DODAJ artykuł"/>
+    <Text ID="208710" Value="DODAJ klienta - artykuł"/>
+    <Text ID="208711" Value="ZAŁADUJ listę"/>
+    <Text ID="208712" Value="ZAPISZ listę"/>
+    <Text ID="208713" Value="POKAŻ listę klientów"/>
+    <Text ID="208714" Value="POKAŻ listę artykułów"/>
+    <Text ID="208715" Value="POKAŻ klienta - artykuł"/>
+    <Text ID="208731" Value="Wybrana lista klientów oraz artykułów"/>
+    <Text ID="208732" Value="Kasuj"/>
+    <Text ID="208735" Value="Wybrana lista klientów oraz artykułów"/>
+    <Text ID="208736" Value="USUŃ klienta"/>
+    <Text ID="208737" Value="USUŃ artykuł"/>
+    <Text ID="208738" Value="USUŃ klienta - artykuł"/>
+    <Text ID="209381" Value="Brak klienta"/>
+    <Text ID="209906" Value="Nie dodano żadnego klienta"/>
+    <Text ID="209907" Value="Nie dodano żadnego artykułu"/>
+    <Text ID="279471" Value="ID partii"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="208697" Value=""/>
+    <Text ID="208698" Value=""/>
+    <Text ID="208699" Value=""/>
+    <Text ID="208700" Value=""/>
+    <Text ID="208701" Value=""/>
+    <Text ID="208702" Value=""/>
+    <Text ID="208703" Value=""/>
+    <Text ID="208704" Value=""/>
+    <Text ID="208705" Value=""/>
+    <Text ID="208706" Value=""/>
+    <Text ID="208707" Value=""/>
+    <Text ID="208708" Value=""/>
+    <Text ID="208709" Value=""/>
+    <Text ID="208710" Value=""/>
+    <Text ID="208711" Value=""/>
+    <Text ID="208712" Value=""/>
+    <Text ID="208713" Value=""/>
+    <Text ID="208714" Value=""/>
+    <Text ID="208715" Value=""/>
+    <Text ID="208731" Value=""/>
+    <Text ID="208732" Value=""/>
+    <Text ID="208735" Value=""/>
+    <Text ID="208736" Value=""/>
+    <Text ID="208737" Value=""/>
+    <Text ID="208738" Value=""/>
+    <Text ID="209381" Value=""/>
+    <Text ID="209906" Value=""/>
+    <Text ID="209907" Value=""/>
+    <Text ID="279471" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="208697" Value=""/>
+    <Text ID="208698" Value=""/>
+    <Text ID="208699" Value=""/>
+    <Text ID="208700" Value=""/>
+    <Text ID="208701" Value=""/>
+    <Text ID="208702" Value=""/>
+    <Text ID="208703" Value=""/>
+    <Text ID="208704" Value=""/>
+    <Text ID="208705" Value=""/>
+    <Text ID="208706" Value=""/>
+    <Text ID="208707" Value=""/>
+    <Text ID="208708" Value=""/>
+    <Text ID="208709" Value=""/>
+    <Text ID="208710" Value=""/>
+    <Text ID="208711" Value=""/>
+    <Text ID="208712" Value=""/>
+    <Text ID="208713" Value=""/>
+    <Text ID="208714" Value=""/>
+    <Text ID="208715" Value=""/>
+    <Text ID="208731" Value=""/>
+    <Text ID="208732" Value=""/>
+    <Text ID="208735" Value=""/>
+    <Text ID="208736" Value=""/>
+    <Text ID="208737" Value=""/>
+    <Text ID="208738" Value=""/>
+    <Text ID="209381" Value=""/>
+    <Text ID="209906" Value=""/>
+    <Text ID="209907" Value=""/>
+    <Text ID="279471" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="208697" Value="Nazwa klienta/artykułu"/>
+    <Text ID="208698" Value="Nr klienta"/>
+    <Text ID="208699" Value="Nr artykułu"/>
+    <Text ID="208700" Value="Nr receptury"/>
+    <Text ID="208701" Value="Nazwisko operatora"/>
+    <Text ID="208702" Value="Nr operatora"/>
+    <Text ID="208703" Value="Nazwa artykułu"/>
+    <Text ID="208704" Value="Nazwa klienta"/>
+    <Text ID="208705" Value="Brak artykułu "/>
+    <Text ID="208706" Value="Klient-Artykuł "/>
+    <Text ID="208707" Value="Dodaj"/>
+    <Text ID="208708" Value="DODAJ klienta"/>
+    <Text ID="208709" Value="DODAJ artykuł"/>
+    <Text ID="208710" Value="DODAJ klienta - artykuł"/>
+    <Text ID="208711" Value="ZAŁADUJ listę"/>
+    <Text ID="208712" Value="ZAPISZ listę"/>
+    <Text ID="208713" Value="POKAŻ listę klientów"/>
+    <Text ID="208714" Value="POKAŻ listę artykułów"/>
+    <Text ID="208715" Value="POKAŻ klienta - artykuł"/>
+    <Text ID="208731" Value="Wybrana lista klientów oraz artykułów"/>
+    <Text ID="208732" Value="Kasuj"/>
+    <Text ID="208735" Value="Wybrana lista klientów oraz artykułów"/>
+    <Text ID="208736" Value="USUŃ klienta"/>
+    <Text ID="208737" Value="USUŃ artykuł"/>
+    <Text ID="208738" Value="USUŃ klienta - artykuł"/>
+    <Text ID="209381" Value="Brak klienta"/>
+    <Text ID="209906" Value="Nie dodano żadnego klienta"/>
+    <Text ID="209907" Value="Nie dodano żadnego artykułu"/>
+    <Text ID="279471" Value="ID partii"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="208697" Value="Cust/Article Name"/>
+    <Text ID="208698" Value="CustNo."/>
+    <Text ID="208699" Value="ArticleNo."/>
+    <Text ID="208700" Value="RecipeNo."/>
+    <Text ID="208701" Value="Operator Name"/>
+    <Text ID="208702" Value="Operator No."/>
+    <Text ID="208703" Value="Article Name"/>
+    <Text ID="208704" Value="Customer Name"/>
+    <Text ID="208705" Value="No Article "/>
+    <Text ID="208706" Value="Cust-Article "/>
+    <Text ID="208707" Value="Add"/>
+    <Text ID="208708" Value="ADD Customer"/>
+    <Text ID="208709" Value="ADD Article"/>
+    <Text ID="208710" Value="ADD Customer - Article"/>
+    <Text ID="208711" Value="LOAD List"/>
+    <Text ID="208712" Value="SAVE List"/>
+    <Text ID="208713" Value="SHOW Customer List"/>
+    <Text ID="208714" Value="SHOW Article List"/>
+    <Text ID="208715" Value="SHOW Customer-Article"/>
+    <Text ID="208731" Value="Customer and Article List Selected"/>
+    <Text ID="208732" Value="Delete"/>
+    <Text ID="208735" Value="Customer and Article List Selected"/>
+    <Text ID="208736" Value="DELETE Customer"/>
+    <Text ID="208737" Value="DELETE Article"/>
+    <Text ID="208738" Value="DELETE Customer - Article"/>
+    <Text ID="209381" Value="No Customer"/>
+    <Text ID="209906" Value="No Customer added"/>
+    <Text ID="209907" Value="No Article added"/>
+    <Text ID="279471" Value="Batch ID"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="208697" Value="Cust/Article Name"/>
+    <Text ID="208698" Value="CustNo."/>
+    <Text ID="208699" Value="ArticleNo."/>
+    <Text ID="208700" Value="RecipeNo."/>
+    <Text ID="208701" Value="Operator Name"/>
+    <Text ID="208702" Value="Operator No."/>
+    <Text ID="208703" Value="Article Name"/>
+    <Text ID="208704" Value="Customer Name"/>
+    <Text ID="208705" Value="No Article "/>
+    <Text ID="208706" Value="Cust-Article "/>
+    <Text ID="208707" Value="Add"/>
+    <Text ID="208708" Value="ADD Customer"/>
+    <Text ID="208709" Value="ADD Article"/>
+    <Text ID="208710" Value="ADD Customer - Article"/>
+    <Text ID="208711" Value="LOAD List"/>
+    <Text ID="208712" Value="SAVE List"/>
+    <Text ID="208713" Value="SHOW Customer List"/>
+    <Text ID="208714" Value="SHOW Article List"/>
+    <Text ID="208715" Value="SHOW Customer-Article"/>
+    <Text ID="208731" Value="Customer and Article List Selected"/>
+    <Text ID="208732" Value="Delete"/>
+    <Text ID="208735" Value="Customer and Article List Selected"/>
+    <Text ID="208736" Value="DELETE Customer"/>
+    <Text ID="208737" Value="DELETE Article"/>
+    <Text ID="208738" Value="DELETE Customer - Article"/>
+    <Text ID="209381" Value="No Customer"/>
+    <Text ID="209906" Value="No Customer added"/>
+    <Text ID="209907" Value="No Article added"/>
+    <Text ID="279471" Value="Batch ID"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="208697" Value="Kunde/Artikkelnavn"/>
+    <Text ID="208698" Value="Kunde nummer"/>
+    <Text ID="208699" Value="ArticleNo."/>
+    <Text ID="208700" Value="Program Nummer"/>
+    <Text ID="208701" Value="Operatør navn"/>
+    <Text ID="208702" Value="Operatør nummer"/>
+    <Text ID="208703" Value="Artikkel Navn"/>
+    <Text ID="208704" Value="Kunde Navn"/>
+    <Text ID="208705" Value="Ingen artikkel"/>
+    <Text ID="208706" Value="kunde-artikkel"/>
+    <Text ID="208707" Value="Legg til"/>
+    <Text ID="208708" Value="Legg til Kunde"/>
+    <Text ID="208709" Value="Legg til Artikkel"/>
+    <Text ID="208710" Value="Legg til Kunde / Artikkle"/>
+    <Text ID="208711" Value="Last Liste"/>
+    <Text ID="208712" Value="Lagre liste"/>
+    <Text ID="208713" Value="Vise Kundeliste"/>
+    <Text ID="208714" Value="Vise Artikkelliste"/>
+    <Text ID="208715" Value="Vise Kunde-Artikkelliste"/>
+    <Text ID="208731" Value="kunde og artikkelliste valg"/>
+    <Text ID="208732" Value="Slett"/>
+    <Text ID="208735" Value="kunde og artikkelliste valg"/>
+    <Text ID="208736" Value="Slette Kunde"/>
+    <Text ID="208737" Value="Slett Artikkle"/>
+    <Text ID="208738" Value="Slett Kunde - Artikkel "/>
+    <Text ID="209381" Value="Ingen kunde"/>
+    <Text ID="209906" Value="Ingen kunde lagt til"/>
+    <Text ID="209907" Value="Ingen artikkel Lagt til"/>
+    <Text ID="279471" Value="Batch ID"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="208697" Value="Cust/Article Name"/>
+    <Text ID="208698" Value="CustNo."/>
+    <Text ID="208699" Value="ArticleNo."/>
+    <Text ID="208700" Value="RecipeNo."/>
+    <Text ID="208701" Value="Operator Name"/>
+    <Text ID="208702" Value="Operator No."/>
+    <Text ID="208703" Value="Article Name"/>
+    <Text ID="208704" Value="Customer Name"/>
+    <Text ID="208705" Value="No Article "/>
+    <Text ID="208706" Value="Cust-Article "/>
+    <Text ID="208707" Value="Add"/>
+    <Text ID="208708" Value="ADICIONAR Cliente"/>
+    <Text ID="208709" Value="ADICIONAR Artigo"/>
+    <Text ID="208710" Value="ADICIONAR Cliente - Artigo"/>
+    <Text ID="208711" Value="CARREGAR Lista"/>
+    <Text ID="208712" Value="GUARDAR Lista"/>
+    <Text ID="208713" Value="MOSTRAR Lista de clientes"/>
+    <Text ID="208714" Value="MOSTRAR Lista de artigos"/>
+    <Text ID="208715" Value="MOSTRAR Cliente - Artigo"/>
+    <Text ID="208731" Value="Lista de clientes e artigos selecionada"/>
+    <Text ID="208732" Value="Delete"/>
+    <Text ID="208735" Value="Lista de clientes e artigos selecionada"/>
+    <Text ID="208736" Value="ELIMINAR Cliente"/>
+    <Text ID="208737" Value="ELIMINAR Artigo"/>
+    <Text ID="208738" Value="ELIMINAR Cliente - Artigo"/>
+    <Text ID="209381" Value="No Customer"/>
+    <Text ID="209906" Value="Nenhum cliente adicionado"/>
+    <Text ID="209907" Value="Nenhum artigo adicionado"/>
+    <Text ID="279471" Value="Batch ID"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="208697" Value="7"/>
+    <Index ID="208698" Value="8"/>
+    <Index ID="208699" Value="9"/>
+    <Index ID="208700" Value="10"/>
+    <Index ID="208701" Value="11"/>
+    <Index ID="208702" Value="12"/>
+    <Index ID="208703" Value="6"/>
+    <Index ID="208704" Value="5"/>
+    <Index ID="208705" Value="15"/>
+    <Index ID="208706" Value="4"/>
+    <Index ID="208707" Value="3"/>
+    <Index ID="208708" Value="17"/>
+    <Index ID="208709" Value="18"/>
+    <Index ID="208710" Value="19"/>
+    <Index ID="208711" Value="20"/>
+    <Index ID="208712" Value="21"/>
+    <Index ID="208713" Value="22"/>
+    <Index ID="208714" Value="23"/>
+    <Index ID="208715" Value="24"/>
+    <Index ID="208731" Value="0"/>
+    <Index ID="208732" Value="2"/>
+    <Index ID="208735" Value="1"/>
+    <Index ID="208736" Value="25"/>
+    <Index ID="208737" Value="26"/>
+    <Index ID="208738" Value="27"/>
+    <Index ID="209381" Value="13"/>
+    <Index ID="209906" Value="28"/>
+    <Index ID="209907" Value="29"/>
+    <Index ID="279471" Value="30"/>
+  </IndexMap>
+</TextGroup>

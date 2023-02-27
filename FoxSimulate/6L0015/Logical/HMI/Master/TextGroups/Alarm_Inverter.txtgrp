@@ -1,0 +1,2041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Alarm_Inverter">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="28"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="153116" Value="Inlet Motor (101)"/>
+    <Text ID="153117" Value="Outlet Motor (102)"/>
+    <Text ID="153118" Value="Vakuum (103) (Option)"/>
+    <Text ID="153119" Value="Rail 1 (104)"/>
+    <Text ID="153121" Value="Rail 2 (105)"/>
+    <Text ID="153132" Value="Inverter"/>
+    <Text ID="153133" Value="Info"/>
+    <Text ID="153136" Value="Connection"/>
+    <Text ID="153137" Value="Serial Number"/>
+    <Text ID="153138" Value="Module ID"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Actual Current"/>
+    <Text ID="154719" Value="Error"/>
+    <Text ID="154720" Value="Ok"/>
+    <Text ID="155182" Value="Main Motor II (102)"/>
+    <Text ID="155928" Value="Actual Speed"/>
+    <Text ID="155181" Value="Main Motor I (101)"/>
+    <Text ID="163105" Value="Oldest"/>
+    <Text ID="163106" Value="Newest"/>
+    <Text ID="163107" Value="Actual Status History"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Main Motor I (101)"/>
+    <Text ID="221067" Value="Main Motor II (102)"/>
+    <Text ID="221068" Value="Ready"/>
+    <Text ID="221070" Value="Running"/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Hardware Variant"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="153116" Value="Einlauf-Motor (101)"/>
+    <Text ID="153117" Value="Auslauf-Motor (102)"/>
+    <Text ID="153118" Value="Unterdruck (103) (Option)"/>
+    <Text ID="153119" Value="Jenrail 1 (104)"/>
+    <Text ID="153121" Value="Jenrail 2 (105)"/>
+    <Text ID="153132" Value="Umrichter"/>
+    <Text ID="153133" Value="Info"/>
+    <Text ID="153136" Value="Anschluss"/>
+    <Text ID="153137" Value="Seriennummer"/>
+    <Text ID="153138" Value="Modul-ID"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Istwert Spannung"/>
+    <Text ID="154719" Value="Fehler"/>
+    <Text ID="154720" Value="OK"/>
+    <Text ID="155182" Value="Hauptmotor II (102)"/>
+    <Text ID="155928" Value="Istwert Geschwindigkeit"/>
+    <Text ID="155181" Value="Hauptmotor I (101)"/>
+    <Text ID="163105" Value="Älteste"/>
+    <Text ID="163106" Value="Neueste"/>
+    <Text ID="163107" Value="Aktuelle Status Geschichte"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Hauptmotor I (101)"/>
+    <Text ID="221067" Value="Hauptmotor II (102)"/>
+    <Text ID="221068" Value="Bereit"/>
+    <Text ID="221070" Value="In Betrieb "/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Hardware-Variante"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="153116" Value="Inmatningsmotor (101)"/>
+    <Text ID="153117" Value="Utmatningsmotor (102)"/>
+    <Text ID="153118" Value="Vakuum (103) (Option)"/>
+    <Text ID="153119" Value="Räls 1 (104)"/>
+    <Text ID="153121" Value="Räls 2 (105)"/>
+    <Text ID="153132" Value="Omvandlare"/>
+    <Text ID="153133" Value="Info"/>
+    <Text ID="153136" Value="Anslutning"/>
+    <Text ID="153137" Value="Serienummer"/>
+    <Text ID="153138" Value="Module ID"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Aktuell ström:"/>
+    <Text ID="154719" Value="Fel"/>
+    <Text ID="154720" Value="Ok"/>
+    <Text ID="155182" Value="Huvud motor 2 (102)"/>
+    <Text ID="155928" Value="Aktuell Hastighet"/>
+    <Text ID="155181" Value="Huvud motor 1 (101)"/>
+    <Text ID="163105" Value="Äldsta"/>
+    <Text ID="163106" Value="Nyaste "/>
+    <Text ID="163107" Value="Status hsitoria"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Huvud motor 1 (101)"/>
+    <Text ID="221067" Value="Huvud motor 2 (102)"/>
+    <Text ID="221068" Value="Beredd"/>
+    <Text ID="221070" Value="Går"/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Hårdvaru variant"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="153116" Value="Moteur entrée (101)"/>
+    <Text ID="153117" Value="Moteur sortie (102)"/>
+    <Text ID="153118" Value="Aspiration (103) (Option)"/>
+    <Text ID="153119" Value="Rail 1 (104)"/>
+    <Text ID="153121" Value="Rail 2 (105)"/>
+    <Text ID="153132" Value="variat."/>
+    <Text ID="153133" Value="info"/>
+    <Text ID="153136" Value="Connexion"/>
+    <Text ID="153137" Value="Numéro de série"/>
+    <Text ID="153138" Value="ID module"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Int. Actuelle"/>
+    <Text ID="154719" Value="Erreur"/>
+    <Text ID="154720" Value="OK"/>
+    <Text ID="155182" Value="Moteur principal II (102)"/>
+    <Text ID="155928" Value="Vit. Actuelle"/>
+    <Text ID="155181" Value="Moteur principal I (101)"/>
+    <Text ID="163105" Value="Ancien"/>
+    <Text ID="163106" Value="Nouveau"/>
+    <Text ID="163107" Value="Staut Actuel"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Moteur principal I (101)"/>
+    <Text ID="221067" Value="Moteur principal II (102)"/>
+    <Text ID="221068" Value="Prêt"/>
+    <Text ID="221070" Value="En marche"/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Variante de matériel"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="153116" Value="Indløbs Motor (101)"/>
+    <Text ID="153117" Value="Udløbs Motor (102)"/>
+    <Text ID="153118" Value="Vakuum (103) (Option)"/>
+    <Text ID="153119" Value="Rail 1 (104)"/>
+    <Text ID="153121" Value="Rail 2 (105)"/>
+    <Text ID="153132" Value="Omformer"/>
+    <Text ID="153133" Value="Info"/>
+    <Text ID="153136" Value="Forbindelse"/>
+    <Text ID="153137" Value="Serie Nummer"/>
+    <Text ID="153138" Value="Modul ID"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Aktuelle Strøm"/>
+    <Text ID="154719" Value="Fejl"/>
+    <Text ID="154720" Value="Ok"/>
+    <Text ID="155182" Value="Hoved Motor II (102)"/>
+    <Text ID="155928" Value="Aktuelle Hastighed"/>
+    <Text ID="155181" Value="Hoved Motor I (101)"/>
+    <Text ID="163105" Value="Ældste"/>
+    <Text ID="163106" Value="Nyeste"/>
+    <Text ID="163107" Value="Aktuelle Status Historie"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Hoved Motor I (101)"/>
+    <Text ID="221067" Value="Hoved Motor II (102)"/>
+    <Text ID="221068" Value="Klar"/>
+    <Text ID="221070" Value="I Drift"/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Hardware Variant"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="153116" Value="Motore Ingresso (101)"/>
+    <Text ID="153117" Value="Motore Uscita (102)"/>
+    <Text ID="153118" Value="Aspiraz. (103) (Option)"/>
+    <Text ID="153119" Value="Binario1 (104)"/>
+    <Text ID="153121" Value="Binario 2 (105)"/>
+    <Text ID="153132" Value="Inverter"/>
+    <Text ID="153133" Value="Informazione"/>
+    <Text ID="153136" Value="Connessione"/>
+    <Text ID="153137" Value="Numero Serie"/>
+    <Text ID="153138" Value="Modulo ID"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Corrente Effettiva"/>
+    <Text ID="154719" Value="Errore"/>
+    <Text ID="154720" Value="Ok"/>
+    <Text ID="155182" Value="Motore Principale II (102)"/>
+    <Text ID="155928" Value="Velocità Effettiva"/>
+    <Text ID="155181" Value="Motore Principale I (101)"/>
+    <Text ID="163105" Value="Piu vecchio"/>
+    <Text ID="163106" Value="Piu nuovo"/>
+    <Text ID="163107" Value="Storico stato attuale"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Motore Principale I (101)"/>
+    <Text ID="221067" Value="Motore Principale II (102)"/>
+    <Text ID="221068" Value="Pronta"/>
+    <Text ID="221070" Value="In Funzione"/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Variante Hardware"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="153116" Value="Inlet Motor (101)"/>
+    <Text ID="153117" Value="Outlet Motor (102)"/>
+    <Text ID="153118" Value="Vakuum (103) (Option)"/>
+    <Text ID="153119" Value="Rail 1 (104)"/>
+    <Text ID="153121" Value="Rail 2 (105)"/>
+    <Text ID="153132" Value="Taajuusmuunnin"/>
+    <Text ID="153133" Value="Info"/>
+    <Text ID="153136" Value="Connection"/>
+    <Text ID="153137" Value="Serial Number"/>
+    <Text ID="153138" Value="Module ID"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Actual Current"/>
+    <Text ID="154719" Value="Error"/>
+    <Text ID="154720" Value="Ok"/>
+    <Text ID="155182" Value="Main Motor II (102)"/>
+    <Text ID="155928" Value="Actual Speed"/>
+    <Text ID="155181" Value="Main Motor I (101)"/>
+    <Text ID="163105" Value="Oldest"/>
+    <Text ID="163106" Value="Newest"/>
+    <Text ID="163107" Value="Actual Status History"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Main Motor I (101)"/>
+    <Text ID="221067" Value="Main Motor II (102)"/>
+    <Text ID="221068" Value="Valmis"/>
+    <Text ID="221070" Value="Käynnissä"/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Hardware Variant"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="153116" Value="Invoer Motor (101)"/>
+    <Text ID="153117" Value="Uitvoer Motor (102)"/>
+    <Text ID="153118" Value="Vacüum (103) (Option)"/>
+    <Text ID="153119" Value="Rail 1 (104)"/>
+    <Text ID="153121" Value="Rail 2 (105)"/>
+    <Text ID="153132" Value="Frequentieregelaar"/>
+    <Text ID="153133" Value="Info"/>
+    <Text ID="153136" Value="Verbinding"/>
+    <Text ID="153137" Value="Serie Nummer"/>
+    <Text ID="153138" Value="Moduul ID"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Actuele Spanning"/>
+    <Text ID="154719" Value="Fout"/>
+    <Text ID="154720" Value="Ok"/>
+    <Text ID="155182" Value="Hoofd Motor II (102)"/>
+    <Text ID="155928" Value="Actuele Snelheid"/>
+    <Text ID="155181" Value="Hoofd Motor I (101)"/>
+    <Text ID="163105" Value="Oudste"/>
+    <Text ID="163106" Value="Nieuwste"/>
+    <Text ID="163107" Value="Actueel Status Verleden"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Hoofd Motor I (101)"/>
+    <Text ID="221067" Value="Hoofd Motor II (102)"/>
+    <Text ID="221068" Value="Klaar"/>
+    <Text ID="221070" Value="In bedrijf"/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Hardware Variant"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="153116" Value="Inlet Motor (101)"/>
+    <Text ID="153117" Value="Outlet Motor (102)"/>
+    <Text ID="153118" Value="Vakuum (103) (Option)"/>
+    <Text ID="153119" Value="Rail 1 (104)"/>
+    <Text ID="153121" Value="Rail 2 (105)"/>
+    <Text ID="153132" Value="Inversor"/>
+    <Text ID="153133" Value="Info"/>
+    <Text ID="153136" Value="Connection"/>
+    <Text ID="153137" Value="Serial Number"/>
+    <Text ID="153138" Value="Module ID"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Actual Current"/>
+    <Text ID="154719" Value="Error"/>
+    <Text ID="154720" Value="Correcto"/>
+    <Text ID="155182" Value="Main Motor II (102)"/>
+    <Text ID="155928" Value="Actual Speed"/>
+    <Text ID="155181" Value="Main Motor I (101)"/>
+    <Text ID="163105" Value="Oldest"/>
+    <Text ID="163106" Value="Newest"/>
+    <Text ID="163107" Value="Actual Status History"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Main Motor I (101)"/>
+    <Text ID="221067" Value="Main Motor II (102)"/>
+    <Text ID="221068" Value="Listo"/>
+    <Text ID="221070" Value="En funcionamiento"/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Hardware Variant"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="153116" Value="Inlet Motor (101)"/>
+    <Text ID="153117" Value="Outlet Motor (102)"/>
+    <Text ID="153118" Value="Vakuum (103) (Option)"/>
+    <Text ID="153119" Value="Rail 1 (104)"/>
+    <Text ID="153121" Value="Rail 2 (105)"/>
+    <Text ID="153132" Value="Status Inwertera (CAN)"/>
+    <Text ID="153133" Value="Info"/>
+    <Text ID="153136" Value="Connection"/>
+    <Text ID="153137" Value="Serial Number"/>
+    <Text ID="153138" Value="Module ID"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Actual Current"/>
+    <Text ID="154719" Value="Error"/>
+    <Text ID="154720" Value="Ok"/>
+    <Text ID="155182" Value="Main Motor II (102)"/>
+    <Text ID="155928" Value="Actual Speed"/>
+    <Text ID="155181" Value="Main Motor I (101)"/>
+    <Text ID="163105" Value="Oldest"/>
+    <Text ID="163106" Value="Newest"/>
+    <Text ID="163107" Value="Actual Status History"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Main Motor I (101)"/>
+    <Text ID="221067" Value="Main Motor II (102)"/>
+    <Text ID="221068" Value="Gotowy"/>
+    <Text ID="221070" Value="Pracujący"/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Hardware Variant"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="153116" Value="Мотор на входе (101)"/>
+    <Text ID="153117" Value="Выход Двигатель (102)"/>
+    <Text ID="153118" Value="Вакуум (103) (Option)"/>
+    <Text ID="153119" Value="Рельс 1 (104)"/>
+    <Text ID="153121" Value="Рельс 2 (105)"/>
+    <Text ID="153132" Value="Преобразователь"/>
+    <Text ID="153133" Value="инфо"/>
+    <Text ID="153136" Value="Соединение"/>
+    <Text ID="153137" Value="Серийный Номер"/>
+    <Text ID="153138" Value="Идентификация Модуля"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Фактич. Ток"/>
+    <Text ID="154719" Value="Ошибка"/>
+    <Text ID="154720" Value="В порядке"/>
+    <Text ID="155182" Value="Главный Мотор II (102)"/>
+    <Text ID="155928" Value="Фактич. Скорость"/>
+    <Text ID="155181" Value="Главный Мотор I (101)"/>
+    <Text ID="163105" Value="Старейший"/>
+    <Text ID="163106" Value="Новейший"/>
+    <Text ID="163107" Value="Фактич. Статус История"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Главный Мотор I (101)"/>
+    <Text ID="221067" Value="Главный Мотор II (102)"/>
+    <Text ID="221068" Value="Готово"/>
+    <Text ID="221070" Value="Действие"/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Аппаратные средства ЭВМ Variant"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="153116" Value="Inlet Motor (101)"/>
+    <Text ID="153117" Value="Outlet Motor (102)"/>
+    <Text ID="153118" Value="Vakuum (103) (Option)"/>
+    <Text ID="153119" Value="Rail 1 (104)"/>
+    <Text ID="153121" Value="Rail 2 (105)"/>
+    <Text ID="153132" Value="Inverter"/>
+    <Text ID="153133" Value="Info"/>
+    <Text ID="153136" Value="Connection"/>
+    <Text ID="153137" Value="Serial Number"/>
+    <Text ID="153138" Value="Module ID"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Status Code 1"/>
+    <Text ID="154715" Value="Actual Temp. %"/>
+    <Text ID="154716" Value="Actual Current"/>
+    <Text ID="154719" Value="Error"/>
+    <Text ID="154720" Value="Ok"/>
+    <Text ID="155182" Value="Main Motor II (102)"/>
+    <Text ID="155928" Value="Actual Speed"/>
+    <Text ID="155181" Value="Main Motor I (101)"/>
+    <Text ID="163105" Value="Oldest"/>
+    <Text ID="163106" Value="Newest"/>
+    <Text ID="163107" Value="Actual Status History"/>
+    <Text ID="219028" Value="Firmware Variant"/>
+    <Text ID="220046" Value="Status Code 2"/>
+    <Text ID="221065" Value="Main Motor I (101)"/>
+    <Text ID="221067" Value="Main Motor II (102)"/>
+    <Text ID="221068" Value="Ready"/>
+    <Text ID="221070" Value="Running"/>
+    <Text ID="221071" Value="Not Ready"/>
+    <Text ID="221072" Value="Safe Torque OFF"/>
+    <Text ID="221073" Value="Thermofault Motor"/>
+    <Text ID="221074" Value="Thermofault Motor Wait"/>
+    <Text ID="222093" Value="No Line Power"/>
+    <Text ID="222094" Value="No Connection"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Thermofault Motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink Communication OFF (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Hardware Variant"/>
+    <Text ID="224232" Value="No Start/Stop Command"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="153116" Value=""/>
+    <Text ID="153117" Value=""/>
+    <Text ID="153118" Value=""/>
+    <Text ID="153119" Value=""/>
+    <Text ID="153121" Value=""/>
+    <Text ID="153132" Value=""/>
+    <Text ID="153133" Value=""/>
+    <Text ID="153136" Value=""/>
+    <Text ID="153137" Value=""/>
+    <Text ID="153138" Value=""/>
+    <Text ID="154034" Value=""/>
+    <Text ID="154714" Value=""/>
+    <Text ID="154715" Value=""/>
+    <Text ID="154716" Value=""/>
+    <Text ID="154719" Value=""/>
+    <Text ID="154720" Value=""/>
+    <Text ID="155182" Value=""/>
+    <Text ID="155928" Value=""/>
+    <Text ID="155181" Value=""/>
+    <Text ID="163105" Value=""/>
+    <Text ID="163106" Value=""/>
+    <Text ID="163107" Value=""/>
+    <Text ID="219028" Value=""/>
+    <Text ID="220046" Value=""/>
+    <Text ID="221065" Value=""/>
+    <Text ID="221067" Value=""/>
+    <Text ID="221068" Value=""/>
+    <Text ID="221070" Value=""/>
+    <Text ID="221071" Value=""/>
+    <Text ID="221072" Value=""/>
+    <Text ID="221073" Value=""/>
+    <Text ID="221074" Value=""/>
+    <Text ID="222093" Value=""/>
+    <Text ID="222094" Value=""/>
+    <Text ID="222095" Value=""/>
+    <Text ID="222097" Value=""/>
+    <Text ID="222098" Value=""/>
+    <Text ID="222099" Value=""/>
+    <Text ID="222100" Value=""/>
+    <Text ID="222101" Value=""/>
+    <Text ID="222102" Value=""/>
+    <Text ID="222103" Value=""/>
+    <Text ID="222104" Value=""/>
+    <Text ID="222105" Value=""/>
+    <Text ID="222106" Value=""/>
+    <Text ID="222107" Value=""/>
+    <Text ID="222108" Value=""/>
+    <Text ID="222109" Value=""/>
+    <Text ID="222110" Value=""/>
+    <Text ID="222111" Value=""/>
+    <Text ID="222112" Value=""/>
+    <Text ID="222113" Value=""/>
+    <Text ID="222114" Value=""/>
+    <Text ID="222115" Value=""/>
+    <Text ID="222116" Value=""/>
+    <Text ID="222117" Value=""/>
+    <Text ID="222118" Value=""/>
+    <Text ID="222119" Value=""/>
+    <Text ID="222120" Value=""/>
+    <Text ID="222121" Value=""/>
+    <Text ID="222122" Value=""/>
+    <Text ID="222123" Value=""/>
+    <Text ID="222124" Value=""/>
+    <Text ID="222125" Value=""/>
+    <Text ID="222126" Value=""/>
+    <Text ID="222127" Value=""/>
+    <Text ID="222128" Value=""/>
+    <Text ID="222129" Value=""/>
+    <Text ID="222130" Value=""/>
+    <Text ID="222131" Value=""/>
+    <Text ID="222132" Value=""/>
+    <Text ID="222133" Value=""/>
+    <Text ID="222134" Value=""/>
+    <Text ID="222135" Value=""/>
+    <Text ID="222136" Value=""/>
+    <Text ID="222137" Value=""/>
+    <Text ID="222138" Value=""/>
+    <Text ID="222139" Value=""/>
+    <Text ID="222140" Value=""/>
+    <Text ID="222141" Value=""/>
+    <Text ID="222142" Value=""/>
+    <Text ID="222143" Value=""/>
+    <Text ID="222144" Value=""/>
+    <Text ID="222145" Value=""/>
+    <Text ID="222146" Value=""/>
+    <Text ID="222147" Value=""/>
+    <Text ID="222148" Value=""/>
+    <Text ID="222149" Value=""/>
+    <Text ID="222150" Value=""/>
+    <Text ID="222151" Value=""/>
+    <Text ID="222152" Value=""/>
+    <Text ID="222153" Value=""/>
+    <Text ID="222154" Value=""/>
+    <Text ID="222155" Value=""/>
+    <Text ID="222156" Value=""/>
+    <Text ID="222157" Value=""/>
+    <Text ID="222158" Value=""/>
+    <Text ID="222159" Value=""/>
+    <Text ID="222160" Value=""/>
+    <Text ID="222161" Value=""/>
+    <Text ID="222162" Value=""/>
+    <Text ID="222163" Value=""/>
+    <Text ID="222164" Value=""/>
+    <Text ID="222165" Value=""/>
+    <Text ID="222166" Value=""/>
+    <Text ID="222167" Value=""/>
+    <Text ID="222168" Value=""/>
+    <Text ID="222169" Value=""/>
+    <Text ID="222194" Value=""/>
+    <Text ID="223213" Value=""/>
+    <Text ID="224232" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="153116" Value=""/>
+    <Text ID="153117" Value=""/>
+    <Text ID="153118" Value=""/>
+    <Text ID="153119" Value=""/>
+    <Text ID="153121" Value=""/>
+    <Text ID="153132" Value=""/>
+    <Text ID="153133" Value=""/>
+    <Text ID="153136" Value=""/>
+    <Text ID="153137" Value=""/>
+    <Text ID="153138" Value=""/>
+    <Text ID="154034" Value=""/>
+    <Text ID="154714" Value=""/>
+    <Text ID="154715" Value=""/>
+    <Text ID="154716" Value=""/>
+    <Text ID="154719" Value=""/>
+    <Text ID="154720" Value=""/>
+    <Text ID="155182" Value=""/>
+    <Text ID="155928" Value=""/>
+    <Text ID="155181" Value=""/>
+    <Text ID="163105" Value=""/>
+    <Text ID="163106" Value=""/>
+    <Text ID="163107" Value=""/>
+    <Text ID="219028" Value=""/>
+    <Text ID="220046" Value=""/>
+    <Text ID="221065" Value=""/>
+    <Text ID="221067" Value=""/>
+    <Text ID="221068" Value=""/>
+    <Text ID="221070" Value=""/>
+    <Text ID="221071" Value=""/>
+    <Text ID="221072" Value=""/>
+    <Text ID="221073" Value=""/>
+    <Text ID="221074" Value=""/>
+    <Text ID="222093" Value=""/>
+    <Text ID="222094" Value=""/>
+    <Text ID="222095" Value=""/>
+    <Text ID="222097" Value=""/>
+    <Text ID="222098" Value=""/>
+    <Text ID="222099" Value=""/>
+    <Text ID="222100" Value=""/>
+    <Text ID="222101" Value=""/>
+    <Text ID="222102" Value=""/>
+    <Text ID="222103" Value=""/>
+    <Text ID="222104" Value=""/>
+    <Text ID="222105" Value=""/>
+    <Text ID="222106" Value=""/>
+    <Text ID="222107" Value=""/>
+    <Text ID="222108" Value=""/>
+    <Text ID="222109" Value=""/>
+    <Text ID="222110" Value=""/>
+    <Text ID="222111" Value=""/>
+    <Text ID="222112" Value=""/>
+    <Text ID="222113" Value=""/>
+    <Text ID="222114" Value=""/>
+    <Text ID="222115" Value=""/>
+    <Text ID="222116" Value=""/>
+    <Text ID="222117" Value=""/>
+    <Text ID="222118" Value=""/>
+    <Text ID="222119" Value=""/>
+    <Text ID="222120" Value=""/>
+    <Text ID="222121" Value=""/>
+    <Text ID="222122" Value=""/>
+    <Text ID="222123" Value=""/>
+    <Text ID="222124" Value=""/>
+    <Text ID="222125" Value=""/>
+    <Text ID="222126" Value=""/>
+    <Text ID="222127" Value=""/>
+    <Text ID="222128" Value=""/>
+    <Text ID="222129" Value=""/>
+    <Text ID="222130" Value=""/>
+    <Text ID="222131" Value=""/>
+    <Text ID="222132" Value=""/>
+    <Text ID="222133" Value=""/>
+    <Text ID="222134" Value=""/>
+    <Text ID="222135" Value=""/>
+    <Text ID="222136" Value=""/>
+    <Text ID="222137" Value=""/>
+    <Text ID="222138" Value=""/>
+    <Text ID="222139" Value=""/>
+    <Text ID="222140" Value=""/>
+    <Text ID="222141" Value=""/>
+    <Text ID="222142" Value=""/>
+    <Text ID="222143" Value=""/>
+    <Text ID="222144" Value=""/>
+    <Text ID="222145" Value=""/>
+    <Text ID="222146" Value=""/>
+    <Text ID="222147" Value=""/>
+    <Text ID="222148" Value=""/>
+    <Text ID="222149" Value=""/>
+    <Text ID="222150" Value=""/>
+    <Text ID="222151" Value=""/>
+    <Text ID="222152" Value=""/>
+    <Text ID="222153" Value=""/>
+    <Text ID="222154" Value=""/>
+    <Text ID="222155" Value=""/>
+    <Text ID="222156" Value=""/>
+    <Text ID="222157" Value=""/>
+    <Text ID="222158" Value=""/>
+    <Text ID="222159" Value=""/>
+    <Text ID="222160" Value=""/>
+    <Text ID="222161" Value=""/>
+    <Text ID="222162" Value=""/>
+    <Text ID="222163" Value=""/>
+    <Text ID="222164" Value=""/>
+    <Text ID="222165" Value=""/>
+    <Text ID="222166" Value=""/>
+    <Text ID="222167" Value=""/>
+    <Text ID="222168" Value=""/>
+    <Text ID="222169" Value=""/>
+    <Text ID="222194" Value=""/>
+    <Text ID="223213" Value=""/>
+    <Text ID="224232" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="153116" Value=""/>
+    <Text ID="153117" Value=""/>
+    <Text ID="153118" Value=""/>
+    <Text ID="153119" Value=""/>
+    <Text ID="153121" Value=""/>
+    <Text ID="153132" Value=""/>
+    <Text ID="153133" Value=""/>
+    <Text ID="153136" Value=""/>
+    <Text ID="153137" Value=""/>
+    <Text ID="153138" Value=""/>
+    <Text ID="154034" Value=""/>
+    <Text ID="154714" Value=""/>
+    <Text ID="154715" Value=""/>
+    <Text ID="154716" Value=""/>
+    <Text ID="154719" Value=""/>
+    <Text ID="154720" Value=""/>
+    <Text ID="155182" Value=""/>
+    <Text ID="155928" Value=""/>
+    <Text ID="155181" Value=""/>
+    <Text ID="163105" Value=""/>
+    <Text ID="163106" Value=""/>
+    <Text ID="163107" Value=""/>
+    <Text ID="219028" Value=""/>
+    <Text ID="220046" Value=""/>
+    <Text ID="221065" Value=""/>
+    <Text ID="221067" Value=""/>
+    <Text ID="221068" Value=""/>
+    <Text ID="221070" Value=""/>
+    <Text ID="221071" Value=""/>
+    <Text ID="221072" Value=""/>
+    <Text ID="221073" Value=""/>
+    <Text ID="221074" Value=""/>
+    <Text ID="222093" Value=""/>
+    <Text ID="222094" Value=""/>
+    <Text ID="222095" Value=""/>
+    <Text ID="222097" Value=""/>
+    <Text ID="222098" Value=""/>
+    <Text ID="222099" Value=""/>
+    <Text ID="222100" Value=""/>
+    <Text ID="222101" Value=""/>
+    <Text ID="222102" Value=""/>
+    <Text ID="222103" Value=""/>
+    <Text ID="222104" Value=""/>
+    <Text ID="222105" Value=""/>
+    <Text ID="222106" Value=""/>
+    <Text ID="222107" Value=""/>
+    <Text ID="222108" Value=""/>
+    <Text ID="222109" Value=""/>
+    <Text ID="222110" Value=""/>
+    <Text ID="222111" Value=""/>
+    <Text ID="222112" Value=""/>
+    <Text ID="222113" Value=""/>
+    <Text ID="222114" Value=""/>
+    <Text ID="222115" Value=""/>
+    <Text ID="222116" Value=""/>
+    <Text ID="222117" Value=""/>
+    <Text ID="222118" Value=""/>
+    <Text ID="222119" Value=""/>
+    <Text ID="222120" Value=""/>
+    <Text ID="222121" Value=""/>
+    <Text ID="222122" Value=""/>
+    <Text ID="222123" Value=""/>
+    <Text ID="222124" Value=""/>
+    <Text ID="222125" Value=""/>
+    <Text ID="222126" Value=""/>
+    <Text ID="222127" Value=""/>
+    <Text ID="222128" Value=""/>
+    <Text ID="222129" Value=""/>
+    <Text ID="222130" Value=""/>
+    <Text ID="222131" Value=""/>
+    <Text ID="222132" Value=""/>
+    <Text ID="222133" Value=""/>
+    <Text ID="222134" Value=""/>
+    <Text ID="222135" Value=""/>
+    <Text ID="222136" Value=""/>
+    <Text ID="222137" Value=""/>
+    <Text ID="222138" Value=""/>
+    <Text ID="222139" Value=""/>
+    <Text ID="222140" Value=""/>
+    <Text ID="222141" Value=""/>
+    <Text ID="222142" Value=""/>
+    <Text ID="222143" Value=""/>
+    <Text ID="222144" Value=""/>
+    <Text ID="222145" Value=""/>
+    <Text ID="222146" Value=""/>
+    <Text ID="222147" Value=""/>
+    <Text ID="222148" Value=""/>
+    <Text ID="222149" Value=""/>
+    <Text ID="222150" Value=""/>
+    <Text ID="222151" Value=""/>
+    <Text ID="222152" Value=""/>
+    <Text ID="222153" Value=""/>
+    <Text ID="222154" Value=""/>
+    <Text ID="222155" Value=""/>
+    <Text ID="222156" Value=""/>
+    <Text ID="222157" Value=""/>
+    <Text ID="222158" Value=""/>
+    <Text ID="222159" Value=""/>
+    <Text ID="222160" Value=""/>
+    <Text ID="222161" Value=""/>
+    <Text ID="222162" Value=""/>
+    <Text ID="222163" Value=""/>
+    <Text ID="222164" Value=""/>
+    <Text ID="222165" Value=""/>
+    <Text ID="222166" Value=""/>
+    <Text ID="222167" Value=""/>
+    <Text ID="222168" Value=""/>
+    <Text ID="222169" Value=""/>
+    <Text ID="222194" Value=""/>
+    <Text ID="223213" Value=""/>
+    <Text ID="224232" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="153116" Value="Innløp motor (101)"/>
+    <Text ID="153117" Value="Utløp motor (102)"/>
+    <Text ID="153118" Value="Vakuum (103) (alternativ)"/>
+    <Text ID="153119" Value="Spor 1 (104)"/>
+    <Text ID="153121" Value="Spor 2 (105)"/>
+    <Text ID="153132" Value="Inverter"/>
+    <Text ID="153133" Value="Info"/>
+    <Text ID="153136" Value="Kobling"/>
+    <Text ID="153137" Value="Serienummer"/>
+    <Text ID="153138" Value="Modul-ID"/>
+    <Text ID="154034" Value="[No fault] (nOF)"/>
+    <Text ID="154714" Value="Statuskode 1"/>
+    <Text ID="154715" Value="Aktuell temp. %"/>
+    <Text ID="154716" Value="Nåværende spenning"/>
+    <Text ID="154719" Value="Error"/>
+    <Text ID="154720" Value="OK"/>
+    <Text ID="155182" Value="Hovedmotor II (102)"/>
+    <Text ID="155928" Value="Aktuell hastighet"/>
+    <Text ID="155181" Value="Hovedmotor I (101)"/>
+    <Text ID="163105" Value="Eldste"/>
+    <Text ID="163106" Value="Nyeste"/>
+    <Text ID="163107" Value="Aktuell statushistorie"/>
+    <Text ID="219028" Value="Firmware variant"/>
+    <Text ID="220046" Value="Statuskode 2"/>
+    <Text ID="221065" Value="Hovedmotor I (101)"/>
+    <Text ID="221067" Value="Hovedmotor II (102)"/>
+    <Text ID="221068" Value="Klar"/>
+    <Text ID="221070" Value="Kjører"/>
+    <Text ID="221071" Value="Ikke klar"/>
+    <Text ID="221072" Value="Sikkert dreiepunkt AV"/>
+    <Text ID="221073" Value="Termofeil motor"/>
+    <Text ID="221074" Value="Termofeil motor vent"/>
+    <Text ID="222093" Value="Ingen linje strøm"/>
+    <Text ID="222094" Value="Ingen forbindelse"/>
+    <Text ID="222095" Value="[Calibration error] (InF)"/>
+    <Text ID="222097" Value="[Control Eeprom] (EEF1)"/>
+    <Text ID="222098" Value="[Incorrect config.] (CFF)"/>
+    <Text ID="222099" Value="[Invalid config.] (CFI)"/>
+    <Text ID="222100" Value="[Modbus com.] (SLF1)"/>
+    <Text ID="222101" Value="[int. com.link] (ILF)"/>
+    <Text ID="222102" Value="[Com. network] (CnF)"/>
+    <Text ID="222103" Value="Termofeil motor (EPF1)"/>
+    <Text ID="222104" Value="[Overcurrent] (OCF)"/>
+    <Text ID="222105" Value="[Precharge] (CrF)"/>
+    <Text ID="222106" Value="[Speed fdback loss] (SPF)"/>
+    <Text ID="222107" Value="[Load slipping] (AnF)"/>
+    <Text ID="222108" Value="[AI2 4-20mA loss] (LFF2)"/>
+    <Text ID="222109" Value="[PTC1 probe] (PtF1)"/>
+    <Text ID="222110" Value="[PTC1 overheat] (OtF1)"/>
+    <Text ID="222111" Value="[Drive overheat] (OHF)"/>
+    <Text ID="222112" Value="[Motor overload] (OLF)"/>
+    <Text ID="222113" Value="[Overbraking] (ObF)"/>
+    <Text ID="222114" Value="[Mains overvoltage] (OSF)"/>
+    <Text ID="222115" Value="[1 output phase loss] (OPF1)"/>
+    <Text ID="222116" Value="[Input phase loss] (PHF)"/>
+    <Text ID="222117" Value="[Undervoltage] (USF)"/>
+    <Text ID="222118" Value="[Motor short circuit] (SCF1)"/>
+    <Text ID="222119" Value="[Overspeed] (SOF)"/>
+    <Text ID="222120" Value="[Auto-tuning] (tnF)"/>
+    <Text ID="222121" Value="[Rating error] (InF1)"/>
+    <Text ID="222122" Value="[PWR Calib.] (InF2)"/>
+    <Text ID="222123" Value="[Int.serial link] (InF3)"/>
+    <Text ID="222124" Value="[Int.Mfg area] (InF4)"/>
+    <Text ID="222125" Value="[Power Eeprom] (EEF2)"/>
+    <Text ID="222126" Value="[Impedant sh. circuit] (SCF2)"/>
+    <Text ID="222127" Value="[Ground short circuit] (SCF3)"/>
+    <Text ID="222128" Value="[3out ph loss] (OPF2)"/>
+    <Text ID="222129" Value="Powerlink-kommunikasjon AV (COF)"/>
+    <Text ID="222130" Value="[Brake control] (bLF)"/>
+    <Text ID="222131" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222132" Value="[Internal-hard init.] (InF7)"/>
+    <Text ID="222133" Value="[External fault com.] (EPF2)"/>
+    <Text ID="222134" Value="[Application fault] (APF)"/>
+    <Text ID="222135" Value="[Internal-ctrl supply] (InF8)"/>
+    <Text ID="222136" Value="[Brake feedback] (brF)"/>
+    <Text ID="222137" Value="[PowerSuite com.] (SLF2)"/>
+    <Text ID="222138" Value="[Enc. coupl.] (ECF)"/>
+    <Text ID="222139" Value="[Torque/current lim] (SSF)"/>
+    <Text ID="222140" Value="[HMI com.] (SLF3)"/>
+    <Text ID="222141" Value="[Power removal] (PrF)"/>
+    <Text ID="222142" Value="[PTC2 probe] (PtF2)"/>
+    <Text ID="222143" Value="[PTC2 overheat] (OtF2)"/>
+    <Text ID="222144" Value="[LI6=PTC probe] (PtFL)"/>
+    <Text ID="222145" Value="[PTC fault] (OtFL)"/>
+    <Text ID="222146" Value="[Internal- I measure] (InF9)"/>
+    <Text ID="222147" Value="[Internal-mains circuit] (InFA)"/>
+    <Text ID="222148" Value="[Internal- th. sensor] (InFb)"/>
+    <Text ID="222149" Value="[IGBT overheat] (tJF)"/>
+    <Text ID="222150" Value="[IGBT short circuit] (SCF4)"/>
+    <Text ID="222151" Value="[Motor short circuit] (SCF5)"/>
+    <Text ID="222152" Value="[Torque time-out] (SrF)"/>
+    <Text ID="222153" Value="[Out. contact. stuck] (FCF1)"/>
+    <Text ID="222154" Value="[Out. contact. open.] (FCF2)"/>
+    <Text ID="222155" Value="[Int. T meas.] (InFC)"/>
+    <Text ID="222156" Value="[AI2 input] (AI2F)"/>
+    <Text ID="222157" Value="[Encoder] (EnF)"/>
+    <Text ID="222158" Value="[Thyr. soft charge] (CrF2)"/>
+    <Text ID="222159" Value="[input contactor] (LCF)"/>
+    <Text ID="222160" Value="[DB unit sh. circuit] (bUF)"/>
+    <Text ID="222161" Value="[Diff. I fault] (dCF)"/>
+    <Text ID="222162" Value="[IGBT desaturation] (HdF)"/>
+    <Text ID="222163" Value="[Internal-option] (InF6)"/>
+    <Text ID="222164" Value="[internal- CPU] (InFE)"/>
+    <Text ID="222165" Value="[BR overload] (bOF)"/>
+    <Text ID="222166" Value="[AI3 4-20mA loss] (LFF3)"/>
+    <Text ID="222167" Value="[AI4 4-20mA loss] (LFF4)"/>
+    <Text ID="222168" Value="[Cards pairing] (HCF)"/>
+    <Text ID="222169" Value="[Load fault] (dLF)"/>
+    <Text ID="222194" Value="[Ch.sw. fault] (CSF)"/>
+    <Text ID="223213" Value="Maskinvarevariant"/>
+    <Text ID="224232" Value="Ingen start/stopp-kommando"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="153116" Value=""/>
+    <Text ID="153117" Value=""/>
+    <Text ID="153118" Value=""/>
+    <Text ID="153119" Value=""/>
+    <Text ID="153121" Value=""/>
+    <Text ID="153132" Value=""/>
+    <Text ID="153133" Value=""/>
+    <Text ID="153136" Value=""/>
+    <Text ID="153137" Value=""/>
+    <Text ID="153138" Value=""/>
+    <Text ID="154034" Value=""/>
+    <Text ID="154714" Value=""/>
+    <Text ID="154715" Value=""/>
+    <Text ID="154716" Value=""/>
+    <Text ID="154719" Value=""/>
+    <Text ID="154720" Value=""/>
+    <Text ID="155182" Value=""/>
+    <Text ID="155928" Value=""/>
+    <Text ID="155181" Value=""/>
+    <Text ID="163105" Value=""/>
+    <Text ID="163106" Value=""/>
+    <Text ID="163107" Value=""/>
+    <Text ID="219028" Value=""/>
+    <Text ID="220046" Value=""/>
+    <Text ID="221065" Value=""/>
+    <Text ID="221067" Value=""/>
+    <Text ID="221068" Value=""/>
+    <Text ID="221070" Value=""/>
+    <Text ID="221071" Value=""/>
+    <Text ID="221072" Value=""/>
+    <Text ID="221073" Value=""/>
+    <Text ID="221074" Value=""/>
+    <Text ID="222093" Value=""/>
+    <Text ID="222094" Value=""/>
+    <Text ID="222095" Value=""/>
+    <Text ID="222097" Value=""/>
+    <Text ID="222098" Value=""/>
+    <Text ID="222099" Value=""/>
+    <Text ID="222100" Value=""/>
+    <Text ID="222101" Value=""/>
+    <Text ID="222102" Value=""/>
+    <Text ID="222103" Value=""/>
+    <Text ID="222104" Value=""/>
+    <Text ID="222105" Value=""/>
+    <Text ID="222106" Value=""/>
+    <Text ID="222107" Value=""/>
+    <Text ID="222108" Value=""/>
+    <Text ID="222109" Value=""/>
+    <Text ID="222110" Value=""/>
+    <Text ID="222111" Value=""/>
+    <Text ID="222112" Value=""/>
+    <Text ID="222113" Value=""/>
+    <Text ID="222114" Value=""/>
+    <Text ID="222115" Value=""/>
+    <Text ID="222116" Value=""/>
+    <Text ID="222117" Value=""/>
+    <Text ID="222118" Value=""/>
+    <Text ID="222119" Value=""/>
+    <Text ID="222120" Value=""/>
+    <Text ID="222121" Value=""/>
+    <Text ID="222122" Value=""/>
+    <Text ID="222123" Value=""/>
+    <Text ID="222124" Value=""/>
+    <Text ID="222125" Value=""/>
+    <Text ID="222126" Value=""/>
+    <Text ID="222127" Value=""/>
+    <Text ID="222128" Value=""/>
+    <Text ID="222129" Value=""/>
+    <Text ID="222130" Value=""/>
+    <Text ID="222131" Value=""/>
+    <Text ID="222132" Value=""/>
+    <Text ID="222133" Value=""/>
+    <Text ID="222134" Value=""/>
+    <Text ID="222135" Value=""/>
+    <Text ID="222136" Value=""/>
+    <Text ID="222137" Value=""/>
+    <Text ID="222138" Value=""/>
+    <Text ID="222139" Value=""/>
+    <Text ID="222140" Value=""/>
+    <Text ID="222141" Value=""/>
+    <Text ID="222142" Value=""/>
+    <Text ID="222143" Value=""/>
+    <Text ID="222144" Value=""/>
+    <Text ID="222145" Value=""/>
+    <Text ID="222146" Value=""/>
+    <Text ID="222147" Value=""/>
+    <Text ID="222148" Value=""/>
+    <Text ID="222149" Value=""/>
+    <Text ID="222150" Value=""/>
+    <Text ID="222151" Value=""/>
+    <Text ID="222152" Value=""/>
+    <Text ID="222153" Value=""/>
+    <Text ID="222154" Value=""/>
+    <Text ID="222155" Value=""/>
+    <Text ID="222156" Value=""/>
+    <Text ID="222157" Value=""/>
+    <Text ID="222158" Value=""/>
+    <Text ID="222159" Value=""/>
+    <Text ID="222160" Value=""/>
+    <Text ID="222161" Value=""/>
+    <Text ID="222162" Value=""/>
+    <Text ID="222163" Value=""/>
+    <Text ID="222164" Value=""/>
+    <Text ID="222165" Value=""/>
+    <Text ID="222166" Value=""/>
+    <Text ID="222167" Value=""/>
+    <Text ID="222168" Value=""/>
+    <Text ID="222169" Value=""/>
+    <Text ID="222194" Value=""/>
+    <Text ID="223213" Value=""/>
+    <Text ID="224232" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="153116" Value="3000"/>
+    <Index ID="153117" Value="3001"/>
+    <Index ID="153118" Value="3002"/>
+    <Index ID="153119" Value="3003"/>
+    <Index ID="153121" Value="3004"/>
+    <Index ID="153132" Value="50000"/>
+    <Index ID="153133" Value="50001"/>
+    <Index ID="153136" Value="50002"/>
+    <Index ID="153137" Value="50003"/>
+    <Index ID="153138" Value="50004"/>
+    <Index ID="154034" Value="0"/>
+    <Index ID="154714" Value="50007"/>
+    <Index ID="154715" Value="50009"/>
+    <Index ID="154716" Value="50011"/>
+    <Index ID="154719" Value="50012"/>
+    <Index ID="154720" Value="50013"/>
+    <Index ID="155182" Value="5001"/>
+    <Index ID="155928" Value="50010"/>
+    <Index ID="155181" Value="5000"/>
+    <Index ID="163105" Value="51003"/>
+    <Index ID="163106" Value="51002"/>
+    <Index ID="163107" Value="51001"/>
+    <Index ID="219028" Value="50006"/>
+    <Index ID="220046" Value="50008"/>
+    <Index ID="221065" Value="6000"/>
+    <Index ID="221067" Value="6001"/>
+    <Index ID="221068" Value="110"/>
+    <Index ID="221070" Value="120"/>
+    <Index ID="221071" Value="100"/>
+    <Index ID="221072" Value="103"/>
+    <Index ID="221073" Value="104"/>
+    <Index ID="221074" Value="105"/>
+    <Index ID="222093" Value="111"/>
+    <Index ID="222094" Value="101"/>
+    <Index ID="222095" Value="1"/>
+    <Index ID="222097" Value="2"/>
+    <Index ID="222098" Value="3"/>
+    <Index ID="222099" Value="4"/>
+    <Index ID="222100" Value="5"/>
+    <Index ID="222101" Value="6"/>
+    <Index ID="222102" Value="7"/>
+    <Index ID="222103" Value="8"/>
+    <Index ID="222104" Value="9"/>
+    <Index ID="222105" Value="10"/>
+    <Index ID="222106" Value="11"/>
+    <Index ID="222107" Value="12"/>
+    <Index ID="222108" Value="13"/>
+    <Index ID="222109" Value="14"/>
+    <Index ID="222110" Value="15"/>
+    <Index ID="222111" Value="16"/>
+    <Index ID="222112" Value="17"/>
+    <Index ID="222113" Value="18"/>
+    <Index ID="222114" Value="19"/>
+    <Index ID="222115" Value="20"/>
+    <Index ID="222116" Value="21"/>
+    <Index ID="222117" Value="22"/>
+    <Index ID="222118" Value="23"/>
+    <Index ID="222119" Value="24"/>
+    <Index ID="222120" Value="25"/>
+    <Index ID="222121" Value="26"/>
+    <Index ID="222122" Value="27"/>
+    <Index ID="222123" Value="28"/>
+    <Index ID="222124" Value="29"/>
+    <Index ID="222125" Value="30"/>
+    <Index ID="222126" Value="31"/>
+    <Index ID="222127" Value="32"/>
+    <Index ID="222128" Value="33"/>
+    <Index ID="222129" Value="34"/>
+    <Index ID="222130" Value="35"/>
+    <Index ID="222131" Value="36"/>
+    <Index ID="222132" Value="37"/>
+    <Index ID="222133" Value="38"/>
+    <Index ID="222134" Value="39"/>
+    <Index ID="222135" Value="40"/>
+    <Index ID="222136" Value="41"/>
+    <Index ID="222137" Value="42"/>
+    <Index ID="222138" Value="43"/>
+    <Index ID="222139" Value="44"/>
+    <Index ID="222140" Value="45"/>
+    <Index ID="222141" Value="46"/>
+    <Index ID="222142" Value="47"/>
+    <Index ID="222143" Value="48"/>
+    <Index ID="222144" Value="49"/>
+    <Index ID="222145" Value="50"/>
+    <Index ID="222146" Value="51"/>
+    <Index ID="222147" Value="52"/>
+    <Index ID="222148" Value="53"/>
+    <Index ID="222149" Value="54"/>
+    <Index ID="222150" Value="55"/>
+    <Index ID="222151" Value="56"/>
+    <Index ID="222152" Value="57"/>
+    <Index ID="222153" Value="58"/>
+    <Index ID="222154" Value="59"/>
+    <Index ID="222155" Value="60"/>
+    <Index ID="222156" Value="61"/>
+    <Index ID="222157" Value="62"/>
+    <Index ID="222158" Value="63"/>
+    <Index ID="222159" Value="64"/>
+    <Index ID="222160" Value="65"/>
+    <Index ID="222161" Value="66"/>
+    <Index ID="222162" Value="67"/>
+    <Index ID="222163" Value="68"/>
+    <Index ID="222164" Value="69"/>
+    <Index ID="222165" Value="70"/>
+    <Index ID="222166" Value="71"/>
+    <Index ID="222167" Value="72"/>
+    <Index ID="222168" Value="73"/>
+    <Index ID="222169" Value="76"/>
+    <Index ID="222194" Value="99"/>
+    <Index ID="223213" Value="50005"/>
+    <Index ID="224232" Value="102"/>
+  </IndexMap>
+</TextGroup>

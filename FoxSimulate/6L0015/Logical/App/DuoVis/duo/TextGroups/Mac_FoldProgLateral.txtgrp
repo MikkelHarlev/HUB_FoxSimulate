@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_FoldProgLateral">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="34"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msec"/>
+    <Text ID="258735" Value="Width first part"/>
+    <Text ID="304657" Value="Left blade ontime"/>
+    <Text ID="304658" Value="Right blade ontime"/>
+    <Text ID="304659" Value="Width last part"/>
+    <Text ID="352400" Value="Left blade delay"/>
+    <Text ID="352401" Value="Right blade delay"/>
+    <Text ID="352402" Value="Blade return time"/>
+    <Text ID="360389" Value="Blades back"/>
+    <Text ID="360390" Value="Blade out"/>
+    <Text ID="361499" Value="Blade function"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msek"/>
+    <Text ID="258735" Value="Weite teil 1"/>
+    <Text ID="304657" Value="Linkes Schwert an-zeit"/>
+    <Text ID="304658" Value="Rechtes Schwert an-zeit"/>
+    <Text ID="304659" Value="Weite letztes Teil"/>
+    <Text ID="352400" Value="Linkes Schwert verzoegern"/>
+    <Text ID="352401" Value="Rechtes Schwert verzoegern"/>
+    <Text ID="352402" Value="Schwert an-zeit"/>
+    <Text ID="360389" Value="Schwerter zurrueck"/>
+    <Text ID="360390" Value="Schwert raus"/>
+    <Text ID="361499" Value="Schwert Funktion"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="tum "/>
+    <Text ID="258732" Value="ms"/>
+    <Text ID="258735" Value="Bredd på första delen"/>
+    <Text ID="304657" Value="Vänster kniv påtid"/>
+    <Text ID="304658" Value="Höger kniv påtid"/>
+    <Text ID="304659" Value="Bredd sista delen"/>
+    <Text ID="352400" Value="Vänster kniv fördröjning"/>
+    <Text ID="352401" Value="Höger kniv fördröjning"/>
+    <Text ID="352402" Value="Kniv returtid"/>
+    <Text ID="360389" Value="Knivar tillbaka"/>
+    <Text ID="360390" Value="Kniv ut"/>
+    <Text ID="361499" Value="Kniv funktion"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="pouce"/>
+    <Text ID="258732" Value="ms"/>
+    <Text ID="258735" Value="Largeur première pièce"/>
+    <Text ID="304657" Value="Durée activ. lame gauche"/>
+    <Text ID="304658" Value="Durée activ. lame droite"/>
+    <Text ID="304659" Value="Largeur dernière pièce"/>
+    <Text ID="352400" Value="Lame gauche retard"/>
+    <Text ID="352401" Value="Lame droite retard"/>
+    <Text ID="352402" Value="Temps de retour lame"/>
+    <Text ID="360389" Value="Lames retour"/>
+    <Text ID="360390" Value="Lame sortie"/>
+    <Text ID="361499" Value="Fonction lame"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msek"/>
+    <Text ID="258735" Value="Bredde første del"/>
+    <Text ID="304657" Value="Tid venstre foldeblad til"/>
+    <Text ID="304658" Value="Tid højre foldeblad til"/>
+    <Text ID="304659" Value="Bredde siste del"/>
+    <Text ID="352400" Value="Forsinkelse venstre foldeblad"/>
+    <Text ID="352401" Value="Forsinkelse højre foldeblad"/>
+    <Text ID="352402" Value="Tid foldeblad tilbage"/>
+    <Text ID="360389" Value="Foldeplader tilbage"/>
+    <Text ID="360390" Value="Foldeblad ind"/>
+    <Text ID="361499" Value="Foldebladsfunktion"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="pollici"/>
+    <Text ID="258732" Value="millisec"/>
+    <Text ID="258735" Value="Larghezza prima parte"/>
+    <Text ID="304657" Value="Lama Sinistra in Tempo"/>
+    <Text ID="304658" Value="Lama Destra in Tempo"/>
+    <Text ID="304659" Value="larghezza ultima parte"/>
+    <Text ID="352400" Value="Ritardo Lama sinistra"/>
+    <Text ID="352401" Value="Ritardo Lama Destra"/>
+    <Text ID="352402" Value="Lama Tempo Ritorno"/>
+    <Text ID="360389" Value="Lama Indietro"/>
+    <Text ID="360390" Value="Lama Attivata"/>
+    <Text ID="361499" Value="Lama Funzione"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msec"/>
+    <Text ID="258735" Value="Width first part"/>
+    <Text ID="304657" Value="Left blade ontime"/>
+    <Text ID="304658" Value="Right blade ontime"/>
+    <Text ID="304659" Value="Width last part"/>
+    <Text ID="352400" Value="Left blade delay"/>
+    <Text ID="352401" Value="Right blade delay"/>
+    <Text ID="352402" Value="Blade return time"/>
+    <Text ID="360389" Value="Blades back"/>
+    <Text ID="360390" Value="Blade out"/>
+    <Text ID="361499" Value="Blade function"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msec"/>
+    <Text ID="258735" Value="Breedte eerste gedeelte"/>
+    <Text ID="304657" Value="Linker vouwschuif uit"/>
+    <Text ID="304658" Value="Rechter vouwschuif uit"/>
+    <Text ID="304659" Value="Breedte laatste gedeelte"/>
+    <Text ID="352400" Value="Vertraging vouwschuif links"/>
+    <Text ID="352401" Value="Vertraging vouwschuif rechts"/>
+    <Text ID="352402" Value="Schuiven retour tijd"/>
+    <Text ID="360389" Value="Schuiven terug"/>
+    <Text ID="360390" Value="Schuiven uit"/>
+    <Text ID="361499" Value="Mesfunctie"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="pulg"/>
+    <Text ID="258732" Value="ms"/>
+    <Text ID="258735" Value="Anchura de primera parte "/>
+    <Text ID="304657" Value="Tiempo de cuchilla izquierda activa"/>
+    <Text ID="304658" Value="Tiempo de cuchilla derecha activa"/>
+    <Text ID="304659" Value="Anchura de última parte "/>
+    <Text ID="352400" Value="Retardo de cuchilla izquierda"/>
+    <Text ID="352401" Value="Retardo de cuchilla derecha"/>
+    <Text ID="352402" Value="Tiempo de retorno de cuchilla"/>
+    <Text ID="360389" Value="Cuchillas atrás"/>
+    <Text ID="360390" Value="Cuchillas fuera"/>
+    <Text ID="361499" Value="Función de cuchilla"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="cale"/>
+    <Text ID="258732" Value="msek"/>
+    <Text ID="258735" Value="Szerokość pierwszej części"/>
+    <Text ID="304657" Value="Czas włączenia lewej łopatki"/>
+    <Text ID="304658" Value="Czas włączenia prawej łopatki"/>
+    <Text ID="304659" Value="Szerokość ostatniej części"/>
+    <Text ID="352400" Value="Opóźnienie lewej łopatki"/>
+    <Text ID="352401" Value="Opóźnienie prawej łopatki"/>
+    <Text ID="352402" Value="Czas powrotu łopatki"/>
+    <Text ID="360389" Value="Powrót łopatek"/>
+    <Text ID="360390" Value="Łopatka na zewnątrz"/>
+    <Text ID="361499" Value="Działanie łopatek"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="258730" Value=""/>
+    <Text ID="258731" Value=""/>
+    <Text ID="258732" Value=""/>
+    <Text ID="258735" Value=""/>
+    <Text ID="304657" Value=""/>
+    <Text ID="304658" Value=""/>
+    <Text ID="304659" Value=""/>
+    <Text ID="352400" Value=""/>
+    <Text ID="352401" Value=""/>
+    <Text ID="352402" Value=""/>
+    <Text ID="360389" Value=""/>
+    <Text ID="360390" Value=""/>
+    <Text ID="361499" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="258730" Value=""/>
+    <Text ID="258731" Value=""/>
+    <Text ID="258732" Value=""/>
+    <Text ID="258735" Value=""/>
+    <Text ID="304657" Value=""/>
+    <Text ID="304658" Value=""/>
+    <Text ID="304659" Value=""/>
+    <Text ID="352400" Value=""/>
+    <Text ID="352401" Value=""/>
+    <Text ID="352402" Value=""/>
+    <Text ID="360389" Value=""/>
+    <Text ID="360390" Value=""/>
+    <Text ID="361499" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="cale"/>
+    <Text ID="258732" Value="msek"/>
+    <Text ID="258735" Value="Szerokość pierwszej części"/>
+    <Text ID="304657" Value="Czas włączenia lewej łopatki"/>
+    <Text ID="304658" Value="Czas włączenia prawej łopatki"/>
+    <Text ID="304659" Value="Szerokość ostatniej części"/>
+    <Text ID="352400" Value="Opóźnienie lewej łopatki"/>
+    <Text ID="352401" Value="Opóźnienie prawej łopatki"/>
+    <Text ID="352402" Value="Czas powrotu łopatki"/>
+    <Text ID="360389" Value="Powrót łopatek"/>
+    <Text ID="360390" Value="Łopatka na zewnątrz"/>
+    <Text ID="361499" Value="Działanie łopatek"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msec"/>
+    <Text ID="258735" Value="Width first part"/>
+    <Text ID="304657" Value="Left blade ontime"/>
+    <Text ID="304658" Value="Right blade ontime"/>
+    <Text ID="304659" Value="Width last part"/>
+    <Text ID="352400" Value="Left blade delay"/>
+    <Text ID="352401" Value="Right blade delay"/>
+    <Text ID="352402" Value="Blade return time"/>
+    <Text ID="360389" Value="Blades back"/>
+    <Text ID="360390" Value="Blade out"/>
+    <Text ID="361499" Value="Blade function"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msec"/>
+    <Text ID="258735" Value="Width first part"/>
+    <Text ID="304657" Value="Left blade ontime"/>
+    <Text ID="304658" Value="Right blade ontime"/>
+    <Text ID="304659" Value="Width last part"/>
+    <Text ID="352400" Value="Left blade delay"/>
+    <Text ID="352401" Value="Right blade delay"/>
+    <Text ID="352402" Value="Blade return time"/>
+    <Text ID="360389" Value="Blades back"/>
+    <Text ID="360390" Value="Blade out"/>
+    <Text ID="361499" Value="Blade function"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="tom."/>
+    <Text ID="258732" Value="msek"/>
+    <Text ID="258735" Value="Bredde første del"/>
+    <Text ID="304657" Value="Tid venstre foldeblad på"/>
+    <Text ID="304658" Value="Tid høyre foldeblad på"/>
+    <Text ID="304659" Value="Bredde siste del"/>
+    <Text ID="352400" Value="forsinkelse venstre foldeblad"/>
+    <Text ID="352401" Value="Forsinkelse høyre foldeblad"/>
+    <Text ID="352402" Value="Tid foldeblad tilbake"/>
+    <Text ID="360389" Value="Foldeblader tilbake"/>
+    <Text ID="360390" Value="Foldeblad ut"/>
+    <Text ID="361499" Value="Foldebladsfunksjon"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="ms"/>
+    <Text ID="258735" Value="Largura da primeira parte"/>
+    <Text ID="304657" Value="Tempo de funcionamento da lâmina esquerda"/>
+    <Text ID="304658" Value="Tempo de funcionamento da lâmina direita"/>
+    <Text ID="304659" Value="Largura da última parte"/>
+    <Text ID="352400" Value="Atraso da lâmina esquerda"/>
+    <Text ID="352401" Value="Atraso da lâmina direita"/>
+    <Text ID="352402" Value="Tempo de regresso da lâmina"/>
+    <Text ID="360389" Value="Lâminas para trás"/>
+    <Text ID="360390" Value="Lâmina para fora"/>
+    <Text ID="361499" Value="Função da lâmina"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="258730" Value="0"/>
+    <Index ID="258731" Value="1"/>
+    <Index ID="258732" Value="5"/>
+    <Index ID="258735" Value="12"/>
+    <Index ID="304657" Value="15"/>
+    <Index ID="304658" Value="16"/>
+    <Index ID="304659" Value="17"/>
+    <Index ID="352400" Value="18"/>
+    <Index ID="352401" Value="19"/>
+    <Index ID="352402" Value="20"/>
+    <Index ID="360389" Value="101"/>
+    <Index ID="360390" Value="102"/>
+    <Index ID="361499" Value="100"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<methodResponse>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>ReadLog</name>
+                    <value>
+                        <base64>T0s=</base64>
+                    </value>
+                </member>
+                <member>
+                    <name>"Name of the Log type"</name>
+                    <value>
+                        <array>"Array of Log Data"</array>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodResponse>

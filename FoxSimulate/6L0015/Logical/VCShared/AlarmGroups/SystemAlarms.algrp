@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="SystemAlarms">
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="LatchedBackColor" Value="47"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="QuitBackColor" Value="10"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="False"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="10" Value="Power On"/>
+      <Text ID="11" Value="Alarm Printout Restarted"/>
+      <Text ID="12" Value="Printer Not Ready"/>
+      <Text ID="13" Value="Cannot Read Alarm Data"/>
+      <Text ID="14" Value="Printer Buffer Overflow"/>
+      <Text ID="15" Value="Battery Discharged"/>
+      <Text ID="1" Value="Error in System"/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="10" Value="Strom Ein "/>
+      <Text ID="11" Value="Alarm Ausdruck Neustart"/>
+      <Text ID="12" Value="Drucker nicht bereit"/>
+      <Text ID="13" Value="Alarmdaten können nicht gelesen werden"/>
+      <Text ID="14" Value="Drucker Speicher Überlauf "/>
+      <Text ID="15" Value="Batterie entladen"/>
+      <Text ID="1" Value="Fehler im System"/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="10" Value="Spänning till"/>
+      <Text ID="11" Value="Alarmutskrift omstartad"/>
+      <Text ID="12" Value="Skrivare ej redo"/>
+      <Text ID="13" Value="Kan inte läsa alarmdata"/>
+      <Text ID="14" Value="Skrivarbuffert överfull"/>
+      <Text ID="15" Value="Batteri urladdat"/>
+      <Text ID="1" Value="Fel i system"/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="10" Value="Sous Tension"/>
+      <Text ID="11" Value="Listage alarme redémarré"/>
+      <Text ID="12" Value="Imprimante pas prête"/>
+      <Text ID="13" Value="Ne Peut Lire Alarme Imprim."/>
+      <Text ID="14" Value="Débordement imprimante tampon"/>
+      <Text ID="15" Value="Batterie déchargée"/>
+      <Text ID="1" Value="Erreur Systeme"/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="10" Value="Strøm til"/>
+      <Text ID="11" Value="Alarmudskrift genstartet"/>
+      <Text ID="12" Value="Printer ikke klar"/>
+      <Text ID="13" Value="Kan ikke læse alarm data"/>
+      <Text ID="14" Value="Printer Buffer Overflow"/>
+      <Text ID="15" Value="Batteri afladet"/>
+      <Text ID="1" Value="Fejl i System"/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="10" Value="Alimentazione Presente"/>
+      <Text ID="11" Value="Riavviamento Stampa Allarmi"/>
+      <Text ID="12" Value="Stampa non pronta"/>
+      <Text ID="13" Value="Lettura Dati Allarmi Non Possibile"/>
+      <Text ID="14" Value="Superamento capacità accumulo stampante"/>
+      <Text ID="15" Value="Batteria scarica"/>
+      <Text ID="1" Value="Errore nel sistema"/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="10" Value="Virta päällä:"/>
+      <Text ID="11" Value="Hälytysten tulostus uudelleen käynnistetty"/>
+      <Text ID="12" Value="Tulostin ei valmis"/>
+      <Text ID="13" Value="Ei voida lukea hälytystietoja"/>
+      <Text ID="14" Value="Tulostin puskuri täynnä"/>
+      <Text ID="15" Value="Patteri ladattu"/>
+      <Text ID="1" Value="Järjestelmä virhe"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="10" Value="Voeding Aan"/>
+      <Text ID="11" Value="Alarm Herstart afdrukken"/>
+      <Text ID="12" Value="Printer Niet klaar"/>
+      <Text ID="13" Value="Kan alarm data niet lezen"/>
+      <Text ID="14" Value="Printer geheugen te klein"/>
+      <Text ID="15" Value="Batterij ontladen"/>
+      <Text ID="1" Value="Fout in Systeem"/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="10" Value="Corriente conectada"/>
+      <Text ID="11" Value="Listado de alarma reiniciado"/>
+      <Text ID="12" Value="Impresora no lista"/>
+      <Text ID="13" Value="No puede leer datos de alarma"/>
+      <Text ID="14" Value="Desbordamiento de Buffer de impresora"/>
+      <Text ID="15" Value="Batería descargada"/>
+      <Text ID="1" Value="Error en sistema"/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="10" Value="Zasilanie włączone"/>
+      <Text ID="11" Value="Alarm wydrukowany"/>
+      <Text ID="12" Value="Drukarka nie gotowa"/>
+      <Text ID="13" Value="Nie można odczytać danych Alarmu"/>
+      <Text ID="14" Value="Przeładowany bufor Drukarka"/>
+      <Text ID="15" Value="Bateria rozładowana "/>
+      <Text ID="1" Value="Błąd w Systemie"/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="10" Value="Питание ВКЛ"/>
+      <Text ID="11" Value="Перепечатка Тревог"/>
+      <Text ID="12" Value="Принтер не готов"/>
+      <Text ID="13" Value="Невозмжно прочитать данные тревоги"/>
+      <Text ID="14" Value="Переполнение Буфера Принтера"/>
+      <Text ID="15" Value="Батарея Разряжена"/>
+      <Text ID="1" Value="Ошибка в системе"/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="10" Value="Power On"/>
+      <Text ID="11" Value="Alarm Printout Restarted"/>
+      <Text ID="12" Value="Printer Not Ready"/>
+      <Text ID="13" Value="Cannot Read Alarm Data"/>
+      <Text ID="14" Value="Printer Buffer Overflow"/>
+      <Text ID="15" Value="Battery Discharged"/>
+      <Text ID="1" Value="Error in System"/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="10" Value=""/>
+      <Text ID="11" Value=""/>
+      <Text ID="12" Value=""/>
+      <Text ID="13" Value=""/>
+      <Text ID="14" Value=""/>
+      <Text ID="15" Value=""/>
+      <Text ID="1" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="10" Value=""/>
+      <Text ID="11" Value=""/>
+      <Text ID="12" Value=""/>
+      <Text ID="13" Value=""/>
+      <Text ID="14" Value=""/>
+      <Text ID="15" Value=""/>
+      <Text ID="1" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="10" Value=""/>
+      <Text ID="11" Value=""/>
+      <Text ID="12" Value=""/>
+      <Text ID="13" Value=""/>
+      <Text ID="14" Value=""/>
+      <Text ID="15" Value=""/>
+      <Text ID="1" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="10" Value="Strøm På"/>
+      <Text ID="11" Value="Alarm Printout Restarted"/>
+      <Text ID="12" Value="Printer Not Ready"/>
+      <Text ID="13" Value="Cannot Read Alarm Data"/>
+      <Text ID="14" Value="Printer Buffer Overflow"/>
+      <Text ID="15" Value="Battery Discharged"/>
+      <Text ID="1" Value="Error in System"/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="10" Value=""/>
+      <Text ID="11" Value=""/>
+      <Text ID="12" Value=""/>
+      <Text ID="13" Value=""/>
+      <Text ID="14" Value=""/>
+      <Text ID="15" Value=""/>
+      <Text ID="1" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="10" Value="0"/>
+      <Index ID="11" Value="1"/>
+      <Index ID="12" Value="2"/>
+      <Index ID="13" Value="3"/>
+      <Index ID="14" Value="4"/>
+      <Index ID="15" Value="5"/>
+      <Index ID="1" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

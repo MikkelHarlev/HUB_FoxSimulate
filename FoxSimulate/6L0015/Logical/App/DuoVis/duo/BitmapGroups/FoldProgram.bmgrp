@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="FoldProgram">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="8"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="4652" Value="Source[local].Bitmap[CF10_L]"/>
+    <BitmapRef ID="4653" Value="Source[local].Bitmap[CF11_L]"/>
+    <BitmapRef ID="4654" Value="Source[local].Bitmap[CF20_L]"/>
+    <BitmapRef ID="4655" Value="Source[local].Bitmap[CF21_L]"/>
+    <BitmapRef ID="4656" Value="Source[local].Bitmap[CF22_L]"/>
+    <BitmapRef ID="4657" Value="Source[local].Bitmap[CF25_L]"/>
+    <BitmapRef ID="4658" Value="Source[local].Bitmap[CF30_L]"/>
+    <BitmapRef ID="4659" Value="Source[local].Bitmap[CF31_L]"/>
+    <BitmapRef ID="4660" Value="Source[local].Bitmap[CF32_L]"/>
+    <BitmapRef ID="4661" Value="Source[local].Bitmap[CF33_L]"/>
+    <BitmapRef ID="4662" Value="Source[local].Bitmap[CF34_L]"/>
+    <BitmapRef ID="4663" Value="Source[local].Bitmap[CF35_L]"/>
+    <BitmapRef ID="4664" Value="Source[local].Bitmap[CF40_L]"/>
+    <BitmapRef ID="4665" Value="Source[local].Bitmap[CF41_L]"/>
+    <BitmapRef ID="4666" Value="Source[local].Bitmap[CF50_L]"/>
+    <BitmapRef ID="4667" Value="Source[local].Bitmap[CF51_L]"/>
+    <BitmapRef ID="4668" Value="Source[local].Bitmap[CF52_L]"/>
+    <BitmapRef ID="4669" Value="Source[local].Bitmap[CF20_L2]"/>
+    <BitmapRef ID="11300" Value="Source[local].Bitmap[CF60_L]"/>
+    <BitmapRef ID="11301" Value="Source[local].Bitmap[CF61_L]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="4652" Value="110"/>
+    <Index ID="4653" Value="111"/>
+    <Index ID="4654" Value="3"/>
+    <Index ID="4655" Value="2"/>
+    <Index ID="4656" Value="115"/>
+    <Index ID="4657" Value="127"/>
+    <Index ID="4658" Value="8"/>
+    <Index ID="4659" Value="9"/>
+    <Index ID="4660" Value="98"/>
+    <Index ID="4661" Value="97"/>
+    <Index ID="4662" Value="123"/>
+    <Index ID="4663" Value="126"/>
+    <Index ID="4664" Value="10"/>
+    <Index ID="4665" Value="11"/>
+    <Index ID="4666" Value="124"/>
+    <Index ID="4667" Value="125"/>
+    <Index ID="4668" Value="12"/>
+    <Index ID="4669" Value="99"/>
+    <Index ID="11300" Value="14"/>
+    <Index ID="11301" Value="13"/>
+  </IndexMap>
+</BitmapGroup>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="brdkSafety_Application">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="64"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="634023" Value="Application"/>
+    <Text ID="634024" Value="Current CRC:"/>
+    <Text ID="634025" Value="Status:"/>
+    <Text ID="634026" Value="Acknowledge"/>
+    <Text ID="634027" Value="Cancel"/>
+    <Text ID="634028" Value="Download Application"/>
+    <Text ID="634029" Value="Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="634023" Value=""/>
+    <Text ID="634024" Value=""/>
+    <Text ID="634025" Value=""/>
+    <Text ID="634026" Value=""/>
+    <Text ID="634027" Value=""/>
+    <Text ID="634028" Value=""/>
+    <Text ID="634029" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="634023" Value=""/>
+    <Text ID="634024" Value=""/>
+    <Text ID="634025" Value=""/>
+    <Text ID="634026" Value=""/>
+    <Text ID="634027" Value=""/>
+    <Text ID="634028" Value=""/>
+    <Text ID="634029" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="634023" Value=""/>
+    <Text ID="634024" Value=""/>
+    <Text ID="634025" Value=""/>
+    <Text ID="634026" Value=""/>
+    <Text ID="634027" Value=""/>
+    <Text ID="634028" Value=""/>
+    <Text ID="634029" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="634023" Value=""/>
+    <Text ID="634024" Value=""/>
+    <Text ID="634025" Value=""/>
+    <Text ID="634026" Value=""/>
+    <Text ID="634027" Value=""/>
+    <Text ID="634028" Value=""/>
+    <Text ID="634029" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="634023" Value=""/>
+    <Text ID="634024" Value=""/>
+    <Text ID="634025" Value=""/>
+    <Text ID="634026" Value=""/>
+    <Text ID="634027" Value=""/>
+    <Text ID="634028" Value=""/>
+    <Text ID="634029" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="634023" Value="0"/>
+    <Index ID="634024" Value="1"/>
+    <Index ID="634025" Value="5"/>
+    <Index ID="634026" Value="6"/>
+    <Index ID="634027" Value="7"/>
+    <Index ID="634028" Value="8"/>
+    <Index ID="634029" Value="9"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_FoldProgStacker">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="52"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="259215" Value="msec"/>
+    <Text ID="432379" Value="Blowing: Delay"/>
+    <Text ID="432380" Value="Blowing: Ontime"/>
+    <Text ID="433630" Value="Air pipe in front of stacker flaps"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="259215" Value="msek"/>
+    <Text ID="432379" Value="Blasen: Verzögerung"/>
+    <Text ID="432380" Value="Blasen: An-Zeit"/>
+    <Text ID="433630" Value="Luftrohr vor Staplerklappen"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="259215" Value="ms"/>
+    <Text ID="432379" Value="Blås: Fördröjning"/>
+    <Text ID="432380" Value="Blås: Till"/>
+    <Text ID="433630" Value="Blåsrör före bombluckor"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="259215" Value="ms"/>
+    <Text ID="432379" Value="Soufflage : Retard"/>
+    <Text ID="432380" Value="Soufflage : Durée activ."/>
+    <Text ID="433630" Value="Tuyau d'air devant les volets d'empileur"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="259215" Value="msek"/>
+    <Text ID="432379" Value="Forsinkelse blæs"/>
+    <Text ID="432380" Value="Blæsetid"/>
+    <Text ID="433630" Value="Blæserør foran stakker"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="259215" Value="msec"/>
+    <Text ID="432379" Value="Soffio : Ritardo"/>
+    <Text ID="432380" Value="Soffio : Durata"/>
+    <Text ID="433630" Value="Soffio Aria di fronte ai flaps di accatast."/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="259215" Value="msec"/>
+    <Text ID="432379" Value="Blowing: Delay"/>
+    <Text ID="432380" Value="Blowing: Ontime"/>
+    <Text ID="433630" Value="Air pipe in front of stacker flaps"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="259215" Value="msec"/>
+    <Text ID="432379" Value="Blazen: Vertraging"/>
+    <Text ID="432380" Value="Blazen: Inschakeltijd"/>
+    <Text ID="433630" Value="Luchtleiding voor stapelkleppen"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="259215" Value="ms"/>
+    <Text ID="432379" Value="Soplado: Retardo"/>
+    <Text ID="432380" Value="Soplado: Tiempo activo"/>
+    <Text ID="433630" Value="Tubo de soplado anterior al Apilador (grupo)"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="259215" Value="msek"/>
+    <Text ID="432379" Value="Nadmuch: Opóźnienie"/>
+    <Text ID="432380" Value="Nadmuch: Czas pracy"/>
+    <Text ID="433630" Value="Rura nadmuchowa przed zaworem klapowym układarki"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="259215" Value=""/>
+    <Text ID="432379" Value=""/>
+    <Text ID="432380" Value=""/>
+    <Text ID="433630" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="259215" Value=""/>
+    <Text ID="432379" Value=""/>
+    <Text ID="432380" Value=""/>
+    <Text ID="433630" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="259215" Value="msek"/>
+    <Text ID="432379" Value="Nadmuch: Opóźnienie"/>
+    <Text ID="432380" Value="Nadmuch: Czas pracy"/>
+    <Text ID="433630" Value="Rura nadmuchowa przed zaworem klapowym układarki"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="259215" Value="msec"/>
+    <Text ID="432379" Value="Blowing: Delay"/>
+    <Text ID="432380" Value="Blowing: Ontime"/>
+    <Text ID="433630" Value="Air pipe in front of stacker flaps"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="259215" Value="msec"/>
+    <Text ID="432379" Value="Blowing: Delay"/>
+    <Text ID="432380" Value="Blowing: Ontime"/>
+    <Text ID="433630" Value="Air pipe in front of stacker flaps"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="259215" Value="msek"/>
+    <Text ID="432379" Value="Forsinkelse blåsing"/>
+    <Text ID="432380" Value="Blåsetid"/>
+    <Text ID="433630" Value="Blåserør forran stacker"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="259215" Value="ms"/>
+    <Text ID="432379" Value="Sopragem: Atraso"/>
+    <Text ID="432380" Value="Sopragem: Tempo de funcionamento"/>
+    <Text ID="433630" Value="Tubagem de ar à frente das abas do empilhador"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="259215" Value="5"/>
+    <Index ID="432379" Value="51"/>
+    <Index ID="432380" Value="52"/>
+    <Index ID="433630" Value="32"/>
+  </IndexMap>
+</TextGroup>

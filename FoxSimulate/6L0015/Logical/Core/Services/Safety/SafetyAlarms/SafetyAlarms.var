@@ -1,0 +1,7 @@
+VAR
+	Tmp : USINT := 0;
+	safetyIO : safetyIO_typ;
+	delayCyclic : BOOL := 0;
+	TON_delayCyclic : TON := (0);
+	TON_delayInitDone : TON := (0);
+END_VAR

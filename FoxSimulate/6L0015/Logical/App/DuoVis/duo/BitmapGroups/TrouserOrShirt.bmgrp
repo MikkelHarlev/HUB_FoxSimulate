@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TrouserOrShirt">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="11"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="4833" Value="Source[local].Bitmap[c_25x25_AutoShirt]"/>
+    <BitmapRef ID="4834" Value="Source[local].Bitmap[c_25x25_AutoTrouser]"/>
+    <BitmapRef ID="12485" Value="Source[local].Bitmap[c_25x25_AutoLobster]"/>
+    <BitmapRef ID="12944" Value="Source[local].Bitmap[c_25x25_AutoFlapTrouser]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="4833" Value="1"/>
+    <Index ID="4834" Value="3"/>
+    <Index ID="12485" Value="66"/>
+    <Index ID="12944" Value="2"/>
+  </IndexMap>
+</BitmapGroup>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Delivery">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.App.Application.g_DeliveryProcess.Common.AlarmList.Ack]"/>
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.App.Application.g_DeliveryProcess.Common.AlarmList.Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="Source[global].Variable[Master.App.Application.g_DeliveryProcess.Common.AlarmList.Bypassed]"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="10"/>
+  <Property Name="LatchedBackColor" Value="47"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="2"/>
+  <Property Name="QuitBackColor" Value="11"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="4229" Value="Delivery error"/>
+      <Text ID="4230" Value="Delivery Startup error"/>
+      <Text ID="4232" Value="Delivery error Belt lenght"/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="4229" Value="Lieferungs fehler"/>
+      <Text ID="4230" Value="Lieferungs start fehler"/>
+      <Text ID="4232" Value="Lieferungs fehler laenge Gurt"/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="4229" Value="Fel leverering"/>
+      <Text ID="4230" Value="Fel leverering vid uppstart"/>
+      <Text ID="4232" Value="Ogiltig bandlängd leverering"/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="4229" Value="Erreur evacuation"/>
+      <Text ID="4230" Value="Erreur evacuation startup"/>
+      <Text ID="4232" Value="Erreur longeur de bande transfer"/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="4229" Value="Fejl levering "/>
+      <Text ID="4230" Value="Fejl levering opstart"/>
+      <Text ID="4232" Value="Fejl levering længde på bånd"/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="4229" Value="Errore Conv. Consegna"/>
+      <Text ID="4230" Value="Errore Avviamento Conv. Consegna"/>
+      <Text ID="4232" Value="Errore Lunghezza conv. Consegna"/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="4229" Value="Delivery error"/>
+      <Text ID="4230" Value="Delivery Startup error"/>
+      <Text ID="4232" Value="Delivery error Belt lenght"/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="4229" Value="Delivery error"/>
+      <Text ID="4230" Value="Delivery Startup error"/>
+      <Text ID="4232" Value="Delivery error Belt lenght"/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="4229" Value="Error entrega"/>
+      <Text ID="4230" Value="Error inicio entrega"/>
+      <Text ID="4232" Value="Error de longitud en cinta"/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="4229" Value=""/>
+      <Text ID="4230" Value=""/>
+      <Text ID="4232" Value=""/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="4229" Value=""/>
+      <Text ID="4230" Value=""/>
+      <Text ID="4232" Value=""/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="4229" Value=""/>
+      <Text ID="4230" Value=""/>
+      <Text ID="4232" Value=""/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="4229" Value=""/>
+      <Text ID="4230" Value=""/>
+      <Text ID="4232" Value=""/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="4229" Value=""/>
+      <Text ID="4230" Value=""/>
+      <Text ID="4232" Value=""/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="4229" Value=""/>
+      <Text ID="4230" Value=""/>
+      <Text ID="4232" Value=""/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="4229" Value="Feil Levering"/>
+      <Text ID="4230" Value="Feil levering oppstart"/>
+      <Text ID="4232" Value="Feil levering lengde på bånd"/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="4229" Value=""/>
+      <Text ID="4230" Value=""/>
+      <Text ID="4232" Value=""/>
+      <Text ID="9835" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="4229" Value="2"/>
+      <Index ID="4230" Value="3"/>
+      <Index ID="4232" Value="5"/>
+      <Index ID="9835" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

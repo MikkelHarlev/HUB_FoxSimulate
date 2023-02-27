@@ -1,0 +1,37 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Package: Jedk-Function
+ * File: JedkGlobal.var
+ * Author: mha
+ * Created: July 25, 2012
+ ********************************************************************
+ * Variables of package Jedk-Function
+ ********************************************************************)
+VAR
+	IBHorizontal : BOOL := FALSE;
+	g_CountStamp : ARRAY[0..9] OF UDINT; (*g_ToLatFold : ToLatFold_Type;*)
+	g_StartXAConveyor : BOOL := FALSE;
+	g_LateralService : BOOL := FALSE;
+	g_SealerJam : BOOL := FALSE;
+	g_WaitingLiftAlarm : BOOL := FALSE;
+	ISOutlet : ARRAY[0..10] OF BOOL := [11(FALSE)];
+	QMInlet : BOOL := FALSE;
+	QMVacuumInletConveyor : BOOL := FALSE;
+	QYLiftDownStop : ARRAY[0..10] OF BOOL;
+	IBStackIndexingTable : ARRAY[0..10] OF BOOL;
+	g_SoftStopDone : BOOL;
+	QYBrakeStacker : ARRAY[1..10] OF BOOL;
+	IIDeloadingDown : BOOL;
+	IIDeloadingUp : BOOL;
+	QMDeloadingUp : BOOL;
+	QMDeloadingDown : BOOL;
+	QYReleaseDeloadingBrake : BOOL;
+	g_ResetAverage : UINT;
+	g_NumberOfPiecesPerAverage : USINT := 0;
+	g_HangerBeltRunningLowSpeed : BOOL := FALSE;
+	g_HangerInletProcess_PulsCounter : UDINT := 0;
+	g_HangerTestInProgress : BOOL := FALSE;
+	g_HangerSetupOkStart : UINT := 0;
+	g_StackingPerHour : REAL;
+END_VAR

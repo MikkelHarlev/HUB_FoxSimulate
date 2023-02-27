@@ -1,0 +1,47 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: CockpitLogData
+ * File: CockpitLogData.var
+ * Author: duem
+ * Created: November 12, 2014
+ ********************************************************************
+ * Local variables of program CockpitLogData
+ ********************************************************************)
+VAR
+	initState : initState_enum;
+	LogRead_0 : LogRead;
+	LogRecord : LogRecord_Type;
+	TOF_10ms_Sleep : TOF_10ms;
+	SqlExporter : SqlExporter_State;
+	bufferIdents : REFERENCE TO ARRAY[0..4] OF UDINT;
+	SqlInfo : JenSqlInfo_Type;
+	LogSetLineRead_0 : LogSetLineRead;
+	analysinfo : UDINT;
+	i : UINT;
+	j : INT;
+	SQLCount : UDINT;
+	arrStaticData : ARRAY[0..2] OF staticData_type;
+	tmpstr : ARRAY[0..256] OF USINT;
+	tmpstrI : ARRAY[0..9] OF USINT;
+	ConvertionListPtr : REFERENCE TO ConvertionList_typ;
+	VarTypeBool : REFERENCE TO BOOL;
+	VarTypeInt : REFERENCE TO INT;
+	VarTypeUInt : REFERENCE TO UINT;
+	VarTypeSInt : REFERENCE TO SINT;
+	VarTypeUSInt : REFERENCE TO USINT;
+	VarTypeDInt : REFERENCE TO DINT;
+	VarTypeREAL : REFERENCE TO REAL;
+	VarTypeUDInt : REFERENCE TO UDINT;
+	nissestring : ARRAY[0..250] OF USINT;
+	VarTypeDateTime : REFERENCE TO DATE_AND_TIME;
+	tmpDTStruct : DTStructure;
+	tmp : STRING[21];
+	tempQueryString : STRING[512] := '';
+	pCockpit : REFERENCE TO CockpitLogic_Type;
+	SqlStatus : UINT;
+	TON_Watchdog : TON_10ms;
+	x : USINT;
+	reConnectCount : UINT;
+	sqlTimeOut : UINT;
+END_VAR

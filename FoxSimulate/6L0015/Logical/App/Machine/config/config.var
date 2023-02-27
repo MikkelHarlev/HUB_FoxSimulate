@@ -1,0 +1,5 @@
+VAR
+	HideDuoHmi : INT;
+	RInitDone : BOOL;
+	AnalogModuleIndex : USINT;
+END_VAR

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Service_Text">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="5"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002001" Name="ErrNbCopy">
+      <Property Name="Datapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1008" Value="IO Description:"/>
+    <Text ID="1009" Value="State of actual digital input:"/>
+    <Text ID="1010" Value="State of actual digital output:"/>
+    <Text ID="1045" Value="Number of Elements in selected Level"/>
+    <Text ID="1047" Value="Number total:"/>
+    <Text ID="1048" Value="Number actual:"/>
+    <Text ID="3106" Value="Error Number:"/>
+    <Text ID="3107" Value="Error Info:"/>
+    <Text ID="3108" Value="Error Text:"/>
+    <Text ID="3109" Value="Date:"/>
+    <Text ID="3110" Value="Time:"/>
+    <Text ID="5478" Value="Actual forced I/Os:"/>
+    <Text ID="5584" Value="Force value:"/>
+    <Text ID="5622" Value="Available I/Os:"/>
+    <Text ID="5624" Value="State:"/>
+    <Text ID="5625" Value="Value:"/>
+    <Text ID="11121" Value="Details:"/>
+    <Text ID="12266" Value="Warning: Existing files on the destination will be overwritten!"/>
+    <Text ID="12269" Value="Wait for Backup command"/>
+    <Text ID="12270" Value="Backup in progress ..."/>
+    <Text ID="12271" Value="Error {ErrNbCopy} during Backup"/>
+    <Text ID="12272" Value="Wait for Restore command"/>
+    <Text ID="12273" Value="Wait"/>
+    <Text ID="12274" Value="Restore in progress ..."/>
+    <Text ID="12275" Value="Error {ErrNbCopy} during Restore"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="This Machine only works with a JENSEN Panel"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="1008" Value="Ein-/Ausgang Beschreibung"/>
+    <Text ID="1009" Value="Status, aktueller, digitaler Eingang"/>
+    <Text ID="1010" Value="Status, aktueller, digitaler Ausgang"/>
+    <Text ID="1045" Value="Anzahl der Elemente in der ausgewählten Ebene "/>
+    <Text ID="1047" Value="Anzahl gesamt"/>
+    <Text ID="1048" Value="Aktuelle Anzahl: "/>
+    <Text ID="3106" Value="Fehler Nummer"/>
+    <Text ID="3107" Value="Fehler Info:"/>
+    <Text ID="3108" Value="Fehlertext: "/>
+    <Text ID="3109" Value="Datum"/>
+    <Text ID="3110" Value="Zeit"/>
+    <Text ID="5478" Value="Aktuell belegte Ein-/Ausgänge"/>
+    <Text ID="5584" Value="Kraft Wert:"/>
+    <Text ID="5622" Value="Verfügbare I/Os:"/>
+    <Text ID="5624" Value="Status"/>
+    <Text ID="5625" Value="Wert"/>
+    <Text ID="11121" Value="Einzelheiten"/>
+    <Text ID="12266" Value="Achtung: Existierende Dateien am Ziel werden überschrieben!"/>
+    <Text ID="12269" Value="Warten für Backup-Befehl"/>
+    <Text ID="12270" Value="Backup wird ausgeführt..."/>
+    <Text ID="12271" Value="Fehler {ErrNbCopy} während Backup"/>
+    <Text ID="12272" Value="Warten auf Restore Befehl"/>
+    <Text ID="12273" Value="Warten"/>
+    <Text ID="12274" Value="Wiederherstellen in Bearbeitung ..."/>
+    <Text ID="12275" Value="Fehler {ErrNbCopy} während Restore"/>
+    <Text ID="12845" Value="Status"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Diese Maschine arbeitet nur mit einem JENSEN-Panel"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="1008" Value="IO Description:"/>
+    <Text ID="1009" Value="State of actual digital input:"/>
+    <Text ID="1010" Value="State of actual digital output:"/>
+    <Text ID="1045" Value="Number of Elements in selected Level"/>
+    <Text ID="1047" Value="Number total:"/>
+    <Text ID="1048" Value="Number actual:"/>
+    <Text ID="3106" Value="Error Number:"/>
+    <Text ID="3107" Value="Error Info:"/>
+    <Text ID="3108" Value="Error Text:"/>
+    <Text ID="3109" Value="Date:"/>
+    <Text ID="3110" Value="Time:"/>
+    <Text ID="5478" Value="Actual forced I/Os:"/>
+    <Text ID="5584" Value="Force value:"/>
+    <Text ID="5622" Value="Available I/Os:"/>
+    <Text ID="5624" Value="State:"/>
+    <Text ID="5625" Value="Value:"/>
+    <Text ID="11121" Value="Details:"/>
+    <Text ID="12266" Value="Warning: Existing files on the destination will be overwritten!"/>
+    <Text ID="12269" Value="Wait for Backup command"/>
+    <Text ID="12270" Value="Backup in progress ..."/>
+    <Text ID="12271" Value="Error {ErrNbCopy} during Backup"/>
+    <Text ID="12272" Value="Wait for Restore command"/>
+    <Text ID="12273" Value="Wait"/>
+    <Text ID="12274" Value="Restore in progress ..."/>
+    <Text ID="12275" Value="Error {ErrNbCopy} during Restore"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="This Machine only works with a JENSEN Panel"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="1008" Value="Description E/S"/>
+    <Text ID="1009" Value="Etat de l entree digital"/>
+    <Text ID="1010" Value="Etat de la sortie digital"/>
+    <Text ID="1045" Value="Nombre d elements a ce niveau"/>
+    <Text ID="1047" Value="Nombre total:"/>
+    <Text ID="1048" Value="Nombre actuel"/>
+    <Text ID="3106" Value="Numéro d'erreur"/>
+    <Text ID="3107" Value="Erreur info"/>
+    <Text ID="3108" Value="Texte d'erreur"/>
+    <Text ID="3109" Value="Date &amp; heure"/>
+    <Text ID="3110" Value="Heure:"/>
+    <Text ID="5478" Value="Entrées/sorties forcées"/>
+    <Text ID="5584" Value="Valeur force"/>
+    <Text ID="5622" Value="Entrées/sorties disponibles"/>
+    <Text ID="5624" Value="Etat:"/>
+    <Text ID="5625" Value="Valeur:"/>
+    <Text ID="11121" Value="Détails"/>
+    <Text ID="12266" Value="ATTENTION: reecriture sur fichier existant!"/>
+    <Text ID="12269" Value="Attente pour enregistrement"/>
+    <Text ID="12270" Value="Enregistrement en cours"/>
+    <Text ID="12271" Value="Erreur {ErrNbCopy} durant enregistrement"/>
+    <Text ID="12272" Value="Attente pour restauration"/>
+    <Text ID="12273" Value="Attente"/>
+    <Text ID="12274" Value="Restauration en cours"/>
+    <Text ID="12275" Value="Erreur {ErrNbCopy} durant la restauration"/>
+    <Text ID="12845" Value="Statut"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Cette machine fonctionne seulement avec 1 écran Jensen"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="1008" Value="IO Description:"/>
+    <Text ID="1009" Value="Tilstand digital indgang"/>
+    <Text ID="1010" Value="Tilstand digital udgang"/>
+    <Text ID="1045" Value="Elementer vist i valgt nivu"/>
+    <Text ID="1047" Value="Totalt antal:"/>
+    <Text ID="1048" Value="Aktuelt antal:"/>
+    <Text ID="3106" Value="Forkert nummer:"/>
+    <Text ID="3107" Value="Forkert info:"/>
+    <Text ID="3108" Value="Forkert tekst:"/>
+    <Text ID="3109" Value="Dato:"/>
+    <Text ID="3110" Value="Tid:"/>
+    <Text ID="5478" Value="Aktuelle satte I/Os:"/>
+    <Text ID="5584" Value="Tvungen værdi"/>
+    <Text ID="5622" Value="Tilgængelige I/Os:"/>
+    <Text ID="5624" Value="Tilstand"/>
+    <Text ID="5625" Value="Værdi"/>
+    <Text ID="11121" Value="Detaljer:"/>
+    <Text ID="12266" Value="Fare:filer på destination vil blive overskrevet"/>
+    <Text ID="12269" Value="Venter På Backup kommando"/>
+    <Text ID="12270" Value="Backup i gang...."/>
+    <Text ID="12271" Value="Feil {ErrNbCopy} Under backup"/>
+    <Text ID="12272" Value="Venter på genoprettelse kommando"/>
+    <Text ID="12273" Value="Vent"/>
+    <Text ID="12274" Value="Genoprettelse i gang"/>
+    <Text ID="12275" Value="Feil {ErrNbCopy} under gjennopretting"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Maskinen virker kun med et JENSEN Panel"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="1008" Value="Descrizione I\O"/>
+    <Text ID="1009" Value="Stato ingressi digitali"/>
+    <Text ID="1010" Value="Stato uscite digitali"/>
+    <Text ID="1045" Value="Numero Elementi nel Livello Selez."/>
+    <Text ID="1047" Value="Numero totale:"/>
+    <Text ID="1048" Value="Numero attuale:"/>
+    <Text ID="3106" Value="Numero errore"/>
+    <Text ID="3107" Value="Info errore"/>
+    <Text ID="3108" Value="Testo errore"/>
+    <Text ID="3109" Value="Dati"/>
+    <Text ID="3110" Value="Ora:"/>
+    <Text ID="5478" Value="I\O Forzati"/>
+    <Text ID="5584" Value="Valore di Forzatura"/>
+    <Text ID="5622" Value="I\O disponibili"/>
+    <Text ID="5624" Value="Stato"/>
+    <Text ID="5625" Value="Valore:"/>
+    <Text ID="11121" Value="Dettagli:"/>
+    <Text ID="12266" Value="Attenzione: i files esistenti sulla destinazione saranno sovrascritti"/>
+    <Text ID="12269" Value="Attendere comando di backup"/>
+    <Text ID="12270" Value="Backup in corso"/>
+    <Text ID="12271" Value="Errore {ErrNbCopy} durante Backup"/>
+    <Text ID="12272" Value="Attendere comando di ripristino"/>
+    <Text ID="12273" Value="Aspettare"/>
+    <Text ID="12274" Value="Ripristino in corso"/>
+    <Text ID="12275" Value="Errore {ErrNbCopy} durante ripristino"/>
+    <Text ID="12845" Value="Stato:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Questa macchina lavora solo con JENSEN Panel"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="1008" Value="IO Description:"/>
+    <Text ID="1009" Value="State of actual digital input:"/>
+    <Text ID="1010" Value="State of actual digital output:"/>
+    <Text ID="1045" Value="Number of Elements in selected Level"/>
+    <Text ID="1047" Value="Number total:"/>
+    <Text ID="1048" Value="Number actual:"/>
+    <Text ID="3106" Value="Error Number:"/>
+    <Text ID="3107" Value="Error Info:"/>
+    <Text ID="3108" Value="Error Text:"/>
+    <Text ID="3109" Value="Date:"/>
+    <Text ID="3110" Value="Time:"/>
+    <Text ID="5478" Value="Actual forced I/Os:"/>
+    <Text ID="5584" Value="Force value:"/>
+    <Text ID="5622" Value="Available I/Os:"/>
+    <Text ID="5624" Value="State:"/>
+    <Text ID="5625" Value="Value:"/>
+    <Text ID="11121" Value="Details:"/>
+    <Text ID="12266" Value="Warning: Existing files on the destination will be overwritten!"/>
+    <Text ID="12269" Value="Wait for Backup command"/>
+    <Text ID="12270" Value="Backup in progress ..."/>
+    <Text ID="12271" Value="Error {ErrNbCopy} during Backup"/>
+    <Text ID="12272" Value="Wait for Restore command"/>
+    <Text ID="12273" Value="Wait"/>
+    <Text ID="12274" Value="Restore in progress ..."/>
+    <Text ID="12275" Value="Error {ErrNbCopy} during Restore"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="This Machine only works with a JENSEN Panel"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="1008" Value="IO Beschrijving:"/>
+    <Text ID="1009" Value="Status van Digitale Ingang:"/>
+    <Text ID="1010" Value="Status van Digitale Uitgang:"/>
+    <Text ID="1045" Value="Aantal elementen in geselecteerd niveau"/>
+    <Text ID="1047" Value="Number totaal:"/>
+    <Text ID="1048" Value="Number actueel:"/>
+    <Text ID="3106" Value="Foutnummer"/>
+    <Text ID="3107" Value="Fout-Info:"/>
+    <Text ID="3108" Value="Fouttekst"/>
+    <Text ID="3109" Value="Datum:"/>
+    <Text ID="3110" Value="Tijd:"/>
+    <Text ID="5478" Value="Actuele geforceerde I/O's:"/>
+    <Text ID="5584" Value="Geforceerde waarde:"/>
+    <Text ID="5622" Value="Aanwezige I/O's:"/>
+    <Text ID="5624" Value="Status:"/>
+    <Text ID="5625" Value="Waarde:"/>
+    <Text ID="11121" Value="Details"/>
+    <Text ID="12266" Value="Waarschuwing: Huidige file wordt overschreven!"/>
+    <Text ID="12269" Value="Wacht for Backup kommando"/>
+    <Text ID="12270" Value="Bezig met Backup..."/>
+    <Text ID="12271" Value="Fout {ErrNbCopy} tijdens Backup"/>
+    <Text ID="12272" Value="Wacht for Herstel kommando"/>
+    <Text ID="12273" Value="Wacht"/>
+    <Text ID="12274" Value="Terugzetten in gang..."/>
+    <Text ID="12275" Value="Fout {ErrNbCopy} tijdens Herstel"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Dit apparaat werkt alleen met een JENSEN paneel"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="1008" Value="Descripción E/S"/>
+    <Text ID="1009" Value="Estado de entrada digital actual"/>
+    <Text ID="1010" Value="Estado de salida digital actual"/>
+    <Text ID="1045" Value="Número de elementos en el nivel seleccionado"/>
+    <Text ID="1047" Value="Número total:"/>
+    <Text ID="1048" Value="Número actual:"/>
+    <Text ID="3106" Value="Número de error:"/>
+    <Text ID="3107" Value="Info del error:"/>
+    <Text ID="3108" Value="Texto de error:"/>
+    <Text ID="3109" Value="Fecha:"/>
+    <Text ID="3110" Value="Hora:"/>
+    <Text ID="5478" Value="Actual E/S forzadas:"/>
+    <Text ID="5584" Value="Valor de fuerza:"/>
+    <Text ID="5622" Value="E/S disponibles:"/>
+    <Text ID="5624" Value="Estado:"/>
+    <Text ID="5625" Value="Valor:"/>
+    <Text ID="11121" Value="Detalles:"/>
+    <Text ID="12266" Value="Advertencia: Se sobreescribirán los archivos existentes en destino"/>
+    <Text ID="12269" Value="Esperar comando para copia de seguridad"/>
+    <Text ID="12270" Value="Copia de seguridad en progreso…"/>
+    <Text ID="12271" Value="Error {ErrNbCopy} durante la copia de seguridad"/>
+    <Text ID="12272" Value="Esperar comando de Restauración"/>
+    <Text ID="12273" Value="En espera"/>
+    <Text ID="12274" Value="Restauración en progreso"/>
+    <Text ID="12275" Value="Error {ErrNbCopy} durante la Restauración"/>
+    <Text ID="12845" Value="Estado:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Esta máquina sólo funciona con un panel JENSEN"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="1008" Value="Opis we/wy:"/>
+    <Text ID="1009" Value="Stan aktualnego wejścia cyfrowego:"/>
+    <Text ID="1010" Value="Stan aktualnego wyjścia cyfrowego:"/>
+    <Text ID="1045" Value="Liczba elementów na wybranym poziomie"/>
+    <Text ID="1047" Value="Całkowita liczba:"/>
+    <Text ID="1048" Value="Aktualna liczba:"/>
+    <Text ID="3106" Value="Numer błędu"/>
+    <Text ID="3107" Value="Informacje o błędzie:"/>
+    <Text ID="3108" Value="Tekst błędu"/>
+    <Text ID="3109" Value="Data:"/>
+    <Text ID="3110" Value="Czas:"/>
+    <Text ID="5478" Value="Aktualne wymuszone we/wy:"/>
+    <Text ID="5584" Value="Wymuszona wartość:"/>
+    <Text ID="5622" Value="Dostępne we/wy:"/>
+    <Text ID="5624" Value="Stan:"/>
+    <Text ID="5625" Value="Wartość:"/>
+    <Text ID="11121" Value="Szczegóły:"/>
+    <Text ID="12266" Value="Ostrzeżenie: Pliki istniejące w miejscu docelowym zostaną nadpisane!"/>
+    <Text ID="12269" Value="Czekaj na polecenie wykonania kopii zapasowej danych"/>
+    <Text ID="12270" Value="Trwa wykonywanie kopii zapasowej danych ..."/>
+    <Text ID="12271" Value="Błąd {ErrNbCopy} podczas wykonywania kopii zapasowej"/>
+    <Text ID="12272" Value="Czekaj na polecenie przywrócenia danych"/>
+    <Text ID="12273" Value="Czekaj"/>
+    <Text ID="12274" Value="Trwa przywracanie danych ..."/>
+    <Text ID="12275" Value="Błąd {ErrNbCopy} podczas przywracania danych"/>
+    <Text ID="12845" Value="Stan:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Ta maszyna pracuje jedynie z panelem JENSEN"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="1008" Value=""/>
+    <Text ID="1009" Value=""/>
+    <Text ID="1010" Value=""/>
+    <Text ID="1045" Value=""/>
+    <Text ID="1047" Value=""/>
+    <Text ID="1048" Value=""/>
+    <Text ID="3106" Value=""/>
+    <Text ID="3107" Value=""/>
+    <Text ID="3108" Value=""/>
+    <Text ID="3109" Value=""/>
+    <Text ID="3110" Value=""/>
+    <Text ID="5478" Value=""/>
+    <Text ID="5584" Value=""/>
+    <Text ID="5622" Value=""/>
+    <Text ID="5624" Value=""/>
+    <Text ID="5625" Value=""/>
+    <Text ID="11121" Value=""/>
+    <Text ID="12266" Value=""/>
+    <Text ID="12269" Value=""/>
+    <Text ID="12270" Value=""/>
+    <Text ID="12271" Value=""/>
+    <Text ID="12272" Value=""/>
+    <Text ID="12273" Value=""/>
+    <Text ID="12274" Value=""/>
+    <Text ID="12275" Value=""/>
+    <Text ID="12845" Value=""/>
+    <Text ID="98704" Value=""/>
+    <Text ID="100760" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="1008" Value=""/>
+    <Text ID="1009" Value=""/>
+    <Text ID="1010" Value=""/>
+    <Text ID="1045" Value=""/>
+    <Text ID="1047" Value=""/>
+    <Text ID="1048" Value=""/>
+    <Text ID="3106" Value=""/>
+    <Text ID="3107" Value=""/>
+    <Text ID="3108" Value=""/>
+    <Text ID="3109" Value=""/>
+    <Text ID="3110" Value=""/>
+    <Text ID="5478" Value=""/>
+    <Text ID="5584" Value=""/>
+    <Text ID="5622" Value=""/>
+    <Text ID="5624" Value=""/>
+    <Text ID="5625" Value=""/>
+    <Text ID="11121" Value=""/>
+    <Text ID="12266" Value=""/>
+    <Text ID="12269" Value=""/>
+    <Text ID="12270" Value=""/>
+    <Text ID="12271" Value=""/>
+    <Text ID="12272" Value=""/>
+    <Text ID="12273" Value=""/>
+    <Text ID="12274" Value=""/>
+    <Text ID="12275" Value=""/>
+    <Text ID="12845" Value=""/>
+    <Text ID="98704" Value=""/>
+    <Text ID="100760" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1008" Value="Opis we/wy:"/>
+    <Text ID="1009" Value="Stan aktualnego wejścia cyfrowego:"/>
+    <Text ID="1010" Value="Stan aktualnego wyjścia cyfrowego:"/>
+    <Text ID="1045" Value="Liczba elementów na wybranym poziomie"/>
+    <Text ID="1047" Value="Całkowita liczba:"/>
+    <Text ID="1048" Value="Aktualna liczba:"/>
+    <Text ID="3106" Value="Numer błędu"/>
+    <Text ID="3107" Value="Informacje o błędzie:"/>
+    <Text ID="3108" Value="Tekst błędu"/>
+    <Text ID="3109" Value="Data:"/>
+    <Text ID="3110" Value="Czas:"/>
+    <Text ID="5478" Value="Aktualne wymuszone we/wy:"/>
+    <Text ID="5584" Value="Wymuszona wartość:"/>
+    <Text ID="5622" Value="Dostępne we/wy:"/>
+    <Text ID="5624" Value="Stan:"/>
+    <Text ID="5625" Value="Wartość:"/>
+    <Text ID="11121" Value="Szczegóły:"/>
+    <Text ID="12266" Value="Ostrzeżenie: Pliki istniejące w miejscu docelowym zostaną nadpisane!"/>
+    <Text ID="12269" Value="Czekaj na polecenie wykonania kopii zapasowej danych"/>
+    <Text ID="12270" Value="Trwa wykonywanie kopii zapasowej danych ..."/>
+    <Text ID="12271" Value="Błąd {ErrNbCopy} podczas wykonywania kopii zapasowej"/>
+    <Text ID="12272" Value="Czekaj na polecenie przywrócenia danych"/>
+    <Text ID="12273" Value="Czekaj"/>
+    <Text ID="12274" Value="Trwa przywracanie danych ..."/>
+    <Text ID="12275" Value="Błąd {ErrNbCopy} podczas przywracania danych"/>
+    <Text ID="12845" Value="Stan:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Ta maszyna pracuje jedynie z panelem JENSEN"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="1008" Value="IO Description:"/>
+    <Text ID="1009" Value="State of actual digital input:"/>
+    <Text ID="1010" Value="State of actual digital output:"/>
+    <Text ID="1045" Value="Number of Elements in selected Level"/>
+    <Text ID="1047" Value="Number total:"/>
+    <Text ID="1048" Value="Number actual:"/>
+    <Text ID="3106" Value="Error Number:"/>
+    <Text ID="3107" Value="Error Info:"/>
+    <Text ID="3108" Value="Error Text:"/>
+    <Text ID="3109" Value="Date:"/>
+    <Text ID="3110" Value="Time:"/>
+    <Text ID="5478" Value="Actual forced I/Os:"/>
+    <Text ID="5584" Value="Force value:"/>
+    <Text ID="5622" Value="Available I/Os:"/>
+    <Text ID="5624" Value="State:"/>
+    <Text ID="5625" Value="Value:"/>
+    <Text ID="11121" Value="Details:"/>
+    <Text ID="12266" Value="Warning: Existing files on the destination will be overwritten!"/>
+    <Text ID="12269" Value="Wait for Backup command"/>
+    <Text ID="12270" Value="Backup in progress ..."/>
+    <Text ID="12271" Value="Error {ErrNbCopy} during Backup"/>
+    <Text ID="12272" Value="Wait for Restore command"/>
+    <Text ID="12273" Value="Wait"/>
+    <Text ID="12274" Value="Restore in progress ..."/>
+    <Text ID="12275" Value="Error {ErrNbCopy} during Restore"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="This Machine only works with a JENSEN Panel"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="1008" Value="IO Description:"/>
+    <Text ID="1009" Value="State of actual digital input:"/>
+    <Text ID="1010" Value="State of actual digital output:"/>
+    <Text ID="1045" Value="Number of Elements in selected Level"/>
+    <Text ID="1047" Value="Number total:"/>
+    <Text ID="1048" Value="Number actual:"/>
+    <Text ID="3106" Value="Error Number:"/>
+    <Text ID="3107" Value="Error Info:"/>
+    <Text ID="3108" Value="Error Text:"/>
+    <Text ID="3109" Value="Date:"/>
+    <Text ID="3110" Value="Time:"/>
+    <Text ID="5478" Value="Actual forced I/Os:"/>
+    <Text ID="5584" Value="Force value:"/>
+    <Text ID="5622" Value="Available I/Os:"/>
+    <Text ID="5624" Value="State:"/>
+    <Text ID="5625" Value="Value:"/>
+    <Text ID="11121" Value="Details:"/>
+    <Text ID="12266" Value="Warning: Existing files on the destination will be overwritten!"/>
+    <Text ID="12269" Value="Wait for Backup command"/>
+    <Text ID="12270" Value="Backup in progress ..."/>
+    <Text ID="12271" Value="Error {ErrNbCopy} during Backup"/>
+    <Text ID="12272" Value="Wait for Restore command"/>
+    <Text ID="12273" Value="Wait"/>
+    <Text ID="12274" Value="Restore in progress ..."/>
+    <Text ID="12275" Value="Error {ErrNbCopy} during Restore"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="This Machine only works with a JENSEN Panel"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="1008" Value="IO Description:"/>
+    <Text ID="1009" Value="Tilstand digital inngang"/>
+    <Text ID="1010" Value="Tilstand digital Utgang:"/>
+    <Text ID="1045" Value="Elementer vist i valgt nivå"/>
+    <Text ID="1047" Value="Totalt antall:"/>
+    <Text ID="1048" Value="Aktuellt antall:"/>
+    <Text ID="3106" Value="Feil Nummer:"/>
+    <Text ID="3107" Value="Feil Info:"/>
+    <Text ID="3108" Value="Feil tekst:"/>
+    <Text ID="3109" Value="Dato:"/>
+    <Text ID="3110" Value="Tid:"/>
+    <Text ID="5478" Value="Aktuelle satte I/Os:"/>
+    <Text ID="5584" Value="Tvunget Verdi"/>
+    <Text ID="5622" Value="Tilgjengelige I/Os:"/>
+    <Text ID="5624" Value="Tilstand:"/>
+    <Text ID="5625" Value="Verdi:"/>
+    <Text ID="11121" Value="Detaljer:"/>
+    <Text ID="12266" Value="FARE:Filer på destinasjonen vil bli overskrevet"/>
+    <Text ID="12269" Value="Venter På Backup kommando"/>
+    <Text ID="12270" Value="Backup pågår...."/>
+    <Text ID="12271" Value="Feil {ErrNbCopy} Under backup"/>
+    <Text ID="12272" Value="Venter på Gjennoprettelses kommando"/>
+    <Text ID="12273" Value="Vent"/>
+    <Text ID="12274" Value="Gjennoppretting pågår"/>
+    <Text ID="12275" Value="Error {ErrNbCopy} during Restore"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Maskinen virker kun med et JENSEN Panel"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="1008" Value="IO Description:"/>
+    <Text ID="1009" Value="State of actual digital input:"/>
+    <Text ID="1010" Value="State of actual digital output:"/>
+    <Text ID="1045" Value="Number of Elements in selected Level"/>
+    <Text ID="1047" Value="Number total:"/>
+    <Text ID="1048" Value="Number actual:"/>
+    <Text ID="3106" Value="Error Number:"/>
+    <Text ID="3107" Value="Error Info:"/>
+    <Text ID="3108" Value="Error Text:"/>
+    <Text ID="3109" Value="Date:"/>
+    <Text ID="3110" Value="Time:"/>
+    <Text ID="5478" Value="Actual forced I/Os:"/>
+    <Text ID="5584" Value="Force value:"/>
+    <Text ID="5622" Value="Available I/Os:"/>
+    <Text ID="5624" Value="State:"/>
+    <Text ID="5625" Value="Value:"/>
+    <Text ID="11121" Value="Details:"/>
+    <Text ID="12266" Value="Warning: Existing files on the destination will be overwritten!"/>
+    <Text ID="12269" Value="Wait for Backup command"/>
+    <Text ID="12270" Value="Backup in progress ..."/>
+    <Text ID="12271" Value="Error {ErrNbCopy} during Backup"/>
+    <Text ID="12272" Value="Wait for Restore command"/>
+    <Text ID="12273" Value="Wait"/>
+    <Text ID="12274" Value="Restore in progress ..."/>
+    <Text ID="12275" Value="Error {ErrNbCopy} during Restore"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="This Machine only works with a JENSEN Panel"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1008" Value="0"/>
+    <Index ID="1009" Value="1"/>
+    <Index ID="1010" Value="2"/>
+    <Index ID="1045" Value="10"/>
+    <Index ID="1047" Value="11"/>
+    <Index ID="1048" Value="12"/>
+    <Index ID="3106" Value="13"/>
+    <Index ID="3107" Value="14"/>
+    <Index ID="3108" Value="15"/>
+    <Index ID="3109" Value="16"/>
+    <Index ID="3110" Value="17"/>
+    <Index ID="5478" Value="18"/>
+    <Index ID="5584" Value="19"/>
+    <Index ID="5622" Value="20"/>
+    <Index ID="5624" Value="21"/>
+    <Index ID="5625" Value="22"/>
+    <Index ID="11121" Value="23"/>
+    <Index ID="12266" Value="24"/>
+    <Index ID="12269" Value="26"/>
+    <Index ID="12270" Value="27"/>
+    <Index ID="12271" Value="28"/>
+    <Index ID="12272" Value="29"/>
+    <Index ID="12273" Value="25"/>
+    <Index ID="12274" Value="30"/>
+    <Index ID="12275" Value="31"/>
+    <Index ID="12845" Value="32"/>
+    <Index ID="98704" Value="33"/>
+    <Index ID="100760" Value="5"/>
+  </IndexMap>
+</TextGroup>

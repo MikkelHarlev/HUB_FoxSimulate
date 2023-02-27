@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="CopyConfirm">
+  <Property Name="BackColor" Value="15"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="320"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="457823" Value="Yes"/>
+      <Text ID="457825" Value="No"/>
+      <Text ID="458282" Value="Copy?"/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="457823" Value="Ja"/>
+      <Text ID="457825" Value="Nn"/>
+      <Text ID="458282" Value="Kopieren?"/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="457823" Value="Ja"/>
+      <Text ID="457825" Value="Nej"/>
+      <Text ID="458282" Value="Kopiera?"/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="457823" Value="Oui"/>
+      <Text ID="457825" Value="Non"/>
+      <Text ID="458282" Value="Copie ?"/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="457823" Value="Yes"/>
+      <Text ID="457825" Value="No"/>
+      <Text ID="458282" Value="Copy?"/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="457823" Value="Yes"/>
+      <Text ID="457825" Value="No"/>
+      <Text ID="458282" Value="Copy?"/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="457823" Value="Yes"/>
+      <Text ID="457825" Value="No"/>
+      <Text ID="458282" Value="Copy?"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="457823" Value="Ja"/>
+      <Text ID="457825" Value="Geen"/>
+      <Text ID="458282" Value="Kopiëren?"/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="457823" Value="Sí"/>
+      <Text ID="457825" Value="Nº"/>
+      <Text ID="458282" Value="Copiar?"/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="457823" Value="Tak"/>
+      <Text ID="457825" Value="Nie"/>
+      <Text ID="458282" Value="Kopiować?"/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="457823" Value=""/>
+      <Text ID="457825" Value=""/>
+      <Text ID="458282" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="457823" Value=""/>
+      <Text ID="457825" Value=""/>
+      <Text ID="458282" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="457823" Value="Tak"/>
+      <Text ID="457825" Value="Nie"/>
+      <Text ID="458282" Value="Kopiować?"/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="457823" Value="Yes"/>
+      <Text ID="457825" Value="No"/>
+      <Text ID="458282" Value="Copy?"/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="457823" Value="Yes"/>
+      <Text ID="457825" Value="No"/>
+      <Text ID="458282" Value="Copy?"/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="457823" Value="Yes"/>
+      <Text ID="457825" Value="No"/>
+      <Text ID="458282" Value="Copy?"/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="457823" Value="Sim"/>
+      <Text ID="457825" Value="no    "/>
+      <Text ID="458282" Value="Copiar?"/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="457823" Value="0"/>
+      <Index ID="457825" Value="2"/>
+      <Index ID="458282" Value="5"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001005" Name="Background">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[C_120x120_SaveLoadBackground]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[Jensen_Raised2]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="70"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="95"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="93"/>
+      <Property Name="Width" Value="121"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_1">
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="109"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="0"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="126"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[CopyConfirm]"/>
+      <Property Name="Width" Value="40"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_2">
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="165"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="2"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="126"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[ExitButton]"/>
+      <Property Name="Width" Value="40"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="Height" Value="19"/>
+      <Property Name="Left" Value="102"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="5"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="101"/>
+      <Property Name="Width" Value="107"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="CopyConfirm">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="ExitButton">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="Service_Hanger_Inlet">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Index" Value="561"/>
+  <Property Name="LockedBackColor" Value="250"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="320"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[Service_Manual_Inlet]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Service_Manual_Inlet"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[Service_Hanger_Inlet]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Service_Hanger_Inlet"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[ComLayer_Manual]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_Manual"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="2"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[ComLayer_Style]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_Style"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="3"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[ComLayer_System]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_System"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="4"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="240"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="320"/>
+      <Property Name="Z-Order" Value="5"/>
+      <TextGroup>
+        <TextLayer LanguageId="en-GB"/>
+        <TextLayer LanguageId="de-DE"/>
+        <TextLayer LanguageId="sv-SE"/>
+        <TextLayer LanguageId="fr-FR"/>
+        <TextLayer LanguageId="da-DK"/>
+        <TextLayer LanguageId="it-IT"/>
+        <TextLayer LanguageId="fi-FI"/>
+        <TextLayer LanguageId="nl-NL"/>
+        <TextLayer LanguageId="es-ES"/>
+        <TextLayer LanguageId="pl-PL"/>
+        <TextLayer LanguageId="ru-RU"/>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="zh-CN"/>
+        <TextLayer LanguageId="cs-CZ"/>
+        <TextLayer LanguageId="en-US"/>
+        <TextLayer LanguageId="no-NO"/>
+        <TextLayer LanguageId="pt-PT"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls/>
+      <KeyMapping>
+        <VirtualKey Name="JogHangerConveyor">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[local].Layer[ComLayer_System].Control[Alarm_1]">
+      <Property Name="Down" Value="Source[local].Layer[ComLayer_System].Control[Alarm_1]"/>
+      <Property Name="Left" Value="Source[local].Layer[ComLayer_System].Control[Alarm_1]"/>
+      <Property Name="Right" Value="Source[local].Layer[ComLayer_System].Control[Alarm_1]"/>
+      <Property Name="Up" Value="Source[local].Layer[ComLayer_System].Control[Alarm_1]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[local].Layer[Service_Hanger_Inlet].Control[Numeric_1]"/>
+    <TabSeqItem Index="1" Value="Source[local].Layer[Service_Hanger_Inlet].Control[Numeric_3]"/>
+    <TabSeqItem Index="2" Value="Source[local].Layer[Service_Hanger_Inlet].Control[Numeric_4]"/>
+    <TabSeqItem Index="3" Value="Source[local].Layer[ComLayer_Manual].Control[Numeric_8]"/>
+    <TabSeqItem Index="4" Value="Source[local].Layer[ComLayer_Manual].Control[Numeric_5]"/>
+    <TabSeqItem Index="5" Value="Source[local].Layer[ComLayer_Manual].Control[String_1]"/>
+    <TabSeqItem Index="6" Value="Source[local].Layer[ComLayer_Manual].Control[Numeric_4]"/>
+    <TabSeqItem Index="7" Value="Source[local].Layer[ComLayer_Manual].Control[Numeric_3]"/>
+    <TabSeqItem Index="8" Value="Source[local].Layer[ComLayer_System].Control[Alarm_1]"/>
+    <TabSeqItem Index="9" Value="Source[local].Layer[ComLayer_Manual].Control[Numeric_6]"/>
+    <TabSeqItem Index="10" Value="Source[local].Layer[ComLayer_Manual].Control[LogbookValue]"/>
+    <TabSeqItem Index="11" Value="Source[local].Layer[Service_Hanger_Inlet].Control[Numeric_2]"/>
+  </TabSequence>
+</Page>

@@ -1,0 +1,447 @@
+VAR
+	BCD_Conntection : UINT;
+	g_ManualInletProcess : MachProcessManualInlet_Type;
+	g_MasterStep : UINT;
+	g_MCfg : MCfg_Type;
+	g_MCfgInitDone : BOOL;
+	g_MilliSeconds : UDINT;
+	g_NoHangersAtInlet : BOOL;
+	g_OperatorCommand : OpPageCommand_Type;
+	g_OperatorIcon : UINT;
+	g_MainLogBookFlag : UINT;
+	g_OptionsAndConfigInit : BOOL;
+	g_PieceCount : ARRAY[0..10] OF UINT;
+	g_PreSelectedProcess : UINT;
+	g_PrinterCom : PrinterCom_Type;
+	g_PrinterComHMI : PrinterComHMI_Type;
+	g_ProcessAlarm : BOOL;
+	g_ProcessAlarmCleared : BOOL;
+	g_RCfg : ARRAY[0..98] OF RCfg_Type;
+	g_ResetStackerNotDown : BOOL;
+	g_OutletProcess : MachProcessOutlet_Type;
+	g_MainAlarms : ProcessAlarm_Type;
+	g_MachineManagerStatus : UINT;
+	g_MachineManagerJedk : ARRAY[0..20] OF MachineProcessHandle_Type;
+	g_ExternalFileManage : FileConfigManage_Type;
+	g_ExternalPVICom : ExternalPVICom_Type;
+	g_Halted : BOOL;
+	g_HangerInletProcess : MachProcessHangerInlet_Type;
+	g_HangerOpenerProcess : MachProcessHangerOpener_Type;
+	g_HCfg : HCfg_Type;
+	g_HideStackChange : UINT;
+	g_HMIHandler : PageHandler_Type;
+	g_HMIProcessStatus : HMIProcessStatus_Type;
+END_VAR
+VAR RETAIN
+	g_HMIStatistic : HMIStatistic_Type;
+END_VAR
+VAR
+	g_InverterInit : BOOL;
+	g_LateralProcess : MachProcessLateral_Type;
+	g_LiftSetupEnabled10ms : BOOL;
+	g_LoadCFGDone : BOOL;
+	g_LogInletHanger : LogHanger_Type;
+	g_LogStacker : LogStack_Type;
+END_VAR
+VAR RETAIN
+	g_Machine : MachineControl_Type;
+END_VAR
+VAR
+	g_MachineManager : ARRAY[0..20] OF MachineProcessHandle_Type;
+	g_RunJenLog : BOOL;
+	g_ExternalCom : ExternalCom_Type;
+	g_RunJenLogStacker : BOOL;
+	g_SlaveOutlet : SlaveOutlet_Type;
+	NUMBER_OF_MACHINE_PROCESSES : UINT;
+	OverwriteAutoprog : UINT;
+	QDelay_GarmentPress_VLV : BOOL;
+	QHJam : BOOL;
+	QMBufferUnitStart : BOOL;
+	QMCrossConveyor : BOOL;
+	QMDeliveryConveyor : BOOL;
+	QYBrakeLFold : BOOL;
+	MM_TO_MS_FACTOR : REAL;
+	QYSeperator : BOOL;
+	ResetNoRead : BOOL;
+	X_KG_OpenExtern_PH : BOOL;
+	X_ManualFeedSecurity_SWT : BOOL;
+	X_OM_ProxFar_PH : BOOL;
+	X_OM_ProxNear_PH : BOOL;
+	X_PreStopFull_PH : BOOL;
+	Q_HangerConveyorRun_MTR : BOOL;
+	MAX_NUMBER_OF_MACHINE_PROCESSES : UINT;
+	MAXVISUALNAMELENGTH : UINT;
+	MachineManagerDoIndex : BOOL;
+	g_SoftStopButton : UINT;
+	g_SoftStopMaxTime : BOOL;
+	g_SpeedCountOfWheel : UINT;
+	g_StackerGroup : ARRAY[0..5] OF StackerGroupItems_Type;
+	g_StackerProcess : ARRAY[0..5] OF MachProcessStacker_Type;
+END_VAR
+VAR RETAIN
+	g_Statistic : ARRAY[0..99] OF StatisticRecord_Type;
+END_VAR
+VAR
+	g_StatusIcon : StatusIcon_Type;
+	g_TestFunctionActive : BOOL;
+	g_TestRaiseBlades : BOOL;
+	g_Timers : TimerCount_Type;
+	g_ToLatFold : ToLatFold_Type;
+	g_TopConveyorProcess : MachProcessInlet_Type;
+	g_UpdateRcpNameList : BOOL;
+	g_VirtualStartKey : BOOL;
+	g_VirtualStopKey : BOOL;
+	g_WheelCounter : UDINT;
+	g_XtremeHeavy : XtremeHeavy_Type; (*Used for testing outputs*)
+	IBDeliveryBeltBegin : BOOL;
+	g_EmptyHangerBlock : BOOL;
+	ZeroStackData : StackData_Type;
+	g_ACfg : ARRAY[0..98] OF ACfg_Type;
+	GarbageStackData : StackData_Type;
+END_VAR
+VAR RETAIN
+	g_ArticleNumber : UINT;
+END_VAR
+VAR
+	g_AutoProgram : AutoProgramApp_Type;
+END_VAR
+VAR RETAIN
+	g_BatchId : UINT;
+END_VAR
+VAR
+	g_ClearJenLog : BOOL;
+	g_ComBus : ScanPort_Type;
+	g_EmptyHanger : BOOL;
+	DelEmercStop : BOOL;
+	g_CrossFoldAProcess : MachProcessCrossFoldA_Type;
+END_VAR
+VAR RETAIN
+	g_CustomerArticleName : STRING[41];
+	g_CustomerNumber : DINT;
+END_VAR
+VAR
+	g_DeliveryProcess : MachProcessDelivery_Type;
+	g_CrossFoldBProcess : MachProcessCrossFoldB_Type;
+	g_DummyPulses : UINT;
+	CROSSB_EXTRA_REVERSE_TIME : UINT;
+	g_DeliveryProcess2 : MachProcessDelivery2_Type;
+	g_DuoInletProcess : MachProcessDuo_Type;
+END_VAR
+VAR CONSTANT
+	ETH_DEVICE : STRING[5] := 'IF5';
+END_VAR
+VAR
+	g_Sim : VISU := (0);
+	g_test_steper : TEST_STEPPER := (0);
+	g_Inverter : Inverter_Type := (0);
+	g_MiniJenwayProcess : MachProcessMiniJenway_Type := (0);
+	gXAFold2Motor : SetReset_Type := (0);
+	g_DTGetTime_0 : DTGetTime := (0);
+	g_HMI_MacConfig : VISU_MCFG_LYER := (0);
+	g_MLabelColor : UINT := 0;
+END_VAR
+VAR CONSTANT
+	SLOPEMODE_INACTIVE_0 : UINT := 0;
+	FOLD_COMB_BYPASS_UP_0 : UINT := 0;
+	DATA_EX_FULL_0 : UINT := 0;
+	EXTERN_HANGER_IDLE_0 : UINT := 0;
+	RECIPE_CALLER_NONE_0 : UINT := 0;
+	DELIVERY_FUNCTION_ACCUMULATE_0 : UINT := 0;
+	FOLD_DEVICE_AIR_0 : UINT := 0;
+	OPENINGMODE_UP_0 : UINT := 0;
+	RECIPE_CALLER_NONE_0 : UINT := 0;
+	OUTLET_STACK_CHANGE_NONE_0 : UINT := 0;
+	SELECT_RECIPE_IDLE_0 : UINT := 0;
+	OUTLETMODE_SINGLE_0 : UINT := 0;
+END_VAR
+VAR
+	g_Trim : UINT := 0;
+END_VAR
+VAR CONSTANT
+	SHOW_OUTLET_PIECES_0 : UINT := 0;
+	NO_LIFT_STACKER_0 : UINT := 0;
+END_VAR
+VAR
+	g_DuoWheelCounter : UDINT := 0;
+END_VAR
+VAR CONSTANT
+	STACKER_FILL_0 : UINT := 0;
+END_VAR
+VAR
+	CONNECTION_TYPE_NONE_0 : UINT := 0;
+END_VAR
+VAR CONSTANT
+	CROSSA_BELT_CLOSED_0 : UINT := 0;
+END_VAR
+VAR
+	MAX_STACK_SIZE : UINT := 0;
+	g_FlipInlet : UINT := 0;
+END_VAR
+VAR CONSTANT
+	LIFT_MODE_IDLE_0 : UINT := 0;
+END_VAR
+VAR
+	g_HangerSpeed : USINT := 0;
+END_VAR
+VAR CONSTANT
+	XA_BELT_NOT_USED_0 : UINT := 0;
+	NO_COUPLING_0 : UINT := 0;
+END_VAR
+VAR
+	g_HMIReleaseHanger : UINT := 0;
+	g_HMIStackChange : UINT := 0;
+END_VAR
+VAR CONSTANT
+	STACKER_SECTION_OFF_0 : UINT := 0;
+	TROUSER_TYPE_0 : UINT := 0;
+	INLET_START_MODE_SENSOR_0 : UINT := 0;
+	PRESSMODE_NO_0 : UINT := 0;
+	TRIG_MODE_RAISING_FLANK_0 : UINT := 0;
+	STATISTICS_ON_STACK_0 : UINT := 0;
+	OUTLET_STACK_CHANGE_FOLDPROG_1 : UINT := 1;
+	EXTERN_HANGER_REQUEST_1 : UINT := 1;
+	OPENINGMODE_DOWN_1 : UINT := 1;
+END_VAR
+VAR
+	NUMBER_OF_STACKERS : USINT := 1;
+END_VAR
+VAR CONSTANT
+	NEW_LIFT_STACKER_1 : UINT := 1;
+	INLET_START_MODE_KEY_1 : UINT := 1;
+	LIFT_MODE_UP_1 : UINT := 1;
+END_VAR
+VAR
+	NUMBER_OF_STACKERGROUPS : UINT := 1;
+END_VAR
+VAR CONSTANT
+	PAGE_MACHINE_MAIN_1 : UINT := 1;
+	FOLD_COMB_BYPASS_DOWN_1 : UINT := 1;
+	PRESSMODE_ALWAYS_1 : UINT := 1;
+	DELIVERY_FUNCTION_TRANSPORT_1 : UINT := 1;
+	OUTLETMODE_DOUBLE_1 : UINT := 1;
+	SHIRT_TYPE_1 : UINT := 1;
+	FOLD_DEVICE_KNIFE_1 : UINT := 1;
+	FOLD_MODE_BYPASS_DIRECT_1 : UINT := 1;
+	FOLD_MODE_BYPASS_1 : UINT := 1;
+	SENDOUT_JENWAY_EXCHANGE_1 : UINT := 1;
+	SELECT_RECIPE_DONE_1 : UINT := 1;
+	STACKER_A_1 : UINT := 1;
+	STACKER_SECTION_LENGTH_1 : UINT := 1;
+	SLOPEMODE_ACTIVE_1 : UINT := 1;
+	SEARCH_CALL_ID_LOADING_01 : UINT := 1;
+	XA_BELT_CLOSE_CLOSE_1 : UINT := 1;
+	RECIPE_CALLER_MACHINE_1 : UINT := 1;
+	DATA_EX_AUTO_1 : UINT := 1;
+	XMLCOM_SLAVELINK_ID_1 : UINT := 1;
+	CONNECTION_TYPE_ETHERNET_1 : UINT := 1;
+	SORTOUT_AFTER_CROSSA_1 : UINT := 1;
+	STACKER_SECTION_WIDTH_SENSOR_2 : UINT := 2;
+	XA_BELT_OPEN_CLOSE_2 : UINT := 2;
+	XMLCOM_INLETSLAVE_ID_2 : UINT := 2;
+	SORTOUT_AFTER_STACKER_2 : UINT := 2;
+	TRIG_MODE_FALLING_FLANK_2 : UINT := 2;
+	PYJAMAS_TYPE_2 : UINT := 2;
+	SELECT_RECIPE_BUSY_2 : UINT := 2;
+	OUTLET_STACK_CHANGE_CUSTART_2 : UINT := 2;
+	SEARCH_CALL_ID_SLAVEINLET_02 : UINT := 2;
+	CROSSA_BELT_CONTROLLED_2 : UINT := 2;
+	RECIPE_CALLER_STAT_2 : UINT := 2;
+	RECIPE_CALLER_STAT_2 : UINT := 2;
+	CUSTOMER_SEARCH_CUSTART_2 : UINT := 2;
+	PAGE_MACHINE_STATUS : UINT := 2;
+	DATA_EX_AUTO_STACKCHANGE_2 : UINT := 2;
+	PRESSMODE_END_2 : UINT := 2;
+	MACHPROC_STARTUP_2 : UINT := 2;
+	OPENINGMODE_INSIDE_2 : UINT := 2;
+	FOLD_DEVICE_AIR_KNIFE_2 : UINT := 2;
+	EXTCOM_JENWAY_HAS_ROLLOFF_2 : UINT := 2;
+END_VAR
+VAR
+	DUO_FLIP_INLET_02 : USINT := 2; (*How Many Times should Fox inlet run before Duo Inlet is allowed to run. Could be changed to a machine timer!*)
+END_VAR
+VAR CONSTANT
+	FOLD_COMB_HALFFOLD_A_UP_2 : UINT := 2;
+	INLET_START_MODE_CONTINOUS_2 : UINT := 2;
+	EXTERN_HANGER_WAIT_2 : UINT := 2;
+	LIFT_MODE_DOWN_2 : UINT := 2;
+	FORCE_TO_SHIRT_2 : UINT := 2;
+	FOLD_MODE_BYPASS_REVERSE_2 : UINT := 2;
+	CONNECTION_TYPE_SERIAL_3 : UINT := 3;
+	EXTERN_HANGER_AWAY_3 : UINT := 3;
+	HOOK_STATE_STACK_USED_3 : UINT := 3;
+	PAGE_MACHINE_MAIN_1_CUSTART : UINT := 3;
+	TOWELS_TYPE_3 : USINT := 3;
+	PAGE_STATISTIC1_3 : UINT := 3;
+	STACKER_SECTION_MAN_SENSOR_3 : UINT := 3;
+	DATA_EX_ONLY_FULL_3 : UINT := 3;
+	FORCE_TO_PYJAMAS_3 : UINT := 3;
+	CUSTOMER_SEARCH_CUST_3 : UINT := 3;
+	XMLCOM_LOADING_ID_3 : UINT := 3;
+	RECIPE_CALLER_EDIT_3 : UINT := 3;
+	FOLD_COMB_HALFFOLD_A_DOWN_3 : UINT := 3;
+	XA_BELT_CLOSE_OPEN_3 : UINT := 3;
+	DATA_EX_ONLY_FULL_IO_3 : UINT := 3;
+	SEARCH_CALL_ID_JENWAY_03 : UINT := 3;
+	SORTOUT_AFTER_CROSSB_3 : UINT := 3;
+	FOLD_MODE_DIRECT_3 : UINT := 3;
+	LIFT_MODE_STOP_3 : UINT := 3;
+	OPENINGMODE_OUTSIDE_3 : UINT := 3;
+	XA_BELT_OPEN_OPEN_4 : UINT := 4;
+	PAGE_ID_STAT : UINT := 4;
+	TRIG_MODE_DIRECT_4 : UINT := 4;
+	XMLCOM_SENDOUT_ID_4 : UINT := 4;
+	DATA_EX_ONLY_STACKCHANGE_4 : UINT := 4;
+	FOLD_MODE_REVERSE_4 : UINT := 4;
+	CUSTOMER_SEARCH_ART_4 : UINT := 4;
+	CONNECTION_TYPE_BCD_4 : UINT := 4;
+	FOLD_COMB_HALFFOLD_B_UP_4 : UINT := 4;
+	EXTERN_HANGER_AWAY_WAIT_4 : UINT := 4;
+	OUTLET_STACK_CHANGE_RESET_4 : UINT := 4;
+	FOLD_COMB_HALFFOLD_B_DOWN_5 : UINT := 5;
+	FOLD_MODE_BYPASS_REVERSE_OUT_5 : UINT := 5;
+	OUTLET_STACK_CHANGE_MET_FPROG_5 : UINT := 5;
+	DELIVERY_FAIL_CODE_BELTLENGTH_5 : UINT := 5;
+	EXTERN_HANGER_FOUND_6 : UINT := 6;
+	FOLD_COMB_THIRDFOLD_F_DIRECT_6 : UINT := 6;
+	OUTLET_STACK_CHANGE_MANUAL_6 : UINT := 6;
+	OUTLET_STACK_CHANGE_LENGTH_6 : UINT := 6;
+	NUMBER_OF_FUNCTION_KEYS : UINT := 6;
+	PAGE_CLEAR_DATA : UINT := 6;
+	FOLD_MODE_BYPASS_OUT_6 : UINT := 6;
+	MAX_STATISTIC_GRP : USINT := 7;
+	FOLD_COMB_THIRDFOLD_F_REVERSE_7 : UINT := 7;
+	LATER_FOLD_BOOTH_REAR_BACK_8 : UINT := 8;
+	FOLD_COMB_THIRDFOLD_S_DIRECT_8 : UINT := 8;
+	FOLD_COMB_THIRDFOLD_S_REVERSE_9 : UINT := 9;
+	EXTERN_HANGER_FAIL_9 : UINT := 9;
+	SHOW_OUTLET_CUSTOMER_9 : UINT := 9;
+	MAX_MF_STACKCOUNT : USINT := 10;
+	MAX_MF_KEYCOUNT : USINT := 10;
+	MAX_NUMBER_OF_STACKERS : USINT := 10;
+	FOLD_COMB_FOURFOLD_INSIDE_10 : UINT := 10;
+	FOLD_COMB_FOURFOLD_OUTSIDE_11 : UINT := 11;
+	FOLD_COMB_FIX_REAREDGE_INSIDE_12 : UINT := 12;
+	FOLD_COMB_FIX_REAREDGE_OUTSID_13 : UINT := 13;
+	FOLD_COMB_FIX_LEADEDGE_INSIDE_14 : UINT := 14;
+	FOLD_COMB_FIX_LEADEDGE_OUTSID_15 : UINT := 15;
+	FOLD_COMB_FIX_AB_16 : UINT := 16;
+	PAGE_STATISTIC_20 : UINT := 20;
+	PAGE_STATISTIC_DATA : UINT := 20;
+	MACHPROC_WAIT_FOR_DATA_21 : UINT := 21;
+	PAGE_STATISTICS_2 : UINT := 21;
+	MACHPROC_WAIT_FOR_TABLE_23 : UINT := 23;
+	MACHPROC_WAIT_DROP_25 : UINT := 25;
+	MACHPROC_DO_INDEX_26 : UINT := 26;
+	PAGE_MACHINE_GENERAL_27 : UINT := 27;
+	MACHPROC_WAIT_STOP_30 : UINT := 30;
+	MACHPROC_CONFIRM_HANGEROUT_35 : UINT := 35;
+	MACHPROC_GARMENT_IN_40 : UINT := 40;
+	MACHPROC_DELIVER_NEXT_STG_45 : UINT := 45;
+	PAGE_FOLD_PROG_LIST_50 : UINT := 50;
+	MAXTRACELOGITEMS : UINT := 50;
+	PAGE_CUSTOMER_SELECT_51 : UINT := 51;
+	PAGE_OPERATOR_SELECT_53 : UINT := 53;
+	MAX_ALM_LIST : USINT := 70;
+	MACHPROC_WAIT_LEADEDGE_81 : UINT := 81;
+	PAGE_SYSTEM_LOGIN : UINT := 98;
+	MAX_NUMBER_OF_CATEGORIES : UINT := 99;
+	MAX_NUMBER_OF_AUTOPROGRAMS : UINT := 99;
+	PAGE_MACHINE_RECIPE_EDIT_100 : UINT := 100;
+	PAGE_MACHINE_RECIPESEL_101 : UINT := 101;
+	PAGE_CUSTOMER_EDIT : UINT := 110;
+	PAGE_ARTICLE_EDIT : UINT := 111;
+	PAGE_MACHINE_CONFIG_120 : UINT := 120;
+	PAGE_OPERATOR_EDIT : UINT := 130;
+	PAGE_MACHINE_OPTION_140 : UINT := 140;
+	PAGE_FAIL_SAFE : UINT := 199;
+	MIN_SENSOR_START_DELAY : UINT := 200;
+	PAGE_LOCALBUS_STATUS : UINT := 205;
+	PAGE_X67BUS_STATUS : UINT := 206;
+	PAGE_X20BUS_STATUS : UINT := 207;
+	PAGE_TRACEIOCONFIG : UINT := 215;
+	PAGE_TRACEIOGRAPH : UINT := 216;
+	PAGE_LOGBOOK : UINT := 220;
+	PAGE_USB_BACKUP_230 : UINT := 230;
+	PAGE_SYSTEM : UINT := 300;
+	PAGE_SYS_OPERATOR : UINT := 301;
+	PAGE_SYS_DISP_CLEAN : UINT := 302;
+	PAGE_SYS_PASSWORD_CHANGE : UINT := 310;
+	PAGE_SYS_PASSWORD_CODE : UINT := 311;
+	PAGE_SYS_INFORMATION : UINT := 320;
+	PAGE_ALARM_LIST : UINT := 400;
+	PAGE_ALARM_HISTORY : UINT := 410;
+	PAGE_ALARM_BYPASS : UINT := 430;
+	PAGE_RCP_NAME_LIST : UINT := 510;
+	PAGE_MACHINE_AUTOPROGSETUP1 : UINT := 530;
+	PAGE_MACHINE_AUTOPROGSETUP2 : UINT := 531;
+	PAGE_MACHINE_AUTOPROGSETUP3 : UINT := 532;
+	PAGE_MACHINE_AUTOPROGSETUP4 : UINT := 533;
+	PAGE_MACHINE_AUTOPROGSETUP5 : UINT := 534;
+	PAGE_MACHINE_AUTOPROGFILE : UINT := 537; (* Link to page 106 *)
+	PAGE_XML_METRICON_540 : UINT := 540;
+	PAGE_RECEPIE_MAIN : UINT := 540;
+	PAGE_XML_DIAG : UINT := 541;
+	PAGE_RECEPIE_LATERAL : UINT := 541;
+	PAGE_RECEPIE_CROSSFOLD : UINT := 542;
+	PAGE_RECEPIE_CROSSA : UINT := 543;
+	PAGE_RECEPIE_CROSSB : UINT := 544;
+	PAGE_RECEPIE_STACKER : UINT := 545;
+	PAGE_RECEPIE_OUTLET : UINT := 546;
+	PAGE_ALARM_OVERVIEW : UINT := 450;
+	PAGE_MACHINE_SERVICE : UINT := 550;
+	PAGE_SERVICE_HANGER_INLET : UINT := 581;
+	PAGE_SERVICE_HANGEROPENER : UINT := 582;
+	PAGE_SERVICE_TOPCONV : UINT := 583;
+	PAGE_SERVICE_LATERAL : UINT := 584;
+	PAGE_SERVICE_CROSSA : UINT := 585;
+	PAGE_SERVICE_CROSSB : UINT := 586;
+	PAGE_SERVICE_STACKER : UINT := 587;
+	PAGE_SERVICE_OUTLET : UINT := 588;
+	PAGE_SERVICE_DELIVERY : UINT := 589;
+	PAGE_MACHINE_HISTORY_ALARMS : UINT := 520;
+	MAXTRACECYCLES : UINT := 5000;
+	COLOR_HEADER_NO_ALARM : UINT := 7196;
+	PAGE_SYSTEM_BOOTUP : UINT := 9998;
+	COLOR_HEADER_ALARM : UINT := 13107;
+END_VAR
+VAR
+	g_ResetHangerCount : BOOL := FALSE;
+	g_EnableFeedingWaiting : BOOL := FALSE;
+END_VAR
+VAR CONSTANT
+	MOTOR_DIRECTION_FORWARD : BOOL := FALSE;
+END_VAR
+VAR
+	g_DuoInletMotorPreStart : BOOL := FALSE;
+	g_WaitingMLabel : BOOL := FALSE;
+	g_ToLatFold_StopJam : BOOL := FALSE;
+	g_GuardHasOpened : BOOL := FALSE;
+	g_ReleaseHanger : BOOL := FALSE;
+	g_TestRaiseInlet : BOOL := FALSE;
+	g_JamDeloadingOut : BOOL := FALSE;
+	g_CorrectBeltsTurnAround : BOOL := FALSE;
+	g_TestLogData : BOOL := FALSE;
+	g_CommunicationErrorMetricon : BOOL := FALSE;
+	g_LoadCFG : BOOL := FALSE;
+	g_SystemInitialized : BOOL := FALSE;
+	g_AcoposStart : BOOL := FALSE;
+	g_StopMachine : BOOL := FALSE;
+	g_StackerNormRelease : BOOL := FALSE;
+	g_StackerEarlyRelease : BOOL := FALSE;
+	g_JamAlarm : BOOL := FALSE;
+	g_XBStopMotor : BOOL := FALSE;
+	g_FirstBoot : BOOL := TRUE;
+	g_EnableRecipeLogData : BOOL := TRUE;
+END_VAR
+VAR RETAIN
+	g_Exists : ExistsIO_Type := (0);
+END_VAR
+VAR
+	g_EnableJDLogData : BOOL := TRUE;
+	g_Jenway : Jenway_Type := (0);
+	g_Overflow : BOOL := 0;
+	g_ShiftBufferData : BOOL := FALSE;
+	g_JenWayIsBlocked : BOOL := FALSE;
+	g_SimulationFolder : STRING[8] := 'plc0484'; (*Please adapt this string to fit your machine type, like 'plcMmmm'. Note! Max 7 characters *)
+	g_sim : SimIO_Type := (0);
+END_VAR

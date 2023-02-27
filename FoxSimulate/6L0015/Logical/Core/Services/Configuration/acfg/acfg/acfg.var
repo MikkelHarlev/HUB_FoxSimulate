@@ -1,0 +1,94 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: acfg
+ * File: acfg.var
+ * Author: flystes
+ * Created: February 19, 2015
+ ********************************************************************
+ * Local variables of program acfg
+ ********************************************************************)
+VAR
+	TON_VisiEnable : TON := (0);
+	RVariableEdited : BOOL := FALSE;
+END_VAR
+VAR
+	Value : STRING[32];
+	OrgRcp : UINT;
+	i : USINT;
+	cmdUpdateRcpOrg : BOOL;
+	RShowLevelOld : USINT := 0;
+	RDontNotify : BOOL := FALSE;
+	ClearString : UINT;
+	cmdAsk : USINT;
+	cmdCancel : BOOL;
+	cmdCopyTimerToAllRcp : BOOL;
+	Completion_CfgDestBegin : BOOL;
+	Completion_CfgDestEnd : BOOL;
+	CycleCount : USINT;
+	CycleScroll : USINT;
+	ElementsInArray : UINT;
+	ErrStrLen : UINT;
+	HmiAuto : BOOL;
+	LastLanguage : UINT;
+END_VAR
+VAR CONSTANT
+	NAME_CFG_DEVICE : STRING[20] := 'acfg';
+END_VAR
+VAR
+	NameFieldStructure : STRING[80];
+	NameStructure : STRING[80];
+	NewStatusString : USINT;
+	NewStatusString_Time : UDINT;
+	OldRcpNo : UINT;
+	PageAutoProgEdit : UINT;
+	PageAutoProgSelect : UINT;
+	ParScroCyclic_0 : ParScroCyclic;
+	ParScroInit_0 : ParScroInit;
+	ACfg : Cfg_Type;
+	Rcp_Select : USINT;
+	RcpAdd_0 : RcpAdd;
+	RcpCopy_0 : RcpCopy;
+	RcpDirList_0 : RcpDirList;
+	RcpFileListScroll_0 : RcpFileListScroll;
+	RcpGetNames_0 : RcpGetNames;
+	RcpInit_0 : RcpInit;
+	RcpLoad_0 : RcpLoad;
+	RcpNameList_0 : RcpNameList;
+	RcpSave_0 : RcpSave;
+	RCycleCount : UDINT;
+END_VAR
+VAR CONSTANT
+	AUTOPROG_CHECK_FOR_COMMAND : USINT := 1;
+	AUTOPROG_CLEAR_ERROR_STRINGS : USINT := 12;
+	AUTOPROG_COPY : USINT := 8;
+	AUTOPROG_DIR_LIST : USINT := 10;
+	AUTOPROG_DIRLIST_INIT : USINT := 11;
+	AUTOPROG_ERROR : USINT := 2;
+	AUTOPROG_GET_NAMES : USINT := 13;
+	AUTOPROG_LOAD : USINT := 3;
+	AUTOPROG_LOAD_WAIT : USINT := 4;
+	AUTOPROG_PARSCROLL_INIT : USINT := 5;
+	AUTOPROG_SAVE : USINT := 6;
+	AUTOPROG_UPDATE_PAR : USINT := 20;
+	AUTOPROG_SAVE_WAIT : USINT := 7;
+END_VAR
+VAR
+	RInitDone : BOOL;
+	RTimeCounter : UDINT := 0;
+	RTInfo_0 : RTInfo;
+	sAutoProg : USINT;
+	SYSInfo_0 : SysInfo;
+	TaskCycleTime : UDINT;
+	TimeCounterDown : UDINT;
+	TimeCounterUp : UDINT;
+	TimePermanentScroll : UDINT;
+	tmpstr : ARRAY[0..40] OF USINT;
+	TriggScrollDown : R_TRIG;
+	TriggScrollUp : R_TRIG;
+	RecipeName : STRING[20];
+	RTrigFunctions : BOOL;
+	cmdReadRecipeNames : BOOL;
+	ACfgTimerVisibility : ARRAY[0..999] OF USINT;
+	TimerDescription : TimerDescription_Type;
+END_VAR

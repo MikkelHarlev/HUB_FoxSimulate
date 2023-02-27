@@ -1,0 +1,6 @@
+VAR
+	i : UINT;
+	tmp : REFERENCE TO BOOL;
+	RTInfo_0 : RTInfo;
+	CycleCount : UDINT;
+END_VAR

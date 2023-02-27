@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigM_Opener">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="59"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="463373" Value="Test- Parameter Manual opener"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="463373" Value="Test- Parameter Manuellere oeffner"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="463373" Value="Test- Parameter Manual opener"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="463373" Value="Test- paramètres ouverture manuelle"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="463373" Value="Test- Parameter Manual opener"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="463373" Value="Test- Parameter Manual opener"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="463373" Value="Test- Parameter Manual opener"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="463373" Value="Test- parameter handmatige opener"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="463373" Value="Test - Parámetros apertura manual"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="463373" Value="Parametr testowy ręczny zespół otwierania"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="463373" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="463373" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="463373" Value="Parametr testowy ręczny zespół otwierania"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="463373" Value="Test- Parameter Manual opener"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="463373" Value="Test- Parameter Manual opener"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="463373" Value="Test- Parameter Manual opener"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="463373" Value="Parâmetro de teste do abridor manual"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="463373" Value="0"/>
+  </IndexMap>
+</TextGroup>

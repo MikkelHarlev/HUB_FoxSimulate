@@ -1,0 +1,419 @@
+
+<HTML DIR=LTR>
+ <HEAD>
+  <meta name="INDEX" content="V2.52.8">
+  <meta name="ORDER" content="2">
+  <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <TITLE>Version History</TITLE>
+  <LINK REL="StyleSheet" HREF="../styles.css">
+ </HEAD>
+
+ <BODY>
+  <H1> jercp_lib - Version History</H1>
+
+  <font FACE="Courier New" SIZE="2" COLOR="#008000"></font>
+
+  <p> &nbsp;</p>
+
+  <TABLE WIDTH="90%" CELLPADDING="4" CELLSPACING="2" BORDER="1" ALIGN="center" height="1133">
+   <TR>
+    <TD WIDTH="10%" VALIGN="CENTER" height="16">
+     <P ALIGN="CENTER"> <B>Version</B></P>
+    </TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     <P ALIGN="CENTER"> <B>Changes relative to the previous version</B></P>
+    </TD>
+   </TR>
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.37</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Fixed Bug: RcpLoad - buffer over-reading when loading a .csv file. RcpLoad would sometimes fail to load correctly</TD>
+   </tr>
+      <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.36</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Improvement in:<br>
+     Runtime - removed active debug functions.</TD>
+   </tr>
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.35</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     New paramters: RcpInit.NumbersLang<br>
+     Fixed a memory allocation bug that occurred when trying to reinitialize rcpinit</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.34</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     New paramters: RcpInit.SizeMemAlloc, RcpInit.SizeMemAllocated<br>
+     Deactivate Compiler Switch for automatic pointer check</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.33</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Activate Compiler Switch for automatic pointer check</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.32</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Improvement in:<br>
+     --&gt; File Save: Create backup file before Delete &amp; Create of new file<br>
+     --&gt; File Load: Look for backup file if file to be loaded cannot be found</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.31</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Improvements in File Load</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.30</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Change from TMP_alloc to Memory manager AsMem Library</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.27</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Library compiled for minimum AR J2.83</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.26</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bugs: RcpLoad - when working dynamic an error could occur; compress 
+     function; Release temporary allocated memory when load file</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.25</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug: RcpCopy - when working dynamic and destination recipe was 
+     greater than existing recipes, this result in an Error</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.24</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug: RcpCopy could result in page fault when working dynamic</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.23</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug: Correct Error in PointCheck calls: Note - this did not have any 
+     influence the application, but it created a lot of logbook entries</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.22</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug: Release memory after RcpLoad when working in dynamic mode</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="13">
+     V3.21</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="13">
+     Clear Bug: ParScroInit: Page fault when not using a ParNameLanguage File</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.20</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     New Function: RcpGetNames copies all Recipe names into a string array</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.12</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     New Feature: cfgpar File column C could be configured whether to display, 
+     not to display or password level dependent display a parameter</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.06</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug: Save file when working with dynamic memory lost all 
+     data(everything was 0). Bug present since Version V3.0!</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.05</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug: ParScroInit page fault when no parcfg was used; RcpCopy page 
+     fault when 
+     working in dynamic mode</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.01</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Implement Feature: cfgpar File column B could hold a Parameter Number which 
+     will be placed in front of the Parameter language text</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.00.1</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug: RcpNameList: When RcpName was too long the Names were displayed 
+     wrongly in the Listbox and scrolling caused a PLC crash</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V3.00</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     csv Format incompatible to previous versions -
+     <a href="../Example/File%20Format.html">See Example File Format</a></TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.10</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Library compiled for minimum AR K2.80</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.05</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Change RcpCopy Function: Concept of copy recipes was wrong</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.04.4</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug: ParScroCyclic: Error when parameter was a string and longer than 
+     string of the listbox</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.04.3</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Add Function to RcpCopy: option to copy only one parameter</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.04.2</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug: RcpNameList only worked correct with Varaibles, not with dynamic 
+     allocated memory</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.04.1</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Error Constants added: JERCP_NO_FILENAME for RcpSave and RcpLoad</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.04</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Parameter Change: ParScroCyclic.ActParValue moved to 
+     ParScroInit.pActParValue and ParScroInit.SizeActParValue</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.03.1</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug: Support of String Arrays</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.03</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Release implementation of encoding / decoding data</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.02</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Implement encoding / decoding of data</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.01.9</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug in RcpNameList() - Problem when working dynamic</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.01.8</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     ParScroInit() - Clear Bug. PLC crash when working dynamic and no recipe 
+     loaded</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.01.7</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     RcpNameList() - First Character is always a space character</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.01.6</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug in RcpLoad &amp; RcpSave FBK() In special situations status was reset 
+     to 0 after the first FileIo FBK call.</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.01.5</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug in RcpNameList()</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V2.01.4</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bugs</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="144">
+     V2.01.3</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="144">
+     Many Improvements have been done during the Setup of the 3 Prototype 
+     machines in Denmark.<br>
+     Library is not compatible to previous Versions<br>
+     - RcpInit FBK: Input for select whether work with real variables of dynamic 
+     allocated memory<br>
+     - RcpNameList FBK is new<br>
+     - Change in Recipe Copy (select source recipe index, number of recipes and 
+     destination recipe index)<br>
+     - RcpIndex Starts with 1 instead of 0!!! 0 is an invalid index<br>
+     - RcpPointInit is new<br>
+     - RcpPointRef is new<br>
+     - RcpAccess does not exist any more</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V1.00.4</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Add RcpEditAccess function - References second Pointer for Editing Recipes</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V1.00.3</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug in RcpFileListScroll() and ParScrollCyclic() - Last Item was not 
+     displayed in String Array</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V1.00.2</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Clear Bug in RcpDirList() and RcpFileListScroll(); Add optHeaderOnly at 
+     RcpSave()</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V1.00.1</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     Add RcpAccess function - References Pointer for accessing Recipes in the 
+     task</TD>
+   </tr>
+
+   <tr>
+    <TD WIDTH="10%" VALIGN="top" height="16">
+     V1.00.0</TD>
+
+    <TD WIDTH="90%" VALIGN="CENTER" height="16">
+     First Version of the Library</TD>
+   </tr>
+
+  </TABLE>
+ 
+
+  <font FACE="Courier New" SIZE="2" COLOR="#008000"></font>
+ 
+
+</HTML>

@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_FoldProgLateral">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Index" Value="541"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="320"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[ComLayer_Pages]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_Pages"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[ComLayer_Common]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_Common"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="240"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="320"/>
+      <Property Name="Z-Order" Value="2"/>
+      <TextGroup>
+        <TextLayer LanguageId="en-GB"/>
+        <TextLayer LanguageId="de-DE"/>
+        <TextLayer LanguageId="sv-SE"/>
+        <TextLayer LanguageId="fr-FR"/>
+        <TextLayer LanguageId="da-DK"/>
+        <TextLayer LanguageId="it-IT"/>
+        <TextLayer LanguageId="fi-FI"/>
+        <TextLayer LanguageId="nl-NL"/>
+        <TextLayer LanguageId="es-ES"/>
+        <TextLayer LanguageId="pl-PL"/>
+        <TextLayer LanguageId="ru-RU"/>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="zh-CN"/>
+        <TextLayer LanguageId="cs-CZ"/>
+        <TextLayer LanguageId="en-US"/>
+        <TextLayer LanguageId="no-NO"/>
+        <TextLayer LanguageId="pt-PT"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001007" Name="LeftOntimeInput">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralLeftBladeCmd]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="153"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="109"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralLeftBladeOnTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="LeftOntime">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="3"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgLateral]"/>
+          <Property Name="TextIndexOffset" Value="15"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="109"/>
+          <Property Name="Width" Value="140"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="RightOntime">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="3"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgLateral]"/>
+          <Property Name="TextIndexOffset" Value="16"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="73"/>
+          <Property Name="Width" Value="140"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="WidthFirst">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="3"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgLateral]"/>
+          <Property Name="TextIndexOffset" Value="12"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="145"/>
+          <Property Name="Width" Value="140"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="WidthLast">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="3"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgLateral]"/>
+          <Property Name="TextIndexOffset" Value="17"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="162"/>
+          <Property Name="Width" Value="140"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_29">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="185"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgCrossA]"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="109"/>
+          <Property Name="Width" Value="38"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="RightOntimeInput">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralRightBladeCmd]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="153"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="73"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralRightBladeOnTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="WidthFirstInput">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralWidthFirstCmd]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="153"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="28"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="14"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="145"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralWidthFirst]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="WidthLastInput">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralWidthLastCmd]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="153"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="28"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="14"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralWidthLast]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_30">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="185"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgCrossA]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="145"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_31">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="185"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgCrossA]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="LeftDelay">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="3"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgLateral]"/>
+          <Property Name="TextIndexOffset" Value="18"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="91"/>
+          <Property Name="Width" Value="140"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="LeftDelayInput">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralLeftBladeStartCmd]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="153"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="91"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralLeftBladeStartDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_33">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="185"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgCrossA]"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="91"/>
+          <Property Name="Width" Value="38"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="BladeReturnText">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="3"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgLateral]"/>
+          <Property Name="TextIndexOffset" Value="20"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="127"/>
+          <Property Name="Width" Value="140"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="BladeReturnInput">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.BladeBackTimeCmd]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="154"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="127"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralBladeBackTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_34">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="185"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgCrossA]"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="127"/>
+          <Property Name="Width" Value="38"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="RightDelaytime">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="3"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgLateral]"/>
+          <Property Name="TextIndexOffset" Value="19"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="54"/>
+          <Property Name="Width" Value="140"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_32">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="185"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgCrossA]"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="74"/>
+          <Property Name="Width" Value="38"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_35">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="185"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgCrossA]"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="54"/>
+          <Property Name="Width" Value="38"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="RightDelayInput">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralRightBladeStartCmd]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="153"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="54"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralRightBladeStartDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_1">
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="2"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_FoldProgLateral]"/>
+          <Property Name="TextIndex" Value="100"/>
+          <Property Name="TextIndexDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralFoldMode]"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="181"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[LaterBladeFunction]"/>
+          <Property Name="Width" Value="91"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_2">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Allprogs]"/>
+          <Property Name="BitmapAlignmentVertical" Value="Top"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="260"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="50"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[AllProgs_rbd]"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="300"/>
+          <Property Name="EndY" Value="67"/>
+          <Property Name="ForeColor" Value="252"/>
+          <Property Name="StartX" Value="4"/>
+          <Property Name="StartY" Value="67"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_3">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Allprogs]"/>
+          <Property Name="BitmapAlignmentVertical" Value="Top"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="261"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="69"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[AllProgs_rbo]"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="300"/>
+          <Property Name="EndY" Value="86"/>
+          <Property Name="ForeColor" Value="252"/>
+          <Property Name="StartX" Value="4"/>
+          <Property Name="StartY" Value="86"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_4">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Allprogs]"/>
+          <Property Name="BitmapAlignmentVertical" Value="Top"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="261"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="88"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[AllProgs_lbd]"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="300"/>
+          <Property Name="EndY" Value="105"/>
+          <Property Name="ForeColor" Value="252"/>
+          <Property Name="StartX" Value="4"/>
+          <Property Name="StartY" Value="105"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_5">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Allprogs]"/>
+          <Property Name="BitmapAlignmentVertical" Value="Top"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="261"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="107"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[AllProgs_lbo]"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="301"/>
+          <Property Name="EndY" Value="124"/>
+          <Property Name="ForeColor" Value="252"/>
+          <Property Name="StartX" Value="5"/>
+          <Property Name="StartY" Value="124"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_6">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Allprogs]"/>
+          <Property Name="BitmapAlignmentVertical" Value="Top"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="261"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="126"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[AllProgs_brt]"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="302"/>
+          <Property Name="EndY" Value="143"/>
+          <Property Name="ForeColor" Value="252"/>
+          <Property Name="StartX" Value="6"/>
+          <Property Name="StartY" Value="143"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_7">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Allprogs]"/>
+          <Property Name="BitmapAlignmentVertical" Value="Top"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="261"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="144"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[AllProgs_wfp]"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_6">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="302"/>
+          <Property Name="EndY" Value="161"/>
+          <Property Name="ForeColor" Value="252"/>
+          <Property Name="StartX" Value="6"/>
+          <Property Name="StartY" Value="161"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_8">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Allprogs]"/>
+          <Property Name="BitmapAlignmentVertical" Value="Top"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="261"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="162"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[AllProgs_wlp]"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_9">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="302"/>
+          <Property Name="EndY" Value="179"/>
+          <Property Name="ForeColor" Value="252"/>
+          <Property Name="StartX" Value="6"/>
+          <Property Name="StartY" Value="179"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="AllProgs_brt">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.SetToAllRcp.LateralBladeBackTime]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AllProgs_lbd">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.SetToAllRcp.LateralLeftBladeStartDelay]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AllProgs_lbo">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.SetToAllRcp.LateralLeftBladeOnTime]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AllProgs_rbd">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.SetToAllRcp.LateralRightBladeStartDelay]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AllProgs_rbo">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.SetToAllRcp.LateralRightBladeOnTime]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AllProgs_wfp">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.SetToAllRcp.LateralWidthFirst]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AllProgs_wlp">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.SetToAllRcp.LateralWidthLast]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="LaterBladeFunction">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HMI.LateralFoldModeCmd]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="lateralfold1key">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[SelectedFoldProgram_Layer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="SelectedFoldProgram_Layer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="3"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[ComLayer_AddOn]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_AddOn"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="4"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[Select_Recipe]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Select_Recipe"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="5"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[LeftOntimeInput]">
+      <Property Name="Down" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Left" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Right" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[LeftDelayInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[RightOntimeInput]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[LeftDelayInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Foldprogramtext]"/>
+      <Property Name="Right" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[RightDelayInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[WidthFirstInput]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[WidthLastInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Right" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[WidthLastInput]">
+      <Property Name="Down" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Foldprogramtext]"/>
+      <Property Name="Left" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Foldprogramtext]"/>
+      <Property Name="Right" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[WidthFirstInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[LeftDelayInput]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[LeftOntimeInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Foldprogramtext]"/>
+      <Property Name="Right" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[RightOntimeInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[BladeReturnInput]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[WidthFirstInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Right" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[LeftOntimeInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[RightDelayInput]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[RightOntimeInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Foldprogramtext]"/>
+      <Property Name="Right" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+      <Property Name="Up" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Foldprogramtext]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_1]">
+      <Property Name="Down" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Foldprogramtext]"/>
+      <Property Name="Right" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+      <Property Name="Up" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[SelectedFoldProgram_Layer].Control[Foldprogramtext]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[RightDelayInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+      <Property Name="Right" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[WidthLastInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[ComLayer_AddOn].Control[Password]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[BladeReturnInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[LeftOntimeInput]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[BladeReturnInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[RightOntimeInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_1]"/>
+      <Property Name="Right" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Foldprogramtext]"/>
+      <Property Name="Up" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_1]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_1]"/>
+    <TabSeqItem Index="1" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Foldprogramtext]"/>
+    <TabSeqItem Index="2" Value="Source[local].Layer[Select_Recipe].Control[RecipeNameList]"/>
+    <TabSeqItem Index="3" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+    <TabSeqItem Index="4" Value="Source[local].Layer[Select_Recipe].Control[RecipeIndexList]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[LeftOntimeInput]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[RightOntimeInput]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[WidthFirstInput]"/>
+    <TabSeqItem Index="8" Value="Source[embedded].Layer[Default].Control[WidthLastInput]"/>
+    <TabSeqItem Index="9" Value="Source[embedded].Layer[Default].Control[LeftDelayInput]"/>
+    <TabSeqItem Index="10" Value="Source[embedded].Layer[Default].Control[BladeReturnInput]"/>
+    <TabSeqItem Index="11" Value="Source[embedded].Layer[Default].Control[RightDelayInput]"/>
+    <TabSeqItem Index="12" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    <TabSeqItem Index="13" Value="Source[local].Layer[SelectedFoldProgram_Layer].Control[Numeric_5]"/>
+  </TabSequence>
+</Page>

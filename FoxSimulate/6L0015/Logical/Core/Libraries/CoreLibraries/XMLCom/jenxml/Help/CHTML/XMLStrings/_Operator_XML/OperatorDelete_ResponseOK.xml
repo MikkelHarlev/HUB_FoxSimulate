@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<methodResponse>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>OperatorDelete</name>
+                    <value>
+                        <base64>T0s=</base64>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodResponse>

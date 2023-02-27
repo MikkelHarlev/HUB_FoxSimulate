@@ -1,0 +1,23 @@
+(********************************************************************
+ * COPYRIGHT -- Jensen Denmark A/S
+ ********************************************************************
+ * Program: Setup
+ * File: Setup.var
+ * Author: eg
+ * Created: December 22, 2010
+ ********************************************************************
+ * Local variables of program Setup
+ ********************************************************************)
+VAR
+	TOF_Powersave : TOF;
+	pEStop : REFERENCE TO BOOL;
+	pInOperation : REFERENCE TO BOOL;
+	runtimeStep : USINT;
+	adrInOperation : UDINT;
+	adrEStop : UDINT;
+	CfgGetInaNode_0 : CfgGetInaNode;
+	dialogText : STRING[100];
+	dialogStep : USINT;
+	cmdDialog : USINT;
+	hideDialog : UINT;
+END_VAR

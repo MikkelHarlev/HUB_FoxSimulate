@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.5.113 SP?>
+<Library Version="0.56.0" SubType="IEC" Description="Common Library, JeDK" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>JEDKLIB.fun</File>
+    <File>JEDKLIB.typ</File>
+    <File>FB_BlowPipe.st</File>
+    <File>FB_Conveyor.st</File>
+    <File>FB_CT290.st</File>
+    <File>FB_CustArtFifo.st</File>
+    <File>FB_Delay.st</File>
+    <File>FB_DelayOn.st</File>
+    <File>FB_DFiFo.st</File>
+    <File>FB_EnCode.st</File>
+    <File>FB_FiFo.st</File>
+    <File>FB_Filter.st</File>
+    <File>FB_Filter_Coupling.st</File>
+    <File>FB_InUse.st</File>
+    <File>FB_Jam.st</File>
+    <File>FB_LaneCombination.st</File>
+    <File>FB_LogExport.st</File>
+    <File>FB_MapLaneCombination.st</File>
+    <File>FB_MultiDelay.st</File>
+    <File>FB_NFifo.st</File>
+    <File>FB_Receive_StrobedInfo.st</File>
+    <File>FB_Send_StrobedInfo.st</File>
+    <File>FB_Serial_Com.st</File>
+    <File>FB_SetReset.st</File>
+    <File>FB_SpeedCalculation.st</File>
+    <File>FB_Tag_Read_Write.st</File>
+    <File>UINT_TO_HEX.st</File>
+    <File>HEX_TO_UINT.st</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="standard" Target="SG4" FromVersion="1.35.0" />
+    <Dependency ObjectName="SYS_LIB" Target="SG4" FromVersion="1.38.6" />
+    <Dependency ObjectName="FileIO" Target="SG4" FromVersion="1.03.8" />
+    <Dependency ObjectName="runtime" Target="SG4" FromVersion="1.09.0" />
+    <Dependency ObjectName="AsString" Target="SG4" FromVersion="1.01.1" />
+    <Dependency ObjectName="DVFrame" Target="SG4" FromVersion="3.07.0" />
+  </Dependencies>
+</Library>

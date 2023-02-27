@@ -1,0 +1,16 @@
+VAR
+	cmdCustomPage : BOOL;
+	OldCustomerNumber : DINT;
+	cmdOperatorPage : BOOL;
+	tmpstr : ARRAY[0..255] OF USINT;
+	StatusSetMenu : DINT;
+	NAMELENGTH : UINT;
+	cmdMachinePage : BOOL;
+	cmdChangeRecipe : BOOL;
+	i : UINT;
+	FoldProgramList : CategorySelection_Type;
+	OldArticleNumber : UINT;
+	HideOperator : INT;
+	HideCurtArtField : INT;
+	isLoginGotoMachinePage : BOOL := 0;
+END_VAR

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Sys_IPSettings">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="11"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="215927" Value="IP"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Test"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="215927" Value="IP:"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Prüfung"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="215927" Value="IP:"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Test"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="215927" Value="IP :"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Test"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="215927" Value="IP:"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Test"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="215927" Value="IP:"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Test"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="215927" Value="IP:"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Testi"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="215927" Value="IP:"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Test"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="215927" Value="IP:"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Prueba"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="215927" Value="IP:"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Test"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="215927" Value="IP:"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Тест"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="215927" Value="IP"/>
+    <Text ID="215928" Value="Subnet"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Set"/>
+    <Text ID="215936" Value="Test"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="215927" Value=""/>
+    <Text ID="215928" Value=""/>
+    <Text ID="215929" Value=""/>
+    <Text ID="215931" Value=""/>
+    <Text ID="215933" Value=""/>
+    <Text ID="215932" Value=""/>
+    <Text ID="215936" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="215927" Value=""/>
+    <Text ID="215928" Value=""/>
+    <Text ID="215929" Value=""/>
+    <Text ID="215931" Value=""/>
+    <Text ID="215933" Value=""/>
+    <Text ID="215932" Value=""/>
+    <Text ID="215936" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="215927" Value=""/>
+    <Text ID="215928" Value=""/>
+    <Text ID="215929" Value=""/>
+    <Text ID="215931" Value=""/>
+    <Text ID="215933" Value=""/>
+    <Text ID="215932" Value=""/>
+    <Text ID="215936" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="215927" Value="IP:"/>
+    <Text ID="215928" Value="Subnett"/>
+    <Text ID="215929" Value="Gateway"/>
+    <Text ID="215931" Value="Node"/>
+    <Text ID="215933" Value="Ping"/>
+    <Text ID="215932" Value="Sett"/>
+    <Text ID="215936" Value="Test"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="215927" Value=""/>
+    <Text ID="215928" Value=""/>
+    <Text ID="215929" Value=""/>
+    <Text ID="215931" Value=""/>
+    <Text ID="215933" Value=""/>
+    <Text ID="215932" Value=""/>
+    <Text ID="215936" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="215927" Value="3"/>
+    <Index ID="215928" Value="4"/>
+    <Index ID="215929" Value="5"/>
+    <Index ID="215931" Value="2"/>
+    <Index ID="215933" Value="6"/>
+    <Index ID="215932" Value="0"/>
+    <Index ID="215936" Value="1"/>
+  </IndexMap>
+</TextGroup>

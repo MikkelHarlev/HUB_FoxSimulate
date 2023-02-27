@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.4.112?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Trace2FileGlobal.var</Object>
+    <Object Type="Program" Language="IEC">Trace2FileTask</Object>
+    <Object Type="Library" Language="IEC">Trace2Lib</Object>
+    <Object Type="Library" Language="ANSIC">itoxlib</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Service_Hanger_Inlet">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="45"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="384319" Value="Auto program"/>
+    <Text ID="410544" Value="Hanger OK read:"/>
+    <Text ID="410545" Value="No read:"/>
+    <Text ID="410546" Value="No data:"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="384319" Value="Auto programm"/>
+    <Text ID="410544" Value="Bügel OK lesen:"/>
+    <Text ID="410545" Value="Nicht gelesen:"/>
+    <Text ID="410546" Value="Keine Daten:"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="384319" Value="Auto program"/>
+    <Text ID="410544" Value="Hanger OK read:"/>
+    <Text ID="410545" Value="No read:"/>
+    <Text ID="410546" Value="No data:"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="384319" Value="Auto program"/>
+    <Text ID="410544" Value="Hanger OK read:"/>
+    <Text ID="410545" Value="No read:"/>
+    <Text ID="410546" Value="No data:"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="384319" Value="Auto program"/>
+    <Text ID="410544" Value="Bøjle ok læst:"/>
+    <Text ID="410545" Value="Ikke læst:"/>
+    <Text ID="410546" Value="Ingen data:"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="384319" Value="Auto program"/>
+    <Text ID="410544" Value="Gruccia OK letta:"/>
+    <Text ID="410545" Value="No lettura:"/>
+    <Text ID="410546" Value="No dati:"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="384319" Value="Auto program"/>
+    <Text ID="410544" Value="Hanger OK read:"/>
+    <Text ID="410545" Value="No read:"/>
+    <Text ID="410546" Value="No data:"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="384319" Value="Auto program"/>
+    <Text ID="410544" Value="Hanger OK read:"/>
+    <Text ID="410545" Value="No read:"/>
+    <Text ID="410546" Value="No data:"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="384319" Value="Auto program"/>
+    <Text ID="410544" Value="Hanger OK read:"/>
+    <Text ID="410545" Value="No read:"/>
+    <Text ID="410546" Value="No data:"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="384319" Value=""/>
+    <Text ID="410544" Value=""/>
+    <Text ID="410545" Value=""/>
+    <Text ID="410546" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="384319" Value=""/>
+    <Text ID="410544" Value=""/>
+    <Text ID="410545" Value=""/>
+    <Text ID="410546" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="384319" Value=""/>
+    <Text ID="410544" Value=""/>
+    <Text ID="410545" Value=""/>
+    <Text ID="410546" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="384319" Value=""/>
+    <Text ID="410544" Value=""/>
+    <Text ID="410545" Value=""/>
+    <Text ID="410546" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="384319" Value=""/>
+    <Text ID="410544" Value=""/>
+    <Text ID="410545" Value=""/>
+    <Text ID="410546" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="384319" Value=""/>
+    <Text ID="410544" Value=""/>
+    <Text ID="410545" Value=""/>
+    <Text ID="410546" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="384319" Value="Auto program"/>
+    <Text ID="410544" Value="Hanger OK Lest:"/>
+    <Text ID="410545" Value="Ikke Lest:"/>
+    <Text ID="410546" Value="Ingen data:"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="384319" Value=""/>
+    <Text ID="410544" Value=""/>
+    <Text ID="410545" Value=""/>
+    <Text ID="410546" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="384319" Value="0"/>
+    <Index ID="410544" Value="1"/>
+    <Index ID="410545" Value="2"/>
+    <Index ID="410546" Value="3"/>
+  </IndexMap>
+</TextGroup>

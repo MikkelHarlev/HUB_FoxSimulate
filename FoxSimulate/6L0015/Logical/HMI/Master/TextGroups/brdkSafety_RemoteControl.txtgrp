@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="brdkSafety_RemoteControl">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="59"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="634003" Value="SK-FORMAT"/>
+    <Text ID="634004" Value="SK-XCHG"/>
+    <Text ID="634005" Value="SCAN"/>
+    <Text ID="634006" Value="FW-ACKN"/>
+    <Text ID="634007" Value="Setup Mode OFF"/>
+    <Text ID="634008" Value="Setup Mode ON"/>
+    <Text ID="634009" Value="TEST"/>
+    <Text ID="634010" Value="CLEAR DATA"/>
+    <Text ID="634011" Value="1"/>
+    <Text ID="634012" Value="2"/>
+    <Text ID="634013" Value="3"/>
+    <Text ID="634014" Value="4"/>
+    <Text ID="634015" Value="n"/>
+    <Text ID="634016" Value="Change Password"/>
+    <Text ID="634017" Value="Reset SafeLOGIC"/>
+    <Text ID="634018" Value="Read Status"/>
+    <Text ID="634019" Value="Monitor Status"/>
+    <Text ID="634020" Value="Reset"/>
+    <Text ID="634021" Value="Status"/>
+    <Text ID="634022" Value="Remote Control"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="634003" Value=""/>
+    <Text ID="634004" Value=""/>
+    <Text ID="634005" Value=""/>
+    <Text ID="634006" Value=""/>
+    <Text ID="634007" Value=""/>
+    <Text ID="634008" Value=""/>
+    <Text ID="634009" Value=""/>
+    <Text ID="634010" Value=""/>
+    <Text ID="634011" Value=""/>
+    <Text ID="634012" Value=""/>
+    <Text ID="634013" Value=""/>
+    <Text ID="634014" Value=""/>
+    <Text ID="634015" Value=""/>
+    <Text ID="634016" Value=""/>
+    <Text ID="634017" Value=""/>
+    <Text ID="634018" Value=""/>
+    <Text ID="634019" Value=""/>
+    <Text ID="634020" Value=""/>
+    <Text ID="634021" Value=""/>
+    <Text ID="634022" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="634003" Value=""/>
+    <Text ID="634004" Value=""/>
+    <Text ID="634005" Value=""/>
+    <Text ID="634006" Value=""/>
+    <Text ID="634007" Value=""/>
+    <Text ID="634008" Value=""/>
+    <Text ID="634009" Value=""/>
+    <Text ID="634010" Value=""/>
+    <Text ID="634011" Value=""/>
+    <Text ID="634012" Value=""/>
+    <Text ID="634013" Value=""/>
+    <Text ID="634014" Value=""/>
+    <Text ID="634015" Value=""/>
+    <Text ID="634016" Value=""/>
+    <Text ID="634017" Value=""/>
+    <Text ID="634018" Value=""/>
+    <Text ID="634019" Value=""/>
+    <Text ID="634020" Value=""/>
+    <Text ID="634021" Value=""/>
+    <Text ID="634022" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="634003" Value=""/>
+    <Text ID="634004" Value=""/>
+    <Text ID="634005" Value=""/>
+    <Text ID="634006" Value=""/>
+    <Text ID="634007" Value=""/>
+    <Text ID="634008" Value=""/>
+    <Text ID="634009" Value=""/>
+    <Text ID="634010" Value=""/>
+    <Text ID="634011" Value=""/>
+    <Text ID="634012" Value=""/>
+    <Text ID="634013" Value=""/>
+    <Text ID="634014" Value=""/>
+    <Text ID="634015" Value=""/>
+    <Text ID="634016" Value=""/>
+    <Text ID="634017" Value=""/>
+    <Text ID="634018" Value=""/>
+    <Text ID="634019" Value=""/>
+    <Text ID="634020" Value=""/>
+    <Text ID="634021" Value=""/>
+    <Text ID="634022" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="634003" Value=""/>
+    <Text ID="634004" Value=""/>
+    <Text ID="634005" Value=""/>
+    <Text ID="634006" Value=""/>
+    <Text ID="634007" Value=""/>
+    <Text ID="634008" Value=""/>
+    <Text ID="634009" Value=""/>
+    <Text ID="634010" Value=""/>
+    <Text ID="634011" Value=""/>
+    <Text ID="634012" Value=""/>
+    <Text ID="634013" Value=""/>
+    <Text ID="634014" Value=""/>
+    <Text ID="634015" Value=""/>
+    <Text ID="634016" Value=""/>
+    <Text ID="634017" Value=""/>
+    <Text ID="634018" Value=""/>
+    <Text ID="634019" Value=""/>
+    <Text ID="634020" Value=""/>
+    <Text ID="634021" Value=""/>
+    <Text ID="634022" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="634003" Value=""/>
+    <Text ID="634004" Value=""/>
+    <Text ID="634005" Value=""/>
+    <Text ID="634006" Value=""/>
+    <Text ID="634007" Value=""/>
+    <Text ID="634008" Value=""/>
+    <Text ID="634009" Value=""/>
+    <Text ID="634010" Value=""/>
+    <Text ID="634011" Value=""/>
+    <Text ID="634012" Value=""/>
+    <Text ID="634013" Value=""/>
+    <Text ID="634014" Value=""/>
+    <Text ID="634015" Value=""/>
+    <Text ID="634016" Value=""/>
+    <Text ID="634017" Value=""/>
+    <Text ID="634018" Value=""/>
+    <Text ID="634019" Value=""/>
+    <Text ID="634020" Value=""/>
+    <Text ID="634021" Value=""/>
+    <Text ID="634022" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="634003" Value="0"/>
+    <Index ID="634004" Value="1"/>
+    <Index ID="634005" Value="2"/>
+    <Index ID="634006" Value="3"/>
+    <Index ID="634007" Value="4"/>
+    <Index ID="634008" Value="5"/>
+    <Index ID="634009" Value="6"/>
+    <Index ID="634010" Value="7"/>
+    <Index ID="634011" Value="8"/>
+    <Index ID="634012" Value="9"/>
+    <Index ID="634013" Value="10"/>
+    <Index ID="634014" Value="11"/>
+    <Index ID="634015" Value="12"/>
+    <Index ID="634016" Value="13"/>
+    <Index ID="634017" Value="14"/>
+    <Index ID="634018" Value="15"/>
+    <Index ID="634019" Value="16"/>
+    <Index ID="634020" Value="17"/>
+    <Index ID="634021" Value="18"/>
+    <Index ID="634022" Value="19"/>
+  </IndexMap>
+</TextGroup>

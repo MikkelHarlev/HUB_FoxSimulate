@@ -1,0 +1,17 @@
+VAR
+	HMI : HMIConfigChange_Type;
+	NewPage : UINT;
+	StatusSetMenu : UDINT;
+	LocalMachineConfig : MCfg_Type;
+	ParameterChanged : BOOL;
+	SaveMcfg : BOOL;
+	PAGE_CONFIG_PAGE1 : UINT := 601;
+	PAGE_CONFIG_PAGE8 : UINT := 608;
+	PAGE_CONFIG_PAGE9 : UINT := 609;
+	PAGE_CONFIG_PAGE10 : UINT := 610;
+	PAGE_CONFIG_PAGE13 : UINT := 613;
+END_VAR
+VAR
+	CfgPageOpened : BOOL;
+	i : USINT;
+END_VAR

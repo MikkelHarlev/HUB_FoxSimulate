@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="0.35.0" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>FlatXML.fun</File>
+    <File>FlatXML.typ</File>
+    <File>FlatXML.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="rpc2d" Target="SG4" FromVersion="0.09.0" />
+    <Dependency ObjectName="brsystem" Target="SG4" FromVersion="1.11.5" />
+    <Dependency ObjectName="base64" Target="SG4" FromVersion="0.01.0" />
+    <Dependency ObjectName="XML_clnt" Target="SG4" FromVersion="0.27.3" />
+    <Dependency ObjectName="XMLRPC" Target="SG4" FromVersion="0.08.0" />
+    <Dependency ObjectName="XMLPVs" Target="SG4" FromVersion="0.13.0" />
+    <Dependency ObjectName="SYS_LIB" Target="SG4" FromVersion="1.38.5" />
+    <Dependency ObjectName="SAX_RPC" Target="SG4" FromVersion="0.10.0" />
+    <Dependency ObjectName="AsString" Target="SG4" FromVersion="1.01.1" />
+    <Dependency ObjectName="rtk" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,11 @@
+VAR
+	gAdrIOTLogIdent : UDINT := 0;
+	gLoginInfo : AzureLogin_type := (0);
+	gInitDone : BOOL := FALSE;
+	lastSent : topic_typ;
+	lastMethod : topic_typ;
+	lastRecieved : topic_typ;
+	gCPUInfo : PLCInfo_type := (0);
+	tmpStr : STRING[100] := '';
+	gIOTMQTTClientIdent	: UDINT;
+END_VAR

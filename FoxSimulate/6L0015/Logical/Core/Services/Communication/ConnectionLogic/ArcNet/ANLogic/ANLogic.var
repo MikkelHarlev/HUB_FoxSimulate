@@ -1,0 +1,21 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: ANLogic
+ * File: ANLogic.var
+ * Author: eg
+ * Created: May 27, 2014
+ ********************************************************************
+ * Local variables of program ANLogic
+ ********************************************************************)
+VAR
+	pSerial : REFERENCE TO SerialComHandler_Type;
+	pConnectionManager : REFERENCE TO XMLRPCCL_Type;
+	No : USINT;
+	pThis : REFERENCE TO ArcNetLogic_Type;
+	ArcNetCT : ARRAY[0..9] OF ArcNetCT_Type;
+	pArcNet : REFERENCE TO ArcNetCT_Type;
+	CT290Com : ARRAY[0..9] OF FB_CT290;
+	getConnectionInfo_0 : getConnectionInfo;
+	pStatus : REFERENCE TO ComCMIFConStatus_Type;
+END_VAR

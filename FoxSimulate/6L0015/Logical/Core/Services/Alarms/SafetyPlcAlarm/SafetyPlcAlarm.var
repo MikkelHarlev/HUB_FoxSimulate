@@ -1,0 +1,26 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: Phoenix
+ * File: Phoenix.var
+ * Author: Kc
+ * Created: January 19, 2012
+ ********************************************************************
+ * Local variables of program Phoenix
+ ********************************************************************)
+VAR
+	NewData : BOOL;
+	Data : ARRAY[0..8] OF BOOL;
+	Cnt : USINT;
+	Temp : UINT;
+	Timeout : UINT;
+	No : USINT;
+	TOFData : ARRAY[0..8] OF TOF;
+	TOFSignal : TOF;
+	TOFDataOn : TOF;
+	pISafeSBit0 : REFERENCE TO BOOL;
+	pISafeSBit1 : REFERENCE TO BOOL;
+	taskState : initState_enum;
+	adrISafeSBit0 : UDINT;
+	adrISafeSBit1 : UDINT;
+END_VAR

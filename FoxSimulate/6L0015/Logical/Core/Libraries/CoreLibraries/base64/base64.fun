@@ -1,0 +1,16 @@
+FUNCTION base64Code : INT
+	VAR_INPUT
+		op	:INT;
+		src	:REFERENCE TO USINT;
+		len	:INT;
+		dst	:REFERENCE TO USINT;
+		dst_size	:INT;
+	END_VAR
+END_FUNCTION
+FUNCTION base64Size : INT
+	VAR_INPUT
+		op	:INT;
+		src	:REFERENCE TO USINT;
+		len	:INT;
+	END_VAR
+END_FUNCTION

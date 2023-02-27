@@ -1,0 +1,28 @@
+VAR
+	No : USINT;
+	List : ARRAY[0..7] OF STRING[51];
+	ListInfo : STRING[6];
+	ListIndex : STRING[5];
+	ListMode : STRING[3];
+	ListID : STRING[3];
+	ListMessageB : STRING[32];
+	ListMessageA : STRING[32];
+	ListDate : STRING[10];
+	ListTime : STRING[8];
+	ListValueID : STRING[5];
+	Test : ARRAY[0..7] OF UINT;
+	ListStart : BOOL;
+	ListNo : UINT;
+	ListWrite : BOOL;
+	ListDown : BOOL;
+	ListUp : BOOL;
+	TempNo : UINT;
+	pLogList : UDINT;
+	LogListNo : UINT;
+	Scroll_0 : Scroll;
+	Scroll_1 : Scroll;
+	LogNo : USINT;
+	LogNoOld : USINT;
+	LogLib : REFERENCE TO LogLib_Type;
+	ArrLogInitIdents : REFERENCE TO ARRAY[0..4] OF UDINT;
+END_VAR

@@ -1,0 +1,561 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html dir="ltr">
+<head>
+
+
+
+
+  
+  
+  
+  <meta name="generator" content="Microsoft FrontPage 5.0">
+
+
+
+
+  
+  
+  
+  <meta order="1">
+
+
+
+  
+
+
+  
+  
+  
+  
+  
+  <title>OperatorLoad.html</title>
+  <link rel="StyleSheet" href="../styles.css">
+<!--NavHead-->
+
+
+
+
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="../navigate.css">
+<!--/NavHead-->
+</head>
+
+
+<body>
+
+
+
+
+<h1>JenXML - XML-Call: OperatorLoad()</h1>
+
+
+
+
+The OperatorLoad Call force the PLC to load the Operator list from the
+CSV file.<br>
+
+
+
+
+<br>
+
+
+
+
+<h2>XML-Strings:</h2>
+
+
+
+
+<h5><a href="_Operator_XML/OperatorLoad_Request.xml">Request:</a></h5>
+
+
+
+
+&lt;?xml version="1.0" ?&gt;<br>
+
+
+
+
+&lt;methodCall&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp;
+&lt;methodName&gt;OperatorLoad&lt;/methodName&gt;<br>
+
+
+
+
+&lt;/methodCall&gt;<br>
+
+
+
+
+<h5><a href="_Operator_XML/OperatorLoad_ResponseOK.xml">Response
+OK:</a></h5>
+
+
+
+
+&lt;?xml version="1.0" ?&gt;<br>
+
+
+
+
+&lt;methodResponse&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp;&lt;params&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;param&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;struct&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;name&gt;OperatorLoad&lt;/name&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&lt;base64&gt;T0s=&lt;/base64&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;/member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;/struct&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;/param&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;/params&gt;<br>
+
+
+
+
+&lt;/methodResponse&gt;<br>
+
+
+
+
+<br>
+
+
+
+
+<br>
+
+
+
+
+<h5><a href="_Operator_XML/OperatorLoad_ResponseFail.xml">Response
+Fail:</a></h5>
+
+
+
+
+&lt;?xml version="1.0" ?&gt;<br>
+
+
+
+
+&lt;methodResponse&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;params&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;param&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;struct&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;name&gt;OperatorLoad&lt;/name&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&lt;base64&gt;RmFpbA==&lt;/base64&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;/member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;name&gt;ErrorNumber&lt;/name&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;i4&gt;<span style="font-style: italic; font-weight: bold;">"Error
+Number"</span>&lt;/i4&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;/member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;name&gt;ErrorString&lt;/name&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;base64&gt;<span style="font-weight: bold; font-style: italic;">"Error
+String"</span>&lt;/base64&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;/member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&lt;name&gt;ErrorInfo&lt;/name&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;base64&gt;<span style="font-weight: bold; font-style: italic;">"Error
+Info"</span>&lt;/base64&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;/member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &lt;/struct&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;/param&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;/params&gt;<br>
+
+
+
+
+&lt;/methodResponse&gt;<span style="font-weight: bold;"><br>
+
+
+
+
+</span><!--NavBottom-->
+<div class="DoNotPrintNavItems" id="NavBottom_8"> <br>
+
+
+
+
+<table class="Nav" cellpadding="0" cellspacing="2" width="100%">
+
+
+
+
+  <tbody>
+
+
+
+
+    <tr class="Nav">
+
+
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      
+      
+      <p class="Nav">&lt;&lt; Previous Topic<br>
+
+
+
+
+      <a class="Nav" href="XMLStrings.html">XML-Strings</a>
+      </p>
+
+
+
+
+      </td>
+
+
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="../JenXML.html">Start&nbsp;Page</a>
+&nbsp; </p>
+
+
+
+
+      </td>
+
+
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      
+      
+      <p class="NavRight">Next Topic &gt;&gt;<br>
+
+
+
+
+      <a class="Nav" href="OperatorSave.html">OperatorSave</a>
+      </p>
+
+
+
+
+      </td>
+
+
+
+
+    </tr>
+
+
+
+
+    <tr class="Nav">
+
+
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="XMLStrings.html">Start&nbsp;of&nbsp;Chapter</a>
+&nbsp; </p>
+
+
+
+
+      </td>
+
+
+
+
+    </tr>
+
+
+
+
+  
+  
+  
+  </tbody>
+</table>
+
+
+
+
+</div>
+
+
+
+
+<!--/NavBottom-->
+</body>
+</html>

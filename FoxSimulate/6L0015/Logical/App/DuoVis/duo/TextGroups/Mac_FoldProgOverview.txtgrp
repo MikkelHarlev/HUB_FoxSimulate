@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_FoldProgOverview">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="38"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="383518" Value="Change name"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="383518" Value="Wechsel Name"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="383518" Value="Change name"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="383518" Value="Modifier nom"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="383518" Value="Skift navn"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="383518" Value="Cambia Nome"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="383518" Value="Change name"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="383518" Value="Verander naam"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="383518" Value="Cambio de nombre"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="383518" Value="Zmień nazwę"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="383518" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="383518" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="383518" Value="Zmień nazwę"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="383518" Value="Change name"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="383518" Value="Change name"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="383518" Value="Bytt Navn"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="383518" Value="Alterar nome"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="383518" Value="0"/>
+  </IndexMap>
+</TextGroup>

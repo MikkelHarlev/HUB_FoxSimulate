@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Service_Manual_Convoyer">
+  <Property Name="BackColor" Value="52"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="320"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB"/>
+    <TextLayer LanguageId="de-DE"/>
+    <TextLayer LanguageId="sv-SE"/>
+    <TextLayer LanguageId="fr-FR"/>
+    <TextLayer LanguageId="da-DK"/>
+    <TextLayer LanguageId="it-IT"/>
+    <TextLayer LanguageId="fi-FI"/>
+    <TextLayer LanguageId="nl-NL"/>
+    <TextLayer LanguageId="es-ES"/>
+    <TextLayer LanguageId="pl-PL"/>
+    <TextLayer LanguageId="ru-RU"/>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="zh-CN"/>
+    <TextLayer LanguageId="cs-CZ"/>
+    <TextLayer LanguageId="en-US"/>
+    <TextLayer LanguageId="no-NO"/>
+    <TextLayer LanguageId="pt-PT"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls/>
+  <KeyMapping/>
+</Layer>

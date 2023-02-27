@@ -1,0 +1,45 @@
+VAR
+	pThis : REFERENCE TO AlarmInterface_Type;
+	alarmID : UDINT := 0;
+	x : INT := 0;
+	add : BOOL := 0;
+	alarmHistoryTmp : alarmHistory_type := (0);
+	alarmHistory : ARRAY[0..100] OF alarmHistory_type := [101((0))];
+	oldSeconds : UDINT := 0;
+	timeToAdd : UDINT := 0;
+	isResetAlarmHistorySummary : BOOL := 0;
+	OpenAlarmHistoryDataObject : INT := 0;
+	AlarmHistoryDataObjectIdent : UDINT := 0;
+	fDevice : STRING[80] := '';
+	CreateAlarmHistoryDataObject : INT := 0;
+	UpdateAlarmHistoryDataObject : INT := 0;
+	CloseAlarmHistoryDataObject : INT := 0;
+	ReadAlarmHistoryDataObject : {REDUND_UNREPLICABLE} INT;
+	FileOpen_0 : FileOpen := (0);
+	FileCreate_0 : FileCreate := (0);
+	FileWrite_0 : FileWrite := (0);
+	FileRead_0 : FileRead := (0);
+	FileClose_0 : FileClose := (0);
+	i : INT := 0;
+	AlarmCache : REFERENCE TO ARRAY[0..99] OF AlarmHandlerEvent_Type;
+	adrAlarmCache : UDINT := 0;
+	historyUpdate_TON : TON_10ms := (0);
+	totalTime : UDINT := 0;
+	totalTimeFinal : UDINT := 0;
+END_VAR
+VAR CONSTANT
+	MAX_HMI_ALARMS : USINT := 10;
+END_VAR
+VAR
+	HMI : HMI_Type;
+	MHATestIndex : ARRAY[0..99] OF INT := [100(0)];
+	sortMode : USINT := 2;
+	lSortMode : USINT := 2;
+	isSorting : BOOL := 0;
+	isSortingCount : UINT := 0;
+	oldlSortMode : USINT := 0;
+	isSortingCountMax : UINT := 0;
+END_VAR
+VAR RETAIN
+	Reset_Date : UDINT;
+END_VAR

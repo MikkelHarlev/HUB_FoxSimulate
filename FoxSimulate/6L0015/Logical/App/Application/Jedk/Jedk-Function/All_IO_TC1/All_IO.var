@@ -1,0 +1,3 @@
+VAR
+	ident : UDINT := 0;
+END_VAR

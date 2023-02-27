@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html dir="ltr">
+<head>
+  <meta name="generator" content="Microsoft FrontPage 5.0">
+  <meta order="1">
+  <title>LogStore.html</title>
+  <link rel="StyleSheet" href="../styles.css">
+<!--NavHead-->
+  <link rel="stylesheet" type="text/css" href="../navigate.css">
+<!--/NavHead-->
+</head>
+<body>
+<h1>LogLib - LogStore()</h1>
+<p>LogStore() stores the Data from
+the Log Buffer to the csv file.</p>
+<p>This FBK has to be called until
+Status != LOGLIB_BUSY</p>
+<h2> Parameters:</h2>
+<center>
+<table class="parameter_tab" border="1">
+  <tbody>
+    <tr>
+      <th class="parameter_tab">
+      <p align="center"> <b>I/O</b></p>
+      </th>
+      <th class="parameter_tab">
+      <p> <b>Parameter</b></p>
+      </th>
+      <th class="parameter_tab">
+      <p> <b>Data
+Type</b></p>
+      </th>
+      <th class="parameter_tab">
+      <p> <b>Description</b></p>
+      </th>
+    </tr>
+    <tr>
+      <td class="parameter_tab">IN</td>
+      <td class="parameter_tab">enable</td>
+      <td class="parameter_tab">BOOL</td>
+      <td class="parameter_tab">Enables
+function block (<a href="FBKs.htm">FBK</a>) </td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">IN</td>
+      <td class="parameter_tab">ident</td>
+      <td class="parameter_tab">UDINT</td>
+      <td class="parameter_tab">Ident
+from <a href="LogInit.htm">LogInit()</a></td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">OUT </td>
+      <td class="parameter_tab">status</td>
+      <td class="parameter_tab">UINT</td>
+      <td class="parameter_tab"><a
+ href="../General/Status%20Numbers.html">Status Number</a>
+(0 -&gt; FUB
+finished succesfull) </td>
+    </tr>
+  </tbody>
+</table>
+</center>
+<h2> Call Syntax (Automation
+Basic):</h2>
+<p class="pSourceCode">LogStore(enable, ident, status
+)<br>
+&nbsp;</p>
+<h2>Examples:</h2>
+<p><a href="../Samples/AB/ex_ab_CalcChecksum.html">
+Automation Basic</a></p>
+<!--NavBottom-->
+<div class="DoNotPrintNavItems" id="NavBottom_8"> <br>
+<table class="Nav" cellpadding="0" cellspacing="2" width="100%">
+  <tbody>
+    <tr class="Nav">
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      <p class="Nav">&lt;&lt; Previous Topic<br>
+      <a class="Nav" href="LogWrite.html">LogWrite</a> </p>
+      </td>
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      <p class="NavCenter">&nbsp; <a class="Nav" href="../LogLib.html">Start&nbsp;Page</a>
+&nbsp; </p>
+      </td>
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      <p class="NavRight">Next Topic &gt;&gt;<br>
+      <a class="Nav" href="LogSetLineRead.html">LogSetLineRead</a> </p>
+      </td>
+    </tr>
+    <tr class="Nav">
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      <p class="NavCenter">&nbsp; <a class="Nav" href="FBKs.html">Start&nbsp;of&nbsp;Chapter</a>
+&nbsp; </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!--/NavBottom-->
+</body>
+</html>

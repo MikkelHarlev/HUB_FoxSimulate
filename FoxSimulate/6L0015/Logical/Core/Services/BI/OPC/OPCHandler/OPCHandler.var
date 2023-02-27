@@ -1,0 +1,10 @@
+VAR
+	Init : BOOL;
+	ErrorNumber : USINT;
+	LocalLogData : ARRAY[0..1] OF JenStatLog_Type;
+	LocalCounter : ARRAY[0..15] OF UDINT;
+	MasterPUs : UDINT;
+	SlavePUs : UDINT;
+	No : USINT;
+	OPCData : OPCData_Type;
+END_VAR

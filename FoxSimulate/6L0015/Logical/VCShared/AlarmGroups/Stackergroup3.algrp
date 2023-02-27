@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Stackergroup3">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.App.Application.g_StackerProcess[3].Common.AlarmList.Ack]"/>
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.App.Application.g_StackerProcess[3].Common.AlarmList.Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="Source[global].Variable[Master.App.Application.g_StackerProcess[3].Common.AlarmList.Bypassed]"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="16"/>
+  <Property Name="LatchedBackColor" Value="47"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="2"/>
+  <Property Name="QuitBackColor" Value="11"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="7390" Value="Photocell covered at start STG 3"/>
+      <Text ID="7392" Value="Jam inlet STG 3"/>
+      <Text ID="7393" Value="Startup error STG 3"/>
+      <Text ID="7394" Value="Coupled settings wrong"/>
+      <Text ID="7395" Value="Photocell covered at foldpoint STG 3"/>
+      <Text ID="7396" Value="Photocell covered STG3"/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="7390" Value="Fotozelle betaetigt bei STG 3"/>
+      <Text ID="7392" Value="Stau Einlauf STG 3"/>
+      <Text ID="7393" Value="Start fehler STG 3"/>
+      <Text ID="7394" Value="Verbindungs-einstellungs fehler"/>
+      <Text ID="7395" Value="Fotozelle betaetigt bei foldpoint STG 3"/>
+      <Text ID="7396" Value="Fotozelle betaetigt  STG3"/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="7390" Value="Photocell covered at start STG 3"/>
+      <Text ID="7392" Value="Jam inlet STG 3"/>
+      <Text ID="7393" Value="Startup error STG 3"/>
+      <Text ID="7394" Value="Kopplings parameter fel"/>
+      <Text ID="7395" Value="Photocell covered at foldpoint STG 3"/>
+      <Text ID="7396" Value="Photocell covered STG3"/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="7390" Value="Photocellule couverte au depart STG 3"/>
+      <Text ID="7392" Value="Surveillance STG 3"/>
+      <Text ID="7393" Value="Erreur startup STG 3"/>
+      <Text ID="7394" Value="Erreur couplage empileurs"/>
+      <Text ID="7395" Value="Photocellule couverte au point pliage STG 3"/>
+      <Text ID="7396" Value="Photocellule couverte au STG 3"/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="7390" Value="Fotocelle tildäkket under start STG 3"/>
+      <Text ID="7392" Value="Fejl STG 3"/>
+      <Text ID="7393" Value="Startup error STG 3"/>
+      <Text ID="7394" Value="Coupled settings wrong"/>
+      <Text ID="7395" Value="Fotocelle tildäkket foldepunkt STG 3"/>
+      <Text ID="7396" Value="Fotocelle tildäkket STG 3"/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="7390" Value="Fotocellula Coperta alla partenza STG 3"/>
+      <Text ID="7392" Value="Inceppamento STG3"/>
+      <Text ID="7393" Value="Errore Avviamento STG 3"/>
+      <Text ID="7394" Value="Impostaz. Accoppiam. Errata"/>
+      <Text ID="7395" Value="Fotocellula Coperta al punto di piega STG 3"/>
+      <Text ID="7396" Value="Fotocellula Coperta STG3"/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="7390" Value="Photocell covered at start STG 3"/>
+      <Text ID="7392" Value="Jam inlet STG 3"/>
+      <Text ID="7393" Value="Startup error STG 3"/>
+      <Text ID="7394" Value="Coupled settings wrong"/>
+      <Text ID="7395" Value="Photocell covered at foldpoint STG 3"/>
+      <Text ID="7396" Value="Photocell covered STG3"/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="7390" Value="Photocell covered at start STG 3"/>
+      <Text ID="7392" Value="Jam inlet STG 3"/>
+      <Text ID="7393" Value="Startup error STG 3"/>
+      <Text ID="7394" Value="Coupled settings wrong"/>
+      <Text ID="7395" Value="Photocell covered at foldpoint STG 3"/>
+      <Text ID="7396" Value="Photocell covered STG3"/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="7390" Value="Fotocélula cubierta en inicio STG3"/>
+      <Text ID="7392" Value="Atasco en entrada STG3"/>
+      <Text ID="7393" Value="Error en inicio STG3"/>
+      <Text ID="7394" Value="Ajustes de acoplamiento erróneos"/>
+      <Text ID="7395" Value="Fotocélula cubierta en plegado STG3"/>
+      <Text ID="7396" Value="Fotocélula cubierta STG3"/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="7390" Value=""/>
+      <Text ID="7392" Value=""/>
+      <Text ID="7393" Value=""/>
+      <Text ID="7394" Value=""/>
+      <Text ID="7395" Value=""/>
+      <Text ID="7396" Value=""/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="7390" Value=""/>
+      <Text ID="7392" Value=""/>
+      <Text ID="7393" Value=""/>
+      <Text ID="7394" Value=""/>
+      <Text ID="7395" Value=""/>
+      <Text ID="7396" Value=""/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="7390" Value=""/>
+      <Text ID="7392" Value=""/>
+      <Text ID="7393" Value=""/>
+      <Text ID="7394" Value=""/>
+      <Text ID="7395" Value=""/>
+      <Text ID="7396" Value=""/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="7390" Value=""/>
+      <Text ID="7392" Value=""/>
+      <Text ID="7393" Value=""/>
+      <Text ID="7394" Value=""/>
+      <Text ID="7395" Value=""/>
+      <Text ID="7396" Value=""/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="7390" Value=""/>
+      <Text ID="7392" Value=""/>
+      <Text ID="7393" Value=""/>
+      <Text ID="7394" Value=""/>
+      <Text ID="7395" Value=""/>
+      <Text ID="7396" Value=""/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="7390" Value=""/>
+      <Text ID="7392" Value=""/>
+      <Text ID="7393" Value=""/>
+      <Text ID="7394" Value=""/>
+      <Text ID="7395" Value=""/>
+      <Text ID="7396" Value=""/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="7390" Value="Fotocelle tildekket under start STG 3"/>
+      <Text ID="7392" Value="Jam inlet STG 3"/>
+      <Text ID="7393" Value="Startup error STG 3"/>
+      <Text ID="7394" Value="Coupled settings wrong"/>
+      <Text ID="7395" Value="Fotocelle tildekket foldepunkt STG 3"/>
+      <Text ID="7396" Value="Fotocelle tildekket STG 3"/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="7390" Value=""/>
+      <Text ID="7392" Value=""/>
+      <Text ID="7393" Value=""/>
+      <Text ID="7394" Value=""/>
+      <Text ID="7395" Value=""/>
+      <Text ID="7396" Value=""/>
+      <Text ID="12293" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="7390" Value="5"/>
+      <Index ID="7392" Value="2"/>
+      <Index ID="7393" Value="3"/>
+      <Index ID="7394" Value="4"/>
+      <Index ID="7395" Value="6"/>
+      <Index ID="7396" Value="7"/>
+      <Index ID="12293" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

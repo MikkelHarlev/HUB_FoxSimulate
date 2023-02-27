@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: HangerSetup
+ * File: HangerSetup.var
+ * Author: mha
+ * Created: September 26, 2012
+ ********************************************************************
+ * Local variables of program HangerSetup
+ ********************************************************************)
+VAR
+	Lift : HangerLift_Type;
+	RUseOnlyFirstSensor : BOOL;
+	RUseOnlyLastSensor : BOOL;
+	RSwitchSensorFunction : BOOL;
+	RInit : BOOL;
+	TON_DelayDown : TON;
+END_VAR

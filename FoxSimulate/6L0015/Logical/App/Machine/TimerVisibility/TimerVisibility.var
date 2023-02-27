@@ -1,0 +1,12 @@
+VAR CONSTANT
+	SHOW : USINT := 1;
+	HCFG : USINT := 2;
+	HIDE : USINT := 2;
+	MCFG : USINT := 1;
+	RCFG : USINT := 0;
+	ACFG : USINT := 3;
+END_VAR
+VAR
+	ChangeCountOld : ARRAY[0..3] OF UINT := [4(0)];
+	UpdateShowLevel : ARRAY[0..3] OF RcpShowLevel := [4(0)];
+END_VAR

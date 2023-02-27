@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ProcessManagerStates">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="7"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="131384" Value="Error Trig"/>
+    <Text ID="131438" Value="Stopping"/>
+    <Text ID="131445" Value="Service"/>
+    <Text ID="131446" Value="StartUp"/>
+    <Text ID="273009" Value="Forced stop"/>
+    <Text ID="273806" Value="  Machine on Production         "/>
+    <Text ID="273807" Value="Machine in Operation               "/>
+    <Text ID="273808" Value="Machine Disturbance       "/>
+    <Text ID="273809" Value=" Machine locked ? Start    "/>
+    <Text ID="273810" Value="Production Stop          "/>
+    <Text ID="273811" Value="Machine ready to start           "/>
+    <Text ID="280272" Value="Wait Data"/>
+    <Text ID="280273" Value="Fold done"/>
+    <Text ID="280274" Value="Wait Foldpoint"/>
+    <Text ID="280275" Value="Startup 2"/>
+    <Text ID="280276" Value="Wait Exit"/>
+    <Text ID="280277" Value="Deliver done"/>
+    <Text ID="280278" Value="Deliver to next"/>
+    <Text ID="280279" Value="Wait trig"/>
+    <Text ID="280280" Value="Wait Job"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="131384" Value="Error Trig"/>
+    <Text ID="131438" Value="Stopping"/>
+    <Text ID="131445" Value="Service"/>
+    <Text ID="131446" Value="StartUp"/>
+    <Text ID="273009" Value="Forced stop"/>
+    <Text ID="273806" Value=" Maschine in Produktion         "/>
+    <Text ID="273807" Value="Maschine in Betrieb               "/>
+    <Text ID="273808" Value="Maschine Störung         "/>
+    <Text ID="273809" Value="Maschine gesperrt ? Start  "/>
+    <Text ID="273810" Value="Produktion Stop          "/>
+    <Text ID="273811" Value="Maschine Betriebsbereit          "/>
+    <Text ID="280272" Value="Wait Data"/>
+    <Text ID="280273" Value="Fold done"/>
+    <Text ID="280274" Value="Wait Foldpoint"/>
+    <Text ID="280275" Value="Startup 2"/>
+    <Text ID="280276" Value="Wait Exit"/>
+    <Text ID="280277" Value="Deliver done"/>
+    <Text ID="280278" Value="Deliver to next"/>
+    <Text ID="280279" Value="Wait trig"/>
+    <Text ID="280280" Value="Wait Job"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="131384" Value="Error Trig"/>
+    <Text ID="131438" Value="Stopping"/>
+    <Text ID="131445" Value="Service"/>
+    <Text ID="131446" Value="StartUp"/>
+    <Text ID="273009" Value="Forced stop"/>
+    <Text ID="273806" Value="   Maskin i produktion          "/>
+    <Text ID="273807" Value="Maskin i drift                  "/>
+    <Text ID="273808" Value="Maskin störning         "/>
+    <Text ID="273809" Value=" Maskin spärrad ? Start    "/>
+    <Text ID="273810" Value=" Produktion stopp          "/>
+    <Text ID="273811" Value="Maskin driftklar              "/>
+    <Text ID="280272" Value="Vänta på data"/>
+    <Text ID="280273" Value="Fold done"/>
+    <Text ID="280274" Value="Wait Foldpoint"/>
+    <Text ID="280275" Value="Startup 2"/>
+    <Text ID="280276" Value="Wait Exit"/>
+    <Text ID="280277" Value="Deliver done"/>
+    <Text ID="280278" Value="Deliver to next"/>
+    <Text ID="280279" Value="Wait trig"/>
+    <Text ID="280280" Value="Wait Job"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="131384" Value="Error Trig"/>
+    <Text ID="131438" Value="Stopping"/>
+    <Text ID="131445" Value="Service"/>
+    <Text ID="131446" Value="StartUp"/>
+    <Text ID="273009" Value="Forced stop"/>
+    <Text ID="273806" Value="  Machine en Production         "/>
+    <Text ID="273807" Value="Machine en Opération               "/>
+    <Text ID="273808" Value="Machine Dérangement       "/>
+    <Text ID="273809" Value=" Machine bloquée ? Start   "/>
+    <Text ID="273810" Value="Arrêter Production         "/>
+    <Text ID="273811" Value="Machine prête               "/>
+    <Text ID="280272" Value="Wait Data"/>
+    <Text ID="280273" Value="Fold done"/>
+    <Text ID="280274" Value="Wait Foldpoint"/>
+    <Text ID="280275" Value="Startup 2"/>
+    <Text ID="280276" Value="Wait Exit"/>
+    <Text ID="280277" Value="Deliver done"/>
+    <Text ID="280278" Value="Deliver to next"/>
+    <Text ID="280279" Value="Wait trig"/>
+    <Text ID="280280" Value="Wait Job"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="131384" Value="Error Trig"/>
+    <Text ID="131438" Value="Stopping"/>
+    <Text ID="131445" Value="Service"/>
+    <Text ID="131446" Value="StartUp"/>
+    <Text ID="273009" Value="Forced stop"/>
+    <Text ID="273806" Value="  Maskine i Produktion"/>
+    <Text ID="273807" Value="Maskine i Drift"/>
+    <Text ID="273808" Value="Maskine Fejl"/>
+    <Text ID="273809" Value=" Maskine spærret ? Start  "/>
+    <Text ID="273810" Value="Produktion Stop"/>
+    <Text ID="273811" Value="Maskine klar til start"/>
+    <Text ID="280272" Value="Wait Data"/>
+    <Text ID="280273" Value="Fold done"/>
+    <Text ID="280274" Value="Wait Foldpoint"/>
+    <Text ID="280275" Value="Startup 2"/>
+    <Text ID="280276" Value="Wait Exit"/>
+    <Text ID="280277" Value="Deliver done"/>
+    <Text ID="280278" Value="Deliver to next"/>
+    <Text ID="280279" Value="Wait trig"/>
+    <Text ID="280280" Value="Wait Job"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="131384" Value="Error Trig"/>
+    <Text ID="131438" Value="Stopping"/>
+    <Text ID="131445" Value="Service"/>
+    <Text ID="131446" Value="StartUp"/>
+    <Text ID="273009" Value="Forced stop"/>
+    <Text ID="273806" Value=" Macchina in produzione         "/>
+    <Text ID="273807" Value="Macchina in funzione               "/>
+    <Text ID="273808" Value="Guasti macchina         "/>
+    <Text ID="273809" Value="Macchina bloccata ? avvio  "/>
+    <Text ID="273810" Value="Arresto Produzione         "/>
+    <Text ID="273811" Value="Macchina pronta              "/>
+    <Text ID="280272" Value="Wait Data"/>
+    <Text ID="280273" Value="Fold done"/>
+    <Text ID="280274" Value="Wait Foldpoint"/>
+    <Text ID="280275" Value="Startup 2"/>
+    <Text ID="280276" Value="Wait Exit"/>
+    <Text ID="280277" Value="Deliver done"/>
+    <Text ID="280278" Value="Deliver to next"/>
+    <Text ID="280279" Value="Wait trig"/>
+    <Text ID="280280" Value="Wait Job"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="131384" Value="Error Trig"/>
+    <Text ID="131438" Value="Stopping"/>
+    <Text ID="131445" Value="Service"/>
+    <Text ID="131446" Value="StartUp"/>
+    <Text ID="273009" Value="Forced stop"/>
+    <Text ID="273806" Value="  Machine on Production         "/>
+    <Text ID="273807" Value="Machine in Operation               "/>
+    <Text ID="273808" Value="Machine Disturbance       "/>
+    <Text ID="273809" Value=" Machine locked ? Start    "/>
+    <Text ID="273810" Value=" Production Stop          "/>
+    <Text ID="273811" Value="Machine ready to start           "/>
+    <Text ID="280272" Value="Wait Data"/>
+    <Text ID="280273" Value="Fold done"/>
+    <Text ID="280274" Value="Wait Foldpoint"/>
+    <Text ID="280275" Value="Startup 2"/>
+    <Text ID="280276" Value="Wait Exit"/>
+    <Text ID="280277" Value="Deliver done"/>
+    <Text ID="280278" Value="Deliver to next"/>
+    <Text ID="280279" Value="Wait trig"/>
+    <Text ID="280280" Value="Wait Job"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="131384" Value="Error Trig"/>
+    <Text ID="131438" Value="Stopping"/>
+    <Text ID="131445" Value="Service"/>
+    <Text ID="131446" Value="StartUp"/>
+    <Text ID="273009" Value="Forced stop"/>
+    <Text ID="273806" Value="  Machine in productie"/>
+    <Text ID="273807" Value="Machine in bedrijf"/>
+    <Text ID="273808" Value="Machine in storing"/>
+    <Text ID="273809" Value="Machine geblokkeerd ? start"/>
+    <Text ID="273810" Value="Productie stop "/>
+    <Text ID="273811" Value="Machine startklaar"/>
+    <Text ID="280272" Value="Wait Data"/>
+    <Text ID="280273" Value="Fold done"/>
+    <Text ID="280274" Value="Wait Foldpoint"/>
+    <Text ID="280275" Value="Startup 2"/>
+    <Text ID="280276" Value="Wait Exit"/>
+    <Text ID="280277" Value="Deliver done"/>
+    <Text ID="280278" Value="Deliver to next"/>
+    <Text ID="280279" Value="Wait trig"/>
+    <Text ID="280280" Value="Wait Job"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="131384" Value=""/>
+    <Text ID="131438" Value="Stopping"/>
+    <Text ID="131445" Value="Service"/>
+    <Text ID="131446" Value="StartUp"/>
+    <Text ID="273009" Value="Forced stop"/>
+    <Text ID="273806" Value="  Máquina en producción         "/>
+    <Text ID="273807" Value="Máquina en marcha                "/>
+    <Text ID="273808" Value="Avería máquina!         "/>
+    <Text ID="273809" Value="Máquina parada ? arrancar  "/>
+    <Text ID="273810" Value="Parar Producción          "/>
+    <Text ID="273811" Value="Máquina lista para func.          "/>
+    <Text ID="280272" Value="Wait Data"/>
+    <Text ID="280273" Value="Fold done"/>
+    <Text ID="280274" Value="Wait Foldpoint"/>
+    <Text ID="280275" Value="Startup 2"/>
+    <Text ID="280276" Value="Wait Exit"/>
+    <Text ID="280277" Value="Deliver done"/>
+    <Text ID="280278" Value="Deliver to next"/>
+    <Text ID="280279" Value="Wait trig"/>
+    <Text ID="280280" Value="Wait Job"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="131384" Value=""/>
+    <Text ID="131438" Value=""/>
+    <Text ID="131445" Value=""/>
+    <Text ID="131446" Value=""/>
+    <Text ID="273009" Value=""/>
+    <Text ID="273806" Value=""/>
+    <Text ID="273807" Value=""/>
+    <Text ID="273808" Value=""/>
+    <Text ID="273809" Value=""/>
+    <Text ID="273810" Value=""/>
+    <Text ID="273811" Value=""/>
+    <Text ID="280272" Value=""/>
+    <Text ID="280273" Value=""/>
+    <Text ID="280274" Value=""/>
+    <Text ID="280275" Value=""/>
+    <Text ID="280276" Value=""/>
+    <Text ID="280277" Value=""/>
+    <Text ID="280278" Value=""/>
+    <Text ID="280279" Value=""/>
+    <Text ID="280280" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="131384" Value=""/>
+    <Text ID="131438" Value=""/>
+    <Text ID="131445" Value=""/>
+    <Text ID="131446" Value=""/>
+    <Text ID="273009" Value=""/>
+    <Text ID="273806" Value=""/>
+    <Text ID="273807" Value=""/>
+    <Text ID="273808" Value=""/>
+    <Text ID="273809" Value=""/>
+    <Text ID="273810" Value=""/>
+    <Text ID="273811" Value=""/>
+    <Text ID="280272" Value=""/>
+    <Text ID="280273" Value=""/>
+    <Text ID="280274" Value=""/>
+    <Text ID="280275" Value=""/>
+    <Text ID="280276" Value=""/>
+    <Text ID="280277" Value=""/>
+    <Text ID="280278" Value=""/>
+    <Text ID="280279" Value=""/>
+    <Text ID="280280" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="131384" Value=""/>
+    <Text ID="131438" Value=""/>
+    <Text ID="131445" Value=""/>
+    <Text ID="131446" Value=""/>
+    <Text ID="273009" Value=""/>
+    <Text ID="273806" Value=""/>
+    <Text ID="273807" Value=""/>
+    <Text ID="273808" Value=""/>
+    <Text ID="273809" Value=""/>
+    <Text ID="273810" Value=""/>
+    <Text ID="273811" Value=""/>
+    <Text ID="280272" Value=""/>
+    <Text ID="280273" Value=""/>
+    <Text ID="280274" Value=""/>
+    <Text ID="280275" Value=""/>
+    <Text ID="280276" Value=""/>
+    <Text ID="280277" Value=""/>
+    <Text ID="280278" Value=""/>
+    <Text ID="280279" Value=""/>
+    <Text ID="280280" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="131384" Value=""/>
+    <Text ID="131438" Value=""/>
+    <Text ID="131445" Value=""/>
+    <Text ID="131446" Value=""/>
+    <Text ID="273009" Value=""/>
+    <Text ID="273806" Value=""/>
+    <Text ID="273807" Value=""/>
+    <Text ID="273808" Value=""/>
+    <Text ID="273809" Value=""/>
+    <Text ID="273810" Value=""/>
+    <Text ID="273811" Value=""/>
+    <Text ID="280272" Value=""/>
+    <Text ID="280273" Value=""/>
+    <Text ID="280274" Value=""/>
+    <Text ID="280275" Value=""/>
+    <Text ID="280276" Value=""/>
+    <Text ID="280277" Value=""/>
+    <Text ID="280278" Value=""/>
+    <Text ID="280279" Value=""/>
+    <Text ID="280280" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="131384" Value=""/>
+    <Text ID="131438" Value=""/>
+    <Text ID="131445" Value=""/>
+    <Text ID="131446" Value=""/>
+    <Text ID="273009" Value=""/>
+    <Text ID="273806" Value=""/>
+    <Text ID="273807" Value=""/>
+    <Text ID="273808" Value=""/>
+    <Text ID="273809" Value=""/>
+    <Text ID="273810" Value=""/>
+    <Text ID="273811" Value=""/>
+    <Text ID="280272" Value=""/>
+    <Text ID="280273" Value=""/>
+    <Text ID="280274" Value=""/>
+    <Text ID="280275" Value=""/>
+    <Text ID="280276" Value=""/>
+    <Text ID="280277" Value=""/>
+    <Text ID="280278" Value=""/>
+    <Text ID="280279" Value=""/>
+    <Text ID="280280" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="131384" Value=""/>
+    <Text ID="131438" Value=""/>
+    <Text ID="131445" Value=""/>
+    <Text ID="131446" Value=""/>
+    <Text ID="273009" Value=""/>
+    <Text ID="273806" Value=""/>
+    <Text ID="273807" Value=""/>
+    <Text ID="273808" Value=""/>
+    <Text ID="273809" Value=""/>
+    <Text ID="273810" Value=""/>
+    <Text ID="273811" Value=""/>
+    <Text ID="280272" Value=""/>
+    <Text ID="280273" Value=""/>
+    <Text ID="280274" Value=""/>
+    <Text ID="280275" Value=""/>
+    <Text ID="280276" Value=""/>
+    <Text ID="280277" Value=""/>
+    <Text ID="280278" Value=""/>
+    <Text ID="280279" Value=""/>
+    <Text ID="280280" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="131384" Value="Feil trigg"/>
+    <Text ID="131438" Value="Stopper"/>
+    <Text ID="131445" Value="Service"/>
+    <Text ID="131446" Value="Oppstart"/>
+    <Text ID="273009" Value="Forced stop"/>
+    <Text ID="273806" Value="Maskin i produksjon"/>
+    <Text ID="273807" Value="Maskin Klar"/>
+    <Text ID="273808" Value="Maskin forstyrrelse"/>
+    <Text ID="273809" Value="Maskin sperret ? Start"/>
+    <Text ID="273810" Value="Produksjon stopp"/>
+    <Text ID="273811" Value="Maskin drifstklar"/>
+    <Text ID="280272" Value="Vent data"/>
+    <Text ID="280273" Value="Bretting utført"/>
+    <Text ID="280274" Value="Vent brettepunkt"/>
+    <Text ID="280275" Value="Oppstart 2"/>
+    <Text ID="280276" Value="Vent avslutt"/>
+    <Text ID="280277" Value="Tilførsel utført"/>
+    <Text ID="280278" Value="Tilførsel til neste"/>
+    <Text ID="280279" Value="Vent trigger"/>
+    <Text ID="280280" Value="Vent jobb"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="131384" Value=""/>
+    <Text ID="131438" Value=""/>
+    <Text ID="131445" Value=""/>
+    <Text ID="131446" Value=""/>
+    <Text ID="273009" Value=""/>
+    <Text ID="273806" Value=""/>
+    <Text ID="273807" Value=""/>
+    <Text ID="273808" Value=""/>
+    <Text ID="273809" Value=""/>
+    <Text ID="273810" Value=""/>
+    <Text ID="273811" Value=""/>
+    <Text ID="280272" Value=""/>
+    <Text ID="280273" Value=""/>
+    <Text ID="280274" Value=""/>
+    <Text ID="280275" Value=""/>
+    <Text ID="280276" Value=""/>
+    <Text ID="280277" Value=""/>
+    <Text ID="280278" Value=""/>
+    <Text ID="280279" Value=""/>
+    <Text ID="280280" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="131384" Value="98"/>
+    <Index ID="131438" Value="6"/>
+    <Index ID="131445" Value="8"/>
+    <Index ID="131446" Value="1"/>
+    <Index ID="273009" Value="16"/>
+    <Index ID="273806" Value="4"/>
+    <Index ID="273807" Value="20"/>
+    <Index ID="273808" Value="99"/>
+    <Index ID="273809" Value="3"/>
+    <Index ID="273810" Value="15"/>
+    <Index ID="273811" Value="0"/>
+    <Index ID="280272" Value="21"/>
+    <Index ID="280273" Value="28"/>
+    <Index ID="280274" Value="25"/>
+    <Index ID="280275" Value="2"/>
+    <Index ID="280276" Value="82"/>
+    <Index ID="280277" Value="81"/>
+    <Index ID="280278" Value="80"/>
+    <Index ID="280279" Value="23"/>
+    <Index ID="280280" Value="22"/>
+  </IndexMap>
+</TextGroup>

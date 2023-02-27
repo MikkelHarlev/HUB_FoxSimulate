@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<methodCall>
+    <methodName>ReadLog</methodName>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>LogName</name>
+                    <value>
+                        <base64>"Name of the Log type"</base64>
+                    </value>
+                </member>
+                <member>
+                    <name>option</name>
+                    <value>
+                        <base64>bmV4dA==</base64>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodCall>

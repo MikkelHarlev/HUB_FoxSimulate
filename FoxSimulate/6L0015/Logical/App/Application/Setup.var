@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Package: Application
+ * File: Setup.var
+ * Author: JENSEN
+ * Created: March 11, 2020
+ ********************************************************************
+ * Variables of package Application
+ ********************************************************************)
+VAR
+	WHEEL_INC_TO_DISTANCE_MM : UINT := 545;
+END_VAR
+VAR CONSTANT
+	GATEWAY : STRING[16] := '172.16.200.1';
+	BROADCAST : STRING[16] := '172.16.41.255';
+	SUBNET_MASK : STRING[16] := '255.255.0.0';
+	JENSEN_IP_PREFIX : STRING[21] := '172.16.';
+END_VAR

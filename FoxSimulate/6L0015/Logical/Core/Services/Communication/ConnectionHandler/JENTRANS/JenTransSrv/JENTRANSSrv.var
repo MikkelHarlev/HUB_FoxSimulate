@@ -1,0 +1,58 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: JENTRANSSrv
+ * File: JENTRANSSrv.var
+ * Author: eg
+ * Created: April 19, 2012
+ ********************************************************************
+ * Local variables of program JENTRANSSrv
+ ********************************************************************)
+VAR
+	connectionID : UINT;
+	serverStartusRefreshTime : UINT;
+	clientStartusRefreshTime : UINT;
+	No : USINT;
+	newInstanceNo : USINT;
+	serverIP : STRING[21];
+	XMLServerComInfo : ARRAY[0..99] OF JenTransCommonInfo_Type;
+	XMLClientComInfo : ARRAY[0..99] OF JenTransCommonInfo_Type;
+	templateClientString : ARRAY[0..99] OF STRING[100];
+	templateServerString : ARRAY[0..99] OF STRING[100];
+	convertedString : STRING[100];
+	HandleNewInstances : USINT;
+	enableBASE64 : BOOL;
+	pConnection : REFERENCE TO XMLComServiceInterfaceCon_Type;
+	pThis : REFERENCE TO XMLRPCInterComCH_Type;
+	maxLoop : USINT;
+	lServerInterCom : ARRAY[0..99] OF XML_Jensen_Type := [100(0)];
+	lClientInterCom : ARRAY[0..99] OF XML_Jensen_Type := [100(0)];
+	lServerJenwayV1Com : ARRAY[0..99] OF XML_JENWAYV1_Type := [100(0)];
+	lClientJenwayV1Com : ARRAY[0..99] OF XML_JENWAYV1_Type := [100(0)];
+	lServerFuturailCom : ARRAY[0..99] OF XML_FUTURAIL_Type := [100(0)];
+	lClientFuturailCom : ARRAY[0..99] OF XML_FUTURAIL_Type := [100(0)];
+	lServerRemoteCom : ARRAY[0..99] OF XML_Remote_Type := [100(0)];
+	lClientRemoteCom : ARRAY[0..99] OF XML_Remote_Type := [100(0)];
+	OldRefreshTime : ARRAY[0..99] OF UDINT;
+	i : USINT;
+	dataMemorySize : UDINT;
+	AsMemPartCreate_0 : AsMemPartCreate;
+	pvAdresse : UDINT;
+	pvDataLen : UDINT;
+	AdrServerConnection : ARRAY[0..99] OF UDINT;
+	AdrClientConnection : ARRAY[0..99] OF UDINT;
+	structSizes : ARRAY[0..99] OF UDINT;
+	AsMemPartAllocClear_0 : AsMemPartAllocClear;
+	isError : BOOL;
+	roleType : ComCMCT_Enum;
+	logicType : XMLComServiceType_Enum;
+	status : UINT;
+	pConnectionManager : REFERENCE TO XMLRPCCL_Type;
+	pStatus : REFERENCE TO ComCMIFConStatus_Type;
+	isLoopBack : BOOL;
+	loopBackClient : ARRAY[0..99] OF USINT;
+	loopBackServer : ARRAY[0..99] OF USINT;
+	arrConnectionIDIdent : ARRAY[0..99] OF USINT;
+	arrConnectionPort : ARRAY[0..99] OF USINT;
+	connectionPort : USINT;
+END_VAR

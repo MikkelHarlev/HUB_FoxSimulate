@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Service_CrossB">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="49"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="384329" Value="Recipe"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="384329" Value="Programm"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="384329" Value="Recipe"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="384329" Value="Programme"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="384329" Value="Resept"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="384329" Value="Categoria"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="384329" Value="Recipe"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="384329" Value="Programma"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="384329" Value="Programa"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="384329" Value="Receptura"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="384329" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="384329" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="384329" Value="Receptura"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="384329" Value="Recipe"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="384329" Value="Recipe"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="384329" Value="Program"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="384329" Value="Recipe"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="384329" Value="0"/>
+  </IndexMap>
+</TextGroup>

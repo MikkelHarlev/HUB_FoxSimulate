@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="KEB_HMI">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="43"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="124190" Value="Inverter Pocket belt"/>
+    <Text ID="124191" Value="Inverter Status"/>
+    <Text ID="124192" Value="Communication Status"/>
+    <Text ID="124193" Value="Inverter Main belt"/>
+    <Text ID="124194" Value="Inverter status"/>
+    <Text ID="124195" Value="Send Count"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Error Count"/>
+    <Text ID="124199" Value="Error Number"/>
+    <Text ID="124200" Value="Error Text"/>
+    <Text ID="124202" Value="Inverter Status"/>
+    <Text ID="124203" Value="IP number"/>
+    <Text ID="124342" Value="Motor status"/>
+    <Text ID="124352" Value="Reset"/>
+    <Text ID="132971" Value="Internal Speed"/>
+    <Text ID="132972" Value="Internal"/>
+    <Text ID="132973" Value="External"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="124190" Value="Inverter Pocket belt"/>
+    <Text ID="124191" Value="Umrichter Status:"/>
+    <Text ID="124192" Value="Kommunikationsstatus"/>
+    <Text ID="124193" Value="Inverter Hauptband"/>
+    <Text ID="124194" Value="Umrichter Status:"/>
+    <Text ID="124195" Value="Zahl senden"/>
+    <Text ID="124196" Value="Empfangs-Zählung"/>
+    <Text ID="124198" Value="Zählen der Fehler"/>
+    <Text ID="124199" Value="Fehler Nummer"/>
+    <Text ID="124200" Value="Fehlertext: "/>
+    <Text ID="124202" Value="Umrichter Status:"/>
+    <Text ID="124203" Value="IP-Nummer"/>
+    <Text ID="124342" Value="Motorstatus"/>
+    <Text ID="124352" Value="Rückstellung"/>
+    <Text ID="132971" Value="Interne Geschwindigkeit"/>
+    <Text ID="132972" Value="Intern"/>
+    <Text ID="132973" Value="Extern"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="124190" Value="Inverter Pocket belt"/>
+    <Text ID="124191" Value="Inverter Status"/>
+    <Text ID="124192" Value="Communication Status"/>
+    <Text ID="124193" Value="Inverter Main belt"/>
+    <Text ID="124194" Value="Inverter status"/>
+    <Text ID="124195" Value="Send Count"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Error Count"/>
+    <Text ID="124199" Value="Error Number"/>
+    <Text ID="124200" Value="Error Text"/>
+    <Text ID="124202" Value="Inverter Status"/>
+    <Text ID="124203" Value="IP number"/>
+    <Text ID="124342" Value="Motor status"/>
+    <Text ID="124352" Value="Reset"/>
+    <Text ID="132971" Value="Internal Speed"/>
+    <Text ID="132972" Value="Internal"/>
+    <Text ID="132973" Value="External"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="124190" Value="Variateur courroie"/>
+    <Text ID="124191" Value="Statut Variateur"/>
+    <Text ID="124192" Value="Statut communication"/>
+    <Text ID="124193" Value="Variateur courroie principale"/>
+    <Text ID="124194" Value="Statut Variateur"/>
+    <Text ID="124195" Value="Envoi comptage"/>
+    <Text ID="124196" Value="Réception compteur"/>
+    <Text ID="124198" Value="Erreur comptage"/>
+    <Text ID="124199" Value="Numéro d'erreur"/>
+    <Text ID="124200" Value="Texte d'erreur"/>
+    <Text ID="124202" Value="Statut Variateur"/>
+    <Text ID="124203" Value="numéro IP"/>
+    <Text ID="124342" Value="Statut moteur"/>
+    <Text ID="124352" Value="RAZ"/>
+    <Text ID="132971" Value="Vitesse Interne"/>
+    <Text ID="132972" Value="Interne"/>
+    <Text ID="132973" Value="Externe"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="124190" Value="Inverter Pocket belt"/>
+    <Text ID="124191" Value="Inverter Status"/>
+    <Text ID="124192" Value="Communication Status"/>
+    <Text ID="124193" Value="Inverter Main belt"/>
+    <Text ID="124194" Value="Inverter status"/>
+    <Text ID="124195" Value="Send Count"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Error Count"/>
+    <Text ID="124199" Value="Error Number"/>
+    <Text ID="124200" Value="Error Text"/>
+    <Text ID="124202" Value="Inverter Status"/>
+    <Text ID="124203" Value="IP number"/>
+    <Text ID="124342" Value="Motor status"/>
+    <Text ID="124352" Value="Reset"/>
+    <Text ID="132971" Value="Internal Speed"/>
+    <Text ID="132972" Value="Internal"/>
+    <Text ID="132973" Value="External"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="124190" Value="Inverter Pocket belt"/>
+    <Text ID="124191" Value="Inverter Status"/>
+    <Text ID="124192" Value="Communication Status"/>
+    <Text ID="124193" Value="Inverter Main belt"/>
+    <Text ID="124194" Value="Inverter status"/>
+    <Text ID="124195" Value="Send Count"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Error Count"/>
+    <Text ID="124199" Value="Error Number"/>
+    <Text ID="124200" Value="Error Text"/>
+    <Text ID="124202" Value="Inverter Status"/>
+    <Text ID="124203" Value="IP number"/>
+    <Text ID="124342" Value="Motor status"/>
+    <Text ID="124352" Value="Reset"/>
+    <Text ID="132971" Value="Internal Speed"/>
+    <Text ID="132972" Value="Internal"/>
+    <Text ID="132973" Value="External"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="124190" Value="Inverter Pocket belt"/>
+    <Text ID="124191" Value="Inverter Status"/>
+    <Text ID="124192" Value="Communication Status"/>
+    <Text ID="124193" Value="Inverter Main belt"/>
+    <Text ID="124194" Value="Inverter status"/>
+    <Text ID="124195" Value="Send Count"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Error Count"/>
+    <Text ID="124199" Value="Error Number"/>
+    <Text ID="124200" Value="Error Text"/>
+    <Text ID="124202" Value="Inverter Status"/>
+    <Text ID="124203" Value="IP number"/>
+    <Text ID="124342" Value="Motor status"/>
+    <Text ID="124352" Value="Reset"/>
+    <Text ID="132971" Value="Internal Speed"/>
+    <Text ID="132972" Value="Internal"/>
+    <Text ID="132973" Value="External"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="124190" Value="Frequentieregelaar zakkenband"/>
+    <Text ID="124191" Value="Status frequentieregelaar"/>
+    <Text ID="124192" Value="Communicatiestatus"/>
+    <Text ID="124193" Value="Frequentieregelaar hoofdband"/>
+    <Text ID="124194" Value="Status frequentieregelaar"/>
+    <Text ID="124195" Value="Telling verzenden"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Fouttelling"/>
+    <Text ID="124199" Value="Foutnummer"/>
+    <Text ID="124200" Value="Fouttekst"/>
+    <Text ID="124202" Value="Status frequentieregelaar"/>
+    <Text ID="124203" Value="IP-nummer"/>
+    <Text ID="124342" Value="Motorstatus"/>
+    <Text ID="124352" Value="Reset"/>
+    <Text ID="132971" Value="Interne snelheid"/>
+    <Text ID="132972" Value="Intern"/>
+    <Text ID="132973" Value="Extern"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="124190" Value="Inversor cinta de bolsillo"/>
+    <Text ID="124191" Value="Estado del inversor"/>
+    <Text ID="124192" Value="Estado de comunicación"/>
+    <Text ID="124193" Value="Inversor cinta principal"/>
+    <Text ID="124194" Value="Estado del inversor"/>
+    <Text ID="124195" Value="Enviar recuento"/>
+    <Text ID="124196" Value="Recibir recuento"/>
+    <Text ID="124198" Value="Error recuento"/>
+    <Text ID="124199" Value="Número de error:"/>
+    <Text ID="124200" Value="Texto de error:"/>
+    <Text ID="124202" Value="Estado del inversor"/>
+    <Text ID="124203" Value="Número IP"/>
+    <Text ID="124342" Value="Estado del motor"/>
+    <Text ID="124352" Value="Resetear"/>
+    <Text ID="132971" Value="Velocidad interna"/>
+    <Text ID="132972" Value="Interno"/>
+    <Text ID="132973" Value="Externo"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="124190" Value="Przemiennik taśmy kieszeni"/>
+    <Text ID="124191" Value="Stan przemiennika"/>
+    <Text ID="124192" Value="Stan komunikacji"/>
+    <Text ID="124193" Value="Przemiennik taśmy głównej"/>
+    <Text ID="124194" Value="Stan przemiennika"/>
+    <Text ID="124195" Value="Licznik wysyłania"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Licznik błędów"/>
+    <Text ID="124199" Value="Numer błędu"/>
+    <Text ID="124200" Value="Tekst błędu"/>
+    <Text ID="124202" Value="Stan przemiennika"/>
+    <Text ID="124203" Value="Numer IP"/>
+    <Text ID="124342" Value="stan silnika"/>
+    <Text ID="124352" Value="Zerowanie"/>
+    <Text ID="132971" Value="Prędkość wewnętrzna"/>
+    <Text ID="132972" Value="Wewnętrzna"/>
+    <Text ID="132973" Value="Zewnętrzna"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="124190" Value=""/>
+    <Text ID="124191" Value=""/>
+    <Text ID="124192" Value=""/>
+    <Text ID="124193" Value=""/>
+    <Text ID="124194" Value=""/>
+    <Text ID="124195" Value=""/>
+    <Text ID="124196" Value=""/>
+    <Text ID="124198" Value=""/>
+    <Text ID="124199" Value=""/>
+    <Text ID="124200" Value=""/>
+    <Text ID="124202" Value=""/>
+    <Text ID="124203" Value=""/>
+    <Text ID="124342" Value=""/>
+    <Text ID="124352" Value=""/>
+    <Text ID="132971" Value=""/>
+    <Text ID="132972" Value=""/>
+    <Text ID="132973" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="124190" Value=""/>
+    <Text ID="124191" Value=""/>
+    <Text ID="124192" Value=""/>
+    <Text ID="124193" Value=""/>
+    <Text ID="124194" Value=""/>
+    <Text ID="124195" Value=""/>
+    <Text ID="124196" Value=""/>
+    <Text ID="124198" Value=""/>
+    <Text ID="124199" Value=""/>
+    <Text ID="124200" Value=""/>
+    <Text ID="124202" Value=""/>
+    <Text ID="124203" Value=""/>
+    <Text ID="124342" Value=""/>
+    <Text ID="124352" Value=""/>
+    <Text ID="132971" Value=""/>
+    <Text ID="132972" Value=""/>
+    <Text ID="132973" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="124190" Value="Przemiennik taśmy kieszeni"/>
+    <Text ID="124191" Value="Stan przemiennika"/>
+    <Text ID="124192" Value="Stan komunikacji"/>
+    <Text ID="124193" Value="Przemiennik taśmy głównej"/>
+    <Text ID="124194" Value="Stan przemiennika"/>
+    <Text ID="124195" Value="Licznik wysyłania"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Licznik błędów"/>
+    <Text ID="124199" Value="Numer błędu"/>
+    <Text ID="124200" Value="Tekst błędu"/>
+    <Text ID="124202" Value="Stan przemiennika"/>
+    <Text ID="124203" Value="Numer IP"/>
+    <Text ID="124342" Value="stan silnika"/>
+    <Text ID="124352" Value="Zerowanie"/>
+    <Text ID="132971" Value="Prędkość wewnętrzna"/>
+    <Text ID="132972" Value="Wewnętrzna"/>
+    <Text ID="132973" Value="Zewnętrzna"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="124190" Value="Inverter Pocket belt"/>
+    <Text ID="124191" Value="Inverter Status"/>
+    <Text ID="124192" Value="Communication Status"/>
+    <Text ID="124193" Value="Inverter Main belt"/>
+    <Text ID="124194" Value="Inverter status"/>
+    <Text ID="124195" Value="Send Count"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Error Count"/>
+    <Text ID="124199" Value="Error Number"/>
+    <Text ID="124200" Value="Error Text"/>
+    <Text ID="124202" Value="Inverter Status"/>
+    <Text ID="124203" Value="IP number"/>
+    <Text ID="124342" Value="Motor status"/>
+    <Text ID="124352" Value="Reset"/>
+    <Text ID="132971" Value="Internal Speed"/>
+    <Text ID="132972" Value="Internal"/>
+    <Text ID="132973" Value="External"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="124190" Value="Inverter Pocket belt"/>
+    <Text ID="124191" Value="Inverter Status"/>
+    <Text ID="124192" Value="Communication Status"/>
+    <Text ID="124193" Value="Inverter Main belt"/>
+    <Text ID="124194" Value="Inverter status"/>
+    <Text ID="124195" Value="Send Count"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Error Count"/>
+    <Text ID="124199" Value="Error Number"/>
+    <Text ID="124200" Value="Error Text"/>
+    <Text ID="124202" Value="Inverter Status"/>
+    <Text ID="124203" Value="IP number"/>
+    <Text ID="124342" Value="Motor status"/>
+    <Text ID="124352" Value="Reset"/>
+    <Text ID="132971" Value="Internal Speed"/>
+    <Text ID="132972" Value="Internal"/>
+    <Text ID="132973" Value="External"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="124190" Value="Inverter Pocket belt"/>
+    <Text ID="124191" Value="Inverter Status"/>
+    <Text ID="124192" Value="Communication Status"/>
+    <Text ID="124193" Value="Inverter Main belt"/>
+    <Text ID="124194" Value="Inverter status"/>
+    <Text ID="124195" Value="Send Count"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Error Count"/>
+    <Text ID="124199" Value="Error Number"/>
+    <Text ID="124200" Value="Error Text"/>
+    <Text ID="124202" Value="Inverter Status"/>
+    <Text ID="124203" Value="IP number"/>
+    <Text ID="124342" Value="Motor status"/>
+    <Text ID="124352" Value="Reset"/>
+    <Text ID="132971" Value="Internal Speed"/>
+    <Text ID="132972" Value="Internal"/>
+    <Text ID="132973" Value="External"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="124190" Value="Correia compartimentada do inversor"/>
+    <Text ID="124191" Value="Inverter Status"/>
+    <Text ID="124192" Value="Communication Status"/>
+    <Text ID="124193" Value="Correia principal do inversor"/>
+    <Text ID="124194" Value="Inverter Status"/>
+    <Text ID="124195" Value="Send Count"/>
+    <Text ID="124196" Value="Recieve Count"/>
+    <Text ID="124198" Value="Error Count"/>
+    <Text ID="124199" Value="Error Number:"/>
+    <Text ID="124200" Value="Error Text:"/>
+    <Text ID="124202" Value="Inverter Status"/>
+    <Text ID="124203" Value="IP number"/>
+    <Text ID="124342" Value="Motor status"/>
+    <Text ID="124352" Value="Reset"/>
+    <Text ID="132971" Value="Internal Speed"/>
+    <Text ID="132972" Value="Internal"/>
+    <Text ID="132973" Value="External"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="124190" Value="1"/>
+    <Index ID="124191" Value="0"/>
+    <Index ID="124192" Value="3"/>
+    <Index ID="124193" Value="2"/>
+    <Index ID="124194" Value="4"/>
+    <Index ID="124195" Value="5"/>
+    <Index ID="124196" Value="7"/>
+    <Index ID="124198" Value="8"/>
+    <Index ID="124199" Value="9"/>
+    <Index ID="124200" Value="11"/>
+    <Index ID="124202" Value="12"/>
+    <Index ID="124203" Value="13"/>
+    <Index ID="124342" Value="14"/>
+    <Index ID="124352" Value="15"/>
+    <Index ID="132971" Value="16"/>
+    <Index ID="132972" Value="17"/>
+    <Index ID="132973" Value="18"/>
+  </IndexMap>
+</TextGroup>

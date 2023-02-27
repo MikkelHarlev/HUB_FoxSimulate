@@ -1,0 +1,57 @@
+VAR
+	TON_VisiEnable : TON := (0);
+	RVariableEdited : BOOL := FALSE;
+	RDontNotify : BOOL := FALSE;
+END_VAR
+VAR CONSTANT
+	MACFG_PARSCROLL_INIT : USINT := 8;
+	MACFG_LOAD : USINT := 4;
+	MACFG_ERROR : USINT := 3;
+	MACFG_CLEAR_ERROR_STRINGS : USINT := 2;
+	MACFG_LOAD_WAIT : USINT := 5;
+	MACFG_SAVE : USINT := 6;
+	MACFG_SAVE_WAIT : USINT := 7;
+	MACFG_CHECK_FOR_COMMAND : USINT := 1;
+	NAME_CFGPARDEVICE : STRING[20] := 'cfgpar';
+	NAME_CFGFILE : STRING[20] := 'mcfg0.csv';
+	NAME_CFGPARFILENAME : STRING[21] := 'mcfgpar.csv';
+	NAME_CFG_DEVICE : STRING[20] := 'mcfg';
+END_VAR
+VAR
+	TimeCounterUp : UDINT;
+	TimePermanentScroll : UDINT;
+	sMaCfg : USINT;
+	MaCfgLoad_0 : RcpLoad;
+	MaCfgSave_0 : RcpSave;
+	RTInfo_0 : RTInfo;
+	MaCfgInit_0 : RcpInit;
+	MachParScroInit_0 : ParScroInit;
+	MachParScroCyclic_0 : ParScroCyclic;
+	TriggScrollUp : R_TRIG;
+	TaskCycleTime : UDINT;
+	SYSInfo_0 : SysInfo;
+	MCfg : Cfg_Type;
+	TriggScrollDown : R_TRIG;
+	TimeCounterDown : UDINT;
+	CycleScroll : USINT;
+	CycleCount : USINT;
+	NewStatusString : USINT;
+	LastLanguage : UINT;
+	RInitDone : BOOL;
+	RcpPointRefState : UINT;
+	RcpPointInit_1 : RcpPointInit;
+	NameStructure : STRING[80];
+	PageMachineConfigEdit : UINT;
+	NewStatusString_Time : UDINT;
+	MCfgTimerVisibility : ARRAY[0..999] OF USINT;
+	MCfgParScrollSelectedItem : UINT := 0;
+	MCfgParScrollSelectedVariable : STRING[60] := '';
+	Cnt : USINT := 0;
+END_VAR
+VAR CONSTANT
+	MACFG_UPDATE_PAR : USINT := 20;
+	MACFG_UPDATE_PAR_FINDPOS : USINT := 21;
+END_VAR
+VAR
+	TimerDescription : TimerDescription_Type;
+END_VAR

@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_AutoProgramEdit5">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Index" Value="534"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="320"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[ComLayer_Pages]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_Pages"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[ComLayer_Common]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_Common"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[SelectAutoProgram]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="SelectAutoProgram"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="2"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="240"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="320"/>
+      <Property Name="Z-Order" Value="3"/>
+      <TextGroup>
+        <TextLayer LanguageId="en-GB">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="de-DE">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="sv-SE">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="fr-FR">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="da-DK">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="it-IT">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="fi-FI">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="nl-NL">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="es-ES">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="pl-PL">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="ru-RU">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="en">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="zh-CN">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="cs-CZ">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="en-US">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="no-NO">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <TextLayer LanguageId="pt-PT">
+          <Text ID="592461" Value="1"/>
+          <Text ID="592462" Value="2"/>
+          <Text ID="592463" Value="3"/>
+          <Text ID="592464" Value="4"/>
+          <Text ID="592465" Value="5"/>
+          <Text ID="592466" Value="6"/>
+          <Text ID="592467" Value="7"/>
+          <Text ID="592468" Value="8"/>
+          <Text ID="592469" Value="9"/>
+          <Text ID="592470" Value="10"/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="592461" Value="9"/>
+          <Index ID="592462" Value="10"/>
+          <Index ID="592463" Value="11"/>
+          <Index ID="592464" Value="12"/>
+          <Index ID="592465" Value="13"/>
+          <Index ID="592466" Value="14"/>
+          <Index ID="592467" Value="15"/>
+          <Index ID="592468" Value="16"/>
+          <Index ID="592469" Value="17"/>
+          <Index ID="592470" Value="18"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x0000100D" Name="Line_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="4"/>
+          <Property Name="EndY" Value="206"/>
+          <Property Name="StartX" Value="4"/>
+          <Property Name="StartY" Value="76"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="314"/>
+          <Property Name="EndY" Value="76"/>
+          <Property Name="StartX" Value="4"/>
+          <Property Name="StartY" Value="76"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="314"/>
+          <Property Name="EndY" Value="97"/>
+          <Property Name="StartX" Value="4"/>
+          <Property Name="StartY" Value="97"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_5">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="7"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_AutoProgramEdit]"/>
+          <Property Name="TextIndexOffset" Value="228"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="99"/>
+          <Property Name="Width" Value="175"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_5">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="55"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="246"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="2000"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="102"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.SpeedHzHangerBelt]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="35"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="314"/>
+          <Property Name="EndY" Value="151"/>
+          <Property Name="LineWidth" Value="2"/>
+          <Property Name="StartX" Value="4"/>
+          <Property Name="StartY" Value="151"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_7">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="7"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_AutoProgramEdit]"/>
+          <Property Name="TextIndexOffset" Value="229"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="118"/>
+          <Property Name="Width" Value="175"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_7">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="56"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="246"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="2000"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="121"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.SpeedSlowHangerBeltDeloader]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="35"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_25">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="271"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigCompound]"/>
+          <Property Name="TextIndexOffset" Value="57"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="103"/>
+          <Property Name="Width" Value="35"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_26">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="271"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigCompound]"/>
+          <Property Name="TextIndexOffset" Value="57"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="122"/>
+          <Property Name="Width" Value="35"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_7">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="314"/>
+          <Property Name="EndY" Value="206"/>
+          <Property Name="StartX" Value="4"/>
+          <Property Name="StartY" Value="206"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_12">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="234"/>
+          <Property Name="EndY" Value="151"/>
+          <Property Name="StartX" Value="234"/>
+          <Property Name="StartY" Value="76"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_13">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="314"/>
+          <Property Name="EndY" Value="206"/>
+          <Property Name="StartX" Value="314"/>
+          <Property Name="StartY" Value="76"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_12">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="51"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="246"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="2000"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="79"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.DeloaderDwPos]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="35"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_6">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="7"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_AutoProgramEdit]"/>
+          <Property Name="TextIndexOffset" Value="230"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="75"/>
+          <Property Name="Width" Value="175"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_10">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="9"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_AutoProgramEdit]"/>
+          <Property Name="TextIndexOffset" Value="38"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="155"/>
+          <Property Name="Width" Value="152"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_22">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="61"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="7"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="190"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.FullIndexingTime[1]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_23">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="62"/>
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="36"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[2]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="190"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.FullIndexingTime[2]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_24">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="63"/>
+          <Property Name="ControlID" Value="2"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="65"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[3]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="190"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.FullIndexingTime[3]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_25">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="64"/>
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="94"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[4]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="190"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.FullIndexingTime[4]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_26">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="65"/>
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="123"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[5]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="190"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.FullIndexingTime[5]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_27">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="66"/>
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="152"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[6]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="190"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.FullIndexingTime[6]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_28">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="67"/>
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="181"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[7]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="190"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.FullIndexingTime[7]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_29">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="68"/>
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="211"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[8]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="190"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.FullIndexingTime[8]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_30">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="69"/>
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="240"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[9]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="190"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.FullIndexingTime[9]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_31">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="70"/>
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="269"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[10]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="190"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.FullIndexingTime[10]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="28"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="10"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="9"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="Width" Value="13"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="37"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[2]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="10"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="Width" Value="13"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_8">
+          <Property Name="ControlID" Value="2"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="67"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[3]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="11"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="Width" Value="13"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_9">
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="97"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[4]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="12"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="Width" Value="13"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_11">
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="126"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[5]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="13"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="Width" Value="13"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_12">
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="153"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[6]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="14"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="Width" Value="13"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_13">
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="184"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[7]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="15"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="Width" Value="13"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_14">
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="212"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[8]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="16"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="Width" Value="13"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_15">
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="241"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[9]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="17"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="Width" Value="13"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_16">
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="269"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.auto_prg.HmiAutoProgram.HideIndexingTime[10]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="18"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_32">
+          <Property Name="BackColor" Value="198"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+          <Property Name="CompletionValue" Value="80"/>
+          <Property Name="ControlID" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="16"/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="246"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="5000"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="157"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="35"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_17">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="137"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_AutoProgramEdit]"/>
+          <Property Name="TextIndexOffset" Value="233"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="155"/>
+          <Property Name="Width" Value="105"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_18">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="242"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_AutoProgramEdit]"/>
+          <Property Name="TextIndexOffset" Value="234"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="132"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_23">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="12"/>
+          <Property Name="Left" Value="277"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigCompound]"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="157"/>
+          <Property Name="Width" Value="35"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="BypassLateralBlades">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="6"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="ForceTrouserKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="7"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="OffsetBlade">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="8"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="Overall_align">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="10"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="PhotocellMode">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="4"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="TroserStopKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="28"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="TrouserAlignment">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="9"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="HangerCleaningKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="55"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.HmiAutoProgram.HmiAction]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[ComLayer_AddOn]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_AddOn"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="4"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[local].Layer[SelectAutoProgram].Control[AutoProgram_Select]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_12]"/>
+      <Property Name="Left" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_30]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_29]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[SelectAutoProgram].Control[String_1]">
+      <Property Name="Down" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Left" Value="Source[local].Layer[SelectAutoProgram].Control[AutoProgram_Select]"/>
+      <Property Name="Right" Value="Source[local].Layer[SelectAutoProgram].Control[AutoProgram_Select]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_22]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_5]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+      <Property Name="Left" Value="Source[local].Layer[SelectAutoProgram].Control[AutoProgram_Select]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_31]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_12]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_7]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
+      <Property Name="Left" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_31]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_12]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+      <Property Name="Left" Value="Source[local].Layer[SelectAutoProgram].Control[AutoProgram_Select]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_31]"/>
+      <Property Name="Up" Value="Source[local].Layer[SelectAutoProgram].Control[AutoProgram_Select]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_22]">
+      <Property Name="Down" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_31]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_23]"/>
+      <Property Name="Up" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_23]">
+      <Property Name="Down" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_22]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_24]"/>
+      <Property Name="Up" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_24]">
+      <Property Name="Down" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_23]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_25]"/>
+      <Property Name="Up" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_25]">
+      <Property Name="Down" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_24]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_26]"/>
+      <Property Name="Up" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_26]">
+      <Property Name="Down" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_25]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_27]"/>
+      <Property Name="Up" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_27]">
+      <Property Name="Down" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_26]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_28]"/>
+      <Property Name="Up" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_28]">
+      <Property Name="Down" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_27]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_29]"/>
+      <Property Name="Up" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_29]">
+      <Property Name="Down" Value="Source[local].Layer[SelectAutoProgram].Control[AutoProgram_Select]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_28]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_30]"/>
+      <Property Name="Up" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_30]">
+      <Property Name="Down" Value="Source[local].Layer[SelectAutoProgram].Control[AutoProgram_Select]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_29]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_31]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_31]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_12]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_30]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_22]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_32]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_30]"/>
+      <Property Name="Left" Value="Source[local].Layer[SelectAutoProgram].Control[AutoProgram_Select]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_31]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[ComLayer_AddOn].Control[Password]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_24]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_24]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+      <Property Name="Up" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[local].Layer[SelectAutoProgram].Control[AutoProgram_Select]"/>
+    <TabSeqItem Index="1" Value="Source[local].Layer[SelectAutoProgram].Control[String_1]"/>
+    <TabSeqItem Index="2" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[Numeric_12]"/>
+    <TabSeqItem Index="6" Value="Source[local].Layer[SelectAutoProgram].Control[Numeric_5]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[Numeric_22]"/>
+    <TabSeqItem Index="8" Value="Source[embedded].Layer[Default].Control[Numeric_23]"/>
+    <TabSeqItem Index="9" Value="Source[embedded].Layer[Default].Control[Numeric_24]"/>
+    <TabSeqItem Index="10" Value="Source[embedded].Layer[Default].Control[Numeric_25]"/>
+    <TabSeqItem Index="11" Value="Source[embedded].Layer[Default].Control[Numeric_26]"/>
+    <TabSeqItem Index="12" Value="Source[embedded].Layer[Default].Control[Numeric_27]"/>
+    <TabSeqItem Index="13" Value="Source[embedded].Layer[Default].Control[Numeric_28]"/>
+    <TabSeqItem Index="14" Value="Source[embedded].Layer[Default].Control[Numeric_29]"/>
+    <TabSeqItem Index="15" Value="Source[embedded].Layer[Default].Control[Numeric_30]"/>
+    <TabSeqItem Index="16" Value="Source[embedded].Layer[Default].Control[Numeric_31]"/>
+    <TabSeqItem Index="17" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
+  </TabSequence>
+</Page>

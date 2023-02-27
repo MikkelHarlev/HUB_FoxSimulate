@@ -1,0 +1,49 @@
+VAR
+	sState : UINT := 0;
+	cmdSaveLogBook : UINT := 0;
+	ERRxStatus : UINT;
+	CountLog : USINT;
+	LogbookInfo : ARRAY[0..19] OF ERR_xtyp;
+	MaxRead : USINT;
+	Plclog : plclog_type;
+	xcnt : SINT;
+	ErrorNb : UINT;
+	CharCount : SINT;
+	ErrorNbString : STRING[6];
+	LogHandle : JenLog_Type;
+END_VAR
+VAR CONSTANT
+	STATE_INIT : UINT := 1;
+	STATUS_BUSY : UINT := 65535;
+	STATE_DELETE : UINT := 2;
+	STATUS_READY : UINT := 0;
+	STATE_CREATE : UINT := 3;
+	STATE_ERROR : UINT := 9;
+	STATE_WRITE : UINT := 5;
+	STATE_WRITE_WAIT : UINT := 6;
+	STATE_CLOSE : UINT := 8;
+END_VAR
+VAR
+	pDevice : UDINT;
+	pFileName : UDINT;
+	fDelete : FileDelete;
+	Status : UINT;
+	fCreate : FileCreate;
+	fWrite : FileWrite;
+	EntryNo : INT;
+	OffsetLogWrite : INT;
+	LogEntryType : ERR_xtyp;
+	LenAtoi : UINT;
+	LogString : STRING[255];
+	CSV_DELIMITER : ARRAY[0..3] OF USINT;
+	LenLogWrite : UINT;
+	fClose : FileClose;
+END_VAR
+VAR CONSTANT
+	LOGBOOK_DEVICENAME : STRING[80] := 'Log';
+	LOGBOOK_FILE_NAME : STRING[80] := 'LogBook.csv';
+	STATE_HEADER : UINT := 4;
+END_VAR
+VAR
+	PageLogBook : UINT;
+END_VAR

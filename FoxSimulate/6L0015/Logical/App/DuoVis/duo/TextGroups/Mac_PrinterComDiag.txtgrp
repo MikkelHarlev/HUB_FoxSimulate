@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_PrinterComDiag">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="58"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="391389" Value="Communication status"/>
+    <Text ID="391390" Value="Last data sent"/>
+    <Text ID="391391" Value="Printer status"/>
+    <Text ID="391392" Value="Failure"/>
+    <Text ID="391393" Value="Standby"/>
+    <Text ID="391394" Value="Ready to receive"/>
+    <Text ID="391395" Value="Printing"/>
+    <Text ID="391396" Value="No Printing"/>
+    <Text ID="391397" Value="Stack want to unload"/>
+    <Text ID="391398" Value="Stack in position"/>
+    <Text ID="391401" Value="Hanger Id"/>
+    <Text ID="391402" Value="Garment Id"/>
+    <Text ID="392690" Value="Com status Texts"/>
+    <Text ID="392691" Value="Folder status"/>
+    <Text ID="392695" Value="Communication Status"/>
+    <Text ID="392696" Value="Communication OK"/>
+    <Text ID="392697" Value="Communication Failed"/>
+    <Text ID="392699" Value="Bypassed"/>
+    <Text ID="407397" Value="Connect count"/>
+    <Text ID="407398" Value="Connected count"/>
+    <Text ID="407399" Value="Send count"/>
+    <Text ID="407400" Value="Recieve count"/>
+    <Text ID="407401" Value="Error count"/>
+    <Text ID="412564" Value="Log"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="391389" Value="Kommunikationsstatus"/>
+    <Text ID="391390" Value="Letzte daten gesendet"/>
+    <Text ID="391391" Value="Drucker status"/>
+    <Text ID="391392" Value="Fehler"/>
+    <Text ID="391393" Value="Standby"/>
+    <Text ID="391394" Value="Bereit für Empfang"/>
+    <Text ID="391395" Value="Drucken"/>
+    <Text ID="391396" Value="Nicht Drucken"/>
+    <Text ID="391397" Value="Stapel moechte entladen werden"/>
+    <Text ID="391398" Value="Stapel in Position"/>
+    <Text ID="391401" Value="Buegel Id"/>
+    <Text ID="391402" Value="Waesche Id"/>
+    <Text ID="392690" Value="Komm status Texte"/>
+    <Text ID="392691" Value="Faltmaschinen status"/>
+    <Text ID="392695" Value="Kommunikationsstatus"/>
+    <Text ID="392696" Value="Kommunication OK"/>
+    <Text ID="392697" Value="Kommunikation fehlgeschlagen"/>
+    <Text ID="392699" Value="Umgeleitet"/>
+    <Text ID="407397" Value="Verbindungszaeler"/>
+    <Text ID="407398" Value="Verbunden zaehlung"/>
+    <Text ID="407399" Value="Zahl senden"/>
+    <Text ID="407400" Value="Empfangs-Zählung"/>
+    <Text ID="407401" Value="Zählen der Fehler"/>
+    <Text ID="412564" Value="Log"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="391389" Value="Communication status"/>
+    <Text ID="391390" Value="Last data sent"/>
+    <Text ID="391391" Value="Printer status"/>
+    <Text ID="391392" Value="Failure"/>
+    <Text ID="391393" Value="Standby"/>
+    <Text ID="391394" Value="Ready to receive"/>
+    <Text ID="391395" Value="Printing"/>
+    <Text ID="391396" Value="No Printing"/>
+    <Text ID="391397" Value="Stack want to unload"/>
+    <Text ID="391398" Value="Stack in position"/>
+    <Text ID="391401" Value="Hanger Id"/>
+    <Text ID="391402" Value="Garment Id"/>
+    <Text ID="392690" Value="Com status Texts"/>
+    <Text ID="392691" Value="Folder status"/>
+    <Text ID="392695" Value="Communication Status"/>
+    <Text ID="392696" Value="Communication OK"/>
+    <Text ID="392697" Value="Communication Failed"/>
+    <Text ID="392699" Value="Bypassed"/>
+    <Text ID="407397" Value="Connect count"/>
+    <Text ID="407398" Value="Connected count"/>
+    <Text ID="407399" Value="Send count"/>
+    <Text ID="407400" Value="Recieve count"/>
+    <Text ID="407401" Value="Error count"/>
+    <Text ID="412564" Value="Log"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="391389" Value="Statut communication"/>
+    <Text ID="391390" Value="Dernière donnée envoyée"/>
+    <Text ID="391391" Value="Statut imprimante"/>
+    <Text ID="391392" Value="Echec"/>
+    <Text ID="391393" Value="Veille"/>
+    <Text ID="391394" Value="Prêt pour réception"/>
+    <Text ID="391395" Value="Impression"/>
+    <Text ID="391396" Value="Pas d'impression"/>
+    <Text ID="391397" Value="Demande de déchargement de pile"/>
+    <Text ID="391398" Value="Pile en position"/>
+    <Text ID="391401" Value="ID cintre"/>
+    <Text ID="391402" Value="ID vêtement"/>
+    <Text ID="392690" Value="Textes statut de communication"/>
+    <Text ID="392691" Value="Statut plieuse"/>
+    <Text ID="392695" Value="Statut communication"/>
+    <Text ID="392696" Value="Communication OK"/>
+    <Text ID="392697" Value="Echec de communication"/>
+    <Text ID="392699" Value="Bypassé"/>
+    <Text ID="407397" Value="Connecter comptage"/>
+    <Text ID="407398" Value="Comptage connecté"/>
+    <Text ID="407399" Value="Envoi comptage"/>
+    <Text ID="407400" Value="Réception compteur"/>
+    <Text ID="407401" Value="Erreur comptage"/>
+    <Text ID="412564" Value="Journal"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="391389" Value="Communication status"/>
+    <Text ID="391390" Value="Last data sent"/>
+    <Text ID="391391" Value="Printer status"/>
+    <Text ID="391392" Value="Failure"/>
+    <Text ID="391393" Value="Standby"/>
+    <Text ID="391394" Value="Ready to receive"/>
+    <Text ID="391395" Value="Printing"/>
+    <Text ID="391396" Value="No Printing"/>
+    <Text ID="391397" Value="Stack want to unload"/>
+    <Text ID="391398" Value="Stack in position"/>
+    <Text ID="391401" Value="Hanger Id"/>
+    <Text ID="391402" Value="Garment Id"/>
+    <Text ID="392690" Value="Com status Texts"/>
+    <Text ID="392691" Value="Folder status"/>
+    <Text ID="392695" Value="Communication Status"/>
+    <Text ID="392696" Value="Communication OK"/>
+    <Text ID="392697" Value="Communication Failed"/>
+    <Text ID="392699" Value="Bypassed"/>
+    <Text ID="407397" Value="Connect count"/>
+    <Text ID="407398" Value="Connected count"/>
+    <Text ID="407399" Value="Send count"/>
+    <Text ID="407400" Value="Recieve count"/>
+    <Text ID="407401" Value="Error count"/>
+    <Text ID="412564" Value="Log"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="391389" Value="Communication status"/>
+    <Text ID="391390" Value="Last data sent"/>
+    <Text ID="391391" Value="Printer status"/>
+    <Text ID="391392" Value="Errore"/>
+    <Text ID="391393" Value="Attesa"/>
+    <Text ID="391394" Value="Pronta a ricevere"/>
+    <Text ID="391395" Value="Stampa"/>
+    <Text ID="391396" Value="No Stampa"/>
+    <Text ID="391397" Value="Accatastatore vuole scaricare"/>
+    <Text ID="391398" Value="Accatastatore in posizione"/>
+    <Text ID="391401" Value="Hanger Id"/>
+    <Text ID="391402" Value="Garment Id"/>
+    <Text ID="392690" Value="Com status Texts"/>
+    <Text ID="392691" Value="Folder status"/>
+    <Text ID="392695" Value="Communication Status"/>
+    <Text ID="392696" Value="Communication OK"/>
+    <Text ID="392697" Value="Communication Failed"/>
+    <Text ID="392699" Value="Bypassed"/>
+    <Text ID="407397" Value="Connect count"/>
+    <Text ID="407398" Value="Connected count"/>
+    <Text ID="407399" Value="Send count"/>
+    <Text ID="407400" Value="Recieve count"/>
+    <Text ID="407401" Value="Error count"/>
+    <Text ID="412564" Value="Log"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="391389" Value="Communication status"/>
+    <Text ID="391390" Value="Last data sent"/>
+    <Text ID="391391" Value="Printer status"/>
+    <Text ID="391392" Value="Failure"/>
+    <Text ID="391393" Value="Standby"/>
+    <Text ID="391394" Value="Ready to receive"/>
+    <Text ID="391395" Value="Printing"/>
+    <Text ID="391396" Value="No Printing"/>
+    <Text ID="391397" Value="Stack want to unload"/>
+    <Text ID="391398" Value="Stack in position"/>
+    <Text ID="391401" Value="Hanger Id"/>
+    <Text ID="391402" Value="Garment Id"/>
+    <Text ID="392690" Value="Com status Texts"/>
+    <Text ID="392691" Value="Folder status"/>
+    <Text ID="392695" Value="Communication Status"/>
+    <Text ID="392696" Value="Communication OK"/>
+    <Text ID="392697" Value="Communication Failed"/>
+    <Text ID="392699" Value="Bypassed"/>
+    <Text ID="407397" Value="Connect count"/>
+    <Text ID="407398" Value="Connected count"/>
+    <Text ID="407399" Value="Send count"/>
+    <Text ID="407400" Value="Recieve count"/>
+    <Text ID="407401" Value="Error count"/>
+    <Text ID="412564" Value="Log"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="391389" Value="Communicatiestatus"/>
+    <Text ID="391390" Value="Laatst verzonden gegevens"/>
+    <Text ID="391391" Value="Printerstatus"/>
+    <Text ID="391392" Value="Storing"/>
+    <Text ID="391393" Value="Stand-by"/>
+    <Text ID="391394" Value="Klaar voor ontvangen"/>
+    <Text ID="391395" Value="Afdrukken"/>
+    <Text ID="391396" Value="Geen afdrukken"/>
+    <Text ID="391397" Value="Stapel wil uitladen"/>
+    <Text ID="391398" Value="Stapel in positie"/>
+    <Text ID="391401" Value="Hanger-id"/>
+    <Text ID="391402" Value="Kleding Id."/>
+    <Text ID="392690" Value="Teksten communicatiestatus"/>
+    <Text ID="392691" Value="Vouwmachinestatus"/>
+    <Text ID="392695" Value="Communicatiestatus"/>
+    <Text ID="392696" Value="Communicatie OK"/>
+    <Text ID="392697" Value="Communicatie mislukt"/>
+    <Text ID="392699" Value="Doorloop"/>
+    <Text ID="407397" Value="Telling verbinden"/>
+    <Text ID="407398" Value="Telling verbonden"/>
+    <Text ID="407399" Value="Telling verzenden"/>
+    <Text ID="407400" Value="Recieve Count"/>
+    <Text ID="407401" Value="Fouttelling"/>
+    <Text ID="412564" Value="Log"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="391389" Value="Estado de comunicación"/>
+    <Text ID="391390" Value="Últimos datos enviados"/>
+    <Text ID="391391" Value="Estado impresora"/>
+    <Text ID="391392" Value="Fallo"/>
+    <Text ID="391393" Value="En espera"/>
+    <Text ID="391394" Value="Preparado para recibir"/>
+    <Text ID="391395" Value="Imprimiendo"/>
+    <Text ID="391396" Value="Sin imprimir"/>
+    <Text ID="391397" Value="Apilador quiere descargar"/>
+    <Text ID="391398" Value="Pila en posición"/>
+    <Text ID="391401" Value="Identificador de percha"/>
+    <Text ID="391402" Value="Prenda tipo"/>
+    <Text ID="392690" Value="Estado comunicación"/>
+    <Text ID="392691" Value="Estado Fox"/>
+    <Text ID="392695" Value="Estado de comunicación"/>
+    <Text ID="392696" Value="Communicación Ok"/>
+    <Text ID="392697" Value="Fallo comunicación"/>
+    <Text ID="392699" Value="Puenteado realizado"/>
+    <Text ID="407397" Value="Conectar contador"/>
+    <Text ID="407398" Value="Contador conectado"/>
+    <Text ID="407399" Value="Enviar recuento"/>
+    <Text ID="407400" Value="Recibir recuento"/>
+    <Text ID="407401" Value="Error recuento"/>
+    <Text ID="412564" Value="Grabar"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="391389" Value="Stan komunikacji"/>
+    <Text ID="391390" Value="Ostatnie wysłane dane"/>
+    <Text ID="391391" Value="Stan drukarki"/>
+    <Text ID="391392" Value="Awaria"/>
+    <Text ID="391393" Value="Gotowość"/>
+    <Text ID="391394" Value="Gotowość do odbioru"/>
+    <Text ID="391395" Value="Drukowanie"/>
+    <Text ID="391396" Value="Brak drukowania"/>
+    <Text ID="391397" Value="Stos żąda wyładunku"/>
+    <Text ID="391398" Value="Stos na miejscu"/>
+    <Text ID="391401" Value="ID wieszaka"/>
+    <Text ID="391402" Value="ID odzieży"/>
+    <Text ID="392690" Value="Teksty stanu komunikacji"/>
+    <Text ID="392691" Value="Stan składarki"/>
+    <Text ID="392695" Value="Stan komunikacji"/>
+    <Text ID="392696" Value="Komunikacja OK"/>
+    <Text ID="392697" Value="Niepowodzenie komunikacji"/>
+    <Text ID="392699" Value="Pominięte"/>
+    <Text ID="407397" Value="Licznik połączeń"/>
+    <Text ID="407398" Value="Licznik nawiązanych połączeń"/>
+    <Text ID="407399" Value="Licznik wysyłania"/>
+    <Text ID="407400" Value="Recieve Count"/>
+    <Text ID="407401" Value="Licznik błędów"/>
+    <Text ID="412564" Value="Rejestr"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="391389" Value=""/>
+    <Text ID="391390" Value=""/>
+    <Text ID="391391" Value=""/>
+    <Text ID="391392" Value=""/>
+    <Text ID="391393" Value=""/>
+    <Text ID="391394" Value=""/>
+    <Text ID="391395" Value=""/>
+    <Text ID="391396" Value=""/>
+    <Text ID="391397" Value=""/>
+    <Text ID="391398" Value=""/>
+    <Text ID="391401" Value=""/>
+    <Text ID="391402" Value=""/>
+    <Text ID="392690" Value=""/>
+    <Text ID="392691" Value=""/>
+    <Text ID="392695" Value=""/>
+    <Text ID="392696" Value=""/>
+    <Text ID="392697" Value=""/>
+    <Text ID="392699" Value=""/>
+    <Text ID="407397" Value=""/>
+    <Text ID="407398" Value=""/>
+    <Text ID="407399" Value=""/>
+    <Text ID="407400" Value=""/>
+    <Text ID="407401" Value=""/>
+    <Text ID="412564" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="391389" Value=""/>
+    <Text ID="391390" Value=""/>
+    <Text ID="391391" Value=""/>
+    <Text ID="391392" Value=""/>
+    <Text ID="391393" Value=""/>
+    <Text ID="391394" Value=""/>
+    <Text ID="391395" Value=""/>
+    <Text ID="391396" Value=""/>
+    <Text ID="391397" Value=""/>
+    <Text ID="391398" Value=""/>
+    <Text ID="391401" Value=""/>
+    <Text ID="391402" Value=""/>
+    <Text ID="392690" Value=""/>
+    <Text ID="392691" Value=""/>
+    <Text ID="392695" Value=""/>
+    <Text ID="392696" Value=""/>
+    <Text ID="392697" Value=""/>
+    <Text ID="392699" Value=""/>
+    <Text ID="407397" Value=""/>
+    <Text ID="407398" Value=""/>
+    <Text ID="407399" Value=""/>
+    <Text ID="407400" Value=""/>
+    <Text ID="407401" Value=""/>
+    <Text ID="412564" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="391389" Value="Stan komunikacji"/>
+    <Text ID="391390" Value="Ostatnie wysłane dane"/>
+    <Text ID="391391" Value="Stan drukarki"/>
+    <Text ID="391392" Value="Awaria"/>
+    <Text ID="391393" Value="Gotowość"/>
+    <Text ID="391394" Value="Gotowość do odbioru"/>
+    <Text ID="391395" Value="Drukowanie"/>
+    <Text ID="391396" Value="Brak drukowania"/>
+    <Text ID="391397" Value="Stos żąda wyładunku"/>
+    <Text ID="391398" Value="Stos na miejscu"/>
+    <Text ID="391401" Value="ID wieszaka"/>
+    <Text ID="391402" Value="ID odzieży"/>
+    <Text ID="392690" Value="Teksty stanu komunikacji"/>
+    <Text ID="392691" Value="Stan składarki"/>
+    <Text ID="392695" Value="Stan komunikacji"/>
+    <Text ID="392696" Value="Komunikacja OK"/>
+    <Text ID="392697" Value="Niepowodzenie komunikacji"/>
+    <Text ID="392699" Value="Pominięte"/>
+    <Text ID="407397" Value="Licznik połączeń"/>
+    <Text ID="407398" Value="Licznik nawiązanych połączeń"/>
+    <Text ID="407399" Value="Licznik wysyłania"/>
+    <Text ID="407400" Value="Recieve Count"/>
+    <Text ID="407401" Value="Licznik błędów"/>
+    <Text ID="412564" Value="Rejestr"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="391389" Value="Communication status"/>
+    <Text ID="391390" Value="Last data sent"/>
+    <Text ID="391391" Value="Printer status"/>
+    <Text ID="391392" Value="Failure"/>
+    <Text ID="391393" Value="Standby"/>
+    <Text ID="391394" Value="Ready to receive"/>
+    <Text ID="391395" Value="Printing"/>
+    <Text ID="391396" Value="No Printing"/>
+    <Text ID="391397" Value="Stack want to unload"/>
+    <Text ID="391398" Value="Stack in position"/>
+    <Text ID="391401" Value="Hanger Id"/>
+    <Text ID="391402" Value="Garment Id"/>
+    <Text ID="392690" Value="Com status Texts"/>
+    <Text ID="392691" Value="Folder status"/>
+    <Text ID="392695" Value="Communication Status"/>
+    <Text ID="392696" Value="Communication OK"/>
+    <Text ID="392697" Value="Communication Failed"/>
+    <Text ID="392699" Value="Bypassed"/>
+    <Text ID="407397" Value="Connect count"/>
+    <Text ID="407398" Value="Connected count"/>
+    <Text ID="407399" Value="Send count"/>
+    <Text ID="407400" Value="Recieve count"/>
+    <Text ID="407401" Value="Error count"/>
+    <Text ID="412564" Value="Log"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="391389" Value="Communication status"/>
+    <Text ID="391390" Value="Last data sent"/>
+    <Text ID="391391" Value="Printer status"/>
+    <Text ID="391392" Value="Failure"/>
+    <Text ID="391393" Value="Standby"/>
+    <Text ID="391394" Value="Ready to receive"/>
+    <Text ID="391395" Value="Printing"/>
+    <Text ID="391396" Value="No Printing"/>
+    <Text ID="391397" Value="Stack want to unload"/>
+    <Text ID="391398" Value="Stack in position"/>
+    <Text ID="391401" Value="Hanger Id"/>
+    <Text ID="391402" Value="Garment Id"/>
+    <Text ID="392690" Value="Com status Texts"/>
+    <Text ID="392691" Value="Folder status"/>
+    <Text ID="392695" Value="Communication Status"/>
+    <Text ID="392696" Value="Communication OK"/>
+    <Text ID="392697" Value="Communication Failed"/>
+    <Text ID="392699" Value="Bypassed"/>
+    <Text ID="407397" Value="Connect count"/>
+    <Text ID="407398" Value="Connected count"/>
+    <Text ID="407399" Value="Send count"/>
+    <Text ID="407400" Value="Recieve count"/>
+    <Text ID="407401" Value="Error count"/>
+    <Text ID="412564" Value="Log"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="391389" Value="Communication status"/>
+    <Text ID="391390" Value="Last data sent"/>
+    <Text ID="391391" Value="Printer status"/>
+    <Text ID="391392" Value="Failure"/>
+    <Text ID="391393" Value="Standby"/>
+    <Text ID="391394" Value="Ready to receive"/>
+    <Text ID="391395" Value="Printing"/>
+    <Text ID="391396" Value="No Printing"/>
+    <Text ID="391397" Value="Stack want to unload"/>
+    <Text ID="391398" Value="Stack in position"/>
+    <Text ID="391401" Value="Hanger Id"/>
+    <Text ID="391402" Value="Garment Id"/>
+    <Text ID="392690" Value="Com status Texts"/>
+    <Text ID="392691" Value="Folder status"/>
+    <Text ID="392695" Value="Communication Status"/>
+    <Text ID="392696" Value="Communication OK"/>
+    <Text ID="392697" Value="Communication Failed"/>
+    <Text ID="392699" Value="Bypassed"/>
+    <Text ID="407397" Value="Connect count"/>
+    <Text ID="407398" Value="Connected count"/>
+    <Text ID="407399" Value="Send count"/>
+    <Text ID="407400" Value="Recieve count"/>
+    <Text ID="407401" Value="Error count"/>
+    <Text ID="412564" Value="Log"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="391389" Value="Communication Status"/>
+    <Text ID="391390" Value="Últimos dados enviados"/>
+    <Text ID="391391" Value="Estado da impressora"/>
+    <Text ID="391392" Value="Falha"/>
+    <Text ID="391393" Value="Standby"/>
+    <Text ID="391394" Value="Ready to Receive"/>
+    <Text ID="391395" Value="Impressão"/>
+    <Text ID="391396" Value="Sem impressão"/>
+    <Text ID="391397" Value="A pilha pretende descarregar"/>
+    <Text ID="391398" Value="Pilha em posição"/>
+    <Text ID="391401" Value="ID do cabide"/>
+    <Text ID="391402" Value="ID da peça de roupa"/>
+    <Text ID="392690" Value="Textos do estado da com."/>
+    <Text ID="392691" Value="Estado do dobrador"/>
+    <Text ID="392695" Value="Communication Status"/>
+    <Text ID="392696" Value="Comunicação OK"/>
+    <Text ID="392697" Value="Comunicação falhada"/>
+    <Text ID="392699" Value="Bypassed"/>
+    <Text ID="407397" Value="Conetar contador"/>
+    <Text ID="407398" Value="Contador conetado"/>
+    <Text ID="407399" Value="Send Count"/>
+    <Text ID="407400" Value="Recieve count"/>
+    <Text ID="407401" Value="Error Count"/>
+    <Text ID="412564" Value="Log "/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="391389" Value="0"/>
+    <Index ID="391390" Value="1"/>
+    <Index ID="391391" Value="2"/>
+    <Index ID="391392" Value="102"/>
+    <Index ID="391393" Value="110"/>
+    <Index ID="391394" Value="115"/>
+    <Index ID="391395" Value="120"/>
+    <Index ID="391396" Value="121"/>
+    <Index ID="391397" Value="130"/>
+    <Index ID="391398" Value="132"/>
+    <Index ID="391401" Value="3"/>
+    <Index ID="391402" Value="4"/>
+    <Index ID="392690" Value="100"/>
+    <Index ID="392691" Value="5"/>
+    <Index ID="392695" Value="50"/>
+    <Index ID="392696" Value="51"/>
+    <Index ID="392697" Value="52"/>
+    <Index ID="392699" Value="201"/>
+    <Index ID="407397" Value="6"/>
+    <Index ID="407398" Value="7"/>
+    <Index ID="407399" Value="8"/>
+    <Index ID="407400" Value="9"/>
+    <Index ID="407401" Value="10"/>
+    <Index ID="412564" Value="211"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,49 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: duo_inlet
+ * File: duo_inlet.var
+ * Author: munchp
+ * Created: April 06, 2017
+ ********************************************************************
+ * Local variables of program duo_inlet
+ ********************************************************************)
+VAR
+	TmpStr : STRING[41];
+	LocalFoldProgram : REFERENCE TO RCfg_Type;
+	filterValue : UINT;
+	this : local_Head_Typ;
+END_VAR
+VAR CONSTANT
+	MACHPROC_START_INLET_21 : USINT := 21;
+	MACHPROC_CHECK_PH_22 : USINT := 22;
+	MACHPROC_UNLOAD_23 : USINT := 23;
+	MACHPROC_UNLOAD_24 : USINT := 24;
+	MACHPROC_WAIT_FOR_LFOLD_25 : USINT := 25;
+END_VAR
+VAR
+	count : UDINT;
+	StartInverter : BOOL;
+	i : USINT;
+	LFoldSpeed : INT;
+	x : USINT;
+	time_stamps : ARRAY[0..2] OF UDINT;
+END_VAR
+VAR RETAIN
+	oldFoldProgram : UINT;
+END_VAR
+VAR
+	rSorting : USINT;
+	testTime : UINT;
+	InletTimeOut : TON;
+	HMILengthCM : UINT;
+	rStackSelect : USINT;
+	RSelectProgram : INT;
+	RCustomerChange : BOOL;
+	RStackChangeIndex : UINT;
+END_VAR
+VAR RETAIN
+	RetSortOut : BOOL;
+	RetAutoLength : BOOL;
+	RetManFeed : BOOL;
+END_VAR

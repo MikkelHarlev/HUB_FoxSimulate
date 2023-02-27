@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MiniJenWay">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.App.Application.g_MiniJenwayProcess.Common.AlarmList.Ack]"/>
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.App.Application.g_MiniJenwayProcess.Common.AlarmList.Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="Source[global].Variable[Master.App.Application.g_MiniJenwayProcess.Common.AlarmList.Bypassed]"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="14"/>
+  <Property Name="LatchedBackColor" Value="47"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="0"/>
+  <Property Name="QuitBackColor" Value="11"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="6628" Value="MiniJenway Startup error"/>
+      <Text ID="6632" Value="MiniJenway error"/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="6628" Value="MiniJenway Start fehler"/>
+      <Text ID="6632" Value="MiniJenway fehler"/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="6628" Value="MiniJenway Uppstartsfel"/>
+      <Text ID="6632" Value="MiniJenway fel"/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="6628" Value="Erreur Mini Jenway au startup"/>
+      <Text ID="6632" Value="Erreur Mini Jenway"/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="6628" Value="MiniJenway Startup error"/>
+      <Text ID="6632" Value="MiniJenway error"/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="6628" Value="MiniJenway Startup error"/>
+      <Text ID="6632" Value="MiniJenway error"/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="6628" Value="MiniJenway Startup error"/>
+      <Text ID="6632" Value="MiniJenway error"/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="6628" Value="MiniJenway Startup error"/>
+      <Text ID="6632" Value="MiniJenway error"/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="6628" Value="Error inicio MiniJenway"/>
+      <Text ID="6632" Value="Error MiniJenway"/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="6628" Value=""/>
+      <Text ID="6632" Value=""/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="6628" Value=""/>
+      <Text ID="6632" Value=""/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="6628" Value=""/>
+      <Text ID="6632" Value=""/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="6628" Value=""/>
+      <Text ID="6632" Value=""/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="6628" Value=""/>
+      <Text ID="6632" Value=""/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="6628" Value=""/>
+      <Text ID="6632" Value=""/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="6628" Value="MiniJenway Startup error"/>
+      <Text ID="6632" Value="MiniJenway error"/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="6628" Value=""/>
+      <Text ID="6632" Value=""/>
+      <Text ID="12234" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="6628" Value="3"/>
+      <Index ID="6632" Value="2"/>
+      <Index ID="12234" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="SelectAutoProgram">
+  <Property Name="BackColor" Value="15"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="320"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB"/>
+    <TextLayer LanguageId="de-DE"/>
+    <TextLayer LanguageId="sv-SE"/>
+    <TextLayer LanguageId="fr-FR"/>
+    <TextLayer LanguageId="da-DK"/>
+    <TextLayer LanguageId="it-IT"/>
+    <TextLayer LanguageId="fi-FI"/>
+    <TextLayer LanguageId="nl-NL"/>
+    <TextLayer LanguageId="es-ES"/>
+    <TextLayer LanguageId="pl-PL"/>
+    <TextLayer LanguageId="ru-RU"/>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="zh-CN"/>
+    <TextLayer LanguageId="cs-CZ"/>
+    <TextLayer LanguageId="en-US"/>
+    <TextLayer LanguageId="no-NO"/>
+    <TextLayer LanguageId="pt-PT"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001007" Name="AutoProgram_Select">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="258"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="99"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="23"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x0000100B" Name="String_1">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="5"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="MaxChars" Value="20"/>
+      <Property Name="SimulationValue" Value="Auto programm name long"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="Top" Value="23"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="Width" Value="220"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_1">
+      <Property Name="AlignmentHorizontal" Value="Right"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[C_25x25_LeftArrow]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Left"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="27"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="230"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="21"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[LeftAutoSelect]"/>
+      <Property Name="Width" Value="25"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_2">
+      <Property Name="AlignmentHorizontal" Value="Right"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[C_25x25_RightArrow]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Right"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="27"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="292"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="21"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[RightAutoSelect]"/>
+      <Property Name="Width" Value="25"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="LeftAutoSelect">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="11"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="RightAutoSelect">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="12"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

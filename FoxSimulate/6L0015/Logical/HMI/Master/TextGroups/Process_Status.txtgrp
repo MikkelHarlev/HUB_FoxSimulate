@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Process_Status">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="47"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="156954" Value="Ready to start"/>
+    <Text ID="156955" Value="Startup"/>
+    <Text ID="156959" Value="Check water/Water temp."/>
+    <Text ID="156960" Value="Washing"/>
+    <Text ID="156961" Value="Drying"/>
+    <Text ID="156966" Value="Cool down"/>
+    <Text ID="156967" Value="Rinsing"/>
+    <Text ID="160859" Value="Closing door"/>
+    <Text ID="160860" Value="Error trig"/>
+    <Text ID="160861" Value="Error"/>
+    <Text ID="162005" Value="Startup"/>
+    <Text ID="162043" Value="Outlet door closing"/>
+    <Text ID="162080" Value="Wait open door"/>
+    <Text ID="226621" Value="Loading trolleys"/>
+    <Text ID="226797" Value="Unloading trolleys"/>
+    <Text ID="229918" Value="Thermal disinfection"/>
+    <Text ID="229919" Value="Chemical Disinfection"/>
+    <Text ID="231656" Value="Init Rinsing"/>
+    <Text ID="231657" Value="Init drying"/>
+    <Text ID="231658" Value="Init Cool Down"/>
+    <Text ID="231659" Value="Init outlet door opening"/>
+    <Text ID="231660" Value="Init thermal disinfection"/>
+    <Text ID="231662" Value="Init chemical disinfection"/>
+    <Text ID="282263" Value="Init Drain"/>
+    <Text ID="282264" Value="Drain"/>
+    <Text ID="282265" Value="Stopping"/>
+    <Text ID="282266" Value="Stopping"/>
+    <Text ID="282322" Value="Open doors"/>
+    <Text ID="282323" Value="Load and Unload"/>
+    <Text ID="282324" Value="Load unload in progress"/>
+    <Text ID="282380" Value="Wait start"/>
+    <Text ID="282381" Value="Wait open door"/>
+    <Text ID="290588" Value="Too hot to load"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="156954" Value="Ready to start"/>
+    <Text ID="156955" Value="Startup"/>
+    <Text ID="156959" Value="Check water"/>
+    <Text ID="156960" Value="Washing"/>
+    <Text ID="156961" Value="Drying"/>
+    <Text ID="156966" Value="Cool down"/>
+    <Text ID="156967" Value="Rinsing"/>
+    <Text ID="160859" Value="Closing door"/>
+    <Text ID="160860" Value="Error trig"/>
+    <Text ID="160861" Value="Error"/>
+    <Text ID="162005" Value="Startup"/>
+    <Text ID="162043" Value="Outlet door closing"/>
+    <Text ID="162080" Value="Wait open door"/>
+    <Text ID="226621" Value="Loading trolleys"/>
+    <Text ID="226797" Value="Unloading trolleys"/>
+    <Text ID="229918" Value="Thermal disinfection"/>
+    <Text ID="229919" Value="Chemical Disinfection"/>
+    <Text ID="231656" Value="Init Rinsing"/>
+    <Text ID="231657" Value="Init drying"/>
+    <Text ID="231658" Value="Init Cool Down"/>
+    <Text ID="231659" Value="Init outlet door opening"/>
+    <Text ID="231660" Value="Init thermal disinfection"/>
+    <Text ID="231662" Value="Init chemical disinfection"/>
+    <Text ID="282263" Value="Init Drain"/>
+    <Text ID="282264" Value="Drain"/>
+    <Text ID="282265" Value="Stopping"/>
+    <Text ID="282266" Value="Stopping"/>
+    <Text ID="282322" Value="Open doors"/>
+    <Text ID="282323" Value="Load and Unload"/>
+    <Text ID="282324" Value="Load unload in progress"/>
+    <Text ID="282380" Value="Wait start"/>
+    <Text ID="282381" Value="Wait open door"/>
+    <Text ID="290588" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="156954" Value="Ready to start"/>
+    <Text ID="156955" Value="Startup"/>
+    <Text ID="156959" Value="Check water"/>
+    <Text ID="156960" Value="Washing"/>
+    <Text ID="156961" Value="Drying"/>
+    <Text ID="156966" Value="Cool down"/>
+    <Text ID="156967" Value="Rinsing"/>
+    <Text ID="160859" Value="Closing door"/>
+    <Text ID="160860" Value="Error trig"/>
+    <Text ID="160861" Value="Error"/>
+    <Text ID="162005" Value="Startup"/>
+    <Text ID="162043" Value="Outlet door closing"/>
+    <Text ID="162080" Value="Wait open door"/>
+    <Text ID="226621" Value="Loading trolleys"/>
+    <Text ID="226797" Value="Unloading trolleys"/>
+    <Text ID="229918" Value="Thermal disinfection"/>
+    <Text ID="229919" Value="Chemical Disinfection"/>
+    <Text ID="231656" Value="Init Rinsing"/>
+    <Text ID="231657" Value="Init drying"/>
+    <Text ID="231658" Value="Init Cool Down"/>
+    <Text ID="231659" Value="Init outlet door opening"/>
+    <Text ID="231660" Value="Init thermal disinfection"/>
+    <Text ID="231662" Value="Init chemical disinfection"/>
+    <Text ID="282263" Value="Init Drain"/>
+    <Text ID="282264" Value="Drain"/>
+    <Text ID="282265" Value="Stopping"/>
+    <Text ID="282266" Value="Stopping"/>
+    <Text ID="282322" Value="Open doors"/>
+    <Text ID="282323" Value="Load and Unload"/>
+    <Text ID="282324" Value="Load unload in progress"/>
+    <Text ID="282380" Value="Wait start"/>
+    <Text ID="282381" Value="Wait open door"/>
+    <Text ID="290588" Value="Too hot to load"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="156954" Value="Prêt à démarrer"/>
+    <Text ID="156955" Value="Début du cycle"/>
+    <Text ID="156959" Value="Vérifiez l'eau/Eau temp."/>
+    <Text ID="156960" Value="Lavage"/>
+    <Text ID="156961" Value="Séchage"/>
+    <Text ID="156966" Value="Refroidissez"/>
+    <Text ID="156967" Value="Rinçage"/>
+    <Text ID="160859" Value="Fermer la porte"/>
+    <Text ID="160860" Value="Erreur angulaire"/>
+    <Text ID="160861" Value="Erreur"/>
+    <Text ID="162005" Value="Début du cycle"/>
+    <Text ID="162043" Value="Fermeture de porte de sortie"/>
+    <Text ID="162080" Value="Porte ouverte d'attente"/>
+    <Text ID="226621" Value="Chargement des chariots"/>
+    <Text ID="226797" Value="Déchargement des chariots"/>
+    <Text ID="229918" Value="Désinfection thermique"/>
+    <Text ID="229919" Value="Désinfection chimique"/>
+    <Text ID="231656" Value="Init Rinçage"/>
+    <Text ID="231657" Value="Init drying"/>
+    <Text ID="231658" Value="Init Cool Down"/>
+    <Text ID="231659" Value="Init outlet door opening"/>
+    <Text ID="231660" Value="Init thermal désinfection"/>
+    <Text ID="231662" Value="Init chemical désinfection"/>
+    <Text ID="282263" Value="Init Vidange"/>
+    <Text ID="282264" Value="Vidange"/>
+    <Text ID="282265" Value="Arrêt"/>
+    <Text ID="282266" Value="Arrêt"/>
+    <Text ID="282322" Value="Open doors"/>
+    <Text ID="282323" Value="Chargez et déchargez"/>
+    <Text ID="282324" Value="La charge déchargent en cours"/>
+    <Text ID="282380" Value="Début d'attente"/>
+    <Text ID="282381" Value="Porte ouverte d'attente"/>
+    <Text ID="290588" Value="Trop chaud à charge"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="156954" Value="Klar til start"/>
+    <Text ID="156955" Value="Opstart"/>
+    <Text ID="156959" Value="Kontrol vand/Vand temp."/>
+    <Text ID="156960" Value="Vasker"/>
+    <Text ID="156961" Value="Tørring"/>
+    <Text ID="156966" Value="Nedkøling"/>
+    <Text ID="156967" Value="Skyller"/>
+    <Text ID="160859" Value="Lukker dør"/>
+    <Text ID="160860" Value="Error trig"/>
+    <Text ID="160861" Value="Error"/>
+    <Text ID="162005" Value="Opstart"/>
+    <Text ID="162043" Value="Døre til tømning lukkes"/>
+    <Text ID="162080" Value="Vent open døre"/>
+    <Text ID="226621" Value="Tillkør vognar"/>
+    <Text ID="226797" Value="Tømning for vogne"/>
+    <Text ID="229918" Value="Termisk desinfektion"/>
+    <Text ID="229919" Value="Kemisk desinfektion"/>
+    <Text ID="231656" Value="Påbegynder skylning"/>
+    <Text ID="231657" Value="Påbegynder tørring"/>
+    <Text ID="231658" Value="Påbegynder nedkøling"/>
+    <Text ID="231659" Value="Påbegynder åbning af døre"/>
+    <Text ID="231660" Value="Påbegynder termisk desinfektion"/>
+    <Text ID="231662" Value="Påbegynder kemisk desinfektion"/>
+    <Text ID="282263" Value="Init Drain"/>
+    <Text ID="282264" Value="Drain"/>
+    <Text ID="282265" Value="Stopping"/>
+    <Text ID="282266" Value="Stopping"/>
+    <Text ID="282322" Value="Åbening af døre"/>
+    <Text ID="282323" Value="Tillkør og Tømning"/>
+    <Text ID="282324" Value="Tillkør og Tømning"/>
+    <Text ID="282380" Value="Vent start"/>
+    <Text ID="282381" Value="Vent open døre"/>
+    <Text ID="290588" Value="Too hot to load"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="156954" Value="Pronto"/>
+    <Text ID="156955" Value="Avviamento"/>
+    <Text ID="156959" Value="Controllo acqua/Acqua temp."/>
+    <Text ID="156960" Value="Lavaggio"/>
+    <Text ID="156961" Value="Asciugatura"/>
+    <Text ID="156966" Value="Cool down"/>
+    <Text ID="156967" Value="Risciacquo"/>
+    <Text ID="160859" Value="Chiusura porta"/>
+    <Text ID="160860" Value="Error etrig"/>
+    <Text ID="160861" Value="Errore"/>
+    <Text ID="162005" Value="Avviamento"/>
+    <Text ID="162043" Value="Chiusura porta uscita"/>
+    <Text ID="162080" Value="Attesa pertura porta"/>
+    <Text ID="226621" Value="Carico carrellu"/>
+    <Text ID="226797" Value="Scarico cerrlli"/>
+    <Text ID="229918" Value="Disinfezione termale"/>
+    <Text ID="229919" Value="Disinfezione chimica"/>
+    <Text ID="231656" Value="Iniz risciacquo"/>
+    <Text ID="231657" Value="Iniz asciugatura"/>
+    <Text ID="231658" Value="Iniz Cool Down"/>
+    <Text ID="231659" Value="Iniz apertura porta uscita"/>
+    <Text ID="231660" Value="Iniz disinfezione termale"/>
+    <Text ID="231662" Value="Iniz disinfezione chimica"/>
+    <Text ID="282263" Value="Iniz scarico"/>
+    <Text ID="282264" Value="Scarico"/>
+    <Text ID="282265" Value="Fermo"/>
+    <Text ID="282266" Value="Fermo"/>
+    <Text ID="282322" Value="Apre porte"/>
+    <Text ID="282323" Value="Carico e scarico"/>
+    <Text ID="282324" Value="Carico scarico in progresso"/>
+    <Text ID="282380" Value="Attesa inizio"/>
+    <Text ID="282381" Value="Attesa apertura porta"/>
+    <Text ID="290588" Value="Troppo calore per caricare"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="156954" Value="Ready to start"/>
+    <Text ID="156955" Value="Startup"/>
+    <Text ID="156959" Value="Check water"/>
+    <Text ID="156960" Value="Washing"/>
+    <Text ID="156961" Value="Drying"/>
+    <Text ID="156966" Value="Cool down"/>
+    <Text ID="156967" Value="Rinsing"/>
+    <Text ID="160859" Value="Closing door"/>
+    <Text ID="160860" Value="Error trig"/>
+    <Text ID="160861" Value="Error"/>
+    <Text ID="162005" Value="Startup"/>
+    <Text ID="162043" Value="Outlet door closing"/>
+    <Text ID="162080" Value="Wait open door"/>
+    <Text ID="226621" Value="Loading trolleys"/>
+    <Text ID="226797" Value="Unloading trolleys"/>
+    <Text ID="229918" Value="Thermal disinfection"/>
+    <Text ID="229919" Value="Chemical Disinfection"/>
+    <Text ID="231656" Value="Init Rinsing"/>
+    <Text ID="231657" Value="Init drying"/>
+    <Text ID="231658" Value="Init Cool Down"/>
+    <Text ID="231659" Value="Init outlet door opening"/>
+    <Text ID="231660" Value="Init thermal disinfection"/>
+    <Text ID="231662" Value="Init chemical disinfection"/>
+    <Text ID="282263" Value="Init Drain"/>
+    <Text ID="282264" Value="Drain"/>
+    <Text ID="282265" Value="Stopping"/>
+    <Text ID="282266" Value="Stopping"/>
+    <Text ID="282322" Value="Open doors"/>
+    <Text ID="282323" Value="Load and Unload"/>
+    <Text ID="282324" Value="Load unload in progress"/>
+    <Text ID="282380" Value="Wait start"/>
+    <Text ID="282381" Value="Wait open door"/>
+    <Text ID="290588" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="156954" Value="Ready to start"/>
+    <Text ID="156955" Value="Startup"/>
+    <Text ID="156959" Value="Check water"/>
+    <Text ID="156960" Value="Washing"/>
+    <Text ID="156961" Value="Drying"/>
+    <Text ID="156966" Value="Cool down"/>
+    <Text ID="156967" Value="Rinsing"/>
+    <Text ID="160859" Value="Closing door"/>
+    <Text ID="160860" Value="Error trig"/>
+    <Text ID="160861" Value="Error"/>
+    <Text ID="162005" Value="Startup"/>
+    <Text ID="162043" Value="Outlet door closing"/>
+    <Text ID="162080" Value="Wait open door"/>
+    <Text ID="226621" Value="Loading trolleys"/>
+    <Text ID="226797" Value="Unloading trolleys"/>
+    <Text ID="229918" Value="Thermal disinfection"/>
+    <Text ID="229919" Value="Chemical Disinfection"/>
+    <Text ID="231656" Value="Init Rinsing"/>
+    <Text ID="231657" Value="Init drying"/>
+    <Text ID="231658" Value="Init Cool Down"/>
+    <Text ID="231659" Value="Init outlet door opening"/>
+    <Text ID="231660" Value="Init thermal disinfection"/>
+    <Text ID="231662" Value="Init chemical disinfection"/>
+    <Text ID="282263" Value="Init Drain"/>
+    <Text ID="282264" Value="Drain"/>
+    <Text ID="282265" Value="Stopping"/>
+    <Text ID="282266" Value="Stopping"/>
+    <Text ID="282322" Value="Open doors"/>
+    <Text ID="282323" Value="Load and Unload"/>
+    <Text ID="282324" Value="Load unload in progress"/>
+    <Text ID="282380" Value="Wait start"/>
+    <Text ID="282381" Value="Wait open door"/>
+    <Text ID="290588" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="156954" Value=""/>
+    <Text ID="156955" Value=""/>
+    <Text ID="156959" Value=""/>
+    <Text ID="156960" Value=""/>
+    <Text ID="156961" Value=""/>
+    <Text ID="156966" Value=""/>
+    <Text ID="156967" Value=""/>
+    <Text ID="160859" Value=""/>
+    <Text ID="160860" Value=""/>
+    <Text ID="160861" Value=""/>
+    <Text ID="162005" Value=""/>
+    <Text ID="162043" Value=""/>
+    <Text ID="162080" Value=""/>
+    <Text ID="226621" Value=""/>
+    <Text ID="226797" Value=""/>
+    <Text ID="229918" Value=""/>
+    <Text ID="229919" Value=""/>
+    <Text ID="231656" Value=""/>
+    <Text ID="231657" Value=""/>
+    <Text ID="231658" Value=""/>
+    <Text ID="231659" Value=""/>
+    <Text ID="231660" Value=""/>
+    <Text ID="231662" Value=""/>
+    <Text ID="282263" Value=""/>
+    <Text ID="282264" Value=""/>
+    <Text ID="282265" Value=""/>
+    <Text ID="282266" Value=""/>
+    <Text ID="282322" Value=""/>
+    <Text ID="282323" Value=""/>
+    <Text ID="282324" Value=""/>
+    <Text ID="282380" Value=""/>
+    <Text ID="282381" Value=""/>
+    <Text ID="290588" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="156954" Value=""/>
+    <Text ID="156955" Value=""/>
+    <Text ID="156959" Value=""/>
+    <Text ID="156960" Value=""/>
+    <Text ID="156961" Value=""/>
+    <Text ID="156966" Value=""/>
+    <Text ID="156967" Value=""/>
+    <Text ID="160859" Value=""/>
+    <Text ID="160860" Value=""/>
+    <Text ID="160861" Value=""/>
+    <Text ID="162005" Value=""/>
+    <Text ID="162043" Value=""/>
+    <Text ID="162080" Value=""/>
+    <Text ID="226621" Value=""/>
+    <Text ID="226797" Value=""/>
+    <Text ID="229918" Value=""/>
+    <Text ID="229919" Value=""/>
+    <Text ID="231656" Value=""/>
+    <Text ID="231657" Value=""/>
+    <Text ID="231658" Value=""/>
+    <Text ID="231659" Value=""/>
+    <Text ID="231660" Value=""/>
+    <Text ID="231662" Value=""/>
+    <Text ID="282263" Value=""/>
+    <Text ID="282264" Value=""/>
+    <Text ID="282265" Value=""/>
+    <Text ID="282266" Value=""/>
+    <Text ID="282322" Value=""/>
+    <Text ID="282323" Value=""/>
+    <Text ID="282324" Value=""/>
+    <Text ID="282380" Value=""/>
+    <Text ID="282381" Value=""/>
+    <Text ID="290588" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="156954" Value=""/>
+    <Text ID="156955" Value=""/>
+    <Text ID="156959" Value=""/>
+    <Text ID="156960" Value=""/>
+    <Text ID="156961" Value=""/>
+    <Text ID="156966" Value=""/>
+    <Text ID="156967" Value=""/>
+    <Text ID="160859" Value=""/>
+    <Text ID="160860" Value=""/>
+    <Text ID="160861" Value=""/>
+    <Text ID="162005" Value=""/>
+    <Text ID="162043" Value=""/>
+    <Text ID="162080" Value=""/>
+    <Text ID="226621" Value=""/>
+    <Text ID="226797" Value=""/>
+    <Text ID="229918" Value=""/>
+    <Text ID="229919" Value=""/>
+    <Text ID="231656" Value=""/>
+    <Text ID="231657" Value=""/>
+    <Text ID="231658" Value=""/>
+    <Text ID="231659" Value=""/>
+    <Text ID="231660" Value=""/>
+    <Text ID="231662" Value=""/>
+    <Text ID="282263" Value=""/>
+    <Text ID="282264" Value=""/>
+    <Text ID="282265" Value=""/>
+    <Text ID="282266" Value=""/>
+    <Text ID="282322" Value=""/>
+    <Text ID="282323" Value=""/>
+    <Text ID="282324" Value=""/>
+    <Text ID="282380" Value=""/>
+    <Text ID="282381" Value=""/>
+    <Text ID="290588" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="156954" Value=""/>
+    <Text ID="156955" Value=""/>
+    <Text ID="156959" Value=""/>
+    <Text ID="156960" Value=""/>
+    <Text ID="156961" Value=""/>
+    <Text ID="156966" Value=""/>
+    <Text ID="156967" Value=""/>
+    <Text ID="160859" Value=""/>
+    <Text ID="160860" Value=""/>
+    <Text ID="160861" Value=""/>
+    <Text ID="162005" Value=""/>
+    <Text ID="162043" Value=""/>
+    <Text ID="162080" Value=""/>
+    <Text ID="226621" Value=""/>
+    <Text ID="226797" Value=""/>
+    <Text ID="229918" Value=""/>
+    <Text ID="229919" Value=""/>
+    <Text ID="231656" Value=""/>
+    <Text ID="231657" Value=""/>
+    <Text ID="231658" Value=""/>
+    <Text ID="231659" Value=""/>
+    <Text ID="231660" Value=""/>
+    <Text ID="231662" Value=""/>
+    <Text ID="282263" Value=""/>
+    <Text ID="282264" Value=""/>
+    <Text ID="282265" Value=""/>
+    <Text ID="282266" Value=""/>
+    <Text ID="282322" Value=""/>
+    <Text ID="282323" Value=""/>
+    <Text ID="282324" Value=""/>
+    <Text ID="282380" Value=""/>
+    <Text ID="282381" Value=""/>
+    <Text ID="290588" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="156954" Value=""/>
+    <Text ID="156955" Value=""/>
+    <Text ID="156959" Value=""/>
+    <Text ID="156960" Value=""/>
+    <Text ID="156961" Value=""/>
+    <Text ID="156966" Value=""/>
+    <Text ID="156967" Value=""/>
+    <Text ID="160859" Value=""/>
+    <Text ID="160860" Value=""/>
+    <Text ID="160861" Value=""/>
+    <Text ID="162005" Value=""/>
+    <Text ID="162043" Value=""/>
+    <Text ID="162080" Value=""/>
+    <Text ID="226621" Value=""/>
+    <Text ID="226797" Value=""/>
+    <Text ID="229918" Value=""/>
+    <Text ID="229919" Value=""/>
+    <Text ID="231656" Value=""/>
+    <Text ID="231657" Value=""/>
+    <Text ID="231658" Value=""/>
+    <Text ID="231659" Value=""/>
+    <Text ID="231660" Value=""/>
+    <Text ID="231662" Value=""/>
+    <Text ID="282263" Value=""/>
+    <Text ID="282264" Value=""/>
+    <Text ID="282265" Value=""/>
+    <Text ID="282266" Value=""/>
+    <Text ID="282322" Value=""/>
+    <Text ID="282323" Value=""/>
+    <Text ID="282324" Value=""/>
+    <Text ID="282380" Value=""/>
+    <Text ID="282381" Value=""/>
+    <Text ID="290588" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="156954" Value=""/>
+    <Text ID="156955" Value=""/>
+    <Text ID="156959" Value=""/>
+    <Text ID="156960" Value=""/>
+    <Text ID="156961" Value=""/>
+    <Text ID="156966" Value=""/>
+    <Text ID="156967" Value=""/>
+    <Text ID="160859" Value=""/>
+    <Text ID="160860" Value=""/>
+    <Text ID="160861" Value=""/>
+    <Text ID="162005" Value=""/>
+    <Text ID="162043" Value=""/>
+    <Text ID="162080" Value=""/>
+    <Text ID="226621" Value=""/>
+    <Text ID="226797" Value=""/>
+    <Text ID="229918" Value=""/>
+    <Text ID="229919" Value=""/>
+    <Text ID="231656" Value=""/>
+    <Text ID="231657" Value=""/>
+    <Text ID="231658" Value=""/>
+    <Text ID="231659" Value=""/>
+    <Text ID="231660" Value=""/>
+    <Text ID="231662" Value=""/>
+    <Text ID="282263" Value=""/>
+    <Text ID="282264" Value=""/>
+    <Text ID="282265" Value=""/>
+    <Text ID="282266" Value=""/>
+    <Text ID="282322" Value=""/>
+    <Text ID="282323" Value=""/>
+    <Text ID="282324" Value=""/>
+    <Text ID="282380" Value=""/>
+    <Text ID="282381" Value=""/>
+    <Text ID="290588" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="156954" Value=""/>
+    <Text ID="156955" Value=""/>
+    <Text ID="156959" Value=""/>
+    <Text ID="156960" Value=""/>
+    <Text ID="156961" Value=""/>
+    <Text ID="156966" Value=""/>
+    <Text ID="156967" Value=""/>
+    <Text ID="160859" Value=""/>
+    <Text ID="160860" Value=""/>
+    <Text ID="160861" Value=""/>
+    <Text ID="162005" Value=""/>
+    <Text ID="162043" Value=""/>
+    <Text ID="162080" Value=""/>
+    <Text ID="226621" Value=""/>
+    <Text ID="226797" Value=""/>
+    <Text ID="229918" Value=""/>
+    <Text ID="229919" Value=""/>
+    <Text ID="231656" Value=""/>
+    <Text ID="231657" Value=""/>
+    <Text ID="231658" Value=""/>
+    <Text ID="231659" Value=""/>
+    <Text ID="231660" Value=""/>
+    <Text ID="231662" Value=""/>
+    <Text ID="282263" Value=""/>
+    <Text ID="282264" Value=""/>
+    <Text ID="282265" Value=""/>
+    <Text ID="282266" Value=""/>
+    <Text ID="282322" Value=""/>
+    <Text ID="282323" Value=""/>
+    <Text ID="282324" Value=""/>
+    <Text ID="282380" Value=""/>
+    <Text ID="282381" Value=""/>
+    <Text ID="290588" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="156954" Value="Klar til å starte"/>
+    <Text ID="156955" Value="Oppstart"/>
+    <Text ID="156959" Value="Kontroll vann/vanntemp."/>
+    <Text ID="156960" Value="Vasker"/>
+    <Text ID="156961" Value="Tørking"/>
+    <Text ID="156966" Value="Kjøle ned"/>
+    <Text ID="156967" Value="Skylling"/>
+    <Text ID="160859" Value="Lukker døren"/>
+    <Text ID="160860" Value="Feil trigg"/>
+    <Text ID="160861" Value="Error"/>
+    <Text ID="162005" Value="Oppstart"/>
+    <Text ID="162043" Value="Dør utløp lukkes"/>
+    <Text ID="162080" Value="Vent åpen dør"/>
+    <Text ID="226621" Value="Fylling vogner"/>
+    <Text ID="226797" Value="Tømming vogner"/>
+    <Text ID="229918" Value="Termisk desinfeksjon"/>
+    <Text ID="229919" Value="Kjemisk desinfeksjon"/>
+    <Text ID="231656" Value="Init skylling"/>
+    <Text ID="231657" Value="Init tørking"/>
+    <Text ID="231658" Value="Init nedkjøling"/>
+    <Text ID="231659" Value="Init utløp dør åpnes"/>
+    <Text ID="231660" Value="Init termisk desinfeksjon"/>
+    <Text ID="231662" Value="Init kjemisk desinfeksjon"/>
+    <Text ID="282263" Value="Init drenering"/>
+    <Text ID="282264" Value="Drenering"/>
+    <Text ID="282265" Value="Stopper"/>
+    <Text ID="282266" Value="Stopper"/>
+    <Text ID="282322" Value="Åpne dører"/>
+    <Text ID="282323" Value="Fylling og tømming"/>
+    <Text ID="282324" Value="Fylling tømming pågår"/>
+    <Text ID="282380" Value="Vent start"/>
+    <Text ID="282381" Value="Vent åpen dør"/>
+    <Text ID="290588" Value="For varm for fylling"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="156954" Value=""/>
+    <Text ID="156955" Value=""/>
+    <Text ID="156959" Value=""/>
+    <Text ID="156960" Value=""/>
+    <Text ID="156961" Value=""/>
+    <Text ID="156966" Value=""/>
+    <Text ID="156967" Value=""/>
+    <Text ID="160859" Value=""/>
+    <Text ID="160860" Value=""/>
+    <Text ID="160861" Value=""/>
+    <Text ID="162005" Value=""/>
+    <Text ID="162043" Value=""/>
+    <Text ID="162080" Value=""/>
+    <Text ID="226621" Value=""/>
+    <Text ID="226797" Value=""/>
+    <Text ID="229918" Value=""/>
+    <Text ID="229919" Value=""/>
+    <Text ID="231656" Value=""/>
+    <Text ID="231657" Value=""/>
+    <Text ID="231658" Value=""/>
+    <Text ID="231659" Value=""/>
+    <Text ID="231660" Value=""/>
+    <Text ID="231662" Value=""/>
+    <Text ID="282263" Value=""/>
+    <Text ID="282264" Value=""/>
+    <Text ID="282265" Value=""/>
+    <Text ID="282266" Value=""/>
+    <Text ID="282322" Value=""/>
+    <Text ID="282323" Value=""/>
+    <Text ID="282324" Value=""/>
+    <Text ID="282380" Value=""/>
+    <Text ID="282381" Value=""/>
+    <Text ID="290588" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="156954" Value="0"/>
+    <Index ID="156955" Value="20"/>
+    <Index ID="156959" Value="40"/>
+    <Index ID="156960" Value="45"/>
+    <Index ID="156961" Value="56"/>
+    <Index ID="156966" Value="61"/>
+    <Index ID="156967" Value="51"/>
+    <Index ID="160859" Value="27"/>
+    <Index ID="160860" Value="98"/>
+    <Index ID="160861" Value="99"/>
+    <Index ID="162005" Value="1"/>
+    <Index ID="162043" Value="80"/>
+    <Index ID="162080" Value="65"/>
+    <Index ID="226621" Value="26"/>
+    <Index ID="226797" Value="70"/>
+    <Index ID="229918" Value="31"/>
+    <Index ID="229919" Value="36"/>
+    <Index ID="231656" Value="50"/>
+    <Index ID="231657" Value="55"/>
+    <Index ID="231658" Value="60"/>
+    <Index ID="231659" Value="64"/>
+    <Index ID="231660" Value="30"/>
+    <Index ID="231662" Value="35"/>
+    <Index ID="282263" Value="47"/>
+    <Index ID="282264" Value="48"/>
+    <Index ID="282265" Value="15"/>
+    <Index ID="282266" Value="16"/>
+    <Index ID="282322" Value="67"/>
+    <Index ID="282323" Value="75"/>
+    <Index ID="282324" Value="77"/>
+    <Index ID="282380" Value="22"/>
+    <Index ID="282381" Value="24"/>
+    <Index ID="290588" Value="23"/>
+  </IndexMap>
+</TextGroup>

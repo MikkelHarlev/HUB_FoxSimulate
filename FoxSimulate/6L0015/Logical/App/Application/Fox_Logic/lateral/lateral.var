@@ -1,0 +1,55 @@
+VAR CONSTANT
+	MACHPROC_WAIT_SECOND_BLADE_40 : UINT := 40;
+	MACHPROC_WAIT_START_INLET_26 : UINT := 26;
+	MACHPROC_WAIT_FOLD_POINT_35 : UINT := 35;
+	MACHPROC_WAIT_TEMPLATE_DOWN_36 : UINT := 36;
+	MACHPROC_MAKE_LATERAL_FOLD_37 : UINT := 37;
+	MACHPROC_WAIT_TIME_45 : UINT := 45;
+END_VAR
+VAR
+	CalcSize : UINT;
+	TmpStr : STRING[41];
+	MAX_TEMPLATE_SIZE : INT;
+	XA_Motor_StartPoint : UINT := 0;
+END_VAR
+VAR CONSTANT
+	MACHPROC_SET_TEMPLATE_28 : UINT := 28;
+END_VAR
+VAR
+	OldSensor : BOOL;
+	LocalFoldProgram : REFERENCE TO RCfg_Type;
+END_VAR
+VAR CONSTANT
+	MACHPROC_WAIT_BLADEOUT_42 : UINT := 42;
+END_VAR
+VAR
+	SetSlopeDummy : UINT;
+	EXIT_TIME_THIRDFOLDS : UINT := 250;
+	Dummy : BOOL;
+	BladeBackTimer : UINT;
+	BladeBackTime : UINT := 1800;
+	RDistanceIBLA_FoldPoint : UINT;
+	RFoldPointAdjust : INT;
+	FoldPointTimeNoExtra : UINT;
+	RLowerBlades : BOOL;
+	KeepLeftBladeOutDelay : FB_Delay := (0);
+	DelayFoldbladeBack : FB_Delay;
+	rLiftRearTemplates : BOOL;
+	state_history : ARRAY[0..49] OF USINT;
+	i : USINT;
+	runExtra : INT;
+	pmu_Test : ARRAY[0..5] OF UINT;
+	linenSeenAtXA : BOOL;
+	DuoRequest : BOOL;
+	DelayRaiseDuoInlet : TON;
+	rLiftDuoInlet : BOOL;
+	RShiftTemplateSize : BOOL;
+	rRaiseDuoInlet : BOOL;
+	LatJam : BOOL;
+	ACfgTopConveyorProgram : UINT := 0;
+	Position : UINT := 0;
+	RFoldPosition : INT := 0;
+	checkCount : ARRAY[0..20] OF UDINT := [21(0)];
+	ShirtDetectedHMI : UINT := 3;
+	FixFoldXAAdjust : INT := 0;
+END_VAR

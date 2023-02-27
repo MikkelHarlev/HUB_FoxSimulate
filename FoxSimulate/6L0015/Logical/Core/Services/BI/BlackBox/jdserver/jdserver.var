@@ -1,0 +1,23 @@
+VAR
+	i : USINT;
+	MachineData : ARRAY[0..1] OF M2JenData_Type;
+	RInit : BOOL;
+	JenDataSetup : ARRAY[0..3] OF JenViewLogSetup_Type;
+	Dummy : UDINT := 0;
+	Server : JenDataServer;
+END_VAR
+VAR CONSTANT
+	MASTER_1 : USINT := 1;
+	SLAVE_2 : USINT := 2;
+END_VAR
+VAR
+	SetupHolder : BlackboxMachineSetup_Type;
+	No : USINT;
+	RuntimeHolder : BlackboxMachineRuntime_Type;
+	disable : BOOL;
+	AdrMachineInfo : UDINT := 0;
+	OperatingHours : REFERENCE TO UDINT;
+	pMachineInfo : REFERENCE TO MachineInfo;
+	x : USINT;
+	InterfaceHolder : BlackboxMachineInterface_Type;
+END_VAR

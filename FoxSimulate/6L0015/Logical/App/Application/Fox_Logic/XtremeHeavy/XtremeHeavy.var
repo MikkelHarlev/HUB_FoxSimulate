@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: XtremeHeavy
+ * File: XtremeHeavy.var
+ * Author: munchp
+ * Created: September 28, 2015
+ ********************************************************************
+ * Local variables of program XtremeHeavy
+ ********************************************************************)
+VAR
+	XtremeTest : XtremeTest_Type;
+	Toggle : FB_Delay;
+	rToggleTime : UINT;
+	rToggle : BOOL;
+	HMIHideXtremeHeavy : INT;
+END_VAR

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="SelectedFoldProgram_Layer">
+  <Property Name="BackColor" Value="15"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="320"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB"/>
+    <TextLayer LanguageId="de-DE"/>
+    <TextLayer LanguageId="sv-SE"/>
+    <TextLayer LanguageId="fr-FR"/>
+    <TextLayer LanguageId="da-DK"/>
+    <TextLayer LanguageId="it-IT"/>
+    <TextLayer LanguageId="fi-FI"/>
+    <TextLayer LanguageId="nl-NL"/>
+    <TextLayer LanguageId="es-ES"/>
+    <TextLayer LanguageId="pl-PL"/>
+    <TextLayer LanguageId="ru-RU"/>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="zh-CN"/>
+    <TextLayer LanguageId="cs-CZ"/>
+    <TextLayer LanguageId="en-US"/>
+    <TextLayer LanguageId="no-NO"/>
+    <TextLayer LanguageId="pt-PT"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001007" Name="Numeric_1">
+      <Property Name="Border" Value="Source[local].Border[Jensen_Sunken1]"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.FoldProgramList.cmdDirectFoldProgramSelect]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="250"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="21"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.FoldProgramList.ActualFoldProgram]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="32"/>
+    </Control>
+    <Control ClassId="0x0000100B" Name="Foldprogramtext">
+      <Property Name="Border" Value="Source[local].Border[Jensen_Sunken1]"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.cmdCompleteNameChange]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="8"/>
+      <Property Name="MaxChars" Value="20"/>
+      <Property Name="SimulationValue" Value="FoldProgram name"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.TriggerNameChange]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="Top" Value="21"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.FoldProgramName]"/>
+      <Property Name="Width" Value="240"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpotSelectRecepie">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="23"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="8"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+      <Property Name="Top" Value="19"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[SelectFoldProgramlayer]"/>
+      <Property Name="Width" Value="240"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="0"/>
+      <Property Name="EndY" Value="41"/>
+      <Property Name="StartX" Value="319"/>
+      <Property Name="StartY" Value="41"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_5">
+      <Property Name="ControlID" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="286"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="55"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="21"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_LateralProcess.Common.Product.FoldProgram]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="SelectFoldProgram1">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="SelectFoldProgramlayer">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.cmdSelectRecipe]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

@@ -1,0 +1,45 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: MetriconSerial
+ * File: MetriconSerial.var
+ * Author: jspernil
+ * Created: May 05, 2010
+ ********************************************************************
+ * Local variables of program MetriconSerial
+ ********************************************************************)
+VAR
+	OutBuffer : ARRAY[0..MAX_BUFFER] OF USINT;
+	SendStatus : INT;
+	DataLength : INT;
+	InBuffer : ARRAY[0..MAX_BUFFER] OF USINT;
+	ThirdPart : UINT;
+	FourthPart : UINT;
+	FirstPart : UINT;
+	SecondPart : UINT;
+	CurTimer : UINT;
+	TimeOutRequestTimer : UINT;
+	OutletFullTimeOut : UINT;
+	InletActiveTimeOut : UINT;
+	DiagCounter : Diagnostics_Counter_Type := (0);
+	InletFullTimeOut : UINT;
+	InString : STRING[MAX_STRING];
+	OutString : STRING[MAX_STRING];
+	ListIndex : UINT;
+	InList : ARRAY[0..10] OF STRING[MAX_STRING];
+	UpdateInList : BOOL;
+	UpdateOutList : BOOL;
+	OutList : ARRAY[0..10] OF STRING[MAX_STRING];
+	PauseList : BOOL;
+	Index : UINT;
+	PageMetSerial : UINT;
+END_VAR
+VAR CONSTANT
+	MAX_BUFFER : UINT := 49;
+	MAX_STRING : UINT := 50;
+END_VAR
+VAR
+	ErrorCounter : UINT;
+	TimeOutRequest : UINT;
+	LogFlag : UINT;
+END_VAR

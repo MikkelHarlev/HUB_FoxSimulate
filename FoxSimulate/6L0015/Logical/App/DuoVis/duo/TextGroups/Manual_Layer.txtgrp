@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Manual_Layer">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="29"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="448008" Value="Error Code"/>
+    <Text ID="448009" Value="State Code"/>
+    <Text ID="448012" Value="Prev. State"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="448008" Value="Fehler Code"/>
+    <Text ID="448009" Value="Status Code"/>
+    <Text ID="448012" Value="Vorheriger status"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="448008" Value="Error Code"/>
+    <Text ID="448009" Value="State Code"/>
+    <Text ID="448012" Value="Prev. State"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="448008" Value="Erreur code"/>
+    <Text ID="448009" Value="Code de démarrage"/>
+    <Text ID="448012" Value="Etat précédent"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="448008" Value="Error Code"/>
+    <Text ID="448009" Value="State Code"/>
+    <Text ID="448012" Value="Prev. State"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="448008" Value="Error Code"/>
+    <Text ID="448009" Value="State Code"/>
+    <Text ID="448012" Value="Prev. State"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="448008" Value="Error Code"/>
+    <Text ID="448009" Value="State Code"/>
+    <Text ID="448012" Value="Prev. State"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="448008" Value="Fout Code"/>
+    <Text ID="448009" Value="Toestandcode"/>
+    <Text ID="448012" Value="Vorige toestand"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="448008" Value="Código de error "/>
+    <Text ID="448009" Value="Código de estado"/>
+    <Text ID="448012" Value="Estado previo"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="448008" Value="Kod błędu"/>
+    <Text ID="448009" Value="Kod stanu"/>
+    <Text ID="448012" Value="Poprz. Stan"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="448008" Value=""/>
+    <Text ID="448009" Value=""/>
+    <Text ID="448012" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="448008" Value=""/>
+    <Text ID="448009" Value=""/>
+    <Text ID="448012" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="448008" Value="Kod błędu"/>
+    <Text ID="448009" Value="Kod stanu"/>
+    <Text ID="448012" Value="Poprz. Stan"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="448008" Value="Error Code"/>
+    <Text ID="448009" Value="State Code"/>
+    <Text ID="448012" Value="Prev. State"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="448008" Value="Error Code"/>
+    <Text ID="448009" Value="State Code"/>
+    <Text ID="448012" Value="Prev. State"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="448008" Value="Error Code"/>
+    <Text ID="448009" Value="State Code"/>
+    <Text ID="448012" Value="Prev. State"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="448008" Value="Error Code"/>
+    <Text ID="448009" Value="Código de estado"/>
+    <Text ID="448012" Value="Estado anter."/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="448008" Value="0"/>
+    <Index ID="448009" Value="1"/>
+    <Index ID="448012" Value="2"/>
+  </IndexMap>
+</TextGroup>

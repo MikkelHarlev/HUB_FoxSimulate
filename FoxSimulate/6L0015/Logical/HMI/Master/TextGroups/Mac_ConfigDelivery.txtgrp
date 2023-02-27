@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigDelivery">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="17"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="288309" Value="msec"/>
+    <Text ID="288374" Value="Incline belt Run Time:"/>
+    <Text ID="297914" Value="Incline belt function"/>
+    <Text ID="297915" Value="Accumulate"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="288309" Value="msek"/>
+    <Text ID="288374" Value="Ausgangs Laufzeit:"/>
+    <Text ID="297914" Value="Ausgabe Funktion"/>
+    <Text ID="297915" Value="Speicher"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="288309" Value="ms"/>
+    <Text ID="288374" Value="Incline belt Run Time:"/>
+    <Text ID="297914" Value="Incline belt function"/>
+    <Text ID="297915" Value="Accumulera"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="288309" Value="msec"/>
+    <Text ID="288374" Value="Durée sortie"/>
+    <Text ID="297914" Value="Functionement evacuation"/>
+    <Text ID="297915" Value="Accummulation"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="288309" Value="msek"/>
+    <Text ID="288374" Value="Udgangstid"/>
+    <Text ID="297914" Value="Leveringsfunktion"/>
+    <Text ID="297915" Value="Akkumulere"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="288309" Value="millisec"/>
+    <Text ID="288374" Value="Incline belt Run Time:"/>
+    <Text ID="297914" Value="Incline belt function"/>
+    <Text ID="297915" Value="Accumulo"/>
+    <Text ID="297916" Value="Trasporto"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="288309" Value="msec"/>
+    <Text ID="288374" Value="Incline belt Run Time:"/>
+    <Text ID="297914" Value="Incline belt function"/>
+    <Text ID="297915" Value="Accumulate"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="288309" Value="msec"/>
+    <Text ID="288374" Value="Incline belt Run Time:"/>
+    <Text ID="297914" Value="Incline belt function"/>
+    <Text ID="297915" Value="Accumulate"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="288309" Value="mseg"/>
+    <Text ID="288374" Value="Incline belt Run Time:"/>
+    <Text ID="297914" Value="Incline belt function"/>
+    <Text ID="297915" Value="Accumulate"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="288309" Value=""/>
+    <Text ID="288374" Value=""/>
+    <Text ID="297914" Value=""/>
+    <Text ID="297915" Value=""/>
+    <Text ID="297916" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="288309" Value=""/>
+    <Text ID="288374" Value=""/>
+    <Text ID="297914" Value=""/>
+    <Text ID="297915" Value=""/>
+    <Text ID="297916" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="288309" Value=""/>
+    <Text ID="288374" Value=""/>
+    <Text ID="297914" Value=""/>
+    <Text ID="297915" Value=""/>
+    <Text ID="297916" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="288309" Value=""/>
+    <Text ID="288374" Value=""/>
+    <Text ID="297914" Value=""/>
+    <Text ID="297915" Value=""/>
+    <Text ID="297916" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="288309" Value=""/>
+    <Text ID="288374" Value=""/>
+    <Text ID="297914" Value=""/>
+    <Text ID="297915" Value=""/>
+    <Text ID="297916" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="288309" Value=""/>
+    <Text ID="288374" Value=""/>
+    <Text ID="297914" Value=""/>
+    <Text ID="297915" Value=""/>
+    <Text ID="297916" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="288309" Value="msek"/>
+    <Text ID="288374" Value="Utgangstidtid:"/>
+    <Text ID="297914" Value="Leveringsfunksjon"/>
+    <Text ID="297915" Value="Akkumulere"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="288309" Value=""/>
+    <Text ID="288374" Value=""/>
+    <Text ID="297914" Value=""/>
+    <Text ID="297915" Value=""/>
+    <Text ID="297916" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288309" Value="5"/>
+    <Index ID="288374" Value="31"/>
+    <Index ID="297914" Value="40"/>
+    <Index ID="297915" Value="41"/>
+    <Index ID="297916" Value="42"/>
+  </IndexMap>
+</TextGroup>

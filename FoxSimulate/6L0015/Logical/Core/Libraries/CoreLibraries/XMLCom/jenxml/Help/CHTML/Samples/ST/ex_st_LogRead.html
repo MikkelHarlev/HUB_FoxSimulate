@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html dir="ltr">
+<head>
+  <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+  <meta order="3">
+  <title>Example-AB-CalcChecksum</title>
+  <link rel="StyleSheet" href="../../styles.css">
+<!--NavHead-->
+  <link rel="stylesheet" type="text/css" href="../../navigate.css">
+<!--/NavHead-->
+</head>
+<body>
+<h1>DemoLib - Example of CalcChecksum in Automation Basic</h1>
+<h2>Description of Example</h2>
+<p>This example of the <a href="../../FBKs/CalcChecksum.html">CalcChecksum</a>
+function calculates the checksum of the USINT array TestData and gives
+the result of the calculation to the UDINT variable Checksum1.</p>
+<h2>Example Code (cyclic)</h2>
+<pre class="SourceCode"><font color="#008000">(* cyclic program *)</font>
+SumStatus = CalcChecksum(DL_MODE_SUM, <font
+ color="#0000ff">adr</font>(TestData), <font color="#0000ff">sizeof</font>(TestData), <font
+ color="#0000ff">adr</font>(Checksum1) )<br></pre>
+<h2>Variable Declaration</h2>
+<table class="parameter_tab" border="1">
+  <tbody>
+    <tr>
+      <th class="parameter_tab"><b>Name</b></th>
+      <th class="parameter_tab"><b>Data Type</b></th>
+      <th class="parameter_tab"><b>Scope</b></th>
+    </tr>
+    <tr>
+      <td class="parameter_tab">SumStatus</td>
+      <td class="parameter_tab">UINT</td>
+      <td class="parameter_tab">local</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">TestData</td>
+      <td class="parameter_tab">USINT[4]</td>
+      <td class="parameter_tab">global</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">Checksum1</td>
+      <td class="parameter_tab">UDINT</td>
+      <td class="parameter_tab">local</td>
+    </tr>
+  </tbody>
+</table>
+<!--NavBottom-->
+<div class="DoNotPrintNavItems" id="NavBottom_11"> <br>
+<table class="Nav" cellpadding="0" cellspacing="2" width="100%">
+  <tbody>
+    <tr class="Nav">
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      <p class="Nav"> &lt;&lt; Previous Topic<br>
+      <a class="Nav" href="AB.html">AB</a> </p>
+      </td>
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      <p class="NavCenter"> &nbsp; <a class="Nav"
+ href="../../LogLib.html">Start&nbsp;Page</a> &nbsp; </p>
+      </td>
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      <p class="NavRight"> &nbsp; </p>
+      </td>
+    </tr>
+    <tr class="Nav">
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      <p class="NavCenter"> &nbsp; <a class="Nav" href="AB.html">Start&nbsp;of&nbsp;Chapter</a>
+&nbsp; </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!--/NavBottom-->
+</body>
+</html>

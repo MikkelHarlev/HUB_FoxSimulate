@@ -1,0 +1,263 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html dir="ltr">
+<head>
+
+
+  
+  <meta name="generator" content="Microsoft FrontPage 5.0">
+
+
+  
+  <meta order="1">
+
+  
+
+
+  
+  <title>JenRealTimeInit.html</title>
+  <link rel="StyleSheet" href="../styles.css">
+<!--NavHead-->
+
+
+  
+  <link rel="stylesheet" type="text/css" href="../navigate.css">
+<!--/NavHead-->
+</head>
+
+
+<body>
+
+
+<h1>JenXML - JenRealTimeInit()</h1>
+
+
+<p>JenRealTimeInit() collect all data so that the PC can handle
+requests for the Customer Article list.<br>
+
+
+JenRealTimeInit() has to be called in
+the Init part of a task. Otherwise you
+will get a cycletime violation.</p>
+
+
+<p>The following actions are done:<br>
+
+
+&nbsp;&nbsp;&nbsp; - create answer code for the specific
+variable </p>
+
+
+<p>It is possible to initialize more than one Variable but they
+must not have the same name.</p>
+
+
+<h2> Parameters:</h2>
+
+
+<center>
+<table class="parameter_tab" border="1">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <th class="parameter_tab">
+      
+      <p align="center"> <b>I/O</b></p>
+
+
+      </th>
+
+
+      <th class="parameter_tab">
+      
+      <p> <b>Parameter</b></p>
+
+
+      </th>
+
+
+      <th class="parameter_tab">
+      
+      <p> <b>Data
+Type</b></p>
+
+
+      </th>
+
+
+      <th class="parameter_tab">
+      
+      <p> <b>Description</b></p>
+
+
+      </th>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td class="parameter_tab">IN</td>
+
+
+      <td class="parameter_tab">pRealTimeCallName</td>
+
+
+      <td class="parameter_tab">UDINT</td>
+
+
+      <td class="parameter_tab">Pointer to the Name which
+the PC will use</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td class="parameter_tab">IN</td>
+
+
+      <td class="parameter_tab">pName_RealTimeStruct</td>
+
+
+      <td class="parameter_tab">UDINT</td>
+
+
+      <td class="parameter_tab">Pointer to the Name of the
+Variable/Array/Struct which should be used as datasource</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td class="parameter_tab">OUT </td>
+
+
+      <td class="parameter_tab">status</td>
+
+
+      <td class="parameter_tab">UINT</td>
+
+
+      <td class="parameter_tab"><a href="../General/Status%20Numbers.html">Status Number</a>
+(0 -&gt; FUB
+finished succesfull) </td>
+
+
+    </tr>
+
+
+  
+  </tbody>
+</table>
+
+
+</center>
+
+
+<h2> Call Syntax (Automation
+Basic):</h2>
+
+
+<p class="pSourceCode">JenRealTimeInit_0.pRealTimeCallName= <span style="color: rgb(51, 51, 255);">ADR</span>(<span style="color: rgb(204, 51, 204);">'CallName'</span>)<br>
+
+
+JenRealTimeInit_0.pName_RealTimeStruct= <span style="color: rgb(51, 51, 255);">ADR</span>(<span style="color: rgb(204, 51, 204);">'VariableName'</span>)<br>
+
+
+JenRealTimeInit_0 <span style="color: rgb(51, 51, 255);">FUB</span> JenRealTimeInit()</p>
+
+
+<h2>Examples:</h2>
+
+
+<p><a href="../Samples/AB/ex_ab_CalcChecksum.html">
+Automation Basic</a></p>
+
+
+<!--NavBottom-->
+<div class="DoNotPrintNavItems" id="NavBottom_8"> <br>
+
+
+<table class="Nav" cellpadding="0" cellspacing="2" width="100%">
+
+
+  <tbody>
+
+
+    <tr class="Nav">
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      <p class="Nav">&lt;&lt; Previous Topic<br>
+
+
+      <a class="Nav" href="JenOperInit.html">JenOperInit</a>
+      </p>
+
+
+      </td>
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="../JenXML.html">Start&nbsp;Page</a>
+&nbsp; </p>
+
+
+      </td>
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      <p class="NavRight">Next Topic &gt;&gt;<br>
+
+
+      <a class="Nav" href="RegisterJenFunctions.html">RegisterJenFunctions</a>
+      </p>
+
+
+      </td>
+
+
+    </tr>
+
+
+    <tr class="Nav">
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="FBKs.html">Start&nbsp;of&nbsp;Chapter</a>
+&nbsp; </p>
+
+
+      </td>
+
+
+    </tr>
+
+
+  
+  </tbody>
+</table>
+
+
+</div>
+
+
+<!--/NavBottom-->
+</body>
+</html>

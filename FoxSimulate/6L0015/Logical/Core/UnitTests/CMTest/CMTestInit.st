@@ -1,0 +1,4 @@
+PROGRAM _INIT
+	linkID := 12;
+END_PROGRAM
+

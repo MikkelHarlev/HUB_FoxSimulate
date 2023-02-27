@@ -1,0 +1,16 @@
+(********************************************************************
+ * COPYRIGHT -- Jensen Denmark A/S
+ ********************************************************************
+ * Package: File_Alarms
+ * File: FileAlarms.var
+ * Author: EG
+ * Created: January 18, 2011
+ *******************************************************************)
+VAR
+	i : USINT;
+	serviceType : serviceType_enum;
+	serviceEnabled : BOOL;
+	initState : initState_enum;
+	runningCounter : USINT;
+	runningDone : USINT;
+END_VAR

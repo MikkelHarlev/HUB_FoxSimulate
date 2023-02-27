@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<NcMapping NcSwId="acp10" DisabledNodesAreHidden="False">
+  <NcObject Name="gAxis01" ModuleId="8V1016.00-2" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gServoHang" AcoposParameter="400par" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="IF3.ST51.VAxis1" ModuleId="8V1016.00-2" Type="ncV_AXIS" Channel="1" Disabled="FALSE" ModuleDisabled="FALSE" />
+</NcMapping>

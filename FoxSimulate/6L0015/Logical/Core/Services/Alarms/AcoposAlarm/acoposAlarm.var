@@ -1,0 +1,13 @@
+VAR
+	Cnt : UINT;
+	AcpAlarmCheck : AcpAlarmCheck_Type;
+	i : UINT;
+	NodeText : ARRAY[0..5] OF STRING[32];
+	Info : USINT;
+	AcpAlarm : AcpAlarm_Type;
+	StartNode : USINT;
+	pAxis : REFERENCE TO ARRAY[0..5] OF CommAxis_Type;
+	taskState : initState_enum;
+	adrAxis : UDINT;
+	ButtonId : INT;
+END_VAR

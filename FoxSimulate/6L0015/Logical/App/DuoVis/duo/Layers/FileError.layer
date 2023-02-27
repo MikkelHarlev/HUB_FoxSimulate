@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="FileError">
+  <Property Name="BackColor" Value="15"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="320"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB"/>
+    <TextLayer LanguageId="de-DE"/>
+    <TextLayer LanguageId="sv-SE"/>
+    <TextLayer LanguageId="fr-FR"/>
+    <TextLayer LanguageId="da-DK"/>
+    <TextLayer LanguageId="it-IT"/>
+    <TextLayer LanguageId="fi-FI"/>
+    <TextLayer LanguageId="nl-NL"/>
+    <TextLayer LanguageId="es-ES"/>
+    <TextLayer LanguageId="pl-PL"/>
+    <TextLayer LanguageId="ru-RU"/>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="zh-CN"/>
+    <TextLayer LanguageId="cs-CZ"/>
+    <TextLayer LanguageId="en-US"/>
+    <TextLayer LanguageId="no-NO"/>
+    <TextLayer LanguageId="pt-PT"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001005" Name="Bitmap_1">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[C_310x110_AlarmBackground]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="110"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="86"/>
+      <Property Name="Width" Value="310"/>
+    </Control>
+    <Control ClassId="0x0000100B" Name="ErrorInfo">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="15"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="Top" Value="92"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="Width" Value="290"/>
+    </Control>
+    <Control ClassId="0x0000100B" Name="ErrorDetail">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="15"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="Top" Value="117"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="Width" Value="290"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_1">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[ButtonIcons]"/>
+      <Property Name="BitmapIndex" Value="106"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="BitmapGroup"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="143"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="149"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[FileErrorAcknowledge]"/>
+      <Property Name="Width" Value="35"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="FileErrorAcknowledge">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

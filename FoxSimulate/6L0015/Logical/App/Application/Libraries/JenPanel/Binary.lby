@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="2.40.2" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>JenPanel.fun</File>
+    <File>JenPanel.typ</File>
+    <File>JenPanel.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="FileIO" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="SYS_LIB" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="DataObj" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="visapi" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="brsystem" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsString" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

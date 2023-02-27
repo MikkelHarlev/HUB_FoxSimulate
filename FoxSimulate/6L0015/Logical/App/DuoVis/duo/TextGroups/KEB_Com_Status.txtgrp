@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="KEB_Com_Status">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="42"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="115404" Value="Failed"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Busy"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="115404" Value="Fehlgeschlagen"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Aktiv"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="115404" Value="Misslyckades"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Busy"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="115404" Value="A échoué"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Occupé"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="115404" Value="Failed"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Busy"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="115404" Value="Failed"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Busy"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="115404" Value="Failed"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Busy"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="115404" Value="Mislukt"/>
+    <Text ID="115405" Value="Ok"/>
+    <Text ID="115406" Value="Bezet"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="115404" Value="Fallo"/>
+    <Text ID="115405" Value="Correcto"/>
+    <Text ID="115406" Value="Ocupado"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="115404" Value="Niepowodzenie"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Zajęty"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="115404" Value=""/>
+    <Text ID="115405" Value=""/>
+    <Text ID="115406" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="115404" Value=""/>
+    <Text ID="115405" Value=""/>
+    <Text ID="115406" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="115404" Value="Niepowodzenie"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Zajęty"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="115404" Value="Failed"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Busy"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="115404" Value="Failed"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Busy"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="115404" Value="Failed"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Busy"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="115404" Value="Failed"/>
+    <Text ID="115405" Value="OK"/>
+    <Text ID="115406" Value="Busy"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="115404" Value="0"/>
+    <Index ID="115405" Value="1"/>
+    <Index ID="115406" Value="2"/>
+  </IndexMap>
+</TextGroup>

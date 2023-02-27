@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="4.01.0" SubType="Binary" Description="v2.21.2" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>CacheLib.typ</File>
+    <File>CacheLib.var</File>
+    <File>CacheLib.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="sys_lib" />
+    <Dependency ObjectName="FileIO" FromVersion="2.00.0" />
+    <Dependency ObjectName="CRC" />
+    <Dependency ObjectName="AsUDP" />
+    <Dependency ObjectName="AsETH" />
+    <Dependency ObjectName="AsString" FromVersion="0.00.0" />
+    <Dependency ObjectName="MetUtils" FromVersion="4.09.0" ToVersion="4.09.0" />
+    <Dependency ObjectName="AsTime" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

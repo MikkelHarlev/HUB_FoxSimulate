@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigM_Keys_Layer">
+  <Property Name="BackColor" Value="15"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualKeys.RT]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="320"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="522823" Value="Stacker"/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="522823" Value="Stapler"/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="522823" Value="Stacker"/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="522823" Value="Stacker"/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="522823" Value="Stacker"/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="522823" Value="Stacker"/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="522823" Value="Stacker"/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="522823" Value="Stacker"/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="522823" Value="Apilador"/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="522823" Value="Stacker"/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="522823" Value=""/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="522823" Value=""/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="522823" Value=""/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="522823" Value=""/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="522823" Value=""/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="522823" Value="Stacker"/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="522823" Value=""/>
+      <Text ID="522837" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="522823" Value="27"/>
+      <Index ID="522837" Value="41"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001001" Name="Shape_1">
+      <Property Name="BackColor" Value="52"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="193"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="LineWidth" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape_Tranp]"/>
+      <Property Name="Top" Value="17"/>
+      <Property Name="Width" Value="320"/>
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="180"/>
+      <Property Name="Left" Value="6"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape_Tranp]"/>
+      <Property Name="Top" Value="24"/>
+      <Property Name="Width" Value="263"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_11">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="12"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Numbers]"/>
+      <Property Name="TextIndexOffset" Value="1"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="53"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_17">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="240"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Numbers]"/>
+      <Property Name="TextIndexOffset" Value="2"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="53"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_18">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="12"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Numbers]"/>
+      <Property Name="TextIndexOffset" Value="3"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="74"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_19">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="239"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Numbers]"/>
+      <Property Name="TextIndexOffset" Value="4"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="74"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="162"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="99"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RTButton[6]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="94"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_2">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="65"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="99"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RTButton[7]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="116"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_3">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="162"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="99"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RTButton[8]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="116"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_4">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="65"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="99"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RTButton[9]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="137"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_5">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="66"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="99"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RTButton[1]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="51"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[1].KeyProgIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_6">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="163"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="99"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RTButton[2]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="52"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[2].KeyProgIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_7">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="65"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="99"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RTButton[3]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="74"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[3].KeyProgIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_8">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="162"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="99"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RTButton[4]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="74"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_9">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="162"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="99"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RTButton[10]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="137"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_10">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="65"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="99"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RTButton[5]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="94"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_16">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="12"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Numbers]"/>
+      <Property Name="TextIndexOffset" Value="5"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="95"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_4">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="14"/>
+      <Property Name="Left" Value="9"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Manual_Set_Autoprogram]"/>
+      <Property Name="TextIndexOffset" Value="1"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="30"/>
+      <Property Name="Width" Value="29"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_11">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="183"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[Master.App.Application.g_HCfg.NumberOfStackers]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="214"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[6].KeyStackIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="14"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_12">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="210"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[Master.App.Application.g_HCfg.NumberOfStackers]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="215"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[7].KeyStackIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="14"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_13">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="235"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[Master.App.Application.g_HCfg.NumberOfStackers]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="215"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[8].KeyStackIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="14"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_14">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="260"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[Master.App.Application.g_HCfg.NumberOfStackers]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="216"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[9].KeyStackIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="14"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_15">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="283"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[Master.App.Application.g_HCfg.NumberOfStackers]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="214"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[10].KeyStackIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="14"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_16">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="4"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[Master.App.Application.g_HCfg.NumberOfStackers]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="217"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[1].KeyStackIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="14"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_17">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="33"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[Master.App.Application.g_HCfg.NumberOfStackers]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="218"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[2].KeyStackIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="14"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_18">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="64"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[Master.App.Application.g_HCfg.NumberOfStackers]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="218"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[3].KeyStackIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="14"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_19">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="93"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[Master.App.Application.g_HCfg.NumberOfStackers]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="217"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[4].KeyStackIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="14"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_20">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="126"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[Master.App.Application.g_HCfg.NumberOfStackers]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="219"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_Keys[5].KeyStackIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="14"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_26">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="14"/>
+      <Property Name="Left" Value="133"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="27"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="225"/>
+      <Property Name="Width" Value="63"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_12">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="240"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Numbers]"/>
+      <Property Name="TextIndexOffset" Value="6"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="95"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_20">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="12"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Numbers]"/>
+      <Property Name="TextIndexOffset" Value="7"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="117"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_21">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="240"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Numbers]"/>
+      <Property Name="TextIndexOffset" Value="8"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="117"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_22">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="12"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Numbers]"/>
+      <Property Name="TextIndexOffset" Value="9"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="138"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_23">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="238"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Numbers]"/>
+      <Property Name="TextIndexOffset" Value="10"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="138"/>
+      <Property Name="Width" Value="24"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="268"/>
+      <Property Name="EndY" Value="71"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="StartX" Value="7"/>
+      <Property Name="StartY" Value="71"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="268"/>
+      <Property Name="EndY" Value="91"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="StartX" Value="7"/>
+      <Property Name="StartY" Value="91"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_3">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="268"/>
+      <Property Name="EndY" Value="113"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="StartX" Value="7"/>
+      <Property Name="StartY" Value="113"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_4">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="268"/>
+      <Property Name="EndY" Value="134"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="StartX" Value="7"/>
+      <Property Name="StartY" Value="134"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_6">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="268"/>
+      <Property Name="EndY" Value="49"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="StartX" Value="7"/>
+      <Property Name="StartY" Value="49"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_8">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="140"/>
+      <Property Name="EndY" Value="155"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="StartX" Value="140"/>
+      <Property Name="StartY" Value="49"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_12">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="40"/>
+      <Property Name="EndY" Value="25"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="StartX" Value="40"/>
+      <Property Name="StartY" Value="155"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_13">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="235"/>
+      <Property Name="EndY" Value="25"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="StartX" Value="235"/>
+      <Property Name="StartY" Value="155"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_28">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="14"/>
+      <Property Name="Left" Value="46"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Manual_Set_Autoprogram]"/>
+      <Property Name="TextIndexOffset" Value="2"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="30"/>
+      <Property Name="Width" Value="184"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_5">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="268"/>
+      <Property Name="EndY" Value="155"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="StartX" Value="7"/>
+      <Property Name="StartY" Value="155"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_21">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="116"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="99"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="172"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyAuto.KeyProgIndex]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_2">
+      <Property Name="BackColor" Value="253"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="32"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="174"/>
+      <Property Name="PressedBackColor" Value="2"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
+      <Property Name="PressedTextGroup" Value="Source[local].TextGroup[Mac_ConfigM_Inlet]"/>
+      <Property Name="PressedTextIndex" Value="10"/>
+      <Property Name="PressedTextSource" Value="MultipleTexts"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigM_Inlet]"/>
+      <Property Name="TextIndex" Value="11"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="164"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[FOX_MF_AUTOINLET]"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_29">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="42"/>
+      <Property Name="Left" Value="230"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Manual_Set_Autoprogram]"/>
+      <Property Name="TextIndexOffset" Value="4"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="159"/>
+      <Property Name="Width" Value="35"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_30">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="42"/>
+      <Property Name="Left" Value="8"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Manual_Set_Autoprogram]"/>
+      <Property Name="TextIndexOffset" Value="3"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="160"/>
+      <Property Name="Width" Value="87"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="StopFeedingButton1">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[ManualKeys]"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="34"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="272"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RT]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="171"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[ManualFeedingKeys2]"/>
+      <Property Name="Width" Value="45"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_5">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="14"/>
+      <Property Name="Left" Value="237"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Manual_Set_Autoprogram]"/>
+      <Property Name="TextIndexOffset" Value="1"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="30"/>
+      <Property Name="Width" Value="29"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_22">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="Border" Value="Source[local].Border[Jensen_Sunken1]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Medium]"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="278"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="135"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_AutoProgram.OperatorAutoProgram]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_31">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="245"/>
+      <Property Name="Height" Value="28"/>
+      <Property Name="Left" Value="271"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="41"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="103"/>
+      <Property Name="Width" Value="45"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="ManualFeedingKeys2">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016A">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualKeys.BTN]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="FOX_MF_AUTOINLET">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016A">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_KeyConfigCmd]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.cfgedit.HMI.MF_AutoStartInletBelt]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

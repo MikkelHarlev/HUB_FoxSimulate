@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="VB Script TE">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+   <OBJECT type="text/site properties">
+     <param name="Window Styles" value="0x800025">
+     <param name="comment" value="title:Online Help">
+     <param name="comment" value="base:index.htm">
+   </OBJECT>
+   <UL>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="JenXML-Lib">
+            <param name="Local" value="JenXML.html">
+            <param name="ImageNumber" value="1">
+          </OBJECT>
+      <UL>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="General">
+      <param name="Local" value="General\General.html">
+      <param name="ImageNumber" value="1">
+    </OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Information for C Programmers">
+      <param name="Local" value="General\C-Informations.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="System Requirements">
+      <param name="Local" value="General\Requirements.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Version History">
+      <param name="Local" value="General\History.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Status Numbers">
+      <param name="Local" value="General\Status Numbers.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Functions and Function Blocks">
+      <param name="Local" value="FBKs\FBKs.html">
+      <param name="ImageNumber" value="1">
+    </OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="JenCatTextInit.html">
+      <param name="Local" value="FBKs\JenCatTextInit.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="JenCustInit.html">
+      <param name="Local" value="FBKs\JenCustInit.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="JenLogInit.html">
+      <param name="Local" value="FBKs\JenLogInit.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="JenMessageInit.html">
+      <param name="Local" value="FBKs\JenMessageInit.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="JenOperInit.html">
+      <param name="Local" value="FBKs\JenOperInit.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="JenRealTimeInit.html">
+      <param name="Local" value="FBKs\JenRealTimeInit.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="JenXMLCyclic.html">
+      <param name="Local" value="FBKs\JenXMLCyclic.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="RegisterJenFunctions.html">
+      <param name="Local" value="FBKs\RegisterJenFunctions.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="XMLStrings">
+      <param name="Local" value="XMLStrings\XMLStrings.html">
+      <param name="ImageNumber" value="1">
+    </OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="CustArtAdd.html">
+      <param name="Local" value="XMLStrings\CustArtAdd.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="CustArtDelete.html">
+      <param name="Local" value="XMLStrings\CustArtDelete.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="CustArtLoad.html">
+      <param name="Local" value="XMLStrings\CustArtLoad.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="CustArtLock.html">
+      <param name="Local" value="XMLStrings\CustArtLock.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="CustArtSave.html">
+      <param name="Local" value="XMLStrings\CustArtSave.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="OperatorUnlock.html">
+      <param name="Local" value="XMLStrings\CustArtUnlock.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="GetCatTexts.html">
+      <param name="Local" value="XMLStrings\GetCatTexts.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="GetRealTimeData.html">
+      <param name="Local" value="XMLStrings\GetRealTimeData.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="GetTime.html">
+      <param name="Local" value="XMLStrings\GetTime.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="OperatorAdd.html">
+      <param name="Local" value="XMLStrings\OperatorAdd.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="OperatorDelete.html">
+      <param name="Local" value="XMLStrings\OperatorDelete.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="OperatorLoad.html">
+      <param name="Local" value="XMLStrings\OperatorLoad.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="OperatorLock.html">
+      <param name="Local" value="XMLStrings\OperatorLock.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="OperatorSave.html">
+      <param name="Local" value="XMLStrings\OperatorSave.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="OperatorUnlock.html">
+      <param name="Local" value="XMLStrings\OperatorUnlock.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="ReadLog.html">
+      <param name="Local" value="XMLStrings\ReadLog.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="SetLogPointer.html">
+      <param name="Local" value="XMLStrings\SetLogPointer.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="SetTime.html">
+      <param name="Local" value="XMLStrings\SetTime.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="ShowMessage.html">
+      <param name="Local" value="XMLStrings\ShowMessage.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Samples">
+      <param name="Local" value="Samples\Samples.html">
+      <param name="ImageNumber" value="1">
+    </OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="AB">
+      <param name="Local" value="Samples\AB\AB.html">
+      <param name="ImageNumber" value="1">
+    </OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Example-AB-CalcChecksum">
+      <param name="Local" value="Samples\AB\ex_ab_CalcChecksum.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="ST">
+      <param name="Local" value="Samples\ST\ST.html">
+      <param name="ImageNumber" value="1">
+    </OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Example-AB-CalcChecksum">
+      <param name="Local" value="Samples\ST\ex_st_LogInit.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Example-AB-CalcChecksum">
+      <param name="Local" value="Samples\ST\ex_st_LogRead.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Example-AB-CalcChecksum">
+      <param name="Local" value="Samples\ST\ex_st_LogSetLineRead.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Example-AB-CalcChecksum">
+      <param name="Local" value="Samples\ST\ex_st_LogStore.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+<LI><OBJECT type="text/sitemap">
+      <param name="Name" value="Example-AB-CalcChecksum">
+      <param name="Local" value="Samples\ST\ex_st_LogWrite.html">
+      <param name="ImageNumber" value="11">
+    </OBJECT>
+</UL>
+</UL>
+      </UL>
+   </UL>
+</BODY>
+</HTML>

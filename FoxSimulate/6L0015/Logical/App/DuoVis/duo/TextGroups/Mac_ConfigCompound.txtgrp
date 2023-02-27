@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigCompound">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="11"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msec"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Pieces"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Compound machines: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP address MASTER:"/>
+    <Text ID="289621" Value="IP address SLAVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msek"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Stueck"/>
+    <Text ID="289599" Value="An "/>
+    <Text ID="289600" Value="Aus"/>
+    <Text ID="289601" Value="m/min"/>
+    <Text ID="289603" Value="sek"/>
+    <Text ID="289612" Value="Zusatz-Maschinen"/>
+    <Text ID="289613" Value="Verbindungs ID fuer Haupt/neben Funktion:"/>
+    <Text ID="289614" Value="XML erneuerungs Zeit:"/>
+    <Text ID="289615" Value="XML erneuerungs Zeitablauf:"/>
+    <Text ID="289620" Value="IP adresse Hauptmaschine:"/>
+    <Text ID="289621" Value="IP adresse neben Maschine:"/>
+    <Text ID="291001" Value="Verbindungs ID fuer Kund./Art wechsel:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="tum "/>
+    <Text ID="289595" Value="ms"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Ink"/>
+    <Text ID="289598" Value="Styck"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/min"/>
+    <Text ID="289603" Value="s"/>
+    <Text ID="289612" Value="Kombimaskin: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP address MASTER:"/>
+    <Text ID="289621" Value="IP address SLAV:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="pouce"/>
+    <Text ID="289595" Value="ms"/>
+    <Text ID="289596" Value="mn"/>
+    <Text ID="289597" Value="pouce"/>
+    <Text ID="289598" Value="Pièces"/>
+    <Text ID="289599" Value="En marche"/>
+    <Text ID="289600" Value="Non"/>
+    <Text ID="289601" Value="m/mn"/>
+    <Text ID="289603" Value="s"/>
+    <Text ID="289612" Value="Compound machines : "/>
+    <Text ID="289613" Value="ID connexion pour fonctionnement Maître/Esclave :"/>
+    <Text ID="289614" Value="Temps de rafraîchissement XML :"/>
+    <Text ID="289615" Value="Temporisation rafraîchissement XML :"/>
+    <Text ID="289620" Value="Adresse IP MAITRE :"/>
+    <Text ID="289621" Value="Adresse IP ESCLAVE :"/>
+    <Text ID="291001" Value="ID connexion pour modif. client/art. :"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msek"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Ink"/>
+    <Text ID="289598" Value="Stk"/>
+    <Text ID="289599" Value="Til"/>
+    <Text ID="289600" Value="Fra"/>
+    <Text ID="289601" Value="m/min"/>
+    <Text ID="289603" Value="sek"/>
+    <Text ID="289612" Value="Compound maskiner"/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="Ip Adresse MASTER:"/>
+    <Text ID="289621" Value="Ip Adresse SLAVE::"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="pollici"/>
+    <Text ID="289595" Value="millisec"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Pezzi"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Macchine Composte: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP indirizzo MASTER:"/>
+    <Text ID="289621" Value="IP indirizzo SLAVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msec"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Pieces"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Compound machines: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP address MASTER:"/>
+    <Text ID="289621" Value="IP address SLAVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msec"/>
+    <Text ID="289596" Value="Min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Stuks"/>
+    <Text ID="289599" Value="Aan"/>
+    <Text ID="289600" Value="Uit"/>
+    <Text ID="289601" Value="m/min"/>
+    <Text ID="289603" Value="Sec."/>
+    <Text ID="289612" Value="Samengestelde machines"/>
+    <Text ID="289613" Value="Verbinding-ID voor master/slave-werking:"/>
+    <Text ID="289614" Value="XML vernieuwingstijd:"/>
+    <Text ID="289615" Value="XML time-out voor vernieuwen:"/>
+    <Text ID="289620" Value="IP-adres MASTER:"/>
+    <Text ID="289621" Value="IP-adres SLAVE:"/>
+    <Text ID="291001" Value="Verbinding-ID voor klant-/artikelwissel:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="pulg"/>
+    <Text ID="289595" Value="ms"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Piezas"/>
+    <Text ID="289599" Value="Conectado/Encendido"/>
+    <Text ID="289600" Value="Apagado/Desconectado"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Combinar Máquinas"/>
+    <Text ID="289613" Value="Identificador de conexión para Maestro/Esclavo:"/>
+    <Text ID="289614" Value="Tiempo de refresco XML:"/>
+    <Text ID="289615" Value="Compensación de refresco XML:"/>
+    <Text ID="289620" Value="Dirección IP MAESTRO"/>
+    <Text ID="289621" Value="Dirección IP ESCLAVO"/>
+    <Text ID="291001" Value="Identificador de conexión para cambio Cliente/Artículo:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="cale"/>
+    <Text ID="289595" Value="msek"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Przyrost"/>
+    <Text ID="289598" Value="Sztuki"/>
+    <Text ID="289599" Value="Wł."/>
+    <Text ID="289600" Value="Wył."/>
+    <Text ID="289601" Value="m/min"/>
+    <Text ID="289603" Value="sek."/>
+    <Text ID="289612" Value="Maszyny sprzężone: "/>
+    <Text ID="289613" Value="ID połączenia dla pracującej maszyny podporządkowanej/głównej:"/>
+    <Text ID="289614" Value="Czas odświeżania XML:"/>
+    <Text ID="289615" Value="Limit czasu odświeżania XML:"/>
+    <Text ID="289620" Value="Adres IP maszyny GŁÓWNEJ:"/>
+    <Text ID="289621" Value="Adres IP maszyny PODPORZĄDKOWANEJ:"/>
+    <Text ID="291001" Value="ID połączenia dla zmiany klienta/artykułu:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="289593" Value=""/>
+    <Text ID="289594" Value=""/>
+    <Text ID="289595" Value=""/>
+    <Text ID="289596" Value=""/>
+    <Text ID="289597" Value=""/>
+    <Text ID="289598" Value=""/>
+    <Text ID="289599" Value=""/>
+    <Text ID="289600" Value=""/>
+    <Text ID="289601" Value=""/>
+    <Text ID="289603" Value=""/>
+    <Text ID="289612" Value=""/>
+    <Text ID="289613" Value=""/>
+    <Text ID="289614" Value=""/>
+    <Text ID="289615" Value=""/>
+    <Text ID="289620" Value=""/>
+    <Text ID="289621" Value=""/>
+    <Text ID="291001" Value=""/>
+    <Text ID="291157" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="289593" Value=""/>
+    <Text ID="289594" Value=""/>
+    <Text ID="289595" Value=""/>
+    <Text ID="289596" Value=""/>
+    <Text ID="289597" Value=""/>
+    <Text ID="289598" Value=""/>
+    <Text ID="289599" Value=""/>
+    <Text ID="289600" Value=""/>
+    <Text ID="289601" Value=""/>
+    <Text ID="289603" Value=""/>
+    <Text ID="289612" Value=""/>
+    <Text ID="289613" Value=""/>
+    <Text ID="289614" Value=""/>
+    <Text ID="289615" Value=""/>
+    <Text ID="289620" Value=""/>
+    <Text ID="289621" Value=""/>
+    <Text ID="291001" Value=""/>
+    <Text ID="291157" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="cale"/>
+    <Text ID="289595" Value="msek"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Przyrost"/>
+    <Text ID="289598" Value="Sztuki"/>
+    <Text ID="289599" Value="Wł."/>
+    <Text ID="289600" Value="Wył."/>
+    <Text ID="289601" Value="m/min"/>
+    <Text ID="289603" Value="sek."/>
+    <Text ID="289612" Value="Maszyny sprzężone: "/>
+    <Text ID="289613" Value="ID połączenia dla pracującej maszyny podporządkowanej/głównej:"/>
+    <Text ID="289614" Value="Czas odświeżania XML:"/>
+    <Text ID="289615" Value="Limit czasu odświeżania XML:"/>
+    <Text ID="289620" Value="Adres IP maszyny GŁÓWNEJ:"/>
+    <Text ID="289621" Value="Adres IP maszyny PODPORZĄDKOWANEJ:"/>
+    <Text ID="291001" Value="ID połączenia dla zmiany klienta/artykułu:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msec"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Ks"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Compound machines: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP address MASTER:"/>
+    <Text ID="289621" Value="IP address SLAVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msec"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Pieces"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Compound machines: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP address MASTER:"/>
+    <Text ID="289621" Value="IP address SLAVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="tom."/>
+    <Text ID="289595" Value="msek"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Ink"/>
+    <Text ID="289598" Value="Stk"/>
+    <Text ID="289599" Value="På"/>
+    <Text ID="289600" Value="Av"/>
+    <Text ID="289601" Value="m/min"/>
+    <Text ID="289603" Value="sek"/>
+    <Text ID="289612" Value="Compound maskiner"/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="Ip Adresse MASTER:"/>
+    <Text ID="289621" Value="Ip Adresse SLAVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="ms"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Peças"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Compound machines"/>
+    <Text ID="289613" Value="ID de conexão para funcionamento Principal/Secundário:"/>
+    <Text ID="289614" Value="Tempo de atualização XML:"/>
+    <Text ID="289615" Value="Tempo limite de atualização XML excedido:"/>
+    <Text ID="289620" Value="Endereço de IP PRINCIPAL:"/>
+    <Text ID="289621" Value="Endereço de IP SECUNDÁRIO:"/>
+    <Text ID="291001" Value="ID de conexão para Mudança de Cli./Art.:"/>
+    <Text ID="291157" Value="mm"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="289593" Value="0"/>
+    <Index ID="289594" Value="1"/>
+    <Index ID="289595" Value="5"/>
+    <Index ID="289596" Value="6"/>
+    <Index ID="289597" Value="10"/>
+    <Index ID="289598" Value="11"/>
+    <Index ID="289599" Value="15"/>
+    <Index ID="289600" Value="16"/>
+    <Index ID="289601" Value="8"/>
+    <Index ID="289603" Value="4"/>
+    <Index ID="289612" Value="40"/>
+    <Index ID="289613" Value="51"/>
+    <Index ID="289614" Value="55"/>
+    <Index ID="289615" Value="56"/>
+    <Index ID="289620" Value="46"/>
+    <Index ID="289621" Value="45"/>
+    <Index ID="291001" Value="50"/>
+    <Index ID="291157" Value="3"/>
+  </IndexMap>
+</TextGroup>

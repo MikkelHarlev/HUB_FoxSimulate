@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Languages">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="13"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiaans"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="1358" Value="English"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1358" Value=""/>
+    <Text ID="1359" Value=""/>
+    <Text ID="2654" Value=""/>
+    <Text ID="4492" Value=""/>
+    <Text ID="4493" Value=""/>
+    <Text ID="4494" Value=""/>
+    <Text ID="4495" Value=""/>
+    <Text ID="100073" Value=""/>
+    <Text ID="118505" Value=""/>
+    <Text ID="186290" Value=""/>
+    <Text ID="335110" Value=""/>
+    <Text ID="358147" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="1358" Value=""/>
+    <Text ID="1359" Value=""/>
+    <Text ID="2654" Value=""/>
+    <Text ID="4492" Value=""/>
+    <Text ID="4493" Value=""/>
+    <Text ID="4494" Value=""/>
+    <Text ID="4495" Value=""/>
+    <Text ID="100073" Value=""/>
+    <Text ID="118505" Value=""/>
+    <Text ID="186290" Value=""/>
+    <Text ID="335110" Value=""/>
+    <Text ID="358147" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="1358" Value=""/>
+    <Text ID="1359" Value=""/>
+    <Text ID="2654" Value=""/>
+    <Text ID="4492" Value=""/>
+    <Text ID="4493" Value=""/>
+    <Text ID="4494" Value=""/>
+    <Text ID="4495" Value=""/>
+    <Text ID="100073" Value=""/>
+    <Text ID="118505" Value=""/>
+    <Text ID="186290" Value=""/>
+    <Text ID="335110" Value=""/>
+    <Text ID="358147" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="1358" Value="Engelsk"/>
+    <Text ID="1359" Value="Deutsch"/>
+    <Text ID="2654" Value="Français"/>
+    <Text ID="4492" Value="Svenska"/>
+    <Text ID="4493" Value="Dansk"/>
+    <Text ID="4494" Value="Suomi"/>
+    <Text ID="4495" Value="Italiano"/>
+    <Text ID="100073" Value="Label"/>
+    <Text ID="118505" Value="Dutch"/>
+    <Text ID="186290" Value="Spanish"/>
+    <Text ID="335110" Value="Norsk"/>
+    <Text ID="358147" Value="Russian"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="1358" Value=""/>
+    <Text ID="1359" Value=""/>
+    <Text ID="2654" Value=""/>
+    <Text ID="4492" Value=""/>
+    <Text ID="4493" Value=""/>
+    <Text ID="4494" Value=""/>
+    <Text ID="4495" Value=""/>
+    <Text ID="100073" Value=""/>
+    <Text ID="118505" Value=""/>
+    <Text ID="186290" Value=""/>
+    <Text ID="335110" Value=""/>
+    <Text ID="358147" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1358" Value="1"/>
+    <Index ID="1359" Value="3"/>
+    <Index ID="2654" Value="4"/>
+    <Index ID="4492" Value="6"/>
+    <Index ID="4493" Value="2"/>
+    <Index ID="4494" Value="9"/>
+    <Index ID="4495" Value="5"/>
+    <Index ID="100073" Value="0"/>
+    <Index ID="118505" Value="7"/>
+    <Index ID="186290" Value="8"/>
+    <Index ID="335110" Value="11"/>
+    <Index ID="358147" Value="10"/>
+  </IndexMap>
+</TextGroup>

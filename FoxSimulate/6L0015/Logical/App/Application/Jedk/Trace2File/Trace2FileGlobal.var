@@ -1,0 +1,3 @@
+VAR
+	T2FD : Trace2File_Data_Type := (0);
+END_VAR

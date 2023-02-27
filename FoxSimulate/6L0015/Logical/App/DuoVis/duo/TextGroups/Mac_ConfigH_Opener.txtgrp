@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigH_Opener">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="27"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="309475" Value="Delay lift time"/>
+    <Text ID="309476" Value="Delay hanger clamp"/>
+    <Text ID="309477" Value="Hanger reset time"/>
+    <Text ID="309478" Value="Slide out time"/>
+    <Text ID="309479" Value="Delay hanger reset"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Run time after garment left"/>
+    <Text ID="450504" Value="Pajamas, motor run time"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="468054" Value="KG -  Delay set Clamp"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="309475" Value="Verzoegerung hebezeit"/>
+    <Text ID="309476" Value="Verzoegerung Buegel-klammer"/>
+    <Text ID="309477" Value="Buegel ruecksetzzeit"/>
+    <Text ID="309478" Value="Ausgleitzeit aus zeit"/>
+    <Text ID="309479" Value="Verzoegerung Buegel ruecksetzen"/>
+    <Text ID="309490" Value="msek"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Laufzeit nachdem die Waesche verlassen hat"/>
+    <Text ID="450504" Value="Nachthemden, motor lauf zeit"/>
+    <Text ID="450505" Value="Nachthemden, verzoegerung neustart"/>
+    <Text ID="468054" Value="KG -  Delay set Clamp"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="309475" Value="Delay lift time"/>
+    <Text ID="309476" Value="Delay hanger clamp"/>
+    <Text ID="309477" Value="Hanger reset time"/>
+    <Text ID="309478" Value="Slide out time"/>
+    <Text ID="309479" Value="Delay hanger reset"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Run time after garment left"/>
+    <Text ID="450504" Value="Pajamas, motor run time"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="468054" Value="KG -  Delay set Clamp"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="309475" Value="Retard durée de levage"/>
+    <Text ID="309476" Value="Retard pince de cintre"/>
+    <Text ID="309477" Value="Durée réinitialisation cintre"/>
+    <Text ID="309478" Value="Durée de sortie"/>
+    <Text ID="309479" Value="Retard réinitialisation cintre"/>
+    <Text ID="309490" Value="ms"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Durée de fonctionnement après départ vêtement"/>
+    <Text ID="450504" Value="Pyjamas, durée fonctionnement moteur"/>
+    <Text ID="450505" Value="Pyjamas, retard redémarrage"/>
+    <Text ID="468054" Value="KG -  Retard réglage pince"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="309475" Value="Forsinkelse løftetid"/>
+    <Text ID="309476" Value="Forsinkelse bøjleklemme"/>
+    <Text ID="309477" Value="Bøjle reset tid"/>
+    <Text ID="309478" Value="Tid for udkøring"/>
+    <Text ID="309479" Value="Forsinkelse bøjle reset"/>
+    <Text ID="309490" Value="msek"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Køretid efter tøj forsvundet"/>
+    <Text ID="450504" Value="Pajamas, motor run time"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="468054" Value="KG -  Delay set Clamp"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="309475" Value="Ritardo Alzamento"/>
+    <Text ID="309476" Value="Ritardo "/>
+    <Text ID="309477" Value="Tempo reset Gruccia"/>
+    <Text ID="309478" Value="Tempo Scivolamento"/>
+    <Text ID="309479" Value="Ritardo reset Gruccia"/>
+    <Text ID="309490" Value="millisec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Tempo funzionamento dopo passaggio indumento"/>
+    <Text ID="450504" Value="Pajamas, tempo funzionamento motore"/>
+    <Text ID="450505" Value="Pajamas, ritardo ripartenza"/>
+    <Text ID="468054" Value="KG -  Delay set Clamp"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="309475" Value="Delay lift time"/>
+    <Text ID="309476" Value="Delay hanger clamp"/>
+    <Text ID="309477" Value="Hanger reset time"/>
+    <Text ID="309478" Value="Slide out time"/>
+    <Text ID="309479" Value="Delay hanger reset"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Run time after garment left"/>
+    <Text ID="450504" Value="Pajamas, motor run time"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="468054" Value="KG -  Delay set Clamp"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="309475" Value="Vertraging heftijd"/>
+    <Text ID="309476" Value="Vertraging hangerklem"/>
+    <Text ID="309477" Value="Hangerresettijd"/>
+    <Text ID="309478" Value="Uitschuiftijd"/>
+    <Text ID="309479" Value="Vertraging hangerreset"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Looptijd na kledingstuk links"/>
+    <Text ID="450504" Value="Pyjama's, motorlooptijd"/>
+    <Text ID="450505" Value="Pyjama's, vertraging herstart"/>
+    <Text ID="468054" Value="KG -  vertraging ingestelde klem"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="309475" Value="Retardo para elevar la Unidad de descarga"/>
+    <Text ID="309476" Value="Retardo de la pinza agarre percha"/>
+    <Text ID="309477" Value="Tiempo reseteo percha"/>
+    <Text ID="309478" Value="Tiempo salida si hay patinazo"/>
+    <Text ID="309479" Value="Retardo reseteo percha"/>
+    <Text ID="309490" Value="ms"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Tiempo activo después de irse la percha"/>
+    <Text ID="450504" Value="Pijamas: Tiempo funcionamiento motor"/>
+    <Text ID="450505" Value="Pijamas: Retardo reinicio"/>
+    <Text ID="468054" Value="KG - Retardo poner pinzas"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="309475" Value="Czas opóźnienia podnoszenia"/>
+    <Text ID="309476" Value="Opóźnienie zacisków wieszaka"/>
+    <Text ID="309477" Value="Czas resetu wieszaka"/>
+    <Text ID="309478" Value="Czas wysuwania"/>
+    <Text ID="309479" Value="Opóźnienie resetu wieszaka"/>
+    <Text ID="309490" Value="msek"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Czas pracy po wyjściu sztuki odzieży"/>
+    <Text ID="450504" Value="Piżamy, czas pracy silnika"/>
+    <Text ID="450505" Value="Piżamy, opóźnienie ponownego uruchomienia"/>
+    <Text ID="468054" Value="KG - opóźnienie ustawienia zacisków"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="309475" Value=""/>
+    <Text ID="309476" Value=""/>
+    <Text ID="309477" Value=""/>
+    <Text ID="309478" Value=""/>
+    <Text ID="309479" Value=""/>
+    <Text ID="309490" Value=""/>
+    <Text ID="394443" Value=""/>
+    <Text ID="394444" Value=""/>
+    <Text ID="441427" Value=""/>
+    <Text ID="450504" Value=""/>
+    <Text ID="450505" Value=""/>
+    <Text ID="468054" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="309475" Value=""/>
+    <Text ID="309476" Value=""/>
+    <Text ID="309477" Value=""/>
+    <Text ID="309478" Value=""/>
+    <Text ID="309479" Value=""/>
+    <Text ID="309490" Value=""/>
+    <Text ID="394443" Value=""/>
+    <Text ID="394444" Value=""/>
+    <Text ID="441427" Value=""/>
+    <Text ID="450504" Value=""/>
+    <Text ID="450505" Value=""/>
+    <Text ID="468054" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="309475" Value="Czas opóźnienia podnoszenia"/>
+    <Text ID="309476" Value="Opóźnienie zacisków wieszaka"/>
+    <Text ID="309477" Value="Czas resetu wieszaka"/>
+    <Text ID="309478" Value="Czas wysuwania"/>
+    <Text ID="309479" Value="Opóźnienie resetu wieszaka"/>
+    <Text ID="309490" Value="msek"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Czas pracy po wyjściu sztuki odzieży"/>
+    <Text ID="450504" Value="Piżamy, czas pracy silnika"/>
+    <Text ID="450505" Value="Piżamy, opóźnienie ponownego uruchomienia"/>
+    <Text ID="468054" Value="KG - opóźnienie ustawienia zacisków"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="309475" Value="Delay lift time"/>
+    <Text ID="309476" Value="Delay hanger clamp"/>
+    <Text ID="309477" Value="Hanger reset time"/>
+    <Text ID="309478" Value="Slide out time"/>
+    <Text ID="309479" Value="Delay hanger reset"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Run time after garment left"/>
+    <Text ID="450504" Value="Pajamas, motor run time"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="468054" Value="KG -  Delay set Clamp"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="309475" Value="Delay lift time"/>
+    <Text ID="309476" Value="Delay hanger clamp"/>
+    <Text ID="309477" Value="Hanger reset time"/>
+    <Text ID="309478" Value="Slide out time"/>
+    <Text ID="309479" Value="Delay hanger reset"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Run time after garment left"/>
+    <Text ID="450504" Value="Pajamas, motor run time"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="468054" Value="KG -  Delay set Clamp"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="309475" Value="Forsinkelse løftetid"/>
+    <Text ID="309476" Value="Forsinkelse Hengerklemme"/>
+    <Text ID="309477" Value="Henger resett tid"/>
+    <Text ID="309478" Value="Tid for utkjøring"/>
+    <Text ID="309479" Value="Forsinkelse resett henger"/>
+    <Text ID="309490" Value="msek"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Gangtid etter tøy forsvunnet"/>
+    <Text ID="450504" Value="Pajamas, motor run time"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="468054" Value="KG -  Delay set Clamp"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="309475" Value="Tempo de atraso da elevação"/>
+    <Text ID="309476" Value="Atraso do grampo do cabide"/>
+    <Text ID="309477" Value="Tempo de reposição do cabide"/>
+    <Text ID="309478" Value="Tempo de saída"/>
+    <Text ID="309479" Value="Reposição do atraso do cabide"/>
+    <Text ID="309490" Value="ms"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Tempo de funcionamento após saída da peça de roupa"/>
+    <Text ID="450504" Value="Pijamas, tempo de funcionamento do motor"/>
+    <Text ID="450505" Value="Pijamas, reinício do atraso"/>
+    <Text ID="468054" Value="KG - Atraso definido do gancho"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="309475" Value="0"/>
+    <Index ID="309476" Value="1"/>
+    <Index ID="309477" Value="2"/>
+    <Index ID="309478" Value="3"/>
+    <Index ID="309479" Value="4"/>
+    <Index ID="309490" Value="50"/>
+    <Index ID="394443" Value="51"/>
+    <Index ID="394444" Value="52"/>
+    <Index ID="441427" Value="5"/>
+    <Index ID="450504" Value="10"/>
+    <Index ID="450505" Value="11"/>
+    <Index ID="468054" Value="6"/>
+  </IndexMap>
+</TextGroup>

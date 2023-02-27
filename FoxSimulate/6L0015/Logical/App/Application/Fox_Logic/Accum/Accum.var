@@ -1,0 +1,16 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: Accum
+ * File: Accum.var
+ * Author: jspernil
+ * Created: June 22, 2009
+ ********************************************************************
+ * Local variables of program Accum
+ ********************************************************************)
+VAR
+	BlockSystem : FoldIOCounter_Type := (0);
+	AccumStop : Full_Type;
+	OldMetric : oldMetric := (0);
+	INIT_ACCUM : BOOL := FALSE;
+END_VAR

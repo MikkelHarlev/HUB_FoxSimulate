@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="0.30.0" SubType="Binary" Description="XML_Send via Socket Libraray" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>XML_clnt.fun</File>
+    <File>XML_clnt.typ</File>
+    <File>XML_clnt.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="SYS_LIB" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="EthSock" Target="SG4" FromVersion="1.02.0" />
+    <Dependency ObjectName="AsString" Target="SG4" FromVersion="1.01.1" />
+    <Dependency ObjectName="httpUtil" Target="SG4" FromVersion="0.08.0" />
+    <Dependency ObjectName="AsIecCon" />
+    <Dependency ObjectName="AsIODiag" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

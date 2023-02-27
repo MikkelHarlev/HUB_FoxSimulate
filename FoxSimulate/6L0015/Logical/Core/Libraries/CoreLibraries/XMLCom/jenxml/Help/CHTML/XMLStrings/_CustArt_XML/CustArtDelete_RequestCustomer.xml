@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<methodCall>
+    <methodName>CustArtDelete</methodName>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>option</name>
+                    <value>
+                        <base64>Q3VzdG9tZXI=</base64>
+                    </value>
+                </member>
+                <member>
+                    <name>CuName</name>
+                    <value>
+                        <base64>"Customer Name"</base64>
+                    </value>
+                </member>
+                <member>
+                    <name>CuNumber</name>
+                    <value>
+                        <int>"Customer Number"</int>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodCall>

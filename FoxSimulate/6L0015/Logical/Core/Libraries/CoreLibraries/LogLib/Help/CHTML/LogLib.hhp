@@ -1,0 +1,38 @@
+[OPTIONS]
+Auto Index=Yes
+Binary TOC=No
+Binary Index=Yes
+Compatibility=1.1
+Compiled file=LibLogLib.chm
+Contents file=LogLib.hhc
+Default topic=LogLib.html
+Index file=LogLib.hhk
+Language=0x409 English (United States)
+Title=LogLib
+Full-text search=Yes
+Default window=main
+[WINDOWS]
+main=,"LogLib.hhc","LogLib.hhk","LogLib.html","LogLib.html",,,,,0x23520,222,0x1046,[10,10,780,560],0xB0000,,,,,,0
+[FILES]
+styles.css
+LogLib.html
+General\C-Informations.html
+General\General.html
+General\Requirements.html
+General\History.html
+General\Status Numbers.html
+FBKs\LogInit.html
+FBKs\LogRead.html
+FBKs\LogSetLineRead.html
+FBKs\LogStore.html
+FBKs\LogWrite.html
+FBKs\FBKs.html
+Samples\Samples.html
+Samples\AB\AB.html
+Samples\AB\ex_ab_CalcChecksum.html
+Samples\ST\ex_st_LogInit.html
+Samples\ST\ex_st_LogRead.html
+Samples\ST\ex_st_LogSetLineRead.html
+Samples\ST\ex_st_LogStore.html
+Samples\ST\ex_st_LogWrite.html
+Samples\ST\ST.html

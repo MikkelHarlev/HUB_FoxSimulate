@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Numbers">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="62"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="470623" Value=""/>
+    <Text ID="470624" Value=""/>
+    <Text ID="470625" Value=""/>
+    <Text ID="470626" Value=""/>
+    <Text ID="470627" Value=""/>
+    <Text ID="470628" Value=""/>
+    <Text ID="470629" Value=""/>
+    <Text ID="470630" Value=""/>
+    <Text ID="470631" Value=""/>
+    <Text ID="470632" Value=""/>
+    <Text ID="470633" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="470623" Value=""/>
+    <Text ID="470624" Value=""/>
+    <Text ID="470625" Value=""/>
+    <Text ID="470626" Value=""/>
+    <Text ID="470627" Value=""/>
+    <Text ID="470628" Value=""/>
+    <Text ID="470629" Value=""/>
+    <Text ID="470630" Value=""/>
+    <Text ID="470631" Value=""/>
+    <Text ID="470632" Value=""/>
+    <Text ID="470633" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="470623" Value="0"/>
+    <Text ID="470624" Value="8"/>
+    <Text ID="470625" Value="7"/>
+    <Text ID="470626" Value="6"/>
+    <Text ID="470627" Value="5"/>
+    <Text ID="470628" Value="4"/>
+    <Text ID="470629" Value="3"/>
+    <Text ID="470630" Value="2"/>
+    <Text ID="470631" Value="1"/>
+    <Text ID="470632" Value="9"/>
+    <Text ID="470633" Value="10"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="470623" Value="0"/>
+    <Index ID="470624" Value="8"/>
+    <Index ID="470625" Value="7"/>
+    <Index ID="470626" Value="6"/>
+    <Index ID="470627" Value="5"/>
+    <Index ID="470628" Value="4"/>
+    <Index ID="470629" Value="3"/>
+    <Index ID="470630" Value="2"/>
+    <Index ID="470631" Value="1"/>
+    <Index ID="470632" Value="9"/>
+    <Index ID="470633" Value="10"/>
+  </IndexMap>
+</TextGroup>

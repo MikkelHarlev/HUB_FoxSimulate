@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="BatteryState">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="14"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1360" Value="Battery empty or not present"/>
+    <Text ID="1361" Value="Battery OK"/>
+    <Text ID="1362" Value="Battery test not possible"/>
+    <Text ID="1363" Value="Battery missing"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="1360" Value="Batterie leer oder nicht vorhanden"/>
+    <Text ID="1361" Value="Batterie OK"/>
+    <Text ID="1362" Value="Batterie Test nicht möglich"/>
+    <Text ID="1363" Value="Batterie nicht vorhanden"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="1360" Value="Batteri saknas eller tomt"/>
+    <Text ID="1361" Value="Batteri OK"/>
+    <Text ID="1362" Value="Batteri test ej möjligt"/>
+    <Text ID="1363" Value="Batteri saknas"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="1360" Value="Batterie vide ou absente"/>
+    <Text ID="1361" Value="Batterie OK"/>
+    <Text ID="1362" Value="Test batterie impossible"/>
+    <Text ID="1363" Value="Batterie absente"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="1360" Value="Batteri tomt eller fjernet"/>
+    <Text ID="1361" Value="Batteri OK"/>
+    <Text ID="1362" Value="Batteri test ikke mulig"/>
+    <Text ID="1363" Value="Batteri mangler"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="1360" Value="Batteria esaurita"/>
+    <Text ID="1361" Value="Batteria OK"/>
+    <Text ID="1362" Value="Test batteria non possibile"/>
+    <Text ID="1363" Value="Batteria Mancante"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="1360" Value="Battery empty or not present"/>
+    <Text ID="1361" Value="Battery OK"/>
+    <Text ID="1362" Value="Battery test not possible"/>
+    <Text ID="1363" Value="Battery missing"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="1360" Value="Batterij ontladen or not present"/>
+    <Text ID="1361" Value="Batterij OK"/>
+    <Text ID="1362" Value="Batterij fout"/>
+    <Text ID="1363" Value="Batterij niet aanwezig"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="1360" Value="Batería vacía o ausente"/>
+    <Text ID="1361" Value="Batería OK"/>
+    <Text ID="1362" Value="Prueba de batería no posible"/>
+    <Text ID="1363" Value="Batería ausente"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="1360" Value="Bateria rozładowana lub jej brak"/>
+    <Text ID="1361" Value="Bateria OK"/>
+    <Text ID="1362" Value="Test baterii jest niemożliwy"/>
+    <Text ID="1363" Value="Brak baterii"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="1360" Value=""/>
+    <Text ID="1361" Value=""/>
+    <Text ID="1362" Value=""/>
+    <Text ID="1363" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="1360" Value=""/>
+    <Text ID="1361" Value=""/>
+    <Text ID="1362" Value=""/>
+    <Text ID="1363" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1360" Value="Bateria rozładowana lub jej brak"/>
+    <Text ID="1361" Value="Bateria OK"/>
+    <Text ID="1362" Value="Test baterii jest niemożliwy"/>
+    <Text ID="1363" Value="Brak baterii"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="1360" Value="Battery empty or not present"/>
+    <Text ID="1361" Value="Battery OK"/>
+    <Text ID="1362" Value="Battery test not possible"/>
+    <Text ID="1363" Value="Battery missing"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="1360" Value="Battery empty or not present"/>
+    <Text ID="1361" Value="Battery OK"/>
+    <Text ID="1362" Value="Battery test not possible"/>
+    <Text ID="1363" Value="Battery missing"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="1360" Value="Batteri flatt eller fjernet"/>
+    <Text ID="1361" Value="Batteri OK"/>
+    <Text ID="1362" Value="Batteri test ikke mulig"/>
+    <Text ID="1363" Value="Batteri mangler"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="1360" Value="Battery empty or not present"/>
+    <Text ID="1361" Value="Battery OK"/>
+    <Text ID="1362" Value="Battery test not possible"/>
+    <Text ID="1363" Value="Battery missing"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1360" Value="0"/>
+    <Index ID="1361" Value="1"/>
+    <Index ID="1362" Value="2"/>
+    <Index ID="1363" Value="3"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC" Description="Folder Setup">config</Object>
+    <Object Type="Program" Language="IEC">settingstrig</Object>
+    <Object Type="Program" Language="IEC" Description="Optext And Alarm Handling">main</Object>
+    <Object Type="Program" Language="IEC" Description="Checks IOs to determine options">check_IO</Object>
+    <Object Type="Program" Language="IEC" Description="Configuration of visible timers">TimerVisibility</Object>
+    <Object Type="Program" Language="IEC" Description="Simulation">Simulation</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,14 @@
+(********************************************************************
+ * COPYRIGHT -- IT
+ ********************************************************************
+ * Program: FeedTyp
+ * File: FeedTyp.var
+ * Author: mariw
+ * Created: June 14, 2011
+ ********************************************************************
+ * Local variables of program FeedTyp
+ ********************************************************************)
+VAR
+	ViewKeyConfigWindowTimer : TON := (0);
+	PageFeedType : UINT;
+END_VAR

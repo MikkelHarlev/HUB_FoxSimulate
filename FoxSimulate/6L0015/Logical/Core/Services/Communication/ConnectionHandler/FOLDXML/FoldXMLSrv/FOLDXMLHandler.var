@@ -1,0 +1,15 @@
+VAR
+	No : USINT;
+	pThis : REFERENCE TO XMLRPCFold_Type;
+	HandleNewInstances : USINT;
+	serverStartusRefreshTime : UINT;
+	clientStartusRefreshTime : UINT;
+	serverAdr : STRING[21];
+	connectionID : USINT;
+	enableBASE64 : BOOL;
+	newInstanceNo : USINT;
+	pConnection : REFERENCE TO XMLComServiceInterfaceCon_Type;
+	maxLoop : USINT;
+	OldRefreshTime : ARRAY[0..9] OF UINT;
+	pConnectionManager : REFERENCE TO XMLRPCCL_Type;
+END_VAR

@@ -1,0 +1,14 @@
+(********************************************************************
+ * COPYRIGHT -- JENSEN Denmark A/S
+ ********************************************************************
+ * Program: CMTest
+ * File: CMTest.var
+ * Author: eg
+ * Created: June 13, 2013
+ ********************************************************************
+ * Local variables of program CMTest
+ ********************************************************************)
+VAR
+	getConnectionIdent_0 : getConnectionIdent;
+	linkID : UINT;
+END_VAR

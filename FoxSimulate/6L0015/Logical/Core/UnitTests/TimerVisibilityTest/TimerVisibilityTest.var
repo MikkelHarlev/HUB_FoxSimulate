@@ -1,0 +1,24 @@
+(********************************************************************
+ * COPYRIGHT -- JENSEN Denmark A/S
+ ********************************************************************
+ * Program: TimerVisibilityTest
+ * File: TimerVisibilityTest.var
+ * Author: eg
+ * Created: July 31, 2013
+ ********************************************************************
+ * Local variables of program TimerVisibilityTest
+ ********************************************************************)
+VAR
+	strParItem : STRING[200];
+	i : INT;
+	noOfTestRuns : INT;
+	newParLevel : USINT;
+	TestParList : BOOL;
+	RcpShowLevel_0 : RcpShowLevel;
+	triggerCounter : UINT;
+	strI : STRING[10];
+	tmpString : STRING[200];
+	x : INT;
+	y : INT;
+	z : INT;
+END_VAR

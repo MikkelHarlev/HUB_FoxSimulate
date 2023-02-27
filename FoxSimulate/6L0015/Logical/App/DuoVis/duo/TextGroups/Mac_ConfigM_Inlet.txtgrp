@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigM_Inlet">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="55"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="463358" Value="Test- Parameter Manual Inlet"/>
+    <Text ID="468525" Value="Timeout reach Inlet-Upper-Photocell "/>
+    <Text ID="468526" Value="Timeout reach End of Infeed Belt"/>
+    <Text ID="468527" Value="Delay Start Inlet Belt after Button Push"/>
+    <Text ID="468528" Value="Delay Auto Start Inlet Belt - No Push Button "/>
+    <Text ID="468529" Value="Select Mode"/>
+    <Text ID="469313" Value="Auto"/>
+    <Text ID="469314" Value="Manual"/>
+    <Text ID="471230" Value="Manual : Button Push"/>
+    <Text ID="472445" Value="Timeout reach Middle of Infeed Belt"/>
+    <Text ID="472446" Value="Infeed Belt AirBlast Start Delay"/>
+    <Text ID="472447" Value="Infeed Belt AirBlast OnTime"/>
+    <Text ID="474107" Value="Button Sensitivity - Reaction Time "/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="463358" Value="Test- Parameter Manueller Einlauf"/>
+    <Text ID="468525" Value="Zeitueberschr. zum erreichen der oberen einlauf fotozelle Inlet-Upper-Photocell "/>
+    <Text ID="468526" Value="Zeitueberschr. erreichen vom ende des einlaufgurtes"/>
+    <Text ID="468527" Value="Verzoegerung start einlaufband nach knopfdruck"/>
+    <Text ID="468528" Value="Verzoeg. Auto-Start Einlauf - keine Knopfbetaet. "/>
+    <Text ID="468529" Value="Start eingeben"/>
+    <Text ID="469313" Value="Auto"/>
+    <Text ID="469314" Value="Manuell "/>
+    <Text ID="471230" Value="Manuell: Knopfdruck"/>
+    <Text ID="472445" Value="Zeitueberschr. Erreichen der mitte des eilaufgurtes"/>
+    <Text ID="472446" Value="Einlauf Startverzoeg. Blasen"/>
+    <Text ID="472447" Value="Einlauf blasen An-Zeit"/>
+    <Text ID="474107" Value="Tasten sensibilitaet - Reaktionszeit"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="463358" Value="Test-Parameter Manuell Inmatning"/>
+    <Text ID="468525" Value="Övertid galginmatning övre fotocell"/>
+    <Text ID="468526" Value="Övertid galgtranport slut"/>
+    <Text ID="468527" Value="Startfördröjning inmatningsconveyer efter tryckknapp"/>
+    <Text ID="468528" Value="Fördröjning automatisk start galgtransport"/>
+    <Text ID="468529" Value="Start inmatning"/>
+    <Text ID="469313" Value="Automatisk"/>
+    <Text ID="469314" Value="Manuell"/>
+    <Text ID="471230" Value="Manuell : Tryckknapp"/>
+    <Text ID="472445" Value="Övertid galge mitten transport"/>
+    <Text ID="472446" Value="Inmatning fördröjning luftblås"/>
+    <Text ID="472447" Value="Inmatning luftblås till"/>
+    <Text ID="474107" Value="Button Sensitivity - Reaction Time "/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="463358" Value="Test- paramètres entrée manuelle"/>
+    <Text ID="468525" Value="Temporisation atteinte entrée cellule photoél. supérieure "/>
+    <Text ID="468526" Value="Temporisation atteinte fin de courroie d'engagement"/>
+    <Text ID="468527" Value="Retard démarrage courroie d'entrée après appui sur bouton"/>
+    <Text ID="468528" Value="Retard démarrage auto courroie d'entrée - pas de bouton-poussoir "/>
+    <Text ID="468529" Value="Sélectionner mode"/>
+    <Text ID="469313" Value="Auto"/>
+    <Text ID="469314" Value="Manuel"/>
+    <Text ID="471230" Value="Manuel : appui sur bouton"/>
+    <Text ID="472445" Value="Temporisation atteinte milieu de courroie d'engagement"/>
+    <Text ID="472446" Value="Retard démarrage soufflerie courroie d'engagement"/>
+    <Text ID="472447" Value="Durée activ. soufflerie courroie d'engagement"/>
+    <Text ID="474107" Value="Sensibilité bouton - temps de réaction "/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="463358" Value="Test- Parameter Manual Inlet"/>
+    <Text ID="468525" Value="Timeout reach Inlet-Upper-Photocell "/>
+    <Text ID="468526" Value="Timeout reach End of Infeed Belt"/>
+    <Text ID="468527" Value="Delay Start Inlet Belt after Button Push"/>
+    <Text ID="468528" Value="Delay Auto Start Inlet Belt - No Push Button "/>
+    <Text ID="468529" Value="Start Feeding"/>
+    <Text ID="469313" Value="Auto"/>
+    <Text ID="469314" Value="Manual"/>
+    <Text ID="471230" Value="Manual : Button Push"/>
+    <Text ID="472445" Value="Timeout reach Middle of Infeed Belt"/>
+    <Text ID="472446" Value="Infeed Belt AirBlast Start Delay"/>
+    <Text ID="472447" Value="Infeed Belt AirBlast OnTime"/>
+    <Text ID="474107" Value="Button Sensitivity - Reaction Time "/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="463358" Value="Test- Parameter Manual Inlet"/>
+    <Text ID="468525" Value="Timeout reach Inlet-Upper-Photocell "/>
+    <Text ID="468526" Value="Timeout reach End of Infeed Belt"/>
+    <Text ID="468527" Value="Delay Start Inlet Belt after Button Push"/>
+    <Text ID="468528" Value="Delay Auto Start Inlet Belt - No Push Button "/>
+    <Text ID="468529" Value="Start Feeding"/>
+    <Text ID="469313" Value="Auto"/>
+    <Text ID="469314" Value="Manual"/>
+    <Text ID="471230" Value="Manual : Button Push"/>
+    <Text ID="472445" Value="Timeout reach Middle of Infeed Belt"/>
+    <Text ID="472446" Value="Infeed Belt AirBlast Start Delay"/>
+    <Text ID="472447" Value="Infeed Belt AirBlast OnTime"/>
+    <Text ID="474107" Value="Button Sensitivity - Reaction Time "/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="463358" Value="Test- Parameter Manual Inlet"/>
+    <Text ID="468525" Value="Timeout reach Inlet-Upper-Photocell "/>
+    <Text ID="468526" Value="Timeout reach End of Infeed Belt"/>
+    <Text ID="468527" Value="Delay Start Inlet Belt after Button Push"/>
+    <Text ID="468528" Value="Delay Auto Start Inlet Belt - No Push Button "/>
+    <Text ID="468529" Value="Start Feeding"/>
+    <Text ID="469313" Value="Auto"/>
+    <Text ID="469314" Value="Manual"/>
+    <Text ID="471230" Value="Manual : Button Push"/>
+    <Text ID="472445" Value="Timeout reach Middle of Infeed Belt"/>
+    <Text ID="472446" Value="Infeed Belt AirBlast Start Delay"/>
+    <Text ID="472447" Value="Infeed Belt AirBlast OnTime"/>
+    <Text ID="474107" Value="Button Sensitivity - Reaction Time "/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="463358" Value="Test- parameter handmatige invoer"/>
+    <Text ID="468525" Value="Timeout bereiken invoer-bovenste fotocel"/>
+    <Text ID="468526" Value="Timeout bereiken einde invoerconveyor"/>
+    <Text ID="468527" Value="Vertraging starten invoerconv. na startkn. drukken"/>
+    <Text ID="468528" Value="Vertraging starten invoerconv. - bij geen startknop"/>
+    <Text ID="468529" Value="Start invoer"/>
+    <Text ID="469313" Value="Automatisch"/>
+    <Text ID="469314" Value="Handbediening"/>
+    <Text ID="471230" Value="Handmatig: Knop indrukken"/>
+    <Text ID="472445" Value="Timeout bereiken midden van aanvoerband"/>
+    <Text ID="472446" Value="Vertraging blazen invoerband"/>
+    <Text ID="472447" Value="Blaastijd blazen invoerband"/>
+    <Text ID="474107" Value="Knopgevoeligheid - reactietijd "/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="463358" Value="Test- Parametros entrada manual"/>
+    <Text ID="468525" Value="Tiempo de espera alcanzar fotocélula superior en entrada"/>
+    <Text ID="468526" Value="Tiempo de espera alcanzar fin de cinta alimentación"/>
+    <Text ID="468527" Value="Retardo cinta inicio después de pulsar botón"/>
+    <Text ID="468528" Value="Retardo autoinicio cinta de entrada - Sin pulsar botón"/>
+    <Text ID="468529" Value="Tipo activación al colocar prenda"/>
+    <Text ID="469313" Value="Automático"/>
+    <Text ID="469314" Value="Manual"/>
+    <Text ID="471230" Value="Manual : Pulsar botón"/>
+    <Text ID="472445" Value="Tiempo de espera alcanzar el medio de cinta alimentación"/>
+    <Text ID="472446" Value="Retardo soplado en cinta alimentación"/>
+    <Text ID="472447" Value="Tiempo activo soplado en cinta alimentación"/>
+    <Text ID="474107" Value="Sensitividad botón - Tiempo de reacción"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="463358" Value="Parametr testowy ręczny wlot"/>
+    <Text ID="468525" Value="Limit czasowy dotarcia do górnej fotokomórki na wlocie "/>
+    <Text ID="468526" Value="Limit czasowy dotarcia do końca taśmy wprowadzającej"/>
+    <Text ID="468527" Value="Opóźnienie startu taśmy wprowadzającej po naciśnięciu przycisku"/>
+    <Text ID="468528" Value="Opóźnienie automatycznego uruchomienia taśmy wprowadzającej - nie naciśnięto przycisku "/>
+    <Text ID="468529" Value="Wybierz tryb"/>
+    <Text ID="469313" Value="Automat."/>
+    <Text ID="469314" Value="Ręczny"/>
+    <Text ID="471230" Value="Ręczny: Naciśnięcie przycisku"/>
+    <Text ID="472445" Value="Limit czasowy dotarcia do środka taśmy wprowadzającej"/>
+    <Text ID="472446" Value="Opóźnienie uruchomienia nadmuchu powietrza na taśmę wprowadzającą"/>
+    <Text ID="472447" Value="Czas pracy nadmuchu powietrza na taśmę wprowadzającą"/>
+    <Text ID="474107" Value="Czułość przycisku - czas reakcji "/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="463358" Value=""/>
+    <Text ID="468525" Value=""/>
+    <Text ID="468526" Value=""/>
+    <Text ID="468527" Value=""/>
+    <Text ID="468528" Value=""/>
+    <Text ID="468529" Value=""/>
+    <Text ID="469313" Value=""/>
+    <Text ID="469314" Value=""/>
+    <Text ID="471230" Value=""/>
+    <Text ID="472445" Value=""/>
+    <Text ID="472446" Value=""/>
+    <Text ID="472447" Value=""/>
+    <Text ID="474107" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="463358" Value=""/>
+    <Text ID="468525" Value=""/>
+    <Text ID="468526" Value=""/>
+    <Text ID="468527" Value=""/>
+    <Text ID="468528" Value=""/>
+    <Text ID="468529" Value=""/>
+    <Text ID="469313" Value=""/>
+    <Text ID="469314" Value=""/>
+    <Text ID="471230" Value=""/>
+    <Text ID="472445" Value=""/>
+    <Text ID="472446" Value=""/>
+    <Text ID="472447" Value=""/>
+    <Text ID="474107" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="463358" Value="Parametr testowy ręczny wlot"/>
+    <Text ID="468525" Value="Limit czasowy dotarcia do górnej fotokomórki na wlocie "/>
+    <Text ID="468526" Value="Limit czasowy dotarcia do końca taśmy wprowadzającej"/>
+    <Text ID="468527" Value="Opóźnienie startu taśmy wprowadzającej po naciśnięciu przycisku"/>
+    <Text ID="468528" Value="Opóźnienie automatycznego uruchomienia taśmy wprowadzającej - nie naciśnięto przycisku "/>
+    <Text ID="468529" Value="Wybierz tryb"/>
+    <Text ID="469313" Value="Automat."/>
+    <Text ID="469314" Value="Ręczny"/>
+    <Text ID="471230" Value="Ręczny: Naciśnięcie przycisku"/>
+    <Text ID="472445" Value="Limit czasowy dotarcia do środka taśmy wprowadzającej"/>
+    <Text ID="472446" Value="Opóźnienie uruchomienia nadmuchu powietrza na taśmę wprowadzającą"/>
+    <Text ID="472447" Value="Czas pracy nadmuchu powietrza na taśmę wprowadzającą"/>
+    <Text ID="474107" Value="Czułość przycisku - czas reakcji "/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="463358" Value="Test- Parameter Manual Inlet"/>
+    <Text ID="468525" Value="Timeout reach Inlet-Upper-Photocell "/>
+    <Text ID="468526" Value="Timeout reach End of Infeed Belt"/>
+    <Text ID="468527" Value="Delay Start Inlet Belt after Button Push"/>
+    <Text ID="468528" Value="Delay Auto Start Inlet Belt - No Push Button "/>
+    <Text ID="468529" Value="Start Feeding"/>
+    <Text ID="469313" Value="Auto"/>
+    <Text ID="469314" Value="Manual"/>
+    <Text ID="471230" Value="Manual : Button Push"/>
+    <Text ID="472445" Value="Timeout reach Middle of Infeed Belt"/>
+    <Text ID="472446" Value="Infeed Belt AirBlast Start Delay"/>
+    <Text ID="472447" Value="Infeed Belt AirBlast OnTime"/>
+    <Text ID="474107" Value="Button Sensitivity - Reaction Time "/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="463358" Value="Test- Parameter Manual Inlet"/>
+    <Text ID="468525" Value="Timeout reach Inlet-Upper-Photocell "/>
+    <Text ID="468526" Value="Timeout reach End of Infeed Belt"/>
+    <Text ID="468527" Value="Delay Start Inlet Belt after Button Push"/>
+    <Text ID="468528" Value="Delay Auto Start Inlet Belt - No Push Button "/>
+    <Text ID="468529" Value="Start Feeding"/>
+    <Text ID="469313" Value="Auto"/>
+    <Text ID="469314" Value="Manual"/>
+    <Text ID="471230" Value="Manual : Button Push"/>
+    <Text ID="472445" Value="Timeout reach Middle of Infeed Belt"/>
+    <Text ID="472446" Value="Infeed Belt AirBlast Start Delay"/>
+    <Text ID="472447" Value="Infeed Belt AirBlast OnTime"/>
+    <Text ID="474107" Value="Button Sensitivity - Reaction Time "/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="463358" Value="Test- Parameter Manual Inlet"/>
+    <Text ID="468525" Value="Timeout reach Inlet-Upper-Photocell "/>
+    <Text ID="468526" Value="Timeout reach End of Infeed Belt"/>
+    <Text ID="468527" Value="Delay Start Inlet Belt after Button Push"/>
+    <Text ID="468528" Value="Delay Auto Start Inlet Belt - No Push Button "/>
+    <Text ID="468529" Value="Start Feeding"/>
+    <Text ID="469313" Value="Auto"/>
+    <Text ID="469314" Value="Manual"/>
+    <Text ID="471230" Value="Manual : Button Push"/>
+    <Text ID="472445" Value="Timeout reach Middle of Infeed Belt"/>
+    <Text ID="472446" Value="Infeed Belt AirBlast Start Delay"/>
+    <Text ID="472447" Value="Infeed Belt AirBlast OnTime"/>
+    <Text ID="474107" Value="Button Sensitivity - Reaction Time "/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="463358" Value="Parâmetro de teste da entrada manual"/>
+    <Text ID="468525" Value="Tempo limite excedido na fotocélula superior da entrada "/>
+    <Text ID="468526" Value="Tempo limite excedido no final da correia de alimentação"/>
+    <Text ID="468527" Value="Atraso inicial da correia de entrada após carregamento do botão"/>
+    <Text ID="468528" Value="Atraso no início automático da correia de entrada - Sem botão "/>
+    <Text ID="468529" Value="Selecionar modo"/>
+    <Text ID="469313" Value="Auto"/>
+    <Text ID="469314" Value="Manual"/>
+    <Text ID="471230" Value="Manual: Carregamento do botão"/>
+    <Text ID="472445" Value="Tempo limite excedido no meio da correia de alimentação"/>
+    <Text ID="472446" Value="Atraso inicial do ar a jacto da correia de entrada"/>
+    <Text ID="472447" Value="Tempo de funcionamento do ar a jacto da correia de entrada"/>
+    <Text ID="474107" Value="Sensibilidade do botão - Tempo de reação "/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="463358" Value="0"/>
+    <Index ID="468525" Value="3"/>
+    <Index ID="468526" Value="4"/>
+    <Index ID="468527" Value="2"/>
+    <Index ID="468528" Value="7"/>
+    <Index ID="468529" Value="6"/>
+    <Index ID="469313" Value="10"/>
+    <Index ID="469314" Value="11"/>
+    <Index ID="471230" Value="1"/>
+    <Index ID="472445" Value="5"/>
+    <Index ID="472446" Value="8"/>
+    <Index ID="472447" Value="9"/>
+    <Index ID="474107" Value="12"/>
+  </IndexMap>
+</TextGroup>

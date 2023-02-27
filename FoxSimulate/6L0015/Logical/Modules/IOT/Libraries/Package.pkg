@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Library" Language="binary" Description="These function blocks can be used to resolve both IP addresses and domain names.">AsHost</Object>
+    <Object Type="Library" Language="binary" Description="The ArEventLog library can be used to collect additional error information and for further processing.">ArEventLog</Object>
+    <Object Type="Library" Language="binary" Description="This library integrates mathematical functions such as angle functions, rounding off, etc. into the program.">AsBrMath</Object>
+    <Object Type="Library" Language="Binary" Description="IoT">IotMqtt</Object>
+    <Object Type="Library" Language="binary" Description="This library contains FBKs for sending email over an SMTP (Simple Mail Transfer Protocol) server.">AsSMTP</Object>
+    <Object Type="Library" Language="ANSIC">peek</Object>
+    <Object Type="Library" Language="ANSIC">AzureUtils</Object>
+    <Object Type="Library" Language="Binary">BRSE_RTK</Object>
+    <Object Type="Library" Language="IEC">DiffCount</Object>
+  </Objects>
+</Package>

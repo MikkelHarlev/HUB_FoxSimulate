@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Warnings">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="5"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2769" Value="Source[local].Bitmap[B_116x102_Warning_Damage]"/>
+    <BitmapRef ID="2770" Value="Source[local].Bitmap[B_116x102_Warning_]"/>
+    <BitmapRef ID="2772" Value="Source[local].Bitmap[B_116x102_Warning_BatteryEmpty]"/>
+    <BitmapRef ID="2773" Value="Source[local].Bitmap[B_116x102_Warning_EStop]"/>
+    <BitmapRef ID="2775" Value="Source[local].Bitmap[B_116x102_Warning_BackYellow]"/>
+    <BitmapRef ID="2776" Value="Source[local].Bitmap[B_116x102_Warning_Temperature]"/>
+    <BitmapRef ID="2777" Value="Source[local].Bitmap[B_116x102_Warning_Power]"/>
+    <BitmapRef ID="6021" Value="None"/>
+    <BitmapRef ID="6044" Value="Source[local].Bitmap[TransLayer]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2769" Value="6"/>
+    <Index ID="2770" Value="2"/>
+    <Index ID="2772" Value="7"/>
+    <Index ID="2773" Value="3"/>
+    <Index ID="2775" Value="0"/>
+    <Index ID="2776" Value="4"/>
+    <Index ID="2777" Value="5"/>
+    <Index ID="6021" Value="1"/>
+    <Index ID="6044" Value="20"/>
+  </IndexMap>
+</BitmapGroup>

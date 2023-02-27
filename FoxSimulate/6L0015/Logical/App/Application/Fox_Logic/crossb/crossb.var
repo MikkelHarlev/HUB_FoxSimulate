@@ -1,0 +1,31 @@
+VAR CONSTANT
+	MACHPROC_WAIT_FOR_LEAD_EDGE_24 : UINT := 24;
+	MACHPROC_WAIT_EVALUATE_23 : UINT := 23;
+	MACHPROC_WAIT_REVERSE_POINT_30 : UINT := 30;
+	MACHPROC_WAIT_REVERSE_START_29 : UINT := 29;
+	MACHPROC_WAIT_EXIT_START_40 : UINT := 40;
+	MACHPROC_WAIT_REVERSE_FOLD_28 : UINT := 28;
+END_VAR
+VAR
+	LocalFoldProgram : REFERENCE TO RCfg_Type;
+	TmpStr : STRING[41];
+	StackerParameters : ParametersStacker_Type;
+	i : UINT;
+END_VAR
+VAR CONSTANT
+	OUTLET_STACK_CHANGE_METRICON_3 : UINT := 3;
+	STACK_CHANGE_ARTICLE_DYNAMIC_4 : UINT := 4;
+	STACKER_SECTION_FIX_4 : UINT := 4;
+END_VAR
+VAR
+	FoldPointIsSet : BOOL;
+	LogData_0 : LogData;
+	JamTimeGenerel : UINT;
+	StopMotor : FB_DelayOn;
+	StopXADelay : FB_Delay;
+	TestLogData : BOOL := 0;
+	DisableCrossBLog : BOOL := TRUE;
+	MHATest : ARRAY[0..20] OF UDINT := [21(0)];
+	hasLogged : BOOL := FALSE;
+	FixFoldAdjusting : UINT := 0;
+END_VAR

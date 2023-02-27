@@ -1,0 +1,15 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: BnRXMLRPC
+ * File: BnRXMLRPC.var
+ * Author: eg
+ * Created: April 19, 2012
+ ********************************************************************
+ * Local variables of program BnRXMLRPC
+ ********************************************************************)
+VAR
+	XML_PVs_ident : UDINT;
+	XML_PVs_data : XMLPVsinit_typ;
+	pThis : REFERENCE TO XMLRPCServer_Type;
+END_VAR

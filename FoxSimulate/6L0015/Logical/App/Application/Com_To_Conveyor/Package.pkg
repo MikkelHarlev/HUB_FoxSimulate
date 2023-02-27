@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.4.112?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC" Description="I/O connection to Metricon">MetriconIO</Object>
+    <Object Type="Program" Language="IEC">metricon</Object>
+    <Object Type="Program" Language="IEC" Description="HMI page for XML diagnostics">XML_HMI_Diag</Object>
+    <Object Type="Program" Language="IEC" Description="HMI and util for Printer com">PrinterHMICom</Object>
+    <Object Type="Program" Language="ANSIC" Description="A new program">PrinterXMLCom</Object>
+    <Object Type="Program" Language="IEC" Description="Serial communication with Metricon">MetriconSerial</Object>
+    <Object Type="Program" Language="IEC" Description="Runs serial communication on the fysical layer">Com_bus</Object>
+    <Object Type="Package" Description="Documents for Printer communication">PrinterDoc</Object>
+  </Objects>
+</Package>

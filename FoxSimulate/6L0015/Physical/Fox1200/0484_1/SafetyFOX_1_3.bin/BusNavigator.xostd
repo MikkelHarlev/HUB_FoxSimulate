@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<osdd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ethernet-powerlink.org/osdd osdd.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" Version="1.6" xmlns="http://www.ethernet-powerlink.org/osdd">
+  <Topology SafetyDomain="1">
+    <GeneratorDescription Name="AutomationStudio" Version="4.9.2.46" LanguageID="1">
+      <Info Name="ARVersion" Value="49005" />
+      <Info Name="SafetyRelease" Value="1.10" />
+      <Info Name="Communication" Value="/IF=tcpip /LOPO=11159 /SA=5 /RT=1000 /AM=* /SDT=5 /DAIP=172.16.23.5 /REPO=11159 /ANSL=1 /PT=11169 /PORT=50000" />
+    </GeneratorDescription>
+    <SafetyConfigurationManager TransportSAddr="1">
+      <DeviceDescription Module="X20SLXxxx_110.SCM" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS49\AS\Hardware\Modules\X20SLX842\1.10.11.0\OSDD\X20SLXxxx_SCM_1_10_11_0.xosdd]]></DeviceDescription>
+      <NodeDescription />
+    </SafetyConfigurationManager>
+    <SafetyNode SAddr="1">
+      <DeviceDescription Module="X20SLX842_110.MainSN" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS49\AS\Hardware\Modules\X20SLX842\1.10.11.0\OSDD\\X20SLX842_1_10_11_0.xosdd]]></DeviceDescription>
+      <DesignConfiguration>
+        <ModuleSettings>
+          <SettingsGroup id="DataFromAs">
+            <Setting id="SafeDesigner" Value="4.3.4.4" />
+          </SettingsGroup>
+        </ModuleSettings>
+      </DesignConfiguration>
+      <NodeDescription>
+        <Classification Type="Digital" />
+        <Classification Type="Input" />
+        <Classification Type="Output" />
+        <Classification Type="PLC" />
+        <Classification Type="VendorSpecific">Safe</Classification>
+        <Classification Type="VendorSpecific">IO</Classification>
+        <Classification Type="VendorSpecific">Combined</Classification>
+        <Info Name="Interface" Value="IF6.ST1" />
+        <Info Name="HWC_Revision" Value="1.10.11.0" />
+        <Info Name="HWC_LastEdit" Value="21-09-2020 07:50:16" />
+        <Info Name="AS_Name" Value="X20SLX842" />
+        <Info Name="FirstPublishedSafetyRelease" Value="1.10" />
+        <Info Name="ProjectSL" Value="1" />
+        <Info Name="Description-de" Value="X20 SafeLOGIC Compact, 8xE 24V, 4xA 24V 3.0A, 2xA 24V 0.05A" />
+        <Info Name="Description-en" Value="X20 SafeLOGIC Compact, 8xI 24V, 4xO 24V 3.0A, 2xO 24V 0.05A" />
+        <Info Name="AsVariable" Value="ModuleOk,IOAlarm:IoAlarmCheck.Io.Module[1].ModuleOk" />
+        <Info Name="AsVariable" Value="BOOL041,SafetyAlar:safetyIO.interlockError[10]" />
+        <Info Name="AsVariable" Value="BOOL040,SafetyAlar:safetyIO.interlockError[9]" />
+        <Info Name="AsVariable" Value="BOOL048,SafetyAlar:safetyIO.interlockError[17]" />
+        <Info Name="AsVariable" Value="BOOL056,SafetyAlar:safetyIO.resetButton" />
+        <Info Name="AsVariable" Value="BOOL051,SafetyAlar:safetyIO.interlockError[20]" />
+        <Info Name="AsVariable" Value="BOOL023,SafetyAlar:safetyIO.interlockStatus[17]" />
+        <Info Name="AsVariable" Value="BOOL017,SafetyAlar:safetyIO.interlockStatus[11]" />
+        <Info Name="AsVariable" Value="BOOL025,SafetyAlar:safetyIO.interlockStatus[19]" />
+        <Info Name="AsVariable" Value="BOOL050,SafetyAlar:safetyIO.interlockError[19]" />
+        <Info Name="AsVariable" Value="BOOL024,SafetyAlar:safetyIO.interlockStatus[18]" />
+        <Info Name="AsVariable" Value="INT001,SafetyAlar:safetyIO.errorCode" />
+        <Info Name="AsVariable" Value="BOOL047,SafetyAlar:safetyIO.interlockError[16]" />
+        <Info Name="AsVariable" Value="BOOL007,SafetyAlar:safetyIO.interlockStatus[1]" />
+        <Info Name="AsVariable" Value="BOOL046,SafetyAlar:safetyIO.interlockError[15]" />
+        <Info Name="AsVariable" Value="BOOL006,SafetyAlar:safetyIO.extEmergencyStatus" />
+        <Info Name="AsVariable" Value="BOOL009,SafetyAlar:safetyIO.interlockStatus[3]" />
+        <Info Name="AsVariable" Value="BOOL008,SafetyAlar:safetyIO.interlockStatus[2]" />
+        <Info Name="AsVariable" Value="BOOL021,SafetyAlar:safetyIO.interlockStatus[15]" />
+        <Info Name="AsVariable" Value="BOOL020,SafetyAlar:safetyIO.interlockStatus[14]" />
+        <Info Name="AsVariable" Value="BOOL039,SafetyAlar:safetyIO.interlockError[8]" />
+        <Info Name="AsVariable" Value="BOOL022,SafetyAlar:safetyIO.interlockStatus[16]" />
+        <Info Name="AsVariable" Value="BOOL038,SafetyAlar:safetyIO.interlockError[7]" />
+        <Info Name="AsVariable" Value="BOOL003,SafetyAlar:safetyIO.emergencyRelay2OK" />
+        <Info Name="AsVariable" Value="BOOL037,SafetyAlar:safetyIO.interlockError[6]" />
+        <Info Name="AsVariable" Value="BOOL002,SafetyAlar:safetyIO.emergencyRelay1OK" />
+        <Info Name="AsVariable" Value="BOOL102,SafetyAlar:safetyIO.resetButton" />
+        <Info Name="AsVariable" Value="BOOL005,SafetyAlar:safetyIO.emergencyStatus" />
+        <Info Name="AsVariable" Value="BOOL004,SafetyAlar:safetyIO.generalError" />
+        <Info Name="AsVariable" Value="BOOL033,SafetyAlar:safetyIO.interlockError[2]" />
+        <Info Name="AsVariable" Value="BOOL032,SafetyAlar:safetyIO.interlockError[1]" />
+        <Info Name="AsVariable" Value="BOOL035,SafetyAlar:safetyIO.interlockError[4]" />
+        <Info Name="AsVariable" Value="BOOL034,SafetyAlar:safetyIO.interlockError[3]" />
+        <Info Name="AsVariable" Value="BOOL055,SafetyAlar:safetyIO.contactorError[2]" />
+        <Info Name="AsVariable" Value="BOOL027,SafetyAlar:safetyIO.interlockStatus[21]" />
+        <Info Name="AsVariable" Value="BOOL001,SafetyAlar:safetyIO.isRunning" />
+        <Info Name="AsVariable" Value="BOOL101,SafetyAlar:safetyIO.resetSafetyErrors" />
+        <Info Name="AsVariable" Value="BOOL016,SafetyAlar:safetyIO.interlockStatus[10]" />
+        <Info Name="AsVariable" Value="BOOL019,SafetyAlar:safetyIO.interlockStatus[13]" />
+        <Info Name="AsVariable" Value="BOOL018,SafetyAlar:safetyIO.interlockStatus[12]" />
+        <Info Name="AsVariable" Value="BOOL031,SafetyAlar:safetyIO.extEmergencyError" />
+        <Info Name="AsVariable" Value="BOOL030,SafetyAlar:safetyIO.emergencyError" />
+        <Info Name="AsVariable" Value="BOOL049,SafetyAlar:safetyIO.interlockError[18]" />
+        <Info Name="AsVariable" Value="BOOL044,SafetyAlar:safetyIO.interlockError[13]" />
+        <Info Name="AsVariable" Value="BOOL036,SafetyAlar:safetyIO.interlockError[5]" />
+        <Info Name="AsVariable" Value="BOOL013,SafetyAlar:safetyIO.interlockStatus[7]" />
+        <Info Name="AsVariable" Value="BOOL054,SafetyAlar:safetyIO.contactorError[1]" />
+        <Info Name="AsVariable" Value="BOOL012,SafetyAlar:safetyIO.interlockStatus[6]" />
+        <Info Name="AsVariable" Value="BOOL015,SafetyAlar:safetyIO.interlockStatus[9]" />
+        <Info Name="AsVariable" Value="BOOL052,SafetyAlar:safetyIO.interlockError[21]" />
+        <Info Name="AsVariable" Value="BOOL014,SafetyAlar:safetyIO.interlockStatus[8]" />
+        <Info Name="AsVariable" Value="BOOL043,SafetyAlar:safetyIO.interlockError[12]" />
+        <Info Name="AsVariable" Value="BOOL042,SafetyAlar:safetyIO.interlockError[11]" />
+        <Info Name="AsVariable" Value="BOOL045,SafetyAlar:safetyIO.interlockError[14]" />
+        <Info Name="AsVariable" Value="BOOL026,SafetyAlar:safetyIO.interlockStatus[20]" />
+        <Info Name="AsVariable" Value="BOOL011,SafetyAlar:safetyIO.interlockStatus[5]" />
+        <Info Name="AsVariable" Value="BOOL010,SafetyAlar:safetyIO.interlockStatus[4]" />
+      </NodeDescription>
+      <ChannelConfiguration>
+        <DataTransport>
+          <GenericTransport Name="DataExFromCpu" Direction="Input" OctetSize="20" IsSafe="false" />
+          <GenericTransport Name="DataExToCpu" Direction="Output" OctetSize="20" IsSafe="false" />
+        </DataTransport>
+        <ChannelGroup id="ToCPU_BOOL">
+          <Channel id="BOOL0">
+            <DataValue Type="Boolean">
+              <Transport Name="DataExToCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <Repetition RangeMax="56" NrOfDigits="2" />
+          </Channel>
+        </ChannelGroup>
+        <ChannelGroup id="ToCPU_INT">
+          <Channel id="INT0">
+            <DataValue Type="Int16">
+              <Transport Name="DataExToCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <Repetition RangeMax="1" NrOfDigits="2" />
+          </Channel>
+        </ChannelGroup>
+        <ChannelGroup id="FromCPU_OCTET">
+          <Channel id="MFWslxIN">
+            <DataValue Type="UInt8">
+              <Transport Name="DataExFromCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <VendorInfo>NrElements="14"</VendorInfo>
+            <VendorInfo>GeneratedBySafeFirmware="true"</VendorInfo>
+            <VendorInfo>IncludeInChannelCRC="1"</VendorInfo>
+            <VendorInfo>NotVisible="true"</VendorInfo>
+            <VendorInfo>Mappable="false"</VendorInfo>
+          </Channel>
+        </ChannelGroup>
+        <ChannelGroup id="FromCPU_BOOL">
+          <Channel id="BOOL1">
+            <DataValue Type="Boolean">
+              <Transport Name="DataExFromCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <Repetition RangeMax="8" NrOfDigits="2" />
+          </Channel>
+        </ChannelGroup>
+      </ChannelConfiguration>
+    </SafetyNode>
+    <SafetyNode SAddr="2">
+      <DeviceDescription Module="X20SI8110_110" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS49\AS\Hardware\Modules\X20SI8110\1.10.11.1\OSDD\\X20SI8110_1_10_11_1.xosdd]]></DeviceDescription>
+      <NodeDescription>
+        <Classification Type="Digital" />
+        <Classification Type="Input" />
+        <Classification Type="VendorSpecific">Safe</Classification>
+        <Classification Type="VendorSpecific">IO</Classification>
+        <Info Name="Interface" Value="IF6.ST2" />
+        <Info Name="HWC_Revision" Value="1.10.11.1" />
+        <Info Name="HWC_LastEdit" Value="15-09-2020 13:15:12" />
+        <Info Name="AS_Name" Value="X20SI8110" />
+        <Info Name="FirstPublishedSafetyRelease" Value="1.7" />
+        <Info Name="Description-de" Value="X20 Safe Digital In, 8xE, 24V" />
+        <Info Name="Description-en" Value="X20 Safe Digital In, 8xI, 24V" />
+        <Info Name="AsVariable" Value="ModuleOk,IOAlarm:IoAlarmCheck.Io.Module[2].ModuleOk" />
+      </NodeDescription>
+      <ChannelConfiguration />
+    </SafetyNode>
+  </Topology>
+</osdd>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="KEB_InverterNames">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="20"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="132821" Value="Inlet Conveyor 1"/>
+    <Text ID="132822" Value="Inlet Conveyor 2"/>
+    <Text ID="132823" Value="Inlet Conveyor 3"/>
+    <Text ID="132824" Value="RollOff no. 1"/>
+    <Text ID="132825" Value="RollOff no. 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="132821" Value="Einlauf- Conveyor 1"/>
+    <Text ID="132822" Value="Einlauf-Conveyor 2"/>
+    <Text ID="132823" Value="Einlauf-Conveyor 3"/>
+    <Text ID="132824" Value="RollOff no. 1"/>
+    <Text ID="132825" Value="RollOff no. 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="132821" Value="Inmatningsconveyer 1"/>
+    <Text ID="132822" Value="Inmatningsconveyer 2"/>
+    <Text ID="132823" Value="Inmatningsconveyer 3"/>
+    <Text ID="132824" Value="RollOff no. 1"/>
+    <Text ID="132825" Value="RollOff no. 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="132821" Value="Convoyeur d'entrée 1"/>
+    <Text ID="132822" Value="Convoyeur d'entrée 2"/>
+    <Text ID="132823" Value="Convoyeur d'entrée 3"/>
+    <Text ID="132824" Value="RollOff n° 1"/>
+    <Text ID="132825" Value="RollOff n° 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="132821" Value="Inlet Conveyor 1"/>
+    <Text ID="132822" Value="Inlet Conveyor 2"/>
+    <Text ID="132823" Value="Inlet Conveyor 3"/>
+    <Text ID="132824" Value="RollOff no. 1"/>
+    <Text ID="132825" Value="RollOff no. 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="132821" Value="Inlet Conveyor 1"/>
+    <Text ID="132822" Value="Inlet Conveyor 2"/>
+    <Text ID="132823" Value="Inlet Conveyor 3"/>
+    <Text ID="132824" Value="RollOff no. 1"/>
+    <Text ID="132825" Value="RollOff no. 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="132821" Value="Inlet Conveyor 1"/>
+    <Text ID="132822" Value="Inlet Conveyor 2"/>
+    <Text ID="132823" Value="Inlet Conveyor 3"/>
+    <Text ID="132824" Value="RollOff no. 1"/>
+    <Text ID="132825" Value="RollOff no. 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="132821" Value="invoertransportband 1"/>
+    <Text ID="132822" Value="invoertransportband 2"/>
+    <Text ID="132823" Value="invoertransportband 3"/>
+    <Text ID="132824" Value="RollOff nr. 1"/>
+    <Text ID="132825" Value="RollOff nr. 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="132821" Value="Transportador de Entrada 1"/>
+    <Text ID="132822" Value="Transportador de Entrada 2"/>
+    <Text ID="132823" Value="Transportador de Entrada 3"/>
+    <Text ID="132824" Value="Transbordadora 1"/>
+    <Text ID="132825" Value="Transbordadora 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="132821" Value="Przenośnik wprowadzający 1"/>
+    <Text ID="132822" Value="Przenośnik wprowadzający 2"/>
+    <Text ID="132823" Value="Przenośnik wprowadzający 3"/>
+    <Text ID="132824" Value="Przenośnik rolkowy wylotowy nr 1"/>
+    <Text ID="132825" Value="Przenośnik rolkowy wylotowy nr 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="132821" Value=""/>
+    <Text ID="132822" Value=""/>
+    <Text ID="132823" Value=""/>
+    <Text ID="132824" Value=""/>
+    <Text ID="132825" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="132821" Value=""/>
+    <Text ID="132822" Value=""/>
+    <Text ID="132823" Value=""/>
+    <Text ID="132824" Value=""/>
+    <Text ID="132825" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="132821" Value="Przenośnik wprowadzający 1"/>
+    <Text ID="132822" Value="Przenośnik wprowadzający 2"/>
+    <Text ID="132823" Value="Przenośnik wprowadzający 3"/>
+    <Text ID="132824" Value="Przenośnik rolkowy wylotowy nr 1"/>
+    <Text ID="132825" Value="Przenośnik rolkowy wylotowy nr 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="132821" Value="Inlet Conveyor 1"/>
+    <Text ID="132822" Value="Inlet Conveyor 2"/>
+    <Text ID="132823" Value="Inlet Conveyor 3"/>
+    <Text ID="132824" Value="RollOff no. 1"/>
+    <Text ID="132825" Value="RollOff no. 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="132821" Value="Inlet Conveyor 1"/>
+    <Text ID="132822" Value="Inlet Conveyor 2"/>
+    <Text ID="132823" Value="Inlet Conveyor 3"/>
+    <Text ID="132824" Value="RollOff no. 1"/>
+    <Text ID="132825" Value="RollOff no. 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="132821" Value="Inlet Conveyor 1"/>
+    <Text ID="132822" Value="Inlet Conveyor 2"/>
+    <Text ID="132823" Value="Inlet Conveyor 3"/>
+    <Text ID="132824" Value="RollOff no. 1"/>
+    <Text ID="132825" Value="RollOff no. 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="132821" Value="Esteira de entrada 1"/>
+    <Text ID="132822" Value="Esteira de entrada 2"/>
+    <Text ID="132823" Value="Esteira de entrada 3"/>
+    <Text ID="132824" Value="Descarregador n.º 1"/>
+    <Text ID="132825" Value="Descarregador n.º 2"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="132821" Value="1"/>
+    <Index ID="132822" Value="2"/>
+    <Index ID="132823" Value="3"/>
+    <Index ID="132824" Value="4"/>
+    <Index ID="132825" Value="5"/>
+  </IndexMap>
+</TextGroup>

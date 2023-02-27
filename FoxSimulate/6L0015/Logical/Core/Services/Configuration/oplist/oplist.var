@@ -1,0 +1,53 @@
+VAR
+	LogData_0 : LogData := (0);
+	TmpString : STRING[10] := '';
+	ActInfo : Oplist_ActInfo_type;
+	TempInfo : ARRAY[0..9] OF Oplist_TempInfo_type := [10(0)];
+	RMaxNoOfOperators : USINT := 0;
+	RSearchOK : ARRAY[0..5] OF BOOL := [6(FALSE)];
+	PageOPEdit : UINT := 0;
+	PageOPSelect : UINT := 0;
+	RNoOfCARPanels : USINT := 0;
+	x : USINT := 0;
+	ButtonId : INT;
+END_VAR
+VAR CONSTANT
+	RdyTrue : OperatorRdy_type := (rdyLoadList:=1,rdySaveList:=1,rdyScroll:=1,rdyAddItem:=1,rdyDeleteItem:=1,rdyDeleteList:=1,rdySearchName:=1,rdySearchNumber:=1,rdyLockList:=1,rdyUnlockList:=1,rdyEditItem:=1);
+END_VAR
+VAR
+	RCycleCount : UDINT := 0;
+	EdgeNegISControlPlc : BOOL;
+	i : USINT;
+END_VAR
+VAR CONSTANT
+	LIST_LOCK_DEF : USINT := 4; (* Define which function to lock *)
+	OP_ADD : USINT := 1;
+	OP_CHECK_COMMAND : USINT := 3;
+	OP_DELETE : USINT := 6;
+	OP_DELETE_LIST : USINT := 21;
+	OP_EDIT : USINT := 7;
+	OP_LOAD : USINT := 8;
+	OP_LOCK : USINT := 10;
+	OP_SAVE : USINT := 12;
+	OP_SCROLL : USINT := 14;
+	OP_SEARCH_NAME : USINT := 17;
+	OP_SEARCH_NUMBER : USINT := 18;
+END_VAR
+VAR
+	OpAdd : ListAdd;
+	OpDelete : ListDelete;
+	OpEdit : ListEdit;
+	OPHandler : ARRAY[0..5] OF Operator_type := [6(0)];
+	OpInit : ListInit;
+	OpLoad : ListLoad;
+	OpLock : ListLock;
+	OpSave : ListSave;
+	OpScroll : ListScroll;
+	OpSearch : ListSearch;
+	RTInfo_0 : RTInfo;
+	TaskCycleTime : UDINT;
+	RDontNotify : BOOL;
+	pThis : REFERENCE TO OperatorService_Type;
+	isLoading : BOOL;
+	OPFunction : ARRAY[0..5] OF OPFunction_type;
+END_VAR

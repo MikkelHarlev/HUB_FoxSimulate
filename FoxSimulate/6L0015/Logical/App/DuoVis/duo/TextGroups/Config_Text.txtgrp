@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Config_Text">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="18"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="5155" Value="Start:"/>
+    <Text ID="5156" Value="To:"/>
+    <Text ID="5157" Value="From:"/>
+    <Text ID="5158" Value="Copy:"/>
+    <Text ID="5159" Value="Files:"/>
+    <Text ID="5160" Value="Status:"/>
+    <Text ID="13612" Value="End:"/>
+    <Text ID="89004" Value="Cust/Article Name"/>
+    <Text ID="89005" Value="CustNo."/>
+    <Text ID="89006" Value="ArticleNo."/>
+    <Text ID="89007" Value="RecipeNo."/>
+    <Text ID="89008" Value="Operator Name"/>
+    <Text ID="89009" Value="Operator No."/>
+    <Text ID="205501" Value="Article Name"/>
+    <Text ID="205502" Value="Customer Name"/>
+    <Text ID="207116" Value="No Article "/>
+    <Text ID="210345" Value="No File added"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="5155" Value="Start"/>
+    <Text ID="5156" Value="Zu: "/>
+    <Text ID="5157" Value="Von"/>
+    <Text ID="5158" Value="Kopieren:"/>
+    <Text ID="5159" Value="Dateien"/>
+    <Text ID="5160" Value="Status"/>
+    <Text ID="13612" Value="Ende"/>
+    <Text ID="89004" Value="Kunden-/ Artikelname"/>
+    <Text ID="89005" Value="KundenNr."/>
+    <Text ID="89006" Value="ArtikelNr."/>
+    <Text ID="89007" Value="Programm Nr."/>
+    <Text ID="89008" Value="Name Bedienperson"/>
+    <Text ID="89009" Value="Bediener Nr. "/>
+    <Text ID="205501" Value="Artikelname:"/>
+    <Text ID="205502" Value="Kundenname"/>
+    <Text ID="207116" Value="Kein Artikel"/>
+    <Text ID="210345" Value="Keine Datei hinzugefügt"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="5155" Value="Start:"/>
+    <Text ID="5156" Value="To:"/>
+    <Text ID="5157" Value="From:"/>
+    <Text ID="5158" Value="Copy:"/>
+    <Text ID="5159" Value="Files:"/>
+    <Text ID="5160" Value="Status:"/>
+    <Text ID="13612" Value="End:"/>
+    <Text ID="89004" Value="Kund/Artikelnamn."/>
+    <Text ID="89005" Value="Kund nr."/>
+    <Text ID="89006" Value="Artikel nr."/>
+    <Text ID="89007" Value="Recept nr."/>
+    <Text ID="89008" Value="Operatörs namn"/>
+    <Text ID="89009" Value="Operatörs nr"/>
+    <Text ID="205501" Value="Artikelnamn"/>
+    <Text ID="205502" Value=" Kundnamn"/>
+    <Text ID="207116" Value="Ingen artikel"/>
+    <Text ID="210345" Value="Ingen fil adderad"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="5155" Value="Démarrage"/>
+    <Text ID="5156" Value="Vers:"/>
+    <Text ID="5157" Value="De:"/>
+    <Text ID="5158" Value="Copie:"/>
+    <Text ID="5159" Value="Fichier"/>
+    <Text ID="5160" Value="Statut"/>
+    <Text ID="13612" Value="Au:"/>
+    <Text ID="89004" Value="Nom client/article"/>
+    <Text ID="89005" Value="Client n°"/>
+    <Text ID="89006" Value="Article n°"/>
+    <Text ID="89007" Value="Programme N°"/>
+    <Text ID="89008" Value="Nom opérateur"/>
+    <Text ID="89009" Value="N° d'opérateur"/>
+    <Text ID="205501" Value="Nom article:"/>
+    <Text ID="205502" Value="Nom client"/>
+    <Text ID="207116" Value="Pas d'article"/>
+    <Text ID="210345" Value="Pas de fichier ajouté"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="5155" Value="Start:"/>
+    <Text ID="5156" Value="Til:"/>
+    <Text ID="5157" Value="Fra:"/>
+    <Text ID="5158" Value="Kopier:"/>
+    <Text ID="5159" Value="Filer:"/>
+    <Text ID="5160" Value="Status:"/>
+    <Text ID="13612" Value="Slutt:"/>
+    <Text ID="89004" Value="Kunde/Artikkelnavn"/>
+    <Text ID="89005" Value="Kunde nummer"/>
+    <Text ID="89006" Value="Artikkel nummer"/>
+    <Text ID="89007" Value="Program Nummer"/>
+    <Text ID="89008" Value="Operatør navn"/>
+    <Text ID="89009" Value="Operatør nummer"/>
+    <Text ID="205501" Value="Artikkel navn"/>
+    <Text ID="205502" Value="Kundenavn"/>
+    <Text ID="207116" Value="Ingen artikkel"/>
+    <Text ID="210345" Value="Ingen fil lagt til"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="5155" Value="Inizio"/>
+    <Text ID="5156" Value="A:"/>
+    <Text ID="5157" Value="Da"/>
+    <Text ID="5158" Value="Copia"/>
+    <Text ID="5159" Value="Files:"/>
+    <Text ID="5160" Value="Condizione"/>
+    <Text ID="13612" Value="Fine:"/>
+    <Text ID="89004" Value="Nome cliente\articolo"/>
+    <Text ID="89005" Value="N. cliente"/>
+    <Text ID="89006" Value="N. articolo"/>
+    <Text ID="89007" Value="N. categoria"/>
+    <Text ID="89008" Value="Nome operatore"/>
+    <Text ID="89009" Value="N. operatoe"/>
+    <Text ID="205501" Value="Nome articolo"/>
+    <Text ID="205502" Value="Nome cliente"/>
+    <Text ID="207116" Value="N. articolo"/>
+    <Text ID="210345" Value="Nessun File Aggiunto"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="5155" Value="Start:"/>
+    <Text ID="5156" Value="To:"/>
+    <Text ID="5157" Value="From:"/>
+    <Text ID="5158" Value="Copy:"/>
+    <Text ID="5159" Value="Files:"/>
+    <Text ID="5160" Value="Status:"/>
+    <Text ID="13612" Value="End:"/>
+    <Text ID="89004" Value="Cust/Article Name"/>
+    <Text ID="89005" Value="CustNo."/>
+    <Text ID="89006" Value="ArticleNo."/>
+    <Text ID="89007" Value="RecipeNo."/>
+    <Text ID="89008" Value="Operator Name"/>
+    <Text ID="89009" Value="Operator No."/>
+    <Text ID="205501" Value="Article Name"/>
+    <Text ID="205502" Value="Customer Name"/>
+    <Text ID="207116" Value="Cust/Article Name"/>
+    <Text ID="210345" Value="No File added"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="5155" Value="Start:"/>
+    <Text ID="5156" Value="Naar:"/>
+    <Text ID="5157" Value="Van:"/>
+    <Text ID="5158" Value="Kopieer:"/>
+    <Text ID="5159" Value="Bestanden"/>
+    <Text ID="5160" Value="Status:"/>
+    <Text ID="13612" Value="Einde:"/>
+    <Text ID="89004" Value="Artikelnaam:"/>
+    <Text ID="89005" Value="Klantnr."/>
+    <Text ID="89006" Value="ArtikelNr."/>
+    <Text ID="89007" Value="RecipeNr."/>
+    <Text ID="89008" Value="Operator Naam"/>
+    <Text ID="89009" Value="Bedienernr."/>
+    <Text ID="205501" Value="Artikelnaam:"/>
+    <Text ID="205502" Value="Klantnaam:"/>
+    <Text ID="207116" Value="No Artikel"/>
+    <Text ID="210345" Value="Geen bestand toegevoegd"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="5155" Value="Inicio"/>
+    <Text ID="5156" Value="A:"/>
+    <Text ID="5157" Value="De:"/>
+    <Text ID="5158" Value="Copiar:"/>
+    <Text ID="5159" Value="Archivos:"/>
+    <Text ID="5160" Value="Estado:"/>
+    <Text ID="13612" Value="Fin:"/>
+    <Text ID="89004" Value="Nombre Cliente/Artículo"/>
+    <Text ID="89005" Value="Cliente Nº"/>
+    <Text ID="89006" Value="Artículo Nº:"/>
+    <Text ID="89007" Value="Número de programa"/>
+    <Text ID="89008" Value="Nombre de operario"/>
+    <Text ID="89009" Value="Número de operario"/>
+    <Text ID="205501" Value="Nombre de artículo:"/>
+    <Text ID="205502" Value="Nombre de cliente"/>
+    <Text ID="207116" Value="Sin artículo"/>
+    <Text ID="210345" Value="Ningún archivo añadido"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="5155" Value="Rozpocznij:"/>
+    <Text ID="5156" Value="Do:"/>
+    <Text ID="5157" Value="Z:"/>
+    <Text ID="5158" Value="Kopiuj:"/>
+    <Text ID="5159" Value="Pliki:"/>
+    <Text ID="5160" Value="Stan:"/>
+    <Text ID="13612" Value="Koniec:"/>
+    <Text ID="89004" Value="Nazwa klienta/artykułu"/>
+    <Text ID="89005" Value="Nr klienta"/>
+    <Text ID="89006" Value="Nr artykułu"/>
+    <Text ID="89007" Value="Nr receptury"/>
+    <Text ID="89008" Value="Nazwisko operatora"/>
+    <Text ID="89009" Value="Nr operatora"/>
+    <Text ID="205501" Value="Nazwa artykułu"/>
+    <Text ID="205502" Value="Nazwa klienta"/>
+    <Text ID="207116" Value="Brak artykułu "/>
+    <Text ID="210345" Value="Nie dodano żadnego pliku"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="5155" Value=""/>
+    <Text ID="5156" Value=""/>
+    <Text ID="5157" Value=""/>
+    <Text ID="5158" Value=""/>
+    <Text ID="5159" Value=""/>
+    <Text ID="5160" Value=""/>
+    <Text ID="13612" Value=""/>
+    <Text ID="89004" Value=""/>
+    <Text ID="89005" Value=""/>
+    <Text ID="89006" Value=""/>
+    <Text ID="89007" Value=""/>
+    <Text ID="89008" Value=""/>
+    <Text ID="89009" Value=""/>
+    <Text ID="205501" Value=""/>
+    <Text ID="205502" Value=""/>
+    <Text ID="207116" Value=""/>
+    <Text ID="210345" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="5155" Value=""/>
+    <Text ID="5156" Value=""/>
+    <Text ID="5157" Value=""/>
+    <Text ID="5158" Value=""/>
+    <Text ID="5159" Value=""/>
+    <Text ID="5160" Value=""/>
+    <Text ID="13612" Value=""/>
+    <Text ID="89004" Value=""/>
+    <Text ID="89005" Value=""/>
+    <Text ID="89006" Value=""/>
+    <Text ID="89007" Value=""/>
+    <Text ID="89008" Value=""/>
+    <Text ID="89009" Value=""/>
+    <Text ID="205501" Value=""/>
+    <Text ID="205502" Value=""/>
+    <Text ID="207116" Value=""/>
+    <Text ID="210345" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="5155" Value="Rozpocznij:"/>
+    <Text ID="5156" Value="Do:"/>
+    <Text ID="5157" Value="Z:"/>
+    <Text ID="5158" Value="Kopiuj:"/>
+    <Text ID="5159" Value="Pliki:"/>
+    <Text ID="5160" Value="Stan:"/>
+    <Text ID="13612" Value="Koniec:"/>
+    <Text ID="89004" Value="Nazwa klienta/artykułu"/>
+    <Text ID="89005" Value="Nr klienta"/>
+    <Text ID="89006" Value="Nr artykułu"/>
+    <Text ID="89007" Value="Nr receptury"/>
+    <Text ID="89008" Value="Nazwisko operatora"/>
+    <Text ID="89009" Value="Nr operatora"/>
+    <Text ID="205501" Value="Nazwa artykułu"/>
+    <Text ID="205502" Value="Nazwa klienta"/>
+    <Text ID="207116" Value="Brak artykułu "/>
+    <Text ID="210345" Value="Nie dodano żadnego pliku"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="5155" Value="Start:"/>
+    <Text ID="5156" Value="To:"/>
+    <Text ID="5157" Value="From:"/>
+    <Text ID="5158" Value="Copy:"/>
+    <Text ID="5159" Value="Files:"/>
+    <Text ID="5160" Value="Status:"/>
+    <Text ID="13612" Value="End:"/>
+    <Text ID="89004" Value="Cust/Article Name"/>
+    <Text ID="89005" Value="CustNo."/>
+    <Text ID="89006" Value="ArticleNo."/>
+    <Text ID="89007" Value="RecipeNo."/>
+    <Text ID="89008" Value="Operator Name"/>
+    <Text ID="89009" Value="Operator No."/>
+    <Text ID="205501" Value="Article Name"/>
+    <Text ID="205502" Value="Customer Name"/>
+    <Text ID="207116" Value="No Article "/>
+    <Text ID="210345" Value="No File added"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="5155" Value="Start:"/>
+    <Text ID="5156" Value="To:"/>
+    <Text ID="5157" Value="From:"/>
+    <Text ID="5158" Value="Copy:"/>
+    <Text ID="5159" Value="Files:"/>
+    <Text ID="5160" Value="Status:"/>
+    <Text ID="13612" Value="End:"/>
+    <Text ID="89004" Value="Cust/Article Name"/>
+    <Text ID="89005" Value="CustNo."/>
+    <Text ID="89006" Value="ArticleNo."/>
+    <Text ID="89007" Value="RecipeNo."/>
+    <Text ID="89008" Value="Operator Name"/>
+    <Text ID="89009" Value="Operator No."/>
+    <Text ID="205501" Value="Article Name"/>
+    <Text ID="205502" Value="Customer Name"/>
+    <Text ID="207116" Value="No Article "/>
+    <Text ID="210345" Value="No File added"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="5155" Value="Start:"/>
+    <Text ID="5156" Value="Til:"/>
+    <Text ID="5157" Value="Fra:"/>
+    <Text ID="5158" Value="Kopier:"/>
+    <Text ID="5159" Value="Filer:"/>
+    <Text ID="5160" Value="Status:"/>
+    <Text ID="13612" Value="Slutt:"/>
+    <Text ID="89004" Value="Kunde/Artikkelnavn"/>
+    <Text ID="89005" Value="Kunde nummer"/>
+    <Text ID="89006" Value="Artikkel nummer"/>
+    <Text ID="89007" Value="Program Nummer"/>
+    <Text ID="89008" Value="Operatør navn"/>
+    <Text ID="89009" Value="Operatør nummer"/>
+    <Text ID="205501" Value="Artikkel navn"/>
+    <Text ID="205502" Value="Kundenavn"/>
+    <Text ID="207116" Value="Ingen artikkel"/>
+    <Text ID="210345" Value="Ingen fil lagt til"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="5155" Value="Start:"/>
+    <Text ID="5156" Value="To:"/>
+    <Text ID="5157" Value="From:"/>
+    <Text ID="5158" Value="Copy:"/>
+    <Text ID="5159" Value="Files:"/>
+    <Text ID="5160" Value="Status:"/>
+    <Text ID="13612" Value="End:"/>
+    <Text ID="89004" Value="Cust/Article Name"/>
+    <Text ID="89005" Value="CustNo."/>
+    <Text ID="89006" Value="ArticleNo."/>
+    <Text ID="89007" Value="RecipeNo."/>
+    <Text ID="89008" Value="Operator Name"/>
+    <Text ID="89009" Value="Operator No."/>
+    <Text ID="205501" Value="Article Name"/>
+    <Text ID="205502" Value="Customer Name"/>
+    <Text ID="207116" Value="No Article "/>
+    <Text ID="210345" Value="No File added"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="5155" Value="5"/>
+    <Index ID="5156" Value="4"/>
+    <Index ID="5157" Value="3"/>
+    <Index ID="5158" Value="2"/>
+    <Index ID="5159" Value="1"/>
+    <Index ID="5160" Value="0"/>
+    <Index ID="13612" Value="6"/>
+    <Index ID="89004" Value="7"/>
+    <Index ID="89005" Value="8"/>
+    <Index ID="89006" Value="9"/>
+    <Index ID="89007" Value="10"/>
+    <Index ID="89008" Value="11"/>
+    <Index ID="89009" Value="12"/>
+    <Index ID="205501" Value="13"/>
+    <Index ID="205502" Value="14"/>
+    <Index ID="207116" Value="15"/>
+    <Index ID="210345" Value="22"/>
+  </IndexMap>
+</TextGroup>

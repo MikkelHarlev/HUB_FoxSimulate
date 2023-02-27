@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="0.35.1" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>LogLib.fun</File>
+    <File>LogLib.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsTime" Target="SG4" FromVersion="1.00.0" />
+    <Dependency ObjectName="AsString" Target="SG4" FromVersion="0.01.0" />
+    <Dependency ObjectName="SYS_LIB" Target="SG4" FromVersion="0.01.0" />
+    <Dependency ObjectName="FileIO" Target="SG4" FromVersion="0.01.0" />
+  </Dependencies>
+</Library>

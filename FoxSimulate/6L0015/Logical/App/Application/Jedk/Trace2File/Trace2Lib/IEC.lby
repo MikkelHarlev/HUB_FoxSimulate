@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.4.112?>
+<Library Version="1.00.1" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported functions and function blocks">Trace2Lib.fun</File>
+    <File Description="Exported constants">T2FConstants.var</File>
+    <File Description="Exported data types">Trace2Lib.typ</File>
+    <File>T2F_Log.st</File>
+    <File>T2F_New.st</File>
+    <File>T2F_AddStringADR.st</File>
+    <File>T2F_AddString.st</File>
+    <File>T2F_AddUDINT_HEX.st</File>
+    <File>T2F_AddUDINT.st</File>
+    <File>LogEntry.st</File>
+  </Files>
+</Library>

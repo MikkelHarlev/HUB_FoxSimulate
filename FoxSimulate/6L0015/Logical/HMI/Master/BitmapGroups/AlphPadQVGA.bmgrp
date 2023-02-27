@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="AlphPadQVGA">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="0"/>
+  <Property Name="Translate" Value="True"/>
+  <BitmapLayer LanguageId="en-GB">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="de-DE">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised_GER]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised_GER]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed_GER]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed_GER]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="sv-SE">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised_SV]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised_SV]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed_SV]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed_SV]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="fr-FR">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="da-DK">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised_DK]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised_DK]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed_DK]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed_DK]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="it-IT">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="fi-FI">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="nl-NL">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="es-ES">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="pl-PL">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="ru-RU">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="en">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="zh-CN">
+    <BitmapRef ID="6235" Value="None"/>
+    <BitmapRef ID="6236" Value="None"/>
+    <BitmapRef ID="6237" Value="None"/>
+    <BitmapRef ID="6238" Value="None"/>
+    <BitmapRef ID="6239" Value="None"/>
+    <BitmapRef ID="6240" Value="None"/>
+    <BitmapRef ID="6241" Value="None"/>
+    <BitmapRef ID="6242" Value="None"/>
+    <BitmapRef ID="6243" Value="None"/>
+    <BitmapRef ID="6244" Value="None"/>
+    <BitmapRef ID="6245" Value="None"/>
+    <BitmapRef ID="6246" Value="None"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="cs-CZ">
+    <BitmapRef ID="6235" Value="None"/>
+    <BitmapRef ID="6236" Value="None"/>
+    <BitmapRef ID="6237" Value="None"/>
+    <BitmapRef ID="6238" Value="None"/>
+    <BitmapRef ID="6239" Value="None"/>
+    <BitmapRef ID="6240" Value="None"/>
+    <BitmapRef ID="6241" Value="None"/>
+    <BitmapRef ID="6242" Value="None"/>
+    <BitmapRef ID="6243" Value="None"/>
+    <BitmapRef ID="6244" Value="None"/>
+    <BitmapRef ID="6245" Value="None"/>
+    <BitmapRef ID="6246" Value="None"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="en-US">
+    <BitmapRef ID="6235" Value="None"/>
+    <BitmapRef ID="6236" Value="None"/>
+    <BitmapRef ID="6237" Value="None"/>
+    <BitmapRef ID="6238" Value="None"/>
+    <BitmapRef ID="6239" Value="None"/>
+    <BitmapRef ID="6240" Value="None"/>
+    <BitmapRef ID="6241" Value="None"/>
+    <BitmapRef ID="6242" Value="None"/>
+    <BitmapRef ID="6243" Value="None"/>
+    <BitmapRef ID="6244" Value="None"/>
+    <BitmapRef ID="6245" Value="None"/>
+    <BitmapRef ID="6246" Value="None"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="no-NO">
+    <BitmapRef ID="6235" Value="Source[local].Bitmap[AlphaPadQVGA1L_Raised]"/>
+    <BitmapRef ID="6236" Value="Source[local].Bitmap[AlphaPadQVGA1U_Raised]"/>
+    <BitmapRef ID="6237" Value="Source[local].Bitmap[AlphaPadQVGA2L_Raised]"/>
+    <BitmapRef ID="6238" Value="Source[local].Bitmap[AlphaPadQVGA2U_Raised]"/>
+    <BitmapRef ID="6239" Value="Source[local].Bitmap[AlphaPadQVGA3L_Raised]"/>
+    <BitmapRef ID="6240" Value="Source[local].Bitmap[AlphaPadQVGA3U_Raised]"/>
+    <BitmapRef ID="6241" Value="Source[local].Bitmap[AlphaPadQVGA1L_Pressed]"/>
+    <BitmapRef ID="6242" Value="Source[local].Bitmap[AlphaPadQVGA1U_Pressed]"/>
+    <BitmapRef ID="6243" Value="Source[local].Bitmap[AlphaPadQVGA2L_Pressed]"/>
+    <BitmapRef ID="6244" Value="Source[local].Bitmap[AlphaPadQVGA2U_Pressed]"/>
+    <BitmapRef ID="6245" Value="Source[local].Bitmap[AlphaPadQVGA3L_Pressed]"/>
+    <BitmapRef ID="6246" Value="Source[local].Bitmap[AlphaPadQVGA3U_Pressed]"/>
+  </BitmapLayer>
+  <BitmapLayer LanguageId="pt-PT">
+    <BitmapRef ID="6235" Value="None"/>
+    <BitmapRef ID="6236" Value="None"/>
+    <BitmapRef ID="6237" Value="None"/>
+    <BitmapRef ID="6238" Value="None"/>
+    <BitmapRef ID="6239" Value="None"/>
+    <BitmapRef ID="6240" Value="None"/>
+    <BitmapRef ID="6241" Value="None"/>
+    <BitmapRef ID="6242" Value="None"/>
+    <BitmapRef ID="6243" Value="None"/>
+    <BitmapRef ID="6244" Value="None"/>
+    <BitmapRef ID="6245" Value="None"/>
+    <BitmapRef ID="6246" Value="None"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="6235" Value="0"/>
+    <Index ID="6236" Value="1"/>
+    <Index ID="6237" Value="2"/>
+    <Index ID="6238" Value="3"/>
+    <Index ID="6239" Value="4"/>
+    <Index ID="6240" Value="5"/>
+    <Index ID="6241" Value="10"/>
+    <Index ID="6242" Value="11"/>
+    <Index ID="6243" Value="12"/>
+    <Index ID="6244" Value="13"/>
+    <Index ID="6245" Value="14"/>
+    <Index ID="6246" Value="15"/>
+  </IndexMap>
+</BitmapGroup>

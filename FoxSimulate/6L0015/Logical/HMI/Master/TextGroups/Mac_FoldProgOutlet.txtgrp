@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_FoldProgOutlet">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="62"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="266564" Value="cm"/>
+    <Text ID="266565" Value="inch"/>
+    <Text ID="266566" Value="msec"/>
+    <Text ID="266567" Value="Pcs"/>
+    <Text ID="266577" Value="Numbers"/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value="Delay RollOff out"/>
+    <Text ID="275468" Value="Jenway destination"/>
+    <Text ID="392992" Value="Dynamic Stack selection"/>
+    <Text ID="392993" Value="Metricon Stack selection"/>
+    <Text ID="392994" Value="Fixed Stack selection"/>
+    <Text ID="419408" Value="Coupling"/>
+    <Text ID="419409" Value="Position"/>
+    <Text ID="419410" Value="Distance"/>
+    <Text ID="419411" Value="Front"/>
+    <Text ID="419412" Value="Back"/>
+    <Text ID="419416" Value="no    "/>
+    <Text ID="430826" Value="Stacker selection"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="266564" Value="cm"/>
+    <Text ID="266565" Value="inch"/>
+    <Text ID="266566" Value="msek"/>
+    <Text ID="266567" Value="Stück"/>
+    <Text ID="266577" Value="Anzahl"/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value="Verzögerung RollOff aus"/>
+    <Text ID="275468" Value="Jenway destination"/>
+    <Text ID="392992" Value="Dynamische Staplerwahl"/>
+    <Text ID="392993" Value="Metricon Staplerwahl"/>
+    <Text ID="392994" Value="Fixe Staplerauswahl"/>
+    <Text ID="419408" Value="Kopplung"/>
+    <Text ID="419409" Value="Position"/>
+    <Text ID="419410" Value="Distanz"/>
+    <Text ID="419411" Value="Vorderkante"/>
+    <Text ID="419412" Value="Hinterkante"/>
+    <Text ID="419416" Value="keine "/>
+    <Text ID="430826" Value="Staplerwahl"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="266564" Value="cm"/>
+    <Text ID="266565" Value="tum "/>
+    <Text ID="266566" Value="ms"/>
+    <Text ID="266567" Value="Styck"/>
+    <Text ID="266577" Value="Antal"/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value="Delay RollOff out"/>
+    <Text ID="275468" Value="Jenway destination"/>
+    <Text ID="392992" Value="Dynamic Stack selection"/>
+    <Text ID="392993" Value="Metricon Stack selection"/>
+    <Text ID="392994" Value="Fixed Stack selection"/>
+    <Text ID="419408" Value="Koppling"/>
+    <Text ID="419409" Value="Position"/>
+    <Text ID="419410" Value="Distance"/>
+    <Text ID="419411" Value="Front"/>
+    <Text ID="419412" Value="Back"/>
+    <Text ID="419416" Value="ingen "/>
+    <Text ID="430826" Value="Stacker selection"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="266564" Value="cm"/>
+    <Text ID="266565" Value="inch"/>
+    <Text ID="266566" Value="msec"/>
+    <Text ID="266567" Value="Pièce"/>
+    <Text ID="266577" Value="Nombre"/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value="Delay RollOff out"/>
+    <Text ID="275468" Value="Destination Jenway"/>
+    <Text ID="392992" Value="Sélection dynamic empileurs"/>
+    <Text ID="392993" Value="Sélection Empileur par Metric"/>
+    <Text ID="392994" Value="Sélection fixe Empileur"/>
+    <Text ID="419408" Value="Couplage"/>
+    <Text ID="419409" Value="Position"/>
+    <Text ID="419410" Value="Distance"/>
+    <Text ID="419411" Value="Devant"/>
+    <Text ID="419412" Value="Arrière"/>
+    <Text ID="419416" Value="non   "/>
+    <Text ID="430826" Value="Selection Empileur"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="266564" Value="cm"/>
+    <Text ID="266565" Value="inch"/>
+    <Text ID="266566" Value="msek"/>
+    <Text ID="266567" Value="Stk"/>
+    <Text ID="266577" Value="Antal"/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value="Forsinkelse rolloff ud"/>
+    <Text ID="275468" Value="Jenway destination"/>
+    <Text ID="392992" Value="Dynamisk stakker valg"/>
+    <Text ID="392993" Value="Metricon stakker valg"/>
+    <Text ID="392994" Value="Fast stakker valg"/>
+    <Text ID="419408" Value="Kobling"/>
+    <Text ID="419409" Value="Position"/>
+    <Text ID="419410" Value="Distance"/>
+    <Text ID="419411" Value="Forran"/>
+    <Text ID="419412" Value="Bak"/>
+    <Text ID="419416" Value="ingen "/>
+    <Text ID="430826" Value="Stakker valg"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="266564" Value="cm"/>
+    <Text ID="266565" Value="pollici"/>
+    <Text ID="266566" Value="millisec"/>
+    <Text ID="266567" Value="Pezzi"/>
+    <Text ID="266577" Value="N.Pezzi"/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value="Ritardo Uscita  RollOff "/>
+    <Text ID="275468" Value="Jenway destinazione"/>
+    <Text ID="392992" Value="Selezione  Accatas Dinamica"/>
+    <Text ID="392993" Value="Selezione Accatast. da Metricon"/>
+    <Text ID="392994" Value="Selezione Fissa Accatast."/>
+    <Text ID="419408" Value="Accoppiamento"/>
+    <Text ID="419409" Value="Posizione"/>
+    <Text ID="419410" Value="Distanza"/>
+    <Text ID="419411" Value="Fronte"/>
+    <Text ID="419412" Value="Dietro"/>
+    <Text ID="419416" Value="no    "/>
+    <Text ID="430826" Value="Selezione Accatast."/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="266564" Value="cm"/>
+    <Text ID="266565" Value="inch"/>
+    <Text ID="266566" Value="msec"/>
+    <Text ID="266567" Value="Pcs"/>
+    <Text ID="266577" Value="Numbers"/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value="Delay RollOff out"/>
+    <Text ID="275468" Value="Jenway destination"/>
+    <Text ID="392992" Value="Dynamic Stack selection"/>
+    <Text ID="392993" Value="Metricon Stack selection"/>
+    <Text ID="392994" Value="Fixed Stack selection"/>
+    <Text ID="419408" Value="Coupling"/>
+    <Text ID="419409" Value="Position"/>
+    <Text ID="419410" Value="Distance"/>
+    <Text ID="419411" Value="Front"/>
+    <Text ID="419412" Value="Back"/>
+    <Text ID="419416" Value="no    "/>
+    <Text ID="430826" Value="Stacker selection"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="266564" Value="cm"/>
+    <Text ID="266565" Value="inch"/>
+    <Text ID="266566" Value="msec"/>
+    <Text ID="266567" Value="stk"/>
+    <Text ID="266577" Value="Aantal"/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value="Delay RollOff out"/>
+    <Text ID="275468" Value="Jenway destination"/>
+    <Text ID="392992" Value="Dynamic Stack selection"/>
+    <Text ID="392993" Value="Metricon Stack selection"/>
+    <Text ID="392994" Value="Fixed Stack selection"/>
+    <Text ID="419408" Value="Koppeling"/>
+    <Text ID="419409" Value="Positie"/>
+    <Text ID="419410" Value="Distance"/>
+    <Text ID="419411" Value="Front"/>
+    <Text ID="419412" Value="Back"/>
+    <Text ID="419416" Value="nee   "/>
+    <Text ID="430826" Value="Stacker selection"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="266564" Value="cm"/>
+    <Text ID="266565" Value="pulg"/>
+    <Text ID="266566" Value="mseg"/>
+    <Text ID="266567" Value="Pzas"/>
+    <Text ID="266577" Value="Cantidad"/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value="Delay RollOff out"/>
+    <Text ID="275468" Value="Jenway destination"/>
+    <Text ID="392992" Value="Dynamic Stack selection"/>
+    <Text ID="392993" Value="Metricon Stack selection"/>
+    <Text ID="392994" Value="Fixed Stack selection"/>
+    <Text ID="419408" Value="Acoplami."/>
+    <Text ID="419409" Value="Posición"/>
+    <Text ID="419410" Value="Distance"/>
+    <Text ID="419411" Value="Front"/>
+    <Text ID="419412" Value="Back"/>
+    <Text ID="419416" Value="no    "/>
+    <Text ID="430826" Value="Stacker selection"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="266564" Value=""/>
+    <Text ID="266565" Value=""/>
+    <Text ID="266566" Value=""/>
+    <Text ID="266567" Value=""/>
+    <Text ID="266577" Value=""/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value=""/>
+    <Text ID="275468" Value=""/>
+    <Text ID="392992" Value=""/>
+    <Text ID="392993" Value=""/>
+    <Text ID="392994" Value=""/>
+    <Text ID="419408" Value=""/>
+    <Text ID="419409" Value=""/>
+    <Text ID="419410" Value=""/>
+    <Text ID="419411" Value=""/>
+    <Text ID="419412" Value=""/>
+    <Text ID="419416" Value=""/>
+    <Text ID="430826" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="266564" Value=""/>
+    <Text ID="266565" Value=""/>
+    <Text ID="266566" Value=""/>
+    <Text ID="266567" Value=""/>
+    <Text ID="266577" Value=""/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value=""/>
+    <Text ID="275468" Value=""/>
+    <Text ID="392992" Value=""/>
+    <Text ID="392993" Value=""/>
+    <Text ID="392994" Value=""/>
+    <Text ID="419408" Value=""/>
+    <Text ID="419409" Value=""/>
+    <Text ID="419410" Value=""/>
+    <Text ID="419411" Value=""/>
+    <Text ID="419412" Value=""/>
+    <Text ID="419416" Value=""/>
+    <Text ID="430826" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="266564" Value=""/>
+    <Text ID="266565" Value=""/>
+    <Text ID="266566" Value=""/>
+    <Text ID="266567" Value=""/>
+    <Text ID="266577" Value=""/>
+    <Text ID="266579" Value="Autoprogram page Indexing time"/>
+    <Text ID="266582" Value=""/>
+    <Text ID="275468" Value=""/>
+    <Text ID="392992" Value=""/>
+    <Text ID="392993" Value=""/>
+    <Text ID="392994" Value=""/>
+    <Text ID="419408" Value=""/>
+    <Text ID="419409" Value=""/>
+    <Text ID="419410" Value=""/>
+    <Text ID="419411" Value=""/>
+    <Text ID="419412" Value=""/>
+    <Text ID="419416" Value=""/>
+    <Text ID="430826" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="266564" Value=""/>
+    <Text ID="266565" Value=""/>
+    <Text ID="266566" Value=""/>
+    <Text ID="266567" Value=""/>
+    <Text ID="266577" Value=""/>
+    <Text ID="266579" Value="Autoprogram page Indexing time"/>
+    <Text ID="266582" Value=""/>
+    <Text ID="275468" Value=""/>
+    <Text ID="392992" Value=""/>
+    <Text ID="392993" Value=""/>
+    <Text ID="392994" Value=""/>
+    <Text ID="419408" Value=""/>
+    <Text ID="419409" Value=""/>
+    <Text ID="419410" Value=""/>
+    <Text ID="419411" Value=""/>
+    <Text ID="419412" Value=""/>
+    <Text ID="419416" Value=""/>
+    <Text ID="430826" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="266564" Value=""/>
+    <Text ID="266565" Value=""/>
+    <Text ID="266566" Value=""/>
+    <Text ID="266567" Value=""/>
+    <Text ID="266577" Value=""/>
+    <Text ID="266579" Value="Autoprogram page Indexing time"/>
+    <Text ID="266582" Value=""/>
+    <Text ID="275468" Value=""/>
+    <Text ID="392992" Value=""/>
+    <Text ID="392993" Value=""/>
+    <Text ID="392994" Value=""/>
+    <Text ID="419408" Value=""/>
+    <Text ID="419409" Value=""/>
+    <Text ID="419410" Value=""/>
+    <Text ID="419411" Value=""/>
+    <Text ID="419412" Value=""/>
+    <Text ID="419416" Value=""/>
+    <Text ID="430826" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="266564" Value=""/>
+    <Text ID="266565" Value=""/>
+    <Text ID="266566" Value=""/>
+    <Text ID="266567" Value=""/>
+    <Text ID="266577" Value=""/>
+    <Text ID="266579" Value="Autoprogram page Indexing time"/>
+    <Text ID="266582" Value=""/>
+    <Text ID="275468" Value=""/>
+    <Text ID="392992" Value=""/>
+    <Text ID="392993" Value=""/>
+    <Text ID="392994" Value=""/>
+    <Text ID="419408" Value=""/>
+    <Text ID="419409" Value=""/>
+    <Text ID="419410" Value=""/>
+    <Text ID="419411" Value=""/>
+    <Text ID="419412" Value=""/>
+    <Text ID="419416" Value=""/>
+    <Text ID="430826" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="266564" Value="cm"/>
+    <Text ID="266565" Value="tom."/>
+    <Text ID="266566" Value="msek"/>
+    <Text ID="266567" Value="Stk"/>
+    <Text ID="266577" Value="Antall"/>
+    <Text ID="266579" Value="Go to indexing time adjust"/>
+    <Text ID="266582" Value="Forsinkelse rolloff ut"/>
+    <Text ID="275468" Value="Jenway destinasjon"/>
+    <Text ID="392992" Value="Dynamisk stacker valg"/>
+    <Text ID="392993" Value="Metricon Stacker valg"/>
+    <Text ID="392994" Value="Fast stacker valg"/>
+    <Text ID="419408" Value="Koppling"/>
+    <Text ID="419409" Value="Posisjon"/>
+    <Text ID="419410" Value="Distans"/>
+    <Text ID="419411" Value="Forran"/>
+    <Text ID="419412" Value="Bak"/>
+    <Text ID="419416" Value="ingen"/>
+    <Text ID="430826" Value="Stacker valg"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="266564" Value=""/>
+    <Text ID="266565" Value=""/>
+    <Text ID="266566" Value=""/>
+    <Text ID="266567" Value=""/>
+    <Text ID="266577" Value=""/>
+    <Text ID="266579" Value="Autoprogram page Indexing time"/>
+    <Text ID="266582" Value=""/>
+    <Text ID="275468" Value=""/>
+    <Text ID="392992" Value=""/>
+    <Text ID="392993" Value=""/>
+    <Text ID="392994" Value=""/>
+    <Text ID="419408" Value=""/>
+    <Text ID="419409" Value=""/>
+    <Text ID="419410" Value=""/>
+    <Text ID="419411" Value=""/>
+    <Text ID="419412" Value=""/>
+    <Text ID="419416" Value=""/>
+    <Text ID="430826" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="266564" Value="0"/>
+    <Index ID="266565" Value="1"/>
+    <Index ID="266566" Value="5"/>
+    <Index ID="266567" Value="8"/>
+    <Index ID="266577" Value="34"/>
+    <Index ID="266579" Value="38"/>
+    <Index ID="266582" Value="39"/>
+    <Index ID="275468" Value="75"/>
+    <Index ID="392992" Value="110"/>
+    <Index ID="392993" Value="111"/>
+    <Index ID="392994" Value="112"/>
+    <Index ID="419408" Value="31"/>
+    <Index ID="419409" Value="32"/>
+    <Index ID="419410" Value="33"/>
+    <Index ID="419411" Value="90"/>
+    <Index ID="419412" Value="91"/>
+    <Index ID="419416" Value="80"/>
+    <Index ID="430826" Value="42"/>
+  </IndexMap>
+</TextGroup>

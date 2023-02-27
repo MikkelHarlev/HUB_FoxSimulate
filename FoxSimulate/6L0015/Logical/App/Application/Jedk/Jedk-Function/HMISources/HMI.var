@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Package: Jedk-Function
+ * File: HMI.var
+ * Author: mha
+ * Created: September 26, 2012
+ ********************************************************************
+ * Variables of package Jedk-Function
+ ********************************************************************)
+VAR
+	g_HMIOutletPressingCountDownStr : STRING[3] := '';
+	g_HMIMakeIndex : ARRAY[0..MAX_NUMBER_OF_STACKERS] OF UINT;
+	g_HMITopSensorAlarmStNo : UINT := 1;
+	g_HMIStackCountStr : ARRAY[0..MAX_NUMBER_OF_STACKERS] OF STRING[3] := [11('')];
+	g_HMIMakeIndexHide : ARRAY[0..MAX_NUMBER_OF_STACKERS] OF UINT;
+	g_HMILengthCM : UINT := 0;
+	g_HMIHangerSetup : UINT := 0;
+END_VAR

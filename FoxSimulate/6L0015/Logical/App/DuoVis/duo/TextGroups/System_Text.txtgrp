@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="System_Text">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="15"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1364" Value="Contrast"/>
+    <Text ID="1365" Value="Language"/>
+    <Text ID="1367" Value="Date &amp; Time"/>
+    <Text ID="1368" Value="Display cleaning"/>
+    <Text ID="2649" Value="Node Number"/>
+    <Text ID="2650" Value="Memory Info"/>
+    <Text ID="2655" Value="Default Contrast"/>
+    <Text ID="2656" Value="Default Language"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bytes"/>
+    <Text ID="3676" Value="Machine Type:"/>
+    <Text ID="3677" Value="Machine Number:"/>
+    <Text ID="3678" Value="Operating Hours:"/>
+    <Text ID="3679" Value="Power On Hours:"/>
+    <Text ID="3680" Value="IP Address:"/>
+    <Text ID="3681" Value="Subnet Mask:"/>
+    <Text ID="3682" Value="Default Gateway:"/>
+    <Text ID="3683" Value="Broadcast Address:"/>
+    <Text ID="3689" Value="Baudrate:"/>
+    <Text ID="3880" Value="PLC Node Number:"/>
+    <Text ID="5576" Value="Machine Data:"/>
+    <Text ID="6114" Value="Level 1:"/>
+    <Text ID="6116" Value="Level 2:"/>
+    <Text ID="6488" Value="Wrong Password!"/>
+    <Text ID="6489" Value="Invalid Password! Please enter new!"/>
+    <Text ID="6491" Value="Please Enter Password!"/>
+    <Text ID="7529" Value="Save Cycle Hours:"/>
+    <Text ID="10543" Value="Password Code:"/>
+    <Text ID="10545" Value="Enter Code:"/>
+    <Text ID="10840" Value="WARNING!\nTouch Calibration"/>
+    <Text ID="14308" Value="CPU Temperature"/>
+    <Text ID="1366" Value="Battery"/>
+    <Text ID="137554" Value="Actual File:"/>
+    <Text ID="137555" Value="You entered 3 times the wrong Password. Call your JENSEN distributor to recieve your Login Password"/>
+    <Text ID="278852" Value="Program version"/>
+    <Text ID="328771" Value="Total pcs counter"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="1364" Value="Kontrast"/>
+    <Text ID="1365" Value="Sprache"/>
+    <Text ID="1367" Value="Datum &amp; Uhrzeit"/>
+    <Text ID="1368" Value="Bildschirm reinigen"/>
+    <Text ID="2649" Value="Knotennummer"/>
+    <Text ID="2650" Value="Speicher Info"/>
+    <Text ID="2655" Value="Standart Kontrast"/>
+    <Text ID="2656" Value="Standart Sprache"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bytes "/>
+    <Text ID="3676" Value="Maschinen Typ:"/>
+    <Text ID="3677" Value="Maschinen Nummer:"/>
+    <Text ID="3678" Value="Betriebs Stunden:"/>
+    <Text ID="3679" Value="Stromversorgung ein, Stunden:"/>
+    <Text ID="3680" Value="IP-Adresse:"/>
+    <Text ID="3681" Value="Subnet Maske:"/>
+    <Text ID="3682" Value="Standart Gateway:"/>
+    <Text ID="3683" Value="Broadcast Adresse:"/>
+    <Text ID="3689" Value="Baud-Rate:"/>
+    <Text ID="3880" Value="SPS Verbindungsnummer:"/>
+    <Text ID="5576" Value="Maschinen Daten:"/>
+    <Text ID="6114" Value="Niveau 1:"/>
+    <Text ID="6116" Value="Niveau 2:"/>
+    <Text ID="6488" Value="Falsches Passwort!"/>
+    <Text ID="6489" Value="Ungueltiges Passwort! Bitte wiederholen!"/>
+    <Text ID="6491" Value="Bitte Password eingeben!"/>
+    <Text ID="7529" Value="Sicherungszyklus Stunden:"/>
+    <Text ID="10543" Value="Passwortcode"/>
+    <Text ID="10545" Value="Code eingeben:"/>
+    <Text ID="10840" Value="Achtung! Touch Kalibrierung"/>
+    <Text ID="14308" Value="Festplatte Temperatur"/>
+    <Text ID="1366" Value="Batterie"/>
+    <Text ID="137554" Value="Aktuelle Datei:"/>
+    <Text ID="137555" Value="Sie haben 3 x Ein falsches Passwort Eingegeben. Rufen Sie bitte Ihren JENSEN-Vertretung an, um Ihr Login Passwort zu erfahren. "/>
+    <Text ID="278852" Value="Programmversion"/>
+    <Text ID="328771" Value="Total stck. Zaehler"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="1364" Value="Kontrast"/>
+    <Text ID="1365" Value="Språk"/>
+    <Text ID="1367" Value="Datum &amp; tid"/>
+    <Text ID="1368" Value="Displayrengöring"/>
+    <Text ID="2649" Value="Node Nummer"/>
+    <Text ID="2650" Value="Minnesinformation"/>
+    <Text ID="2655" Value="Fabrikskontrast"/>
+    <Text ID="2656" Value="Fabriksspråk"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bytes"/>
+    <Text ID="3676" Value="Maskintyp:"/>
+    <Text ID="3677" Value="Maskinnr:"/>
+    <Text ID="3678" Value="Drifttimmar:"/>
+    <Text ID="3679" Value="Timmar spänningssatt:"/>
+    <Text ID="3680" Value="IP Address:"/>
+    <Text ID="3681" Value="Subnet Mask:"/>
+    <Text ID="3682" Value="Default Gateway:"/>
+    <Text ID="3683" Value="Broadcast Address:"/>
+    <Text ID="3689" Value="Baudrate:"/>
+    <Text ID="3880" Value="PLC Node Number:"/>
+    <Text ID="5576" Value="Machine Data:"/>
+    <Text ID="6114" Value="Level 1:"/>
+    <Text ID="6116" Value="Level 2:"/>
+    <Text ID="6488" Value="Fel lösenord"/>
+    <Text ID="6489" Value="Ogiltigt lösenord vänligen ange nytt"/>
+    <Text ID="6491" Value="Ange lösenord"/>
+    <Text ID="7529" Value="Save Cycle Hours:"/>
+    <Text ID="10543" Value="Password Code:"/>
+    <Text ID="10545" Value="Enter Code:"/>
+    <Text ID="10840" Value="VARNING!\skärmkalibrering"/>
+    <Text ID="14308" Value="CPU Temperature"/>
+    <Text ID="1366" Value="Batteri"/>
+    <Text ID="137554" Value="Actual File:"/>
+    <Text ID="137555" Value="Ni har angivit fel lösenord tre ggr! Kontakta JENSEN SIPANO för korrekt lösenord"/>
+    <Text ID="278852" Value="Program version"/>
+    <Text ID="328771" Value="Räknare för total antal"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="1364" Value="Contraste"/>
+    <Text ID="1365" Value="Langue"/>
+    <Text ID="1367" Value="Date &amp; heure"/>
+    <Text ID="1368" Value="Nettoyage affichage"/>
+    <Text ID="2649" Value="Numero nœud"/>
+    <Text ID="2650" Value="Info mémoire"/>
+    <Text ID="2655" Value="Contraste par défaut"/>
+    <Text ID="2656" Value="Langue par défaut"/>
+    <Text ID="3494" Value="SRAM :"/>
+    <Text ID="3495" Value="HD :"/>
+    <Text ID="3496" Value="Drachme"/>
+    <Text ID="3672" Value="Octets"/>
+    <Text ID="3676" Value="Type Machine:"/>
+    <Text ID="3677" Value="Numéro Machine:"/>
+    <Text ID="3678" Value="Nb Heures en Marche:"/>
+    <Text ID="3679" Value="Nb Heures sous Tension :"/>
+    <Text ID="3680" Value="Adresse IP"/>
+    <Text ID="3681" Value="Masque sous-réseau"/>
+    <Text ID="3682" Value="Entrée par défaut"/>
+    <Text ID="3683" Value="Adresse diffusée:"/>
+    <Text ID="3689" Value="Vitesse trasnmission"/>
+    <Text ID="3880" Value="Numéro nœud PLC"/>
+    <Text ID="5576" Value="Données machine:"/>
+    <Text ID="6114" Value="Niveau 1:"/>
+    <Text ID="6116" Value="Niveau 2:"/>
+    <Text ID="6488" Value="Mauvais mdp !!"/>
+    <Text ID="6489" Value="Mot de passe invalide! Indiquer un autre!"/>
+    <Text ID="6491" Value="Veuillez saisir le mot de passe !"/>
+    <Text ID="7529" Value="Svgarde cycle"/>
+    <Text ID="10543" Value="Code mot de passe"/>
+    <Text ID="10545" Value="Entrer Code:"/>
+    <Text ID="10840" Value="Attention!\Calibration écran"/>
+    <Text ID="14308" Value="Température CPU"/>
+    <Text ID="1366" Value="Batterie"/>
+    <Text ID="137554" Value="Fichier actuel:"/>
+    <Text ID="137555" Value="Mot de passe 3 fois faux: Contacter JENSEN pour un nouveau mot de passe"/>
+    <Text ID="278852" Value="version programme"/>
+    <Text ID="328771" Value="Compteur totalisateur de pièces"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="1364" Value="Kontrast"/>
+    <Text ID="1365" Value="Sprog"/>
+    <Text ID="1367" Value="Dato &amp; Tid"/>
+    <Text ID="1368" Value="Rens Display"/>
+    <Text ID="2649" Value="Node Nummer"/>
+    <Text ID="2650" Value="Hukommelses info"/>
+    <Text ID="2655" Value="Standard Kontrast"/>
+    <Text ID="2656" Value="Standart sprog"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bytes"/>
+    <Text ID="3676" Value="Maskin Type:"/>
+    <Text ID="3677" Value="Maskin Nummer:"/>
+    <Text ID="3678" Value="Drifts tid:"/>
+    <Text ID="3679" Value="Timer med strøm på"/>
+    <Text ID="3680" Value="IP Adresse:"/>
+    <Text ID="3681" Value="Subnet Mask:"/>
+    <Text ID="3682" Value="Default Gateway:"/>
+    <Text ID="3683" Value="Broadcast Address:"/>
+    <Text ID="3689" Value="Baudrate:"/>
+    <Text ID="3880" Value="PLC Node Number:"/>
+    <Text ID="5576" Value="Maskin Data:"/>
+    <Text ID="6114" Value="Nivu 1:"/>
+    <Text ID="6116" Value="Nivu 2:"/>
+    <Text ID="6488" Value="Forkert adgangs kode"/>
+    <Text ID="6489" Value="Forkert adgangskode, ny adgangskode"/>
+    <Text ID="6491" Value="Skriv adgangs kode"/>
+    <Text ID="7529" Value="Gem driftstimer"/>
+    <Text ID="10543" Value="Adgangskode kode"/>
+    <Text ID="10545" Value="Skriv adgangskode"/>
+    <Text ID="10840" Value="Se op ! Kalibrering"/>
+    <Text ID="14308" Value="CPU Tempratur"/>
+    <Text ID="1366" Value="Batteri"/>
+    <Text ID="137554" Value="Aktuell Fil:"/>
+    <Text ID="137555" Value="Program version"/>
+    <Text ID="278852" Value="Program version"/>
+    <Text ID="328771" Value="Styktæller total"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="1364" Value="Contrasto"/>
+    <Text ID="1365" Value="Lingua"/>
+    <Text ID="1367" Value="Data e d Ora"/>
+    <Text ID="1368" Value="Display Pulizia"/>
+    <Text ID="2649" Value="Nodo Numero"/>
+    <Text ID="2650" Value="Memory Info"/>
+    <Text ID="2655" Value="Default Contrasto"/>
+    <Text ID="2656" Value="Default Lingua"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bytes"/>
+    <Text ID="3676" Value="Tipo macchina"/>
+    <Text ID="3677" Value="Numero macchina"/>
+    <Text ID="3678" Value="Ore operative:"/>
+    <Text ID="3679" Value="Ore di accensione:"/>
+    <Text ID="3680" Value="IP Indirizzo:"/>
+    <Text ID="3681" Value="Subnet Mask:"/>
+    <Text ID="3682" Value="Default Gateway:"/>
+    <Text ID="3683" Value="Broadcast Address:"/>
+    <Text ID="3689" Value="Baudrate:"/>
+    <Text ID="3880" Value="Numero nodo plc:"/>
+    <Text ID="5576" Value="Dati macchina:"/>
+    <Text ID="6114" Value="Livello 1:"/>
+    <Text ID="6116" Value="Livello 2:"/>
+    <Text ID="6488" Value="Password sbagliata!"/>
+    <Text ID="6489" Value="Password non valida! "/>
+    <Text ID="6491" Value="Inserire Password!"/>
+    <Text ID="7529" Value="salvare ore ciclo:"/>
+    <Text ID="10543" Value="Codice password:"/>
+    <Text ID="10545" Value="Inserire codice:"/>
+    <Text ID="10840" Value="ATTENZIONE!\nCalibrazione Pannello"/>
+    <Text ID="14308" Value="Temperatura CPU "/>
+    <Text ID="1366" Value="Batteria "/>
+    <Text ID="137554" Value="File attuale:"/>
+    <Text ID="137555" Value="Hai inserito per3 volte la password sbagliata chiama il distributore per avere una nuova Login"/>
+    <Text ID="278852" Value="Program version"/>
+    <Text ID="328771" Value="Totale Pezzi "/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="1364" Value="Contrast"/>
+    <Text ID="1365" Value="Language"/>
+    <Text ID="1367" Value="Date &amp; Time"/>
+    <Text ID="1368" Value="Display cleaning"/>
+    <Text ID="2649" Value="Node Number"/>
+    <Text ID="2650" Value="Memory Info"/>
+    <Text ID="2655" Value="Default Contrast"/>
+    <Text ID="2656" Value="Default Language"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bytes"/>
+    <Text ID="3676" Value="Machine Type:"/>
+    <Text ID="3677" Value="Machine Number:"/>
+    <Text ID="3678" Value="Operating Hours:"/>
+    <Text ID="3679" Value="Power On Hours:"/>
+    <Text ID="3680" Value="IP Address:"/>
+    <Text ID="3681" Value="Subnet Mask:"/>
+    <Text ID="3682" Value="Default Gateway:"/>
+    <Text ID="3683" Value="Broadcast Address:"/>
+    <Text ID="3689" Value="Baudrate:"/>
+    <Text ID="3880" Value="PLC Node Number:"/>
+    <Text ID="5576" Value="Machine Data:"/>
+    <Text ID="6114" Value="Level 1:"/>
+    <Text ID="6116" Value="Level 2:"/>
+    <Text ID="6488" Value="Wrong Password!"/>
+    <Text ID="6489" Value="Invalid Password! Please enter new!"/>
+    <Text ID="6491" Value="Please Enter Password!"/>
+    <Text ID="7529" Value="Save Cycle Hours:"/>
+    <Text ID="10543" Value="Password Code:"/>
+    <Text ID="10545" Value="Enter Code:"/>
+    <Text ID="10840" Value="WARNING!\nTouch Calibration"/>
+    <Text ID="14308" Value="CPU Temperature"/>
+    <Text ID="1366" Value="Battery"/>
+    <Text ID="137554" Value="Actual File:"/>
+    <Text ID="137555" Value="You entered 3 times the wrong Password. Call your JENSEN distributor to recieve your Login Password"/>
+    <Text ID="278852" Value="Program version"/>
+    <Text ID="328771" Value="Total pcs counter"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="1364" Value="Kontrast"/>
+    <Text ID="1365" Value="Spraak"/>
+    <Text ID="1367" Value="Datum &amp; Tijd"/>
+    <Text ID="1368" Value="Display Opschon"/>
+    <Text ID="2649" Value="Node Nummer"/>
+    <Text ID="2650" Value="Geheugen Info"/>
+    <Text ID="2655" Value="Standaard Contrast"/>
+    <Text ID="2656" Value="Standaard Taal"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bytes"/>
+    <Text ID="3676" Value="Machine Type:"/>
+    <Text ID="3677" Value="Machine Nummer:"/>
+    <Text ID="3678" Value="Uren in bedrijf"/>
+    <Text ID="3679" Value="Uren aangeschakeld :"/>
+    <Text ID="3680" Value="IP-adres"/>
+    <Text ID="3681" Value="Subnet Mask:"/>
+    <Text ID="3682" Value="Standaard Gateway:"/>
+    <Text ID="3683" Value="Broadcast Adres:"/>
+    <Text ID="3689" Value="Baudrate:"/>
+    <Text ID="3880" Value="PLC Node Nummer:"/>
+    <Text ID="5576" Value="Machine Data:"/>
+    <Text ID="6114" Value="Nivo 1:"/>
+    <Text ID="6116" Value="Nivo 2:"/>
+    <Text ID="6488" Value="Foutief paswoord!"/>
+    <Text ID="6489" Value="Foutief paswoord! Opnieuw.."/>
+    <Text ID="6491" Value="Paswoord invoeren a.u.b!"/>
+    <Text ID="7529" Value="Opslaan draai uren:"/>
+    <Text ID="10543" Value="Wachtwoordcode"/>
+    <Text ID="10545" Value="Kode invoeren"/>
+    <Text ID="10840" Value="WAARSCHUWING!\n Touch Calibratie"/>
+    <Text ID="14308" Value="CPU Temperatuur"/>
+    <Text ID="1366" Value="Batterijstatus"/>
+    <Text ID="137554" Value="Aktuele File:"/>
+    <Text ID="137555" Value="Eikelbijter ! 3 x fout paswoord ingevoerd ! A.u.b. Kontakt Jensen voor login paswoord."/>
+    <Text ID="278852" Value="Programma versie"/>
+    <Text ID="328771" Value="totaal stukkenteller"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="1364" Value="Contraste"/>
+    <Text ID="1365" Value="Idioma"/>
+    <Text ID="1367" Value="Fecha y Hora"/>
+    <Text ID="1368" Value="Limpieza del display"/>
+    <Text ID="2649" Value="Número de nodo"/>
+    <Text ID="2650" Value="Información de memoria"/>
+    <Text ID="2655" Value="Contraste por defecto:"/>
+    <Text ID="2656" Value="Idioma por defecto"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD (Disco duro):"/>
+    <Text ID="3496" Value="DRAM: (Memoria de acceso aleatorio dinámica)"/>
+    <Text ID="3672" Value="Bytes"/>
+    <Text ID="3676" Value="Tipo de máquina:"/>
+    <Text ID="3677" Value="Número de máquina:"/>
+    <Text ID="3678" Value="Horas funcionamiento:"/>
+    <Text ID="3679" Value="Horas encendido:"/>
+    <Text ID="3680" Value="Dirección IP:"/>
+    <Text ID="3681" Value="Máscara de subred:"/>
+    <Text ID="3682" Value="Puerta de enlace:"/>
+    <Text ID="3683" Value="Dirección transmisión:"/>
+    <Text ID="3689" Value="Velocidad de transmisión, en baudios:"/>
+    <Text ID="3880" Value="Número nodo PLC:"/>
+    <Text ID="5576" Value="Datos máquina:"/>
+    <Text ID="6114" Value="Nivel 1:"/>
+    <Text ID="6116" Value="Nivel 2:"/>
+    <Text ID="6488" Value="Contraseña incorrecta !!!"/>
+    <Text ID="6489" Value="Contraseña incorrecta! Por favor introduzca una nueva"/>
+    <Text ID="6491" Value="Por favor introducir contraseña:"/>
+    <Text ID="7529" Value="Guardar horas de ciclo:"/>
+    <Text ID="10543" Value="Código de contraseña"/>
+    <Text ID="10545" Value="Introducir código:"/>
+    <Text ID="10840" Value="ADVERTENCIA!\n Calibración de panel táctil"/>
+    <Text ID="14308" Value="Temperatura CPU"/>
+    <Text ID="1366" Value="Batería"/>
+    <Text ID="137554" Value="Archivo actual:"/>
+    <Text ID="137555" Value="Ha introducido 3 veces una contraseña incorrecta. Llame a su distribuidor JENSEN para recibir su clave de acceso"/>
+    <Text ID="278852" Value="Versión de programa:"/>
+    <Text ID="328771" Value="Total piezas:"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="1364" Value="Kontrast"/>
+    <Text ID="1365" Value="Język"/>
+    <Text ID="1367" Value="Data i czas"/>
+    <Text ID="1368" Value="Czyszczenie ekranu"/>
+    <Text ID="2649" Value="Numer węzła sieci"/>
+    <Text ID="2650" Value="Informacje o pamięci"/>
+    <Text ID="2655" Value="Kontrast domyślny"/>
+    <Text ID="2656" Value="Język domyślny"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bajty"/>
+    <Text ID="3676" Value="Typ maszyny:"/>
+    <Text ID="3677" Value="Numer maszyny:"/>
+    <Text ID="3678" Value="Liczba przepracowanych godzin:"/>
+    <Text ID="3679" Value="Liczba godzin włączonego zasilania:"/>
+    <Text ID="3680" Value="Adres IP"/>
+    <Text ID="3681" Value="Maska podsieci:"/>
+    <Text ID="3682" Value="Domyślna brama sieci:"/>
+    <Text ID="3683" Value="Adres rozgłaszania:"/>
+    <Text ID="3689" Value="Prędkość transmisji:"/>
+    <Text ID="3880" Value="Numer węzła PLC:"/>
+    <Text ID="5576" Value="Dane maszyny:"/>
+    <Text ID="6114" Value="Poziom 1:"/>
+    <Text ID="6116" Value="Poziom 2:"/>
+    <Text ID="6488" Value="Niewłaściwe hasło!"/>
+    <Text ID="6489" Value="Hasło nieważne! Proszę wprowadzić nowe hasło!"/>
+    <Text ID="6491" Value="Proszę wprowadzić hasło!"/>
+    <Text ID="7529" Value="Zapisz liczbę godzin cyklu:"/>
+    <Text ID="10543" Value="Kod hasła"/>
+    <Text ID="10545" Value="Wprowadź kod:"/>
+    <Text ID="10840" Value="OSTRZEŻENIE!\nKalibracja siły dotyku"/>
+    <Text ID="14308" Value="Temperatura CPU"/>
+    <Text ID="1366" Value="Bateria"/>
+    <Text ID="137554" Value="Plik aktualny:"/>
+    <Text ID="137555" Value="You entered 3 times the wrong Password. Call your JENSEN distributor to recieve your Login Password"/>
+    <Text ID="278852" Value="Wersja programu"/>
+    <Text ID="328771" Value="Licznik sumaryczny sztuk"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="1364" Value=""/>
+    <Text ID="1365" Value=""/>
+    <Text ID="1367" Value=""/>
+    <Text ID="1368" Value=""/>
+    <Text ID="2649" Value=""/>
+    <Text ID="2650" Value=""/>
+    <Text ID="2655" Value=""/>
+    <Text ID="2656" Value=""/>
+    <Text ID="3494" Value=""/>
+    <Text ID="3495" Value=""/>
+    <Text ID="3496" Value=""/>
+    <Text ID="3672" Value=""/>
+    <Text ID="3676" Value=""/>
+    <Text ID="3677" Value=""/>
+    <Text ID="3678" Value=""/>
+    <Text ID="3679" Value=""/>
+    <Text ID="3680" Value=""/>
+    <Text ID="3681" Value=""/>
+    <Text ID="3682" Value=""/>
+    <Text ID="3683" Value=""/>
+    <Text ID="3689" Value=""/>
+    <Text ID="3880" Value=""/>
+    <Text ID="5576" Value=""/>
+    <Text ID="6114" Value=""/>
+    <Text ID="6116" Value=""/>
+    <Text ID="6488" Value=""/>
+    <Text ID="6489" Value=""/>
+    <Text ID="6491" Value=""/>
+    <Text ID="7529" Value=""/>
+    <Text ID="10543" Value=""/>
+    <Text ID="10545" Value=""/>
+    <Text ID="10840" Value=""/>
+    <Text ID="14308" Value=""/>
+    <Text ID="1366" Value=""/>
+    <Text ID="137554" Value=""/>
+    <Text ID="137555" Value=""/>
+    <Text ID="278852" Value=""/>
+    <Text ID="328771" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="1364" Value=""/>
+    <Text ID="1365" Value=""/>
+    <Text ID="1367" Value=""/>
+    <Text ID="1368" Value=""/>
+    <Text ID="2649" Value=""/>
+    <Text ID="2650" Value=""/>
+    <Text ID="2655" Value=""/>
+    <Text ID="2656" Value=""/>
+    <Text ID="3494" Value=""/>
+    <Text ID="3495" Value=""/>
+    <Text ID="3496" Value=""/>
+    <Text ID="3672" Value=""/>
+    <Text ID="3676" Value=""/>
+    <Text ID="3677" Value=""/>
+    <Text ID="3678" Value=""/>
+    <Text ID="3679" Value=""/>
+    <Text ID="3680" Value=""/>
+    <Text ID="3681" Value=""/>
+    <Text ID="3682" Value=""/>
+    <Text ID="3683" Value=""/>
+    <Text ID="3689" Value=""/>
+    <Text ID="3880" Value=""/>
+    <Text ID="5576" Value=""/>
+    <Text ID="6114" Value=""/>
+    <Text ID="6116" Value=""/>
+    <Text ID="6488" Value=""/>
+    <Text ID="6489" Value=""/>
+    <Text ID="6491" Value=""/>
+    <Text ID="7529" Value=""/>
+    <Text ID="10543" Value=""/>
+    <Text ID="10545" Value=""/>
+    <Text ID="10840" Value=""/>
+    <Text ID="14308" Value=""/>
+    <Text ID="1366" Value=""/>
+    <Text ID="137554" Value=""/>
+    <Text ID="137555" Value=""/>
+    <Text ID="278852" Value=""/>
+    <Text ID="328771" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1364" Value="Kontrast"/>
+    <Text ID="1365" Value="Język"/>
+    <Text ID="1367" Value="Data i czas"/>
+    <Text ID="1368" Value="Czyszczenie ekranu"/>
+    <Text ID="2649" Value="Numer węzła sieci"/>
+    <Text ID="2650" Value="Informacje o pamięci"/>
+    <Text ID="2655" Value="Kontrast domyślny"/>
+    <Text ID="2656" Value="Język domyślny"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bajty"/>
+    <Text ID="3676" Value="Typ maszyny:"/>
+    <Text ID="3677" Value="Numer maszyny:"/>
+    <Text ID="3678" Value="Liczba przepracowanych godzin:"/>
+    <Text ID="3679" Value="Liczba godzin włączonego zasilania:"/>
+    <Text ID="3680" Value="Adres IP"/>
+    <Text ID="3681" Value="Maska podsieci:"/>
+    <Text ID="3682" Value="Domyślna brama sieci:"/>
+    <Text ID="3683" Value="Adres rozgłaszania:"/>
+    <Text ID="3689" Value="Prędkość transmisji:"/>
+    <Text ID="3880" Value="Numer węzła PLC:"/>
+    <Text ID="5576" Value="Dane maszyny:"/>
+    <Text ID="6114" Value="Poziom 1:"/>
+    <Text ID="6116" Value="Poziom 2:"/>
+    <Text ID="6488" Value="Niewłaściwe hasło!"/>
+    <Text ID="6489" Value="Hasło nieważne! Proszę wprowadzić nowe hasło!"/>
+    <Text ID="6491" Value="Proszę wprowadzić hasło!"/>
+    <Text ID="7529" Value="Zapisz liczbę godzin cyklu:"/>
+    <Text ID="10543" Value="Kod hasła"/>
+    <Text ID="10545" Value="Wprowadź kod:"/>
+    <Text ID="10840" Value="OSTRZEŻENIE!\nKalibracja siły dotyku"/>
+    <Text ID="14308" Value="Temperatura CPU"/>
+    <Text ID="1366" Value="Bateria"/>
+    <Text ID="137554" Value="Plik aktualny:"/>
+    <Text ID="137555" Value="You entered 3 times the wrong Password. Call your JENSEN distributor to recieve your Login Password"/>
+    <Text ID="278852" Value="Wersja programu"/>
+    <Text ID="328771" Value="Licznik sumaryczny sztuk"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="1364" Value="Contrast"/>
+    <Text ID="1365" Value="Language"/>
+    <Text ID="1367" Value="Date &amp; Time"/>
+    <Text ID="1368" Value="Display cleaning"/>
+    <Text ID="2649" Value="Node Number"/>
+    <Text ID="2650" Value="Memory Info"/>
+    <Text ID="2655" Value="Default Contrast"/>
+    <Text ID="2656" Value="Default Language"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bytes"/>
+    <Text ID="3676" Value="Machine Type:"/>
+    <Text ID="3677" Value="Machine Number:"/>
+    <Text ID="3678" Value="Operating Hours:"/>
+    <Text ID="3679" Value="Power On Hours:"/>
+    <Text ID="3680" Value="IP Address:"/>
+    <Text ID="3681" Value="Subnet Mask:"/>
+    <Text ID="3682" Value="Default Gateway:"/>
+    <Text ID="3683" Value="Broadcast Address:"/>
+    <Text ID="3689" Value="Baudrate:"/>
+    <Text ID="3880" Value="IP Address:"/>
+    <Text ID="5576" Value="Machine Data:"/>
+    <Text ID="6114" Value="Level 1:"/>
+    <Text ID="6116" Value="Level 2:"/>
+    <Text ID="6488" Value="Wrong Password!"/>
+    <Text ID="6489" Value="Invalid Password! Please enter new!"/>
+    <Text ID="6491" Value="Please Enter Password!"/>
+    <Text ID="7529" Value="Save Cycle Hours:"/>
+    <Text ID="10543" Value="Password Code:"/>
+    <Text ID="10545" Value="Enter Code:"/>
+    <Text ID="10840" Value="WARNING!\nTouch Calibration"/>
+    <Text ID="14308" Value="CPU Temperature"/>
+    <Text ID="1366" Value="Battery"/>
+    <Text ID="137554" Value="Actual File:"/>
+    <Text ID="137555" Value="You entered 3 times the wrong Password. Call your JENSEN distributor to recieve your Login Password"/>
+    <Text ID="278852" Value="Program version"/>
+    <Text ID="328771" Value="Total pcs counter"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="1364" Value="Contrast"/>
+    <Text ID="1365" Value="Language"/>
+    <Text ID="1367" Value="Date &amp; Time"/>
+    <Text ID="1368" Value="Display cleaning"/>
+    <Text ID="2649" Value="Node Number"/>
+    <Text ID="2650" Value="Memory Info"/>
+    <Text ID="2655" Value="Default Contrast"/>
+    <Text ID="2656" Value="Default Language"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bytes"/>
+    <Text ID="3676" Value="Machine Type:"/>
+    <Text ID="3677" Value="Machine Number:"/>
+    <Text ID="3678" Value="Operating Hours:"/>
+    <Text ID="3679" Value="Power On Hours:"/>
+    <Text ID="3680" Value="IP Address:"/>
+    <Text ID="3681" Value="Subnet Mask:"/>
+    <Text ID="3682" Value="Default Gateway:"/>
+    <Text ID="3683" Value="Broadcast Address:"/>
+    <Text ID="3689" Value="Baudrate:"/>
+    <Text ID="3880" Value="PLC Node Number:"/>
+    <Text ID="5576" Value="Machine Data:"/>
+    <Text ID="6114" Value="Level 1:"/>
+    <Text ID="6116" Value="Level 2:"/>
+    <Text ID="6488" Value="Wrong Password!"/>
+    <Text ID="6489" Value="Invalid Password! Please enter new!"/>
+    <Text ID="6491" Value="Please Enter Password!"/>
+    <Text ID="7529" Value="Save Cycle Hours:"/>
+    <Text ID="10543" Value="Password Code:"/>
+    <Text ID="10545" Value="Enter Code:"/>
+    <Text ID="10840" Value="WARNING!\nTouch Calibration"/>
+    <Text ID="14308" Value="CPU Temperature"/>
+    <Text ID="1366" Value="Battery"/>
+    <Text ID="137554" Value="Actual File:"/>
+    <Text ID="137555" Value="You entered 3 times the wrong Password. Call your JENSEN distributor to recieve your Login Password"/>
+    <Text ID="278852" Value="Program version"/>
+    <Text ID="328771" Value="Total pcs counter"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="1364" Value="Kontrast"/>
+    <Text ID="1365" Value="Språk"/>
+    <Text ID="1367" Value="Dato &amp; Tid"/>
+    <Text ID="1368" Value="Rens Display"/>
+    <Text ID="2649" Value="Node Nummer"/>
+    <Text ID="2650" Value="Minne info"/>
+    <Text ID="2655" Value="Standard Kontrast"/>
+    <Text ID="2656" Value="Standard Språk"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bytes"/>
+    <Text ID="3676" Value="Maskin Type:"/>
+    <Text ID="3677" Value="Maskin Nummer:"/>
+    <Text ID="3678" Value="Drifts tid:"/>
+    <Text ID="3679" Value="Timer med strøm på"/>
+    <Text ID="3680" Value="IP Adresse:"/>
+    <Text ID="3681" Value="Subnet Mask:"/>
+    <Text ID="3682" Value="Default Gateway:"/>
+    <Text ID="3683" Value="Broadcast Address:"/>
+    <Text ID="3689" Value="Baudrate:"/>
+    <Text ID="3880" Value="PLC Node Nummer:"/>
+    <Text ID="5576" Value="Maskin Data:"/>
+    <Text ID="6114" Value="Nivå 1:"/>
+    <Text ID="6116" Value="Nivå 2:"/>
+    <Text ID="6488" Value="Feil Passord"/>
+    <Text ID="6489" Value="Feil passord, nytt passord"/>
+    <Text ID="6491" Value="Slå Passord"/>
+    <Text ID="7529" Value="Lagre gangtid"/>
+    <Text ID="10543" Value="Passord Kode"/>
+    <Text ID="10545" Value="Slå Kode"/>
+    <Text ID="10840" Value="SE OPP!\n Kalibrering"/>
+    <Text ID="14308" Value="CPU Tempratur"/>
+    <Text ID="1366" Value="Batteri"/>
+    <Text ID="137554" Value="Aktuell Fil:"/>
+    <Text ID="137555" Value="Feil passord 3 ganger, ring Jan Magne"/>
+    <Text ID="278852" Value="Program versjon"/>
+    <Text ID="328771" Value="Stykk teller total"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="1364" Value="Contrast"/>
+    <Text ID="1365" Value="Language"/>
+    <Text ID="1367" Value="Date &amp; Time"/>
+    <Text ID="1368" Value="Display cleaning"/>
+    <Text ID="2649" Value="Node Number"/>
+    <Text ID="2650" Value="Memory Info"/>
+    <Text ID="2655" Value="Default Contrast"/>
+    <Text ID="2656" Value="Default Language"/>
+    <Text ID="3494" Value="SRAM:"/>
+    <Text ID="3495" Value="HD:"/>
+    <Text ID="3496" Value="DRAM:"/>
+    <Text ID="3672" Value="Bytes"/>
+    <Text ID="3676" Value="Machine Type:"/>
+    <Text ID="3677" Value="Machine Number:"/>
+    <Text ID="3678" Value="Operating Hours:"/>
+    <Text ID="3679" Value="Power On Hours:"/>
+    <Text ID="3680" Value="IP Address:"/>
+    <Text ID="3681" Value="Subnet Mask:"/>
+    <Text ID="3682" Value="Default Gateway:"/>
+    <Text ID="3683" Value="Broadcast Address:"/>
+    <Text ID="3689" Value="Baudrate:"/>
+    <Text ID="3880" Value="PLC Node Number:"/>
+    <Text ID="5576" Value="Machine Data:"/>
+    <Text ID="6114" Value="Level 1:"/>
+    <Text ID="6116" Value="Level 2:"/>
+    <Text ID="6488" Value="Wrong Password!"/>
+    <Text ID="6489" Value="Invalid Password! Please enter new!"/>
+    <Text ID="6491" Value="Introduza a palavra-passe!"/>
+    <Text ID="7529" Value="Save Cycle Hours:"/>
+    <Text ID="10543" Value="Password Code:"/>
+    <Text ID="10545" Value="Enter Code:"/>
+    <Text ID="10840" Value="WARNING!\nTouch Calibration"/>
+    <Text ID="14308" Value="CPU Temperature"/>
+    <Text ID="1366" Value="Battery"/>
+    <Text ID="137554" Value="Actual File:"/>
+    <Text ID="137555" Value="You entered 3 times the wrong Password. Call your JENSEN distributor to recieve your Login Password"/>
+    <Text ID="278852" Value="Program version"/>
+    <Text ID="328771" Value="Contador de peças totais"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1364" Value="0"/>
+    <Index ID="1365" Value="2"/>
+    <Index ID="1367" Value="5"/>
+    <Index ID="1368" Value="8"/>
+    <Index ID="2649" Value="6"/>
+    <Index ID="2650" Value="7"/>
+    <Index ID="2655" Value="1"/>
+    <Index ID="2656" Value="3"/>
+    <Index ID="3494" Value="9"/>
+    <Index ID="3495" Value="10"/>
+    <Index ID="3496" Value="11"/>
+    <Index ID="3672" Value="12"/>
+    <Index ID="3676" Value="13"/>
+    <Index ID="3677" Value="14"/>
+    <Index ID="3678" Value="15"/>
+    <Index ID="3679" Value="16"/>
+    <Index ID="3680" Value="18"/>
+    <Index ID="3681" Value="19"/>
+    <Index ID="3682" Value="20"/>
+    <Index ID="3683" Value="21"/>
+    <Index ID="3689" Value="17"/>
+    <Index ID="3880" Value="22"/>
+    <Index ID="5576" Value="23"/>
+    <Index ID="6114" Value="24"/>
+    <Index ID="6116" Value="25"/>
+    <Index ID="6488" Value="27"/>
+    <Index ID="6489" Value="28"/>
+    <Index ID="6491" Value="26"/>
+    <Index ID="7529" Value="29"/>
+    <Index ID="10543" Value="30"/>
+    <Index ID="10545" Value="31"/>
+    <Index ID="10840" Value="32"/>
+    <Index ID="14308" Value="33"/>
+    <Index ID="1366" Value="4"/>
+    <Index ID="137554" Value="71"/>
+    <Index ID="137555" Value="70"/>
+    <Index ID="278852" Value="35"/>
+    <Index ID="328771" Value="72"/>
+  </IndexMap>
+</TextGroup>

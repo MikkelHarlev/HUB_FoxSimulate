@@ -1,0 +1,25 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Library: JenSQL
+ * File: JenSQL.var
+ * Author: flystes
+ * Created: August 25, 2014
+ ********************************************************************
+ * Constants of library JenSQL
+ ********************************************************************)
+VAR CONSTANT
+	MAX_SQL_STRING_SIZE : UINT := 512;
+	DB_CONNECT_1 : UINT := 1;
+	DB_DISCONNECT_2 : UINT := 2;
+	DB_SQL_EXECUTE_3 : UINT := 3;
+	DB_SQL_ADD_5 : UINT := 5;
+	DB_GET_DATA_4 : UINT := 4;
+	DB_GET_ERROR_9 : UINT := 9;
+	DB_GET_AFFEECTEDROWS_10 : UINT := 10;
+	DB_ACTION_CREATE_1 : UINT := 1;
+	DB_ACTION_FREE_9 : UINT := 9;
+	DB_ACTION_IDLE_0 : UINT := 0;
+	DB_ACTION_CHECK_TABLE_4 : UINT := 4;
+	DB_ACTION_CHECK_CREATE_5 : UINT := 5;
+END_VAR

@@ -1,0 +1,593 @@
+
+<HTML DIR=LTR>
+ <HEAD>
+  <meta name="ORDER" content="4">
+  <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <TITLE>Error Numbers</TITLE>
+  <LINK REL="StyleSheet" HREF="../styles.css">
+ </HEAD>
+
+ <BODY>
+  <H1>jercp_lib - Error Numbers</H1>
+
+  <h2>Function Blocks</h2>
+
+  <p><b><font color="#FF0000">Note:&nbsp;&nbsp;&nbsp; All Error numbers between 
+  1 to 49999 are B&amp;R Error Numbers.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  Please refer to the Automation Studio Help for these ones.</font></b></p>
+
+  <CENTER>
+   <TABLE WIDTH="92%" CELLPADDING="1" CELLSPACING="2" BORDER="1" height="64">
+    <TR>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="16">
+      <b>Number</b></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="16">
+      <b>Constant / Keywords</b></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="16">
+      <b>Description</b></TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      0</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      No Error</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      No Error</TD>
+    </TR>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50200</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_ENABLE_0</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      Enable of the Function Block is 0</TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50201</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_NO_IDENT</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      No Ident given to the Function Block</TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="16">
+      50202</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="16">
+      JERCP_WRONG_IDENT</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="16">
+      Wrong Ident given to the Function Block</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="16">
+      50203</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="16">
+      JERCP_NO_RECIPE_STRUCT_NAME</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="16">
+      <a href="../FBKs/RcpInit.html">RcpInit()</a> No Recipe Struct Name given to the Function Block</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50204</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_NO_RECIPE_INFO_STRUCT_NAME</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpInit.html">RcpInit()</a> No Recipe Info Struct given to the Function Block</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50205</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_SIZE_RECIPE_INFO_STRUCT</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpInit.html">RcpInit()</a> Wrong size Recipe Info Struct</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50206</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_NO_DEVICE</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpLoad.html">RcpLoad()</a>,RcpSave(),ParScrollInit() no Device given to the FBK</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50208</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_ERROR_IN_CSV_FILE</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpLoad.html">RcpLoad()</a> Error in Csv Recipe File</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50209</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_LOAD_VAR_NO_STRUCT</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpLoad.html">RcpLoad()</a> Variable in Csv File is not at Structure</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50210</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_LOAD_INVALID_STRUCT</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpLoad.html">RcpLoad()</a> Structure in File is Different from Structure in 
+      <a href="../FBKs/RcpInit.html">RcpInit()</a></TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50211</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_PAR_SCROLL_ARRAY_MISSING</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/ParScroInit.html">ParScroInit()</a> String Array for Parameter Scroll is missing</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50212</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_PAR_VALUE_ARRAY_MISSING</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/ParScroInit.html">ParScroInit()</a> String Array for Parameter Values is missing</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50213</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_PAR_SCROLL_SIZE_0</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/ParScroInit.html">ParScroInit()</a> String Array Size for Parameter Scroll is 0</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50214</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_LINES_PAR_SCROLL_0</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/ParScroInit.html">ParScroInit()</a> Number of Elements in the Array is 0</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50215</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_PAR_VALUE_ARRAY_SIZE_0</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/ParScroInit.html">ParScroInit()</a> String Array Size for Parameter Values is 0</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50216</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_PARSCROINIT_FUB_NOT_DONE</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/ParScroCyclic.html">ParScroCyclic()</a> ParScroInit() FUB not done</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50219</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_NO_RECIPE_FILE_LOADED</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpCopy.html">RcpCopy()</a> No Recipe File loaded - no Copy possible</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50220</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_RECIPE_NOT_EXIST</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpCopy.html">RcpCopy()</a> Selected Recipe does not exist</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50221</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_RECIPEINDEX_TO_BIG</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpPointRef.html">RcpPointRef()</a> Recipe Index to big, 
+      Recipe doesn't exist</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50222</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_INIT_NO_RECIPE_POINTER_NAME</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpInit.html">RcpInit()</a> Recipe Pointer not given</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50223</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_VAR_SIZE_0</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      Size of Variable is 0</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50224</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_ARRAY_SIZE_0</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      Size of Array is 0</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50225</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_RCPDIRLIST_NOT_DONE</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpFileListScroll.html">RcpFileListScroll()</a> - 
+      RcpDirList not done</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50226</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_NO_POINTERIDENT</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpPointRef.html">RcpPointRef()</a> No PointerIdent given</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50227</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_ADD_NOT_POSSIBLE</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpAdd.html">RcpAdd()</a> Add working with Variables not possbile</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50228</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_COPY_RANGE_TOO_HIGH</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpCopy.html">RcpCopy()</a> Number of Recipes selected for copy too high</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50229</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_PAR_NAME_ARRAY_MISSING</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/ParScroInit.html">ParScroInit()</a> pParNameArray is 0</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50230</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_PAR_NAME_ARRAY_SIZE_0</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/ParScroInit.html">ParScroInit()</a> SizeParNameArray is 0</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50231</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_PAR_NAME_STRING_SIZE</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/ParScroInit.html">ParScroInit()</a> ParNameString is too big</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50232</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_FUNC_NOT_CONFIGURED</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpNameList.html">RcpNameList()</a> Function was not 
+      configured in <a href="../FBKs/ParScroInit.html">ParScroInit()</a></TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50233</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_ACT_PAR_VALUE_MISSING</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/ParScroInit.html">ParScroInit()</a> pActParValue is 0</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50234</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_ACT_PAR_VALUE_SIZE_0</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/ParScroInit.html">ParScroInit()</a> SizeActParValue is 0</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50235</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_NO_FILENAME</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpSave.html">RcpSave()</a> and
+      <a href="../FBKs/RcpLoad.html">RcpLoad()</a> Either no Filename String 
+      passed or String empty</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50236</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_GETNAMES_NO_ARRAY</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpGetNames.html">RcpGetNames()</a> no String array 
+      passed to Function Block</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50237</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_GETNAMES_SIZE_ARRAY</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpGetNames.html">RcpGetNames()</a> parameter 
+      SizeRcpNameArray is 0</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50238</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_GETNAMES_LINES_ARRAY</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpGetNames.html">RcpGetNames()</a> parameter 
+      LinesRcpNameArray is 0</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      50239</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_GETNAMES_ARRAY_TOO_SMALL</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      <a href="../FBKs/RcpGetNames.html">RcpGetNames()</a> string array is not 
+      big enough</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1">
+      65535</TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1">
+      JERCP_FUB_BUSY</TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1">
+      The Functionblock has to be called until its Status is unequal to 65535</TD>
+    </tr>
+
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">50300</font></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">ZIPUNZIP_ENABLE_0</font></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">Enable of IniFunction or FileComprDecompr or MemComprDecompr, is 0</font></TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">50301</font></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">ZIPUNZIP_WRONG_IDENT</font></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">No Ident or wrong Ident given to FileComprDecompr,&nbsp; MemComprDecompr</font></TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">50302</font></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">ZIPUNZIP_WRONG_MODE</font></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">Wrong Mode number given to FileComprDecompr or&nbsp; MemComprDecompr</font></TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">50303</font></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">ZIPUNZIP_NO_FILE_TO_THE_ADDRESS</font></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">No data found to the address given to FileComprDecompr or MemComprDecompr</font></TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">50304</font></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">ZIPUNZIP_EINVDAT</font></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">Error in Huffman Functions: Invalid argument of File Address or File Size
+      </font> </TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">50305</font></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">ZIPUNZIP_FREEMEM</font></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">Error in Huffman 
+      Functions: Error in the function saxPostFree</font></TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">50306</font></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">ZIPUNZIP_ENOMEM</font></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">Error in Huffman Functions: Pointer to an address (probably to the Huffman 
+      Structure) has value NULL. </font> </TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">50307</font></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">ZIPUNZIP_ERANGE</font></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">Error in Huffman Functions: Result too large. The data given to the 
+      internal Compression or/and Decompression functions are not enough</font></TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">50308</font></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">ZIPUNZIP_HUFFUBS_ALLOC_MEM</font></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">Error in Huffman Functions: Error in memory allocation for the Huffman 
+      Functions</font></TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">50309</font></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">ZIPUNZIP_HUFFUBS_DEALLOC_MEM</font></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">Error in Huffman Functions: Error in memory deallocation for the Huffman 
+      Functions</font></TD>
+    </tr>
+    <tr>
+     <TD WIDTH="8%" VALIGN="TOP" align="right" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">50310</font></TD>
+
+     <TD WIDTH="38%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">ZIPUNZIP_MAXFILESIZE</font></TD>
+
+     <TD WIDTH="146%" VALIGN="TOP" height="1" style="font-family: arial,helvetica,sans-serif; font-size: x-small">
+      <font face="Verdana">Error in Huffman Functions: The size of the file which has to be 
+      compressed/decompressed is too big. The maximum size allowed is calculated 
+      like (memory size allocated)/2</font></TD>
+    </tr>
+
+    </TABLE>
+  </CENTER>
+  </BODY>
+</HTML>

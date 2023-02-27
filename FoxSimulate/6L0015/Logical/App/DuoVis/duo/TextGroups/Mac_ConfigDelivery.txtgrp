@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigDelivery">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="16"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="288309" Value="msec"/>
+    <Text ID="288374" Value="Incline belt Run Time:"/>
+    <Text ID="297914" Value="Incline belt function"/>
+    <Text ID="297915" Value="Accumulate"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="288309" Value="msek"/>
+    <Text ID="288374" Value="Auslaufband Laufzeit"/>
+    <Text ID="297914" Value="Auslaufband Funktion"/>
+    <Text ID="297915" Value="Akkumulieren"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="288309" Value="ms"/>
+    <Text ID="288374" Value="Stigband gångtid:"/>
+    <Text ID="297914" Value="Stigband funktion"/>
+    <Text ID="297915" Value="Ackumulera"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="288309" Value="ms"/>
+    <Text ID="288374" Value="Durée de fonctionnement bande inclinée :"/>
+    <Text ID="297914" Value="Fonction bande inclinée"/>
+    <Text ID="297915" Value="Accumuler"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="288309" Value="msek"/>
+    <Text ID="288374" Value="Udgangstid"/>
+    <Text ID="297914" Value="Leveringsfunktion"/>
+    <Text ID="297915" Value="Akkumulere"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="288309" Value="millisec"/>
+    <Text ID="288374" Value="Incline belt Run Time:"/>
+    <Text ID="297914" Value="Incline belt function"/>
+    <Text ID="297915" Value="Accumulo"/>
+    <Text ID="297916" Value="Trasporto"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="288309" Value="msec"/>
+    <Text ID="288374" Value="Incline belt Run Time:"/>
+    <Text ID="297914" Value="Incline belt function"/>
+    <Text ID="297915" Value="Accumulate"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="288309" Value="msec"/>
+    <Text ID="288374" Value="Looptijd stijgband"/>
+    <Text ID="297914" Value="Functie stijgband"/>
+    <Text ID="297915" Value="Bufferen"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="288309" Value="ms"/>
+    <Text ID="288374" Value="Tiempo funcionamiento cinta inclinada de entrega:"/>
+    <Text ID="297914" Value="Modo de cinta inclinada de entrega:"/>
+    <Text ID="297915" Value="Acumular"/>
+    <Text ID="297916" Value="Transporte"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="288309" Value="msek"/>
+    <Text ID="288374" Value="Czas pracy taśmy nachylonej:"/>
+    <Text ID="297914" Value="Działanie taśmy nachylonej"/>
+    <Text ID="297915" Value="Nagromadzenie"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="288309" Value=""/>
+    <Text ID="288374" Value=""/>
+    <Text ID="297914" Value=""/>
+    <Text ID="297915" Value=""/>
+    <Text ID="297916" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="288309" Value=""/>
+    <Text ID="288374" Value=""/>
+    <Text ID="297914" Value=""/>
+    <Text ID="297915" Value=""/>
+    <Text ID="297916" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="288309" Value="msek"/>
+    <Text ID="288374" Value="Czas pracy taśmy nachylonej:"/>
+    <Text ID="297914" Value="Działanie taśmy nachylonej"/>
+    <Text ID="297915" Value="Nagromadzenie"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="288309" Value="msec"/>
+    <Text ID="288374" Value="Incline belt Run Time:"/>
+    <Text ID="297914" Value="Incline belt function"/>
+    <Text ID="297915" Value="Accumulate"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="288309" Value="msec"/>
+    <Text ID="288374" Value="Incline belt Run Time:"/>
+    <Text ID="297914" Value="Incline belt function"/>
+    <Text ID="297915" Value="Accumulate"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="288309" Value="msek"/>
+    <Text ID="288374" Value="Utgangstidtid:"/>
+    <Text ID="297914" Value="Leveringsfunksjon"/>
+    <Text ID="297915" Value="Akkumulere"/>
+    <Text ID="297916" Value="Transport"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="288309" Value="ms"/>
+    <Text ID="288374" Value="Tempo de funcionamento da correia inclinada:"/>
+    <Text ID="297914" Value="Função da correia inclinada"/>
+    <Text ID="297915" Value="Acumulação"/>
+    <Text ID="297916" Value="Transporte"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288309" Value="5"/>
+    <Index ID="288374" Value="31"/>
+    <Index ID="297914" Value="40"/>
+    <Index ID="297915" Value="41"/>
+    <Index ID="297916" Value="42"/>
+  </IndexMap>
+</TextGroup>

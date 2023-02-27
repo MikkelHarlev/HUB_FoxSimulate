@@ -1,0 +1,8 @@
+VAR
+	FB_DevLink : DevLink;
+	AutoProgramFile : AutoProgramFile_Type;
+	FB_FileToStruct : BRSE_STF_FileToStruct;
+	FB_StructToFile : BRSE_STF_StructToFile;
+	ErrorStatus : UINT;
+	LocalAutoProgram : REFERENCE TO ACfg_Type;
+END_VAR

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="0.04.0" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>XML_IVs.fun</File>
+    <File>XML_IVs.typ</File>
+    <File>XML_IVs.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="XML_Mrsh" Target="SG4" FromVersion="0.02.0" />
+    <Dependency ObjectName="DataObj" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsString" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="SYS_LIB" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

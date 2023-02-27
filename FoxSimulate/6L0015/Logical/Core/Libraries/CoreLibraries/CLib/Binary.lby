@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="0.15.0" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>CLib.fun</File>
+    <File>CLib.typ</File>
+    <File>CLib.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="sys_lib" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="standard" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="FileIO" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsUSB" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsTime" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsString" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsMem" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="JEGR_Coop" Target="SG4" />
+  </Dependencies>
+</Library>

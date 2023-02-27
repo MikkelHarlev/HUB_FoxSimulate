@@ -1,0 +1,14 @@
+VAR
+	allReady : BOOL;
+	axis : ARRAY[0..g_MaxAxis] OF axis_local_type;
+	Delay_checkStandStill : ARRAY[0..g_MaxAxis] OF FB_Delay;
+	lagError : ARRAY[0..g_MaxAxis] OF REAL;
+	newPos : ARRAY[0..g_MaxAxis] OF DINT;
+	no : USINT;
+	oldPos : ARRAY[0..g_MaxAxis] OF DINT;
+	powerOff : ARRAY[0..g_MaxAxis] OF BOOL;
+	ready : ARRAY[0..g_MaxAxis] OF UDINT;
+	rInit : BOOL := 0;
+	tCnt : ARRAY[0..g_MaxAxis] OF UINT;
+	TON_AcoposCheck : TON;
+END_VAR

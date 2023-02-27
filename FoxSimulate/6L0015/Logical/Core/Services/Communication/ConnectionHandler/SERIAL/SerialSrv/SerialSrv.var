@@ -1,0 +1,27 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: SerialSrv
+ * File: SerialSrv.var
+ * Author: eg
+ * Created: May 26, 2014
+ ********************************************************************
+ * Local variables of program SerialSrv
+ ********************************************************************)
+VAR
+	maxLoop : USINT;
+	serialCom : ARRAY[0..9] OF FB_Serial_Com;
+	HandleNewInstances : USINT;
+	refreshTime : UDINT;
+	pConnection : REFERENCE TO XMLComServiceInterfaceCon_Type;
+	options : STRING[20];
+	tempString : STRING[10];
+	No : USINT;
+	serverAdr : STRING[80];
+	newInstanceNo : USINT;
+	comSettings : STRING[80];
+	localStatus : ARRAY[0..9] OF STRING[120];
+	pThis : REFERENCE TO SerialComHandler_Type;
+	logicType : XMLComServiceType_Enum;
+	pConnectionManager : REFERENCE TO XMLRPCCL_Type;
+END_VAR

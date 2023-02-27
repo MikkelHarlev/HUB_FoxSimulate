@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="CoreAlarms">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.pThis.Interface.AlarmGroup[0].Ack]"/>
+  <Property Name="ActiveBackColor" Value="4"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.pThis.Interface.AlarmGroup[0].Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="None"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="1"/>
+  <Property Name="LatchedBackColor" Value="2"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="2"/>
+  <Property Name="QuitBackColor" Value="2"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="8">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="9">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="10">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="11">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="12">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="20">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="21">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="22">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="23">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="24">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="25">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="36">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="31">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="32">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="33">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="34">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="35">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="40">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="41">
+      <Property Name="Acknowledge" Value="Required"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="42">
+      <Property Name="Acknowledge" Value="Required"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="43">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="26">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="50">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="51">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="52">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="53">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="54">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="55">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="56">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="14">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="13">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="61">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="63">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="62">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="60">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="15">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="16">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="44">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets>
+      <TextSnippet ClassId="0x00002001" Name="TSN_ErrorModule">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Value Unittext"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Master.Core.Services.Alarms.IOAlarm.ErrorModulID]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="False"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="TSN_2">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Value Unittext"/>
+        <Property Name="Datapoint" Value="None"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="TSN_3">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Value Unittext"/>
+        <Property Name="Datapoint" Value="None"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="TSN_4">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Value Unittext"/>
+        <Property Name="Datapoint" Value="None"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="TSN_ExternAlarm1">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Master.Core.Services.GlobalCoreVars.g_Core.Services.Alarmhandler.Interface.ExternAlarm[0].descriptionUnicode]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="TSN_ExternAlarm2">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Master.Core.Services.GlobalCoreVars.g_Core.Services.Alarmhandler.Interface.ExternAlarm[1].descriptionUnicode]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="TSN_IOVar">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Master.Core.Services.IO.iostatus.IoListInit_0.ErrStringDetail]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="False"/>
+      </TextSnippet>
+    </TextSnippets>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="5817" Value="PLC Halted"/>
+      <Text ID="5828" Value="Statistics Init Failure"/>
+      <Text ID="5829" Value="Inverter disconnected"/>
+      <Text ID="5830" Value="Inverter Error (Check Alarm Info)"/>
+      <Text ID="5831" Value="Acopos Error (Check Alarm Info)"/>
+      <Text ID="5832" Value="Acopos Error Cleared (Press Reset)"/>
+      <Text ID="5833" Value="Acopos Error (Power Off To Reset)"/>
+      <Text ID="5834" Value="Emergency Stop"/>
+      <Text ID="5835" Value="Guard Fault"/>
+      <Text ID="5836" Value="ThermoFault"/>
+      <Text ID="5837" Value="Fuse Fault 24V Supply"/>
+      <Text ID="5838" Value="Low Airpressure !"/>
+      <Text ID="5815" Value="Battery low or missing      "/>
+      <Text ID="5862" Value="System File Error"/>
+      <Text ID="5863" Value="Recipe File Error"/>
+      <Text ID="5864" Value="Machine File Error"/>
+      <Text ID="5865" Value="Hardware File Error"/>
+      <Text ID="5866" Value="Customer File Error"/>
+      <Text ID="5867" Value="Operator File Error"/>
+      <Text ID="5868" Value="Product File: Variable Error"/>
+      <Text ID="5869" Value="No Configuration Directory"/>
+      <Text ID="5870" Value="Option file not allowed. Release code necessary"/>
+      <Text ID="5871" Value="Configuration File: Variable Error"/>
+      <Text ID="5872" Value="No Option Directory"/>
+      <Text ID="5873" Value="Option File: Variable Error"/>
+      <Text ID="5912" Value="Error on IO Module #{TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Output {TSN_2} Node {TSN_3} Short Circuit."/>
+      <Text ID="5914" Value="X2X Link failed"/>
+      <Text ID="5915" Value="Power Link Node {TSN_4} Failed"/>
+      <Text ID="5923" Value="File Device Error"/>
+      <Text ID="6037" Value="Connection Error Separator"/>
+      <Text ID="6038" Value="Connection Error Rail"/>
+      <Text ID="6039" Value="Connection Error Feeder"/>
+      <Text ID="6040" Value="Connection Error Ironer"/>
+      <Text ID="6041" Value="Connection Error Folder"/>
+      <Text ID="6042" Value="Connection Error Stacker"/>
+      <Text ID="6043" Value="Connection Error Jenscan"/>
+      <Text ID="6461" Value="Safety Plc Error"/>
+      <Text ID="6462" Value="External Emergency Stop"/>
+      <Text ID="6470" Value="Connection Error Intercom Slave"/>
+      <Text ID="6471" Value="Connection Error Slave"/>
+      <Text ID="6472" Value="Connection Error Master"/>
+      <Text ID="6473" Value="Connection Error Intercom Master"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="IO Variable Error: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="5817" Value="SPS Unterbrochen"/>
+      <Text ID="5828" Value="Statistik-Initialisierungsfehler"/>
+      <Text ID="5829" Value="Umrichtung unterbrochen"/>
+      <Text ID="5830" Value="Umrichter-Fehler (Info Alarm prüfen)"/>
+      <Text ID="5831" Value="Acopos Fehler (Alarm Info prüfen)"/>
+      <Text ID="5832" Value="Acopos Fehler weg  (Bitte Reset)"/>
+      <Text ID="5833" Value="Acopos Fehler (Spannung ab bei Rückstellung)"/>
+      <Text ID="5834" Value="Notaus"/>
+      <Text ID="5835" Value="Fehler Sicherheitsklappe"/>
+      <Text ID="5836" Value="Temperatur Fehler"/>
+      <Text ID="5837" Value="Sicherungsdefekt 24V"/>
+      <Text ID="5838" Value="Niedriger Luftdruck!"/>
+      <Text ID="5815" Value="Batterie schwach oder fehlt"/>
+      <Text ID="5862" Value="Systemdateifehler"/>
+      <Text ID="5863" Value="Fehler, Programmdatei"/>
+      <Text ID="5864" Value="Maschine, Dateifehler"/>
+      <Text ID="5865" Value="Hardware, Dateifehler"/>
+      <Text ID="5866" Value="Fehler Kundendatei"/>
+      <Text ID="5867" Value="Fehler Operator-Datei"/>
+      <Text ID="5868" Value="Produktdatei: Variabler Fehler"/>
+      <Text ID="5869" Value="Kein Konfigurationsverzeichnis"/>
+      <Text ID="5870" Value="Optionsdatei nicht erlaubt, Freigabecode erforderlich"/>
+      <Text ID="5871" Value="Konfigurationsdatei: Variabler Fehler"/>
+      <Text ID="5872" Value="Kein Optionsverzeichnis"/>
+      <Text ID="5873" Value="Optionsdatei: Variabler Fehler"/>
+      <Text ID="5912" Value="Fehler am IO Module # {TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Ausgang{TSN_2} Knoten{TSN_3} Kurzschluss."/>
+      <Text ID="5914" Value="X2X Link fehlgeschlagen"/>
+      <Text ID="5915" Value="Powerlink-Knoten {TSN_4} Fehlgeschlagen"/>
+      <Text ID="5923" Value="Fehler Dateilaufwerk"/>
+      <Text ID="6037" Value="Kommunikationsfehler Viking"/>
+      <Text ID="6038" Value="Kommunikationsfehler Jenrail"/>
+      <Text ID="6039" Value="Kommunikationsfehler Eingabe"/>
+      <Text ID="6040" Value="Kommunikationsfehler Mangel"/>
+      <Text ID="6041" Value="Kommunikationsfehler Faltung"/>
+      <Text ID="6042" Value="Kommunikationsfehler Kleinteilefaltung"/>
+      <Text ID="6043" Value="Kommunikationsfehler Jenscan"/>
+      <Text ID="6461" Value="Sicherheits-SPS-Fehler"/>
+      <Text ID="6462" Value="Extern Notaus"/>
+      <Text ID="6470" Value="Connection Error Intercom Slave"/>
+      <Text ID="6471" Value="Connection Error Slave"/>
+      <Text ID="6472" Value="Connection Error Master"/>
+      <Text ID="6473" Value="Connection Error Intercom Master"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="IO Variable Error: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="5817" Value="Plc stoppad"/>
+      <Text ID="5828" Value="Statistik init fel"/>
+      <Text ID="5829" Value="Omvandlare frånkopplad"/>
+      <Text ID="5830" Value="Omriktarfel (kontrollera larminfo)."/>
+      <Text ID="5831" Value="Acopos fel (kontrollera larminfo)."/>
+      <Text ID="5832" Value="Acopos Error återställt (Tryck Reset)"/>
+      <Text ID="5833" Value="Acopos fel (stäng av strömmen för att återställa)"/>
+      <Text ID="5834" Value="Nödstopp"/>
+      <Text ID="5835" Value="Skydd öppet"/>
+      <Text ID="5836" Value="Termofel"/>
+      <Text ID="5837" Value="Säkringsfel på 24V matning"/>
+      <Text ID="5838" Value="Lågt tryckluft tryck!"/>
+      <Text ID="5815" Value="Batteri lågt eller saknas"/>
+      <Text ID="5862" Value="System filfel"/>
+      <Text ID="5863" Value="Recept fil fel"/>
+      <Text ID="5864" Value="Maskin filfel"/>
+      <Text ID="5865" Value="Hårdvara fil fel"/>
+      <Text ID="5866" Value="Kundfil fel"/>
+      <Text ID="5867" Value="Operatör fil fel"/>
+      <Text ID="5868" Value="Produktfil: Variabelfel"/>
+      <Text ID="5869" Value="Ingen konfigurations mapp"/>
+      <Text ID="5870" Value="Alternativ fil inte tillåten frigivningskod nödvändig"/>
+      <Text ID="5871" Value="Konfigurationsfil: Variabelfel"/>
+      <Text ID="5872" Value="Ingen drift mapp"/>
+      <Text ID="5873" Value="Alternativ fil: Variabelfel"/>
+      <Text ID="5912" Value="Fel på IO modul ({TSN_ErrorModule})"/>
+      <Text ID="5913" Value="Utmatning {TSN_2} nod {TSN_3} kortslutning."/>
+      <Text ID="5914" Value="X2X länk defekt"/>
+      <Text ID="5915" Value="Strömlänknod {TSN_4} fel"/>
+      <Text ID="5923" Value="Fil enhetsfel"/>
+      <Text ID="6037" Value="Anslutningsfel separator"/>
+      <Text ID="6038" Value="Anslutningsfel räls"/>
+      <Text ID="6039" Value="Anslutningsfel inmatare"/>
+      <Text ID="6040" Value="Anslutningsfel mangel"/>
+      <Text ID="6041" Value="Anslutningsfel vikare"/>
+      <Text ID="6042" Value="Anslutningsfel staplare"/>
+      <Text ID="6043" Value="Ingen Jenscankommunikation"/>
+      <Text ID="6461" Value="Säkerhet Plc Fel"/>
+      <Text ID="6462" Value="Extern Nödstopp"/>
+      <Text ID="6470" Value="Connection Error Intercom Slave"/>
+      <Text ID="6471" Value="Connection Error Slave"/>
+      <Text ID="6472" Value="Connection Error Master"/>
+      <Text ID="6473" Value="Connection Error Intercom Master"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="IO Variable Error: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="5817" Value="PLC arrêté"/>
+      <Text ID="5828" Value="Défaut d'initialisation statistiques"/>
+      <Text ID="5829" Value="Variateur déconnecté"/>
+      <Text ID="5830" Value="Erreur convertisseur (Vérifier informations de l'alarme)"/>
+      <Text ID="5831" Value="Erreur Acopos (Vérifier informations de l'alarme)"/>
+      <Text ID="5832" Value="Erreur Acopos corrigée (Appuyer sur Reset)"/>
+      <Text ID="5833" Value="Erreur Acopos (Mettre hors tension pour réinitialiser)"/>
+      <Text ID="5834" Value="Arrêt Urgence"/>
+      <Text ID="5835" Value="Porte ouverte"/>
+      <Text ID="5836" Value="Défaut thermique moteur"/>
+      <Text ID="5837" Value="Défaut fusible 24V"/>
+      <Text ID="5838" Value="Defaut Pression d Air !"/>
+      <Text ID="5815" Value="Batterie faible ou manquante"/>
+      <Text ID="5862" Value="Erreur fichier système"/>
+      <Text ID="5863" Value="Erreur fichier programme"/>
+      <Text ID="5864" Value="Erreur fichier Machine"/>
+      <Text ID="5865" Value="Erreur fichier hardware"/>
+      <Text ID="5866" Value="Erreur fichier client"/>
+      <Text ID="5867" Value="Erreur fichier opérateur"/>
+      <Text ID="5868" Value="Fichier produit : erreur variable"/>
+      <Text ID="5869" Value="Pas de répertoire config."/>
+      <Text ID="5870" Value="Fichier option pas autorisé  Code de déblocage nécessaire"/>
+      <Text ID="5871" Value="Fichier config : erreur variable"/>
+      <Text ID="5872" Value="Pas d'option répertoire"/>
+      <Text ID="5873" Value="Fichier option : erreur variable"/>
+      <Text ID="5912" Value="Error on IO Module #{TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Sortie {TSN_2} Noeud {TSN_3} Court circuit."/>
+      <Text ID="5914" Value="Lien X2X Link a échoué"/>
+      <Text ID="5915" Value="Nœud Power Link {TSN_4} a échoué"/>
+      <Text ID="5923" Value="Erreur Fichier Système"/>
+      <Text ID="6037" Value="Erreur Connexion Viking"/>
+      <Text ID="6038" Value="Erreur Connexion Rail"/>
+      <Text ID="6039" Value="Erreur Connexion Engageuse"/>
+      <Text ID="6040" Value="Erreur Connexion Sécheuse"/>
+      <Text ID="6041" Value="Erreur Connexion Plieuse"/>
+      <Text ID="6042" Value="Erreur Connexion Empileur"/>
+      <Text ID="6043" Value="Erreur Connexion Jenscan"/>
+      <Text ID="6461" Value="Automate de sécurité d'erreur"/>
+      <Text ID="6462" Value="Arret Urgence externe"/>
+      <Text ID="6470" Value="Erreur Connexion Intercom Esclave"/>
+      <Text ID="6471" Value="Erreur Connexion Esclave"/>
+      <Text ID="6472" Value="Erreur Connexion Maître"/>
+      <Text ID="6473" Value="Erreur Connexion Intercom Maître"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="Erreur variable E/S: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="5817" Value="PLC Stoppet"/>
+      <Text ID="5828" Value="Statestik initierings Fejl"/>
+      <Text ID="5829" Value="Ingen forbindelse til Inverter"/>
+      <Text ID="5830" Value="Omformer Fejl Se Alarm Info)"/>
+      <Text ID="5831" Value="Acopos Fejl (Se Alarm Info)"/>
+      <Text ID="5832" Value="Acopos Fejl Nulstillet Tryk Reset)"/>
+      <Text ID="5833" Value="Acopos Fejl (Sluk Maskine For At Nulstille)"/>
+      <Text ID="5834" Value="Nødstop"/>
+      <Text ID="5835" Value="Sikkerhedsskærm åben"/>
+      <Text ID="5836" Value="Termofejl"/>
+      <Text ID="5837" Value="Sikringsfejl 24V"/>
+      <Text ID="5838" Value="Lavt Lufttryk !"/>
+      <Text ID="5815" Value="Battery low or missing      "/>
+      <Text ID="5862" Value="System File Error"/>
+      <Text ID="5863" Value="Recipe File Error"/>
+      <Text ID="5864" Value="Machine File Error"/>
+      <Text ID="5865" Value="Hardware File Error"/>
+      <Text ID="5866" Value="Customer File Error"/>
+      <Text ID="5867" Value="Operator File Error"/>
+      <Text ID="5868" Value="Product File: Variable Error"/>
+      <Text ID="5869" Value="No Configuration Directory"/>
+      <Text ID="5870" Value="Option File not allowed Release-Code necessary"/>
+      <Text ID="5871" Value="Configuration File: Variable Error"/>
+      <Text ID="5872" Value="No Option Directory"/>
+      <Text ID="5873" Value="Option File: Variable Error"/>
+      <Text ID="5912" Value="Fejl på IO modul # {TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Output {TSN_2} Node {TSN_3} Short Circuit."/>
+      <Text ID="5914" Value="X2X Link failed"/>
+      <Text ID="5915" Value="Power Link Node {TSN_4} Failed"/>
+      <Text ID="5923" Value="File Device Error"/>
+      <Text ID="6037" Value="Fejl i forbindelse til Seperator"/>
+      <Text ID="6038" Value="Fejl i forbindelse til Rail"/>
+      <Text ID="6039" Value="Fejl i forbindelse til ilægger"/>
+      <Text ID="6040" Value="Fejl i forbindelse til Rulle"/>
+      <Text ID="6041" Value="Fejl i forbindelse til folder"/>
+      <Text ID="6042" Value="Fejl i forbindelse til stakker"/>
+      <Text ID="6043" Value="Ingen Jenscan kommunikation"/>
+      <Text ID="6461" Value="Sikkerheds-PLC Fejl"/>
+      <Text ID="6462" Value="Ekstern Nødstop"/>
+      <Text ID="6470" Value="Connection Error Intercom Slave"/>
+      <Text ID="6471" Value="Connection Error Slave"/>
+      <Text ID="6472" Value="Connection Error Master"/>
+      <Text ID="6473" Value="Connection Error Intercom Master"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="IO Variable Error: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="5817" Value="PLC Arresto"/>
+      <Text ID="5828" Value="Errore avvio statistiche"/>
+      <Text ID="5829" Value="Inverter disconnesso"/>
+      <Text ID="5830" Value="Errore Inverter (Controlla info allarme)"/>
+      <Text ID="5831" Value="Errore Acopos (Controlla info allarme)"/>
+      <Text ID="5832" Value="Errore Acopos Liberato (Premere Reset)"/>
+      <Text ID="5833" Value="Errore Acopos (potenza su off per resettare)"/>
+      <Text ID="5834" Value="Emergenza stop"/>
+      <Text ID="5835" Value="Errore protezioni"/>
+      <Text ID="5836" Value="Errore termico"/>
+      <Text ID="5837" Value="Alimentaz. Fusibile 24V "/>
+      <Text ID="5838" Value="Mancanza Aria"/>
+      <Text ID="5815" Value="Batteria scarsa o assente"/>
+      <Text ID="5862" Value="Errore file di sistema"/>
+      <Text ID="5863" Value="Errore file ricetta"/>
+      <Text ID="5864" Value="Errore file macchina"/>
+      <Text ID="5865" Value="Errore file hardware"/>
+      <Text ID="5866" Value="Errore file cliente"/>
+      <Text ID="5867" Value="Errore file operatore"/>
+      <Text ID="5868" Value="File prodotto: errore variabile"/>
+      <Text ID="5869" Value="Nessuna directory di configurazione"/>
+      <Text ID="5870" Value="File opzioni non consentito È necessario un codice di rilascio"/>
+      <Text ID="5871" Value="File di configurazione: errore variabile"/>
+      <Text ID="5872" Value="Nessuna directory delle opzioni"/>
+      <Text ID="5873" Value="File opzioni: errore variabile"/>
+      <Text ID="5912" Value="Errore IO Module #{TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Uscita{TSN_2} Nodo {TSN_3} Cortocircuito."/>
+      <Text ID="5914" Value="Collegamento X2X fallito"/>
+      <Text ID="5915" Value="Nodo Powerlink {TSN_4} Fallito"/>
+      <Text ID="5923" Value="Errore file dispositivo"/>
+      <Text ID="6037" Value="Errore Connessione Separatore"/>
+      <Text ID="6038" Value="Errore Connessione Binario"/>
+      <Text ID="6039" Value="Errore Connessione Introduttore"/>
+      <Text ID="6040" Value="Errore Connessione mangano"/>
+      <Text ID="6041" Value="Errore Connessione Piegatrice"/>
+      <Text ID="6042" Value="Errore Connessione Accatastatore"/>
+      <Text ID="6043" Value="No Comunicazione Jenscan"/>
+      <Text ID="6461" Value="PLC di sicurezza Errore"/>
+      <Text ID="6462" Value="Externo Emergenza stop"/>
+      <Text ID="6470" Value="Connection Error Intercom Slave"/>
+      <Text ID="6471" Value="Connection Error Slave"/>
+      <Text ID="6472" Value="Connection Error Master"/>
+      <Text ID="6473" Value="Connection Error Intercom Master"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="IO Variable Error: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="5817" Value="PLC pysäytetty"/>
+      <Text ID="5828" Value="Tilastoinnin alustus epäonnistui"/>
+      <Text ID="5829" Value="Taajuusmuunninta ei ole kytketty"/>
+      <Text ID="5830" Value="Taajuusmuuntimen virhe (Tarkista hälytystiedot)"/>
+      <Text ID="5831" Value="Acopos-virhe (tarkista hälytystiedot)"/>
+      <Text ID="5832" Value="Acopos-virhe selvitetty (paina Kuittaus-painiketta )"/>
+      <Text ID="5833" Value="Acopos-virhe (Virta sammutettu kuittausta varten)"/>
+      <Text ID="5834" Value="Hätäseis"/>
+      <Text ID="5835" Value="Suoja häiriö"/>
+      <Text ID="5836" Value="Lämpöhäiriö"/>
+      <Text ID="5837" Value="Sulake häiriö 24V syöttö"/>
+      <Text ID="5838" Value="Matala ilmanpaine !"/>
+      <Text ID="5815" Value="Patteri tyhjä tai sitä ei ole"/>
+      <Text ID="5862" Value="Järjestelmän tiedostovirhe"/>
+      <Text ID="5863" Value="Ohjelman tiedostovirhe"/>
+      <Text ID="5864" Value="Koneen tiedostovirhe"/>
+      <Text ID="5865" Value="Laitteiston tiedostovirhe"/>
+      <Text ID="5866" Value="Virhe asiakastiedostossa"/>
+      <Text ID="5867" Value="Käyttäjän tiedostovirhe"/>
+      <Text ID="5868" Value="Tuotetiedosto: muuttujavirhe"/>
+      <Text ID="5869" Value="Ei määrityshakemistoa"/>
+      <Text ID="5870" Value="Tiedostoa ei voi avata, vapautuskoodi tarvitaan"/>
+      <Text ID="5871" Value="Määritystiedosto: muuttujavirhe"/>
+      <Text ID="5872" Value="Ei valintahakemistoa"/>
+      <Text ID="5873" Value="Tiedosto: muuttujavirhe"/>
+      <Text ID="5912" Value="Virhe IO Module #{TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Poisto {TSN_2} solmu {TSN_3} oikosulku."/>
+      <Text ID="5914" Value="X2X-linkki epäonnistui"/>
+      <Text ID="5915" Value="Powerlink-solmu {TSN_4} epäonnistui"/>
+      <Text ID="5923" Value="Tiedoston laitevirhe"/>
+      <Text ID="6037" Value="Yhteysvirhe erottelija"/>
+      <Text ID="6038" Value="Yhteysvirhe rata"/>
+      <Text ID="6039" Value="Yhteysvirhe syöttökone"/>
+      <Text ID="6040" Value="Yhteysvirhe mankeli"/>
+      <Text ID="6041" Value="Yhteysvirhe taittokone"/>
+      <Text ID="6042" Value="Yhteysvirhe niputtaja"/>
+      <Text ID="6043" Value="Ei yhteyttä Jenscan"/>
+      <Text ID="6461" Value="Turvallisuus Oyj Error"/>
+      <Text ID="6462" Value="Ulkoinen Hätäseis"/>
+      <Text ID="6470" Value="Connection Error Intercom Slave"/>
+      <Text ID="6471" Value="Connection Error Slave"/>
+      <Text ID="6472" Value="Connection Error Master"/>
+      <Text ID="6473" Value="Connection Error Intercom Master"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="IO Variable Error: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="5817" Value="PLC Gestopt"/>
+      <Text ID="5828" Value="Statistiek initialiseringsfout"/>
+      <Text ID="5829" Value="Frequentieregelaar niet aangesloten"/>
+      <Text ID="5830" Value="Fout frequentieregelaar (controleer alarminfo)"/>
+      <Text ID="5831" Value="Acopos fout (alarminfo controleren)."/>
+      <Text ID="5832" Value="Acopos Fout opgelost (Druk Reset)"/>
+      <Text ID="5833" Value="Acopos fout (stroom uit om te resetten)"/>
+      <Text ID="5834" Value="Noodstop"/>
+      <Text ID="5835" Value="Veiligheidshek Fout"/>
+      <Text ID="5836" Value="Thermo Fout"/>
+      <Text ID="5837" Value="Zekering Fout 24V Voeding"/>
+      <Text ID="5838" Value="Lage Luchtdruk !"/>
+      <Text ID="5815" Value="Batterij bijna leeg of niet aanwezig"/>
+      <Text ID="5862" Value="Systeembestandsfout"/>
+      <Text ID="5863" Value="Programma bestandsfout"/>
+      <Text ID="5864" Value="Machine bestandsfout"/>
+      <Text ID="5865" Value="Hardware bestandsfout"/>
+      <Text ID="5866" Value="Fout klantbestand"/>
+      <Text ID="5867" Value="Operator bestandsfout"/>
+      <Text ID="5868" Value="Productbestand: fout variabele"/>
+      <Text ID="5869" Value="Geen configuratiemap"/>
+      <Text ID="5870" Value="Optiebestand niet toegestaan Vrijgavecode vereist"/>
+      <Text ID="5871" Value="Configuratiebestand: fout variabele"/>
+      <Text ID="5872" Value="Geen optiemap"/>
+      <Text ID="5873" Value="Optiebestand: fout variabele"/>
+      <Text ID="5912" Value="Fout in IO Module #{TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Uitgang {TSN_2} Knooppunt {TSN_3} kortsluiten."/>
+      <Text ID="5914" Value="X2X verbinding mislukt"/>
+      <Text ID="5915" Value="Powerlink-knooppunt {TSN_4} uitgevallen"/>
+      <Text ID="5923" Value="Fout bestandsapparaat"/>
+      <Text ID="6037" Value="Fout verbinding Separator"/>
+      <Text ID="6038" Value="Fout verbinding Rail"/>
+      <Text ID="6039" Value="Fout verbinding Insteekmachine"/>
+      <Text ID="6040" Value="Fout verbinding Mangel"/>
+      <Text ID="6041" Value="Fout verbinding Vouwmachine"/>
+      <Text ID="6042" Value="Fout verbinding Stapelaar"/>
+      <Text ID="6043" Value="Geen Jenscan communicatie"/>
+      <Text ID="6461" Value="Veiligheids-PLC Error"/>
+      <Text ID="6462" Value="Extern Noodstop"/>
+      <Text ID="6470" Value="Connection Error Intercom Slave"/>
+      <Text ID="6471" Value="Connection Error Slave"/>
+      <Text ID="6472" Value="Connection Error Master"/>
+      <Text ID="6473" Value="Connection Error Intercom Master"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="IO Variable Error: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="5817" Value="PLC parado"/>
+      <Text ID="5828" Value="Fallo inicio estadísticas"/>
+      <Text ID="5829" Value="Inversor desconectado"/>
+      <Text ID="5830" Value="Error de inversor (comprobar información de alarma)"/>
+      <Text ID="5831" Value="Error Acopos (comprobar información de alarma)"/>
+      <Text ID="5832" Value="Error Acopos solucionado (pulsar Reiniciar)"/>
+      <Text ID="5833" Value="Error Acopos (Desconexión para reiniciar)"/>
+      <Text ID="5834" Value="Parada de emergencia"/>
+      <Text ID="5835" Value="Fallo de protector"/>
+      <Text ID="5836" Value="Fallo térmico"/>
+      <Text ID="5837" Value="Fallo de fusible 24V Suministro"/>
+      <Text ID="5838" Value="Baja presión de aire"/>
+      <Text ID="5815" Value="Batería baja o ausente"/>
+      <Text ID="5862" Value="Error archivo sistema"/>
+      <Text ID="5863" Value="Error archivo programas"/>
+      <Text ID="5864" Value="Error archivo máquina"/>
+      <Text ID="5865" Value="Error archivo hardware"/>
+      <Text ID="5866" Value="Error archivo cliente"/>
+      <Text ID="5867" Value="Error archivo operario"/>
+      <Text ID="5868" Value="Archivo de productos: Error variable"/>
+      <Text ID="5869" Value="Sin directorio de configuración"/>
+      <Text ID="5870" Value="Archivo de opciones no permitido"/>
+      <Text ID="5871" Value="Archivo de configuración: Error variable"/>
+      <Text ID="5872" Value="Sin directorio de opciones"/>
+      <Text ID="5873" Value="Archivo de opciones: Error variable"/>
+      <Text ID="5912" Value="Error on IO Module #{TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Output {TSN_2}  Node {TSN_3} Short Circuit."/>
+      <Text ID="5914" Value="Fallo enlace X2X"/>
+      <Text ID="5915" Value="Nodo PowerLink {TSN_4} fallido"/>
+      <Text ID="5923" Value="Error dispositivo de archivo"/>
+      <Text ID="6037" Value="Error de conexión en el separador"/>
+      <Text ID="6038" Value="Error de conexión en el raíl"/>
+      <Text ID="6039" Value="Error de conexión en la introductora"/>
+      <Text ID="6040" Value="Error de conexión en la calandra"/>
+      <Text ID="6041" Value="Error de conexión en la plegadora"/>
+      <Text ID="6042" Value="Error de conexión en el apilador"/>
+      <Text ID="6043" Value="Sin comunicación con Jenscan"/>
+      <Text ID="6461" Value="Error en Plc seguridad"/>
+      <Text ID="6462" Value="Parada de emergencia externa"/>
+      <Text ID="6470" Value="Error de conexión Intercom esclavo"/>
+      <Text ID="6471" Value="Error de conexión esclavo"/>
+      <Text ID="6472" Value="Error de conexión maestro"/>
+      <Text ID="6473" Value="Error de conexión Intercom maestro"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="Error variable E/S: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="5817" Value="PLC Stop"/>
+      <Text ID="5828" Value="Statistics Init Failure"/>
+      <Text ID="5829" Value="Rozłączony inwerter"/>
+      <Text ID="5830" Value="Inverter Error (Check Alarm Info)"/>
+      <Text ID="5831" Value="Acopos Error (Check Alarm Info)"/>
+      <Text ID="5832" Value="Acopos Error Cleared (Press Reset)"/>
+      <Text ID="5833" Value="Acopos Error (Power Off To Reset)"/>
+      <Text ID="5834" Value="Przycisk bezpieczeństwa"/>
+      <Text ID="5835" Value="Błąd ochraniacza"/>
+      <Text ID="5836" Value="Błąd termiczny"/>
+      <Text ID="5837" Value="Bezpieczniki 24V"/>
+      <Text ID="5838" Value="Niskie ciś.powietrza !"/>
+      <Text ID="5815" Value="Battery low or missing      "/>
+      <Text ID="5862" Value="System File Error"/>
+      <Text ID="5863" Value="Recipe File Error"/>
+      <Text ID="5864" Value="Machine File Error"/>
+      <Text ID="5865" Value="Hardware File Error"/>
+      <Text ID="5866" Value="Customer File Error"/>
+      <Text ID="5867" Value="Operator File Error"/>
+      <Text ID="5868" Value="Product File: Variable Error"/>
+      <Text ID="5869" Value="No Configuration Directory"/>
+      <Text ID="5870" Value="Option File not allowed Release-Code necessary"/>
+      <Text ID="5871" Value="Configuration File: Variable Error"/>
+      <Text ID="5872" Value="No Option Directory"/>
+      <Text ID="5873" Value="Option File: Variable Error"/>
+      <Text ID="5912" Value="Błąd w IO Module #{TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Output {TSN_2} Node {TSN_3} Short Circuit."/>
+      <Text ID="5914" Value="X2X Link failed"/>
+      <Text ID="5915" Value="Power Link Node {TSN_4} Failed"/>
+      <Text ID="5923" Value="File Device Error"/>
+      <Text ID="6037" Value="Błąd połączenia separatora"/>
+      <Text ID="6038" Value="Błąd połączenia szyn"/>
+      <Text ID="6039" Value="Błąd połączenia wprowadzarki"/>
+      <Text ID="6040" Value="Błąd połączenia prasownicy"/>
+      <Text ID="6041" Value="Błąd połączenia składarki"/>
+      <Text ID="6042" Value="Błąd połączenia sztaplarki"/>
+      <Text ID="6043" Value="Brak komunikacji z Jenscanem"/>
+      <Text ID="6461" Value="Błąd bezpieczeństwa Plc"/>
+      <Text ID="6462" Value="zewnętrzny Przycisk bezpieczeństwa"/>
+      <Text ID="6470" Value="Connection Error Intercom Slave"/>
+      <Text ID="6471" Value="Connection Error Slave"/>
+      <Text ID="6472" Value="Connection Error Master"/>
+      <Text ID="6473" Value="Connection Error Intercom Master"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="IO Variable Error: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="5817" Value="ПЛК Остановлен"/>
+      <Text ID="5828" Value="Сбой инициализации статистики"/>
+      <Text ID="5829" Value="Инвертер отсоединен"/>
+      <Text ID="5830" Value="Инвертер Ошибка (Проверить инфо Тревоги)"/>
+      <Text ID="5831" Value="Acopos Ошибка (Проверить Тревога Инфо)"/>
+      <Text ID="5832" Value="Acopos Ошибка Выяснена (Нажать Перезапуск)"/>
+      <Text ID="5833" Value="Acopos Ошибка (Выкл Питание Перезапустить)"/>
+      <Text ID="5834" Value="Аварийный Останов"/>
+      <Text ID="5835" Value="Ошибка защиты"/>
+      <Text ID="5836" Value="Термоошибка"/>
+      <Text ID="5837" Value="Ошибка предохранителя 24 В питание"/>
+      <Text ID="5838" Value="Низкое давление воздуха!"/>
+      <Text ID="5815" Value="Батарея слабо заряжена или отсутствует"/>
+      <Text ID="5862" Value="Система Файл Ошибка"/>
+      <Text ID="5863" Value="Программа Файл Ошибка"/>
+      <Text ID="5864" Value="Машина Файл Ошибка"/>
+      <Text ID="5865" Value="Аппаратное обеспечение Файл Ошибка"/>
+      <Text ID="5866" Value="Клиент Файл Ошибка"/>
+      <Text ID="5867" Value="Оператор Файл Ошибка"/>
+      <Text ID="5868" Value="Изделие Файл: Переменная ошибка"/>
+      <Text ID="5869" Value="Нет Конфигурация Директория"/>
+      <Text ID="5870" Value="Опция Файл не разрешен Требуется код сброса"/>
+      <Text ID="5871" Value="Файл конфигурации: Переменная ошибка"/>
+      <Text ID="5872" Value="Нет опции Директория"/>
+      <Text ID="5873" Value="Опция Файл: Переменная ошибка"/>
+      <Text ID="5912" Value="Ошибка в IO Модуль #{TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Вывод {TSN_2} Узел {TSN_3} Короткое замыкание."/>
+      <Text ID="5914" Value="X2X Ссылка Сбой"/>
+      <Text ID="5915" Value="Power Link Узел {TSN_4} Сбой"/>
+      <Text ID="5923" Value="Файл Устройство Ошибка"/>
+      <Text ID="6037" Value="Ошибка связи c сепаратором"/>
+      <Text ID="6038" Value="Ошибка Связи c рельсом"/>
+      <Text ID="6039" Value="Ошибка связи с фидером"/>
+      <Text ID="6040" Value="Ошибка Связи c катком"/>
+      <Text ID="6041" Value="Ошибка связи со складывателем"/>
+      <Text ID="6042" Value="Ошибка связи c штабелером"/>
+      <Text ID="6043" Value="Ошибка Соеднения Jenscan"/>
+      <Text ID="6461" Value="Безопасность Plc ошибках"/>
+      <Text ID="6462" Value="внешний Аварийный Останов"/>
+      <Text ID="6470" Value="Connection Error Intercom Slave"/>
+      <Text ID="6471" Value="Connection Error Slave"/>
+      <Text ID="6472" Value="Connection Error Master"/>
+      <Text ID="6473" Value="Connection Error Intercom Master"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="IO Variable Error: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="5817" Value="PLC Halted"/>
+      <Text ID="5828" Value="Statistics Init Failure"/>
+      <Text ID="5829" Value="Inverter disconnected"/>
+      <Text ID="5830" Value="Inverter Error (Check Alarm Info)"/>
+      <Text ID="5831" Value="Acopos Error (Check Alarm Info)"/>
+      <Text ID="5832" Value="Acopos Error Cleared (Press Reset)"/>
+      <Text ID="5833" Value="Acopos Error (Power Off To Reset)"/>
+      <Text ID="5834" Value="Emergency Stop"/>
+      <Text ID="5835" Value="Guard Fault"/>
+      <Text ID="5836" Value="ThermoFault"/>
+      <Text ID="5837" Value="Fuse Fault 24V Supply"/>
+      <Text ID="5838" Value="Low Airpressure !"/>
+      <Text ID="5815" Value="Battery low or missing      "/>
+      <Text ID="5862" Value="System File Error"/>
+      <Text ID="5863" Value="Recipe File Error"/>
+      <Text ID="5864" Value="Machine File Error"/>
+      <Text ID="5865" Value="Hardware File Error"/>
+      <Text ID="5866" Value="Customer File Error"/>
+      <Text ID="5867" Value="Operator File Error"/>
+      <Text ID="5868" Value="Product File: Variable Error"/>
+      <Text ID="5869" Value="No Configuration Directory"/>
+      <Text ID="5870" Value="Option File not allowed Release-Code necessary"/>
+      <Text ID="5871" Value="Configuration File: Variable Error"/>
+      <Text ID="5872" Value="No Option Directory"/>
+      <Text ID="5873" Value="Option File: Variable Error"/>
+      <Text ID="5912" Value="Error on IO Module #{TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Output {TSN_2} Node {TSN_3} Short Circuit."/>
+      <Text ID="5914" Value="X2X Link failed"/>
+      <Text ID="5915" Value="Power Link Node {TSN_4} Failed"/>
+      <Text ID="5923" Value="File Device Error"/>
+      <Text ID="6037" Value="Connection Error Separator"/>
+      <Text ID="6038" Value="Connection Error Rail"/>
+      <Text ID="6039" Value="Connection Error Feeder"/>
+      <Text ID="6040" Value="Connection Error Ironer"/>
+      <Text ID="6041" Value="Connection Error Folder"/>
+      <Text ID="6042" Value="Connection Error Stacker"/>
+      <Text ID="6043" Value="Connection Error Jenscan"/>
+      <Text ID="6461" Value="Safety Plc Error"/>
+      <Text ID="6462" Value="External Emergency Stop"/>
+      <Text ID="6470" Value="Connection Error Intercom Slave"/>
+      <Text ID="6471" Value="Connection Error Slave"/>
+      <Text ID="6472" Value="Connection Error Master"/>
+      <Text ID="6473" Value="Connection Error Intercom Master"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="IO Variable Error: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="5817" Value=""/>
+      <Text ID="5828" Value=""/>
+      <Text ID="5829" Value=""/>
+      <Text ID="5830" Value=""/>
+      <Text ID="5831" Value=""/>
+      <Text ID="5832" Value=""/>
+      <Text ID="5833" Value=""/>
+      <Text ID="5834" Value=""/>
+      <Text ID="5835" Value=""/>
+      <Text ID="5836" Value=""/>
+      <Text ID="5837" Value=""/>
+      <Text ID="5838" Value=""/>
+      <Text ID="5815" Value=""/>
+      <Text ID="5862" Value=""/>
+      <Text ID="5863" Value=""/>
+      <Text ID="5864" Value=""/>
+      <Text ID="5865" Value=""/>
+      <Text ID="5866" Value=""/>
+      <Text ID="5867" Value=""/>
+      <Text ID="5868" Value=""/>
+      <Text ID="5869" Value=""/>
+      <Text ID="5870" Value=""/>
+      <Text ID="5871" Value=""/>
+      <Text ID="5872" Value=""/>
+      <Text ID="5873" Value=""/>
+      <Text ID="5912" Value=""/>
+      <Text ID="5913" Value=""/>
+      <Text ID="5914" Value=""/>
+      <Text ID="5915" Value=""/>
+      <Text ID="5923" Value=""/>
+      <Text ID="6037" Value=""/>
+      <Text ID="6038" Value=""/>
+      <Text ID="6039" Value=""/>
+      <Text ID="6040" Value=""/>
+      <Text ID="6041" Value=""/>
+      <Text ID="6042" Value=""/>
+      <Text ID="6043" Value=""/>
+      <Text ID="6461" Value=""/>
+      <Text ID="6462" Value=""/>
+      <Text ID="6470" Value=""/>
+      <Text ID="6471" Value=""/>
+      <Text ID="6472" Value=""/>
+      <Text ID="6473" Value=""/>
+      <Text ID="6481" Value=""/>
+      <Text ID="6482" Value=""/>
+      <Text ID="6491" Value=""/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="5817" Value=""/>
+      <Text ID="5828" Value=""/>
+      <Text ID="5829" Value=""/>
+      <Text ID="5830" Value=""/>
+      <Text ID="5831" Value=""/>
+      <Text ID="5832" Value=""/>
+      <Text ID="5833" Value=""/>
+      <Text ID="5834" Value=""/>
+      <Text ID="5835" Value=""/>
+      <Text ID="5836" Value=""/>
+      <Text ID="5837" Value=""/>
+      <Text ID="5838" Value=""/>
+      <Text ID="5815" Value=""/>
+      <Text ID="5862" Value=""/>
+      <Text ID="5863" Value=""/>
+      <Text ID="5864" Value=""/>
+      <Text ID="5865" Value=""/>
+      <Text ID="5866" Value=""/>
+      <Text ID="5867" Value=""/>
+      <Text ID="5868" Value=""/>
+      <Text ID="5869" Value=""/>
+      <Text ID="5870" Value=""/>
+      <Text ID="5871" Value=""/>
+      <Text ID="5872" Value=""/>
+      <Text ID="5873" Value=""/>
+      <Text ID="5912" Value=""/>
+      <Text ID="5913" Value=""/>
+      <Text ID="5914" Value=""/>
+      <Text ID="5915" Value=""/>
+      <Text ID="5923" Value=""/>
+      <Text ID="6037" Value=""/>
+      <Text ID="6038" Value=""/>
+      <Text ID="6039" Value=""/>
+      <Text ID="6040" Value=""/>
+      <Text ID="6041" Value=""/>
+      <Text ID="6042" Value=""/>
+      <Text ID="6043" Value=""/>
+      <Text ID="6461" Value=""/>
+      <Text ID="6462" Value=""/>
+      <Text ID="6470" Value=""/>
+      <Text ID="6471" Value=""/>
+      <Text ID="6472" Value=""/>
+      <Text ID="6473" Value=""/>
+      <Text ID="6481" Value=""/>
+      <Text ID="6482" Value=""/>
+      <Text ID="6491" Value=""/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="5817" Value=""/>
+      <Text ID="5828" Value=""/>
+      <Text ID="5829" Value=""/>
+      <Text ID="5830" Value=""/>
+      <Text ID="5831" Value=""/>
+      <Text ID="5832" Value=""/>
+      <Text ID="5833" Value=""/>
+      <Text ID="5834" Value=""/>
+      <Text ID="5835" Value=""/>
+      <Text ID="5836" Value=""/>
+      <Text ID="5837" Value=""/>
+      <Text ID="5838" Value=""/>
+      <Text ID="5815" Value=""/>
+      <Text ID="5862" Value=""/>
+      <Text ID="5863" Value=""/>
+      <Text ID="5864" Value=""/>
+      <Text ID="5865" Value=""/>
+      <Text ID="5866" Value=""/>
+      <Text ID="5867" Value=""/>
+      <Text ID="5868" Value=""/>
+      <Text ID="5869" Value=""/>
+      <Text ID="5870" Value=""/>
+      <Text ID="5871" Value=""/>
+      <Text ID="5872" Value=""/>
+      <Text ID="5873" Value=""/>
+      <Text ID="5912" Value=""/>
+      <Text ID="5913" Value=""/>
+      <Text ID="5914" Value=""/>
+      <Text ID="5915" Value=""/>
+      <Text ID="5923" Value=""/>
+      <Text ID="6037" Value=""/>
+      <Text ID="6038" Value=""/>
+      <Text ID="6039" Value=""/>
+      <Text ID="6040" Value=""/>
+      <Text ID="6041" Value=""/>
+      <Text ID="6042" Value=""/>
+      <Text ID="6043" Value=""/>
+      <Text ID="6461" Value=""/>
+      <Text ID="6462" Value=""/>
+      <Text ID="6470" Value=""/>
+      <Text ID="6471" Value=""/>
+      <Text ID="6472" Value=""/>
+      <Text ID="6473" Value=""/>
+      <Text ID="6481" Value=""/>
+      <Text ID="6482" Value=""/>
+      <Text ID="6491" Value=""/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="5817" Value="PLC stanset"/>
+      <Text ID="5828" Value="Statistikk init feil"/>
+      <Text ID="5829" Value="Inverter frakoblet"/>
+      <Text ID="5830" Value="Inverterfeil (sjekk alarminfo)"/>
+      <Text ID="5831" Value="Acopos feil (sjekk alarminfo)"/>
+      <Text ID="5832" Value="Acopos feil nullstilt (trykk på tilbakestilling)"/>
+      <Text ID="5833" Value="Acopos feil (slå av strømmen for tilbakestilling)"/>
+      <Text ID="5834" Value="Nødstopp"/>
+      <Text ID="5835" Value="Beskyttelsesfeil"/>
+      <Text ID="5836" Value="Thermo Fault"/>
+      <Text ID="5837" Value="Fuse Fault 24V Supply"/>
+      <Text ID="5838" Value="Low Air pressure !"/>
+      <Text ID="5815" Value="Batteri tomt eller fjernet"/>
+      <Text ID="5862" Value="Systemfilfeil"/>
+      <Text ID="5863" Value="Programfilfeil"/>
+      <Text ID="5864" Value="Maskin fil feil"/>
+      <Text ID="5865" Value="Maskinvare fil feil"/>
+      <Text ID="5866" Value="Kunde fil feil"/>
+      <Text ID="5867" Value="Operator file error"/>
+      <Text ID="5868" Value="Produktfil: Variabel feil"/>
+      <Text ID="5869" Value="Ingen konfigurasjon mappe"/>
+      <Text ID="5870" Value="Option file not allowed. Release code necessary"/>
+      <Text ID="5871" Value="Konfigurasjonsfil: Variabel feil"/>
+      <Text ID="5872" Value="Ingen alternativ mappe"/>
+      <Text ID="5873" Value="Alternativ fil: Variabel feil"/>
+      <Text ID="5912" Value="Error on IO Module #{TSN_ErrorModule}"/>
+      <Text ID="5913" Value="Output {TSN_2}  Node {TSN_3} Short Circuit."/>
+      <Text ID="5914" Value="X2X Link Feilet"/>
+      <Text ID="5915" Value="Power Link Node {TSN_4} Failed"/>
+      <Text ID="5923" Value="Fil innretning feil"/>
+      <Text ID="6037" Value="Koblingsfeil separator"/>
+      <Text ID="6038" Value="Koblingsfeil Rail"/>
+      <Text ID="6039" Value="Koblingsfeil innmater"/>
+      <Text ID="6040" Value="Koblingsfeil rulle"/>
+      <Text ID="6041" Value="Koblingsfeil bretter"/>
+      <Text ID="6042" Value="Koblingsfeil stabler"/>
+      <Text ID="6043" Value="Koblingsfeil Jenscan"/>
+      <Text ID="6461" Value="Safety Plc Error"/>
+      <Text ID="6462" Value="Ekstern nødstopp"/>
+      <Text ID="6470" Value="Connection Error Intercom Slave"/>
+      <Text ID="6471" Value="Connection Error Slave"/>
+      <Text ID="6472" Value="Connection Error Master"/>
+      <Text ID="6473" Value="Connection Error Intercom Master"/>
+      <Text ID="6481" Value="{TSN_ExternAlarm1}"/>
+      <Text ID="6482" Value="{TSN_ExternAlarm2}"/>
+      <Text ID="6491" Value="IO Variable Error: '{TSN_IOVar}'"/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="5817" Value=""/>
+      <Text ID="5828" Value=""/>
+      <Text ID="5829" Value=""/>
+      <Text ID="5830" Value=""/>
+      <Text ID="5831" Value=""/>
+      <Text ID="5832" Value=""/>
+      <Text ID="5833" Value=""/>
+      <Text ID="5834" Value=""/>
+      <Text ID="5835" Value=""/>
+      <Text ID="5836" Value=""/>
+      <Text ID="5837" Value=""/>
+      <Text ID="5838" Value=""/>
+      <Text ID="5815" Value=""/>
+      <Text ID="5862" Value=""/>
+      <Text ID="5863" Value=""/>
+      <Text ID="5864" Value=""/>
+      <Text ID="5865" Value=""/>
+      <Text ID="5866" Value=""/>
+      <Text ID="5867" Value=""/>
+      <Text ID="5868" Value=""/>
+      <Text ID="5869" Value=""/>
+      <Text ID="5870" Value=""/>
+      <Text ID="5871" Value=""/>
+      <Text ID="5872" Value=""/>
+      <Text ID="5873" Value=""/>
+      <Text ID="5912" Value=""/>
+      <Text ID="5913" Value=""/>
+      <Text ID="5914" Value=""/>
+      <Text ID="5915" Value=""/>
+      <Text ID="5923" Value=""/>
+      <Text ID="6037" Value=""/>
+      <Text ID="6038" Value=""/>
+      <Text ID="6039" Value=""/>
+      <Text ID="6040" Value=""/>
+      <Text ID="6041" Value=""/>
+      <Text ID="6042" Value=""/>
+      <Text ID="6043" Value=""/>
+      <Text ID="6461" Value=""/>
+      <Text ID="6462" Value=""/>
+      <Text ID="6470" Value=""/>
+      <Text ID="6471" Value=""/>
+      <Text ID="6472" Value=""/>
+      <Text ID="6473" Value=""/>
+      <Text ID="6481" Value=""/>
+      <Text ID="6482" Value=""/>
+      <Text ID="6491" Value=""/>
+      <Text ID="12982" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="5817" Value="6"/>
+      <Index ID="5828" Value="7"/>
+      <Index ID="5829" Value="8"/>
+      <Index ID="5830" Value="9"/>
+      <Index ID="5831" Value="10"/>
+      <Index ID="5832" Value="11"/>
+      <Index ID="5833" Value="12"/>
+      <Index ID="5834" Value="0"/>
+      <Index ID="5835" Value="1"/>
+      <Index ID="5836" Value="2"/>
+      <Index ID="5837" Value="3"/>
+      <Index ID="5838" Value="4"/>
+      <Index ID="5815" Value="5"/>
+      <Index ID="5862" Value="20"/>
+      <Index ID="5863" Value="21"/>
+      <Index ID="5864" Value="22"/>
+      <Index ID="5865" Value="23"/>
+      <Index ID="5866" Value="24"/>
+      <Index ID="5867" Value="25"/>
+      <Index ID="5868" Value="36"/>
+      <Index ID="5869" Value="31"/>
+      <Index ID="5870" Value="32"/>
+      <Index ID="5871" Value="33"/>
+      <Index ID="5872" Value="34"/>
+      <Index ID="5873" Value="35"/>
+      <Index ID="5912" Value="40"/>
+      <Index ID="5913" Value="41"/>
+      <Index ID="5914" Value="42"/>
+      <Index ID="5915" Value="43"/>
+      <Index ID="5923" Value="26"/>
+      <Index ID="6037" Value="50"/>
+      <Index ID="6038" Value="51"/>
+      <Index ID="6039" Value="52"/>
+      <Index ID="6040" Value="53"/>
+      <Index ID="6041" Value="54"/>
+      <Index ID="6042" Value="55"/>
+      <Index ID="6043" Value="56"/>
+      <Index ID="6461" Value="14"/>
+      <Index ID="6462" Value="13"/>
+      <Index ID="6470" Value="61"/>
+      <Index ID="6471" Value="63"/>
+      <Index ID="6472" Value="62"/>
+      <Index ID="6473" Value="60"/>
+      <Index ID="6481" Value="15"/>
+      <Index ID="6482" Value="16"/>
+      <Index ID="6491" Value="44"/>
+      <Index ID="12982" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

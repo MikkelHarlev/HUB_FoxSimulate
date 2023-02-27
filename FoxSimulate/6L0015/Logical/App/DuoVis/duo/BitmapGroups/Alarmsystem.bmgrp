@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Alarmsystem">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="2"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="22" Value="None"/>
+    <BitmapRef ID="23" Value="None"/>
+    <BitmapRef ID="24" Value="None"/>
+    <BitmapRef ID="26" Value="None"/>
+    <BitmapRef ID="27" Value="None"/>
+    <BitmapRef ID="28" Value="None"/>
+    <BitmapRef ID="29" Value="None"/>
+    <BitmapRef ID="30" Value="None"/>
+    <BitmapRef ID="31" Value="None"/>
+    <BitmapRef ID="32" Value="None"/>
+    <BitmapRef ID="33" Value="None"/>
+    <BitmapRef ID="34" Value="None"/>
+    <BitmapRef ID="35" Value="None"/>
+    <BitmapRef ID="36" Value="None"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="22" Value="0"/>
+    <Index ID="23" Value="1"/>
+    <Index ID="24" Value="2"/>
+    <Index ID="26" Value="13"/>
+    <Index ID="27" Value="12"/>
+    <Index ID="28" Value="11"/>
+    <Index ID="29" Value="10"/>
+    <Index ID="30" Value="9"/>
+    <Index ID="31" Value="8"/>
+    <Index ID="32" Value="7"/>
+    <Index ID="33" Value="6"/>
+    <Index ID="34" Value="5"/>
+    <Index ID="35" Value="4"/>
+    <Index ID="36" Value="3"/>
+  </IndexMap>
+</BitmapGroup>

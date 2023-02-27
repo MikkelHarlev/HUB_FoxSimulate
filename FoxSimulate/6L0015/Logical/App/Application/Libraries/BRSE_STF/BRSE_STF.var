@@ -1,0 +1,33 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Library: BRSE_STF
+ * File: BRSE_STF.var
+ * Author: mar
+ * Created: March 27, 2009
+ ********************************************************************
+ * Constants of library BRSE_STF
+ ********************************************************************)
+VAR CONSTANT
+	FUNCTION_BUSY : UINT := 65535;
+	PAR_DELIM : STRING[1] := '.';
+	LOG_MAX : UINT := 50;
+	BRSE_LINE_DELIM : STRING[4] := '$r$n';
+	BRSE_LINE_COMMENT : STRING[1] := '/';
+	BRSE_PARAM_DELIM : STRING[1] := ',';
+	BRSE_PARAM_DELIM_V2 : STRING[1] := ';'; (*Parameter delimiter, version 2 and earlier*)
+END_VAR
+(*---- Error codes (status from function blocks) ----*)
+(** Inherited from: "SYS_LIB - Error Numbers: Variable Services"*)
+(** Inherited from: "FileIO - Error numbers"*)
+VAR CONSTANT
+	STF_ERR_FILE_NOT_FOUND : UINT := 20708; (*Inherited from FileIO*)
+	STF_ERR_EOF_CORRUPT : UINT := 5020; (*//#--End Of File --# - line missing or corrupt. Could also be that header is missing so that the total size of the file is too small.*)
+	STF_ERR_CHECKSUM : UINT := 5021; (*Checksum mismatch*)
+	STF_NO_VERSION : UINT := 5022; (*No version information in file*)
+END_VAR
+(*--- Warning codes. When getting a warning, the function block has completed execution ---*)
+VAR CONSTANT
+	STF_WARN_OLD_VERSION : UINT := 31; (*The file has been read, but it's an old version and ought to be immediately overwritten*)
+	STF_WARN_TYPE_ERROR : UINT := 34; (*The value of a parameter was illegal (for instance a string to an integer parameter)*)
+END_VAR

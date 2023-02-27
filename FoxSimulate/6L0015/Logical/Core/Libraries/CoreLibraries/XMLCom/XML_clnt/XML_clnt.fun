@@ -1,0 +1,37 @@
+FUNCTION XMLclose : DINT
+	VAR_INPUT
+		ident	:DINT;
+	END_VAR
+END_FUNCTION
+FUNCTION XMLread : DINT
+	VAR_INPUT
+		ident	:DINT;
+		pparam	:UDINT;
+	END_VAR
+END_FUNCTION
+FUNCTION XMLstatus : DINT
+	VAR_INPUT
+		ident	:DINT;
+		data	:UDINT;
+	END_VAR
+END_FUNCTION
+FUNCTION XMLsend : DINT
+	VAR_INPUT
+		ident	:DINT;
+		pparam	:UDINT;
+	END_VAR
+END_FUNCTION
+FUNCTION XMLconnect : DINT
+	VAR_INPUT
+		ident	:DINT;
+		ip_address	:UDINT;
+		port	:UINT;
+	END_VAR
+END_FUNCTION
+FUNCTION XMLlisten : DINT
+	VAR_INPUT
+		ident	:DINT;
+		cident	:DINT;
+		port	:UINT;
+	END_VAR
+END_FUNCTION

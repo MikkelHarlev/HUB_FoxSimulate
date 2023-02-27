@@ -1,0 +1,3 @@
+VAR
+	addConnectionPrinter : addConnection := (0);
+END_VAR

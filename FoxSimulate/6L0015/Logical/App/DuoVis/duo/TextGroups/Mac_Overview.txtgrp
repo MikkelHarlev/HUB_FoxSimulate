@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_Overview">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="4"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="443209" Value="Machine"/>
+    <Text ID="443210" Value="Overview"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="443209" Value="Maschine"/>
+    <Text ID="443210" Value="Überblick"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="443209" Value="Machine"/>
+    <Text ID="443210" Value="Overview"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="443209" Value="Machine"/>
+    <Text ID="443210" Value="Généralités"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="443209" Value="Maskin"/>
+    <Text ID="443210" Value="Oversigt"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="443209" Value="Macchina"/>
+    <Text ID="443210" Value="Supervisione"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="443209" Value="Machine"/>
+    <Text ID="443210" Value="Overview"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="443209" Value="Machine"/>
+    <Text ID="443210" Value="overzicht"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="443209" Value="Máquina"/>
+    <Text ID="443210" Value="Perspectiva general"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="443209" Value="Maszyna"/>
+    <Text ID="443210" Value="Przegląd"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="443209" Value=""/>
+    <Text ID="443210" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="443209" Value=""/>
+    <Text ID="443210" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="443209" Value="Maszyna"/>
+    <Text ID="443210" Value="Przegląd"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="443209" Value="Machine"/>
+    <Text ID="443210" Value="Overview"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="443209" Value="Machine"/>
+    <Text ID="443210" Value="Overview"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="443209" Value="Maskin"/>
+    <Text ID="443210" Value="Oversikt"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="443209" Value="Machine"/>
+    <Text ID="443210" Value="Overview"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="443209" Value="0"/>
+    <Index ID="443210" Value="1"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigJenway">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="23"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="288342" Value="msec"/>
+    <Text ID="289481" Value="IP address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="288342" Value="msek"/>
+    <Text ID="289481" Value="IP Adresse:"/>
+    <Text ID="289482" Value="Verbindungs ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="288342" Value="ms"/>
+    <Text ID="289481" Value="IP address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="288342" Value="msec"/>
+    <Text ID="289481" Value="IP address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML durée rafraichissement"/>
+    <Text ID="289484" Value="XML durée rafraichissement timeout"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="288342" Value="msek"/>
+    <Text ID="289481" Value="IP Adresse:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="288342" Value="millisec"/>
+    <Text ID="289481" Value="IP Indirizzo:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="288342" Value="msec"/>
+    <Text ID="289481" Value="IP address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="288342" Value="msec"/>
+    <Text ID="289481" Value="IP address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="288342" Value="mseg"/>
+    <Text ID="289481" Value="IP address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="288342" Value=""/>
+    <Text ID="289481" Value=""/>
+    <Text ID="289482" Value=""/>
+    <Text ID="289483" Value=""/>
+    <Text ID="289484" Value=""/>
+    <Text ID="291108" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="288342" Value=""/>
+    <Text ID="289481" Value=""/>
+    <Text ID="289482" Value=""/>
+    <Text ID="289483" Value=""/>
+    <Text ID="289484" Value=""/>
+    <Text ID="291108" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="288342" Value=""/>
+    <Text ID="289481" Value=""/>
+    <Text ID="289482" Value=""/>
+    <Text ID="289483" Value=""/>
+    <Text ID="289484" Value=""/>
+    <Text ID="291108" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="288342" Value=""/>
+    <Text ID="289481" Value=""/>
+    <Text ID="289482" Value=""/>
+    <Text ID="289483" Value=""/>
+    <Text ID="289484" Value=""/>
+    <Text ID="291108" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="288342" Value=""/>
+    <Text ID="289481" Value=""/>
+    <Text ID="289482" Value=""/>
+    <Text ID="289483" Value=""/>
+    <Text ID="289484" Value=""/>
+    <Text ID="291108" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="288342" Value=""/>
+    <Text ID="289481" Value=""/>
+    <Text ID="289482" Value=""/>
+    <Text ID="289483" Value=""/>
+    <Text ID="289484" Value=""/>
+    <Text ID="291108" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="288342" Value="msek"/>
+    <Text ID="289481" Value="IP addresse"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="288342" Value=""/>
+    <Text ID="289481" Value=""/>
+    <Text ID="289482" Value=""/>
+    <Text ID="289483" Value=""/>
+    <Text ID="289484" Value=""/>
+    <Text ID="291108" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288342" Value="5"/>
+    <Index ID="289481" Value="30"/>
+    <Index ID="289482" Value="31"/>
+    <Index ID="289483" Value="32"/>
+    <Index ID="289484" Value="33"/>
+    <Index ID="291108" Value="17"/>
+  </IndexMap>
+</TextGroup>

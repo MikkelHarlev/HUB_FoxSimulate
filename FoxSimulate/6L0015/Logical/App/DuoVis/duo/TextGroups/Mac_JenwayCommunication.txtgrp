@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_JenwayCommunication">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="47"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Stack Data"/>
+    <Text ID="458335" Value="Fox State"/>
+    <Text ID="458336" Value="Line Number"/>
+    <Text ID="458337" Value="Customer Number"/>
+    <Text ID="458338" Value="Article Number"/>
+    <Text ID="458339" Value="Recipe Number"/>
+    <Text ID="458340" Value="Numbers in stack"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Stapel Daten"/>
+    <Text ID="458335" Value="Fox Status"/>
+    <Text ID="458336" Value="Linien nummer"/>
+    <Text ID="458337" Value="Kunden Nummer"/>
+    <Text ID="458338" Value="Artikelnummer:"/>
+    <Text ID="458339" Value="Programmnummer "/>
+    <Text ID="458340" Value="Anzahl in Stapel"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Stack Data"/>
+    <Text ID="458335" Value="Fox Status"/>
+    <Text ID="458336" Value="Rad nr"/>
+    <Text ID="458337" Value="Kund nr"/>
+    <Text ID="458338" Value="Artikel nr"/>
+    <Text ID="458339" Value="Recept nr"/>
+    <Text ID="458340" Value="Antal i stack"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway :"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Données de pile"/>
+    <Text ID="458335" Value="Statut Fox"/>
+    <Text ID="458336" Value="Numéro de ligne"/>
+    <Text ID="458337" Value="Numéro client"/>
+    <Text ID="458338" Value="Numero Article:"/>
+    <Text ID="458339" Value="Nombre de programmes"/>
+    <Text ID="458340" Value="Numéros dans pile"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Stack Data"/>
+    <Text ID="458335" Value="Fox State"/>
+    <Text ID="458336" Value="Line Number"/>
+    <Text ID="458337" Value="Customer Number"/>
+    <Text ID="458338" Value="Article Number"/>
+    <Text ID="458339" Value="Recipe Number"/>
+    <Text ID="458340" Value="Numbers in stack"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Stack Data"/>
+    <Text ID="458335" Value="Fox State"/>
+    <Text ID="458336" Value="Line Number"/>
+    <Text ID="458337" Value="Customer Number"/>
+    <Text ID="458338" Value="Article Number"/>
+    <Text ID="458339" Value="Recipe Number"/>
+    <Text ID="458340" Value="Numbers in stack"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Stack Data"/>
+    <Text ID="458335" Value="Fox State"/>
+    <Text ID="458336" Value="Line Number"/>
+    <Text ID="458337" Value="Customer Number"/>
+    <Text ID="458338" Value="Article Number"/>
+    <Text ID="458339" Value="Recipe Number"/>
+    <Text ID="458340" Value="Numbers in stack"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Stapelgegevens"/>
+    <Text ID="458335" Value="Fox toestand"/>
+    <Text ID="458336" Value="Lijnnummer"/>
+    <Text ID="458337" Value="Klantnummer"/>
+    <Text ID="458338" Value="Artikel nummer:"/>
+    <Text ID="458339" Value="Programma Nummer"/>
+    <Text ID="458340" Value="Nummers in stapel"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Datos Apilador"/>
+    <Text ID="458335" Value="Estado Fox"/>
+    <Text ID="458336" Value="Número de línea"/>
+    <Text ID="458337" Value="Número de cliente"/>
+    <Text ID="458338" Value="Número de artículo"/>
+    <Text ID="458339" Value="Número de programa"/>
+    <Text ID="458340" Value="Número unidades en pila"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway:"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Dane układania"/>
+    <Text ID="458335" Value="Stan Fox"/>
+    <Text ID="458336" Value="Numer linii"/>
+    <Text ID="458337" Value="Numer klienta"/>
+    <Text ID="458338" Value="Numer artykułu"/>
+    <Text ID="458339" Value="Numer receptury"/>
+    <Text ID="458340" Value="Numery w stosie"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="458328" Value=""/>
+    <Text ID="458329" Value=""/>
+    <Text ID="458330" Value=""/>
+    <Text ID="458331" Value=""/>
+    <Text ID="458332" Value=""/>
+    <Text ID="458333" Value=""/>
+    <Text ID="458334" Value=""/>
+    <Text ID="458335" Value=""/>
+    <Text ID="458336" Value=""/>
+    <Text ID="458337" Value=""/>
+    <Text ID="458338" Value=""/>
+    <Text ID="458339" Value=""/>
+    <Text ID="458340" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="458328" Value=""/>
+    <Text ID="458329" Value=""/>
+    <Text ID="458330" Value=""/>
+    <Text ID="458331" Value=""/>
+    <Text ID="458332" Value=""/>
+    <Text ID="458333" Value=""/>
+    <Text ID="458334" Value=""/>
+    <Text ID="458335" Value=""/>
+    <Text ID="458336" Value=""/>
+    <Text ID="458337" Value=""/>
+    <Text ID="458338" Value=""/>
+    <Text ID="458339" Value=""/>
+    <Text ID="458340" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway:"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Dane układania"/>
+    <Text ID="458335" Value="Stan Fox"/>
+    <Text ID="458336" Value="Numer linii"/>
+    <Text ID="458337" Value="Numer klienta"/>
+    <Text ID="458338" Value="Numer artykułu"/>
+    <Text ID="458339" Value="Numer receptury"/>
+    <Text ID="458340" Value="Numery w stosie"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Stack Data"/>
+    <Text ID="458335" Value="Fox State"/>
+    <Text ID="458336" Value="Line Number"/>
+    <Text ID="458337" Value="Customer Number"/>
+    <Text ID="458338" Value="Article Number"/>
+    <Text ID="458339" Value="Recipe Number"/>
+    <Text ID="458340" Value="Numbers in stack"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Stack Data"/>
+    <Text ID="458335" Value="Fox State"/>
+    <Text ID="458336" Value="Line Number"/>
+    <Text ID="458337" Value="Customer Number"/>
+    <Text ID="458338" Value="Article Number"/>
+    <Text ID="458339" Value="Recipe Number"/>
+    <Text ID="458340" Value="Numbers in stack"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Stack Data"/>
+    <Text ID="458335" Value="Fox State"/>
+    <Text ID="458336" Value="Line Number"/>
+    <Text ID="458337" Value="Customer Number"/>
+    <Text ID="458338" Value="Article Number"/>
+    <Text ID="458339" Value="Recipe Number"/>
+    <Text ID="458340" Value="Numbers in stack"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="458328" Value="Fox"/>
+    <Text ID="458329" Value="Jenway"/>
+    <Text ID="458330" Value="Tx1"/>
+    <Text ID="458331" Value="Tx2"/>
+    <Text ID="458332" Value="Rx1"/>
+    <Text ID="458333" Value="Rx2"/>
+    <Text ID="458334" Value="Dados da pilha"/>
+    <Text ID="458335" Value="Estado da Fox"/>
+    <Text ID="458336" Value="Número da linha"/>
+    <Text ID="458337" Value="Número de cliente"/>
+    <Text ID="458338" Value="Article Number"/>
+    <Text ID="458339" Value="Recipe Number"/>
+    <Text ID="458340" Value="Números na pilha"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="458328" Value="0"/>
+    <Index ID="458329" Value="1"/>
+    <Index ID="458330" Value="2"/>
+    <Index ID="458331" Value="3"/>
+    <Index ID="458332" Value="4"/>
+    <Index ID="458333" Value="5"/>
+    <Index ID="458334" Value="6"/>
+    <Index ID="458335" Value="7"/>
+    <Index ID="458336" Value="10"/>
+    <Index ID="458337" Value="11"/>
+    <Index ID="458338" Value="12"/>
+    <Index ID="458339" Value="13"/>
+    <Index ID="458340" Value="14"/>
+  </IndexMap>
+</TextGroup>

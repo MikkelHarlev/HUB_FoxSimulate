@@ -1,0 +1,30 @@
+VAR
+	pInverter : REFERENCE TO Inverter_Type;
+	ButtonId : INT;
+END_VAR
+VAR CONSTANT
+	PAGE_ALARM_INVERTER_HISTORY : UINT := 24;
+	PAGE_ALARM_INVERTER_ERROR : UINT := 23;
+END_VAR
+VAR
+	FirstAlarm : BOOL;
+	Cnt : USINT;
+	Elements : USINT;
+	Initialized : BOOL;
+	InverterAlarm : Invalchk_Task_Type;
+	InverterHistory : ARRAY[0..19] OF Invalchk_History_Type;
+	FirstInverter : USINT;
+	LastInverter : USINT;
+	CopyFrom : UINT;
+	x : USINT;
+	InitDone : ARRAY[0..1] OF BOOL;
+	taskState : initState_enum;
+END_VAR
+VAR RETAIN
+	adrInverter : UDINT;
+END_VAR
+VAR
+	RGetLastError : INT := 0;
+	RGetLastErrorUINT : UINT := 0;
+	isError : BOOL := 0;
+END_VAR

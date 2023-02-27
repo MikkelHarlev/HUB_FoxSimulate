@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="JGStates">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="4"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stopped"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Idle"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopping"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="408127" Value=""/>
+    <Text ID="408128" Value=""/>
+    <Text ID="408129" Value=""/>
+    <Text ID="408130" Value=""/>
+    <Text ID="408131" Value=""/>
+    <Text ID="408132" Value=""/>
+    <Text ID="408133" Value=""/>
+    <Text ID="408134" Value=""/>
+    <Text ID="408135" Value=""/>
+    <Text ID="408136" Value=""/>
+    <Text ID="408137" Value=""/>
+    <Text ID="408138" Value=""/>
+    <Text ID="408139" Value=""/>
+    <Text ID="408140" Value=""/>
+    <Text ID="408141" Value=""/>
+    <Text ID="408142" Value=""/>
+    <Text ID="408143" Value=""/>
+    <Text ID="408144" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="408127" Value=""/>
+    <Text ID="408128" Value=""/>
+    <Text ID="408129" Value=""/>
+    <Text ID="408130" Value=""/>
+    <Text ID="408131" Value=""/>
+    <Text ID="408132" Value=""/>
+    <Text ID="408133" Value=""/>
+    <Text ID="408134" Value=""/>
+    <Text ID="408135" Value=""/>
+    <Text ID="408136" Value=""/>
+    <Text ID="408137" Value=""/>
+    <Text ID="408138" Value=""/>
+    <Text ID="408139" Value=""/>
+    <Text ID="408140" Value=""/>
+    <Text ID="408141" Value=""/>
+    <Text ID="408142" Value=""/>
+    <Text ID="408143" Value=""/>
+    <Text ID="408144" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="408127" Value=""/>
+    <Text ID="408128" Value=""/>
+    <Text ID="408129" Value=""/>
+    <Text ID="408130" Value=""/>
+    <Text ID="408131" Value=""/>
+    <Text ID="408132" Value=""/>
+    <Text ID="408133" Value=""/>
+    <Text ID="408134" Value=""/>
+    <Text ID="408135" Value=""/>
+    <Text ID="408136" Value=""/>
+    <Text ID="408137" Value=""/>
+    <Text ID="408138" Value=""/>
+    <Text ID="408139" Value=""/>
+    <Text ID="408140" Value=""/>
+    <Text ID="408141" Value=""/>
+    <Text ID="408142" Value=""/>
+    <Text ID="408143" Value=""/>
+    <Text ID="408144" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="408127" Value="Undefined"/>
+    <Text ID="408128" Value="Clearing"/>
+    <Text ID="408129" Value="Stoppet"/>
+    <Text ID="408130" Value="Starting"/>
+    <Text ID="408131" Value="Ledig"/>
+    <Text ID="408132" Value="Suspended"/>
+    <Text ID="408133" Value="Execute"/>
+    <Text ID="408134" Value="Stopper"/>
+    <Text ID="408135" Value="Aborting"/>
+    <Text ID="408136" Value="Aborted"/>
+    <Text ID="408137" Value="Complete"/>
+    <Text ID="408138" Value="Completing"/>
+    <Text ID="408139" Value="Resetting"/>
+    <Text ID="408140" Value="Un-Suspending"/>
+    <Text ID="408141" Value="Suspending"/>
+    <Text ID="408142" Value="Un-Holding"/>
+    <Text ID="408143" Value="Held"/>
+    <Text ID="408144" Value="Holding"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="408127" Value=""/>
+    <Text ID="408128" Value=""/>
+    <Text ID="408129" Value=""/>
+    <Text ID="408130" Value=""/>
+    <Text ID="408131" Value=""/>
+    <Text ID="408132" Value=""/>
+    <Text ID="408133" Value=""/>
+    <Text ID="408134" Value=""/>
+    <Text ID="408135" Value=""/>
+    <Text ID="408136" Value=""/>
+    <Text ID="408137" Value=""/>
+    <Text ID="408138" Value=""/>
+    <Text ID="408139" Value=""/>
+    <Text ID="408140" Value=""/>
+    <Text ID="408141" Value=""/>
+    <Text ID="408142" Value=""/>
+    <Text ID="408143" Value=""/>
+    <Text ID="408144" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="408127" Value="0"/>
+    <Index ID="408128" Value="1"/>
+    <Index ID="408129" Value="2"/>
+    <Index ID="408130" Value="3"/>
+    <Index ID="408131" Value="4"/>
+    <Index ID="408132" Value="5"/>
+    <Index ID="408133" Value="6"/>
+    <Index ID="408134" Value="7"/>
+    <Index ID="408135" Value="8"/>
+    <Index ID="408136" Value="9"/>
+    <Index ID="408137" Value="17"/>
+    <Index ID="408138" Value="16"/>
+    <Index ID="408139" Value="15"/>
+    <Index ID="408140" Value="14"/>
+    <Index ID="408141" Value="13"/>
+    <Index ID="408142" Value="12"/>
+    <Index ID="408143" Value="11"/>
+    <Index ID="408144" Value="10"/>
+  </IndexMap>
+</TextGroup>

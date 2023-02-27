@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="1.00.0" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>IoList.typ</File>
+    <File>IoList.var</File>
+    <File>IoList.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsIO" FromVersion="0.00.1" />
+    <Dependency ObjectName="AsMem" FromVersion="1.00.2" />
+    <Dependency ObjectName="AsString" FromVersion="1.01.1" />
+    <Dependency ObjectName="AsTime" FromVersion="1.00.3" />
+    <Dependency ObjectName="DataObj" FromVersion="1.02.0" />
+    <Dependency ObjectName="FileIO" FromVersion="1.03.0" />
+    <Dependency ObjectName="SYS_LIB" FromVersion="1.38.3" />
+  </Dependencies>
+</Library>

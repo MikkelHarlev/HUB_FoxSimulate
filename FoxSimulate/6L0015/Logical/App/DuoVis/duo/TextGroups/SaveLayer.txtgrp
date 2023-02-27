@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="SaveLayer">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="10"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Read only"/>
+    <Text ID="298700" Value="Save as ...."/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Nur lesen"/>
+    <Text ID="298700" Value="Speichern als ...."/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Skrivskyddad"/>
+    <Text ID="298700" Value="Spara som...."/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Lecture seule"/>
+    <Text ID="298700" Value="Enregistrer sous..."/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Læs kun"/>
+    <Text ID="298700" Value="Gem som"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Pronto solo "/>
+    <Text ID="298700" Value="Salva come... "/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Read only"/>
+    <Text ID="298700" Value="Save as ...."/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Alleen lezen"/>
+    <Text ID="298700" Value="Opslaan als ..."/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Sólo lectura"/>
+    <Text ID="298700" Value="Guardad como..."/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Tylko do odczytu"/>
+    <Text ID="298700" Value="Zapisz jako..."/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value=""/>
+    <Text ID="298700" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value=""/>
+    <Text ID="298700" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Tylko do odczytu"/>
+    <Text ID="298700" Value="Zapisz jako..."/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Read only"/>
+    <Text ID="298700" Value="Save as ...."/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Read only"/>
+    <Text ID="298700" Value="Save as ...."/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Read only"/>
+    <Text ID="298700" Value="Lagre som...."/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="298698" Value=""/>
+    <Text ID="298699" Value="Só de leitura"/>
+    <Text ID="298700" Value="Guardar como ...."/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="298698" Value="0"/>
+    <Index ID="298699" Value="1"/>
+    <Index ID="298700" Value="2"/>
+  </IndexMap>
+</TextGroup>

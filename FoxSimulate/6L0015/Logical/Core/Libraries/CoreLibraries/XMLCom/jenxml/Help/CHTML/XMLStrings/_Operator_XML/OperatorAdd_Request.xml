@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<methodCall>
+    <methodName>OperatorAdd</methodName>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>OpName</name>
+                    <value>
+                        <base64>"Operator Name"</base64>
+                    </value>
+                </member>
+                <member>
+                    <name>OpNumber</name>
+                    <value>
+                        <int>"Operator Number"</int>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodCall>

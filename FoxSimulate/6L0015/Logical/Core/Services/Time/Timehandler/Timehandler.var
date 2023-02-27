@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT -- Jensen Denmark A/S
+ ********************************************************************
+ * Program: Timehandler
+ * File: Timehandler.var
+ * Author: EG
+ * Created: January 11, 2011
+ ********************************************************************
+ * Local variables of program Timehandler
+ ********************************************************************)
+VAR
+	RTime : DTGetTime;
+	tmpString : STRING[10];
+	timeString : STRING[30];
+	localTimeDifference : DINT;
+	convNumber : DINT;
+END_VAR

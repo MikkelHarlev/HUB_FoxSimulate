@@ -1,0 +1,5 @@
+VAR CONSTANT
+	BRDKSAFETY_MAX_OPTIONS : USINT := 63; (*Max options possible*)
+	BRDKSAFETY_MAX_MODULES : USINT := 127; (*Max modules possible*)
+	BRDKSAFETY_MAX_TABLES : USINT := 99; (*Max tables possible*)
+END_VAR

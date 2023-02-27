@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library SubType="IEC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File Description="Exported functions and function blocks">HMILib.fun</File>
+    <File>getTimeString.st</File>
+    <File>buildItem.st</File>
+    <File>getDateString.st</File>
+    <File>ConvertIPString.st</File>
+    <File>converIPOctets.st</File>
+    <File>getNamespaceKey.st</File>
+    <File>FindClientUsingAPage.st</File>
+  </Files>
+</Library>

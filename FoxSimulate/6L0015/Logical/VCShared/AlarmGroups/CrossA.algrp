@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="CrossA">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.App.Application.g_CrossFoldAProcess.Common.AlarmList.Ack]"/>
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.App.Application.g_CrossFoldAProcess.Common.AlarmList.Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="Source[global].Variable[Master.App.Application.g_CrossFoldAProcess.Common.AlarmList.Bypassed]"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="5"/>
+  <Property Name="LatchedBackColor" Value="47"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="2"/>
+  <Property Name="QuitBackColor" Value="11"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="3459" Value="CrossA Error"/>
+      <Text ID="3460" Value="CrossA Startup Error"/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="3459" Value="KreuzA Fehler"/>
+      <Text ID="3460" Value="Kreuz A start fehler"/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="3459" Value="Fel i tvärvik A"/>
+      <Text ID="3460" Value="Fel vid uppstart tvärvik A"/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="3459" Value="CrossA Error"/>
+      <Text ID="3460" Value="CrossA Startup Error"/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="3459" Value="Fejl Tvärfold A"/>
+      <Text ID="3460" Value="Fejl Tvärfold ved opstart"/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="3459" Value="CrossA Errore"/>
+      <Text ID="3460" Value="CrossA Startup Errore"/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="3459" Value="CrossA Error"/>
+      <Text ID="3460" Value="CrossA Startup Error"/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="3459" Value="CrossA Error"/>
+      <Text ID="3460" Value="CrossA Startup Error"/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="3459" Value="Fallo en plegado Transversal A"/>
+      <Text ID="3460" Value="Error inicio plegado Transversal A"/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="3459" Value=""/>
+      <Text ID="3460" Value=""/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="3459" Value=""/>
+      <Text ID="3460" Value=""/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="3459" Value=""/>
+      <Text ID="3460" Value=""/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="3459" Value=""/>
+      <Text ID="3460" Value=""/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="3459" Value=""/>
+      <Text ID="3460" Value=""/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="3459" Value=""/>
+      <Text ID="3460" Value=""/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="3459" Value="Feil Kryssfold A"/>
+      <Text ID="3460" Value="Feil oppstart krussfold A"/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="3459" Value=""/>
+      <Text ID="3460" Value=""/>
+      <Text ID="6556" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="3459" Value="2"/>
+      <Index ID="3460" Value="3"/>
+      <Index ID="6556" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

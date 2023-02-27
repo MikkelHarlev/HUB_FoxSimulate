@@ -1,0 +1,160 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML DIR=LTR>
+ <HEAD>
+  <meta name="INDEX" content="RcpGetNames">
+  <meta name="ORDER" content="1">
+  <META NAME="generator" CONTENT="Microsoft FrontPage 5.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <TITLE>RcpGetNames</TITLE>
+  <LINK REL="StyleSheet" HREF="../styles.css">
+ </HEAD>
+
+ <BODY>
+  <H1> Jercp_lib - RcpGetNames()</H1>
+
+  <p style="margin-top: 0; margin-bottom: 0">This Function Block is doing the 
+  following things:</p>
+
+  <ul>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Copy all Recipe Names to a String 
+  Array.</p>
+
+    </li>
+  </ul>
+
+  <p style="margin-top: 0; margin-bottom: 0">Note: The string array should hold 
+  as many strings are recipes exist!</p>
+
+  <H2> Parameters</H2>
+
+  <CENTER>
+   <TABLE WIDTH="90%" CELLPADDING="4" CELLSPACING="2" BORDER="1">
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      <P ALIGN="CENTER"> <B>I/O</B></P>
+     </TD>
+
+     <TD WIDTH="20%" VALIGN="TOP">
+      <P> <B>Parameter</B></P>
+     </TD>
+
+     <TD WIDTH="12%" VALIGN="TOP">
+      <P> <B>Data Type</B></P>
+     </TD>
+
+     <TD WIDTH="62%" VALIGN="TOP">
+      <P> <B>Description</B></P>
+     </TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP">
+      Enable</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP">
+      BOOL</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP">
+      Enables the Function Block</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP">
+      Ident</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP">
+      Ident from <a href="RcpInit.html">RcpInit()</a></TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP">
+      pRcpNameArray</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP">
+      Address of a string array where the names will be written to</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP">
+      SizeRcpNameArray</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP">
+      Size of the string array</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP">
+      LinesRcpNameArray</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP">
+      Number of lines in the string array</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      OUT</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP">
+      ErrStringInfo</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP">
+      STRING(32)</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP">
+      In case of Error Information is given in this String</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      OUT</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP">
+      Status</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP">
+      <a href="../General/Error.html">Error Number</a></TD>
+    </TR>
+
+    </TABLE>
+  </CENTER>
+
+  <h2>Call Syntax (Structured Text)</h2>
+  <p>&nbsp;&nbsp;&nbsp; RcpGetNames_0(Enable:=, Ident:=, pRcpNameArray:=, 
+  SizeRcpNameArray:=, LinesRcpNameArray:=);</p>
+  <h2>Examples</h2>
+  
+  </BODY>
+</HTML>

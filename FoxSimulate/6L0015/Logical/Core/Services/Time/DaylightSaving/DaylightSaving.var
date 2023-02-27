@@ -1,0 +1,16 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: DaylightSaving
+ * File: DaylightSaving.var
+ * Author: duem
+ * Created: November 19, 2014
+ ********************************************************************
+ * Local variables of program DaylightSaving
+ ********************************************************************)
+VAR
+	GUI_ButtonState : BOOL;
+	OldGuiButtonState : BOOL;
+	InitDone : BOOL;
+	CfgSetDst_0 : CfgSetDst;
+END_VAR

@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: sntpHandler
+ * File: sntpHandler.var
+ * Author: eg
+ * Created: April 22, 2014
+ ********************************************************************
+ * Local variables of program sntpHandler
+ ********************************************************************)
+VAR
+	CfgSetSntpServer_0 : CfgSetSntpServer;
+	CfgSetSntpClient_0 : CfgSetSntpClient;
+	isConnectionFound : BOOL;
+	no : USINT;
+	timeServerAddress : STRING[15];
+END_VAR

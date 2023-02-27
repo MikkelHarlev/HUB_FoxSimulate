@@ -1,0 +1,53 @@
+;------------------------ Format ------------------------;
+; "ADD",	ID, VIS_ID or
+; "ODD",	ID, VIS_ID (No History)
+; ButtonNo, ButtonID, Passwordlevel, PageControllerLink.
+;
+; Note: If PageControllerLink = 1000, then it is not linked and
+;       the button can be used for a special purpose
+;--------------------------------------------------------;
+
+;MAIN PAGE
+"ADD",00001,00003
+00001,00000,00000,00000; Clear
+00006,00001,00000,00002; System setup
+00007,00001,00000,00050; Rcp Page
+00008,00001,00000,00051; Cust Page
+00010,00001,00000,00053; Operator Page
+
+;SYSTEM PAGE
+"ADD",00002,00099;
+00001,00018,00002,00003; Config Main Page
+00002,00000,00000,00000; Clear
+00003,00119,00002,00015; System Main Page 
+00004,00000,00000,00000; Clear
+00005,00000,00000,00000; Clear
+00006,00099,00000,00000; Exit
+
+;Rcp Page
+"ADD",00050,00050;
+00006,00099,00000,00000; Exit
+
+;Cust Page
+"ADD",00051,00051;
+00006,00099,00000,00000; Exit
+
+;Operator Page
+"ADD",00053,00053;
+00006,00099,00000,00000; Exit
+
+;M2M CONFIG # 1
+"ADD",00016,00350;
+;00001,00029,00002,00216; M2M Config XML
+;00002,00049,00002,00017; JENTRANS Config XML
+00006,00099,00000,00000; Exit
+
+;ALARM MAIN PAGE
+"ADD",00222,00515;
+00001,00125,00002,00021; Alarm History Page
+;00002,00028,00002,00022; Alarm Bypass Page
+;00003,00126,00002,00023; Alarm Inverter Page
+;00004,00039,00002,00025; Alarm Acopos Page
+;00005,00057,00002,00026; Alarm I/O Page
+00006,00099,00000,00000; Exit
+

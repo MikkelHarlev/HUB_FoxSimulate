@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Unit_Measures">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[Percent]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="None"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65535"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="cm"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="m"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="inch"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="nm"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="um"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="Zm"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="m"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="cm"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="nm"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="um"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="cm"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="M"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="Tum"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="nm"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="Vettefaan!"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="Cm"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="m"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="inch"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="Nm"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="Um"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="cm"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="m"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="Tomme"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="nm"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="um"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm."/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="cm."/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="m."/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="Pollici"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="nm"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="um"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="cm"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="m"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="tuuma"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="nm"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="um"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="cm"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="m"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="inch"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="nm"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="um"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="cm"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="Metro (m)"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="Pulgada"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="Nanómetro"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="um"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="cm"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="m"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="cal"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="nm"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="um"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="мм"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="см"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="м"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="дюйм"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="нм"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="мкм"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="cm"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="m"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="inch"/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="nm"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="um"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value=""/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value=""/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value=""/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value=""/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value=""/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value=""/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value=""/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value=""/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value=""/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value=""/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value=""/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value=""/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value=""/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value=""/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value=""/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value=""/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value=""/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value=""/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value=""/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value=""/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value=""/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value="mm"/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value="cm"/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value="m"/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value="tom."/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value="Nm"/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value="Um"/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value="%"/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value="%"/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="115" Value=""/>
+      <Text ID="116" Value=""/>
+      <Text ID="117" Value=""/>
+      <Text ID="118" Value=""/>
+      <Text ID="119" Value=""/>
+      <Text ID="120" Value=""/>
+      <Text ID="176" Value=""/>
+      <Text ID="177" Value=""/>
+      <Text ID="186" Value=""/>
+      <Text ID="187" Value=""/>
+      <Text ID="188" Value=""/>
+      <Text ID="189" Value=""/>
+      <Text ID="190" Value=""/>
+      <Text ID="191" Value=""/>
+      <Text ID="158550" Value=""/>
+      <Text ID="158551" Value=""/>
+      <Text ID="160026" Value=""/>
+      <Text ID="160027" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="115" Value="2"/>
+      <Index ID="116" Value="3"/>
+      <Index ID="117" Value="4"/>
+      <Index ID="118" Value="5"/>
+      <Index ID="119" Value="6"/>
+      <Index ID="120" Value="7"/>
+      <Index ID="176" Value="10"/>
+      <Index ID="177" Value="11"/>
+      <Index ID="186" Value="8"/>
+      <Index ID="187" Value="9"/>
+      <Index ID="188" Value="12"/>
+      <Index ID="189" Value="13"/>
+      <Index ID="190" Value="1"/>
+      <Index ID="191" Value="0"/>
+      <Index ID="158550" Value="14"/>
+      <Index ID="158551" Value="15"/>
+      <Index ID="160026" Value="16"/>
+      <Index ID="160027" Value="17"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="Percent">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="15"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="14"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="Percent2">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="17"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="16"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

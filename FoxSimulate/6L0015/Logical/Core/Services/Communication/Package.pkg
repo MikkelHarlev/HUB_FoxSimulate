@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="Ethernet Package">Utilities</Object>
+    <Object Type="Package" Description=" ">XMLRPCServer</Object>
+    <Object Type="Package" Description="An empty package">ConnectionManager</Object>
+    <Object Type="Package" Description="An empty package">ConnectionHandler</Object>
+    <Object Type="Package" Description="An empty package">ConnectionLogic</Object>
+    <Object Type="Package">Jenway</Object>
+  </Objects>
+</Package>

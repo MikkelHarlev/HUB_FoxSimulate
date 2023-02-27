@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Manual_Set_Autoprogram">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="65"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="513672" Value="Current Value"/>
+    <Text ID="513673" Value="Button"/>
+    <Text ID="513675" Value="Autoprogram Manual Mode"/>
+    <Text ID="513676" Value="Autoprogram Automatic Mode"/>
+    <Text ID="513677" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="513672" Value="Current Value"/>
+    <Text ID="513673" Value="Button"/>
+    <Text ID="513675" Value="Autoprogram Manual Mode"/>
+    <Text ID="513676" Value="Autoprogram Automatic Mode"/>
+    <Text ID="513677" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="513672" Value="Current Value"/>
+    <Text ID="513673" Value="Button"/>
+    <Text ID="513675" Value="Autoprogram Manual Mode"/>
+    <Text ID="513676" Value="Autoprogram Automatic Mode"/>
+    <Text ID="513677" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="513672" Value="Valeur actuelle"/>
+    <Text ID="513673" Value="Bouton"/>
+    <Text ID="513675" Value="Mode Programme auto manuel"/>
+    <Text ID="513676" Value="Mode Programme auto automatique"/>
+    <Text ID="513677" Value="Mode démarrage"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="513672" Value="Current Value"/>
+    <Text ID="513673" Value="Button"/>
+    <Text ID="513675" Value="Autoprogram Manual Mode"/>
+    <Text ID="513676" Value="Autoprogram Automatic Mode"/>
+    <Text ID="513677" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="513672" Value="Current Value"/>
+    <Text ID="513673" Value="Button"/>
+    <Text ID="513675" Value="Autoprogram Manual Mode"/>
+    <Text ID="513676" Value="Autoprogram Automatic Mode"/>
+    <Text ID="513677" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="513672" Value="Current Value"/>
+    <Text ID="513673" Value="Button"/>
+    <Text ID="513675" Value="Autoprogram Manual Mode"/>
+    <Text ID="513676" Value="Autoprogram Automatic Mode"/>
+    <Text ID="513677" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="513672" Value="Huidige waarde"/>
+    <Text ID="513673" Value="Knop"/>
+    <Text ID="513675" Value="Automatisch programma Handmatige modus"/>
+    <Text ID="513676" Value="Automatisch programma Automatische modus"/>
+    <Text ID="513677" Value="Startmodus"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="513672" Value="Valor Actual"/>
+    <Text ID="513673" Value="Botón"/>
+    <Text ID="513675" Value="Autoprogram Manual Mode"/>
+    <Text ID="513676" Value="Autoprogram Automatic Mode"/>
+    <Text ID="513677" Value="Modo Inicio"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="513672" Value="Bieżąca wartość"/>
+    <Text ID="513673" Value="Przycisk"/>
+    <Text ID="513675" Value="Tryb ręczny autoprogramu"/>
+    <Text ID="513676" Value="Tryb automatyczny autoprogramu"/>
+    <Text ID="513677" Value="Tryb uruchomienia"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="513672" Value=""/>
+    <Text ID="513673" Value=""/>
+    <Text ID="513675" Value=""/>
+    <Text ID="513676" Value=""/>
+    <Text ID="513677" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="513672" Value=""/>
+    <Text ID="513673" Value=""/>
+    <Text ID="513675" Value=""/>
+    <Text ID="513676" Value=""/>
+    <Text ID="513677" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="513672" Value="Bieżąca wartość"/>
+    <Text ID="513673" Value="Przycisk"/>
+    <Text ID="513675" Value="Tryb ręczny autoprogramu"/>
+    <Text ID="513676" Value="Tryb automatyczny autoprogramu"/>
+    <Text ID="513677" Value="Tryb uruchomienia"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="513672" Value="Current Value"/>
+    <Text ID="513673" Value="Button"/>
+    <Text ID="513675" Value="Autoprogram Manual Mode"/>
+    <Text ID="513676" Value="Autoprogram Automatic Mode"/>
+    <Text ID="513677" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="513672" Value="Current Value"/>
+    <Text ID="513673" Value="Button"/>
+    <Text ID="513675" Value="Autoprogram Manual Mode"/>
+    <Text ID="513676" Value="Autoprogram Automatic Mode"/>
+    <Text ID="513677" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="513672" Value="Current Value"/>
+    <Text ID="513673" Value="Button"/>
+    <Text ID="513675" Value="Autoprogram Manual Mode"/>
+    <Text ID="513676" Value="Autoprogram Automatic Mode"/>
+    <Text ID="513677" Value="Start Mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="513672" Value="Valor atual"/>
+    <Text ID="513673" Value="Botão"/>
+    <Text ID="513675" Value="Modo manual do programa automático"/>
+    <Text ID="513676" Value="Modo automático do programa automático"/>
+    <Text ID="513677" Value="Modo de arranque"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="513672" Value="0"/>
+    <Index ID="513673" Value="1"/>
+    <Index ID="513675" Value="2"/>
+    <Index ID="513676" Value="3"/>
+    <Index ID="513677" Value="4"/>
+  </IndexMap>
+</TextGroup>

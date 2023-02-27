@@ -1,0 +1,11 @@
+;******* XML Dataserver Config Server ********
+"[XMLSRV_CFG]", ;Data Module identification
+000200,			;priority of connection thread
+000001,    		;true if server should recover on error
+000081, 		;port to listen to
+000055,        	;priority of agent threads
+000070,        	;priority of system/exceptions
+000032,        	;number of working threads (max 64)
+008192,       	;size of socket send buff computed
+"xmldata",   	;Datamodule for declaration of XML-Variables
+

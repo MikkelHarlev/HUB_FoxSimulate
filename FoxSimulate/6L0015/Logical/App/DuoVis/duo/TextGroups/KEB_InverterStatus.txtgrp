@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="KEB_InverterStatus">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="44"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="115398" Value="External fault"/>
+    <Text ID="115399" Value="Low speed"/>
+    <Text ID="115400" Value="Forward constant"/>
+    <Text ID="115401" Value="Forward acceleration"/>
+    <Text ID="115402" Value="Forward deceleration"/>
+    <Text ID="124245" Value="No operation"/>
+    <Text ID="124353" Value="Bus Error"/>
+    <Text ID="129519" Value="Error overcurrent"/>
+    <Text ID="129520" Value="Error overheat"/>
+    <Text ID="129521" Value="Error motor protection"/>
+    <Text ID="129522" Value="Error overload"/>
+    <Text ID="129523" Value="Warning overheat pow mod"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="115398" Value="Externer Fehler"/>
+    <Text ID="115399" Value="Niedrige Geschwindigkeit"/>
+    <Text ID="115400" Value="Konstante Geschwindigkeit vorwärts"/>
+    <Text ID="115401" Value="Beschleunigung vorwärts"/>
+    <Text ID="115402" Value="Verzögerung vorwärts"/>
+    <Text ID="124245" Value="Kein Betrieb"/>
+    <Text ID="124353" Value="Busfehler"/>
+    <Text ID="129519" Value="Fehler: Überstrom"/>
+    <Text ID="129520" Value="Fehler, Überhitzung"/>
+    <Text ID="129521" Value="Fehler, Motorschutz"/>
+    <Text ID="129522" Value="Fehler, Überlastung"/>
+    <Text ID="129523" Value="Warnung, Überhitzung i. Pow.-Mod."/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="115398" Value="External fault"/>
+    <Text ID="115399" Value="Low speed"/>
+    <Text ID="115400" Value="Forward constant"/>
+    <Text ID="115401" Value="Forward acceleration"/>
+    <Text ID="115402" Value="Forward deceleration"/>
+    <Text ID="124245" Value="No operation"/>
+    <Text ID="124353" Value="Bus Error"/>
+    <Text ID="129519" Value="Error overcurrent"/>
+    <Text ID="129520" Value="Error overheat"/>
+    <Text ID="129521" Value="Error motor protection"/>
+    <Text ID="129522" Value="Error overload"/>
+    <Text ID="129523" Value="Warning overheat pow mod"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="115398" Value="Défaut externe"/>
+    <Text ID="115399" Value="vitesse réduite"/>
+    <Text ID="115400" Value="Constante avant"/>
+    <Text ID="115401" Value="accélération avant"/>
+    <Text ID="115402" Value="décélération avant"/>
+    <Text ID="124245" Value="pas d'opération"/>
+    <Text ID="124353" Value="Erreur comm."/>
+    <Text ID="129519" Value="Erreur: sur-intensité"/>
+    <Text ID="129520" Value="Erreur surchauffe"/>
+    <Text ID="129521" Value="Erreur prot. Moteur"/>
+    <Text ID="129522" Value="Erreur surcharge"/>
+    <Text ID="129523" Value="Attention surchauffe courant"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="115398" Value="External fault"/>
+    <Text ID="115399" Value="Low speed"/>
+    <Text ID="115400" Value="Forward constant"/>
+    <Text ID="115401" Value="Forward acceleration"/>
+    <Text ID="115402" Value="Forward deceleration"/>
+    <Text ID="124245" Value="No operation"/>
+    <Text ID="124353" Value="Bus Error"/>
+    <Text ID="129519" Value="Error overcurrent"/>
+    <Text ID="129520" Value="Error overheat"/>
+    <Text ID="129521" Value="Error motor protection"/>
+    <Text ID="129522" Value="Error overload"/>
+    <Text ID="129523" Value="Warning overheat pow mod"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="115398" Value="External fault"/>
+    <Text ID="115399" Value="Low speed"/>
+    <Text ID="115400" Value="Forward constant"/>
+    <Text ID="115401" Value="Forward acceleration"/>
+    <Text ID="115402" Value="Forward deceleration"/>
+    <Text ID="124245" Value="No operation"/>
+    <Text ID="124353" Value="Bus Error"/>
+    <Text ID="129519" Value="Error overcurrent"/>
+    <Text ID="129520" Value="Error overheat"/>
+    <Text ID="129521" Value="Error motor protection"/>
+    <Text ID="129522" Value="Error overload"/>
+    <Text ID="129523" Value="Warning overheat pow mod"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="115398" Value="External fault"/>
+    <Text ID="115399" Value="Low speed"/>
+    <Text ID="115400" Value="Forward constant"/>
+    <Text ID="115401" Value="Forward acceleration"/>
+    <Text ID="115402" Value="Forward deceleration"/>
+    <Text ID="124245" Value="No operation"/>
+    <Text ID="124353" Value="Bus Error"/>
+    <Text ID="129519" Value="Error overcurrent"/>
+    <Text ID="129520" Value="Error overheat"/>
+    <Text ID="129521" Value="Error motor protection"/>
+    <Text ID="129522" Value="Error overload"/>
+    <Text ID="129523" Value="Warning overheat pow mod"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="115398" Value="Externe fout"/>
+    <Text ID="115399" Value="Laag snelheid"/>
+    <Text ID="115400" Value="Constant vooruit"/>
+    <Text ID="115401" Value="Versnelling vooruit"/>
+    <Text ID="115402" Value="Vertraging vooruit"/>
+    <Text ID="124245" Value="Geen bedrijf"/>
+    <Text ID="124353" Value="Busfout"/>
+    <Text ID="129519" Value="Fout: Overspanning."/>
+    <Text ID="129520" Value="Fout oververhitting"/>
+    <Text ID="129521" Value="Fout motorveiligheid"/>
+    <Text ID="129522" Value="Fout overbelasting"/>
+    <Text ID="129523" Value="Waarschuwing oververhitting stroommodus"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="115398" Value="Fallo externo"/>
+    <Text ID="115399" Value="Baja velocidad"/>
+    <Text ID="115400" Value="Constante hacia delante"/>
+    <Text ID="115401" Value="Aceleración hacia delante"/>
+    <Text ID="115402" Value="Desaceleración hacia delante"/>
+    <Text ID="124245" Value="Sin funcionamiento"/>
+    <Text ID="124353" Value="Error de bus"/>
+    <Text ID="129519" Value="Error por sobrecorriente"/>
+    <Text ID="129520" Value="Error por sobrecalentamiento"/>
+    <Text ID="129521" Value="Error en protección de motor"/>
+    <Text ID="129522" Value="Error por sobrecarga"/>
+    <Text ID="129523" Value="Aviso sobrecalentamiento de Fuente Alimentación"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="115398" Value="Usterka zewnętrzna"/>
+    <Text ID="115399" Value="Niska prędkość"/>
+    <Text ID="115400" Value="Stały ruch w przód"/>
+    <Text ID="115401" Value="Przyspieszenie ruchu w przód"/>
+    <Text ID="115402" Value="Opóźnienie ruchu w przód"/>
+    <Text ID="124245" Value="Brak działania"/>
+    <Text ID="124353" Value="Błąd magistrali"/>
+    <Text ID="129519" Value="Błąd nadmiernego natężenia prądu"/>
+    <Text ID="129520" Value="Błąd przegrzania"/>
+    <Text ID="129521" Value="Błąd zabezpieczenia silnika"/>
+    <Text ID="129522" Value="Błąd przeciążenia"/>
+    <Text ID="129523" Value="Ostrzeżenia o przegrzaniu modułu zasilania"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="115398" Value=""/>
+    <Text ID="115399" Value=""/>
+    <Text ID="115400" Value=""/>
+    <Text ID="115401" Value=""/>
+    <Text ID="115402" Value=""/>
+    <Text ID="124245" Value=""/>
+    <Text ID="124353" Value=""/>
+    <Text ID="129519" Value=""/>
+    <Text ID="129520" Value=""/>
+    <Text ID="129521" Value=""/>
+    <Text ID="129522" Value=""/>
+    <Text ID="129523" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="115398" Value=""/>
+    <Text ID="115399" Value=""/>
+    <Text ID="115400" Value=""/>
+    <Text ID="115401" Value=""/>
+    <Text ID="115402" Value=""/>
+    <Text ID="124245" Value=""/>
+    <Text ID="124353" Value=""/>
+    <Text ID="129519" Value=""/>
+    <Text ID="129520" Value=""/>
+    <Text ID="129521" Value=""/>
+    <Text ID="129522" Value=""/>
+    <Text ID="129523" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="115398" Value="Usterka zewnętrzna"/>
+    <Text ID="115399" Value="Niska prędkość"/>
+    <Text ID="115400" Value="Stały ruch w przód"/>
+    <Text ID="115401" Value="Przyspieszenie ruchu w przód"/>
+    <Text ID="115402" Value="Opóźnienie ruchu w przód"/>
+    <Text ID="124245" Value="Brak działania"/>
+    <Text ID="124353" Value="Błąd magistrali"/>
+    <Text ID="129519" Value="Błąd nadmiernego natężenia prądu"/>
+    <Text ID="129520" Value="Błąd przegrzania"/>
+    <Text ID="129521" Value="Błąd zabezpieczenia silnika"/>
+    <Text ID="129522" Value="Błąd przeciążenia"/>
+    <Text ID="129523" Value="Ostrzeżenia o przegrzaniu modułu zasilania"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="115398" Value="External fault"/>
+    <Text ID="115399" Value="Low speed"/>
+    <Text ID="115400" Value="Forward constant"/>
+    <Text ID="115401" Value="Forward acceleration"/>
+    <Text ID="115402" Value="Forward deceleration"/>
+    <Text ID="124245" Value="No operation"/>
+    <Text ID="124353" Value="Bus Error"/>
+    <Text ID="129519" Value="Error overcurrent"/>
+    <Text ID="129520" Value="Error overheat"/>
+    <Text ID="129521" Value="Error motor protection"/>
+    <Text ID="129522" Value="Error overload"/>
+    <Text ID="129523" Value="Warning overheat pow mod"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="115398" Value="External fault"/>
+    <Text ID="115399" Value="Low speed"/>
+    <Text ID="115400" Value="Forward constant"/>
+    <Text ID="115401" Value="Forward acceleration"/>
+    <Text ID="115402" Value="Forward deceleration"/>
+    <Text ID="124245" Value="No operation"/>
+    <Text ID="124353" Value="Bus Error"/>
+    <Text ID="129519" Value="Error overcurrent"/>
+    <Text ID="129520" Value="Error overheat"/>
+    <Text ID="129521" Value="Error motor protection"/>
+    <Text ID="129522" Value="Error overload"/>
+    <Text ID="129523" Value="Warning overheat pow mod"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="115398" Value="External fault"/>
+    <Text ID="115399" Value="Low speed"/>
+    <Text ID="115400" Value="Forward constant"/>
+    <Text ID="115401" Value="Forward acceleration"/>
+    <Text ID="115402" Value="Forward deceleration"/>
+    <Text ID="124245" Value="No operation"/>
+    <Text ID="124353" Value="Bus Error"/>
+    <Text ID="129519" Value="Error overcurrent"/>
+    <Text ID="129520" Value="Error overheat"/>
+    <Text ID="129521" Value="Error motor protection"/>
+    <Text ID="129522" Value="Error overload"/>
+    <Text ID="129523" Value="Warning overheat pow mod"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="115398" Value="External fault"/>
+    <Text ID="115399" Value="Low speed"/>
+    <Text ID="115400" Value="Forward constant"/>
+    <Text ID="115401" Value="Forward acceleration"/>
+    <Text ID="115402" Value="Forward deceleration"/>
+    <Text ID="124245" Value="No operation"/>
+    <Text ID="124353" Value="Bus Error"/>
+    <Text ID="129519" Value="Error overcurrent"/>
+    <Text ID="129520" Value="Error overheat"/>
+    <Text ID="129521" Value="Error motor protection"/>
+    <Text ID="129522" Value="Error overload"/>
+    <Text ID="129523" Value="Warning overheat pow mod"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="115398" Value="31"/>
+    <Index ID="115399" Value="70"/>
+    <Index ID="115400" Value="66"/>
+    <Index ID="115401" Value="64"/>
+    <Index ID="115402" Value="65"/>
+    <Index ID="124245" Value="0"/>
+    <Index ID="124353" Value="18"/>
+    <Index ID="129519" Value="4"/>
+    <Index ID="129520" Value="8"/>
+    <Index ID="129521" Value="30"/>
+    <Index ID="129522" Value="16"/>
+    <Index ID="129523" Value="89"/>
+  </IndexMap>
+</TextGroup>

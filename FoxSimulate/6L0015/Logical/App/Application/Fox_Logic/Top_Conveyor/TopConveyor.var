@@ -1,0 +1,66 @@
+VAR CONSTANT
+	MACHPROC_WAIT_REAREDGE_90 : UINT := 90;
+	MACHPROC_HOLP_POINT_85 : UINT := 85;
+END_VAR
+VAR
+	TmpStr : STRING[41];
+	HoldStartCount : UINT;
+	HoldStopCount : UINT;
+	HoldDifference : UINT;
+	Discount : REAL;
+	RToLatFold : ToLatFold_Type;
+END_VAR
+VAR CONSTANT
+	MACHPROC_STOP_AIRBLAST_30 : UINT := 30;
+	MACHPROC_DO_AIRBLAST_35 : UINT := 35;
+END_VAR
+VAR
+	EdgeFoundCounter : UINT;
+	ForcedHoldTest : UINT;
+	RunBeforeRearEdge : UINT := 20;
+	BTurn : ARRAY[0..1] OF FB_Filter;
+	Ph2CountStampWhl : UDINT;
+	Ph2CountStampMs : UDINT;
+	TCLinen : TCLinen_Type := (0);
+	EmptyTCLinen : TCLinen_Type;
+	RTopConveyorProcess : MachProcessInlet_Type;
+	Ph2NegCountStampMs : UDINT;
+	TrigTCLinenTest : BOOL;
+	Ph : ARRAY[0..1] OF UDINT;
+	Dist : UDINT;
+	TCLinenTest : TCLinen_Type;
+	DistOrgNewPh : UINT;
+	RVerticalANDPhB : BOOL;
+	RVerticalANDPhA : BOOL;
+	RContinouslyTCLinenTest : BOOL;
+	IndexVs : UINT;
+	DiffExtVsOrg : ARRAY[0..14] OF INT;
+	ExpectedOffSet : UINT;
+	StartXAOffset : UINT;
+	Ph1NegCountStampWhl : UDINT;
+	LatestTCLinen : TCLinen_Type;
+	PhEdge : ARRAY[0..1] OF UDINT;
+	LengtPh1Edge : UDINT;
+	BTurnVertical : FB_Filter;
+	BTurnHorizontal : FB_Filter;
+	StopTask : BOOL;
+	FailCount : INT;
+	InfeedDelay : TON;
+	AutoProgramNumberIBXA : UINT;
+	RBXAFold : BOOL;
+	SelectedAutoProgram : UINT;
+	TOF_blockFromDuo : TOF;
+	GoMeasure : BOOL;
+	MeasureState : UINT;
+	RTurnVertical : BOOL;
+	InfeedBeltStop : FB_Delay;
+	StopTopConveyor : UDINT;
+	MeasureProduct : ProductData_Type;
+	RunTurnAround_TOF : TOF;
+	ACfgProgram : UINT := 0;
+	InletBrake_TOF : TOF := (0);
+	TopConveyorBrake_TOF : TOF := (0);
+	parHoldPosition : UINT := 10;
+	TestHold : BOOL := 0;
+	LongPiece : BOOL := 0;
+END_VAR

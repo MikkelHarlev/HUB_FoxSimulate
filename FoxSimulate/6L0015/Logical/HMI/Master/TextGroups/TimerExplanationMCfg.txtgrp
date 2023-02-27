@@ -1,0 +1,2761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TimerExplanationMCfg">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="10"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="395719" Value="No Help "/>
+    <Text ID="395720" Value="No Help "/>
+    <Text ID="395721" Value="No Help "/>
+    <Text ID="395722" Value="No Help "/>
+    <Text ID="395723" Value="No Help "/>
+    <Text ID="395724" Value="No Help "/>
+    <Text ID="395725" Value="No Help "/>
+    <Text ID="395726" Value="No Help "/>
+    <Text ID="395727" Value="No Help "/>
+    <Text ID="395728" Value="No Help "/>
+    <Text ID="395729" Value="No Help "/>
+    <Text ID="395730" Value="No Help "/>
+    <Text ID="395731" Value="No Help "/>
+    <Text ID="395732" Value="No Help "/>
+    <Text ID="395733" Value="No Help "/>
+    <Text ID="395734" Value="No Help "/>
+    <Text ID="395735" Value="No Help "/>
+    <Text ID="395736" Value="No Help "/>
+    <Text ID="395737" Value="No Help "/>
+    <Text ID="395738" Value="No Help "/>
+    <Text ID="395739" Value="No Help "/>
+    <Text ID="395740" Value="No Help "/>
+    <Text ID="395741" Value="No Help "/>
+    <Text ID="395742" Value="No Help "/>
+    <Text ID="395743" Value="No Help "/>
+    <Text ID="395744" Value="No Help "/>
+    <Text ID="395745" Value="No Help "/>
+    <Text ID="395746" Value="No Help "/>
+    <Text ID="395747" Value="No Help "/>
+    <Text ID="395748" Value="No Help "/>
+    <Text ID="395749" Value="No Help "/>
+    <Text ID="395750" Value="No Help "/>
+    <Text ID="395751" Value="No Help "/>
+    <Text ID="395752" Value="No Help "/>
+    <Text ID="395753" Value="No Help "/>
+    <Text ID="395754" Value="No Help "/>
+    <Text ID="395755" Value="No Help "/>
+    <Text ID="395756" Value="No Help "/>
+    <Text ID="395757" Value="No Help "/>
+    <Text ID="395758" Value="No Help "/>
+    <Text ID="395759" Value="No Help "/>
+    <Text ID="395760" Value="No Help "/>
+    <Text ID="395761" Value="No Help "/>
+    <Text ID="395762" Value="No Help "/>
+    <Text ID="395763" Value="No Help "/>
+    <Text ID="395764" Value="No Help "/>
+    <Text ID="395765" Value="No Help "/>
+    <Text ID="395766" Value="No Help "/>
+    <Text ID="395767" Value="No Help "/>
+    <Text ID="395768" Value="No Help "/>
+    <Text ID="395769" Value="No Help "/>
+    <Text ID="395770" Value="No Help "/>
+    <Text ID="395771" Value="No Help "/>
+    <Text ID="395772" Value="No Help "/>
+    <Text ID="395773" Value="No Help "/>
+    <Text ID="395774" Value="No Help "/>
+    <Text ID="395775" Value="No Help "/>
+    <Text ID="395776" Value="No Help "/>
+    <Text ID="395777" Value="No Help "/>
+    <Text ID="395778" Value="No Help "/>
+    <Text ID="395779" Value="No Help "/>
+    <Text ID="395780" Value="No Help "/>
+    <Text ID="395781" Value="No Help "/>
+    <Text ID="395782" Value="No Help "/>
+    <Text ID="395783" Value="No Help "/>
+    <Text ID="395784" Value="No Help "/>
+    <Text ID="395785" Value="No Help "/>
+    <Text ID="395786" Value="No Help "/>
+    <Text ID="395787" Value="No Help "/>
+    <Text ID="395788" Value="No Help "/>
+    <Text ID="395789" Value="No Help "/>
+    <Text ID="395790" Value="No Help "/>
+    <Text ID="395791" Value="No Help "/>
+    <Text ID="395792" Value="No Help "/>
+    <Text ID="395793" Value="No Help "/>
+    <Text ID="395794" Value="No Help "/>
+    <Text ID="395795" Value="No Help "/>
+    <Text ID="395796" Value="No Help "/>
+    <Text ID="395797" Value="No Help "/>
+    <Text ID="395798" Value="No Help "/>
+    <Text ID="395799" Value="No Help "/>
+    <Text ID="395800" Value="No Help "/>
+    <Text ID="395801" Value="No Help "/>
+    <Text ID="395802" Value="No Help "/>
+    <Text ID="395803" Value="No Help "/>
+    <Text ID="395804" Value="No Help "/>
+    <Text ID="395805" Value="No Help "/>
+    <Text ID="395806" Value="No Help "/>
+    <Text ID="395807" Value="No Help "/>
+    <Text ID="395808" Value="No Help "/>
+    <Text ID="395809" Value="No Help "/>
+    <Text ID="395810" Value="No Help "/>
+    <Text ID="395811" Value="No Help "/>
+    <Text ID="395812" Value="No Help "/>
+    <Text ID="395813" Value="No Help "/>
+    <Text ID="395814" Value="No Help "/>
+    <Text ID="395815" Value="No Help "/>
+    <Text ID="395816" Value="No Help "/>
+    <Text ID="395817" Value="No Help "/>
+    <Text ID="395818" Value="No Help "/>
+    <Text ID="395819" Value="No Help "/>
+    <Text ID="395820" Value="No Help "/>
+    <Text ID="395821" Value="No Help "/>
+    <Text ID="395822" Value="No Help "/>
+    <Text ID="395823" Value="No Help "/>
+    <Text ID="395824" Value="No Help "/>
+    <Text ID="395825" Value="No Help "/>
+    <Text ID="395826" Value="No Help "/>
+    <Text ID="395827" Value="No Help "/>
+    <Text ID="395828" Value="No Help "/>
+    <Text ID="395829" Value="No Help "/>
+    <Text ID="395830" Value="No Help "/>
+    <Text ID="395831" Value="No Help "/>
+    <Text ID="395832" Value="No Help "/>
+    <Text ID="395833" Value="No Help "/>
+    <Text ID="395834" Value="No Help "/>
+    <Text ID="395835" Value="No Help "/>
+    <Text ID="395836" Value="No Help "/>
+    <Text ID="395837" Value="No Help "/>
+    <Text ID="395838" Value="No Help "/>
+    <Text ID="395839" Value="No Help "/>
+    <Text ID="395840" Value="No Help "/>
+    <Text ID="395841" Value="No Help "/>
+    <Text ID="395842" Value="No Help "/>
+    <Text ID="395843" Value="No Help "/>
+    <Text ID="395844" Value="No Help "/>
+    <Text ID="395845" Value="No Help "/>
+    <Text ID="395846" Value="No Help "/>
+    <Text ID="395847" Value="No Help "/>
+    <Text ID="395848" Value="No Help "/>
+    <Text ID="395849" Value="No Help "/>
+    <Text ID="395850" Value="No Help "/>
+    <Text ID="395851" Value="No Help "/>
+    <Text ID="395852" Value="No Help "/>
+    <Text ID="395853" Value="No Help "/>
+    <Text ID="395854" Value="No Help "/>
+    <Text ID="395855" Value="No Help "/>
+    <Text ID="395856" Value="No Help "/>
+    <Text ID="395857" Value="No Help "/>
+    <Text ID="395858" Value="No Help "/>
+    <Text ID="395859" Value="No Help "/>
+    <Text ID="395860" Value="No Help "/>
+    <Text ID="395861" Value="No Help "/>
+    <Text ID="395862" Value="No Help "/>
+    <Text ID="395863" Value="No Help "/>
+    <Text ID="395864" Value="No Help "/>
+    <Text ID="395865" Value="No Help "/>
+    <Text ID="395866" Value="No Help "/>
+    <Text ID="395867" Value="No Help "/>
+    <Text ID="395868" Value="No Help "/>
+    <Text ID="395869" Value="No Help "/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="395719" Value=""/>
+    <Text ID="395720" Value=""/>
+    <Text ID="395721" Value=""/>
+    <Text ID="395722" Value=""/>
+    <Text ID="395723" Value=""/>
+    <Text ID="395724" Value=""/>
+    <Text ID="395725" Value=""/>
+    <Text ID="395726" Value=""/>
+    <Text ID="395727" Value=""/>
+    <Text ID="395728" Value=""/>
+    <Text ID="395729" Value=""/>
+    <Text ID="395730" Value=""/>
+    <Text ID="395731" Value=""/>
+    <Text ID="395732" Value=""/>
+    <Text ID="395733" Value=""/>
+    <Text ID="395734" Value=""/>
+    <Text ID="395735" Value=""/>
+    <Text ID="395736" Value=""/>
+    <Text ID="395737" Value=""/>
+    <Text ID="395738" Value=""/>
+    <Text ID="395739" Value=""/>
+    <Text ID="395740" Value=""/>
+    <Text ID="395741" Value=""/>
+    <Text ID="395742" Value=""/>
+    <Text ID="395743" Value=""/>
+    <Text ID="395744" Value=""/>
+    <Text ID="395745" Value=""/>
+    <Text ID="395746" Value=""/>
+    <Text ID="395747" Value=""/>
+    <Text ID="395748" Value=""/>
+    <Text ID="395749" Value=""/>
+    <Text ID="395750" Value=""/>
+    <Text ID="395751" Value=""/>
+    <Text ID="395752" Value=""/>
+    <Text ID="395753" Value=""/>
+    <Text ID="395754" Value=""/>
+    <Text ID="395755" Value=""/>
+    <Text ID="395756" Value=""/>
+    <Text ID="395757" Value=""/>
+    <Text ID="395758" Value=""/>
+    <Text ID="395759" Value=""/>
+    <Text ID="395760" Value=""/>
+    <Text ID="395761" Value=""/>
+    <Text ID="395762" Value=""/>
+    <Text ID="395763" Value=""/>
+    <Text ID="395764" Value=""/>
+    <Text ID="395765" Value=""/>
+    <Text ID="395766" Value=""/>
+    <Text ID="395767" Value=""/>
+    <Text ID="395768" Value=""/>
+    <Text ID="395769" Value=""/>
+    <Text ID="395770" Value=""/>
+    <Text ID="395771" Value=""/>
+    <Text ID="395772" Value=""/>
+    <Text ID="395773" Value=""/>
+    <Text ID="395774" Value=""/>
+    <Text ID="395775" Value=""/>
+    <Text ID="395776" Value=""/>
+    <Text ID="395777" Value=""/>
+    <Text ID="395778" Value=""/>
+    <Text ID="395779" Value=""/>
+    <Text ID="395780" Value=""/>
+    <Text ID="395781" Value=""/>
+    <Text ID="395782" Value=""/>
+    <Text ID="395783" Value=""/>
+    <Text ID="395784" Value=""/>
+    <Text ID="395785" Value=""/>
+    <Text ID="395786" Value=""/>
+    <Text ID="395787" Value=""/>
+    <Text ID="395788" Value=""/>
+    <Text ID="395789" Value=""/>
+    <Text ID="395790" Value=""/>
+    <Text ID="395791" Value=""/>
+    <Text ID="395792" Value=""/>
+    <Text ID="395793" Value=""/>
+    <Text ID="395794" Value=""/>
+    <Text ID="395795" Value=""/>
+    <Text ID="395796" Value=""/>
+    <Text ID="395797" Value=""/>
+    <Text ID="395798" Value=""/>
+    <Text ID="395799" Value=""/>
+    <Text ID="395800" Value=""/>
+    <Text ID="395801" Value=""/>
+    <Text ID="395802" Value=""/>
+    <Text ID="395803" Value=""/>
+    <Text ID="395804" Value=""/>
+    <Text ID="395805" Value=""/>
+    <Text ID="395806" Value=""/>
+    <Text ID="395807" Value=""/>
+    <Text ID="395808" Value=""/>
+    <Text ID="395809" Value=""/>
+    <Text ID="395810" Value=""/>
+    <Text ID="395811" Value=""/>
+    <Text ID="395812" Value=""/>
+    <Text ID="395813" Value=""/>
+    <Text ID="395814" Value=""/>
+    <Text ID="395815" Value=""/>
+    <Text ID="395816" Value=""/>
+    <Text ID="395817" Value=""/>
+    <Text ID="395818" Value=""/>
+    <Text ID="395819" Value=""/>
+    <Text ID="395820" Value=""/>
+    <Text ID="395821" Value=""/>
+    <Text ID="395822" Value=""/>
+    <Text ID="395823" Value=""/>
+    <Text ID="395824" Value=""/>
+    <Text ID="395825" Value=""/>
+    <Text ID="395826" Value=""/>
+    <Text ID="395827" Value=""/>
+    <Text ID="395828" Value=""/>
+    <Text ID="395829" Value=""/>
+    <Text ID="395830" Value=""/>
+    <Text ID="395831" Value=""/>
+    <Text ID="395832" Value=""/>
+    <Text ID="395833" Value=""/>
+    <Text ID="395834" Value=""/>
+    <Text ID="395835" Value=""/>
+    <Text ID="395836" Value=""/>
+    <Text ID="395837" Value=""/>
+    <Text ID="395838" Value=""/>
+    <Text ID="395839" Value=""/>
+    <Text ID="395840" Value=""/>
+    <Text ID="395841" Value=""/>
+    <Text ID="395842" Value=""/>
+    <Text ID="395843" Value=""/>
+    <Text ID="395844" Value=""/>
+    <Text ID="395845" Value=""/>
+    <Text ID="395846" Value=""/>
+    <Text ID="395847" Value=""/>
+    <Text ID="395848" Value=""/>
+    <Text ID="395849" Value=""/>
+    <Text ID="395850" Value=""/>
+    <Text ID="395851" Value=""/>
+    <Text ID="395852" Value=""/>
+    <Text ID="395853" Value=""/>
+    <Text ID="395854" Value=""/>
+    <Text ID="395855" Value=""/>
+    <Text ID="395856" Value=""/>
+    <Text ID="395857" Value=""/>
+    <Text ID="395858" Value=""/>
+    <Text ID="395859" Value=""/>
+    <Text ID="395860" Value=""/>
+    <Text ID="395861" Value=""/>
+    <Text ID="395862" Value=""/>
+    <Text ID="395863" Value=""/>
+    <Text ID="395864" Value=""/>
+    <Text ID="395865" Value=""/>
+    <Text ID="395866" Value=""/>
+    <Text ID="395867" Value=""/>
+    <Text ID="395868" Value=""/>
+    <Text ID="395869" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="395719" Value=""/>
+    <Text ID="395720" Value=""/>
+    <Text ID="395721" Value=""/>
+    <Text ID="395722" Value=""/>
+    <Text ID="395723" Value=""/>
+    <Text ID="395724" Value=""/>
+    <Text ID="395725" Value=""/>
+    <Text ID="395726" Value=""/>
+    <Text ID="395727" Value=""/>
+    <Text ID="395728" Value=""/>
+    <Text ID="395729" Value=""/>
+    <Text ID="395730" Value=""/>
+    <Text ID="395731" Value=""/>
+    <Text ID="395732" Value=""/>
+    <Text ID="395733" Value=""/>
+    <Text ID="395734" Value=""/>
+    <Text ID="395735" Value=""/>
+    <Text ID="395736" Value=""/>
+    <Text ID="395737" Value=""/>
+    <Text ID="395738" Value=""/>
+    <Text ID="395739" Value=""/>
+    <Text ID="395740" Value=""/>
+    <Text ID="395741" Value=""/>
+    <Text ID="395742" Value=""/>
+    <Text ID="395743" Value=""/>
+    <Text ID="395744" Value=""/>
+    <Text ID="395745" Value=""/>
+    <Text ID="395746" Value=""/>
+    <Text ID="395747" Value=""/>
+    <Text ID="395748" Value=""/>
+    <Text ID="395749" Value=""/>
+    <Text ID="395750" Value=""/>
+    <Text ID="395751" Value=""/>
+    <Text ID="395752" Value=""/>
+    <Text ID="395753" Value=""/>
+    <Text ID="395754" Value=""/>
+    <Text ID="395755" Value=""/>
+    <Text ID="395756" Value=""/>
+    <Text ID="395757" Value=""/>
+    <Text ID="395758" Value=""/>
+    <Text ID="395759" Value=""/>
+    <Text ID="395760" Value=""/>
+    <Text ID="395761" Value=""/>
+    <Text ID="395762" Value=""/>
+    <Text ID="395763" Value=""/>
+    <Text ID="395764" Value=""/>
+    <Text ID="395765" Value=""/>
+    <Text ID="395766" Value=""/>
+    <Text ID="395767" Value=""/>
+    <Text ID="395768" Value=""/>
+    <Text ID="395769" Value=""/>
+    <Text ID="395770" Value=""/>
+    <Text ID="395771" Value=""/>
+    <Text ID="395772" Value=""/>
+    <Text ID="395773" Value=""/>
+    <Text ID="395774" Value=""/>
+    <Text ID="395775" Value=""/>
+    <Text ID="395776" Value=""/>
+    <Text ID="395777" Value=""/>
+    <Text ID="395778" Value=""/>
+    <Text ID="395779" Value=""/>
+    <Text ID="395780" Value=""/>
+    <Text ID="395781" Value=""/>
+    <Text ID="395782" Value=""/>
+    <Text ID="395783" Value=""/>
+    <Text ID="395784" Value=""/>
+    <Text ID="395785" Value=""/>
+    <Text ID="395786" Value=""/>
+    <Text ID="395787" Value=""/>
+    <Text ID="395788" Value=""/>
+    <Text ID="395789" Value=""/>
+    <Text ID="395790" Value=""/>
+    <Text ID="395791" Value=""/>
+    <Text ID="395792" Value=""/>
+    <Text ID="395793" Value=""/>
+    <Text ID="395794" Value=""/>
+    <Text ID="395795" Value=""/>
+    <Text ID="395796" Value=""/>
+    <Text ID="395797" Value=""/>
+    <Text ID="395798" Value=""/>
+    <Text ID="395799" Value=""/>
+    <Text ID="395800" Value=""/>
+    <Text ID="395801" Value=""/>
+    <Text ID="395802" Value=""/>
+    <Text ID="395803" Value=""/>
+    <Text ID="395804" Value=""/>
+    <Text ID="395805" Value=""/>
+    <Text ID="395806" Value=""/>
+    <Text ID="395807" Value=""/>
+    <Text ID="395808" Value=""/>
+    <Text ID="395809" Value=""/>
+    <Text ID="395810" Value=""/>
+    <Text ID="395811" Value=""/>
+    <Text ID="395812" Value=""/>
+    <Text ID="395813" Value=""/>
+    <Text ID="395814" Value=""/>
+    <Text ID="395815" Value=""/>
+    <Text ID="395816" Value=""/>
+    <Text ID="395817" Value=""/>
+    <Text ID="395818" Value=""/>
+    <Text ID="395819" Value=""/>
+    <Text ID="395820" Value=""/>
+    <Text ID="395821" Value=""/>
+    <Text ID="395822" Value=""/>
+    <Text ID="395823" Value=""/>
+    <Text ID="395824" Value=""/>
+    <Text ID="395825" Value=""/>
+    <Text ID="395826" Value=""/>
+    <Text ID="395827" Value=""/>
+    <Text ID="395828" Value=""/>
+    <Text ID="395829" Value=""/>
+    <Text ID="395830" Value=""/>
+    <Text ID="395831" Value=""/>
+    <Text ID="395832" Value=""/>
+    <Text ID="395833" Value=""/>
+    <Text ID="395834" Value=""/>
+    <Text ID="395835" Value=""/>
+    <Text ID="395836" Value=""/>
+    <Text ID="395837" Value=""/>
+    <Text ID="395838" Value=""/>
+    <Text ID="395839" Value=""/>
+    <Text ID="395840" Value=""/>
+    <Text ID="395841" Value=""/>
+    <Text ID="395842" Value=""/>
+    <Text ID="395843" Value=""/>
+    <Text ID="395844" Value=""/>
+    <Text ID="395845" Value=""/>
+    <Text ID="395846" Value=""/>
+    <Text ID="395847" Value=""/>
+    <Text ID="395848" Value=""/>
+    <Text ID="395849" Value=""/>
+    <Text ID="395850" Value=""/>
+    <Text ID="395851" Value=""/>
+    <Text ID="395852" Value=""/>
+    <Text ID="395853" Value=""/>
+    <Text ID="395854" Value=""/>
+    <Text ID="395855" Value=""/>
+    <Text ID="395856" Value=""/>
+    <Text ID="395857" Value=""/>
+    <Text ID="395858" Value=""/>
+    <Text ID="395859" Value=""/>
+    <Text ID="395860" Value=""/>
+    <Text ID="395861" Value=""/>
+    <Text ID="395862" Value=""/>
+    <Text ID="395863" Value=""/>
+    <Text ID="395864" Value=""/>
+    <Text ID="395865" Value=""/>
+    <Text ID="395866" Value=""/>
+    <Text ID="395867" Value=""/>
+    <Text ID="395868" Value=""/>
+    <Text ID="395869" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="395719" Value=""/>
+    <Text ID="395720" Value=""/>
+    <Text ID="395721" Value=""/>
+    <Text ID="395722" Value=""/>
+    <Text ID="395723" Value=""/>
+    <Text ID="395724" Value=""/>
+    <Text ID="395725" Value=""/>
+    <Text ID="395726" Value=""/>
+    <Text ID="395727" Value=""/>
+    <Text ID="395728" Value=""/>
+    <Text ID="395729" Value=""/>
+    <Text ID="395730" Value=""/>
+    <Text ID="395731" Value=""/>
+    <Text ID="395732" Value=""/>
+    <Text ID="395733" Value=""/>
+    <Text ID="395734" Value=""/>
+    <Text ID="395735" Value=""/>
+    <Text ID="395736" Value=""/>
+    <Text ID="395737" Value=""/>
+    <Text ID="395738" Value=""/>
+    <Text ID="395739" Value=""/>
+    <Text ID="395740" Value=""/>
+    <Text ID="395741" Value=""/>
+    <Text ID="395742" Value=""/>
+    <Text ID="395743" Value=""/>
+    <Text ID="395744" Value=""/>
+    <Text ID="395745" Value=""/>
+    <Text ID="395746" Value=""/>
+    <Text ID="395747" Value=""/>
+    <Text ID="395748" Value=""/>
+    <Text ID="395749" Value=""/>
+    <Text ID="395750" Value=""/>
+    <Text ID="395751" Value=""/>
+    <Text ID="395752" Value=""/>
+    <Text ID="395753" Value=""/>
+    <Text ID="395754" Value=""/>
+    <Text ID="395755" Value=""/>
+    <Text ID="395756" Value=""/>
+    <Text ID="395757" Value=""/>
+    <Text ID="395758" Value=""/>
+    <Text ID="395759" Value=""/>
+    <Text ID="395760" Value=""/>
+    <Text ID="395761" Value=""/>
+    <Text ID="395762" Value=""/>
+    <Text ID="395763" Value=""/>
+    <Text ID="395764" Value=""/>
+    <Text ID="395765" Value=""/>
+    <Text ID="395766" Value=""/>
+    <Text ID="395767" Value=""/>
+    <Text ID="395768" Value=""/>
+    <Text ID="395769" Value=""/>
+    <Text ID="395770" Value=""/>
+    <Text ID="395771" Value=""/>
+    <Text ID="395772" Value=""/>
+    <Text ID="395773" Value=""/>
+    <Text ID="395774" Value=""/>
+    <Text ID="395775" Value=""/>
+    <Text ID="395776" Value=""/>
+    <Text ID="395777" Value=""/>
+    <Text ID="395778" Value=""/>
+    <Text ID="395779" Value=""/>
+    <Text ID="395780" Value=""/>
+    <Text ID="395781" Value=""/>
+    <Text ID="395782" Value=""/>
+    <Text ID="395783" Value=""/>
+    <Text ID="395784" Value=""/>
+    <Text ID="395785" Value=""/>
+    <Text ID="395786" Value=""/>
+    <Text ID="395787" Value=""/>
+    <Text ID="395788" Value=""/>
+    <Text ID="395789" Value=""/>
+    <Text ID="395790" Value=""/>
+    <Text ID="395791" Value=""/>
+    <Text ID="395792" Value=""/>
+    <Text ID="395793" Value=""/>
+    <Text ID="395794" Value=""/>
+    <Text ID="395795" Value=""/>
+    <Text ID="395796" Value=""/>
+    <Text ID="395797" Value=""/>
+    <Text ID="395798" Value=""/>
+    <Text ID="395799" Value=""/>
+    <Text ID="395800" Value=""/>
+    <Text ID="395801" Value=""/>
+    <Text ID="395802" Value=""/>
+    <Text ID="395803" Value=""/>
+    <Text ID="395804" Value=""/>
+    <Text ID="395805" Value=""/>
+    <Text ID="395806" Value=""/>
+    <Text ID="395807" Value=""/>
+    <Text ID="395808" Value=""/>
+    <Text ID="395809" Value=""/>
+    <Text ID="395810" Value=""/>
+    <Text ID="395811" Value=""/>
+    <Text ID="395812" Value=""/>
+    <Text ID="395813" Value=""/>
+    <Text ID="395814" Value=""/>
+    <Text ID="395815" Value=""/>
+    <Text ID="395816" Value=""/>
+    <Text ID="395817" Value=""/>
+    <Text ID="395818" Value=""/>
+    <Text ID="395819" Value=""/>
+    <Text ID="395820" Value=""/>
+    <Text ID="395821" Value=""/>
+    <Text ID="395822" Value=""/>
+    <Text ID="395823" Value=""/>
+    <Text ID="395824" Value=""/>
+    <Text ID="395825" Value=""/>
+    <Text ID="395826" Value=""/>
+    <Text ID="395827" Value=""/>
+    <Text ID="395828" Value=""/>
+    <Text ID="395829" Value=""/>
+    <Text ID="395830" Value=""/>
+    <Text ID="395831" Value=""/>
+    <Text ID="395832" Value=""/>
+    <Text ID="395833" Value=""/>
+    <Text ID="395834" Value=""/>
+    <Text ID="395835" Value=""/>
+    <Text ID="395836" Value=""/>
+    <Text ID="395837" Value=""/>
+    <Text ID="395838" Value=""/>
+    <Text ID="395839" Value=""/>
+    <Text ID="395840" Value=""/>
+    <Text ID="395841" Value=""/>
+    <Text ID="395842" Value=""/>
+    <Text ID="395843" Value=""/>
+    <Text ID="395844" Value=""/>
+    <Text ID="395845" Value=""/>
+    <Text ID="395846" Value=""/>
+    <Text ID="395847" Value=""/>
+    <Text ID="395848" Value=""/>
+    <Text ID="395849" Value=""/>
+    <Text ID="395850" Value=""/>
+    <Text ID="395851" Value=""/>
+    <Text ID="395852" Value=""/>
+    <Text ID="395853" Value=""/>
+    <Text ID="395854" Value=""/>
+    <Text ID="395855" Value=""/>
+    <Text ID="395856" Value=""/>
+    <Text ID="395857" Value=""/>
+    <Text ID="395858" Value=""/>
+    <Text ID="395859" Value=""/>
+    <Text ID="395860" Value=""/>
+    <Text ID="395861" Value=""/>
+    <Text ID="395862" Value=""/>
+    <Text ID="395863" Value=""/>
+    <Text ID="395864" Value=""/>
+    <Text ID="395865" Value=""/>
+    <Text ID="395866" Value=""/>
+    <Text ID="395867" Value=""/>
+    <Text ID="395868" Value=""/>
+    <Text ID="395869" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="395719" Value="Ingen hjelp"/>
+    <Text ID="395720" Value="Ingen hjelp"/>
+    <Text ID="395721" Value="Ingen hjelp"/>
+    <Text ID="395722" Value="Ingen hjelp"/>
+    <Text ID="395723" Value="Ingen hjelp"/>
+    <Text ID="395724" Value="Ingen hjelp"/>
+    <Text ID="395725" Value="Ingen hjelp"/>
+    <Text ID="395726" Value="Ingen hjelp"/>
+    <Text ID="395727" Value="Ingen hjelp"/>
+    <Text ID="395728" Value="Ingen hjelp"/>
+    <Text ID="395729" Value="Ingen hjelp"/>
+    <Text ID="395730" Value="Ingen hjelp"/>
+    <Text ID="395731" Value="Ingen hjelp"/>
+    <Text ID="395732" Value="Ingen hjelp"/>
+    <Text ID="395733" Value="Ingen hjelp"/>
+    <Text ID="395734" Value="Ingen hjelp"/>
+    <Text ID="395735" Value="Ingen hjelp"/>
+    <Text ID="395736" Value="Ingen hjelp"/>
+    <Text ID="395737" Value="Ingen hjelp"/>
+    <Text ID="395738" Value="Ingen hjelp"/>
+    <Text ID="395739" Value="Ingen hjelp"/>
+    <Text ID="395740" Value="Ingen hjelp"/>
+    <Text ID="395741" Value="Ingen hjelp"/>
+    <Text ID="395742" Value="Ingen hjelp"/>
+    <Text ID="395743" Value="Ingen hjelp"/>
+    <Text ID="395744" Value="Ingen hjelp"/>
+    <Text ID="395745" Value="Ingen hjelp"/>
+    <Text ID="395746" Value="Ingen hjelp"/>
+    <Text ID="395747" Value="Ingen hjelp"/>
+    <Text ID="395748" Value="Ingen hjelp"/>
+    <Text ID="395749" Value="Ingen hjelp"/>
+    <Text ID="395750" Value="Ingen hjelp"/>
+    <Text ID="395751" Value="Ingen hjelp"/>
+    <Text ID="395752" Value="Ingen hjelp"/>
+    <Text ID="395753" Value="Ingen hjelp"/>
+    <Text ID="395754" Value="Ingen hjelp"/>
+    <Text ID="395755" Value="Ingen hjelp"/>
+    <Text ID="395756" Value="Ingen hjelp"/>
+    <Text ID="395757" Value="Ingen hjelp"/>
+    <Text ID="395758" Value="Ingen hjelp"/>
+    <Text ID="395759" Value="Ingen hjelp"/>
+    <Text ID="395760" Value="Ingen hjelp"/>
+    <Text ID="395761" Value="Ingen hjelp"/>
+    <Text ID="395762" Value="Ingen hjelp"/>
+    <Text ID="395763" Value="Ingen hjelp"/>
+    <Text ID="395764" Value="Ingen hjelp"/>
+    <Text ID="395765" Value="Ingen hjelp"/>
+    <Text ID="395766" Value="Ingen hjelp"/>
+    <Text ID="395767" Value="Ingen hjelp"/>
+    <Text ID="395768" Value="Ingen hjelp"/>
+    <Text ID="395769" Value="Ingen hjelp"/>
+    <Text ID="395770" Value="Ingen hjelp"/>
+    <Text ID="395771" Value="Ingen hjelp"/>
+    <Text ID="395772" Value="Ingen hjelp"/>
+    <Text ID="395773" Value="Ingen hjelp"/>
+    <Text ID="395774" Value="Ingen hjelp"/>
+    <Text ID="395775" Value="Ingen hjelp"/>
+    <Text ID="395776" Value="Ingen hjelp"/>
+    <Text ID="395777" Value="Ingen hjelp"/>
+    <Text ID="395778" Value="Ingen hjelp"/>
+    <Text ID="395779" Value="Ingen hjelp"/>
+    <Text ID="395780" Value="Ingen hjelp"/>
+    <Text ID="395781" Value="Ingen hjelp"/>
+    <Text ID="395782" Value="Ingen hjelp"/>
+    <Text ID="395783" Value="Ingen hjelp"/>
+    <Text ID="395784" Value="Ingen hjelp"/>
+    <Text ID="395785" Value="Ingen hjelp"/>
+    <Text ID="395786" Value="Ingen hjelp"/>
+    <Text ID="395787" Value="Ingen hjelp"/>
+    <Text ID="395788" Value="Ingen hjelp"/>
+    <Text ID="395789" Value="Ingen hjelp"/>
+    <Text ID="395790" Value="Ingen hjelp"/>
+    <Text ID="395791" Value="Ingen hjelp"/>
+    <Text ID="395792" Value="Ingen hjelp"/>
+    <Text ID="395793" Value="Ingen hjelp"/>
+    <Text ID="395794" Value="Ingen hjelp"/>
+    <Text ID="395795" Value="Ingen hjelp"/>
+    <Text ID="395796" Value="Ingen hjelp"/>
+    <Text ID="395797" Value="Ingen hjelp"/>
+    <Text ID="395798" Value="Ingen hjelp"/>
+    <Text ID="395799" Value="Ingen hjelp"/>
+    <Text ID="395800" Value="Ingen hjelp"/>
+    <Text ID="395801" Value="Ingen hjelp"/>
+    <Text ID="395802" Value="Ingen hjelp"/>
+    <Text ID="395803" Value="Ingen hjelp"/>
+    <Text ID="395804" Value="Ingen hjelp"/>
+    <Text ID="395805" Value="Ingen hjelp"/>
+    <Text ID="395806" Value="Ingen hjelp"/>
+    <Text ID="395807" Value="Ingen hjelp"/>
+    <Text ID="395808" Value="Ingen hjelp"/>
+    <Text ID="395809" Value="Ingen hjelp"/>
+    <Text ID="395810" Value="Ingen hjelp"/>
+    <Text ID="395811" Value="Ingen hjelp"/>
+    <Text ID="395812" Value="Ingen hjelp"/>
+    <Text ID="395813" Value="Ingen hjelp"/>
+    <Text ID="395814" Value="Ingen hjelp"/>
+    <Text ID="395815" Value="Ingen hjelp"/>
+    <Text ID="395816" Value="Ingen hjelp"/>
+    <Text ID="395817" Value="Ingen hjelp"/>
+    <Text ID="395818" Value="Ingen hjelp"/>
+    <Text ID="395819" Value="Ingen hjelp"/>
+    <Text ID="395820" Value="Ingen hjelp"/>
+    <Text ID="395821" Value="Ingen hjelp"/>
+    <Text ID="395822" Value="Ingen hjelp"/>
+    <Text ID="395823" Value="Ingen hjelp"/>
+    <Text ID="395824" Value="Ingen hjelp"/>
+    <Text ID="395825" Value="Ingen hjelp"/>
+    <Text ID="395826" Value="Ingen hjelp"/>
+    <Text ID="395827" Value="Ingen hjelp"/>
+    <Text ID="395828" Value="Ingen hjelp"/>
+    <Text ID="395829" Value="Ingen hjelp"/>
+    <Text ID="395830" Value="Ingen hjelp"/>
+    <Text ID="395831" Value="Ingen hjelp"/>
+    <Text ID="395832" Value="Ingen hjelp"/>
+    <Text ID="395833" Value="Ingen hjelp"/>
+    <Text ID="395834" Value="Ingen hjelp"/>
+    <Text ID="395835" Value="Ingen hjelp"/>
+    <Text ID="395836" Value="Ingen hjelp"/>
+    <Text ID="395837" Value="Ingen hjelp"/>
+    <Text ID="395838" Value="Ingen hjelp"/>
+    <Text ID="395839" Value="Ingen hjelp"/>
+    <Text ID="395840" Value="Ingen hjelp"/>
+    <Text ID="395841" Value="Ingen hjelp"/>
+    <Text ID="395842" Value="Ingen hjelp"/>
+    <Text ID="395843" Value="Ingen hjelp"/>
+    <Text ID="395844" Value="Ingen hjelp"/>
+    <Text ID="395845" Value="Ingen hjelp"/>
+    <Text ID="395846" Value="Ingen hjelp"/>
+    <Text ID="395847" Value="Ingen hjelp"/>
+    <Text ID="395848" Value="Ingen hjelp"/>
+    <Text ID="395849" Value="Ingen hjelp"/>
+    <Text ID="395850" Value="Ingen hjelp"/>
+    <Text ID="395851" Value="Ingen hjelp"/>
+    <Text ID="395852" Value="Ingen hjelp"/>
+    <Text ID="395853" Value="Ingen hjelp"/>
+    <Text ID="395854" Value="Ingen hjelp"/>
+    <Text ID="395855" Value="Ingen hjelp"/>
+    <Text ID="395856" Value="Ingen hjelp"/>
+    <Text ID="395857" Value="Ingen hjelp"/>
+    <Text ID="395858" Value="Ingen hjelp"/>
+    <Text ID="395859" Value="Ingen hjelp"/>
+    <Text ID="395860" Value="Ingen hjelp"/>
+    <Text ID="395861" Value="Ingen hjelp"/>
+    <Text ID="395862" Value="Ingen hjelp"/>
+    <Text ID="395863" Value="Ingen hjelp"/>
+    <Text ID="395864" Value="Ingen hjelp"/>
+    <Text ID="395865" Value="Ingen hjelp"/>
+    <Text ID="395866" Value="Ingen hjelp"/>
+    <Text ID="395867" Value="Ingen hjelp"/>
+    <Text ID="395868" Value="Ingen hjelp"/>
+    <Text ID="395869" Value="Ingen hjelp"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="395719" Value=""/>
+    <Text ID="395720" Value=""/>
+    <Text ID="395721" Value=""/>
+    <Text ID="395722" Value=""/>
+    <Text ID="395723" Value=""/>
+    <Text ID="395724" Value=""/>
+    <Text ID="395725" Value=""/>
+    <Text ID="395726" Value=""/>
+    <Text ID="395727" Value=""/>
+    <Text ID="395728" Value=""/>
+    <Text ID="395729" Value=""/>
+    <Text ID="395730" Value=""/>
+    <Text ID="395731" Value=""/>
+    <Text ID="395732" Value=""/>
+    <Text ID="395733" Value=""/>
+    <Text ID="395734" Value=""/>
+    <Text ID="395735" Value=""/>
+    <Text ID="395736" Value=""/>
+    <Text ID="395737" Value=""/>
+    <Text ID="395738" Value=""/>
+    <Text ID="395739" Value=""/>
+    <Text ID="395740" Value=""/>
+    <Text ID="395741" Value=""/>
+    <Text ID="395742" Value=""/>
+    <Text ID="395743" Value=""/>
+    <Text ID="395744" Value=""/>
+    <Text ID="395745" Value=""/>
+    <Text ID="395746" Value=""/>
+    <Text ID="395747" Value=""/>
+    <Text ID="395748" Value=""/>
+    <Text ID="395749" Value=""/>
+    <Text ID="395750" Value=""/>
+    <Text ID="395751" Value=""/>
+    <Text ID="395752" Value=""/>
+    <Text ID="395753" Value=""/>
+    <Text ID="395754" Value=""/>
+    <Text ID="395755" Value=""/>
+    <Text ID="395756" Value=""/>
+    <Text ID="395757" Value=""/>
+    <Text ID="395758" Value=""/>
+    <Text ID="395759" Value=""/>
+    <Text ID="395760" Value=""/>
+    <Text ID="395761" Value=""/>
+    <Text ID="395762" Value=""/>
+    <Text ID="395763" Value=""/>
+    <Text ID="395764" Value=""/>
+    <Text ID="395765" Value=""/>
+    <Text ID="395766" Value=""/>
+    <Text ID="395767" Value=""/>
+    <Text ID="395768" Value=""/>
+    <Text ID="395769" Value=""/>
+    <Text ID="395770" Value=""/>
+    <Text ID="395771" Value=""/>
+    <Text ID="395772" Value=""/>
+    <Text ID="395773" Value=""/>
+    <Text ID="395774" Value=""/>
+    <Text ID="395775" Value=""/>
+    <Text ID="395776" Value=""/>
+    <Text ID="395777" Value=""/>
+    <Text ID="395778" Value=""/>
+    <Text ID="395779" Value=""/>
+    <Text ID="395780" Value=""/>
+    <Text ID="395781" Value=""/>
+    <Text ID="395782" Value=""/>
+    <Text ID="395783" Value=""/>
+    <Text ID="395784" Value=""/>
+    <Text ID="395785" Value=""/>
+    <Text ID="395786" Value=""/>
+    <Text ID="395787" Value=""/>
+    <Text ID="395788" Value=""/>
+    <Text ID="395789" Value=""/>
+    <Text ID="395790" Value=""/>
+    <Text ID="395791" Value=""/>
+    <Text ID="395792" Value=""/>
+    <Text ID="395793" Value=""/>
+    <Text ID="395794" Value=""/>
+    <Text ID="395795" Value=""/>
+    <Text ID="395796" Value=""/>
+    <Text ID="395797" Value=""/>
+    <Text ID="395798" Value=""/>
+    <Text ID="395799" Value=""/>
+    <Text ID="395800" Value=""/>
+    <Text ID="395801" Value=""/>
+    <Text ID="395802" Value=""/>
+    <Text ID="395803" Value=""/>
+    <Text ID="395804" Value=""/>
+    <Text ID="395805" Value=""/>
+    <Text ID="395806" Value=""/>
+    <Text ID="395807" Value=""/>
+    <Text ID="395808" Value=""/>
+    <Text ID="395809" Value=""/>
+    <Text ID="395810" Value=""/>
+    <Text ID="395811" Value=""/>
+    <Text ID="395812" Value=""/>
+    <Text ID="395813" Value=""/>
+    <Text ID="395814" Value=""/>
+    <Text ID="395815" Value=""/>
+    <Text ID="395816" Value=""/>
+    <Text ID="395817" Value=""/>
+    <Text ID="395818" Value=""/>
+    <Text ID="395819" Value=""/>
+    <Text ID="395820" Value=""/>
+    <Text ID="395821" Value=""/>
+    <Text ID="395822" Value=""/>
+    <Text ID="395823" Value=""/>
+    <Text ID="395824" Value=""/>
+    <Text ID="395825" Value=""/>
+    <Text ID="395826" Value=""/>
+    <Text ID="395827" Value=""/>
+    <Text ID="395828" Value=""/>
+    <Text ID="395829" Value=""/>
+    <Text ID="395830" Value=""/>
+    <Text ID="395831" Value=""/>
+    <Text ID="395832" Value=""/>
+    <Text ID="395833" Value=""/>
+    <Text ID="395834" Value=""/>
+    <Text ID="395835" Value=""/>
+    <Text ID="395836" Value=""/>
+    <Text ID="395837" Value=""/>
+    <Text ID="395838" Value=""/>
+    <Text ID="395839" Value=""/>
+    <Text ID="395840" Value=""/>
+    <Text ID="395841" Value=""/>
+    <Text ID="395842" Value=""/>
+    <Text ID="395843" Value=""/>
+    <Text ID="395844" Value=""/>
+    <Text ID="395845" Value=""/>
+    <Text ID="395846" Value=""/>
+    <Text ID="395847" Value=""/>
+    <Text ID="395848" Value=""/>
+    <Text ID="395849" Value=""/>
+    <Text ID="395850" Value=""/>
+    <Text ID="395851" Value=""/>
+    <Text ID="395852" Value=""/>
+    <Text ID="395853" Value=""/>
+    <Text ID="395854" Value=""/>
+    <Text ID="395855" Value=""/>
+    <Text ID="395856" Value=""/>
+    <Text ID="395857" Value=""/>
+    <Text ID="395858" Value=""/>
+    <Text ID="395859" Value=""/>
+    <Text ID="395860" Value=""/>
+    <Text ID="395861" Value=""/>
+    <Text ID="395862" Value=""/>
+    <Text ID="395863" Value=""/>
+    <Text ID="395864" Value=""/>
+    <Text ID="395865" Value=""/>
+    <Text ID="395866" Value=""/>
+    <Text ID="395867" Value=""/>
+    <Text ID="395868" Value=""/>
+    <Text ID="395869" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="395719" Value="0"/>
+    <Index ID="395720" Value="1"/>
+    <Index ID="395721" Value="2"/>
+    <Index ID="395722" Value="3"/>
+    <Index ID="395723" Value="4"/>
+    <Index ID="395724" Value="5"/>
+    <Index ID="395725" Value="6"/>
+    <Index ID="395726" Value="7"/>
+    <Index ID="395727" Value="8"/>
+    <Index ID="395728" Value="9"/>
+    <Index ID="395729" Value="10"/>
+    <Index ID="395730" Value="11"/>
+    <Index ID="395731" Value="12"/>
+    <Index ID="395732" Value="13"/>
+    <Index ID="395733" Value="14"/>
+    <Index ID="395734" Value="15"/>
+    <Index ID="395735" Value="16"/>
+    <Index ID="395736" Value="17"/>
+    <Index ID="395737" Value="18"/>
+    <Index ID="395738" Value="19"/>
+    <Index ID="395739" Value="20"/>
+    <Index ID="395740" Value="21"/>
+    <Index ID="395741" Value="22"/>
+    <Index ID="395742" Value="23"/>
+    <Index ID="395743" Value="24"/>
+    <Index ID="395744" Value="25"/>
+    <Index ID="395745" Value="26"/>
+    <Index ID="395746" Value="27"/>
+    <Index ID="395747" Value="28"/>
+    <Index ID="395748" Value="29"/>
+    <Index ID="395749" Value="30"/>
+    <Index ID="395750" Value="31"/>
+    <Index ID="395751" Value="32"/>
+    <Index ID="395752" Value="33"/>
+    <Index ID="395753" Value="34"/>
+    <Index ID="395754" Value="35"/>
+    <Index ID="395755" Value="36"/>
+    <Index ID="395756" Value="37"/>
+    <Index ID="395757" Value="38"/>
+    <Index ID="395758" Value="39"/>
+    <Index ID="395759" Value="40"/>
+    <Index ID="395760" Value="41"/>
+    <Index ID="395761" Value="42"/>
+    <Index ID="395762" Value="43"/>
+    <Index ID="395763" Value="44"/>
+    <Index ID="395764" Value="45"/>
+    <Index ID="395765" Value="46"/>
+    <Index ID="395766" Value="47"/>
+    <Index ID="395767" Value="48"/>
+    <Index ID="395768" Value="49"/>
+    <Index ID="395769" Value="50"/>
+    <Index ID="395770" Value="51"/>
+    <Index ID="395771" Value="52"/>
+    <Index ID="395772" Value="53"/>
+    <Index ID="395773" Value="54"/>
+    <Index ID="395774" Value="55"/>
+    <Index ID="395775" Value="56"/>
+    <Index ID="395776" Value="57"/>
+    <Index ID="395777" Value="58"/>
+    <Index ID="395778" Value="59"/>
+    <Index ID="395779" Value="60"/>
+    <Index ID="395780" Value="61"/>
+    <Index ID="395781" Value="62"/>
+    <Index ID="395782" Value="63"/>
+    <Index ID="395783" Value="64"/>
+    <Index ID="395784" Value="65"/>
+    <Index ID="395785" Value="66"/>
+    <Index ID="395786" Value="67"/>
+    <Index ID="395787" Value="68"/>
+    <Index ID="395788" Value="69"/>
+    <Index ID="395789" Value="70"/>
+    <Index ID="395790" Value="71"/>
+    <Index ID="395791" Value="72"/>
+    <Index ID="395792" Value="73"/>
+    <Index ID="395793" Value="74"/>
+    <Index ID="395794" Value="75"/>
+    <Index ID="395795" Value="76"/>
+    <Index ID="395796" Value="77"/>
+    <Index ID="395797" Value="78"/>
+    <Index ID="395798" Value="79"/>
+    <Index ID="395799" Value="80"/>
+    <Index ID="395800" Value="81"/>
+    <Index ID="395801" Value="82"/>
+    <Index ID="395802" Value="83"/>
+    <Index ID="395803" Value="84"/>
+    <Index ID="395804" Value="85"/>
+    <Index ID="395805" Value="86"/>
+    <Index ID="395806" Value="87"/>
+    <Index ID="395807" Value="88"/>
+    <Index ID="395808" Value="89"/>
+    <Index ID="395809" Value="90"/>
+    <Index ID="395810" Value="91"/>
+    <Index ID="395811" Value="92"/>
+    <Index ID="395812" Value="93"/>
+    <Index ID="395813" Value="94"/>
+    <Index ID="395814" Value="95"/>
+    <Index ID="395815" Value="96"/>
+    <Index ID="395816" Value="97"/>
+    <Index ID="395817" Value="98"/>
+    <Index ID="395818" Value="99"/>
+    <Index ID="395819" Value="100"/>
+    <Index ID="395820" Value="101"/>
+    <Index ID="395821" Value="102"/>
+    <Index ID="395822" Value="103"/>
+    <Index ID="395823" Value="104"/>
+    <Index ID="395824" Value="105"/>
+    <Index ID="395825" Value="106"/>
+    <Index ID="395826" Value="107"/>
+    <Index ID="395827" Value="108"/>
+    <Index ID="395828" Value="109"/>
+    <Index ID="395829" Value="110"/>
+    <Index ID="395830" Value="111"/>
+    <Index ID="395831" Value="112"/>
+    <Index ID="395832" Value="113"/>
+    <Index ID="395833" Value="114"/>
+    <Index ID="395834" Value="115"/>
+    <Index ID="395835" Value="116"/>
+    <Index ID="395836" Value="117"/>
+    <Index ID="395837" Value="118"/>
+    <Index ID="395838" Value="119"/>
+    <Index ID="395839" Value="120"/>
+    <Index ID="395840" Value="121"/>
+    <Index ID="395841" Value="122"/>
+    <Index ID="395842" Value="123"/>
+    <Index ID="395843" Value="124"/>
+    <Index ID="395844" Value="125"/>
+    <Index ID="395845" Value="126"/>
+    <Index ID="395846" Value="127"/>
+    <Index ID="395847" Value="128"/>
+    <Index ID="395848" Value="129"/>
+    <Index ID="395849" Value="130"/>
+    <Index ID="395850" Value="131"/>
+    <Index ID="395851" Value="132"/>
+    <Index ID="395852" Value="133"/>
+    <Index ID="395853" Value="134"/>
+    <Index ID="395854" Value="135"/>
+    <Index ID="395855" Value="136"/>
+    <Index ID="395856" Value="137"/>
+    <Index ID="395857" Value="138"/>
+    <Index ID="395858" Value="139"/>
+    <Index ID="395859" Value="140"/>
+    <Index ID="395860" Value="141"/>
+    <Index ID="395861" Value="142"/>
+    <Index ID="395862" Value="143"/>
+    <Index ID="395863" Value="144"/>
+    <Index ID="395864" Value="145"/>
+    <Index ID="395865" Value="146"/>
+    <Index ID="395866" Value="147"/>
+    <Index ID="395867" Value="148"/>
+    <Index ID="395868" Value="149"/>
+    <Index ID="395869" Value="150"/>
+  </IndexMap>
+</TextGroup>

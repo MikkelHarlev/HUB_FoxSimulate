@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="ComLayer_Common">
+  <Property Name="BackColor" Value="52"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="320"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB"/>
+    <TextLayer LanguageId="de-DE"/>
+    <TextLayer LanguageId="sv-SE"/>
+    <TextLayer LanguageId="fr-FR"/>
+    <TextLayer LanguageId="da-DK"/>
+    <TextLayer LanguageId="it-IT"/>
+    <TextLayer LanguageId="fi-FI"/>
+    <TextLayer LanguageId="nl-NL"/>
+    <TextLayer LanguageId="es-ES"/>
+    <TextLayer LanguageId="pl-PL"/>
+    <TextLayer LanguageId="ru-RU"/>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="zh-CN"/>
+    <TextLayer LanguageId="cs-CZ"/>
+    <TextLayer LanguageId="en-US"/>
+    <TextLayer LanguageId="no-NO"/>
+    <TextLayer LanguageId="pt-PT"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001001" Name="Shape_1">
+      <Property Name="BackColor" Value="28"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.Alarm[0].HeaderColor]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="LineWidth" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape_Opaque]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="320"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_2">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[C_20x20_EarthGlobe_Trans]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="300"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="20"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="320"/>
+      <Property Name="EndY" Value="20"/>
+      <Property Name="StartX" Value="0"/>
+      <Property Name="StartY" Value="20"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100A" Name="DateTime_1">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="249"/>
+      <Property Name="SimulationValue" Value="13:27:56"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[DateTime]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[DateTime]"/>
+      <Property Name="TextIndex" Value="1"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="1"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="Width" Value="54"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="DateAndTimeHotSpot">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="22"/>
+      <Property Name="KeyMatrixOffset" Value="0"/>
+      <Property Name="Left" Value="274"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Global_Sys]"/>
+      <Property Name="Width" Value="46"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_1">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[statusIcons]"/>
+      <Property Name="BitmapIndex" Value="20"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="102"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Password.Level]"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="SimulationValue" Value="1"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="116"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Context">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Size_10]"/>
+      <Property Name="Height" Value="14"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Page.Active]"/>
+      <Property Name="Left" Value="30"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="1"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[PageHeader_Text]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="3"/>
+      <Property Name="Width" Value="230"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Op_Text">
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="BackColor" Value="28"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Size_10_unicode]"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="25"/>
+      <Property Name="Multiline" Value="Manual"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[Master.Core.Services.GlobalCoreVars.g_Core.Services.Alarmhandler.Runtime.Event[1].DescUniCode]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="217"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="AlarmText">
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="BackColor" Value="28"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.Alarm[0].HeaderColor]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Size_10_unicode]"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="25"/>
+      <Property Name="Multiline" Value="Manual"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.Alarm[0].AlarmActiveTop]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[Master.Core.Services.GlobalCoreVars.g_Core.Services.Alarmhandler.Runtime.Event[0].DescUniCode]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="217"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="AlarmHotSpot">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="22"/>
+      <Property Name="KeyMatrixOffset" Value="0"/>
+      <Property Name="Left" Value="51"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+      <Property Name="Top" Value="1"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Global_Alarm]"/>
+      <Property Name="Width" Value="223"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="LockerHotSpot">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="22"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="1"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+      <Property Name="Top" Value="1"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Global_Password]"/>
+      <Property Name="Width" Value="52"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="VK_Global_Password">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016B">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="101"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

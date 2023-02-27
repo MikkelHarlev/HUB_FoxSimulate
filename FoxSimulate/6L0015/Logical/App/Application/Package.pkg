@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.4.112?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Setup machine">Setup.var</Object>
+    <Object Type="File" Description="Package variables">IO.var</Object>
+    <Object Type="File" Description="CF Variables declerations">CF.var</Object>
+    <Object Type="File" Description="CF Datatypes. RCfg MCfg etc">CF.typ</Object>
+    <Object Type="File">Application.typ</Object>
+    <Object Type="File">Application.var</Object>
+    <Object Type="File" Description="Package variables">Acopos.var</Object>
+    <Object Type="File">InProd.var</Object>
+    <Object Type="Package">GlobalIncludeFiles</Object>
+    <Object Type="Package">Fox_Logic</Object>
+    <Object Type="Package">Com_To_Conveyor</Object>
+    <Object Type="Package" Description="An empty package">HMIControl</Object>
+    <Object Type="Program" Language="IEC">procinit</Object>
+    <Object Type="Program" Language="IEC">procmgr</Object>
+    <Object Type="Package" Description="An empty package">Libraries</Object>
+    <Object Type="Package">Jedk</Object>
+  </Objects>
+</Package>

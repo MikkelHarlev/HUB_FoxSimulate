@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_XMLMetricon">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="31"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="112165" Value="Connection Status"/>
+    <Text ID="112166" Value="Counters"/>
+    <Text ID="112167" Value="Garment Data"/>
+    <Text ID="112168" Value="Comm. State"/>
+    <Text ID="112169" Value="Conncetion State"/>
+    <Text ID="112171" Value="Program"/>
+    <Text ID="112172" Value="Article/GarmentType"/>
+    <Text ID="112173" Value="Destination/Belt"/>
+    <Text ID="112174" Value="Stack"/>
+    <Text ID="112175" Value="Garment Id"/>
+    <Text ID="112176" Value="Customer"/>
+    <Text ID="112177" Value="Status Send"/>
+    <Text ID="112179" Value="TimeOut"/>
+    <Text ID="112238" Value="Machine ID"/>
+    <Text ID="112240" Value="Hanger Status"/>
+    <Text ID="112242" Value="Client Version"/>
+    <Text ID="112243" Value="Server Version"/>
+    <Text ID="112244" Value="Client Machine Status"/>
+    <Text ID="113083" Value="Request counter"/>
+    <Text ID="113084" Value="Away counter"/>
+    <Text ID="156422" Value="Destination"/>
+    <Text ID="156424" Value="Inlet Active"/>
+    <Text ID="156425" Value="Inlet Full"/>
+    <Text ID="156427" Value="Outlet Full"/>
+    <Text ID="156441" Value="Status Signals"/>
+    <Text ID="324630" Value="My IP:"/>
+    <Text ID="324631" Value="Metricon IP:"/>
+    <Text ID="334788" Value="Com, enabled"/>
+    <Text ID="334789" Value="Com, Data Disabled"/>
+    <Text ID="339121" Value="Com, All Disabled"/>
+    <Text ID="350841" Value="Log "/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="112165" Value="Verbindungs Zustand"/>
+    <Text ID="112166" Value="Zähler"/>
+    <Text ID="112167" Value="Daten des Kleides"/>
+    <Text ID="112168" Value="Comm. State"/>
+    <Text ID="112169" Value="Conncetion State"/>
+    <Text ID="112171" Value="Programm"/>
+    <Text ID="112172" Value="Artikel/Kleid Type"/>
+    <Text ID="112173" Value="Ziel/Band"/>
+    <Text ID="112174" Value="Stapler"/>
+    <Text ID="112175" Value="Garment Id"/>
+    <Text ID="112176" Value="Customer"/>
+    <Text ID="112177" Value="Status Senden"/>
+    <Text ID="112179" Value="TimeOut"/>
+    <Text ID="112238" Value="Machine ID"/>
+    <Text ID="112240" Value="Bügel Status"/>
+    <Text ID="112242" Value="Client Version"/>
+    <Text ID="112243" Value="Server Version"/>
+    <Text ID="112244" Value="Client Machine Status"/>
+    <Text ID="113083" Value="Nachfrage Zähler"/>
+    <Text ID="113084" Value="Sende Zähler"/>
+    <Text ID="156422" Value="Destination"/>
+    <Text ID="156424" Value="Eingabe aktiv"/>
+    <Text ID="156425" Value="Einlauf voll"/>
+    <Text ID="156427" Value="Auslauf voll"/>
+    <Text ID="156441" Value="Status Signale"/>
+    <Text ID="324630" Value="My IP:"/>
+    <Text ID="324631" Value="Metricon IP:"/>
+    <Text ID="334788" Value="Com, aktiv"/>
+    <Text ID="334789" Value="Com, Data deaktiviert"/>
+    <Text ID="339121" Value="Com, Alles deaktiviert"/>
+    <Text ID="350841" Value="Log "/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="112165" Value="Connection Status"/>
+    <Text ID="112166" Value="Counters"/>
+    <Text ID="112167" Value="GarmentData"/>
+    <Text ID="112168" Value="Comm. State"/>
+    <Text ID="112169" Value="Conncetion State"/>
+    <Text ID="112171" Value="Program"/>
+    <Text ID="112172" Value="Article/GarmentType"/>
+    <Text ID="112173" Value="Destination/Belt"/>
+    <Text ID="112174" Value="Stack"/>
+    <Text ID="112175" Value="Garment Id"/>
+    <Text ID="112176" Value="Customer"/>
+    <Text ID="112177" Value="Status Send"/>
+    <Text ID="112179" Value="TimeOut"/>
+    <Text ID="112238" Value="Machine ID"/>
+    <Text ID="112240" Value="Hanger Status"/>
+    <Text ID="112242" Value="Client Version"/>
+    <Text ID="112243" Value="Server Version"/>
+    <Text ID="112244" Value="Client Machine Status"/>
+    <Text ID="113083" Value="Request counter"/>
+    <Text ID="113084" Value="Away counter"/>
+    <Text ID="156422" Value="Destination"/>
+    <Text ID="156424" Value="Inlet Active"/>
+    <Text ID="156425" Value="Inlet Full"/>
+    <Text ID="156427" Value="Outlet Full"/>
+    <Text ID="156441" Value="Status Signals"/>
+    <Text ID="324630" Value="My IP:"/>
+    <Text ID="324631" Value="Metricon IP:"/>
+    <Text ID="334788" Value="Com, enabled"/>
+    <Text ID="334789" Value="Com, Data Disabled"/>
+    <Text ID="339121" Value="Com, All Disabled"/>
+    <Text ID="350841" Value="Log "/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="112165" Value="Status Communication"/>
+    <Text ID="112166" Value="compteurs"/>
+    <Text ID="112167" Value="Vêtement Data"/>
+    <Text ID="112168" Value="Comm. State"/>
+    <Text ID="112169" Value="Conncetion State"/>
+    <Text ID="112171" Value="Program"/>
+    <Text ID="112172" Value="Article/Vêtement Type"/>
+    <Text ID="112173" Value="Destination/Empileur"/>
+    <Text ID="112174" Value="Empileur"/>
+    <Text ID="112175" Value="Vêtement ID"/>
+    <Text ID="112176" Value="Customer"/>
+    <Text ID="112177" Value="Status Send"/>
+    <Text ID="112179" Value="TimeOut"/>
+    <Text ID="112238" Value="Machine ID"/>
+    <Text ID="112240" Value="Status du Cintre"/>
+    <Text ID="112242" Value="Client Version"/>
+    <Text ID="112243" Value="Server Version"/>
+    <Text ID="112244" Value="Client Machine Status"/>
+    <Text ID="113083" Value="Request counter"/>
+    <Text ID="113084" Value="Away counter"/>
+    <Text ID="156422" Value="Destination"/>
+    <Text ID="156424" Value="Inlet Active"/>
+    <Text ID="156425" Value="Inlet Full"/>
+    <Text ID="156427" Value="Outlet Full"/>
+    <Text ID="156441" Value="Status Signals"/>
+    <Text ID="324630" Value="Mio IP:"/>
+    <Text ID="324631" Value="Metricon IP:"/>
+    <Text ID="334788" Value="Com, enabled"/>
+    <Text ID="334789" Value="Com, Data Disabled"/>
+    <Text ID="339121" Value="Com, All Disabled"/>
+    <Text ID="350841" Value="Log "/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="112165" Value="koblings status"/>
+    <Text ID="112166" Value="Tællere"/>
+    <Text ID="112167" Value="Tøy data"/>
+    <Text ID="112168" Value="Kommunikations status"/>
+    <Text ID="112169" Value="Koblings status"/>
+    <Text ID="112171" Value="Program"/>
+    <Text ID="112172" Value="Artikkel/tøj type"/>
+    <Text ID="112173" Value="Destination/bånd"/>
+    <Text ID="112174" Value="Stack"/>
+    <Text ID="112175" Value="Tøy ID"/>
+    <Text ID="112176" Value="Kunde"/>
+    <Text ID="112177" Value="Status Send"/>
+    <Text ID="112179" Value="TimeOut"/>
+    <Text ID="112238" Value="Maskin ID"/>
+    <Text ID="112240" Value="Bøjle status"/>
+    <Text ID="112242" Value="Client version"/>
+    <Text ID="112243" Value="Server version"/>
+    <Text ID="112244" Value="Status klient maskin"/>
+    <Text ID="113083" Value="Svar tæller"/>
+    <Text ID="113084" Value="Stop tæller"/>
+    <Text ID="156422" Value="Destination"/>
+    <Text ID="156424" Value="Indløb aktivt"/>
+    <Text ID="156425" Value="Indløb fuldt"/>
+    <Text ID="156427" Value="Udløb fuldt"/>
+    <Text ID="156441" Value="Status signaler"/>
+    <Text ID="324630" Value="Min IP:"/>
+    <Text ID="324631" Value="Metricon IP:"/>
+    <Text ID="334788" Value="Kommunikation oppe"/>
+    <Text ID="334789" Value="Kommunikation, data frakoblet"/>
+    <Text ID="339121" Value="Kommunikation, alt frakoblet"/>
+    <Text ID="350841" Value="Logg"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="112165" Value="Stato collegamento"/>
+    <Text ID="112166" Value="Contatori"/>
+    <Text ID="112167" Value="Dati Indumento"/>
+    <Text ID="112168" Value="stato comunicazione"/>
+    <Text ID="112169" Value="stato connessione"/>
+    <Text ID="112171" Value="Programma"/>
+    <Text ID="112172" Value="Articolo/ Typo Indumento"/>
+    <Text ID="112173" Value="Destinaz. / Accatast."/>
+    <Text ID="112174" Value="Accatastatore"/>
+    <Text ID="112175" Value="ID Indumento"/>
+    <Text ID="112176" Value="Cliente"/>
+    <Text ID="112177" Value="Status Send"/>
+    <Text ID="112179" Value="TimeOut"/>
+    <Text ID="112238" Value="ID Macchina"/>
+    <Text ID="112240" Value="Stato gruccia"/>
+    <Text ID="112242" Value="Versione Client"/>
+    <Text ID="112243" Value="Versione Server"/>
+    <Text ID="112244" Value="Stato Macchina CLIENT"/>
+    <Text ID="113083" Value="Richiesta contatore"/>
+    <Text ID="113084" Value="Invio Coontatore"/>
+    <Text ID="156422" Value="Destinazione"/>
+    <Text ID="156424" Value="Ingresso Attivo"/>
+    <Text ID="156425" Value="Ingresso Pieno"/>
+    <Text ID="156427" Value="Uscita Piena"/>
+    <Text ID="156441" Value="Status Signali"/>
+    <Text ID="324630" Value="My IP:"/>
+    <Text ID="324631" Value="Metricon IP:"/>
+    <Text ID="334788" Value="Com, Abilitata"/>
+    <Text ID="334789" Value="Com, Dati Disabilitati"/>
+    <Text ID="339121" Value="Com, Tutto Disabilitiato"/>
+    <Text ID="350841" Value="Log "/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="112165" Value="Connection Status"/>
+    <Text ID="112166" Value="Counters"/>
+    <Text ID="112167" Value="Garment Data"/>
+    <Text ID="112168" Value="Comm. State"/>
+    <Text ID="112169" Value="Conncetion State"/>
+    <Text ID="112171" Value="Program"/>
+    <Text ID="112172" Value="Article/GarmentType"/>
+    <Text ID="112173" Value="Destination/Belt"/>
+    <Text ID="112174" Value="Stack"/>
+    <Text ID="112175" Value="Garment Id"/>
+    <Text ID="112176" Value="Customer"/>
+    <Text ID="112177" Value="Status Send"/>
+    <Text ID="112179" Value="TimeOut"/>
+    <Text ID="112238" Value="Machine ID"/>
+    <Text ID="112240" Value="Hanger Status"/>
+    <Text ID="112242" Value="Client Version"/>
+    <Text ID="112243" Value="Server Version"/>
+    <Text ID="112244" Value="Client Machine Status"/>
+    <Text ID="113083" Value="Request counter"/>
+    <Text ID="113084" Value="Away counter"/>
+    <Text ID="156422" Value="Destination"/>
+    <Text ID="156424" Value="Inlet Active"/>
+    <Text ID="156425" Value="Inlet Full"/>
+    <Text ID="156427" Value="Outlet Full"/>
+    <Text ID="156441" Value="Status Signals"/>
+    <Text ID="324630" Value="My IP:"/>
+    <Text ID="324631" Value="Metricon IP:"/>
+    <Text ID="334788" Value="Com, enabled"/>
+    <Text ID="334789" Value="Com, Data Disabled"/>
+    <Text ID="339121" Value="Com, All Disabled"/>
+    <Text ID="350841" Value="Log "/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="112165" Value="Status Verbinding"/>
+    <Text ID="112166" Value="Teller"/>
+    <Text ID="112167" Value="Kleding-data"/>
+    <Text ID="112168" Value="Comm. Status"/>
+    <Text ID="112169" Value="Status Verbinding"/>
+    <Text ID="112171" Value="Programma"/>
+    <Text ID="112172" Value="Article/GarmentType"/>
+    <Text ID="112173" Value="Bestemming/Band"/>
+    <Text ID="112174" Value="Stapel"/>
+    <Text ID="112175" Value="Kleding Id."/>
+    <Text ID="112176" Value="Klant"/>
+    <Text ID="112177" Value="Status Send"/>
+    <Text ID="112179" Value="TimeOut"/>
+    <Text ID="112238" Value="Machine ID"/>
+    <Text ID="112240" Value="Hanger Status"/>
+    <Text ID="112242" Value="Client Versie"/>
+    <Text ID="112243" Value="Server Versie"/>
+    <Text ID="112244" Value="Client Machine Status"/>
+    <Text ID="113083" Value="Request teller"/>
+    <Text ID="113084" Value="Away teller"/>
+    <Text ID="156422" Value="Destination"/>
+    <Text ID="156424" Value="Inlet Active"/>
+    <Text ID="156425" Value="Inlet Full"/>
+    <Text ID="156427" Value="Outlet Full"/>
+    <Text ID="156441" Value="Status Signals"/>
+    <Text ID="324630" Value="My IP:"/>
+    <Text ID="324631" Value="Metricon IP:"/>
+    <Text ID="334788" Value="Com, enabled"/>
+    <Text ID="334789" Value="Com, Data Disabled"/>
+    <Text ID="339121" Value="Com, All Disabled"/>
+    <Text ID="350841" Value="Log "/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="112165" Value="Connection Status"/>
+    <Text ID="112166" Value="Counters"/>
+    <Text ID="112167" Value="Garment Data"/>
+    <Text ID="112168" Value=""/>
+    <Text ID="112169" Value=""/>
+    <Text ID="112171" Value="Program"/>
+    <Text ID="112172" Value="Article/GarmentType"/>
+    <Text ID="112173" Value=""/>
+    <Text ID="112174" Value=""/>
+    <Text ID="112175" Value=""/>
+    <Text ID="112176" Value=""/>
+    <Text ID="112177" Value="Status Send"/>
+    <Text ID="112179" Value=""/>
+    <Text ID="112238" Value=""/>
+    <Text ID="112240" Value="Hanger Status"/>
+    <Text ID="112242" Value=""/>
+    <Text ID="112243" Value=""/>
+    <Text ID="112244" Value="Client Machine Status"/>
+    <Text ID="113083" Value=""/>
+    <Text ID="113084" Value="Away counter"/>
+    <Text ID="156422" Value=""/>
+    <Text ID="156424" Value="Inlet Active"/>
+    <Text ID="156425" Value=""/>
+    <Text ID="156427" Value="Outlet Full"/>
+    <Text ID="156441" Value="Status Signals"/>
+    <Text ID="324630" Value="My IP:"/>
+    <Text ID="324631" Value="Metricon IP:"/>
+    <Text ID="334788" Value="Com, enabled"/>
+    <Text ID="334789" Value="Com, Data Disabled"/>
+    <Text ID="339121" Value="Com, All Disabled"/>
+    <Text ID="350841" Value="Log "/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="112165" Value=""/>
+    <Text ID="112166" Value=""/>
+    <Text ID="112167" Value=""/>
+    <Text ID="112168" Value=""/>
+    <Text ID="112169" Value=""/>
+    <Text ID="112171" Value=""/>
+    <Text ID="112172" Value=""/>
+    <Text ID="112173" Value=""/>
+    <Text ID="112174" Value=""/>
+    <Text ID="112175" Value=""/>
+    <Text ID="112176" Value=""/>
+    <Text ID="112177" Value=""/>
+    <Text ID="112179" Value=""/>
+    <Text ID="112238" Value=""/>
+    <Text ID="112240" Value=""/>
+    <Text ID="112242" Value=""/>
+    <Text ID="112243" Value=""/>
+    <Text ID="112244" Value=""/>
+    <Text ID="113083" Value=""/>
+    <Text ID="113084" Value=""/>
+    <Text ID="156422" Value=""/>
+    <Text ID="156424" Value=""/>
+    <Text ID="156425" Value=""/>
+    <Text ID="156427" Value=""/>
+    <Text ID="156441" Value=""/>
+    <Text ID="324630" Value=""/>
+    <Text ID="324631" Value=""/>
+    <Text ID="334788" Value=""/>
+    <Text ID="334789" Value=""/>
+    <Text ID="339121" Value=""/>
+    <Text ID="350841" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="112165" Value=""/>
+    <Text ID="112166" Value=""/>
+    <Text ID="112167" Value=""/>
+    <Text ID="112168" Value=""/>
+    <Text ID="112169" Value=""/>
+    <Text ID="112171" Value=""/>
+    <Text ID="112172" Value=""/>
+    <Text ID="112173" Value=""/>
+    <Text ID="112174" Value=""/>
+    <Text ID="112175" Value=""/>
+    <Text ID="112176" Value=""/>
+    <Text ID="112177" Value=""/>
+    <Text ID="112179" Value=""/>
+    <Text ID="112238" Value=""/>
+    <Text ID="112240" Value=""/>
+    <Text ID="112242" Value=""/>
+    <Text ID="112243" Value=""/>
+    <Text ID="112244" Value=""/>
+    <Text ID="113083" Value=""/>
+    <Text ID="113084" Value=""/>
+    <Text ID="156422" Value=""/>
+    <Text ID="156424" Value=""/>
+    <Text ID="156425" Value=""/>
+    <Text ID="156427" Value=""/>
+    <Text ID="156441" Value=""/>
+    <Text ID="324630" Value=""/>
+    <Text ID="324631" Value=""/>
+    <Text ID="334788" Value=""/>
+    <Text ID="334789" Value=""/>
+    <Text ID="339121" Value=""/>
+    <Text ID="350841" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="112165" Value=""/>
+    <Text ID="112166" Value=""/>
+    <Text ID="112167" Value=""/>
+    <Text ID="112168" Value=""/>
+    <Text ID="112169" Value=""/>
+    <Text ID="112171" Value=""/>
+    <Text ID="112172" Value=""/>
+    <Text ID="112173" Value=""/>
+    <Text ID="112174" Value=""/>
+    <Text ID="112175" Value=""/>
+    <Text ID="112176" Value=""/>
+    <Text ID="112177" Value=""/>
+    <Text ID="112179" Value=""/>
+    <Text ID="112238" Value=""/>
+    <Text ID="112240" Value=""/>
+    <Text ID="112242" Value=""/>
+    <Text ID="112243" Value=""/>
+    <Text ID="112244" Value=""/>
+    <Text ID="113083" Value=""/>
+    <Text ID="113084" Value=""/>
+    <Text ID="156422" Value=""/>
+    <Text ID="156424" Value=""/>
+    <Text ID="156425" Value=""/>
+    <Text ID="156427" Value=""/>
+    <Text ID="156441" Value=""/>
+    <Text ID="324630" Value=""/>
+    <Text ID="324631" Value=""/>
+    <Text ID="334788" Value=""/>
+    <Text ID="334789" Value=""/>
+    <Text ID="339121" Value=""/>
+    <Text ID="350841" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="112165" Value=""/>
+    <Text ID="112166" Value=""/>
+    <Text ID="112167" Value=""/>
+    <Text ID="112168" Value=""/>
+    <Text ID="112169" Value=""/>
+    <Text ID="112171" Value=""/>
+    <Text ID="112172" Value=""/>
+    <Text ID="112173" Value=""/>
+    <Text ID="112174" Value=""/>
+    <Text ID="112175" Value=""/>
+    <Text ID="112176" Value=""/>
+    <Text ID="112177" Value=""/>
+    <Text ID="112179" Value=""/>
+    <Text ID="112238" Value=""/>
+    <Text ID="112240" Value=""/>
+    <Text ID="112242" Value=""/>
+    <Text ID="112243" Value=""/>
+    <Text ID="112244" Value=""/>
+    <Text ID="113083" Value=""/>
+    <Text ID="113084" Value=""/>
+    <Text ID="156422" Value=""/>
+    <Text ID="156424" Value=""/>
+    <Text ID="156425" Value=""/>
+    <Text ID="156427" Value=""/>
+    <Text ID="156441" Value=""/>
+    <Text ID="324630" Value=""/>
+    <Text ID="324631" Value=""/>
+    <Text ID="334788" Value=""/>
+    <Text ID="334789" Value=""/>
+    <Text ID="339121" Value=""/>
+    <Text ID="350841" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="112165" Value=""/>
+    <Text ID="112166" Value=""/>
+    <Text ID="112167" Value=""/>
+    <Text ID="112168" Value=""/>
+    <Text ID="112169" Value=""/>
+    <Text ID="112171" Value=""/>
+    <Text ID="112172" Value=""/>
+    <Text ID="112173" Value=""/>
+    <Text ID="112174" Value=""/>
+    <Text ID="112175" Value=""/>
+    <Text ID="112176" Value=""/>
+    <Text ID="112177" Value=""/>
+    <Text ID="112179" Value=""/>
+    <Text ID="112238" Value=""/>
+    <Text ID="112240" Value=""/>
+    <Text ID="112242" Value=""/>
+    <Text ID="112243" Value=""/>
+    <Text ID="112244" Value=""/>
+    <Text ID="113083" Value=""/>
+    <Text ID="113084" Value=""/>
+    <Text ID="156422" Value=""/>
+    <Text ID="156424" Value=""/>
+    <Text ID="156425" Value=""/>
+    <Text ID="156427" Value=""/>
+    <Text ID="156441" Value=""/>
+    <Text ID="324630" Value=""/>
+    <Text ID="324631" Value=""/>
+    <Text ID="334788" Value=""/>
+    <Text ID="334789" Value=""/>
+    <Text ID="339121" Value=""/>
+    <Text ID="350841" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="112165" Value=""/>
+    <Text ID="112166" Value=""/>
+    <Text ID="112167" Value=""/>
+    <Text ID="112168" Value=""/>
+    <Text ID="112169" Value=""/>
+    <Text ID="112171" Value=""/>
+    <Text ID="112172" Value=""/>
+    <Text ID="112173" Value=""/>
+    <Text ID="112174" Value=""/>
+    <Text ID="112175" Value=""/>
+    <Text ID="112176" Value=""/>
+    <Text ID="112177" Value=""/>
+    <Text ID="112179" Value=""/>
+    <Text ID="112238" Value=""/>
+    <Text ID="112240" Value=""/>
+    <Text ID="112242" Value=""/>
+    <Text ID="112243" Value=""/>
+    <Text ID="112244" Value=""/>
+    <Text ID="113083" Value=""/>
+    <Text ID="113084" Value=""/>
+    <Text ID="156422" Value=""/>
+    <Text ID="156424" Value=""/>
+    <Text ID="156425" Value=""/>
+    <Text ID="156427" Value=""/>
+    <Text ID="156441" Value=""/>
+    <Text ID="324630" Value=""/>
+    <Text ID="324631" Value=""/>
+    <Text ID="334788" Value=""/>
+    <Text ID="334789" Value=""/>
+    <Text ID="339121" Value=""/>
+    <Text ID="350841" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="112165" Value="koblings status"/>
+    <Text ID="112166" Value="Tellere"/>
+    <Text ID="112167" Value="Tøy data"/>
+    <Text ID="112168" Value="Komunikasjons status"/>
+    <Text ID="112169" Value="Koblings status"/>
+    <Text ID="112171" Value="Program"/>
+    <Text ID="112172" Value="Artikkel/Tøy type"/>
+    <Text ID="112173" Value="Destinasjon/Bånd"/>
+    <Text ID="112174" Value="Stack"/>
+    <Text ID="112175" Value="Tøy ID"/>
+    <Text ID="112176" Value="Kunde"/>
+    <Text ID="112177" Value="Status Send"/>
+    <Text ID="112179" Value="TimeOut"/>
+    <Text ID="112238" Value="Maskin ID"/>
+    <Text ID="112240" Value="Henger status"/>
+    <Text ID="112242" Value="Client Versjon"/>
+    <Text ID="112243" Value="Server Versjon"/>
+    <Text ID="112244" Value="Status klient maskin"/>
+    <Text ID="113083" Value="Svar teller"/>
+    <Text ID="113084" Value="Henger OK teller"/>
+    <Text ID="156422" Value="Destination"/>
+    <Text ID="156424" Value="Innløp Aktiv"/>
+    <Text ID="156425" Value="Innløp Fullt"/>
+    <Text ID="156427" Value="Utløp Fullt"/>
+    <Text ID="156441" Value="Status signaler"/>
+    <Text ID="324630" Value="Min IP:"/>
+    <Text ID="324631" Value="Metricon IP:"/>
+    <Text ID="334788" Value="Kommunikasjon oppe"/>
+    <Text ID="334789" Value="Kommunikasjon, data avslått"/>
+    <Text ID="339121" Value="Kommunikasjon, alt avslått"/>
+    <Text ID="350841" Value="Logg"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="112165" Value=""/>
+    <Text ID="112166" Value=""/>
+    <Text ID="112167" Value=""/>
+    <Text ID="112168" Value=""/>
+    <Text ID="112169" Value=""/>
+    <Text ID="112171" Value=""/>
+    <Text ID="112172" Value=""/>
+    <Text ID="112173" Value=""/>
+    <Text ID="112174" Value=""/>
+    <Text ID="112175" Value=""/>
+    <Text ID="112176" Value=""/>
+    <Text ID="112177" Value=""/>
+    <Text ID="112179" Value=""/>
+    <Text ID="112238" Value=""/>
+    <Text ID="112240" Value=""/>
+    <Text ID="112242" Value=""/>
+    <Text ID="112243" Value=""/>
+    <Text ID="112244" Value=""/>
+    <Text ID="113083" Value=""/>
+    <Text ID="113084" Value=""/>
+    <Text ID="156422" Value=""/>
+    <Text ID="156424" Value=""/>
+    <Text ID="156425" Value=""/>
+    <Text ID="156427" Value=""/>
+    <Text ID="156441" Value=""/>
+    <Text ID="324630" Value=""/>
+    <Text ID="324631" Value=""/>
+    <Text ID="334788" Value=""/>
+    <Text ID="334789" Value=""/>
+    <Text ID="339121" Value=""/>
+    <Text ID="350841" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="112165" Value="0"/>
+    <Index ID="112166" Value="2"/>
+    <Index ID="112167" Value="1"/>
+    <Index ID="112168" Value="7"/>
+    <Index ID="112169" Value="6"/>
+    <Index ID="112171" Value="15"/>
+    <Index ID="112172" Value="14"/>
+    <Index ID="112173" Value="13"/>
+    <Index ID="112174" Value="12"/>
+    <Index ID="112175" Value="11"/>
+    <Index ID="112176" Value="10"/>
+    <Index ID="112177" Value="25"/>
+    <Index ID="112179" Value="24"/>
+    <Index ID="112238" Value="8"/>
+    <Index ID="112240" Value="16"/>
+    <Index ID="112242" Value="5"/>
+    <Index ID="112243" Value="4"/>
+    <Index ID="112244" Value="3"/>
+    <Index ID="113083" Value="26"/>
+    <Index ID="113084" Value="27"/>
+    <Index ID="156422" Value="28"/>
+    <Index ID="156424" Value="29"/>
+    <Index ID="156425" Value="30"/>
+    <Index ID="156427" Value="31"/>
+    <Index ID="156441" Value="34"/>
+    <Index ID="324630" Value="35"/>
+    <Index ID="324631" Value="36"/>
+    <Index ID="334788" Value="101"/>
+    <Index ID="334789" Value="102"/>
+    <Index ID="339121" Value="103"/>
+    <Index ID="350841" Value="130"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,21 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: BBTest
+ * File: BBTest.var
+ * Author: hfu
+ * Created: January 16, 2012
+ ********************************************************************
+ * Local variables of program BBTest
+ ********************************************************************)
+VAR
+	step : USINT;
+	Manual : BOOL;
+	ManualStep : USINT;
+	i : UINT;
+	StepDone : BOOL;
+	ProdCount : USINT;
+	LogData_0 : LogData;
+	StautsText : STRING[150];
+	La : USINT;
+END_VAR

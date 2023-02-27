@@ -1,0 +1,23 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: Wheelie_Test
+ * File: Wheelie_Test.var
+ * Author: pmu
+ * Created: May 01, 2013
+ ********************************************************************
+ * Local variables of program Wheelie_Test
+ ********************************************************************)
+VAR
+	RX_CounterWheel : BOOL;
+	WheelCounterTest : UDINT;
+	CycleCounter : UDINT;
+	TestWheel : TestWheel_Type;
+	Tmp : USINT;
+	TestWheel_Empty : TestWheel_Type;
+	RMTopConveyor : BOOL := FALSE;
+	rxDuoCounter : BOOL;
+	WheelCounterTestDuo : UDINT;
+	DuoWheel : TestWheel_Type;
+	duoTmp : USINT;
+END_VAR

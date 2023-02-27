@@ -1,0 +1,23 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: check_IO
+ * File: check_IO.var
+ * Author: munchp
+ * Created: April 30, 2014
+ ********************************************************************
+ * Local variables of program check_IO
+ ********************************************************************)
+VAR
+	CheckIO : ARRAY[0..5] OF CheckIO_Type;
+	AsIOListDP_0 : AsIOListDP;
+	step : USINT;
+	index : UINT;
+	AsIOPVInfo_0 : AsIOPVInfo;
+	tmpChar : USINT;
+	io : ARRAY[0..998] OF IO_Force_Type;
+	totalDPs : UINT;
+	i : UINT;
+	x : USINT;
+	CheckIODone : BOOL;
+END_VAR

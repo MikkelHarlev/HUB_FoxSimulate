@@ -1,0 +1,21 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: M2M
+ * File: M2M.var
+ * Author: eg
+ * Created: May 23, 2014
+ ********************************************************************
+ * Local variables of program M2M
+ ********************************************************************)
+VAR
+	taskState : initState_enum;
+	pFlatXML : REFERENCE TO XMLRPCM2MCH_Type;
+	pConnectionManager : REFERENCE TO XMLRPCCL_Type;
+	No : USINT;
+	connectionsRunning : USINT;
+	pClient : REFERENCE TO MachineInfo_Type;
+	M2MLogicCom : ARRAY[0..9] OF M2MLogicCom_typ;
+	pTxLane : REFERENCE TO USINT;
+	pFlatworkData : REFERENCE TO XMLFlatworkData_Type;
+END_VAR

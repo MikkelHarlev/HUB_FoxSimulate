@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="HangerOpener">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.App.Application.g_HangerOpenerProcess.Common.AlarmList.Ack]"/>
+  <Property Name="ActiveBackColor" Value="4"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.App.Application.g_HangerOpenerProcess.Common.AlarmList.Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="Source[global].Variable[Master.App.Application.g_HangerOpenerProcess.Common.AlarmList.Bypassed]"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="19"/>
+  <Property Name="LatchedBackColor" Value="2"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="3"/>
+  <Property Name="QuitBackColor" Value="1"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="8">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value="Hanger not on deloading unit, remove hanger and garment."/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="9">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="10">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="11">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="6236" Value="Hanger opener startup error"/>
+      <Text ID="6237" Value="Hanger opener time out"/>
+      <Text ID="6238" Value="Garment on hanger"/>
+      <Text ID="6239" Value="Hanger out error"/>
+      <Text ID="6240" Value="Out sensor ontime error"/>
+      <Text ID="6278" Value="Garment on hanger startup"/>
+      <Text ID="9780" Value="Hanger not on deloading unit, remove hanger and garment."/>
+      <Text ID="9930" Value="Garment stuck DU"/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value="Remove Hanger in Deloading Unit "/>
+      <Text ID="12858" Value="Garment under deloader"/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="6236" Value="Buegeloeffner start fehler"/>
+      <Text ID="6237" Value="Zeitueberschreitung Buegel-Oeffner"/>
+      <Text ID="6238" Value="Waesche auf dem Buegel"/>
+      <Text ID="6239" Value="Buegel Auslass fehler"/>
+      <Text ID="6240" Value="Auslasssensor Anzeit-Fehler"/>
+      <Text ID="6278" Value="Waesche auf Buegel start"/>
+      <Text ID="9780" Value="Buegel nicht in Auslasseinheit., Entferne Buegel und Waesche"/>
+      <Text ID="9930" Value="Waesche blockiert DU"/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value="Entferne Buegel von Auslaufeinheit"/>
+      <Text ID="12858" Value="Garment under deloader"/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="6236" Value="Fel vid uppstart galgöppnig"/>
+      <Text ID="6237" Value="Övertid galgöppning"/>
+      <Text ID="6238" Value="Plagg på galge"/>
+      <Text ID="6239" Value="Galge ej detekterad vid utmatning"/>
+      <Text ID="6240" Value="Läsare för galgutmatning påverkad"/>
+      <Text ID="6278" Value="Plagg på galge vid uppstart"/>
+      <Text ID="9780" Value="Galge ej i DU, ta bort plagg samt galge"/>
+      <Text ID="9930" Value="Plagg fastnat i DU"/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value="Ta bort galge från DU"/>
+      <Text ID="12858" Value="Garment under deloader"/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="6236" Value="Erreur pendant start up"/>
+      <Text ID="6237" Value="Temps transport cintre depassé"/>
+      <Text ID="6238" Value="Vêtement sur cintre"/>
+      <Text ID="6239" Value="Cintre pas sorti"/>
+      <Text ID="6240" Value="Erreur sensor cintre sorti"/>
+      <Text ID="6278" Value="Vêtement sur cintre pendand startup"/>
+      <Text ID="9780" Value="Cintre pas au unite de dechargement, enlever le cintre et le vêtement"/>
+      <Text ID="9930" Value="Garment stuck DU"/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value="Remove Hanger in Deloading Unit "/>
+      <Text ID="12858" Value="Garment under deloader"/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="6236" Value="Fejl på bøjleåbner efter opstart"/>
+      <Text ID="6237" Value="Bøjleåbner timeout"/>
+      <Text ID="6238" Value="Tøj på bøjle"/>
+      <Text ID="6239" Value="Ingen bøjle set ved udløb"/>
+      <Text ID="6240" Value="Ingen bøjle set ved udløb"/>
+      <Text ID="6278" Value="Tøj på bøjle ved opstart"/>
+      <Text ID="9780" Value="Bøjle ikke i aflasterenhed, fjern bøjle"/>
+      <Text ID="9930" Value="Garment stuck DU"/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value="Remove Hanger in Deloading Unit "/>
+      <Text ID="12858" Value="Tøj under bøjleaftager"/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="6236" Value="Errore Avviamento Apertura Gruccia"/>
+      <Text ID="6237" Value="Supersto T Apertura Gruccia"/>
+      <Text ID="6238" Value="Indumento in gruccia"/>
+      <Text ID="6239" Value="Errore Fuoriuscita Gruccia"/>
+      <Text ID="6240" Value="Errore Tempo Sensore Rilevamento Uscita "/>
+      <Text ID="6278" Value="Avviamento Gruccia con capo"/>
+      <Text ID="9780" Value="Gruccia non sul sollevatore, rimujoverla"/>
+      <Text ID="9930" Value="Abito fermi in accatastatre"/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value="Rimuovi gruccia dallo scarico"/>
+      <Text ID="12858" Value="Garment under deloader"/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="6236" Value="Hanger opener startup error"/>
+      <Text ID="6237" Value="Hanger opener time out"/>
+      <Text ID="6238" Value="Garment on hanger"/>
+      <Text ID="6239" Value="Hanger out error"/>
+      <Text ID="6240" Value="Out sensor ontime error"/>
+      <Text ID="6278" Value="Garment on hanger startup"/>
+      <Text ID="9780" Value="Hanger not on deloading unit, remove hanger and garment."/>
+      <Text ID="9930" Value="Garment stuck DU"/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value="Remove Hanger in Deloading Unit "/>
+      <Text ID="12858" Value="Garment under deloader"/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="6236" Value="Hanger opener startup error"/>
+      <Text ID="6237" Value="Hanger opener time out"/>
+      <Text ID="6238" Value="Garment on hanger"/>
+      <Text ID="6239" Value="Hanger out error"/>
+      <Text ID="6240" Value="Out sensor ontime error"/>
+      <Text ID="6278" Value="Garment on hanger startup"/>
+      <Text ID="9780" Value="Hanger not on deloading unit, remove hanger and garment."/>
+      <Text ID="9930" Value="Garment stuck DU"/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value="Remove Hanger in Deloading Unit "/>
+      <Text ID="12858" Value="Garment under deloader"/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="6236" Value="Error de inicio en abridor de perchas"/>
+      <Text ID="6237" Value="Vencimiento tiempo en abridor de perchas"/>
+      <Text ID="6238" Value="Error de prenda en percha"/>
+      <Text ID="6239" Value="Error en salida de perchas"/>
+      <Text ID="6240" Value="Error tiempo activo de sensor salida"/>
+      <Text ID="6278" Value="Inicio de prenda en percha"/>
+      <Text ID="9780" Value="Sin percha en UD, retirar percha"/>
+      <Text ID="9930" Value="Prenda atascada en Unidad descarga"/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value="Remover percha en unidad de descarga"/>
+      <Text ID="12858" Value="Garment under deloader"/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="6236" Value=""/>
+      <Text ID="6237" Value=""/>
+      <Text ID="6238" Value=""/>
+      <Text ID="6239" Value=""/>
+      <Text ID="6240" Value=""/>
+      <Text ID="6278" Value=""/>
+      <Text ID="9780" Value=""/>
+      <Text ID="9930" Value="Garment stuck DU"/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value="Remove Hanger in Deloading Unit "/>
+      <Text ID="12858" Value="Garment under deloader"/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="6236" Value=""/>
+      <Text ID="6237" Value=""/>
+      <Text ID="6238" Value=""/>
+      <Text ID="6239" Value=""/>
+      <Text ID="6240" Value=""/>
+      <Text ID="6278" Value=""/>
+      <Text ID="9780" Value=""/>
+      <Text ID="9930" Value=""/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value=""/>
+      <Text ID="12858" Value=""/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="6236" Value=""/>
+      <Text ID="6237" Value=""/>
+      <Text ID="6238" Value=""/>
+      <Text ID="6239" Value=""/>
+      <Text ID="6240" Value=""/>
+      <Text ID="6278" Value=""/>
+      <Text ID="9780" Value=""/>
+      <Text ID="9930" Value=""/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value=""/>
+      <Text ID="12858" Value=""/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="6236" Value=""/>
+      <Text ID="6237" Value=""/>
+      <Text ID="6238" Value=""/>
+      <Text ID="6239" Value=""/>
+      <Text ID="6240" Value=""/>
+      <Text ID="6278" Value=""/>
+      <Text ID="9780" Value=""/>
+      <Text ID="9930" Value=""/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value=""/>
+      <Text ID="12858" Value=""/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="6236" Value=""/>
+      <Text ID="6237" Value=""/>
+      <Text ID="6238" Value=""/>
+      <Text ID="6239" Value=""/>
+      <Text ID="6240" Value=""/>
+      <Text ID="6278" Value=""/>
+      <Text ID="9780" Value=""/>
+      <Text ID="9930" Value=""/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value=""/>
+      <Text ID="12858" Value=""/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="6236" Value=""/>
+      <Text ID="6237" Value=""/>
+      <Text ID="6238" Value=""/>
+      <Text ID="6239" Value=""/>
+      <Text ID="6240" Value=""/>
+      <Text ID="6278" Value=""/>
+      <Text ID="9780" Value=""/>
+      <Text ID="9930" Value=""/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value=""/>
+      <Text ID="12858" Value=""/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="6236" Value="Feil på hengeråpner etter oppstart"/>
+      <Text ID="6237" Value="Henger åpner timeout"/>
+      <Text ID="6238" Value="Tøy på Henger"/>
+      <Text ID="6239" Value="Ingen henger sett på utløp"/>
+      <Text ID="6240" Value="Out sensor ontime error"/>
+      <Text ID="6278" Value="Tøy på henger under oppstart"/>
+      <Text ID="9780" Value="Henger ikke i avlaster enhet, fjern henger"/>
+      <Text ID="9930" Value="Garment stuck DU"/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value="Remove Hanger in Deloading Unit "/>
+      <Text ID="12858" Value="Garment under deloader"/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="6236" Value=""/>
+      <Text ID="6237" Value=""/>
+      <Text ID="6238" Value=""/>
+      <Text ID="6239" Value=""/>
+      <Text ID="6240" Value=""/>
+      <Text ID="6278" Value=""/>
+      <Text ID="9780" Value=""/>
+      <Text ID="9930" Value=""/>
+      <Text ID="11216" Value=""/>
+      <Text ID="11217" Value=""/>
+      <Text ID="11218" Value=""/>
+      <Text ID="12858" Value=""/>
+      <Text ID="12198" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="6236" Value="3"/>
+      <Index ID="6237" Value="2"/>
+      <Index ID="6238" Value="4"/>
+      <Index ID="6239" Value="5"/>
+      <Index ID="6240" Value="6"/>
+      <Index ID="6278" Value="7"/>
+      <Index ID="9780" Value="8"/>
+      <Index ID="9930" Value="9"/>
+      <Index ID="11216" Value="0"/>
+      <Index ID="11217" Value="1"/>
+      <Index ID="11218" Value="10"/>
+      <Index ID="12858" Value="11"/>
+      <Index ID="12198" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

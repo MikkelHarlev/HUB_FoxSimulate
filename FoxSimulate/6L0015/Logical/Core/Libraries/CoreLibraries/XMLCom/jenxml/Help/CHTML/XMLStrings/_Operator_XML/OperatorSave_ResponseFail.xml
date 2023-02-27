@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<methodResponse>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>OperatorSave</name>
+                    <value>
+                        <base64>RmFpbA==</base64>
+                    </value>
+                </member>
+                <member>
+                    <name>ErrorNumber</name>
+                    <value>
+                        <i4>"Error Number"</i4>
+                    </value>
+                </member>
+                <member>
+                    <name>ErrorString</name>
+                    <value>
+                        <base64>"Error String"</base64>
+                    </value>
+                </member>
+                <member>
+                    <name>ErrorInfo</name>
+                    <value>
+                        <base64>"Error Info"</base64>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodResponse>

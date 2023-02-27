@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigFolding">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="20"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msec"/>
+    <Text ID="285766" Value="Distance:  XB - FoldStart:"/>
+    <Text ID="285767" Value="Distance:  XB FoldStart - XBExit:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value="XB Extra reverse time"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msek"/>
+    <Text ID="285766" Value="Distanz:  Fotozelle XA bis Faltpunkt XB"/>
+    <Text ID="285767" Value="Distanz:  Gurtenstart Richtung Stapler bis Stapler Einlauffotozelle"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value="XB Extra Reversierzeit"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="tum "/>
+    <Text ID="284698" Value="ms"/>
+    <Text ID="285766" Value="Distance:  XB - FoldStart:"/>
+    <Text ID="285767" Value="Distance:  XB FoldStart - XBExit:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value="XB Extra reverse time"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msec"/>
+    <Text ID="285766" Value="Distance: Photocell XA jusque XB"/>
+    <Text ID="285767" Value="Distance: Démarage Bandes XB vers Empileur jusque PC Empileur"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value="XB : temps reverse extra"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msek"/>
+    <Text ID="285766" Value="Distanse:XB- Foldestart"/>
+    <Text ID="285767" Value="Distanse:  XB FoldStart - XButgangt:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Tværfold A fold justering"/>
+    <Text ID="409432" Value="XB Ekstra reverseringstide"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="pollici"/>
+    <Text ID="284698" Value="millisec"/>
+    <Text ID="285766" Value="Distanza:  XB - Avviamento Piega:"/>
+    <Text ID="285767" Value="Distanza:  XB Avviam. Piega - XB Uscita:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value="XB Tempo Extra di inversione  "/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msec"/>
+    <Text ID="285766" Value="Distance:  XB - FoldStart:"/>
+    <Text ID="285767" Value="Distance:  XB FoldStart - XBExit:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value="XB Extra reverse time"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msec"/>
+    <Text ID="285766" Value="Distance:  XB - FoldStart:"/>
+    <Text ID="285767" Value="Distance:  XB FoldStart - XBExit:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value="XB Extra reverse time"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="pulg"/>
+    <Text ID="284698" Value="mseg"/>
+    <Text ID="285766" Value="Distance:  XB - FoldStart:"/>
+    <Text ID="285767" Value="Distance:  XB FoldStart - XBExit:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value="XB Extra reverse time"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="284696" Value=""/>
+    <Text ID="284697" Value=""/>
+    <Text ID="284698" Value=""/>
+    <Text ID="285766" Value=""/>
+    <Text ID="285767" Value=""/>
+    <Text ID="291155" Value=""/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="284696" Value=""/>
+    <Text ID="284697" Value=""/>
+    <Text ID="284698" Value=""/>
+    <Text ID="285766" Value=""/>
+    <Text ID="285767" Value=""/>
+    <Text ID="291155" Value=""/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="284696" Value=""/>
+    <Text ID="284697" Value=""/>
+    <Text ID="284698" Value=""/>
+    <Text ID="285766" Value=""/>
+    <Text ID="285767" Value=""/>
+    <Text ID="291155" Value=""/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="284696" Value=""/>
+    <Text ID="284697" Value=""/>
+    <Text ID="284698" Value=""/>
+    <Text ID="285766" Value=""/>
+    <Text ID="285767" Value=""/>
+    <Text ID="291155" Value=""/>
+    <Text ID="316351" Value=""/>
+    <Text ID="409432" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="284696" Value=""/>
+    <Text ID="284697" Value=""/>
+    <Text ID="284698" Value=""/>
+    <Text ID="285766" Value=""/>
+    <Text ID="285767" Value=""/>
+    <Text ID="291155" Value=""/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="284696" Value=""/>
+    <Text ID="284697" Value=""/>
+    <Text ID="284698" Value=""/>
+    <Text ID="285766" Value=""/>
+    <Text ID="285767" Value=""/>
+    <Text ID="291155" Value=""/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="tom."/>
+    <Text ID="284698" Value="msek"/>
+    <Text ID="285766" Value="Distanse: XB- Foldestart"/>
+    <Text ID="285767" Value="Distanse: XB FoldStart - XB utgangt:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value="XB Ekstra reverseringstide"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="284696" Value=""/>
+    <Text ID="284697" Value=""/>
+    <Text ID="284698" Value=""/>
+    <Text ID="285766" Value=""/>
+    <Text ID="285767" Value=""/>
+    <Text ID="291155" Value=""/>
+    <Text ID="316351" Value="Crossfold A fold adjust"/>
+    <Text ID="409432" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="284696" Value="0"/>
+    <Index ID="284697" Value="1"/>
+    <Index ID="284698" Value="5"/>
+    <Index ID="285766" Value="28"/>
+    <Index ID="285767" Value="29"/>
+    <Index ID="291155" Value="3"/>
+    <Index ID="316351" Value="50"/>
+    <Index ID="409432" Value="51"/>
+  </IndexMap>
+</TextGroup>

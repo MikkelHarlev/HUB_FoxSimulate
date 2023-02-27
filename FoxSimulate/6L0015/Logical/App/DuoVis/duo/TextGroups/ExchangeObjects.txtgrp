@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ExchangeObjects">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="22"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="235409" Value="Standby"/>
+    <Text ID="235410" Value="Want to Unload"/>
+    <Text ID="235411" Value="Ready to recieve"/>
+    <Text ID="235412" Value="Unloading"/>
+    <Text ID="235413" Value="Recieving"/>
+    <Text ID="235414" Value="Finished Unloading "/>
+    <Text ID="235415" Value="Recieving finished"/>
+    <Text ID="280823" Value="Disabled"/>
+    <Text ID="280824" Value="Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="235409" Value="Standby"/>
+    <Text ID="235410" Value="Möchte abladen"/>
+    <Text ID="235411" Value="Bereit für Empfang"/>
+    <Text ID="235412" Value="Entladen"/>
+    <Text ID="235413" Value="Empfang"/>
+    <Text ID="235414" Value="Entladen beendet"/>
+    <Text ID="235415" Value="Empfang beendet"/>
+    <Text ID="280823" Value="Deaktiviert"/>
+    <Text ID="280824" Value="Fehler"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="235409" Value="Beredd"/>
+    <Text ID="235410" Value="Vill tömma"/>
+    <Text ID="235411" Value="Redo att mottaga"/>
+    <Text ID="235412" Value="Skickar"/>
+    <Text ID="235413" Value="Mottar"/>
+    <Text ID="235414" Value="Skickat avslutad"/>
+    <Text ID="235415" Value="Mottagning avslutad"/>
+    <Text ID="280823" Value="Inaktiverad"/>
+    <Text ID="280824" Value="Fel"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="235409" Value="Veille"/>
+    <Text ID="235410" Value="Veut décharger"/>
+    <Text ID="235411" Value="Prêt à recevoir"/>
+    <Text ID="235412" Value="Déchargement"/>
+    <Text ID="235413" Value="Réception"/>
+    <Text ID="235414" Value="Déchargement terminé"/>
+    <Text ID="235415" Value="Réception terminée"/>
+    <Text ID="280823" Value="Désactivé"/>
+    <Text ID="280824" Value="Erreur"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="235409" Value="Standby"/>
+    <Text ID="235410" Value="Ønsker at tømme"/>
+    <Text ID="235411" Value="Klar til at modtage"/>
+    <Text ID="235412" Value="Tømmer"/>
+    <Text ID="235413" Value="Modtager"/>
+    <Text ID="235414" Value="Tømning færdig"/>
+    <Text ID="235415" Value="Modtagning færdig"/>
+    <Text ID="280823" Value="Frakoblet"/>
+    <Text ID="280824" Value="Fejl"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="235409" Value="Standby"/>
+    <Text ID="235410" Value="Vuole Scaricare"/>
+    <Text ID="235411" Value="Pronto a Ricevere"/>
+    <Text ID="235412" Value="Scarico "/>
+    <Text ID="235413" Value="Ricezione"/>
+    <Text ID="235414" Value="Scarico Finito"/>
+    <Text ID="235415" Value="Ricezione Finita"/>
+    <Text ID="280823" Value="Disabilitata"/>
+    <Text ID="280824" Value="Errore"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="235409" Value="Standby"/>
+    <Text ID="235410" Value="Want to Unload"/>
+    <Text ID="235411" Value="Ready to recieve"/>
+    <Text ID="235412" Value="Unloading"/>
+    <Text ID="235413" Value="Recieving"/>
+    <Text ID="235414" Value="Finished Unloading "/>
+    <Text ID="235415" Value="Recieving finished"/>
+    <Text ID="280823" Value="Disabled"/>
+    <Text ID="280824" Value="Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="235409" Value="Stand-by"/>
+    <Text ID="235410" Value="Wil uitladen"/>
+    <Text ID="235411" Value="Ready to recieve"/>
+    <Text ID="235412" Value="Uitladen"/>
+    <Text ID="235413" Value="Ontvangen"/>
+    <Text ID="235414" Value="Uitladen voltooid"/>
+    <Text ID="235415" Value="Ontvangen voltooid"/>
+    <Text ID="280823" Value="Uitgeschakeld"/>
+    <Text ID="280824" Value="Fout"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="235409" Value="En espera"/>
+    <Text ID="235410" Value="Esperando descargar"/>
+    <Text ID="235411" Value="Listo para recibir"/>
+    <Text ID="235412" Value="Descargando"/>
+    <Text ID="235413" Value="Recibiendo"/>
+    <Text ID="235414" Value="Descarga terminada"/>
+    <Text ID="235415" Value="Recepción terminada"/>
+    <Text ID="280823" Value="Deshabilitado"/>
+    <Text ID="280824" Value="Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="235409" Value="Gotowość"/>
+    <Text ID="235410" Value="Chęć rozładowania"/>
+    <Text ID="235411" Value="Ready to recieve"/>
+    <Text ID="235412" Value="Rozładowanie"/>
+    <Text ID="235413" Value="Odbiór"/>
+    <Text ID="235414" Value="Rozładowanie zakończone "/>
+    <Text ID="235415" Value="Odbiór zakończony"/>
+    <Text ID="280823" Value="Dezaktywowane"/>
+    <Text ID="280824" Value="Błąd"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="235409" Value=""/>
+    <Text ID="235410" Value=""/>
+    <Text ID="235411" Value=""/>
+    <Text ID="235412" Value=""/>
+    <Text ID="235413" Value=""/>
+    <Text ID="235414" Value=""/>
+    <Text ID="235415" Value=""/>
+    <Text ID="280823" Value=""/>
+    <Text ID="280824" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="235409" Value=""/>
+    <Text ID="235410" Value=""/>
+    <Text ID="235411" Value=""/>
+    <Text ID="235412" Value=""/>
+    <Text ID="235413" Value=""/>
+    <Text ID="235414" Value=""/>
+    <Text ID="235415" Value=""/>
+    <Text ID="280823" Value=""/>
+    <Text ID="280824" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="235409" Value="Gotowość"/>
+    <Text ID="235410" Value="Chęć rozładowania"/>
+    <Text ID="235411" Value="Ready to recieve"/>
+    <Text ID="235412" Value="Rozładowanie"/>
+    <Text ID="235413" Value="Odbiór"/>
+    <Text ID="235414" Value="Rozładowanie zakończone "/>
+    <Text ID="235415" Value="Odbiór zakończony"/>
+    <Text ID="280823" Value="Dezaktywowane"/>
+    <Text ID="280824" Value="Błąd"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="235409" Value="Standby"/>
+    <Text ID="235410" Value="Want to Unload"/>
+    <Text ID="235411" Value="Ready to recieve"/>
+    <Text ID="235412" Value="Unloading"/>
+    <Text ID="235413" Value="Recieving"/>
+    <Text ID="235414" Value="Finished Unloading "/>
+    <Text ID="235415" Value="Recieving finished"/>
+    <Text ID="280823" Value="Disabled"/>
+    <Text ID="280824" Value="Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="235409" Value="Standby"/>
+    <Text ID="235410" Value="Want to Unload"/>
+    <Text ID="235411" Value="Ready to recieve"/>
+    <Text ID="235412" Value="Unloading"/>
+    <Text ID="235413" Value="Recieving"/>
+    <Text ID="235414" Value="Finished Unloading "/>
+    <Text ID="235415" Value="Recieving finished"/>
+    <Text ID="280823" Value="Disabled"/>
+    <Text ID="280824" Value="Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="235409" Value="Standby"/>
+    <Text ID="235410" Value="Ønsker å laste av"/>
+    <Text ID="235411" Value="Klar til å motta"/>
+    <Text ID="235412" Value="Avlasting"/>
+    <Text ID="235413" Value="Mottar"/>
+    <Text ID="235414" Value="Avlasting ferdig"/>
+    <Text ID="235415" Value="Mottak Ferdig"/>
+    <Text ID="280823" Value="Avslått"/>
+    <Text ID="280824" Value="Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="235409" Value="Standby"/>
+    <Text ID="235410" Value="Want to Unload"/>
+    <Text ID="235411" Value="Ready to recieve"/>
+    <Text ID="235412" Value="Unloading"/>
+    <Text ID="235413" Value="Recieving"/>
+    <Text ID="235414" Value="Finished Unloading "/>
+    <Text ID="235415" Value="Recieving finished"/>
+    <Text ID="280823" Value="Disabled"/>
+    <Text ID="280824" Value="Error"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="235409" Value="0"/>
+    <Index ID="235410" Value="1"/>
+    <Index ID="235411" Value="2"/>
+    <Index ID="235412" Value="3"/>
+    <Index ID="235413" Value="4"/>
+    <Index ID="235414" Value="5"/>
+    <Index ID="235415" Value="6"/>
+    <Index ID="280823" Value="90"/>
+    <Index ID="280824" Value="99"/>
+  </IndexMap>
+</TextGroup>

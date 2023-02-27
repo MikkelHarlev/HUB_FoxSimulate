@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="brdkSafety_Data">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="65"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Ext. Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="634030" Value="Data"/>
+    <Text ID="634031" Value="Change Data"/>
+    <Text ID="634032" Value="Read Data"/>
+    <Text ID="634033" Value="Reset"/>
+    <Text ID="634034" Value="Type of Data:"/>
+    <Text ID="634035" Value="Status:"/>
+    <Text ID="634036" Value="Last Timestamp:"/>
+    <Text ID="634037" Value="Change Machine Options"/>
+    <Text ID="634038" Value="Read Machine Options"/>
+    <Text ID="634039" Value="Change Ext. Machine Options"/>
+    <Text ID="634040" Value="Read Machine Options"/>
+    <Text ID="634041" Value="Download"/>
+    <Text ID="634042" Value="Cancel"/>
+    <Text ID="634043" Value="Acknowledge"/>
+    <Text ID="634044" Value="Machine Option 0:"/>
+    <Text ID="634045" Value="Machine Option 1:"/>
+    <Text ID="634046" Value="Machine Option 2:"/>
+    <Text ID="634047" Value="Machine Option 3:"/>
+    <Text ID="634048" Value="Machine Option 4:"/>
+    <Text ID="634049" Value="Machine Option 5:"/>
+    <Text ID="634050" Value="Machine Option 6:"/>
+    <Text ID="634051" Value="Machine Option 7:"/>
+    <Text ID="634052" Value="Machine Option 8:"/>
+    <Text ID="634053" Value="Machine Option 9:"/>
+    <Text ID="634054" Value="Exit"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="634030" Value=""/>
+    <Text ID="634031" Value=""/>
+    <Text ID="634032" Value=""/>
+    <Text ID="634033" Value=""/>
+    <Text ID="634034" Value=""/>
+    <Text ID="634035" Value=""/>
+    <Text ID="634036" Value=""/>
+    <Text ID="634037" Value=""/>
+    <Text ID="634038" Value=""/>
+    <Text ID="634039" Value=""/>
+    <Text ID="634040" Value=""/>
+    <Text ID="634041" Value=""/>
+    <Text ID="634042" Value=""/>
+    <Text ID="634043" Value=""/>
+    <Text ID="634044" Value=""/>
+    <Text ID="634045" Value=""/>
+    <Text ID="634046" Value=""/>
+    <Text ID="634047" Value=""/>
+    <Text ID="634048" Value=""/>
+    <Text ID="634049" Value=""/>
+    <Text ID="634050" Value=""/>
+    <Text ID="634051" Value=""/>
+    <Text ID="634052" Value=""/>
+    <Text ID="634053" Value=""/>
+    <Text ID="634054" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="634030" Value=""/>
+    <Text ID="634031" Value=""/>
+    <Text ID="634032" Value=""/>
+    <Text ID="634033" Value=""/>
+    <Text ID="634034" Value=""/>
+    <Text ID="634035" Value=""/>
+    <Text ID="634036" Value=""/>
+    <Text ID="634037" Value=""/>
+    <Text ID="634038" Value=""/>
+    <Text ID="634039" Value=""/>
+    <Text ID="634040" Value=""/>
+    <Text ID="634041" Value=""/>
+    <Text ID="634042" Value=""/>
+    <Text ID="634043" Value=""/>
+    <Text ID="634044" Value=""/>
+    <Text ID="634045" Value=""/>
+    <Text ID="634046" Value=""/>
+    <Text ID="634047" Value=""/>
+    <Text ID="634048" Value=""/>
+    <Text ID="634049" Value=""/>
+    <Text ID="634050" Value=""/>
+    <Text ID="634051" Value=""/>
+    <Text ID="634052" Value=""/>
+    <Text ID="634053" Value=""/>
+    <Text ID="634054" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="634030" Value=""/>
+    <Text ID="634031" Value=""/>
+    <Text ID="634032" Value=""/>
+    <Text ID="634033" Value=""/>
+    <Text ID="634034" Value=""/>
+    <Text ID="634035" Value=""/>
+    <Text ID="634036" Value=""/>
+    <Text ID="634037" Value=""/>
+    <Text ID="634038" Value=""/>
+    <Text ID="634039" Value=""/>
+    <Text ID="634040" Value=""/>
+    <Text ID="634041" Value=""/>
+    <Text ID="634042" Value=""/>
+    <Text ID="634043" Value=""/>
+    <Text ID="634044" Value=""/>
+    <Text ID="634045" Value=""/>
+    <Text ID="634046" Value=""/>
+    <Text ID="634047" Value=""/>
+    <Text ID="634048" Value=""/>
+    <Text ID="634049" Value=""/>
+    <Text ID="634050" Value=""/>
+    <Text ID="634051" Value=""/>
+    <Text ID="634052" Value=""/>
+    <Text ID="634053" Value=""/>
+    <Text ID="634054" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="634030" Value=""/>
+    <Text ID="634031" Value=""/>
+    <Text ID="634032" Value=""/>
+    <Text ID="634033" Value=""/>
+    <Text ID="634034" Value=""/>
+    <Text ID="634035" Value=""/>
+    <Text ID="634036" Value=""/>
+    <Text ID="634037" Value=""/>
+    <Text ID="634038" Value=""/>
+    <Text ID="634039" Value=""/>
+    <Text ID="634040" Value=""/>
+    <Text ID="634041" Value=""/>
+    <Text ID="634042" Value=""/>
+    <Text ID="634043" Value=""/>
+    <Text ID="634044" Value=""/>
+    <Text ID="634045" Value=""/>
+    <Text ID="634046" Value=""/>
+    <Text ID="634047" Value=""/>
+    <Text ID="634048" Value=""/>
+    <Text ID="634049" Value=""/>
+    <Text ID="634050" Value=""/>
+    <Text ID="634051" Value=""/>
+    <Text ID="634052" Value=""/>
+    <Text ID="634053" Value=""/>
+    <Text ID="634054" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="634030" Value=""/>
+    <Text ID="634031" Value=""/>
+    <Text ID="634032" Value=""/>
+    <Text ID="634033" Value=""/>
+    <Text ID="634034" Value=""/>
+    <Text ID="634035" Value=""/>
+    <Text ID="634036" Value=""/>
+    <Text ID="634037" Value=""/>
+    <Text ID="634038" Value=""/>
+    <Text ID="634039" Value=""/>
+    <Text ID="634040" Value=""/>
+    <Text ID="634041" Value=""/>
+    <Text ID="634042" Value=""/>
+    <Text ID="634043" Value=""/>
+    <Text ID="634044" Value=""/>
+    <Text ID="634045" Value=""/>
+    <Text ID="634046" Value=""/>
+    <Text ID="634047" Value=""/>
+    <Text ID="634048" Value=""/>
+    <Text ID="634049" Value=""/>
+    <Text ID="634050" Value=""/>
+    <Text ID="634051" Value=""/>
+    <Text ID="634052" Value=""/>
+    <Text ID="634053" Value=""/>
+    <Text ID="634054" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="634030" Value="0"/>
+    <Index ID="634031" Value="1"/>
+    <Index ID="634032" Value="2"/>
+    <Index ID="634033" Value="3"/>
+    <Index ID="634034" Value="4"/>
+    <Index ID="634035" Value="5"/>
+    <Index ID="634036" Value="6"/>
+    <Index ID="634037" Value="7"/>
+    <Index ID="634038" Value="8"/>
+    <Index ID="634039" Value="9"/>
+    <Index ID="634040" Value="10"/>
+    <Index ID="634041" Value="11"/>
+    <Index ID="634042" Value="12"/>
+    <Index ID="634043" Value="13"/>
+    <Index ID="634044" Value="14"/>
+    <Index ID="634045" Value="15"/>
+    <Index ID="634046" Value="16"/>
+    <Index ID="634047" Value="17"/>
+    <Index ID="634048" Value="18"/>
+    <Index ID="634049" Value="19"/>
+    <Index ID="634050" Value="20"/>
+    <Index ID="634051" Value="21"/>
+    <Index ID="634052" Value="22"/>
+    <Index ID="634053" Value="23"/>
+    <Index ID="634054" Value="24"/>
+  </IndexMap>
+</TextGroup>

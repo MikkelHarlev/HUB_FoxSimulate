@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="4.02.3" SubType="Binary" Description="v3.00.1" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>FoldXML.typ</File>
+    <File>FoldXML.var</File>
+    <File>FoldXML.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="XMLRPC" FromVersion="0.06.0" />
+    <Dependency ObjectName="XML_clnt" FromVersion="0.27.3" />
+    <Dependency ObjectName="SYS_LIB" FromVersion="0.01.0" />
+    <Dependency ObjectName="sys_lib" FromVersion="0.00.0" />
+    <Dependency ObjectName="SAX_RPC" FromVersion="0.08.0" />
+    <Dependency ObjectName="MetUtils" FromVersion="2.07.0" />
+    <Dependency ObjectName="CacheLib" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsString" FromVersion="0.00.0" />
+    <Dependency ObjectName="brsystem" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

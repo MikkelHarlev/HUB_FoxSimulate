@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="VB Script TE">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+<OBJECT type="text/site properties"></OBJECT>
+<UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Data Types">
+		<param name="Local" value="Datatypes\DataTypes.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpExtInfo_Type">
+		<param name="Local" value="Datatypes\RcpExtInfo_Type.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Automation Basic">
+		<param name="Local" value="Example\AB.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Ansi C">
+		<param name="Local" value="Example\C.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="File Format">
+		<param name="Local" value="Example\File Format.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Structured Text">
+		<param name="Local" value="Example\ST.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="ReiT Requirements">
+		<param name="Local" value="General\Requirements.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="System Requirements">
+		<param name="Local" value="General\Requirements.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="V2.52.8">
+		<param name="Local" value="General\History.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Version History">
+		<param name="Local" value="General\History.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Error Numbers">
+		<param name="Local" value="General\Error.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="ParScroCyclic">
+		<param name="Local" value="FBKs\ParScroCyclic.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="ParScroCyclic">
+		<param name="Local" value="FBKs\ParScroCyclic.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="ParScroInit">
+		<param name="Local" value="FBKs\ParScroInit.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="ParScroInit">
+		<param name="Local" value="FBKs\ParScroInit.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpAdd">
+		<param name="Local" value="FBKs\RcpAdd.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpAdd">
+		<param name="Local" value="FBKs\RcpAdd.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpCopy">
+		<param name="Local" value="FBKs\RcpCopy.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpCopy">
+		<param name="Local" value="FBKs\RcpCopy.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpDeInit">
+		<param name="Local" value="FBKs\RcpDeInit.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpDeInit">
+		<param name="Local" value="FBKs\RcpDeInit.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpDirList">
+		<param name="Local" value="FBKs\RcpDirList.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpDirList">
+		<param name="Local" value="FBKs\RcpDirList.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpFileListScroll">
+		<param name="Local" value="FBKs\RcpFileListScroll.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpFileListScroll">
+		<param name="Local" value="FBKs\RcpFileListScroll.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpSave">
+		<param name="Local" value="FBKs\RcpGetMemInfo.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpGetMemInfo">
+		<param name="Local" value="FBKs\RcpGetMemInfo.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpGetNames">
+		<param name="Local" value="FBKs\RcpGetNames.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpGetNames">
+		<param name="Local" value="FBKs\RcpGetNames.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpInit">
+		<param name="Local" value="FBKs\RcpInit.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpInit">
+		<param name="Local" value="FBKs\RcpInit.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpLoad">
+		<param name="Local" value="FBKs\RcpLoad.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpLoad">
+		<param name="Local" value="FBKs\RcpLoad.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpNameList">
+		<param name="Local" value="FBKs\RcpNameList.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpNameList">
+		<param name="Local" value="FBKs\RcpNameList.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpPointInit">
+		<param name="Local" value="FBKs\RcpPointInit.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpPointInit">
+		<param name="Local" value="FBKs\RcpPointInit.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpPointRef">
+		<param name="Local" value="FBKs\RcpPointRef.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpPointRef">
+		<param name="Local" value="FBKs\RcpPointRef.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpSave">
+		<param name="Local" value="FBKs\RcpSave.html">
+	</OBJECT>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="RcpSave">
+		<param name="Local" value="FBKs\RcpSave.html">
+	</OBJECT>
+</UL>
+</BODY>
+</HTML>

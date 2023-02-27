@@ -1,0 +1,31 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: MiniJenWay
+ * File: MiniJenWay.var
+ * Author: jspernil
+ * Created: June 02, 2009
+ ********************************************************************
+ * Local variables of program MiniJenWay
+ ********************************************************************)
+VAR
+	TmpStr : STRING[31];
+	Belt1 : BeltController_Type := (0);
+END_VAR
+VAR CONSTANT
+	MACHPROC_MACHINE_IS_RUNNING_25 : UINT := 25;
+END_VAR
+VAR
+	Belt2 : BeltController_Type;
+END_VAR
+VAR CONSTANT
+	BELT_STATE_IDLE_0 : UINT := 0;
+	BELT_STATE_RECIVING_5 : UINT := 5;
+	BELT_STATE_UNLOADING_10 : UINT := 10;
+	BELT_STATE_WAIT_AFTER_RX_12 : UINT := 12;
+	BELT_STATE_STARTUP_20 : UINT := 20;
+END_VAR
+VAR
+	ReCheckFlag : BOOL;
+	ReCheckTimer : UINT;
+END_VAR

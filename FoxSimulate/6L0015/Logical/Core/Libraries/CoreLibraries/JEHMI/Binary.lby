@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="1.00.0" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>JEHMI.fun</File>
+    <File>JEHMI.typ</File>
+    <File>JEHMI.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="visapi" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="brsystem" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="SYS_LIB" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="DataObj" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsMem" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsString" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsMath" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsIODiag" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

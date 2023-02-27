@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Logos">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="9"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="725" Value="None"/>
+    <BitmapRef ID="726" Value="None"/>
+    <BitmapRef ID="727" Value="None"/>
+    <BitmapRef ID="728" Value="Source[local].Bitmap[C_140x25_Jensen]"/>
+    <BitmapRef ID="729" Value="None"/>
+    <BitmapRef ID="730" Value="None"/>
+    <BitmapRef ID="731" Value="None"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="725" Value="1"/>
+    <Index ID="726" Value="2"/>
+    <Index ID="727" Value="3"/>
+    <Index ID="728" Value="0"/>
+    <Index ID="729" Value="4"/>
+    <Index ID="730" Value="5"/>
+    <Index ID="731" Value="6"/>
+  </IndexMap>
+</BitmapGroup>

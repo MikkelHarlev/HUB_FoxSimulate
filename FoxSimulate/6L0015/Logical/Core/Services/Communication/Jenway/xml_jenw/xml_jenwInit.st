@@ -1,0 +1,3 @@
+PROGRAM _INIT
+	HMIJenwayColor;
+END_PROGRAM

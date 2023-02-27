@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Button_Text">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="56"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002002" Name="Button6">
+      <Property Name="Datapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002002" Name="Button5">
+      <Property Name="Datapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002002" Name="Button4">
+      <Property Name="Datapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002002" Name="Button3">
+      <Property Name="Datapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002002" Name="Button2">
+      <Property Name="Datapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002002" Name="Button1">
+      <Property Name="Datapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="System"/>
+    <Text ID="362780" Value="System"/>
+    <Text ID="362781" Value="Custom"/>
+    <Text ID="362782" Value="Details"/>
+    <Text ID="362783" Value="Config"/>
+    <Text ID="362784" Value="Files:"/>
+    <Text ID="362785" Value="Copy:"/>
+    <Text ID="362786" Value="Select"/>
+    <Text ID="362787" Value="Edit"/>
+    <Text ID="362788" Value="Trace"/>
+    <Text ID="362789" Value="Backup"/>
+    <Text ID="362790" Value="IP Conf"/>
+    <Text ID="362791" Value="Setup"/>
+    <Text ID="362792" Value="History"/>
+    <Text ID="362793" Value="Info"/>
+    <Text ID="362794" Value="Service"/>
+    <Text ID="362795" Value="Machine"/>
+    <Text ID="362796" Value="I/O Diag"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Bypass"/>
+    <Text ID="362799" Value="Hardware"/>
+    <Text ID="362800" Value="Logbook"/>
+    <Text ID="362801" Value="Inverter"/>
+    <Text ID="362802" Value="Alarm"/>
+    <Text ID="362803" Value="Article"/>
+    <Text ID="362804" Value="Passw"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Recipe"/>
+    <Text ID="362807" Value="Setup"/>
+    <Text ID="362808" Value="Machine"/>
+    <Text ID="362809" Value="Op List"/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Statistic"/>
+    <Text ID="362812" Value="Digital I/O"/>
+    <Text ID="362813" Value="Analog I/O"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="Graph"/>
+    <Text ID="362816" Value="IoAlarm"/>
+    <Text ID="362817" Value="Live Data"/>
+    <Text ID="362818" Value="Rail"/>
+    <Text ID="362819" Value="Seperator"/>
+    <Text ID="362820" Value="Feeder"/>
+    <Text ID="362821" Value="Ironer"/>
+    <Text ID="362822" Value="Folder"/>
+    <Text ID="362823" Value="Stacker"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Speed"/>
+    <Text ID="362826" Value="Test"/>
+    <Text ID="362827" Value="Front"/>
+    <Text ID="362828" Value="Side"/>
+    <Text ID="362829" Value="Rear"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Refresh"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Overview"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="System"/>
+    <Text ID="362780" Value="System"/>
+    <Text ID="362781" Value="Kunde"/>
+    <Text ID="362782" Value="Einzelheiten"/>
+    <Text ID="362783" Value="Konfig."/>
+    <Text ID="362784" Value="Dateien"/>
+    <Text ID="362785" Value="Kopieren:"/>
+    <Text ID="362786" Value="Auswahl"/>
+    <Text ID="362787" Value="Editieren"/>
+    <Text ID="362788" Value="Verfolgen"/>
+    <Text ID="362789" Value="Sichern"/>
+    <Text ID="362790" Value="IP-Bestätigung"/>
+    <Text ID="362791" Value="Einrichtung"/>
+    <Text ID="362792" Value="Geschichte"/>
+    <Text ID="362793" Value="Info"/>
+    <Text ID="362794" Value="Service"/>
+    <Text ID="362795" Value="Maschine"/>
+    <Text ID="362796" Value="Ein-/Ausgang Diag"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Bypass"/>
+    <Text ID="362799" Value="Hardware"/>
+    <Text ID="362800" Value="Logbuch"/>
+    <Text ID="362801" Value="Umrichter"/>
+    <Text ID="362802" Value="Alarme"/>
+    <Text ID="362803" Value="Artikel"/>
+    <Text ID="362804" Value="Passwort"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Programm"/>
+    <Text ID="362807" Value="Einrichtung"/>
+    <Text ID="362808" Value="Maschine"/>
+    <Text ID="362809" Value="OP Liste"/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Statistik"/>
+    <Text ID="362812" Value="Digitales I/O"/>
+    <Text ID="362813" Value="Analog I/O"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="Graph"/>
+    <Text ID="362816" Value="Ein-/Ausgang Alarm "/>
+    <Text ID="362817" Value="Aktuelle Daten"/>
+    <Text ID="362818" Value="Jenrail:"/>
+    <Text ID="362819" Value="Seperator"/>
+    <Text ID="362820" Value="Eingabemaschine: "/>
+    <Text ID="362821" Value="Mangel"/>
+    <Text ID="362822" Value="Faltmaschine: "/>
+    <Text ID="362823" Value="Stapler"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Geschwindigkeit:"/>
+    <Text ID="362826" Value="Prüfung"/>
+    <Text ID="362827" Value="Front"/>
+    <Text ID="362828" Value="Side"/>
+    <Text ID="362829" Value="Rear"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Aktualisieren"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Überblick"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="System"/>
+    <Text ID="362780" Value="System"/>
+    <Text ID="362781" Value="Kundkrets"/>
+    <Text ID="362782" Value="Detaljer"/>
+    <Text ID="362783" Value="Konfig"/>
+    <Text ID="362784" Value="Filer"/>
+    <Text ID="362785" Value="Kopiera"/>
+    <Text ID="362786" Value="Välj"/>
+    <Text ID="362787" Value="Redigera"/>
+    <Text ID="362788" Value="Spåra"/>
+    <Text ID="362789" Value="Backup"/>
+    <Text ID="362790" Value="Ip konfig."/>
+    <Text ID="362791" Value="Setup"/>
+    <Text ID="362792" Value="Historia"/>
+    <Text ID="362793" Value="Info"/>
+    <Text ID="362794" Value="Service"/>
+    <Text ID="362795" Value="Maskin"/>
+    <Text ID="362796" Value="I/o diagnostik"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Bypass"/>
+    <Text ID="362799" Value="Hardware"/>
+    <Text ID="362800" Value="Logbok"/>
+    <Text ID="362801" Value="Omvandlare"/>
+    <Text ID="362802" Value="Alarm"/>
+    <Text ID="362803" Value="Artikel"/>
+    <Text ID="362804" Value="Lösenord"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Recept"/>
+    <Text ID="362807" Value="Setup"/>
+    <Text ID="362808" Value="Maskin"/>
+    <Text ID="362809" Value="Op lista"/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Statistik"/>
+    <Text ID="362812" Value="Digital I/O"/>
+    <Text ID="362813" Value="Analog I/O"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="Graf"/>
+    <Text ID="362816" Value="Io alarm"/>
+    <Text ID="362817" Value="Live Data"/>
+    <Text ID="362818" Value="Räls"/>
+    <Text ID="362819" Value="Seperator"/>
+    <Text ID="362820" Value="Inmatare"/>
+    <Text ID="362821" Value="Mangel"/>
+    <Text ID="362822" Value="Vikare"/>
+    <Text ID="362823" Value="Staplare"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Hastighet"/>
+    <Text ID="362826" Value="Test"/>
+    <Text ID="362827" Value="Front"/>
+    <Text ID="362828" Value="Side"/>
+    <Text ID="362829" Value="Rear"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Uppdatera"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value=""/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Översikt"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety Remote"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="Système"/>
+    <Text ID="362780" Value="Système"/>
+    <Text ID="362781" Value="Page"/>
+    <Text ID="362782" Value="Détails"/>
+    <Text ID="362783" Value="Config"/>
+    <Text ID="362784" Value="Fichier"/>
+    <Text ID="362785" Value="Copie:"/>
+    <Text ID="362786" Value="Sélectionner"/>
+    <Text ID="362787" Value="Edition"/>
+    <Text ID="362788" Value="tracage"/>
+    <Text ID="362789" Value="Svgarde"/>
+    <Text ID="362790" Value="Config. adres.ip"/>
+    <Text ID="362791" Value="Réglage"/>
+    <Text ID="362792" Value="Historique "/>
+    <Text ID="362793" Value="info"/>
+    <Text ID="362794" Value="Service"/>
+    <Text ID="362795" Value="Machine"/>
+    <Text ID="362796" Value="Diagno. e/s"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Bypass alarme"/>
+    <Text ID="362799" Value="Matériel"/>
+    <Text ID="362800" Value="Ecriture Log"/>
+    <Text ID="362801" Value="variat."/>
+    <Text ID="362802" Value="Alarme"/>
+    <Text ID="362803" Value="Articles:"/>
+    <Text ID="362804" Value="Mot de passe"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Programme"/>
+    <Text ID="362807" Value="Réglage"/>
+    <Text ID="362808" Value="Machine"/>
+    <Text ID="362809" Value="Liste Agents."/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Compteur"/>
+    <Text ID="362812" Value="E/S numérique"/>
+    <Text ID="362813" Value="E/S analogique"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="graphe"/>
+    <Text ID="362816" Value="Alarme e/s"/>
+    <Text ID="362817" Value="Données en temps réel"/>
+    <Text ID="362818" Value="Rail"/>
+    <Text ID="362819" Value="Séparateur"/>
+    <Text ID="362820" Value="Engageuse:"/>
+    <Text ID="362821" Value="Sécheuse:"/>
+    <Text ID="362822" Value="Plieuse"/>
+    <Text ID="362823" Value="Empileur"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Vitesse"/>
+    <Text ID="362826" Value="Test"/>
+    <Text ID="362827" Value="Avant"/>
+    <Text ID="362828" Value="Côté"/>
+    <Text ID="362829" Value="Arrière"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Rafraîchir"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Généralités"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="System"/>
+    <Text ID="362780" Value="System"/>
+    <Text ID="362781" Value="Speciel"/>
+    <Text ID="362782" Value="Detaljer"/>
+    <Text ID="362783" Value="Konfig"/>
+    <Text ID="362784" Value="Filer"/>
+    <Text ID="362785" Value="Kopier:"/>
+    <Text ID="362786" Value="Vælg"/>
+    <Text ID="362787" Value="Rediger"/>
+    <Text ID="362788" Value="Sporing"/>
+    <Text ID="362789" Value="Backup"/>
+    <Text ID="362790" Value="IP Config"/>
+    <Text ID="362791" Value="Setup"/>
+    <Text ID="362792" Value="Historik"/>
+    <Text ID="362793" Value="Info"/>
+    <Text ID="362794" Value="Service"/>
+    <Text ID="362795" Value="Maskin"/>
+    <Text ID="362796" Value="I/O Diag"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Bypass"/>
+    <Text ID="362799" Value="Hardware"/>
+    <Text ID="362800" Value="Logbog"/>
+    <Text ID="362801" Value="Omformer"/>
+    <Text ID="362802" Value="Alarm"/>
+    <Text ID="362803" Value="Artikel"/>
+    <Text ID="362804" Value="Kodeord"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Kategori"/>
+    <Text ID="362807" Value="Setup"/>
+    <Text ID="362808" Value="Maskin"/>
+    <Text ID="362809" Value="Op Liste"/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Statistik"/>
+    <Text ID="362812" Value="Digital I/O"/>
+    <Text ID="362813" Value="Analog I/O"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="Graf"/>
+    <Text ID="362816" Value="IO Alarm"/>
+    <Text ID="362817" Value="Live Data"/>
+    <Text ID="362818" Value="Rail"/>
+    <Text ID="362819" Value="Seperator"/>
+    <Text ID="362820" Value="Ilægger"/>
+    <Text ID="362821" Value="Rulle"/>
+    <Text ID="362822" Value="Folder"/>
+    <Text ID="362823" Value="Stakker"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Hastighed"/>
+    <Text ID="362826" Value="Test"/>
+    <Text ID="362827" Value="Foran"/>
+    <Text ID="362828" Value="Siden"/>
+    <Text ID="362829" Value="Bag"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Opdater"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Overblik"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="Sistema"/>
+    <Text ID="362780" Value="Sistema"/>
+    <Text ID="362781" Value="Cliente"/>
+    <Text ID="362782" Value="Dettagli:"/>
+    <Text ID="362783" Value="Configurazione"/>
+    <Text ID="362784" Value="Files"/>
+    <Text ID="362785" Value="Copia:"/>
+    <Text ID="362786" Value="Seleziona"/>
+    <Text ID="362787" Value="Modifica"/>
+    <Text ID="362788" Value="Traccia"/>
+    <Text ID="362789" Value="BackUp"/>
+    <Text ID="362790" Value="Conf. IP"/>
+    <Text ID="362791" Value="Impostazione"/>
+    <Text ID="362792" Value="Storico"/>
+    <Text ID="362793" Value="Informazione"/>
+    <Text ID="362794" Value="Manutenz."/>
+    <Text ID="362795" Value="Macchina"/>
+    <Text ID="362796" Value="I/O Diag"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="By-pass"/>
+    <Text ID="362799" Value="Hardware"/>
+    <Text ID="362800" Value="ElencoErrori"/>
+    <Text ID="362801" Value="Inverter"/>
+    <Text ID="362802" Value="Allarme"/>
+    <Text ID="362803" Value="Articolo"/>
+    <Text ID="362804" Value="Password"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Categoria"/>
+    <Text ID="362807" Value="Impostazione"/>
+    <Text ID="362808" Value="Macchina"/>
+    <Text ID="362809" Value="Lista op"/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Statistica"/>
+    <Text ID="362812" Value="Digitale I/O"/>
+    <Text ID="362813" Value="Analog I/O"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="Grafica"/>
+    <Text ID="362816" Value="IO allarme"/>
+    <Text ID="362817" Value="Dati attuali"/>
+    <Text ID="362818" Value="Binario"/>
+    <Text ID="362819" Value="Separatore"/>
+    <Text ID="362820" Value="Introduttore"/>
+    <Text ID="362821" Value="Mangano"/>
+    <Text ID="362822" Value="Piegatrice"/>
+    <Text ID="362823" Value="Accatastatore:"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Velocità"/>
+    <Text ID="362826" Value="Test"/>
+    <Text ID="362827" Value="Front"/>
+    <Text ID="362828" Value="Side"/>
+    <Text ID="362829" Value="Rear"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Aggiornare"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Descrizione"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="Järjestelmä"/>
+    <Text ID="362780" Value="Järjestelmä"/>
+    <Text ID="362781" Value="Mukautettu"/>
+    <Text ID="362782" Value="Tiedot"/>
+    <Text ID="362783" Value="konfig"/>
+    <Text ID="362784" Value="Tiedostot"/>
+    <Text ID="362785" Value="Kopioi:"/>
+    <Text ID="362786" Value="Valitse"/>
+    <Text ID="362787" Value="Muokkaa"/>
+    <Text ID="362788" Value="Puu"/>
+    <Text ID="362789" Value="varmuuskopio"/>
+    <Text ID="362790" Value="IP konf"/>
+    <Text ID="362791" Value="Asetus"/>
+    <Text ID="362792" Value="Historia"/>
+    <Text ID="362793" Value="Info"/>
+    <Text ID="362794" Value="Huolto"/>
+    <Text ID="362795" Value="Kone"/>
+    <Text ID="362796" Value="I/O Diag"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Ohitus"/>
+    <Text ID="362799" Value="Hardware"/>
+    <Text ID="362800" Value="Lokikirja"/>
+    <Text ID="362801" Value="Taajuusmuunnin"/>
+    <Text ID="362802" Value="Hälytys"/>
+    <Text ID="362803" Value="Kappale"/>
+    <Text ID="362804" Value="Salas"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Resepti"/>
+    <Text ID="362807" Value="Asetus"/>
+    <Text ID="362808" Value="Kone"/>
+    <Text ID="362809" Value="Op lista"/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Tilastot"/>
+    <Text ID="362812" Value="Digital I/O"/>
+    <Text ID="362813" Value="Analog I/O"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="Grafiikka"/>
+    <Text ID="362816" Value="Iohälytys"/>
+    <Text ID="362817" Value="Live Data"/>
+    <Text ID="362818" Value="rata"/>
+    <Text ID="362819" Value="Seperator"/>
+    <Text ID="362820" Value="Syöttökone"/>
+    <Text ID="362821" Value="Mankeli:"/>
+    <Text ID="362822" Value="Taittokone"/>
+    <Text ID="362823" Value="Niputtaja"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Nopeus:"/>
+    <Text ID="362826" Value="Testi"/>
+    <Text ID="362827" Value="Front"/>
+    <Text ID="362828" Value="Side"/>
+    <Text ID="362829" Value="Rear"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Uudista"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Yleiskatsaus"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="Systeem"/>
+    <Text ID="362780" Value="Systeem"/>
+    <Text ID="362781" Value="Klant"/>
+    <Text ID="362782" Value="Details"/>
+    <Text ID="362783" Value="Configuratie"/>
+    <Text ID="362784" Value="Bestanden"/>
+    <Text ID="362785" Value="Kopieer:"/>
+    <Text ID="362786" Value="Selecteren"/>
+    <Text ID="362787" Value="Editeren"/>
+    <Text ID="362788" Value="Traceren"/>
+    <Text ID="362789" Value="Opslaan"/>
+    <Text ID="362790" Value="IP Conf"/>
+    <Text ID="362791" Value="Setup"/>
+    <Text ID="362792" Value="Geschiedenis"/>
+    <Text ID="362793" Value="Info"/>
+    <Text ID="362794" Value="Service"/>
+    <Text ID="362795" Value="Machine"/>
+    <Text ID="362796" Value="I/O Diag"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Doorloop"/>
+    <Text ID="362799" Value="Hardware"/>
+    <Text ID="362800" Value="Logboek"/>
+    <Text ID="362801" Value="Frequentieregelaar"/>
+    <Text ID="362802" Value="Alarm"/>
+    <Text ID="362803" Value="Artikel"/>
+    <Text ID="362804" Value="Pasw."/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Programma"/>
+    <Text ID="362807" Value="Setup"/>
+    <Text ID="362808" Value="Machine"/>
+    <Text ID="362809" Value="Bed. Lijst"/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Statistieken"/>
+    <Text ID="362812" Value="Digital I/O"/>
+    <Text ID="362813" Value="Analog I/O"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="Grafisch"/>
+    <Text ID="362816" Value="IoAlarm"/>
+    <Text ID="362817" Value="Live Data"/>
+    <Text ID="362818" Value="Rail"/>
+    <Text ID="362819" Value="Seperator"/>
+    <Text ID="362820" Value="Insteekmachine:"/>
+    <Text ID="362821" Value="Mangel:"/>
+    <Text ID="362822" Value="Vouwmachine"/>
+    <Text ID="362823" Value="Stapelaar:"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Snelheid:"/>
+    <Text ID="362826" Value="Test"/>
+    <Text ID="362827" Value="Front"/>
+    <Text ID="362828" Value="Side"/>
+    <Text ID="362829" Value="Rear"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Vernieuwen"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Overzicht"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="Sistema"/>
+    <Text ID="362780" Value="Sistema"/>
+    <Text ID="362781" Value="Cliente"/>
+    <Text ID="362782" Value="Detalles"/>
+    <Text ID="362783" Value="Configuración "/>
+    <Text ID="362784" Value="Archivos"/>
+    <Text ID="362785" Value="Copiar:"/>
+    <Text ID="362786" Value="Seleccionar"/>
+    <Text ID="362787" Value="Editar"/>
+    <Text ID="362788" Value="Traza"/>
+    <Text ID="362789" Value="Copia de seguridad"/>
+    <Text ID="362790" Value="Configuración de IP"/>
+    <Text ID="362791" Value="Configuración"/>
+    <Text ID="362792" Value="Historial"/>
+    <Text ID="362793" Value="Info"/>
+    <Text ID="362794" Value="Servicio"/>
+    <Text ID="362795" Value="Máquina"/>
+    <Text ID="362796" Value="I/O Diag"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Bypass"/>
+    <Text ID="362799" Value="Hardware"/>
+    <Text ID="362800" Value="Libro de registro"/>
+    <Text ID="362801" Value="Inversor"/>
+    <Text ID="362802" Value="Alarma "/>
+    <Text ID="362803" Value="Artículo"/>
+    <Text ID="362804" Value="Contraseña"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Programa"/>
+    <Text ID="362807" Value="Configuración"/>
+    <Text ID="362808" Value="Máquina"/>
+    <Text ID="362809" Value="Lista de operarios"/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Estadística"/>
+    <Text ID="362812" Value="Digital I/O"/>
+    <Text ID="362813" Value="Analog I/O"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="Gráfico"/>
+    <Text ID="362816" Value="Alarma de I/O Entrada/Salida"/>
+    <Text ID="362817" Value="Live Data"/>
+    <Text ID="362818" Value="Raíl"/>
+    <Text ID="362819" Value="Seperator"/>
+    <Text ID="362820" Value="Alimentador:"/>
+    <Text ID="362821" Value="Ironer"/>
+    <Text ID="362822" Value="Plegadora:"/>
+    <Text ID="362823" Value="Apilador"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Velocidad"/>
+    <Text ID="362826" Value="Prueba"/>
+    <Text ID="362827" Value="Front"/>
+    <Text ID="362828" Value="Side"/>
+    <Text ID="362829" Value="Rear"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Refrescar"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Perspectiva general"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="System"/>
+    <Text ID="362780" Value="System"/>
+    <Text ID="362781" Value="Zwykle"/>
+    <Text ID="362782" Value="Szczegóły"/>
+    <Text ID="362783" Value="Konfiguracja"/>
+    <Text ID="362784" Value="Pliki"/>
+    <Text ID="362785" Value="Kopiować:"/>
+    <Text ID="362786" Value="Wybór"/>
+    <Text ID="362787" Value="Edycja"/>
+    <Text ID="362788" Value="Ślad (sledzić)"/>
+    <Text ID="362789" Value="Kopia zapasowa"/>
+    <Text ID="362790" Value="IP Konfig"/>
+    <Text ID="362791" Value="Ustawienie"/>
+    <Text ID="362792" Value="Historia"/>
+    <Text ID="362793" Value="Info"/>
+    <Text ID="362794" Value="Serwis"/>
+    <Text ID="362795" Value="Maszyna"/>
+    <Text ID="362796" Value="I/O Diag"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Obejścia"/>
+    <Text ID="362799" Value="Hardware"/>
+    <Text ID="362800" Value="Dziennik rejestru"/>
+    <Text ID="362801" Value="Status Inwertera (CAN)"/>
+    <Text ID="362802" Value="Alarm"/>
+    <Text ID="362803" Value="Artykuł"/>
+    <Text ID="362804" Value="Passw"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Przepis/Opis"/>
+    <Text ID="362807" Value="Ustawienie"/>
+    <Text ID="362808" Value="Maszyna"/>
+    <Text ID="362809" Value="Op wykaz"/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Statystyka"/>
+    <Text ID="362812" Value="Digital I/O"/>
+    <Text ID="362813" Value="Analog I/O"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="Graph"/>
+    <Text ID="362816" Value="IoAlarm"/>
+    <Text ID="362817" Value="Live Data"/>
+    <Text ID="362818" Value="Szyna"/>
+    <Text ID="362819" Value="Seperator"/>
+    <Text ID="362820" Value="Wprowadzarka:"/>
+    <Text ID="362821" Value="Ironer"/>
+    <Text ID="362822" Value="Składarka:"/>
+    <Text ID="362823" Value="Sztaplarka:"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Prędkość:"/>
+    <Text ID="362826" Value="Test"/>
+    <Text ID="362827" Value="Front"/>
+    <Text ID="362828" Value="Side"/>
+    <Text ID="362829" Value="Rear"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Odśwież"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Przegląd"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="Система"/>
+    <Text ID="362780" Value="Система"/>
+    <Text ID="362781" Value="Клиент"/>
+    <Text ID="362782" Value="Подробности"/>
+    <Text ID="362783" Value="конфигурация"/>
+    <Text ID="362784" Value="Файлы"/>
+    <Text ID="362785" Value="Копировать:"/>
+    <Text ID="362786" Value="Выбор"/>
+    <Text ID="362787" Value="Редактировать"/>
+    <Text ID="362788" Value="Трассирование"/>
+    <Text ID="362789" Value="Резервирование"/>
+    <Text ID="362790" Value="IP Конфигурация"/>
+    <Text ID="362791" Value="Установить"/>
+    <Text ID="362792" Value="История"/>
+    <Text ID="362793" Value="инфо"/>
+    <Text ID="362794" Value="Сервис"/>
+    <Text ID="362795" Value="Машина"/>
+    <Text ID="362796" Value="Диагностика Входа/Выхода"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Обход"/>
+    <Text ID="362799" Value="Аппаратные средства ЭВМ"/>
+    <Text ID="362800" Value="Протокол"/>
+    <Text ID="362801" Value="Преобразователь"/>
+    <Text ID="362802" Value="Тревога"/>
+    <Text ID="362803" Value="Изделие"/>
+    <Text ID="362804" Value="Пароль"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Программа"/>
+    <Text ID="362807" Value="Установить"/>
+    <Text ID="362808" Value="Машина"/>
+    <Text ID="362809" Value="Список Опер."/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Статистика"/>
+    <Text ID="362812" Value="Цифровой ввод/вывод"/>
+    <Text ID="362813" Value="Аналоговый вход/выход"/>
+    <Text ID="362814" Value="Язык XML"/>
+    <Text ID="362815" Value="График"/>
+    <Text ID="362816" Value="Сигнализация Входа/Выхода"/>
+    <Text ID="362817" Value="Оперативные Данные"/>
+    <Text ID="362818" Value="Рельс"/>
+    <Text ID="362819" Value="Seperator"/>
+    <Text ID="362820" Value="Фидер:"/>
+    <Text ID="362821" Value="Каток"/>
+    <Text ID="362822" Value="Складыватель"/>
+    <Text ID="362823" Value="Штабелёр"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Скорость:"/>
+    <Text ID="362826" Value="Тест"/>
+    <Text ID="362827" Value="Front"/>
+    <Text ID="362828" Value="Side"/>
+    <Text ID="362829" Value="Rear"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Обновить"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Обзор"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="System"/>
+    <Text ID="362780" Value="System"/>
+    <Text ID="362781" Value="Custom"/>
+    <Text ID="362782" Value="Details"/>
+    <Text ID="362783" Value="Config"/>
+    <Text ID="362784" Value="Files:"/>
+    <Text ID="362785" Value="Copy:"/>
+    <Text ID="362786" Value="Select"/>
+    <Text ID="362787" Value="Edit"/>
+    <Text ID="362788" Value="Trace"/>
+    <Text ID="362789" Value="Backup"/>
+    <Text ID="362790" Value="IP Conf"/>
+    <Text ID="362791" Value="Setup"/>
+    <Text ID="362792" Value="History"/>
+    <Text ID="362793" Value="Info"/>
+    <Text ID="362794" Value="Service"/>
+    <Text ID="362795" Value="Machine"/>
+    <Text ID="362796" Value="I/O Diag"/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Bypass"/>
+    <Text ID="362799" Value="Hardware"/>
+    <Text ID="362800" Value="Logbook"/>
+    <Text ID="362801" Value="Inverter"/>
+    <Text ID="362802" Value="Alarm"/>
+    <Text ID="362803" Value="Article"/>
+    <Text ID="362804" Value="Passw"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Recipe"/>
+    <Text ID="362807" Value="Setup"/>
+    <Text ID="362808" Value="Machine"/>
+    <Text ID="362809" Value="Op List"/>
+    <Text ID="362810" Value="Cockpit Log"/>
+    <Text ID="362811" Value="Statistic"/>
+    <Text ID="362812" Value="Digital I/O"/>
+    <Text ID="362813" Value="Analog I/O"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="Graph"/>
+    <Text ID="362816" Value="IoAlarm"/>
+    <Text ID="362817" Value="Realtime"/>
+    <Text ID="362818" Value="Rail"/>
+    <Text ID="362819" Value="Seperator"/>
+    <Text ID="362820" Value="Feeder"/>
+    <Text ID="362821" Value="Ironer"/>
+    <Text ID="362822" Value="Folder"/>
+    <Text ID="362823" Value="Stacker"/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value="Speed"/>
+    <Text ID="362826" Value="Test"/>
+    <Text ID="362827" Value="Front"/>
+    <Text ID="362828" Value="Side"/>
+    <Text ID="362829" Value="Rear"/>
+    <Text ID="364869" Value="IO Modules"/>
+    <Text ID="364872" Value="Stop Trace"/>
+    <Text ID="364873" Value="Trig Trace"/>
+    <Text ID="364874" Value="Trace Graph"/>
+    <Text ID="364875" Value="Reset Trace"/>
+    <Text ID="364876" Value="Start Trace"/>
+    <Text ID="364877" Value="Add To Trace"/>
+    <Text ID="364878" Value="Refresh"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Interface"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Com"/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Task information"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Overview"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value=""/>
+    <Text ID="362780" Value=""/>
+    <Text ID="362781" Value=""/>
+    <Text ID="362782" Value=""/>
+    <Text ID="362783" Value=""/>
+    <Text ID="362784" Value=""/>
+    <Text ID="362785" Value=""/>
+    <Text ID="362786" Value=""/>
+    <Text ID="362787" Value=""/>
+    <Text ID="362788" Value=""/>
+    <Text ID="362789" Value=""/>
+    <Text ID="362790" Value=""/>
+    <Text ID="362791" Value=""/>
+    <Text ID="362792" Value=""/>
+    <Text ID="362793" Value=""/>
+    <Text ID="362794" Value=""/>
+    <Text ID="362795" Value=""/>
+    <Text ID="362796" Value=""/>
+    <Text ID="362797" Value=""/>
+    <Text ID="362798" Value=""/>
+    <Text ID="362799" Value=""/>
+    <Text ID="362800" Value=""/>
+    <Text ID="362801" Value=""/>
+    <Text ID="362802" Value=""/>
+    <Text ID="362803" Value=""/>
+    <Text ID="362804" Value=""/>
+    <Text ID="362805" Value=""/>
+    <Text ID="362806" Value=""/>
+    <Text ID="362807" Value=""/>
+    <Text ID="362808" Value=""/>
+    <Text ID="362809" Value=""/>
+    <Text ID="362810" Value=""/>
+    <Text ID="362811" Value=""/>
+    <Text ID="362812" Value=""/>
+    <Text ID="362813" Value=""/>
+    <Text ID="362814" Value=""/>
+    <Text ID="362815" Value=""/>
+    <Text ID="362816" Value=""/>
+    <Text ID="362817" Value=""/>
+    <Text ID="362818" Value=""/>
+    <Text ID="362819" Value=""/>
+    <Text ID="362820" Value=""/>
+    <Text ID="362821" Value=""/>
+    <Text ID="362822" Value=""/>
+    <Text ID="362823" Value=""/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value=""/>
+    <Text ID="362826" Value=""/>
+    <Text ID="362827" Value=""/>
+    <Text ID="362828" Value=""/>
+    <Text ID="362829" Value=""/>
+    <Text ID="364869" Value=""/>
+    <Text ID="364872" Value=""/>
+    <Text ID="364873" Value=""/>
+    <Text ID="364874" Value=""/>
+    <Text ID="364875" Value=""/>
+    <Text ID="364876" Value=""/>
+    <Text ID="364877" Value=""/>
+    <Text ID="364878" Value=""/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value=""/>
+    <Text ID="365886" Value=""/>
+    <Text ID="365887" Value=""/>
+    <Text ID="367125" Value=""/>
+    <Text ID="389411" Value=""/>
+    <Text ID="399705" Value=""/>
+    <Text ID="399706" Value=""/>
+    <Text ID="399707" Value=""/>
+    <Text ID="399708" Value=""/>
+    <Text ID="399709" Value=""/>
+    <Text ID="399710" Value=""/>
+    <Text ID="404948" Value=""/>
+    <Text ID="406564" Value=""/>
+    <Text ID="406565" Value=""/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="概述"/>
+    <Text ID="605547" Value=""/>
+    <Text ID="612127" Value=""/>
+    <Text ID="612128" Value=""/>
+    <Text ID="612129" Value=""/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value=""/>
+    <Text ID="362780" Value=""/>
+    <Text ID="362781" Value=""/>
+    <Text ID="362782" Value=""/>
+    <Text ID="362783" Value=""/>
+    <Text ID="362784" Value=""/>
+    <Text ID="362785" Value=""/>
+    <Text ID="362786" Value=""/>
+    <Text ID="362787" Value=""/>
+    <Text ID="362788" Value=""/>
+    <Text ID="362789" Value=""/>
+    <Text ID="362790" Value=""/>
+    <Text ID="362791" Value=""/>
+    <Text ID="362792" Value=""/>
+    <Text ID="362793" Value=""/>
+    <Text ID="362794" Value=""/>
+    <Text ID="362795" Value=""/>
+    <Text ID="362796" Value=""/>
+    <Text ID="362797" Value=""/>
+    <Text ID="362798" Value=""/>
+    <Text ID="362799" Value=""/>
+    <Text ID="362800" Value=""/>
+    <Text ID="362801" Value=""/>
+    <Text ID="362802" Value=""/>
+    <Text ID="362803" Value=""/>
+    <Text ID="362804" Value=""/>
+    <Text ID="362805" Value=""/>
+    <Text ID="362806" Value=""/>
+    <Text ID="362807" Value=""/>
+    <Text ID="362808" Value=""/>
+    <Text ID="362809" Value=""/>
+    <Text ID="362810" Value=""/>
+    <Text ID="362811" Value=""/>
+    <Text ID="362812" Value=""/>
+    <Text ID="362813" Value=""/>
+    <Text ID="362814" Value=""/>
+    <Text ID="362815" Value=""/>
+    <Text ID="362816" Value=""/>
+    <Text ID="362817" Value=""/>
+    <Text ID="362818" Value=""/>
+    <Text ID="362819" Value=""/>
+    <Text ID="362820" Value=""/>
+    <Text ID="362821" Value=""/>
+    <Text ID="362822" Value=""/>
+    <Text ID="362823" Value=""/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value=""/>
+    <Text ID="362826" Value=""/>
+    <Text ID="362827" Value=""/>
+    <Text ID="362828" Value=""/>
+    <Text ID="362829" Value=""/>
+    <Text ID="364869" Value=""/>
+    <Text ID="364872" Value=""/>
+    <Text ID="364873" Value=""/>
+    <Text ID="364874" Value=""/>
+    <Text ID="364875" Value=""/>
+    <Text ID="364876" Value=""/>
+    <Text ID="364877" Value=""/>
+    <Text ID="364878" Value=""/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value=""/>
+    <Text ID="365886" Value=""/>
+    <Text ID="365887" Value=""/>
+    <Text ID="367125" Value=""/>
+    <Text ID="389411" Value=""/>
+    <Text ID="399705" Value=""/>
+    <Text ID="399706" Value=""/>
+    <Text ID="399707" Value=""/>
+    <Text ID="399708" Value=""/>
+    <Text ID="399709" Value=""/>
+    <Text ID="399710" Value=""/>
+    <Text ID="404948" Value=""/>
+    <Text ID="406564" Value=""/>
+    <Text ID="406565" Value=""/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Prehled"/>
+    <Text ID="605547" Value=""/>
+    <Text ID="612127" Value=""/>
+    <Text ID="612128" Value=""/>
+    <Text ID="612129" Value=""/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value=""/>
+    <Text ID="362780" Value=""/>
+    <Text ID="362781" Value=""/>
+    <Text ID="362782" Value=""/>
+    <Text ID="362783" Value=""/>
+    <Text ID="362784" Value=""/>
+    <Text ID="362785" Value=""/>
+    <Text ID="362786" Value=""/>
+    <Text ID="362787" Value=""/>
+    <Text ID="362788" Value=""/>
+    <Text ID="362789" Value=""/>
+    <Text ID="362790" Value=""/>
+    <Text ID="362791" Value=""/>
+    <Text ID="362792" Value=""/>
+    <Text ID="362793" Value=""/>
+    <Text ID="362794" Value=""/>
+    <Text ID="362795" Value=""/>
+    <Text ID="362796" Value=""/>
+    <Text ID="362797" Value=""/>
+    <Text ID="362798" Value=""/>
+    <Text ID="362799" Value=""/>
+    <Text ID="362800" Value=""/>
+    <Text ID="362801" Value=""/>
+    <Text ID="362802" Value=""/>
+    <Text ID="362803" Value=""/>
+    <Text ID="362804" Value=""/>
+    <Text ID="362805" Value=""/>
+    <Text ID="362806" Value=""/>
+    <Text ID="362807" Value=""/>
+    <Text ID="362808" Value=""/>
+    <Text ID="362809" Value=""/>
+    <Text ID="362810" Value=""/>
+    <Text ID="362811" Value=""/>
+    <Text ID="362812" Value=""/>
+    <Text ID="362813" Value=""/>
+    <Text ID="362814" Value=""/>
+    <Text ID="362815" Value=""/>
+    <Text ID="362816" Value=""/>
+    <Text ID="362817" Value=""/>
+    <Text ID="362818" Value=""/>
+    <Text ID="362819" Value=""/>
+    <Text ID="362820" Value=""/>
+    <Text ID="362821" Value=""/>
+    <Text ID="362822" Value=""/>
+    <Text ID="362823" Value=""/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value=""/>
+    <Text ID="362826" Value=""/>
+    <Text ID="362827" Value=""/>
+    <Text ID="362828" Value=""/>
+    <Text ID="362829" Value=""/>
+    <Text ID="364869" Value=""/>
+    <Text ID="364872" Value=""/>
+    <Text ID="364873" Value=""/>
+    <Text ID="364874" Value=""/>
+    <Text ID="364875" Value=""/>
+    <Text ID="364876" Value=""/>
+    <Text ID="364877" Value=""/>
+    <Text ID="364878" Value=""/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value=""/>
+    <Text ID="365886" Value=""/>
+    <Text ID="365887" Value=""/>
+    <Text ID="367125" Value=""/>
+    <Text ID="389411" Value=""/>
+    <Text ID="399705" Value=""/>
+    <Text ID="399706" Value=""/>
+    <Text ID="399707" Value=""/>
+    <Text ID="399708" Value=""/>
+    <Text ID="399709" Value=""/>
+    <Text ID="399710" Value=""/>
+    <Text ID="404948" Value=""/>
+    <Text ID="406564" Value=""/>
+    <Text ID="406565" Value=""/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Overview"/>
+    <Text ID="605547" Value=""/>
+    <Text ID="612127" Value=""/>
+    <Text ID="612128" Value=""/>
+    <Text ID="612129" Value=""/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value="System"/>
+    <Text ID="362780" Value="System"/>
+    <Text ID="362781" Value="Kunde"/>
+    <Text ID="362782" Value="Detaljer:"/>
+    <Text ID="362783" Value="Konfig"/>
+    <Text ID="362784" Value="Filer:"/>
+    <Text ID="362785" Value="Kopier:"/>
+    <Text ID="362786" Value="Velg"/>
+    <Text ID="362787" Value="Redigere"/>
+    <Text ID="362788" Value="Spor"/>
+    <Text ID="362789" Value="Backup"/>
+    <Text ID="362790" Value="IP konf"/>
+    <Text ID="362791" Value="Oppsett"/>
+    <Text ID="362792" Value="Historie"/>
+    <Text ID="362793" Value="Info"/>
+    <Text ID="362794" Value="Service"/>
+    <Text ID="362795" Value="Maskin"/>
+    <Text ID="362796" Value="Innløp/utløp diag."/>
+    <Text ID="362797" Value="M2M [1/2]"/>
+    <Text ID="362798" Value="Bypass"/>
+    <Text ID="362799" Value="Maskinvare"/>
+    <Text ID="362800" Value="Loggbok"/>
+    <Text ID="362801" Value="Inverter"/>
+    <Text ID="362802" Value="Alarm"/>
+    <Text ID="362803" Value="Artikkel"/>
+    <Text ID="362804" Value="Passord"/>
+    <Text ID="362805" Value="Acopos"/>
+    <Text ID="362806" Value="Program"/>
+    <Text ID="362807" Value="Oppsett"/>
+    <Text ID="362808" Value="Maskin"/>
+    <Text ID="362809" Value="Åpne liste"/>
+    <Text ID="362810" Value="Cockpit-logg"/>
+    <Text ID="362811" Value="Statistikk"/>
+    <Text ID="362812" Value="Digital I/O"/>
+    <Text ID="362813" Value="Analog I/O"/>
+    <Text ID="362814" Value="XML"/>
+    <Text ID="362815" Value="Graf"/>
+    <Text ID="362816" Value="Innløp/utløp alarm"/>
+    <Text ID="362817" Value="Livedata"/>
+    <Text ID="362818" Value="Spor"/>
+    <Text ID="362819" Value="Seperator"/>
+    <Text ID="362820" Value="Innmater:"/>
+    <Text ID="362821" Value="Rulle"/>
+    <Text ID="362822" Value="Bretter:"/>
+    <Text ID="362823" Value="Stacker"/>
+    <Text ID="362824" Value="Bak"/>
+    <Text ID="362825" Value="Hastighet"/>
+    <Text ID="362826" Value="Test"/>
+    <Text ID="362827" Value="Forran"/>
+    <Text ID="362828" Value="Side"/>
+    <Text ID="362829" Value="Bakside"/>
+    <Text ID="364869" Value="IO-moduler"/>
+    <Text ID="364872" Value="Stopp sporing"/>
+    <Text ID="364873" Value="Sporing trigger"/>
+    <Text ID="364874" Value="Sporing graf"/>
+    <Text ID="364875" Value="Reset sporing"/>
+    <Text ID="364876" Value="Start sporing"/>
+    <Text ID="364877" Value="Legg til for å spore"/>
+    <Text ID="364878" Value="Oppdater"/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value="Grensesnitt"/>
+    <Text ID="365886" Value="M2M [2/2]"/>
+    <Text ID="365887" Value="Komm."/>
+    <Text ID="367125" Value="M2M"/>
+    <Text ID="389411" Value="Oppgaveinformasjon"/>
+    <Text ID="399705" Value="{Button1}"/>
+    <Text ID="399706" Value="{Button2}"/>
+    <Text ID="399707" Value="{Button3}"/>
+    <Text ID="399708" Value="{Button4}"/>
+    <Text ID="399709" Value="{Button5}"/>
+    <Text ID="399710" Value="{Button6}"/>
+    <Text ID="404948" Value="States"/>
+    <Text ID="406564" Value="Semi"/>
+    <Text ID="406565" Value="Auto"/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Utløp"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Logg"/>
+    <Text ID="567543" Value="Lagre"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Oversikt"/>
+    <Text ID="605547" Value="HMI"/>
+    <Text ID="612127" Value="Reset"/>
+    <Text ID="612128" Value="Sort"/>
+    <Text ID="612129" Value="Top alarms"/>
+    <Text ID="637533" Value="Safety Data"/>
+    <Text ID="637534" Value="Safety AutoLoad"/>
+    <Text ID="637532" Value="Safety"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="204524" Value=""/>
+    <Text ID="362779" Value=""/>
+    <Text ID="362780" Value=""/>
+    <Text ID="362781" Value=""/>
+    <Text ID="362782" Value=""/>
+    <Text ID="362783" Value=""/>
+    <Text ID="362784" Value=""/>
+    <Text ID="362785" Value=""/>
+    <Text ID="362786" Value=""/>
+    <Text ID="362787" Value=""/>
+    <Text ID="362788" Value=""/>
+    <Text ID="362789" Value=""/>
+    <Text ID="362790" Value=""/>
+    <Text ID="362791" Value=""/>
+    <Text ID="362792" Value=""/>
+    <Text ID="362793" Value=""/>
+    <Text ID="362794" Value=""/>
+    <Text ID="362795" Value=""/>
+    <Text ID="362796" Value=""/>
+    <Text ID="362797" Value=""/>
+    <Text ID="362798" Value=""/>
+    <Text ID="362799" Value=""/>
+    <Text ID="362800" Value=""/>
+    <Text ID="362801" Value=""/>
+    <Text ID="362802" Value=""/>
+    <Text ID="362803" Value=""/>
+    <Text ID="362804" Value=""/>
+    <Text ID="362805" Value=""/>
+    <Text ID="362806" Value=""/>
+    <Text ID="362807" Value=""/>
+    <Text ID="362808" Value=""/>
+    <Text ID="362809" Value=""/>
+    <Text ID="362810" Value=""/>
+    <Text ID="362811" Value=""/>
+    <Text ID="362812" Value=""/>
+    <Text ID="362813" Value=""/>
+    <Text ID="362814" Value=""/>
+    <Text ID="362815" Value=""/>
+    <Text ID="362816" Value=""/>
+    <Text ID="362817" Value=""/>
+    <Text ID="362818" Value=""/>
+    <Text ID="362819" Value=""/>
+    <Text ID="362820" Value=""/>
+    <Text ID="362821" Value=""/>
+    <Text ID="362822" Value=""/>
+    <Text ID="362823" Value=""/>
+    <Text ID="362824" Value="Back"/>
+    <Text ID="362825" Value=""/>
+    <Text ID="362826" Value=""/>
+    <Text ID="362827" Value=""/>
+    <Text ID="362828" Value=""/>
+    <Text ID="362829" Value=""/>
+    <Text ID="364869" Value=""/>
+    <Text ID="364872" Value=""/>
+    <Text ID="364873" Value=""/>
+    <Text ID="364874" Value=""/>
+    <Text ID="364875" Value=""/>
+    <Text ID="364876" Value=""/>
+    <Text ID="364877" Value=""/>
+    <Text ID="364878" Value=""/>
+    <Text ID="364879" Value="&lt;"/>
+    <Text ID="364880" Value="&gt;"/>
+    <Text ID="364881" Value=""/>
+    <Text ID="365886" Value=""/>
+    <Text ID="365887" Value=""/>
+    <Text ID="367125" Value=""/>
+    <Text ID="389411" Value=""/>
+    <Text ID="399705" Value=""/>
+    <Text ID="399706" Value=""/>
+    <Text ID="399707" Value=""/>
+    <Text ID="399708" Value=""/>
+    <Text ID="399709" Value=""/>
+    <Text ID="399710" Value=""/>
+    <Text ID="404948" Value=""/>
+    <Text ID="406564" Value=""/>
+    <Text ID="406565" Value=""/>
+    <Text ID="561113" Value="Auto Prog."/>
+    <Text ID="564323" Value="Outlet"/>
+    <Text ID="564324" Value="Communication Status"/>
+    <Text ID="564325" Value="Jenway"/>
+    <Text ID="564326" Value="RS232"/>
+    <Text ID="564327" Value="Log"/>
+    <Text ID="567543" Value="Save"/>
+    <Text ID="573983" Value="List"/>
+    <Text ID="579515" Value="Alarm"/>
+    <Text ID="582750" Value="Vista geral"/>
+    <Text ID="605547" Value=""/>
+    <Text ID="612127" Value=""/>
+    <Text ID="612128" Value=""/>
+    <Text ID="612129" Value=""/>
+    <Text ID="637533" Value=""/>
+    <Text ID="637534" Value=""/>
+    <Text ID="637532" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="204524" Value="0"/>
+    <Index ID="362779" Value="119"/>
+    <Index ID="362780" Value="1"/>
+    <Index ID="362781" Value="3"/>
+    <Index ID="362782" Value="2"/>
+    <Index ID="362783" Value="46"/>
+    <Index ID="362784" Value="42"/>
+    <Index ID="362785" Value="4"/>
+    <Index ID="362786" Value="8"/>
+    <Index ID="362787" Value="9"/>
+    <Index ID="362788" Value="15"/>
+    <Index ID="362789" Value="118"/>
+    <Index ID="362790" Value="122"/>
+    <Index ID="362791" Value="5"/>
+    <Index ID="362792" Value="125"/>
+    <Index ID="362793" Value="121"/>
+    <Index ID="362794" Value="109"/>
+    <Index ID="362795" Value="108"/>
+    <Index ID="362796" Value="23"/>
+    <Index ID="362797" Value="29"/>
+    <Index ID="362798" Value="28"/>
+    <Index ID="362799" Value="102"/>
+    <Index ID="362800" Value="117"/>
+    <Index ID="362801" Value="34"/>
+    <Index ID="362802" Value="124"/>
+    <Index ID="362803" Value="36"/>
+    <Index ID="362804" Value="120"/>
+    <Index ID="362805" Value="39"/>
+    <Index ID="362806" Value="18"/>
+    <Index ID="362807" Value="41"/>
+    <Index ID="362808" Value="127"/>
+    <Index ID="362809" Value="43"/>
+    <Index ID="362810" Value="44"/>
+    <Index ID="362811" Value="40"/>
+    <Index ID="362812" Value="47"/>
+    <Index ID="362813" Value="48"/>
+    <Index ID="362814" Value="49"/>
+    <Index ID="362815" Value="55"/>
+    <Index ID="362816" Value="57"/>
+    <Index ID="362817" Value="60"/>
+    <Index ID="362818" Value="61"/>
+    <Index ID="362819" Value="62"/>
+    <Index ID="362820" Value="63"/>
+    <Index ID="362821" Value="64"/>
+    <Index ID="362822" Value="65"/>
+    <Index ID="362823" Value="66"/>
+    <Index ID="362824" Value="99"/>
+    <Index ID="362825" Value="100"/>
+    <Index ID="362826" Value="101"/>
+    <Index ID="362827" Value="6"/>
+    <Index ID="362828" Value="103"/>
+    <Index ID="362829" Value="104"/>
+    <Index ID="364869" Value="144"/>
+    <Index ID="364872" Value="115"/>
+    <Index ID="364873" Value="114"/>
+    <Index ID="364874" Value="113"/>
+    <Index ID="364875" Value="112"/>
+    <Index ID="364876" Value="111"/>
+    <Index ID="364877" Value="110"/>
+    <Index ID="364878" Value="107"/>
+    <Index ID="364879" Value="21"/>
+    <Index ID="364880" Value="20"/>
+    <Index ID="364881" Value="135"/>
+    <Index ID="365886" Value="30"/>
+    <Index ID="365887" Value="27"/>
+    <Index ID="367125" Value="31"/>
+    <Index ID="389411" Value="123"/>
+    <Index ID="399705" Value="150"/>
+    <Index ID="399706" Value="151"/>
+    <Index ID="399707" Value="152"/>
+    <Index ID="399708" Value="153"/>
+    <Index ID="399709" Value="154"/>
+    <Index ID="399710" Value="155"/>
+    <Index ID="404948" Value="7"/>
+    <Index ID="406564" Value="10"/>
+    <Index ID="406565" Value="11"/>
+    <Index ID="561113" Value="45"/>
+    <Index ID="564323" Value="67"/>
+    <Index ID="564324" Value="68"/>
+    <Index ID="564325" Value="72"/>
+    <Index ID="564326" Value="71"/>
+    <Index ID="564327" Value="70"/>
+    <Index ID="567543" Value="12"/>
+    <Index ID="573983" Value="69"/>
+    <Index ID="579515" Value="98"/>
+    <Index ID="582750" Value="105"/>
+    <Index ID="605547" Value="19"/>
+    <Index ID="612127" Value="137"/>
+    <Index ID="612128" Value="138"/>
+    <Index ID="612129" Value="136"/>
+    <Index ID="637533" Value="161"/>
+    <Index ID="637534" Value="162"/>
+    <Index ID="637532" Value="160"/>
+  </IndexMap>
+</TextGroup>

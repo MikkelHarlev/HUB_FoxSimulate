@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<methodResponse>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>ReadLog</name>
+                    <value>
+                        <base64>T0s=</base64>
+                    </value>
+                </member><member><name>ReadTestLog</name><value><array><data><value><struct><member><name>LogData1</name><value><int>000000</int></value></member><member><name>LogData2</name><value><int>000000</int></value></member><member><name>LogData3</name><value><i4>00000000000</i4></value></member></struct></value></data></array></value></member></struct></param></params></methodResponse>

@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_AutoProgramEdit">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="2"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="315972" Value="Inlet wait time"/>
+    <Text ID="315974" Value="Right Arm"/>
+    <Text ID="315975" Value="Left arm"/>
+    <Text ID="347198" Value="Trouser bypass blades"/>
+    <Text ID="347199" Value="Normal blades"/>
+    <Text ID="347572" Value="Trouser vertical "/>
+    <Text ID="347573" Value="Trouser Ver. and Hor."/>
+    <Text ID="348658" Value="All Bypass blades"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Auto detection"/>
+    <Text ID="352088" Value="Forced trouser"/>
+    <Text ID="358512" Value="Blow point"/>
+    <Text ID="358513" Value="Trouser air blast"/>
+    <Text ID="367281" Value="Forced shirt"/>
+    <Text ID="426012" Value="Forced pajamas"/>
+    <Text ID="432770" Value="Belt run inlet, TC 1"/>
+    <Text ID="433139" Value="Stop belt when feeding in"/>
+    <Text ID="436026" Value="No offset"/>
+    <Text ID="436027" Value="Offset trouser"/>
+    <Text ID="437533" Value="Alignment Off"/>
+    <Text ID="437534" Value="Alignment On"/>
+    <Text ID="448102" Value="Overall off"/>
+    <Text ID="448103" Value="Overall on"/>
+    <Text ID="451796" Value="Stop function"/>
+    <Text ID="451797" Value="Stop on shirts"/>
+    <Text ID="451798" Value="Stop on Trousers"/>
+    <Text ID="452873" Value="Stop on both"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBalst"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="517303" Value="XA OR"/>
+    <Text ID="517305" Value="XA AND"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="315972" Value="Einlauf wartezeit"/>
+    <Text ID="315974" Value="Rechter Arm"/>
+    <Text ID="315975" Value="Linker Arm"/>
+    <Text ID="347198" Value="Hosen: Umgehung Schwerter"/>
+    <Text ID="347199" Value="Normal Schwerter"/>
+    <Text ID="347572" Value="Hosen vertikal "/>
+    <Text ID="347573" Value="Hosen Ver. and Hor."/>
+    <Text ID="348658" Value="Alle: Umgehung Schwerter"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Auto Erkennung"/>
+    <Text ID="352088" Value="Zwangslauf Hosen"/>
+    <Text ID="358512" Value="Blaspunkt"/>
+    <Text ID="358513" Value="Hosen Luft blasen"/>
+    <Text ID="367281" Value="Zwangslauf Shirts"/>
+    <Text ID="426012" Value="Zwangslauf Nachthemden"/>
+    <Text ID="432770" Value="Gurt Einlass laufen, TC 1"/>
+    <Text ID="433139" Value="Gurt stoppen wärend Einlauf"/>
+    <Text ID="436026" Value="Kein Abgleich"/>
+    <Text ID="436027" Value="Bgleich Hosen"/>
+    <Text ID="437533" Value="Ausrichtung aus"/>
+    <Text ID="437534" Value="Ausrichtung An"/>
+    <Text ID="448102" Value="Overall aus"/>
+    <Text ID="448103" Value="Overall an"/>
+    <Text ID="451796" Value="Stop Funktion"/>
+    <Text ID="451797" Value="Stop bei Shirts"/>
+    <Text ID="451798" Value="Stop bei Hosen"/>
+    <Text ID="452873" Value="Stop bei Beiden"/>
+    <Text ID="460857" Value="Latzhosen Aus"/>
+    <Text ID="460858" Value="Latzhosen An"/>
+    <Text ID="461331" Value="Latzhosen Luft blasen"/>
+    <Text ID="461423" Value="Latzhosen Metricon Rezept"/>
+    <Text ID="480958" Value="Implem. Fotozelle vertikal start"/>
+    <Text ID="480959" Value="Implem. Fotozelle vertikal start + end"/>
+    <Text ID="482428" Value="Bügel bereinigen"/>
+    <Text ID="483899" Value="Konst."/>
+    <Text ID="483900" Value="Puls"/>
+    <Text ID="517303" Value="XA OR"/>
+    <Text ID="517305" Value="XA AND"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="315972" Value="Väntetid vid inmatning"/>
+    <Text ID="315974" Value="Höger arm"/>
+    <Text ID="315975" Value="Vänster arm"/>
+    <Text ID="347198" Value="Knivar byxpassering"/>
+    <Text ID="347199" Value="Normal knivfunktion"/>
+    <Text ID="347572" Value="Byxor läses vertikalt"/>
+    <Text ID="347573" Value="Byxor läses vertikalt och horisontellt"/>
+    <Text ID="348658" Value="Knivar passeras"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Automatisk avkänning"/>
+    <Text ID="352088" Value="Alltid som byxor"/>
+    <Text ID="358512" Value="Blåspunkt"/>
+    <Text ID="358513" Value="Byxblås"/>
+    <Text ID="367281" Value="Alltid skjort-typ"/>
+    <Text ID="426012" Value="Tvinga pyjamasfunktion"/>
+    <Text ID="432770" Value="Gångtid band, TC 1"/>
+    <Text ID="433139" Value="Stanna band vid inmatning"/>
+    <Text ID="436026" Value="Ingen offset"/>
+    <Text ID="436027" Value="Offset trouser"/>
+    <Text ID="437533" Value="Linjering av"/>
+    <Text ID="437534" Value="Linjering på"/>
+    <Text ID="448102" Value="Overall av"/>
+    <Text ID="448103" Value="Overall på"/>
+    <Text ID="451796" Value="Stop funktion"/>
+    <Text ID="451797" Value="Stop på tröja"/>
+    <Text ID="451798" Value="Stop på byxor"/>
+    <Text ID="452873" Value="Stop på båda"/>
+    <Text ID="460857" Value="Klaff byxor av"/>
+    <Text ID="460858" Value="Klaff byxor på"/>
+    <Text ID="461331" Value="Klaff byxblås"/>
+    <Text ID="461423" Value="Klaff byxblås-Metriconrecept"/>
+    <Text ID="480958" Value="Använd fotocell vertikal start"/>
+    <Text ID="480959" Value="Använd fotocell vertikal start samt slut"/>
+    <Text ID="482428" Value="Galgrengöring"/>
+    <Text ID="483899" Value="Konstant"/>
+    <Text ID="483900" Value="puls"/>
+    <Text ID="517303" Value="XA OR"/>
+    <Text ID="517305" Value="XA AND"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="315972" Value="Attente entrée"/>
+    <Text ID="315974" Value="Bras droit"/>
+    <Text ID="315975" Value="Bras gauche"/>
+    <Text ID="347198" Value="Lames de contournement pantalon"/>
+    <Text ID="347199" Value="Lames normales"/>
+    <Text ID="347572" Value="Pantalon vertical "/>
+    <Text ID="347573" Value="Pantalon vertic. et horiz."/>
+    <Text ID="348658" Value="Toutes les lames de contournement"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Détection auto"/>
+    <Text ID="352088" Value="Pantalon forcé"/>
+    <Text ID="358512" Value="Point de soufflage"/>
+    <Text ID="358513" Value="Soufflerie pantalon"/>
+    <Text ID="367281" Value="Chemise forcée"/>
+    <Text ID="426012" Value="Pyjama forcé"/>
+    <Text ID="432770" Value="Fonctionnement courroie entrée, TC 1"/>
+    <Text ID="433139" Value="Arrêt courroie lors de l'engagement"/>
+    <Text ID="436026" Value="Pas de décalage"/>
+    <Text ID="436027" Value="Décalage pantalon"/>
+    <Text ID="437533" Value="Désactivation alignement"/>
+    <Text ID="437534" Value="Activation alignement"/>
+    <Text ID="448102" Value="Désactivation salopettes"/>
+    <Text ID="448103" Value="Activation salopettes"/>
+    <Text ID="451796" Value="Fonction d'arrêt"/>
+    <Text ID="451797" Value="Arrêt sur chemises"/>
+    <Text ID="451798" Value="Arrêt sur pantalons"/>
+    <Text ID="452873" Value="Arrêt sur les deux"/>
+    <Text ID="460857" Value="Désactivation volet pantalons"/>
+    <Text ID="460858" Value="Activation volet pantalons"/>
+    <Text ID="461331" Value="Flap Trousers Air Blast"/>
+    <Text ID="461423" Value="Volet pantalons- programme Metricon"/>
+    <Text ID="480958" Value="Ajouter Démarr. PH vertical"/>
+    <Text ID="480959" Value="Ajouter Démarr. + fin PH vertical"/>
+    <Text ID="482428" Value="Nettoyage cintres"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="Impulsion"/>
+    <Text ID="517303" Value="XA OU"/>
+    <Text ID="517305" Value="XA ET"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="315972" Value="Ventetid indløb"/>
+    <Text ID="315974" Value="Høyre Arm"/>
+    <Text ID="315975" Value="Venstre Arm"/>
+    <Text ID="347198" Value="Bypass bukser"/>
+    <Text ID="347199" Value="Normale foldeplader"/>
+    <Text ID="347572" Value="Vertikal Fotocelle"/>
+    <Text ID="347573" Value="Begge fotoseller"/>
+    <Text ID="348658" Value="Bypass allt"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Skill automatisk"/>
+    <Text ID="352088" Value="Registrer alt som bukse"/>
+    <Text ID="358512" Value="Blæse punkt"/>
+    <Text ID="358513" Value="Blæs bukser"/>
+    <Text ID="367281" Value="Registrer alt som jakke"/>
+    <Text ID="426012" Value="Tvunget pyjamas"/>
+    <Text ID="432770" Value="Tid bånd inløb,TC1"/>
+    <Text ID="433139" Value="Stop bånd under indkøring"/>
+    <Text ID="436026" Value="Ingen offsett"/>
+    <Text ID="436027" Value="Offsett Bukser"/>
+    <Text ID="437533" Value="Tilpasning fra"/>
+    <Text ID="437534" Value="Tilpasning til"/>
+    <Text ID="448102" Value="Overall off"/>
+    <Text ID="448103" Value="Overall on"/>
+    <Text ID="451796" Value="Stop funktion"/>
+    <Text ID="451797" Value="Stop on shirts"/>
+    <Text ID="451798" Value="Stop on Trousers"/>
+    <Text ID="452873" Value="Stop on both"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBalst"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="517303" Value="XA OR"/>
+    <Text ID="517305" Value="XA AND"/>
+    <Text ID="524069" Value="Meget Tykt Off"/>
+    <Text ID="524070" Value="Meget Tykt On"/>
+    <Text ID="524071" Value="Hæv Foldeplader Off"/>
+    <Text ID="524072" Value="Hæv Foldeplader On"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="315972" Value="Tempo Attesa Ingresso"/>
+    <Text ID="315974" Value="Braccio Destro"/>
+    <Text ID="315975" Value="Braccio Sinistro"/>
+    <Text ID="347198" Value="Lame di Bypass pantaloni"/>
+    <Text ID="347199" Value="Lame Normali"/>
+    <Text ID="347572" Value="Fotocellula Verticale"/>
+    <Text ID="347573" Value="Fotocellula Vert. ed Orizz."/>
+    <Text ID="348658" Value="Lame di Tutto Bypass "/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Auto Rilevazione"/>
+    <Text ID="352088" Value="Pantaloni Forzati"/>
+    <Text ID="358512" Value="Punto di Soffio"/>
+    <Text ID="358513" Value="Soffio Pantaloni"/>
+    <Text ID="367281" Value="Magliette Forzati"/>
+    <Text ID="426012" Value="Pigiami Forzati"/>
+    <Text ID="432770" Value="Corsa Cinghie d' Ingresso"/>
+    <Text ID="433139" Value="Arresto Cinghie quando si Introduce"/>
+    <Text ID="436026" Value="No compensazione"/>
+    <Text ID="436027" Value="Compensazione Pantaloni"/>
+    <Text ID="437533" Value="Allineamento Off"/>
+    <Text ID="437534" Value="Allineamento On"/>
+    <Text ID="448102" Value="Tute Off"/>
+    <Text ID="448103" Value="Tute ON"/>
+    <Text ID="451796" Value="Stop Funzioni"/>
+    <Text ID="451797" Value="Stop a magliette"/>
+    <Text ID="451798" Value="Stop a Pantaloni"/>
+    <Text ID="452873" Value="Stop entrambe"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBalst"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="517303" Value="XA OR"/>
+    <Text ID="517305" Value="XA AND"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="315972" Value="Inlet wait time"/>
+    <Text ID="315974" Value="Right Arm"/>
+    <Text ID="315975" Value="Left arm"/>
+    <Text ID="347198" Value="Trouser bypass blades"/>
+    <Text ID="347199" Value="Normal blades"/>
+    <Text ID="347572" Value="Trouser vertical "/>
+    <Text ID="347573" Value="Trouser Ver. and Hor."/>
+    <Text ID="348658" Value="Complete bypass "/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Auto detection"/>
+    <Text ID="352088" Value="Forced trouser"/>
+    <Text ID="358512" Value="Blow point"/>
+    <Text ID="358513" Value="Trouser air blast"/>
+    <Text ID="367281" Value="Forced shirt"/>
+    <Text ID="426012" Value="Forced pajamas"/>
+    <Text ID="432770" Value="Belt run inlet, TC 1"/>
+    <Text ID="433139" Value="Stop belt when feeding in"/>
+    <Text ID="436026" Value="No offset"/>
+    <Text ID="436027" Value="Offset trouser"/>
+    <Text ID="437533" Value="Alignment Off"/>
+    <Text ID="437534" Value="Alignment On"/>
+    <Text ID="448102" Value="Overall off"/>
+    <Text ID="448103" Value="Overall on"/>
+    <Text ID="451796" Value="Stop function"/>
+    <Text ID="451797" Value="Stop on shirts"/>
+    <Text ID="451798" Value="Stop on Trousers"/>
+    <Text ID="452873" Value="Stop on both"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBalst"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="517303" Value="XA OR"/>
+    <Text ID="517305" Value="XA AND"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="315972" Value="Wachttijd invoer"/>
+    <Text ID="315974" Value="Rechter arm"/>
+    <Text ID="315975" Value="Linker arm"/>
+    <Text ID="347198" Value="Broeken bypass schuiven"/>
+    <Text ID="347199" Value="Schuiven normaal"/>
+    <Text ID="347572" Value="Broeken vertikaal "/>
+    <Text ID="347573" Value="Broeken Ver. en Hor."/>
+    <Text ID="348658" Value="Alles bypass schuiven"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Auto detectie"/>
+    <Text ID="352088" Value="Geforceerde broek"/>
+    <Text ID="358512" Value="Blaaspunt"/>
+    <Text ID="358513" Value="Luchtblazer voor broeken"/>
+    <Text ID="367281" Value="Geforceerd overhemd"/>
+    <Text ID="426012" Value="Geforceerd pyjama's"/>
+    <Text ID="432770" Value="Invoer bandloop, TC 1"/>
+    <Text ID="433139" Value="Singels stoppen bij invoeren"/>
+    <Text ID="436026" Value="Geen offset"/>
+    <Text ID="436027" Value="Offset broek"/>
+    <Text ID="437533" Value="Uitlijning Uit"/>
+    <Text ID="437534" Value="Uitlijning Aan"/>
+    <Text ID="448102" Value="Overall uit"/>
+    <Text ID="448103" Value="Overall aan"/>
+    <Text ID="451796" Value="Stopfunctie"/>
+    <Text ID="451797" Value="Stop bij shirts"/>
+    <Text ID="451798" Value="Stop bij broeken"/>
+    <Text ID="452873" Value="Stop op beide"/>
+    <Text ID="460857" Value="Klepbroek Uit"/>
+    <Text ID="460858" Value="Klepbroek Aan"/>
+    <Text ID="461331" Value="Flap Trousers Air Blast"/>
+    <Text ID="461423" Value="Klepbroek - Metricon programma"/>
+    <Text ID="480958" Value="Tvg. fotocel verticaal start"/>
+    <Text ID="480959" Value="Tvg. fotocel verticaal start + einde"/>
+    <Text ID="482428" Value="Hangerreiniging"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="Impuls"/>
+    <Text ID="517303" Value="XA OF"/>
+    <Text ID="517305" Value="XA EN"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="315972" Value="Tiempo entre Separador y Transportador perchas"/>
+    <Text ID="315974" Value="Manga derecha"/>
+    <Text ID="315975" Value="Manga izquierda"/>
+    <Text ID="347198" Value="No usar cuchillas en pantalón"/>
+    <Text ID="347199" Value="Cuchillas en uso normal"/>
+    <Text ID="347572" Value="Pantalón\n Sólo fotocélula vertical en borde trasero"/>
+    <Text ID="347573" Value="Pantalón\n Fotocélula Vertical y Horizontal en borde trasero"/>
+    <Text ID="348658" Value="No usar cuchillas en ninguna prenda"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Auto detección"/>
+    <Text ID="352088" Value="Forzado pantalón"/>
+    <Text ID="358512" Value="Punto de soplado"/>
+    <Text ID="358513" Value="Soplado de pantalón"/>
+    <Text ID="367281" Value="Forzado camisas"/>
+    <Text ID="426012" Value="Forzado pijamas"/>
+    <Text ID="432770" Value="Tiempo del Transportador superior"/>
+    <Text ID="433139" Value="Parar cinta mientras se alimenta"/>
+    <Text ID="436026" Value="Sin compensación"/>
+    <Text ID="436027" Value="Compensación pantalón"/>
+    <Text ID="437533" Value="Alineamiento habilitado"/>
+    <Text ID="437534" Value="Alineamiento deshabilitado"/>
+    <Text ID="448102" Value="Mono/funda deshabilitado"/>
+    <Text ID="448103" Value="Mono/funda habilitado"/>
+    <Text ID="451796" Value="Función de parada"/>
+    <Text ID="451797" Value="Sólo parar en camisas"/>
+    <Text ID="451798" Value="Sólo parar en pantalón"/>
+    <Text ID="452873" Value="Parar en ambos"/>
+    <Text ID="460857" Value="Peto Inhabilitado"/>
+    <Text ID="460858" Value="Peto Habilitado"/>
+    <Text ID="461331" Value="Soplado de petos"/>
+    <Text ID="461423" Value="Petos - Programa de Metricon "/>
+    <Text ID="480958" Value="Añadir fotocélula vertical inicio"/>
+    <Text ID="480959" Value="Añadir fotocélula vertical inicio + fin"/>
+    <Text ID="482428" Value="Limpieza perchas"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulso"/>
+    <Text ID="517303" Value="XA OR"/>
+    <Text ID="517305" Value="XA AND"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="315972" Value="Czas oczekiwania wlotu"/>
+    <Text ID="315974" Value="Prawe ramię"/>
+    <Text ID="315975" Value="Lewe ramię"/>
+    <Text ID="347198" Value="Łopatki obejścia spodni"/>
+    <Text ID="347199" Value="Łopatki normalne"/>
+    <Text ID="347572" Value="Spodnie pionowo "/>
+    <Text ID="347573" Value="Spodnie pion. i poz."/>
+    <Text ID="348658" Value="Wszystkie łopatki obejścia"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Wykrywanie automatyczne"/>
+    <Text ID="352088" Value="Wymuszone spodnie"/>
+    <Text ID="358512" Value="Punkt nadmuchu"/>
+    <Text ID="358513" Value="Nadmuch powietrza na spodnie"/>
+    <Text ID="367281" Value="Wymuszone koszule"/>
+    <Text ID="426012" Value="Wymuszone piżamy"/>
+    <Text ID="432770" Value="Ruch taśmy na wlocie, TC 1"/>
+    <Text ID="433139" Value="Zatrzymanie taśmy do wprowadzania"/>
+    <Text ID="436026" Value="Bez przesunięcia"/>
+    <Text ID="436027" Value="Przesunięcie spodni"/>
+    <Text ID="437533" Value="Wyłączenie wyrównania"/>
+    <Text ID="437534" Value="Włączenie wyrównania"/>
+    <Text ID="448102" Value="Kombinezony wyłączone"/>
+    <Text ID="448103" Value="Kombinezony włączone"/>
+    <Text ID="451796" Value="Funkcja zatrzymania"/>
+    <Text ID="451797" Value="Zatrzymanie dla koszul"/>
+    <Text ID="451798" Value="Zatrzymanie dla spodni"/>
+    <Text ID="452873" Value="Zatrzymanie dla obu"/>
+    <Text ID="460857" Value="Spodnie z klapkami wył"/>
+    <Text ID="460858" Value="Spodnie z klapkami wł"/>
+    <Text ID="461331" Value="Flap Trousers Air Blast"/>
+    <Text ID="461423" Value="Spodnie z klapką - receptura Metricon"/>
+    <Text ID="480958" Value="Dodatk. PH pionowy początek"/>
+    <Text ID="480959" Value="Dodatk. PH pionowy początek + koniec"/>
+    <Text ID="482428" Value="Czyszczenie wieszaków"/>
+    <Text ID="483899" Value="stałe"/>
+    <Text ID="483900" Value="pulsacyjne"/>
+    <Text ID="517303" Value="XA LUB"/>
+    <Text ID="517305" Value="XA I"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="315972" Value=""/>
+    <Text ID="315974" Value=""/>
+    <Text ID="315975" Value=""/>
+    <Text ID="347198" Value=""/>
+    <Text ID="347199" Value=""/>
+    <Text ID="347572" Value=""/>
+    <Text ID="347573" Value=""/>
+    <Text ID="348658" Value=""/>
+    <Text ID="352068" Value=""/>
+    <Text ID="352087" Value=""/>
+    <Text ID="352088" Value=""/>
+    <Text ID="358512" Value=""/>
+    <Text ID="358513" Value=""/>
+    <Text ID="367281" Value=""/>
+    <Text ID="426012" Value=""/>
+    <Text ID="432770" Value=""/>
+    <Text ID="433139" Value=""/>
+    <Text ID="436026" Value=""/>
+    <Text ID="436027" Value=""/>
+    <Text ID="437533" Value=""/>
+    <Text ID="437534" Value=""/>
+    <Text ID="448102" Value=""/>
+    <Text ID="448103" Value=""/>
+    <Text ID="451796" Value=""/>
+    <Text ID="451797" Value=""/>
+    <Text ID="451798" Value=""/>
+    <Text ID="452873" Value=""/>
+    <Text ID="460857" Value=""/>
+    <Text ID="460858" Value=""/>
+    <Text ID="461331" Value=""/>
+    <Text ID="461423" Value=""/>
+    <Text ID="480958" Value=""/>
+    <Text ID="480959" Value=""/>
+    <Text ID="482428" Value=""/>
+    <Text ID="483899" Value=""/>
+    <Text ID="483900" Value=""/>
+    <Text ID="517303" Value=""/>
+    <Text ID="517305" Value=""/>
+    <Text ID="524069" Value=""/>
+    <Text ID="524070" Value=""/>
+    <Text ID="524071" Value=""/>
+    <Text ID="524072" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="315972" Value=""/>
+    <Text ID="315974" Value=""/>
+    <Text ID="315975" Value=""/>
+    <Text ID="347198" Value=""/>
+    <Text ID="347199" Value=""/>
+    <Text ID="347572" Value=""/>
+    <Text ID="347573" Value=""/>
+    <Text ID="348658" Value=""/>
+    <Text ID="352068" Value=""/>
+    <Text ID="352087" Value=""/>
+    <Text ID="352088" Value=""/>
+    <Text ID="358512" Value=""/>
+    <Text ID="358513" Value=""/>
+    <Text ID="367281" Value=""/>
+    <Text ID="426012" Value=""/>
+    <Text ID="432770" Value=""/>
+    <Text ID="433139" Value=""/>
+    <Text ID="436026" Value=""/>
+    <Text ID="436027" Value=""/>
+    <Text ID="437533" Value=""/>
+    <Text ID="437534" Value=""/>
+    <Text ID="448102" Value=""/>
+    <Text ID="448103" Value=""/>
+    <Text ID="451796" Value=""/>
+    <Text ID="451797" Value=""/>
+    <Text ID="451798" Value=""/>
+    <Text ID="452873" Value=""/>
+    <Text ID="460857" Value=""/>
+    <Text ID="460858" Value=""/>
+    <Text ID="461331" Value=""/>
+    <Text ID="461423" Value=""/>
+    <Text ID="480958" Value=""/>
+    <Text ID="480959" Value=""/>
+    <Text ID="482428" Value=""/>
+    <Text ID="483899" Value=""/>
+    <Text ID="483900" Value=""/>
+    <Text ID="517303" Value=""/>
+    <Text ID="517305" Value=""/>
+    <Text ID="524069" Value=""/>
+    <Text ID="524070" Value=""/>
+    <Text ID="524071" Value=""/>
+    <Text ID="524072" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="315972" Value="Czas oczekiwania wlotu"/>
+    <Text ID="315974" Value="Prawe ramię"/>
+    <Text ID="315975" Value="Lewe ramię"/>
+    <Text ID="347198" Value="Łopatki obejścia spodni"/>
+    <Text ID="347199" Value="Łopatki normalne"/>
+    <Text ID="347572" Value="Spodnie pionowo "/>
+    <Text ID="347573" Value="Spodnie pion. i poz."/>
+    <Text ID="348658" Value="Wszystkie łopatki obejścia"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Wykrywanie automatyczne"/>
+    <Text ID="352088" Value="Wymuszone spodnie"/>
+    <Text ID="358512" Value="Punkt nadmuchu"/>
+    <Text ID="358513" Value="Nadmuch powietrza na spodnie"/>
+    <Text ID="367281" Value="Wymuszone koszule"/>
+    <Text ID="426012" Value="Wymuszone piżamy"/>
+    <Text ID="432770" Value="Ruch taśmy na wlocie, TC 1"/>
+    <Text ID="433139" Value="Zatrzymanie taśmy do wprowadzania"/>
+    <Text ID="436026" Value="Bez przesunięcia"/>
+    <Text ID="436027" Value="Przesunięcie spodni"/>
+    <Text ID="437533" Value="Wyłączenie wyrównania"/>
+    <Text ID="437534" Value="Włączenie wyrównania"/>
+    <Text ID="448102" Value="Kombinezony wyłączone"/>
+    <Text ID="448103" Value="Kombinezony włączone"/>
+    <Text ID="451796" Value="Funkcja zatrzymania"/>
+    <Text ID="451797" Value="Zatrzymanie dla koszul"/>
+    <Text ID="451798" Value="Zatrzymanie dla spodni"/>
+    <Text ID="452873" Value="Zatrzymanie dla obu"/>
+    <Text ID="460857" Value="Spodnie z klapkami wył"/>
+    <Text ID="460858" Value="Spodnie z klapkami wł"/>
+    <Text ID="461331" Value="Flap Trousers Air Blast"/>
+    <Text ID="461423" Value="Spodnie z klapką - receptura Metricon"/>
+    <Text ID="480958" Value="Dodatk. PH pionowy początek"/>
+    <Text ID="480959" Value="Dodatk. PH pionowy początek + koniec"/>
+    <Text ID="482428" Value="Czyszczenie wieszaków"/>
+    <Text ID="483899" Value="stałe"/>
+    <Text ID="483900" Value="pulsacyjne"/>
+    <Text ID="517303" Value="XA LUB"/>
+    <Text ID="517305" Value="XA I"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="315972" Value="Inlet wait time"/>
+    <Text ID="315974" Value="Right Arm"/>
+    <Text ID="315975" Value="Left arm"/>
+    <Text ID="347198" Value="Trouser bypass blades"/>
+    <Text ID="347199" Value="Normal blades"/>
+    <Text ID="347572" Value="Trouser vertical "/>
+    <Text ID="347573" Value="Trouser Ver. and Hor."/>
+    <Text ID="348658" Value="All Bypass blades"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Auto detection"/>
+    <Text ID="352088" Value="Forced trouser"/>
+    <Text ID="358512" Value="Blow point"/>
+    <Text ID="358513" Value="Trouser air blast"/>
+    <Text ID="367281" Value="Forced shirt"/>
+    <Text ID="426012" Value="Forced pajamas"/>
+    <Text ID="432770" Value="Belt run inlet, TC 1"/>
+    <Text ID="433139" Value="Stop belt when feeding in"/>
+    <Text ID="436026" Value="No offset"/>
+    <Text ID="436027" Value="Offset trouser"/>
+    <Text ID="437533" Value="Alignment Off"/>
+    <Text ID="437534" Value="Alignment On"/>
+    <Text ID="448102" Value="Overall off"/>
+    <Text ID="448103" Value="Overall on"/>
+    <Text ID="451796" Value="Stop function"/>
+    <Text ID="451797" Value="Stop on shirts"/>
+    <Text ID="451798" Value="Stop on Trousers"/>
+    <Text ID="452873" Value="Stop on both"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBalst"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="517303" Value="XA OR"/>
+    <Text ID="517305" Value="XA AND"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="315972" Value="Inlet wait time"/>
+    <Text ID="315974" Value="Right Arm"/>
+    <Text ID="315975" Value="Left arm"/>
+    <Text ID="347198" Value="Trouser bypass blades"/>
+    <Text ID="347199" Value="Normal blades"/>
+    <Text ID="347572" Value="Trouser vertical "/>
+    <Text ID="347573" Value="Trouser Ver. and Hor."/>
+    <Text ID="348658" Value="All Bypass blades"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Auto detection"/>
+    <Text ID="352088" Value="Forced trouser"/>
+    <Text ID="358512" Value="Blow point"/>
+    <Text ID="358513" Value="Trouser air blast"/>
+    <Text ID="367281" Value="Forced shirt"/>
+    <Text ID="426012" Value="Forced pajamas"/>
+    <Text ID="432770" Value="Belt run inlet, TC 1"/>
+    <Text ID="433139" Value="Stop belt when feeding in"/>
+    <Text ID="436026" Value="No offset"/>
+    <Text ID="436027" Value="Offset trouser"/>
+    <Text ID="437533" Value="Alignment Off"/>
+    <Text ID="437534" Value="Alignment On"/>
+    <Text ID="448102" Value="Overall off"/>
+    <Text ID="448103" Value="Overall on"/>
+    <Text ID="451796" Value="Stop function"/>
+    <Text ID="451797" Value="Stop on shirts"/>
+    <Text ID="451798" Value="Stop on Trousers"/>
+    <Text ID="452873" Value="Stop on both"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBalst"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="517303" Value="XA OR"/>
+    <Text ID="517305" Value="XA AND"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="315972" Value="Ventetid innløp"/>
+    <Text ID="315974" Value="Høyre Arm"/>
+    <Text ID="315975" Value="Venstre Arm"/>
+    <Text ID="347198" Value="Bukser bypass blader"/>
+    <Text ID="347199" Value="Normale Foldeblader"/>
+    <Text ID="347572" Value="Vertikal Fotocelle"/>
+    <Text ID="347573" Value="Begge fotoseller"/>
+    <Text ID="348658" Value="Bypass allt"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Skill automatisk"/>
+    <Text ID="352088" Value="Registrer alt som bukse"/>
+    <Text ID="358512" Value="Blåse punkt"/>
+    <Text ID="358513" Value="Blåsing bukser"/>
+    <Text ID="367281" Value="Registrer alt som jakke"/>
+    <Text ID="426012" Value="Tvunget pysjamas"/>
+    <Text ID="432770" Value="Tid belte på innløp, TC1"/>
+    <Text ID="433139" Value="Stopp belte under innkjøring"/>
+    <Text ID="436026" Value="Ingen offsett"/>
+    <Text ID="436027" Value="Offsett Bukser"/>
+    <Text ID="437533" Value="Tillpassing av"/>
+    <Text ID="437534" Value="Tillpassing på"/>
+    <Text ID="448102" Value="Overall off"/>
+    <Text ID="448103" Value="Overall on"/>
+    <Text ID="451796" Value="Stop function"/>
+    <Text ID="451797" Value="Stop on shirts"/>
+    <Text ID="451798" Value="Stop on Trousers"/>
+    <Text ID="452873" Value="Stop on both"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBalst"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="517303" Value="XA OR"/>
+    <Text ID="517305" Value="XA AND"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="315972" Value="Tempo de espera da entrada"/>
+    <Text ID="315974" Value="Braço direito"/>
+    <Text ID="315975" Value="Braço esquerdo"/>
+    <Text ID="347198" Value="Lâminas de desvio para calças"/>
+    <Text ID="347199" Value="Lâminas normais"/>
+    <Text ID="347572" Value="Calças vertical "/>
+    <Text ID="347573" Value="Calças vert. e horiz."/>
+    <Text ID="348658" Value="Todas as lâminas de desvio"/>
+    <Text ID="352068" Value="cm"/>
+    <Text ID="352087" Value="Deteção automática"/>
+    <Text ID="352088" Value="Forçosamente calças"/>
+    <Text ID="358512" Value="Ponto de sopragem"/>
+    <Text ID="358513" Value="Ar a jato para calças"/>
+    <Text ID="367281" Value="Forçosamente batas"/>
+    <Text ID="426012" Value="Forçosamente pijamas"/>
+    <Text ID="432770" Value="Entrada do ciclo da correia, TC 1"/>
+    <Text ID="433139" Value="Parar correia durante alimentação"/>
+    <Text ID="436026" Value="Sem deslocação"/>
+    <Text ID="436027" Value="Deslocação de calças"/>
+    <Text ID="437533" Value="Alinhamento desligado"/>
+    <Text ID="437534" Value="Alinhamento ligado"/>
+    <Text ID="448102" Value="Macacões desligado"/>
+    <Text ID="448103" Value="Macacões ligado"/>
+    <Text ID="451796" Value="Função de paragem"/>
+    <Text ID="451797" Value="Parar em batas"/>
+    <Text ID="451798" Value="Parar em calças"/>
+    <Text ID="452873" Value="Parar em ambas"/>
+    <Text ID="460857" Value="Calças de abas desligado"/>
+    <Text ID="460858" Value="Calças de abas ligado"/>
+    <Text ID="461331" Value="Flap Trousers AirBalst"/>
+    <Text ID="461423" Value="Calças de abas - Receita do Metricon"/>
+    <Text ID="480958" Value="Ad. Início vertical PH"/>
+    <Text ID="480959" Value="Ad. Início + final vertical PH"/>
+    <Text ID="482428" Value="Limpeza de cabides"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="impulso"/>
+    <Text ID="517303" Value="XA OR"/>
+    <Text ID="517305" Value="XA AND"/>
+    <Text ID="524069" Value="Extreme Heavy Off"/>
+    <Text ID="524070" Value="Extreme Heavy On"/>
+    <Text ID="524071" Value="Raise Blades Off"/>
+    <Text ID="524072" Value="Raise Blades On"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="315972" Value="1"/>
+    <Index ID="315974" Value="2"/>
+    <Index ID="315975" Value="3"/>
+    <Index ID="347198" Value="101"/>
+    <Index ID="347199" Value="100"/>
+    <Index ID="347572" Value="110"/>
+    <Index ID="347573" Value="111"/>
+    <Index ID="348658" Value="102"/>
+    <Index ID="352068" Value="10"/>
+    <Index ID="352087" Value="134"/>
+    <Index ID="352088" Value="135"/>
+    <Index ID="358512" Value="14"/>
+    <Index ID="358513" Value="15"/>
+    <Index ID="367281" Value="136"/>
+    <Index ID="426012" Value="137"/>
+    <Index ID="432770" Value="20"/>
+    <Index ID="433139" Value="21"/>
+    <Index ID="436026" Value="150"/>
+    <Index ID="436027" Value="151"/>
+    <Index ID="437533" Value="160"/>
+    <Index ID="437534" Value="161"/>
+    <Index ID="448102" Value="170"/>
+    <Index ID="448103" Value="171"/>
+    <Index ID="451796" Value="22"/>
+    <Index ID="451797" Value="180"/>
+    <Index ID="451798" Value="181"/>
+    <Index ID="452873" Value="182"/>
+    <Index ID="460857" Value="190"/>
+    <Index ID="460858" Value="191"/>
+    <Index ID="461331" Value="24"/>
+    <Index ID="461423" Value="25"/>
+    <Index ID="480958" Value="112"/>
+    <Index ID="480959" Value="113"/>
+    <Index ID="482428" Value="192"/>
+    <Index ID="483899" Value="193"/>
+    <Index ID="483900" Value="194"/>
+    <Index ID="517303" Value="195"/>
+    <Index ID="517305" Value="196"/>
+    <Index ID="524069" Value="197"/>
+    <Index ID="524070" Value="198"/>
+    <Index ID="524071" Value="199"/>
+    <Index ID="524072" Value="200"/>
+  </IndexMap>
+</TextGroup>

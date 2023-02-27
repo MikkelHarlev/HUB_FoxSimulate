@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ExternalDelivery_Long">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="61"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="465914" Value="Convoyer"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Roll-Off"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Curve"/>
+    <Text ID="465920" Value="Central Unit"/>
+    <Text ID="465921" Value="M"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="465914" Value="Band"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Steigband"/>
+    <Text ID="465917" Value="Roll-Off"/>
+    <Text ID="465918" Value="l"/>
+    <Text ID="465919" Value="Kurve"/>
+    <Text ID="465920" Value="Zentrale Einheit"/>
+    <Text ID="465921" Value="Minuten"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="465914" Value="Convoyer"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Roll-Off"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Curve"/>
+    <Text ID="465920" Value="Central Unit"/>
+    <Text ID="465921" Value="M"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="465914" Value="Convoyeur"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline conveyor"/>
+    <Text ID="465917" Value="Roll-off"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Courbe"/>
+    <Text ID="465920" Value="Unité centrale"/>
+    <Text ID="465921" Value="m"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="465914" Value="Convoyer"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Roll-Off"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Curve"/>
+    <Text ID="465920" Value="Central Unit"/>
+    <Text ID="465921" Value="M"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="465914" Value="Convoyer"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Roll-Off"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Curve"/>
+    <Text ID="465920" Value="Central Unit"/>
+    <Text ID="465921" Value="M"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="465914" Value="Convoyer"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Roll-Off"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Curve"/>
+    <Text ID="465920" Value="Central Unit"/>
+    <Text ID="465921" Value="M"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="465914" Value="Transportband"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Afrollen"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Curve"/>
+    <Text ID="465920" Value="Centrale eenheid"/>
+    <Text ID="465921" Value="m"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="465914" Value="Transportador"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Correa elevada"/>
+    <Text ID="465917" Value="Transbordadora"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Curva+O722"/>
+    <Text ID="465920" Value="Unidad central"/>
+    <Text ID="465921" Value="m"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="465914" Value="Przenośnik"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Przenośnik rolkowy wylotowy"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Krzywa"/>
+    <Text ID="465920" Value="Jednostka centralna"/>
+    <Text ID="465921" Value="m"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="465914" Value=""/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value=""/>
+    <Text ID="465917" Value=""/>
+    <Text ID="465918" Value=""/>
+    <Text ID="465919" Value=""/>
+    <Text ID="465920" Value=""/>
+    <Text ID="465921" Value=""/>
+    <Text ID="465922" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="465914" Value=""/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value=""/>
+    <Text ID="465917" Value=""/>
+    <Text ID="465918" Value=""/>
+    <Text ID="465919" Value=""/>
+    <Text ID="465920" Value=""/>
+    <Text ID="465921" Value=""/>
+    <Text ID="465922" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="465914" Value="Przenośnik"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Przenośnik rolkowy wylotowy"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Krzywa"/>
+    <Text ID="465920" Value="Jednostka centralna"/>
+    <Text ID="465921" Value="m"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="465914" Value="Convoyer"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Roll-Off"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Curve"/>
+    <Text ID="465920" Value="Central Unit"/>
+    <Text ID="465921" Value="M"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="465914" Value="Convoyer"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Roll-Off"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Curve"/>
+    <Text ID="465920" Value="Central Unit"/>
+    <Text ID="465921" Value="M"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="465914" Value="Convoyer"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Roll-Off"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Curve"/>
+    <Text ID="465920" Value="Central Unit"/>
+    <Text ID="465921" Value="M"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="465914" Value="Esteira"/>
+    <Text ID="465915" Value=""/>
+    <Text ID="465916" Value="Incline belt"/>
+    <Text ID="465917" Value="Descarregador"/>
+    <Text ID="465918" Value="L"/>
+    <Text ID="465919" Value="Curva"/>
+    <Text ID="465920" Value="Unidade central"/>
+    <Text ID="465921" Value="m"/>
+    <Text ID="465922" Value="B"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="465914" Value="1"/>
+    <Index ID="465915" Value="0"/>
+    <Index ID="465916" Value="2"/>
+    <Index ID="465917" Value="3"/>
+    <Index ID="465918" Value="4"/>
+    <Index ID="465919" Value="5"/>
+    <Index ID="465920" Value="6"/>
+    <Index ID="465921" Value="7"/>
+    <Index ID="465922" Value="8"/>
+  </IndexMap>
+</TextGroup>

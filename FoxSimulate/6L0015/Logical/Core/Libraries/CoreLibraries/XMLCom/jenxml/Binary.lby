@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="4.00.0" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>jenxml.fun</File>
+    <File>jenxml.typ</File>
+    <File>jenxml.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="ListHand" />
+  </Dependencies>
+</Library>

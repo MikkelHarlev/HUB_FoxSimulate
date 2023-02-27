@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Lateral">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.App.Application.g_LateralProcess.Common.AlarmList.Ack]"/>
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.App.Application.g_LateralProcess.Common.AlarmList.Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="Source[global].Variable[Master.App.Application.g_LateralProcess.Common.AlarmList.Bypassed]"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="13"/>
+  <Property Name="LatchedBackColor" Value="47"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="2"/>
+  <Property Name="QuitBackColor" Value="11"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="3044" Value="Lateral Startup error"/>
+      <Text ID="3124" Value="Lateral Error"/>
+      <Text ID="10223" Value="Lateral Startup error"/>
+      <Text ID="10224" Value="Lateral Startup error"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Photocell check, IBXAFold"/>
+      <Text ID="13116" Value="Lateral photocell covered at start"/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="3044" Value="Laengs start fehler"/>
+      <Text ID="3124" Value="Laengs fehler"/>
+      <Text ID="10223" Value="Laengs start fehler"/>
+      <Text ID="10224" Value="Laengs start fehler"/>
+      <Text ID="10225" Value="Time out Flügel Rückkehr Sensor"/>
+      <Text ID="12633" Value="Fotozellenprüfung, IBXAFold"/>
+      <Text ID="13116" Value="Lateral photocell covered at start"/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="3044" Value="Fel i längsvikning vid uppstart"/>
+      <Text ID="3124" Value="Längsvikningsfel"/>
+      <Text ID="10223" Value="Fel i längsvikning vid uppstart"/>
+      <Text ID="10224" Value="Fel i längsvikning vid uppstart"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Fotocellskontroll, IBXAFold"/>
+      <Text ID="13116" Value="Lateral photocell covered at start"/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="3044" Value="Erreur démarrage latéral"/>
+      <Text ID="3124" Value="Erreur latérale"/>
+      <Text ID="10223" Value="Erreur démarrage latéral"/>
+      <Text ID="10224" Value="Erreur démarrage latéral"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Verif. cellule photoélectrique, IBXAFold"/>
+      <Text ID="13116" Value="Lateral photocell covered at start"/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="3044" Value="Fejl ved Opstart langdefold"/>
+      <Text ID="3124" Value="Fejl Längdefold"/>
+      <Text ID="10223" Value="Fejl ved Opstart langdefold"/>
+      <Text ID="10224" Value="Fejl ved Opstart langdefold"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Kontroler Fotocelle, IBXAFold"/>
+      <Text ID="13116" Value="Længdefold fotocelle aktiveret ved start"/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="3044" Value="Errore partenza laterale"/>
+      <Text ID="3124" Value="Errore laterale"/>
+      <Text ID="10223" Value="Errore partenza laterale"/>
+      <Text ID="10224" Value="Errore partenza laterale"/>
+      <Text ID="10225" Value="Superto t ritorno lama"/>
+      <Text ID="12633" Value="Controllo fotocellula, IBXAFold"/>
+      <Text ID="13116" Value="Lateral photocell covered at start"/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="3044" Value="Lateral Startup error"/>
+      <Text ID="3124" Value="Lateral Error"/>
+      <Text ID="10223" Value="Lateral Startup error"/>
+      <Text ID="10224" Value="Lateral Startup error"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Fotocelcontrole, IBXAFold"/>
+      <Text ID="13116" Value="Lateral photocell covered at start"/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="3044" Value="Opstartfout langsvouw"/>
+      <Text ID="3124" Value="Fout langsvouw"/>
+      <Text ID="10223" Value="Opstartfout langsvouw"/>
+      <Text ID="10224" Value="Opstartfout langsvouw"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Fotocelcontrole, IBXAFold"/>
+      <Text ID="13116" Value="Lateral photocell covered at start"/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="3044" Value="Excedido tiempo célula fotoeléctrica entrada pliegue longitudinal"/>
+      <Text ID="3124" Value="Fallo plegado longitudinal"/>
+      <Text ID="10223" Value="Excedido tiempo célula fotoeléctrica entrada pliegue longitudinal"/>
+      <Text ID="10224" Value="Excedido tiempo célula fotoeléctrica entrada pliegue longitudinal"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Comprobar célula fotoeléctrica, IBXAFold"/>
+      <Text ID="13116" Value="Lateral photocell covered at start"/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="3044" Value="Lateral Startup error"/>
+      <Text ID="3124" Value="Lateral Error"/>
+      <Text ID="10223" Value="Lateral Startup error"/>
+      <Text ID="10224" Value="Lateral Startup error"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Kontrola fotokomórki,IBXAFold"/>
+      <Text ID="13116" Value="Lateral photocell covered at start"/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="3044" Value=""/>
+      <Text ID="3124" Value=""/>
+      <Text ID="10223" Value=""/>
+      <Text ID="10224" Value=""/>
+      <Text ID="10225" Value=""/>
+      <Text ID="12633" Value=""/>
+      <Text ID="13116" Value=""/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="3044" Value=""/>
+      <Text ID="3124" Value=""/>
+      <Text ID="10223" Value=""/>
+      <Text ID="10224" Value=""/>
+      <Text ID="10225" Value=""/>
+      <Text ID="12633" Value=""/>
+      <Text ID="13116" Value=""/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="3044" Value="縱摺啟動錯誤"/>
+      <Text ID="3124" Value="縱摺錯誤"/>
+      <Text ID="10223" Value="縱摺啟動錯誤"/>
+      <Text ID="10224" Value="縱摺啟動錯誤"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="長度尺寸過大 .光電管檢查,IBXAFold"/>
+      <Text ID="13116" Value=""/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="3044" Value="Lateral Startup error"/>
+      <Text ID="3124" Value="Lateral Error"/>
+      <Text ID="10223" Value="Lateral Startup error"/>
+      <Text ID="10224" Value="Lateral Startup error"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Kontrola fotobunkyIBXAFold"/>
+      <Text ID="13116" Value=""/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="3044" Value="Lateral Startup error"/>
+      <Text ID="3124" Value="Lateral Error"/>
+      <Text ID="10223" Value="Lateral Startup error"/>
+      <Text ID="10224" Value="Lateral Startup error"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Comprobar célula fotoeléctrica, IBXAFold"/>
+      <Text ID="13116" Value=""/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="3044" Value="Feil Oppstart langsfold"/>
+      <Text ID="3124" Value="Feil Langsfold"/>
+      <Text ID="10223" Value="Feil Oppstart langsfold"/>
+      <Text ID="10224" Value="Feil Oppstart langsfold"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Photocell check, IBXAFold"/>
+      <Text ID="13116" Value="Lateral photocell covered at start"/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="3044" Value="Erro de arranque lateral"/>
+      <Text ID="3124" Value="Erro lateral"/>
+      <Text ID="10223" Value="Erro de arranque lateral"/>
+      <Text ID="10224" Value="Erro de arranque lateral"/>
+      <Text ID="10225" Value="Time out Blade back sensor"/>
+      <Text ID="12633" Value="Verificar fotocélula, IBXAFold"/>
+      <Text ID="13116" Value=""/>
+      <Text ID="12444" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="3044" Value="3"/>
+      <Index ID="3124" Value="2"/>
+      <Index ID="10223" Value="0"/>
+      <Index ID="10224" Value="1"/>
+      <Index ID="10225" Value="4"/>
+      <Index ID="12633" Value="5"/>
+      <Index ID="13116" Value="6"/>
+      <Index ID="12444" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

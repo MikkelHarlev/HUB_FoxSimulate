@@ -1,0 +1,433 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html dir="ltr">
+<head>
+
+
+
+  
+  
+  <meta name="generator" content="Microsoft FrontPage 5.0">
+
+
+
+  
+  
+  <meta order="1">
+
+
+  
+
+
+  
+  
+  
+  <title>JenLogInit.html</title>
+  <link rel="StyleSheet" href="../styles.css">
+<!--NavHead-->
+
+
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="../navigate.css">
+<!--/NavHead-->
+</head>
+
+
+<body>
+
+
+
+<h1>JenXML - JenLogInit()</h1>
+
+
+
+<p>JenLogInit() collect all data so that the PC can read out log
+data.<br>
+
+
+
+JenLogInit() has to be called in
+the Init part of a task. Otherwise you
+will get a cycletime violation.</p>
+
+
+
+<p>
+The following actions are done:<br>
+
+
+
+&nbsp;&nbsp;&nbsp; - Check if LogInit() was called
+successfully <br>
+
+
+
+&nbsp;&nbsp;&nbsp; - Collect all needed data, like address
+of task interface </p>
+
+
+
+<p></p>
+
+
+
+<p class="important"><span style="font-weight: bold;">Important:</span><br>
+
+
+
+Before you call JenLogInit() make sure that LogInit() has be called
+successfully!</p>
+
+
+
+<p></p>
+
+
+
+<h2> Parameters:</h2>
+
+
+
+<center>
+<div style="text-align: left;"></div>
+
+
+
+<table class="parameter_tab" border="1">
+
+
+
+  <tbody>
+
+
+
+    <tr>
+
+
+
+      <th class="parameter_tab">
+      
+      
+      <p style="text-align: left;"><b>I/O</b></p>
+
+
+
+      </th>
+
+
+
+      <th class="parameter_tab">
+      
+      
+      <p> <b>Parameter</b></p>
+
+
+
+      </th>
+
+
+
+      <th class="parameter_tab">
+      
+      
+      <p> <b>Data
+Type</b></p>
+
+
+
+      </th>
+
+
+
+      <th class="parameter_tab">
+      
+      
+      <p> <b>Description</b></p>
+
+
+
+      </th>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="parameter_tab">IN</td>
+
+
+
+      <td class="parameter_tab">pLogCallName</td>
+
+
+
+      <td class="parameter_tab">UDINT</td>
+
+
+
+      <td class="parameter_tab">Address of the name which
+is used for call the function from the server</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="parameter_tab">IN</td>
+
+
+
+      <td class="parameter_tab">pLogIdent_JenVar</td>
+
+
+
+      <td class="parameter_tab">UDINT</td>
+
+
+
+      <td class="parameter_tab">Ident given from LogInit()
+which has all data for JenXML</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="parameter_tab">IN</td>
+
+
+
+      <td class="parameter_tab">Adr_Name_ReadVar</td>
+
+
+
+      <td class="parameter_tab">UDINT</td>
+
+
+
+      <td class="parameter_tab">Address of the name of the
+Variable where the LogRead will save the data</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="parameter_tab">IN</td>
+
+
+
+      <td class="parameter_tab">Adr_Name_CommandStruct</td>
+
+
+
+      <td class="parameter_tab">UDINT</td>
+
+
+
+      <td class="parameter_tab">Address of the name of the
+task interface, the variable has to be a JenLogging_Type</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="parameter_tab">OUT</td>
+
+
+
+      <td class="parameter_tab">Status</td>
+
+
+
+      <td class="parameter_tab">UINT</td>
+
+
+
+      <td class="parameter_tab"><a href="../General/Status%20Numbers.html">Status Number</a>
+(0 -&gt; FUB
+finished succesfull)<br>
+
+
+
+      </td>
+
+
+
+    </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+</center>
+
+
+
+<h2> Call Syntax (Automation
+Basic):</h2>
+
+
+
+<p class="pSourceCode">JenLogInit_0.pLogCallName=
+adr(LogCallName)<br>
+
+
+
+JenLogInit_0.pLogIdent_JenVar= LogInit_0.Ident_JenXML<br>
+
+
+
+JenLogInit_0.Adr_Name_ReadVar= adr(ReadVar)<br>
+
+
+
+JenLogInit_0.Adr_Name_CommandStruct= adr(CommandStruct)<br>
+
+
+
+JenLogInit_0 FUB JenLogInit()
+</p>
+
+
+
+<h2>Examples:</h2>
+
+
+
+<p><a href="../Samples/AB/ex_ab_CalcChecksum.html">
+Automation Basic</a></p>
+
+
+
+<!--NavBottom-->
+<div class="DoNotPrintNavItems" id="NavBottom_8"> <br>
+
+
+
+<table class="Nav" cellpadding="0" cellspacing="2" width="100%">
+
+
+
+  <tbody>
+
+
+
+    <tr class="Nav">
+
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      
+      <p class="Nav">&lt;&lt; Previous Topic<br>
+
+
+
+      <a class="Nav" href="FBKs.html">Functions
+and Function Blocks</a> </p>
+
+
+
+      </td>
+
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="../JenXML.html">Start&nbsp;Page</a>
+&nbsp; </p>
+
+
+
+      </td>
+
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      
+      <p class="NavRight">Next Topic &gt;&gt;<br>
+
+
+
+      <a class="Nav" href="JenCustInit.html">JenCustInit</a>
+      </p>
+
+
+
+      </td>
+
+
+
+    </tr>
+
+
+
+    <tr class="Nav">
+
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="FBKs.html">Start&nbsp;of&nbsp;Chapter</a>
+&nbsp; </p>
+
+
+
+      </td>
+
+
+
+    </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+</div>
+
+
+
+<!--/NavBottom-->
+</body>
+</html>

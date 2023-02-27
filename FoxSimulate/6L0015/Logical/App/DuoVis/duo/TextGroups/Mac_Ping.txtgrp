@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_Ping">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="35"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="No response"/>
+    <Text ID="330970" Value="Time out"/>
+    <Text ID="330971" Value="Busy"/>
+    <Text ID="331756" Value="Idle"/>
+    <Text ID="331757" Value="OK, ping respond."/>
+    <Text ID="331758" Value="Waiting"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="Keine Reaktion"/>
+    <Text ID="330970" Value="Zeitüberschreitung"/>
+    <Text ID="330971" Value="Aktiv"/>
+    <Text ID="331756" Value="Idle"/>
+    <Text ID="331757" Value="OK, ping antwort."/>
+    <Text ID="331758" Value="Warten"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="No response"/>
+    <Text ID="330970" Value="Time out"/>
+    <Text ID="330971" Value="Busy"/>
+    <Text ID="331756" Value="Idle"/>
+    <Text ID="331757" Value="OK, ping respond."/>
+    <Text ID="331758" Value="Waiting"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="Pas de réponse"/>
+    <Text ID="330970" Value="Temporisation"/>
+    <Text ID="330971" Value="Occupé"/>
+    <Text ID="331756" Value="Veille"/>
+    <Text ID="331757" Value="Ok, réponse ping"/>
+    <Text ID="331758" Value="Attente"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="Ikke svar"/>
+    <Text ID="330970" Value="Time out"/>
+    <Text ID="330971" Value="Optaget"/>
+    <Text ID="331756" Value="Ledig"/>
+    <Text ID="331757" Value="Ok Ping svarer"/>
+    <Text ID="331758" Value="Venter"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="No risposta"/>
+    <Text ID="330970" Value="Time out"/>
+    <Text ID="330971" Value="Occupato"/>
+    <Text ID="331756" Value="Idle"/>
+    <Text ID="331757" Value="OK, ping , risponde"/>
+    <Text ID="331758" Value="Waiting"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="No response"/>
+    <Text ID="330970" Value="Time out"/>
+    <Text ID="330971" Value="Busy"/>
+    <Text ID="331756" Value="Idle"/>
+    <Text ID="331757" Value="OK, ping respond."/>
+    <Text ID="331758" Value="Waiting"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="Geen antwoord"/>
+    <Text ID="330970" Value="Time-out"/>
+    <Text ID="330971" Value="Bezet"/>
+    <Text ID="331756" Value="Onbelast"/>
+    <Text ID="331757" Value="OK, Ping beantwoord."/>
+    <Text ID="331758" Value="Wachten"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="Sin respuesta"/>
+    <Text ID="330970" Value="Tiempo de espera"/>
+    <Text ID="330971" Value="Ocupado"/>
+    <Text ID="331756" Value="Ausente"/>
+    <Text ID="331757" Value="Respuesta a ping OK"/>
+    <Text ID="331758" Value="Esperando"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="330968" Value="Sygnał ping"/>
+    <Text ID="330969" Value="Brak odpowiedzi"/>
+    <Text ID="330970" Value="Limit czasowy"/>
+    <Text ID="330971" Value="Zajęty"/>
+    <Text ID="331756" Value="[F] Tryb jałowy"/>
+    <Text ID="331757" Value="OK, odpowiedź na ping."/>
+    <Text ID="331758" Value="Oczekiwanie"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="330968" Value=""/>
+    <Text ID="330969" Value=""/>
+    <Text ID="330970" Value=""/>
+    <Text ID="330971" Value=""/>
+    <Text ID="331756" Value=""/>
+    <Text ID="331757" Value=""/>
+    <Text ID="331758" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="330968" Value=""/>
+    <Text ID="330969" Value=""/>
+    <Text ID="330970" Value=""/>
+    <Text ID="330971" Value=""/>
+    <Text ID="331756" Value=""/>
+    <Text ID="331757" Value=""/>
+    <Text ID="331758" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="330968" Value="Sygnał ping"/>
+    <Text ID="330969" Value="Brak odpowiedzi"/>
+    <Text ID="330970" Value="Limit czasowy"/>
+    <Text ID="330971" Value="Zajęty"/>
+    <Text ID="331756" Value="[F] Tryb jałowy"/>
+    <Text ID="331757" Value="OK, odpowiedź na ping."/>
+    <Text ID="331758" Value="Oczekiwanie"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="No response"/>
+    <Text ID="330970" Value="Time out"/>
+    <Text ID="330971" Value="Busy"/>
+    <Text ID="331756" Value="Idle"/>
+    <Text ID="331757" Value="OK, ping respond."/>
+    <Text ID="331758" Value="Waiting"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="No response"/>
+    <Text ID="330970" Value="Time out"/>
+    <Text ID="330971" Value="Busy"/>
+    <Text ID="331756" Value="Idle"/>
+    <Text ID="331757" Value="OK, ping respond."/>
+    <Text ID="331758" Value="Waiting"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="Ikke svar"/>
+    <Text ID="330970" Value="Time out"/>
+    <Text ID="330971" Value="Opptatt"/>
+    <Text ID="331756" Value="Ledig"/>
+    <Text ID="331757" Value="Ok Ping svarer"/>
+    <Text ID="331758" Value="Venter"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="330968" Value="Ping"/>
+    <Text ID="330969" Value="No response"/>
+    <Text ID="330970" Value="Tempo limite excedido"/>
+    <Text ID="330971" Value="Busy"/>
+    <Text ID="331756" Value="Inativo"/>
+    <Text ID="331757" Value="OK, resposta ao Ping."/>
+    <Text ID="331758" Value="Waiting"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="330968" Value="10"/>
+    <Index ID="330969" Value="27220"/>
+    <Index ID="330970" Value="27221"/>
+    <Index ID="330971" Value="65535"/>
+    <Index ID="331756" Value="1"/>
+    <Index ID="331757" Value="0"/>
+    <Index ID="331758" Value="65534"/>
+  </IndexMap>
+</TextGroup>

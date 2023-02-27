@@ -1,0 +1,22 @@
+VAR CONSTANT
+	IPCONFPAGE : USINT := 35;
+END_VAR
+VAR
+	CfgGetDefaultGateway_0 : CfgGetDefaultGateway;
+	CfgGetIPAddr_0 : CfgGetIPAddr;
+	CfgGetSubnetMask_0 : CfgGetSubnetMask;
+	CfgSetDefaultGateway_0 : CfgSetDefaultGateway;
+	CfgSetIPAddr_0 : CfgSetIPAddr;
+	Cnt : USINT;
+	dTempUDINT : REFERENCE TO UDINT;
+	dTempUSINT : REFERENCE TO USINT;
+	ICMPping_0 : IcmpPing;
+	Ipcfg : Ipcfg_Task_Type;
+	pTemp : UDINT;
+	TempUDINT : UDINT;
+	TON_PINGTimeOut : TON_10ms;
+	TON_PINGResetColor : TON_10ms := (0);
+	PingIpString : STRING[15];
+	SegmentNo : USINT;
+	tempSegment : STRING[3];
+END_VAR

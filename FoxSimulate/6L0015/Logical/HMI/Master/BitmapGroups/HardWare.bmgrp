@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="HardWare">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="2"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="6200" Value="Source[local].Bitmap[C_40x60_X67Blank]"/>
+    <BitmapRef ID="6201" Value="Source[local].Bitmap[C_40x60_X67DM]"/>
+    <BitmapRef ID="6202" Value="Source[local].Bitmap[C_40x60_X67DI]"/>
+    <BitmapRef ID="6203" Value="Source[local].Bitmap[C_40x60_X67AT4]"/>
+    <BitmapRef ID="6204" Value="Source[local].Bitmap[C_40x60_X67RS232]"/>
+    <BitmapRef ID="6205" Value="Source[local].Bitmap[C_40x60_X67DO]"/>
+    <BitmapRef ID="6206" Value="Source[local].Bitmap[C_20x57_X20di4371]"/>
+    <BitmapRef ID="6207" Value="Source[local].Bitmap[C_20x57_X20di9371]"/>
+    <BitmapRef ID="6208" Value="Source[local].Bitmap[C_20x57_X20di6371]"/>
+    <BitmapRef ID="6209" Value="Source[local].Bitmap[C_20x57_X20do6322]"/>
+    <BitmapRef ID="6210" Value="Source[local].Bitmap[C_20x57_X20do4322]"/>
+    <BitmapRef ID="6211" Value="Source[local].Bitmap[C_20x57_X20do9322]"/>
+    <BitmapRef ID="6212" Value="Source[local].Bitmap[C_15x40_IO_OK]"/>
+    <BitmapRef ID="6213" Value="Source[local].Bitmap[C_20x57_X20dxxxx]"/>
+    <BitmapRef ID="6214" Value="Source[local].Bitmap[C_15x40_IO_Miss]"/>
+    <BitmapRef ID="6215" Value="Source[local].Bitmap[C_20x57_X20AI4622]"/>
+    <BitmapRef ID="6216" Value="Source[local].Bitmap[C_15x40_IO_Ukn]"/>
+    <BitmapRef ID="6217" Value="Source[local].Bitmap[C_20x57_X20AI4622]"/>
+    <BitmapRef ID="6221" Value="Source[local].Bitmap[C_20x57_X20BC0083]"/>
+    <BitmapRef ID="6226" Value="Source[local].Bitmap[C_20x57_X20br9300]"/>
+    <BitmapRef ID="6227" Value="Source[local].Bitmap[C_20x57_X20ps9400]"/>
+    <BitmapRef ID="6228" Value="Source[local].Bitmap[C_20x57_X20br9100]"/>
+    <BitmapRef ID="6229" Value="Source[local].Bitmap[C_20x57_X20doblank]"/>
+    <BitmapRef ID="6230" Value="Source[local].Bitmap[C_20x57_X20do8322]"/>
+    <BitmapRef ID="6231" Value="Source[local].Bitmap[C_20x57_X20br3300]"/>
+    <BitmapRef ID="6232" Value="Source[local].Bitmap[C_15x40_IF789_1]"/>
+    <BitmapRef ID="6233" Value="Source[local].Bitmap[C_15x40_IF7979_1]"/>
+    <BitmapRef ID="13116" Value="Source[local].Bitmap[C_40x60_X67DigCount]"/>
+    <BitmapRef ID="13117" Value="Source[local].Bitmap[C_15x40_X20AO2622]"/>
+    <BitmapRef ID="13118" Value="Source[local].Bitmap[C_40x60_X67StepMotor]"/>
+    <BitmapRef ID="13119" Value="Source[local].Bitmap[C_15x40_X20AT4222]"/>
+    <BitmapRef ID="13120" Value="Source[local].Bitmap[C_20x57_X20MM3332]"/>
+    <BitmapRef ID="13121" Value="Source[local].Bitmap[C_40x60_P84]"/>
+    <BitmapRef ID="13122" Value="None"/>
+    <BitmapRef ID="13123" Value="Source[local].Bitmap[C_70x40_PP65]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="6200" Value="10"/>
+    <Index ID="6201" Value="14"/>
+    <Index ID="6202" Value="11"/>
+    <Index ID="6203" Value="15"/>
+    <Index ID="6204" Value="13"/>
+    <Index ID="6205" Value="12"/>
+    <Index ID="6206" Value="35"/>
+    <Index ID="6207" Value="37"/>
+    <Index ID="6208" Value="36"/>
+    <Index ID="6209" Value="40"/>
+    <Index ID="6210" Value="39"/>
+    <Index ID="6211" Value="41"/>
+    <Index ID="6212" Value="83"/>
+    <Index ID="6213" Value="48"/>
+    <Index ID="6214" Value="81"/>
+    <Index ID="6215" Value="61"/>
+    <Index ID="6216" Value="84"/>
+    <Index ID="6217" Value="62"/>
+    <Index ID="6221" Value="67"/>
+    <Index ID="6226" Value="33"/>
+    <Index ID="6227" Value="31"/>
+    <Index ID="6228" Value="32"/>
+    <Index ID="6229" Value="49"/>
+    <Index ID="6230" Value="42"/>
+    <Index ID="6231" Value="34"/>
+    <Index ID="6232" Value="71"/>
+    <Index ID="6233" Value="72"/>
+    <Index ID="13116" Value="63"/>
+    <Index ID="13117" Value="64"/>
+    <Index ID="13118" Value="65"/>
+    <Index ID="13119" Value="66"/>
+    <Index ID="13120" Value="68"/>
+    <Index ID="13121" Value="69"/>
+    <Index ID="13122" Value="70"/>
+    <Index ID="13123" Value="73"/>
+  </IndexMap>
+</BitmapGroup>

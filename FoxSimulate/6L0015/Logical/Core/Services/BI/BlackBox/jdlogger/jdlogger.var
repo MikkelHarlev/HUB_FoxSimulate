@@ -1,0 +1,137 @@
+VAR
+	AddOnNo : USINT;
+	AddToLog_0 : AddToLog;
+	AddToRealTime_0 : AddToRealTime;
+	AddToWideLog_0 : AddToWideLog;
+	AdrJenViewServerInterface : UDINT;
+	AlarmNo : USINT;
+	ArrAdrCommonDataLogger : ARRAY[0..9] OF UDINT;
+	ArrAdrEmergencyStatus : ARRAY[0..4] OF UDINT;
+	ArrAdrExternalPowerInput : ARRAY[0..4] OF UDINT;
+	ArrAdrJenViewPulseLog : ARRAY[0..4] OF UDINT;
+	ArrAdrOperatorDelay : ARRAY[0..9] OF UDINT;
+	ArrAdrRealTimeTmpLog : ARRAY[0..4] OF UDINT;
+	ArrAdrRunningStatus : ARRAY[0..4] OF UDINT;
+	ArrAdrRunTimeDataEntry : ARRAY[0..4] OF UDINT;
+	ArrAdrTFlowTimeOut : ARRAY[0..9] OF UDINT;
+	ArrRealTimeExchange : REFERENCE TO ARRAY[0..4] OF UDINT;
+	Change : ARRAY[0..4] OF BOOL;
+	ChangeDelay : ARRAY[0..4] OF LoadID_Type;
+	ChangeDelayed : ARRAY[0..9] OF BOOL;
+	CleanRealTimeString : STRING[40];
+	Count : USINT;
+END_VAR
+VAR CONSTANT
+	COUNTER_INIT_FAILURE : UINT := 2006;
+END_VAR
+VAR
+	CreateDataObject : BOOL;
+	CycleTime : REAL;
+	DataLogger : REFERENCE TO CommonDataLogger_Type;
+	DatObjCreate_0 : DatObjCreate;
+	DatObjDelete_0 : DatObjDelete;
+	DatObjInfo_0 : DatObjInfo;
+	DatObjRead_0 : DatObjRead;
+	DatObjWrite_0 : DatObjWrite;
+	DbgDataLogger : REFERENCE TO CommonDataLogger_Type;
+	DbgFlow : ARRAY[0..4] OF UDINT;
+	DbgOperator : USINT;
+	DbgServer : USINT;
+	disable : BOOL;
+	DTGetTime_1 : DTGetTime;
+	DynamicMemoryUsage : UDINT;
+	DynEmergencyStatus : REFERENCE TO BOOL;
+	DynRunningStat : REFERENCE TO BOOL;
+	DynRunningStatus : ARRAY[0..4] OF BOOL;
+	EdgeNegISControlPlc : ARRAY[0..4] OF BOOL;
+	EdgePosISControlPlc : ARRAY[0..4] OF BOOL;
+END_VAR
+VAR CONSTANT
+	EMERGENCY_STATUS_INIT_FAILURE : UINT := 2005;
+END_VAR
+VAR
+	Error : UINT;
+	FlowTimer : UDINT;
+	GetRTInfo : RTInfo;
+	GlobalCounter : REFERENCE TO UDINT;
+	HChange : ARRAY[0..4] OF BOOL;
+	i : USINT;
+	IgnoreEvent : BOOL;
+	IgnoreNo : USINT;
+	IndexCount : UINT;
+	Info : UINT;
+	IntegrateCounter : UDINT;
+	JenViewAllocClearMemPart : AsMemPartAllocClear;
+	JenViewPulseLogX : REFERENCE TO PulseLog;
+	JenViewServerInterface : REFERENCE TO JenViewTaskInterface_Type;
+	JenViewSetupCfg : REFERENCE TO ARRAY[0..4] OF JenViewLogSetup_Type;
+	LastestAlarmInfo : ARRAY[0..4] OF UINT;
+	LastId : UINT;
+	LocalCycleCounter : UDINT;
+	MFPFlow : ARRAY[0..4] OF USINT;
+	MFPFlowOld : ARRAY[0..4] OF USINT;
+	MIFlow : ARRAY[0..4] OF USINT;
+	MIFlowOld : ARRAY[0..4] OF USINT;
+	MilliSeconds : UDINT;
+	Mode : ARRAY[0..9] OF UINT;
+	MWOFlow : ARRAY[0..4] OF USINT;
+	MWOFlowOld : ARRAY[0..4] OF USINT;
+	Operator : USINT;
+	OperatorID : ARRAY[0..9] OF UINT;
+	OperatorNo : USINT;
+	OperatorOffset : USINT;
+	pAddOnFub : REFERENCE TO AddOn;
+	PermData : JenViewDataObject;
+	PermDataSize : UINT;
+	PermDataUpdateTimer : UINT;
+	pExternalPowerInput : REFERENCE TO ExternalInput;
+	pGlobalCounter : UDINT;
+	pOperatorDelay : REFERENCE TO OperatorDelayFifo;
+	pRealTimeTmpLog : REFERENCE TO JenViewTmpRealTimeData_Type;
+	PreCustomerArticleLoadID : ARRAY[0..4] OF LoadID_Type;
+	pTFlowTimeOut : REFERENCE TO JDDelay;
+	RealTime : ARRAY[0..4] OF DATE_AND_TIME;
+	Restart : ARRAY[0..4] OF BOOL;
+	RInit : ARRAY[0..4] OF BOOL;
+END_VAR
+VAR CONSTANT
+	RUNNING_STATUS_INIT_FAILURE : UINT := 2004;
+END_VAR
+VAR
+	RunTimeData : REFERENCE TO M2JenData_Type;
+END_VAR
+VAR CONSTANT
+	RUNTIMEDATA_INIT_FAILURE : UINT := 2003;
+	SERVER_INIT_FAILURE : UINT := 2002;
+	SERVER_INTERFACE_INIT_FAILURE : UINT := 2001;
+END_VAR
+VAR
+	ServerOffset : UINT;
+	SFEFlow : ARRAY[0..4] OF USINT;
+	SFEFlowOld : ARRAY[0..4] OF USINT;
+	SFSFlow : ARRAY[0..4] OF USINT;
+	SFSFlowOld : ARRAY[0..4] OF USINT;
+	SLPFlow : ARRAY[0..4] OF USINT;
+	SLPFlowOld : ARRAY[0..4] OF USINT;
+	SNFFlow : ARRAY[0..4] OF USINT;
+	SNFFlowOld : ARRAY[0..4] OF USINT;
+	Status : ARRAY[0..4] OF UINT;
+	StatusOld : ARRAY[0..4] OF UINT;
+	THourLog : ARRAY[0..4] OF UDINT;
+	TimeCycleCount : ARRAY[0..29] OF UDINT;
+	TimerDiff : UINT;
+	TimerOffset : UINT;
+	tmpServerOffset : UINT;
+	UpdatePermData : BOOL;
+	Status0 : ARRAY[0..4] OF USINT;
+	Status1 : ARRAY[0..4] OF USINT;
+	Status2 : ARRAY[0..4] OF USINT;
+	Status3 : ARRAY[0..4] OF USINT;
+	StatusOld3 : ARRAY[0..4] OF USINT;
+	StatusOld0 : ARRAY[0..4] OF USINT;
+	StatusOld1 : ARRAY[0..4] OF USINT;
+	StatusOld2 : ARRAY[0..4] OF USINT;
+	MHADbg_ProcessName : STRING[32] := '';
+	MHADbg_Info2 : UDINT := 0;
+	MHAEnableStd : BOOL := 0;
+END_VAR

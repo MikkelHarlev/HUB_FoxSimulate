@@ -1,0 +1,14 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Demo\DemoLib_V01_30\DemoLib\Doc\CHTML\LibDemoLib.chm
+
+
+Compile time: 0 minutes, 2 seconds
+13	Topics
+97	Local links
+0	Internet links
+3	Graphics
+
+
+Created c:\Demo\DemoLib_V01_30\DemoLib\Doc\CHTML\LibDemoLib.chm, 19,399 bytes
+Compression decreased file by 20,689 bytes.

@@ -1,0 +1,114 @@
+VAR CONSTANT
+	ALARM_LINE_HIDE : USINT := 1; (* Hide Alarm Control *)
+	ALARM_LINE_SHOW : USINT := 0; (* Show Alarm Control *)
+	COLOR_TEXT_NO_ALARM : UINT := 0;
+	COLOR_TEXT_ALARM : UINT := 3840;
+END_VAR
+VAR
+	Access_Status : UINT;
+	Alarm : ARRAY[0..5] OF alarm_type;
+	AlarmCache : ARRAY[0..99] OF AlarmHandlerEvent_Type;
+	AlarmGroupIndex : UINT;
+	AlarmHeaderColor : ARRAY[0..5] OF UINT;
+	AlarmIndex : UINT;
+	Alarmlen : DINT;
+	AlarmPressed : ARRAY[0..5] OF BOOL;
+	AlarmPriority : USINT;
+	AlarmStatus : STRING[80];
+	Alarmstring : ARRAY[0..79] OF UINT;
+	AlarmText : ARRAY[0..79] OF UINT;
+	AlarmToTop : ARRAY[0..5] OF BOOL;
+	Alarmtype : UINT;
+	AlarmUpdated : BOOL;
+	Blink : ARRAY[0..5] OF BOOL;
+	COLOR_BLACK_0 : UINT := 0;
+END_VAR
+VAR CONSTANT
+	COLOR_HEADER_NORMAL : UINT := 28;
+END_VAR
+VAR
+	COLOR_RED_45 : UINT := 45;
+	COLOR_WHITE_15 : UINT := 15;
+	COLOR_YELLOW_41 : UINT := 41;
+	dChar : REFERENCE TO UINT;
+	eChar : REFERENCE TO UINT;
+	EventPatch : ARRAY[0..1] OF AlarmPriority_Type;
+	EventType : USINT := 0;
+	FreeIndex : UINT;
+	FrontTextColor : UINT;
+	GetActAL_Status : UINT;
+	GetHistory : BOOL;
+	i : UINT;
+	IndexSet : BOOL;
+	LogBuffer : ARRAY[0..99] OF ServiceLog_Type;
+	LogData_0 : LogData;
+	LogInit_0 : LogInit;
+	LogStore_0 : LogStore;
+	LogWrite_0 : LogWrite;
+END_VAR
+VAR CONSTANT
+	MACHINE : USINT := 0;
+END_VAR
+VAR
+	MaxAlarmGroup : UINT;
+	MaxGroup : UINT;
+	NoOfMAlarms : UINT;
+	OldNoOfMAlarms : UINT;
+	pChar : REFERENCE TO USINT;
+	ready : BOOL;
+	ScanComplete : BOOL;
+	Seperator : USINT;
+	ServiceLog : ServiceLog_Type;
+	Severity : USINT;
+	StartAdr : UDINT;
+	StartOffset : UINT;
+	step : USINT;
+	Store : BOOL;
+	SubStep : USINT;
+END_VAR
+VAR CONSTANT
+	SYSTEM_MAIN_PAGE_1 : UINT := 1;
+END_VAR
+VAR
+	TDelay : ARRAY[0..5] OF TP_10ms;
+	TextSameAsOldText : DINT;
+	TimeDateForm : USINT;
+	TmpString : ARRAY[0..79] OF UINT;
+	TmpString2 : ARRAY[0..39] OF USINT;
+	TON_10ms_0 : TON_10ms;
+	Update : UDINT;
+END_VAR
+VAR CONSTANT
+	USER : USINT := 1;
+END_VAR
+VAR
+	WarningIconBackIndex : UINT;
+	WarningIconIndex : UINT;
+	y : UINT;
+	FilterControl : USINT;
+	GroupFilter : USINT;
+	pBOOLs : REFERENCE TO ARRAY[0..22] OF BOOL;
+	alarmGroupNo : USINT;
+	numerOfAlarms : USINT;
+END_VAR
+VAR CONSTANT
+	CORE_USER : USINT := 1;
+END_VAR
+VAR
+	Priority : USINT;
+	pThis : REFERENCE TO AlarmInterface_Type;
+END_VAR
+VAR CONSTANT
+	COLOR_ORANGE_48 : USINT := 48;
+	COLOR_DARKRED_80 : USINT := 80;
+END_VAR
+VAR
+	externAlarmStringLenght : UINT;
+	rTrigExternAlarm : ARRAY[0..1] OF R_TRIG;
+	rTrigExternInfo : ARRAY[0..1] OF R_TRIG;
+	externInfoStringLenght : UINT;
+	tmpUnicode : ARRAY[0..69] OF UINT;
+	MHATest : ARRAY[0..30] OF UDINT := [31(0)];
+	MHATestStr : ARRAY[0..50] OF STRING[100] := [51('')];
+	mI : UINT := 0;
+END_VAR

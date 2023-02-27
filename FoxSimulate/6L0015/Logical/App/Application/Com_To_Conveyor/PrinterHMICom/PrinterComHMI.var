@@ -1,0 +1,12 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: PrinterComHMI
+ * File: PrinterComHMI.var
+ * Author: jspernil
+ * Created: September 02, 2009
+ *)
+VAR
+	PagePrintCom : UINT;
+	PageMain : UINT;
+END_VAR

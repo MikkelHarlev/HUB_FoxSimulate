@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<Languages xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Property Name="Default" Value="en-GB"/>
+  <Property Name="FallBackLanguage" Value="None"/>
+  <Language ID="en-GB">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="1"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="de-DE">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="3"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="sv-SE">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="6"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="fr-FR">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="4"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="da-DK">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="2"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="it-IT">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="5"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="fi-FI">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="9"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="nl-NL">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="7"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="es-ES">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="8"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="pl-PL">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="14"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="ru-RU">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="10"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="en">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value="Label"/>
+    <Property Name="Index" Value="0"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="zh-CN">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="15"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="cs-CZ">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="12"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="en-US">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="13"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="no-NO">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="11"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="pt-PT">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="16"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+</Languages>

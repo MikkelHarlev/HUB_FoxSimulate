@@ -1,0 +1,35 @@
+VAR
+	pThis : REFERENCE TO XMLRPCFold_Type;
+	g_PLCNodeId : USINT;
+	HwGetNode_0 : HwGetNode;
+	TestCounter : UINT;
+	getLogicIdent_0 : getLogicIdent;
+END_VAR
+VAR CONSTANT
+	METRIC_STATUS_INTERN_0 : UINT := 0;
+	CONNECTION_TYPE_PVI_8 : UINT := 8;
+END_VAR
+VAR
+	BCD_FoldProg_1 : BOOL;
+	BCD_FoldProg_2 : BOOL;
+	BCD_FoldProg_4 : BOOL;
+	BCD_FoldProg_8 : BOOL;
+	BCD_FoldProg_10 : BOOL;
+	BCD_FoldProg_20 : BOOL;
+	BCD_FoldProg_40 : BOOL;
+	BCD_FoldProg_80 : BOOL;
+	BCD_Stackchange : BOOL;
+	BCD_DataComplete : BOOL;
+	BCD_DataRequest : BOOL;
+	BCD_HangerAway : BOOL;
+	BCDRequestTimer : UINT;
+	BCDReadDelayTime : UINT;
+	BCDRequestTime : UINT;
+	BCD_RequestTries : UINT;
+	BCDReadDelayTimer : UINT;
+	BCD_NewStack : BOOL := FALSE;
+	CalcProgramHigh : UINT;
+	CalcProgramLow : UINT;
+	BCDDelayHangerAwayTimer : UINT;
+	BCDDelayHangerAwayTime : UINT;
+END_VAR

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Main_Page">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="69"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="350059" Value="cm"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="350059" Value="cm"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="350059" Value="cm"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="350059" Value="cm"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="350059" Value="cm"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="350059" Value="cm"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="350059" Value="cm"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="350059" Value="cm"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="350059" Value="cm"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="350059" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="350059" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="350059" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="350059" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="350059" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="350059" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="350059" Value="cm"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="350059" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="350059" Value="0"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="ComLayer_Style">
+  <Property Name="BackColor" Value="15"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="320"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB"/>
+    <TextLayer LanguageId="de-DE"/>
+    <TextLayer LanguageId="sv-SE"/>
+    <TextLayer LanguageId="fr-FR"/>
+    <TextLayer LanguageId="da-DK"/>
+    <TextLayer LanguageId="it-IT"/>
+    <TextLayer LanguageId="fi-FI"/>
+    <TextLayer LanguageId="nl-NL"/>
+    <TextLayer LanguageId="es-ES"/>
+    <TextLayer LanguageId="pl-PL"/>
+    <TextLayer LanguageId="ru-RU"/>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="zh-CN"/>
+    <TextLayer LanguageId="cs-CZ"/>
+    <TextLayer LanguageId="en-US"/>
+    <TextLayer LanguageId="no-NO"/>
+    <TextLayer LanguageId="pt-PT"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001001" Name="Shape_1">
+      <Property Name="BackColor" Value="28"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.ala_hist.Alarm.HeaderColor]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="28"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="16"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape_Opaque]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="288"/>
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_3">
+      <Property Name="BackColor" Value="28"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="28"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape_Opaque]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="16"/>
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_4">
+      <Property Name="BackColor" Value="28"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="28"/>
+      <Property Name="Height" Value="16"/>
+      <Property Name="Left" Value="304"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape_Opaque]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="16"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_2">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[C_15x15_EarthGlobe]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="15"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="305"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="15"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="320"/>
+      <Property Name="EndY" Value="15"/>
+      <Property Name="StartX" Value="0"/>
+      <Property Name="StartY" Value="15"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_2">
+      <Property Name="BackColor" Value="28"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="28"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape_Opaque]"/>
+      <Property Name="Top" Value="210"/>
+      <Property Name="Width" Value="320"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="320"/>
+      <Property Name="EndY" Value="210"/>
+      <Property Name="StartX" Value="0"/>
+      <Property Name="StartY" Value="210"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100A" Name="DateTime_1">
+      <Property Name="AlignmentHorizontal" Value="Right"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.ala_hist.Alarm.HeaderTextColor]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="256"/>
+      <Property Name="SimulationValue" Value="13:27:56"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[DateTime]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[DateTime]"/>
+      <Property Name="TextIndex" Value="1"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="2"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="Width" Value="44"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

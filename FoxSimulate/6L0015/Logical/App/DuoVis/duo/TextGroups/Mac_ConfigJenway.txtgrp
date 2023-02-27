@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigJenway">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="23"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="288342" Value="msec"/>
+    <Text ID="289481" Value="IP address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="288342" Value="msek"/>
+    <Text ID="289481" Value="IP-Adresse:"/>
+    <Text ID="289482" Value="Verbindungs-ID"/>
+    <Text ID="289483" Value="XML erneuerungs Zeit:"/>
+    <Text ID="289484" Value="XML erneuerungs Zeitablauf:"/>
+    <Text ID="291108" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="288342" Value="ms"/>
+    <Text ID="289481" Value="IP address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="288342" Value="ms"/>
+    <Text ID="289481" Value="Adresse IP"/>
+    <Text ID="289482" Value="Id connexion"/>
+    <Text ID="289483" Value="Temps de rafraîchissement XML :"/>
+    <Text ID="289484" Value="Temporisation rafraîchissement XML :"/>
+    <Text ID="291108" Value="Jenway :"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="288342" Value="msek"/>
+    <Text ID="289481" Value="IP Adresse:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="288342" Value="millisec"/>
+    <Text ID="289481" Value="IP Indirizzo:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="288342" Value="msec"/>
+    <Text ID="289481" Value="IP address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="288342" Value="msec"/>
+    <Text ID="289481" Value="IP-adres"/>
+    <Text ID="289482" Value="Verbinding-ID"/>
+    <Text ID="289483" Value="XML vernieuwingstijd:"/>
+    <Text ID="289484" Value="XML time-out voor vernieuwen:"/>
+    <Text ID="291108" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="288342" Value="ms"/>
+    <Text ID="289481" Value="Dirección IP:"/>
+    <Text ID="289482" Value="Identificador de conexión:"/>
+    <Text ID="289483" Value="Tiempo de refresco XML:"/>
+    <Text ID="289484" Value="Compensación de refresco XML:"/>
+    <Text ID="291108" Value="Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="288342" Value="msek"/>
+    <Text ID="289481" Value="Adres IP"/>
+    <Text ID="289482" Value="ID połączenia:"/>
+    <Text ID="289483" Value="Czas odświeżania XML:"/>
+    <Text ID="289484" Value="Limit czasu odświeżania XML:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="288342" Value=""/>
+    <Text ID="289481" Value=""/>
+    <Text ID="289482" Value=""/>
+    <Text ID="289483" Value=""/>
+    <Text ID="289484" Value=""/>
+    <Text ID="291108" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="288342" Value=""/>
+    <Text ID="289481" Value=""/>
+    <Text ID="289482" Value=""/>
+    <Text ID="289483" Value=""/>
+    <Text ID="289484" Value=""/>
+    <Text ID="291108" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="288342" Value="msek"/>
+    <Text ID="289481" Value="Adres IP"/>
+    <Text ID="289482" Value="ID połączenia:"/>
+    <Text ID="289483" Value="Czas odświeżania XML:"/>
+    <Text ID="289484" Value="Limit czasu odświeżania XML:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="288342" Value="msec"/>
+    <Text ID="289481" Value="IP address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="288342" Value="msec"/>
+    <Text ID="289481" Value="IP address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="288342" Value="msek"/>
+    <Text ID="289481" Value="IP Adresse:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="XML Refresh Time:"/>
+    <Text ID="289484" Value="XML Refresh Timeout:"/>
+    <Text ID="291108" Value="Jenway:"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="288342" Value="ms"/>
+    <Text ID="289481" Value="IP Address:"/>
+    <Text ID="289482" Value="Connect ID:"/>
+    <Text ID="289483" Value="Tempo de atualização XML:"/>
+    <Text ID="289484" Value="Tempo limite de atualização XML excedido:"/>
+    <Text ID="291108" Value="Jenway"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288342" Value="5"/>
+    <Index ID="289481" Value="30"/>
+    <Index ID="289482" Value="31"/>
+    <Index ID="289483" Value="32"/>
+    <Index ID="289484" Value="33"/>
+    <Index ID="291108" Value="17"/>
+  </IndexMap>
+</TextGroup>

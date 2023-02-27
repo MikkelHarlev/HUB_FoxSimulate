@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT -- JENSEN Denmark A/S
+ ********************************************************************
+ * Program: TestConfiguration
+ * File: TestConfiguration.var
+ * Author: eg
+ * Created: July 03, 2013
+ ********************************************************************
+ * Local variables of program TestConfiguration
+ ********************************************************************)
+VAR
+	count : USINT;
+	tmpString : STRING[10];
+	addConnection_0 : addConnection;
+	initConnections : USINT;
+	i : USINT;
+	TON_AddConnection : TON := (0);
+END_VAR

@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Statistic">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="57"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="270485" Value="Operating time"/>
+    <Text ID="270489" Value="Total counter"/>
+    <Text ID="270514" Value="pcs"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Actual speed last 10 pcs"/>
+    <Text ID="270550" Value="Average during operating time"/>
+    <Text ID="270551" Value="Utilisation"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Stacker blocked"/>
+    <Text ID="396877" Value="pcs/h"/>
+    <Text ID="408271" Value="Machine in Operation"/>
+    <Text ID="421565" Value="Empty hanger blocked"/>
+    <Text ID="436404" Value="No hangers at inlet"/>
+    <Text ID="436405" Value="Jam time"/>
+    <Text ID="459678" Value="Lost time - No Hanger"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Count"/>
+    <Text ID="462758" Value="Total [m]"/>
+    <Text ID="462759" Value="Average[m]"/>
+    <Text ID="475215" Value="Productive Time "/>
+    <Text ID="475217" Value="Feeding stoped"/>
+    <Text ID="476687" Value="Production Stop"/>
+    <Text ID="491615" Value="Stacker 1"/>
+    <Text ID="491616" Value="Stacker 2"/>
+    <Text ID="491617" Value="Stacker 3"/>
+    <Text ID="491618" Value="Stacker 4"/>
+    <Text ID="491619" Value="Stacker 5"/>
+    <Text ID="491620" Value="Stacker 6"/>
+    <Text ID="491621" Value="Stacker 7"/>
+    <Text ID="491622" Value="Stacker 8"/>
+    <Text ID="491623" Value="Stacker 9"/>
+    <Text ID="491624" Value="Stacker 10"/>
+    <Text ID="499338" Value="Emergency Stop or Security-Cover           "/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="270485" Value="Arbeitszeit"/>
+    <Text ID="270489" Value="Gesamtzähler"/>
+    <Text ID="270514" Value="Stck."/>
+    <Text ID="270519" Value="Tag"/>
+    <Text ID="270520" Value="Stunde"/>
+    <Text ID="270521" Value="Minuten"/>
+    <Text ID="270540" Value="Aktuelle Geschwindigkeit"/>
+    <Text ID="270550" Value="Durchschnitt wärend Arbeitszeit"/>
+    <Text ID="270551" Value="Auslastung"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Stapler blockiert"/>
+    <Text ID="396877" Value="Stck./Stunde"/>
+    <Text ID="408271" Value="Maschine in Betrieb"/>
+    <Text ID="421565" Value="Leerbuegel blockiert"/>
+    <Text ID="436404" Value="Kein Büegel am Einlauf"/>
+    <Text ID="436405" Value="Fehlerzeit"/>
+    <Text ID="459678" Value="Verlorene Zeit - Kein Buegel"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Zählen "/>
+    <Text ID="462758" Value="Gesamt"/>
+    <Text ID="462759" Value="Durchschnitt"/>
+    <Text ID="475215" Value="Produktive Zeit"/>
+    <Text ID="475217" Value="Eingabe gestoppt"/>
+    <Text ID="476687" Value="Produktions-Stopp"/>
+    <Text ID="491615" Value="Stapler 1"/>
+    <Text ID="491616" Value="Stapler 2"/>
+    <Text ID="491617" Value="Stapler 3"/>
+    <Text ID="491618" Value="Stapler 4"/>
+    <Text ID="491619" Value="Stapler 5"/>
+    <Text ID="491620" Value="Stapler 6"/>
+    <Text ID="491621" Value="Stapler 7"/>
+    <Text ID="491622" Value="Stapler 8"/>
+    <Text ID="491623" Value="Stapler 9"/>
+    <Text ID="491624" Value="Stapler 10"/>
+    <Text ID="499338" Value="Not-Stop oder Sicherheitsabdeckung offen           "/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="270485" Value="Drifttid"/>
+    <Text ID="270489" Value="Total räknare"/>
+    <Text ID="270514" Value="st"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Verklig hastighet sista 10 plagg"/>
+    <Text ID="270550" Value="Genomsnitt under drifttid"/>
+    <Text ID="270551" Value="Användning"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Stacker blockerad"/>
+    <Text ID="396877" Value="St/tim"/>
+    <Text ID="408271" Value="Maskinen i drift"/>
+    <Text ID="421565" Value="Tomgalge blockerat"/>
+    <Text ID="436404" Value="Inga galgar vid inmatning"/>
+    <Text ID="436405" Value="Feltid Jam"/>
+    <Text ID="459678" Value="Tid utan galge vid inmatning"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Räknare"/>
+    <Text ID="462758" Value="Total [m]"/>
+    <Text ID="462759" Value="Genomsnitt[m]"/>
+    <Text ID="475215" Value="Produktiv drifttid"/>
+    <Text ID="475217" Value="Inmatning stoppad"/>
+    <Text ID="476687" Value="Produktions stop"/>
+    <Text ID="491615" Value="Stacker 1"/>
+    <Text ID="491616" Value="Stacker 2"/>
+    <Text ID="491617" Value="Stacker 3"/>
+    <Text ID="491618" Value="Stacker 4"/>
+    <Text ID="491619" Value="Stacker 5"/>
+    <Text ID="491620" Value="Stacker 6"/>
+    <Text ID="491621" Value="Stacker 7"/>
+    <Text ID="491622" Value="Stacker 8"/>
+    <Text ID="491623" Value="Stacker 9"/>
+    <Text ID="491624" Value="Stacker 10"/>
+    <Text ID="499338" Value="Nödstopp eller skyddslucka               "/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="270485" Value="Durée de fonctionnement"/>
+    <Text ID="270489" Value="Compteur total"/>
+    <Text ID="270514" Value="pièces"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Vitesse actuelle 10 dernières pcs"/>
+    <Text ID="270550" Value="Moyenne pendant durée de fonctionnement"/>
+    <Text ID="270551" Value="Utilisation"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Empileur bloqué"/>
+    <Text ID="396877" Value="pièces/h"/>
+    <Text ID="408271" Value="Machine en service"/>
+    <Text ID="421565" Value="Cintre vide bloqué"/>
+    <Text ID="436404" Value="Aucun cintre à l'entrée"/>
+    <Text ID="436405" Value="Durée de bourrage"/>
+    <Text ID="459678" Value="Temps perdu - Pas de cintre"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Comptage"/>
+    <Text ID="462758" Value="Total [m]"/>
+    <Text ID="462759" Value="Moyenne"/>
+    <Text ID="475215" Value="Temps de production "/>
+    <Text ID="475217" Value="Engagement arrêté"/>
+    <Text ID="476687" Value="Arrêt production"/>
+    <Text ID="491615" Value="Empileur 1"/>
+    <Text ID="491616" Value="Empileur 2"/>
+    <Text ID="491617" Value="Empileur 3"/>
+    <Text ID="491618" Value="Empileur 4"/>
+    <Text ID="491619" Value="Empileur 5"/>
+    <Text ID="491620" Value="Empileur 6"/>
+    <Text ID="491621" Value="Empileur 7"/>
+    <Text ID="491622" Value="Empileur 8"/>
+    <Text ID="491623" Value="Empileur 9"/>
+    <Text ID="491624" Value="Empileur 10"/>
+    <Text ID="499338" Value="Arrêt d'urgence ou couvercle de sécurité           "/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="270485" Value="Køretid"/>
+    <Text ID="270489" Value="Totaltæller"/>
+    <Text ID="270514" Value="Stk"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Aktuell hastighet siste 10 stk."/>
+    <Text ID="270550" Value="Gennemsnit under driftstid"/>
+    <Text ID="270551" Value="Udnyttelse"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Stakker blokkeret"/>
+    <Text ID="396877" Value="Stk/tim"/>
+    <Text ID="408271" Value="Machine in Operation"/>
+    <Text ID="421565" Value="Tom bøjle blokkeret"/>
+    <Text ID="436404" Value="Ingen bøjle i indløb"/>
+    <Text ID="436405" Value="Jam tid"/>
+    <Text ID="459678" Value="Lost time - No Hanger"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Count"/>
+    <Text ID="462758" Value="Total [m]"/>
+    <Text ID="462759" Value="Average[m]"/>
+    <Text ID="475215" Value="Productive Time "/>
+    <Text ID="475217" Value="Feeding stoped"/>
+    <Text ID="476687" Value="Production Stop"/>
+    <Text ID="491615" Value="Stakker 1"/>
+    <Text ID="491616" Value="Stakker 2"/>
+    <Text ID="491617" Value="Stakker 3"/>
+    <Text ID="491618" Value="Stakker 4"/>
+    <Text ID="491619" Value="Stakker 5"/>
+    <Text ID="491620" Value="Stakker 6"/>
+    <Text ID="491621" Value="Stakker 7"/>
+    <Text ID="491622" Value="Stakker 8"/>
+    <Text ID="491623" Value="Stakker 9"/>
+    <Text ID="491624" Value="Stakker 10"/>
+    <Text ID="499338" Value="Nödstop eller sikkerhedsskärm"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="270485" Value="Tempo di Funzionamento"/>
+    <Text ID="270489" Value="Contatore Totale"/>
+    <Text ID="270514" Value="pz"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Velocità degli ultimi 10 pz"/>
+    <Text ID="270550" Value="Media durante il tempo di funzionamento"/>
+    <Text ID="270551" Value="Utilizzo"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Accatast. Bloccato"/>
+    <Text ID="396877" Value="Pz/ora"/>
+    <Text ID="408271" Value="Macchina Prontra"/>
+    <Text ID="421565" Value="Apertura Gruccia Bloccata"/>
+    <Text ID="436404" Value="Nessiuna Gruccia in Ingresso"/>
+    <Text ID="436405" Value="Tempo di Blocco"/>
+    <Text ID="459678" Value="Lost time - No Hanger"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Count"/>
+    <Text ID="462758" Value="Total [m]"/>
+    <Text ID="462759" Value="Average[m]"/>
+    <Text ID="475215" Value="Productive Time "/>
+    <Text ID="475217" Value="Feeding stoped"/>
+    <Text ID="476687" Value="Production Stop"/>
+    <Text ID="491615" Value="Stacker 1"/>
+    <Text ID="491616" Value="Stacker 2"/>
+    <Text ID="491617" Value="Stacker 3"/>
+    <Text ID="491618" Value="Stacker 4"/>
+    <Text ID="491619" Value="Stacker 5"/>
+    <Text ID="491620" Value="Stacker 6"/>
+    <Text ID="491621" Value="Stacker 7"/>
+    <Text ID="491622" Value="Stacker 8"/>
+    <Text ID="491623" Value="Stacker 9"/>
+    <Text ID="491624" Value="Stacker 10"/>
+    <Text ID="499338" Value="Arresto emergenza o copertura sicurezza"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="270485" Value="Operating time"/>
+    <Text ID="270489" Value="Total counter"/>
+    <Text ID="270514" Value="pcs"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Actual speed last 10 pcs"/>
+    <Text ID="270550" Value="Average during operating time"/>
+    <Text ID="270551" Value="Utilisation"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Stacker blocked"/>
+    <Text ID="396877" Value="pcs/h"/>
+    <Text ID="408271" Value="Machine in Operation"/>
+    <Text ID="421565" Value="Empty hanger blocked"/>
+    <Text ID="436404" Value="No hangers at inlet"/>
+    <Text ID="436405" Value="Jam time"/>
+    <Text ID="459678" Value="Lost time - No Hanger"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Count"/>
+    <Text ID="462758" Value="Total [m]"/>
+    <Text ID="462759" Value="Average[m]"/>
+    <Text ID="475215" Value="Productive Time "/>
+    <Text ID="475217" Value="Feeding stoped"/>
+    <Text ID="476687" Value="Production Stop"/>
+    <Text ID="491615" Value="Stacker 1"/>
+    <Text ID="491616" Value="Stacker 2"/>
+    <Text ID="491617" Value="Stacker 3"/>
+    <Text ID="491618" Value="Stacker 4"/>
+    <Text ID="491619" Value="Stacker 5"/>
+    <Text ID="491620" Value="Stacker 6"/>
+    <Text ID="491621" Value="Stacker 7"/>
+    <Text ID="491622" Value="Stacker 8"/>
+    <Text ID="491623" Value="Stacker 9"/>
+    <Text ID="491624" Value="Stacker 10"/>
+    <Text ID="499338" Value="Emergency Stop or Security-Cover"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="270485" Value="Draaiuren"/>
+    <Text ID="270489" Value="Totaal teller"/>
+    <Text ID="270514" Value="stk"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Actuele snelheid laatste 10 stuks"/>
+    <Text ID="270550" Value="Gemiddelde tijdens draaiuren"/>
+    <Text ID="270551" Value="Gebruik"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Stapelaar geblokkeerd"/>
+    <Text ID="396877" Value="Stk/uur"/>
+    <Text ID="408271" Value="Machine in bedrijf"/>
+    <Text ID="421565" Value="Lege hanger geblokkeerd"/>
+    <Text ID="436404" Value="Geen hangers bij invoer"/>
+    <Text ID="436405" Value="Storing tijd"/>
+    <Text ID="459678" Value="Verloren tijd - geen hanger"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Aantal"/>
+    <Text ID="462758" Value="Totaal"/>
+    <Text ID="462759" Value="Gemiddelde"/>
+    <Text ID="475215" Value="Productieve tijd"/>
+    <Text ID="475217" Value="Invoer gestopt"/>
+    <Text ID="476687" Value="Productieonderbreking"/>
+    <Text ID="491615" Value="Stapelaar 1"/>
+    <Text ID="491616" Value="Stapelaar 2"/>
+    <Text ID="491617" Value="Stapelaar 3"/>
+    <Text ID="491618" Value="Stapelaar 4"/>
+    <Text ID="491619" Value="Stapelaar 5"/>
+    <Text ID="491620" Value="Stapelaar 6"/>
+    <Text ID="491621" Value="Stapelaar 7"/>
+    <Text ID="491622" Value="Stapelaar 8"/>
+    <Text ID="491623" Value="Stapelaar 9"/>
+    <Text ID="491624" Value="Stapelaar 10"/>
+    <Text ID="499338" Value="Noodstop of deur geopend                         "/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="270485" Value="Tiempo de operación"/>
+    <Text ID="270489" Value="Contador total"/>
+    <Text ID="270514" Value="Pzas"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Velocidad actual últimas 10 piezas"/>
+    <Text ID="270550" Value="Promedio durante timepo de operación"/>
+    <Text ID="270551" Value="Utilización"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Apilador bloqueado"/>
+    <Text ID="396877" Value="Pzas/h"/>
+    <Text ID="408271" Value="Máquina en funcionamiento"/>
+    <Text ID="421565" Value="Salida de perchas vacías bloqueado"/>
+    <Text ID="436404" Value="Sin perchas a la entrada"/>
+    <Text ID="436405" Value="Tiempo de atasco"/>
+    <Text ID="459678" Value="Tiempo perdido - Sin perchas"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Cuenta"/>
+    <Text ID="462758" Value="Total (m)"/>
+    <Text ID="462759" Value="Promedio"/>
+    <Text ID="475215" Value="Tiempo productivo"/>
+    <Text ID="475217" Value="Alimentación de entrada parada"/>
+    <Text ID="476687" Value="Parada de producción"/>
+    <Text ID="491615" Value="Apilador 1"/>
+    <Text ID="491616" Value="Apilador 2"/>
+    <Text ID="491617" Value="Apilador 3"/>
+    <Text ID="491618" Value="Apilador 4"/>
+    <Text ID="491619" Value="Apilador 5"/>
+    <Text ID="491620" Value="Apilador 6"/>
+    <Text ID="491621" Value="Apilador 7"/>
+    <Text ID="491622" Value="Apilador 8"/>
+    <Text ID="491623" Value="Apilador 9"/>
+    <Text ID="491624" Value="Apilador 10"/>
+    <Text ID="499338" Value="Parada de emergencia o Puerta abierta           "/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="270485" Value="Czas pracy"/>
+    <Text ID="270489" Value="Licznik całkowity"/>
+    <Text ID="270514" Value="Sztuki"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Prędkość bieżąca na podstawie 10 ostatnich szt"/>
+    <Text ID="270550" Value="Średnia w czasie pracy"/>
+    <Text ID="270551" Value="Wykorzystanie"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Układarka zablokowana"/>
+    <Text ID="396877" Value="sztuki/godz."/>
+    <Text ID="408271" Value="Maszyna pracuje"/>
+    <Text ID="421565" Value="Blokada z powodu pustych wieszaków"/>
+    <Text ID="436404" Value="Brak wieszaków na wlocie"/>
+    <Text ID="436405" Value="Czas zatoru"/>
+    <Text ID="459678" Value="Czas stracony - brak wieszaka"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Licznik"/>
+    <Text ID="462758" Value="Łącznie [m]"/>
+    <Text ID="462759" Value="Średnia [m]"/>
+    <Text ID="475215" Value="Czas produktywny "/>
+    <Text ID="475217" Value="Podawanie zatrzymane"/>
+    <Text ID="476687" Value="Zatrzymanie produkcji"/>
+    <Text ID="491615" Value="Układarka 1"/>
+    <Text ID="491616" Value="Układarka 2"/>
+    <Text ID="491617" Value="Układarka 3"/>
+    <Text ID="491618" Value="Układarka 4"/>
+    <Text ID="491619" Value="Układarka 5"/>
+    <Text ID="491620" Value="Układarka 6"/>
+    <Text ID="491621" Value="Układarka 7"/>
+    <Text ID="491622" Value="Układarka 8"/>
+    <Text ID="491623" Value="Układarka 9"/>
+    <Text ID="491624" Value="Układarka 10"/>
+    <Text ID="499338" Value="Wyłącznik zatrzymania awaryjnego lub pokrywa zabezpieczająca           "/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="270485" Value=""/>
+    <Text ID="270489" Value=""/>
+    <Text ID="270514" Value=""/>
+    <Text ID="270519" Value=""/>
+    <Text ID="270520" Value=""/>
+    <Text ID="270521" Value=""/>
+    <Text ID="270540" Value=""/>
+    <Text ID="270550" Value=""/>
+    <Text ID="270551" Value=""/>
+    <Text ID="270555" Value=""/>
+    <Text ID="371514" Value=""/>
+    <Text ID="396877" Value=""/>
+    <Text ID="408271" Value=""/>
+    <Text ID="421565" Value=""/>
+    <Text ID="436404" Value=""/>
+    <Text ID="436405" Value=""/>
+    <Text ID="459678" Value=""/>
+    <Text ID="462273" Value=""/>
+    <Text ID="462274" Value=""/>
+    <Text ID="462758" Value=""/>
+    <Text ID="462759" Value=""/>
+    <Text ID="475215" Value=""/>
+    <Text ID="475217" Value=""/>
+    <Text ID="476687" Value=""/>
+    <Text ID="491615" Value=""/>
+    <Text ID="491616" Value=""/>
+    <Text ID="491617" Value=""/>
+    <Text ID="491618" Value=""/>
+    <Text ID="491619" Value=""/>
+    <Text ID="491620" Value=""/>
+    <Text ID="491621" Value=""/>
+    <Text ID="491622" Value=""/>
+    <Text ID="491623" Value=""/>
+    <Text ID="491624" Value=""/>
+    <Text ID="499338" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="270485" Value=""/>
+    <Text ID="270489" Value=""/>
+    <Text ID="270514" Value=""/>
+    <Text ID="270519" Value=""/>
+    <Text ID="270520" Value=""/>
+    <Text ID="270521" Value=""/>
+    <Text ID="270540" Value=""/>
+    <Text ID="270550" Value=""/>
+    <Text ID="270551" Value=""/>
+    <Text ID="270555" Value=""/>
+    <Text ID="371514" Value=""/>
+    <Text ID="396877" Value=""/>
+    <Text ID="408271" Value=""/>
+    <Text ID="421565" Value=""/>
+    <Text ID="436404" Value=""/>
+    <Text ID="436405" Value=""/>
+    <Text ID="459678" Value=""/>
+    <Text ID="462273" Value=""/>
+    <Text ID="462274" Value=""/>
+    <Text ID="462758" Value=""/>
+    <Text ID="462759" Value=""/>
+    <Text ID="475215" Value=""/>
+    <Text ID="475217" Value=""/>
+    <Text ID="476687" Value=""/>
+    <Text ID="491615" Value=""/>
+    <Text ID="491616" Value=""/>
+    <Text ID="491617" Value=""/>
+    <Text ID="491618" Value=""/>
+    <Text ID="491619" Value=""/>
+    <Text ID="491620" Value=""/>
+    <Text ID="491621" Value=""/>
+    <Text ID="491622" Value=""/>
+    <Text ID="491623" Value=""/>
+    <Text ID="491624" Value=""/>
+    <Text ID="499338" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="270485" Value="Czas pracy"/>
+    <Text ID="270489" Value="Licznik całkowity"/>
+    <Text ID="270514" Value="Sztuki"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Prędkość bieżąca na podstawie 10 ostatnich szt"/>
+    <Text ID="270550" Value="Średnia w czasie pracy"/>
+    <Text ID="270551" Value="Wykorzystanie"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Układarka zablokowana"/>
+    <Text ID="396877" Value="sztuki/godz."/>
+    <Text ID="408271" Value="Maszyna pracuje"/>
+    <Text ID="421565" Value="Blokada z powodu pustych wieszaków"/>
+    <Text ID="436404" Value="Brak wieszaków na wlocie"/>
+    <Text ID="436405" Value="Czas zatoru"/>
+    <Text ID="459678" Value="Czas stracony - brak wieszaka"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Licznik"/>
+    <Text ID="462758" Value="Łącznie [m]"/>
+    <Text ID="462759" Value="Średnia [m]"/>
+    <Text ID="475215" Value="Czas produktywny "/>
+    <Text ID="475217" Value="Podawanie zatrzymane"/>
+    <Text ID="476687" Value="Zatrzymanie produkcji"/>
+    <Text ID="491615" Value="Układarka 1"/>
+    <Text ID="491616" Value="Układarka 2"/>
+    <Text ID="491617" Value="Układarka 3"/>
+    <Text ID="491618" Value="Układarka 4"/>
+    <Text ID="491619" Value="Układarka 5"/>
+    <Text ID="491620" Value="Układarka 6"/>
+    <Text ID="491621" Value="Układarka 7"/>
+    <Text ID="491622" Value="Układarka 8"/>
+    <Text ID="491623" Value="Układarka 9"/>
+    <Text ID="491624" Value="Układarka 10"/>
+    <Text ID="499338" Value="Wyłącznik zatrzymania awaryjnego lub pokrywa zabezpieczająca           "/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="270485" Value="Operating time"/>
+    <Text ID="270489" Value="Total counter"/>
+    <Text ID="270514" Value="ks"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Actual speed last 10 pcs"/>
+    <Text ID="270550" Value="Average during operating time"/>
+    <Text ID="270551" Value="Vyuziti"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Stacker blocked"/>
+    <Text ID="396877" Value="Ks/Hod"/>
+    <Text ID="408271" Value="Machine in Operation"/>
+    <Text ID="421565" Value="Empty hanger blocked"/>
+    <Text ID="436404" Value="No hangers at inlet"/>
+    <Text ID="436405" Value="Jam time"/>
+    <Text ID="459678" Value="Lost time - No Hanger"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Count"/>
+    <Text ID="462758" Value="Total [m]"/>
+    <Text ID="462759" Value="Average[m]"/>
+    <Text ID="475215" Value="Productive Time "/>
+    <Text ID="475217" Value="Feeding stoped"/>
+    <Text ID="476687" Value="Production Stop"/>
+    <Text ID="491615" Value="Stacker 1"/>
+    <Text ID="491616" Value="Stacker 2"/>
+    <Text ID="491617" Value="Stacker 3"/>
+    <Text ID="491618" Value="Stacker 4"/>
+    <Text ID="491619" Value="Stacker 5"/>
+    <Text ID="491620" Value="Stacker 6"/>
+    <Text ID="491621" Value="Stacker 7"/>
+    <Text ID="491622" Value="Stacker 8"/>
+    <Text ID="491623" Value="Stacker 9"/>
+    <Text ID="491624" Value="Stacker 10"/>
+    <Text ID="499338" Value="Emergency Stop or Security-Cover"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="270485" Value="Operating time"/>
+    <Text ID="270489" Value="Total counter"/>
+    <Text ID="270514" Value="pcs"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Actual speed last 10 pcs"/>
+    <Text ID="270550" Value="Average during operating time"/>
+    <Text ID="270551" Value="Utilisation"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Stacker blocked"/>
+    <Text ID="396877" Value="pcs/h"/>
+    <Text ID="408271" Value="Machine in Operation"/>
+    <Text ID="421565" Value="Empty hanger blocked"/>
+    <Text ID="436404" Value="No hangers at inlet"/>
+    <Text ID="436405" Value="Jam time"/>
+    <Text ID="459678" Value="Lost time - No Hanger"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Count"/>
+    <Text ID="462758" Value="Total [m]"/>
+    <Text ID="462759" Value="Average[m]"/>
+    <Text ID="475215" Value="Productive Time "/>
+    <Text ID="475217" Value="Feeding stoped"/>
+    <Text ID="476687" Value="Production Stop"/>
+    <Text ID="491615" Value="Stacker 1"/>
+    <Text ID="491616" Value="Stacker 2"/>
+    <Text ID="491617" Value="Stacker 3"/>
+    <Text ID="491618" Value="Stacker 4"/>
+    <Text ID="491619" Value="Stacker 5"/>
+    <Text ID="491620" Value="Stacker 6"/>
+    <Text ID="491621" Value="Stacker 7"/>
+    <Text ID="491622" Value="Stacker 8"/>
+    <Text ID="491623" Value="Stacker 9"/>
+    <Text ID="491624" Value="Stacker 10"/>
+    <Text ID="499338" Value="Emergency Stop or Security-Cover"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="270485" Value="Gangtid"/>
+    <Text ID="270489" Value="Total Teller"/>
+    <Text ID="270514" Value="Stk"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Aktuell hastighet siste 10 stk."/>
+    <Text ID="270550" Value="Gjennomsnitt under driftstid"/>
+    <Text ID="270551" Value="Utnyttelse"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Stacker blokkert"/>
+    <Text ID="396877" Value="Stk/tim"/>
+    <Text ID="408271" Value="Maskin Klar"/>
+    <Text ID="421565" Value="Tom henger blokert"/>
+    <Text ID="436404" Value="Ingen henger i innløp"/>
+    <Text ID="436405" Value="Jam tid"/>
+    <Text ID="459678" Value="Lost time - No Hanger"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Count"/>
+    <Text ID="462758" Value="Total [m]"/>
+    <Text ID="462759" Value="Average[m]"/>
+    <Text ID="475215" Value="Productive Time "/>
+    <Text ID="475217" Value="Feeding stoped"/>
+    <Text ID="476687" Value="Production Stop"/>
+    <Text ID="491615" Value="Stacker 1"/>
+    <Text ID="491616" Value="Stacker 2"/>
+    <Text ID="491617" Value="Stacker 3"/>
+    <Text ID="491618" Value="Stacker 4"/>
+    <Text ID="491619" Value="Stacker 5"/>
+    <Text ID="491620" Value="Stacker 6"/>
+    <Text ID="491621" Value="Stacker 7"/>
+    <Text ID="491622" Value="Stacker 8"/>
+    <Text ID="491623" Value="Stacker 9"/>
+    <Text ID="491624" Value="Stacker 10"/>
+    <Text ID="499338" Value="Nödstopp eller sikkerhetsdeksel           "/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="270485" Value="Tempo de funcionamento"/>
+    <Text ID="270489" Value="Total counter"/>
+    <Text ID="270514" Value="Pcs"/>
+    <Text ID="270519" Value="d"/>
+    <Text ID="270520" Value="h"/>
+    <Text ID="270521" Value="m"/>
+    <Text ID="270540" Value="Velocidade real das últimas 10 unid."/>
+    <Text ID="270550" Value="Média durante tempo de funcionamento"/>
+    <Text ID="270551" Value="Utilização"/>
+    <Text ID="270555" Value="%"/>
+    <Text ID="371514" Value="Empilhador bloqueado"/>
+    <Text ID="396877" Value="pcs/h"/>
+    <Text ID="408271" Value="Machine in Operation               "/>
+    <Text ID="421565" Value="Cabide vazio bloqueado"/>
+    <Text ID="436404" Value="Sem cabides na entrada"/>
+    <Text ID="436405" Value="Tempo de obstrução"/>
+    <Text ID="459678" Value="Tempo perdido - Sem cabides"/>
+    <Text ID="462273" Value="s"/>
+    <Text ID="462274" Value="Contagem"/>
+    <Text ID="462758" Value="Total [m]"/>
+    <Text ID="462759" Value="Average[m]"/>
+    <Text ID="475215" Value="Tempo produtivo "/>
+    <Text ID="475217" Value="Alimentação parada"/>
+    <Text ID="476687" Value="Production Stop          "/>
+    <Text ID="491615" Value="Stacker 1"/>
+    <Text ID="491616" Value="Stacker 2"/>
+    <Text ID="491617" Value="Stacker 3"/>
+    <Text ID="491618" Value="Stacker 4"/>
+    <Text ID="491619" Value="Stacker 5"/>
+    <Text ID="491620" Value="Stacker 6"/>
+    <Text ID="491621" Value="Empilhador 7"/>
+    <Text ID="491622" Value="Empilhador 8"/>
+    <Text ID="491623" Value="Empilhador 9"/>
+    <Text ID="491624" Value="Empilhador 10"/>
+    <Text ID="499338" Value="Paragem de emergência ou tampa de segurança           "/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="270485" Value="0"/>
+    <Index ID="270489" Value="7"/>
+    <Index ID="270514" Value="33"/>
+    <Index ID="270519" Value="30"/>
+    <Index ID="270520" Value="31"/>
+    <Index ID="270521" Value="32"/>
+    <Index ID="270540" Value="3"/>
+    <Index ID="270550" Value="4"/>
+    <Index ID="270551" Value="5"/>
+    <Index ID="270555" Value="34"/>
+    <Index ID="371514" Value="50"/>
+    <Index ID="396877" Value="51"/>
+    <Index ID="408271" Value="52"/>
+    <Index ID="421565" Value="53"/>
+    <Index ID="436404" Value="54"/>
+    <Index ID="436405" Value="55"/>
+    <Index ID="459678" Value="56"/>
+    <Index ID="462273" Value="35"/>
+    <Index ID="462274" Value="36"/>
+    <Index ID="462758" Value="1"/>
+    <Index ID="462759" Value="2"/>
+    <Index ID="475215" Value="6"/>
+    <Index ID="475217" Value="8"/>
+    <Index ID="476687" Value="9"/>
+    <Index ID="491615" Value="61"/>
+    <Index ID="491616" Value="62"/>
+    <Index ID="491617" Value="63"/>
+    <Index ID="491618" Value="64"/>
+    <Index ID="491619" Value="65"/>
+    <Index ID="491620" Value="66"/>
+    <Index ID="491621" Value="67"/>
+    <Index ID="491622" Value="68"/>
+    <Index ID="491623" Value="69"/>
+    <Index ID="491624" Value="70"/>
+    <Index ID="499338" Value="71"/>
+  </IndexMap>
+</TextGroup>

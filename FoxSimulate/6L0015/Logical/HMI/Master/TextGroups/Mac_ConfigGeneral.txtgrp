@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigGeneral">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="21"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="281911" Value="Stacker Belt: Speed-Factor:"/>
+    <Text ID="281912" Value="cm"/>
+    <Text ID="281913" Value="inch"/>
+    <Text ID="281914" Value="msec"/>
+    <Text ID="282013" Value="Photocells: Filtertime:"/>
+    <Text ID="282015" Value="Motor: Switchtime:"/>
+    <Text ID="283103" Value="Conveyor Run Time:"/>
+    <Text ID="283106" Value="Minimum Template Size:"/>
+    <Text ID="283742" Value="sec"/>
+    <Text ID="291151" Value="mm"/>
+    <Text ID="385616" Value="STF fullsensor Ondelay"/>
+    <Text ID="385617" Value="STF fullsensor Offdelay"/>
+    <Text ID="385618" Value="Accum stop pulse Ontime"/>
+    <Text ID="385619" Value="Accum stop pulse Offtime"/>
+    <Text ID="457209" Value="10 * ms"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="281911" Value="Staplerband: Geschwindigkeits-Faktor:"/>
+    <Text ID="281912" Value="cm"/>
+    <Text ID="281913" Value="inch"/>
+    <Text ID="281914" Value="msek"/>
+    <Text ID="282013" Value="Fotozellen: Filterzeit:"/>
+    <Text ID="282015" Value="Motoren: Umschaltzeit:"/>
+    <Text ID="283103" Value="Bänder Laufzeit:"/>
+    <Text ID="283106" Value="Minimale Schablonenbreite:"/>
+    <Text ID="283742" Value="sek"/>
+    <Text ID="291151" Value="mm"/>
+    <Text ID="385616" Value="STF Vollsensor Einschaltverzögerung"/>
+    <Text ID="385617" Value="STF Vollsensor Ausschaltverzögerung"/>
+    <Text ID="385618" Value="Vor stop ein"/>
+    <Text ID="385619" Value="Vor stop aus"/>
+    <Text ID="457209" Value="10 * ms"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="281911" Value="Stacker Belt: Speed-Factor:"/>
+    <Text ID="281912" Value="cm"/>
+    <Text ID="281913" Value="tum "/>
+    <Text ID="281914" Value="ms"/>
+    <Text ID="282013" Value="Fotoceller: filtertid:"/>
+    <Text ID="282015" Value="Motorer: omkopplingstid:"/>
+    <Text ID="283103" Value="Conveyor Run Time:"/>
+    <Text ID="283106" Value="Minimum Template Size:"/>
+    <Text ID="283742" Value="s"/>
+    <Text ID="291151" Value="mm"/>
+    <Text ID="385616" Value="STF fullsensor Ondelay"/>
+    <Text ID="385617" Value="STF fullsensor Offdelay"/>
+    <Text ID="385618" Value="Accum stop pulse Ontime"/>
+    <Text ID="385619" Value="Accum stop pulse Offtime"/>
+    <Text ID="457209" Value="10 * ms"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="281911" Value="Stacker Belt: Speed-Factor:"/>
+    <Text ID="281912" Value="cm"/>
+    <Text ID="281913" Value="pouce"/>
+    <Text ID="281914" Value="msec"/>
+    <Text ID="282013" Value="Cellules: Temps de Filtrage:"/>
+    <Text ID="282015" Value="Moteur: Temps de Commutation:"/>
+    <Text ID="283103" Value="Conveyor Run Time:"/>
+    <Text ID="283106" Value="Minimum Template Size:"/>
+    <Text ID="283742" Value="sec"/>
+    <Text ID="291151" Value="mm"/>
+    <Text ID="385616" Value="Mise à l'Unité: délais on"/>
+    <Text ID="385617" Value="Mise à l'Unité: délais off"/>
+    <Text ID="385618" Value="Prestop on"/>
+    <Text ID="385619" Value="Prestop off"/>
+    <Text ID="457209" Value="10 * ms"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="281911" Value="Stakkerbånd: hastighedsfaktor"/>
+    <Text ID="281912" Value="cm"/>
+    <Text ID="281913" Value="inch"/>
+    <Text ID="281914" Value="msek"/>
+    <Text ID="282013" Value="Fotoceller: filtertid:"/>
+    <Text ID="282015" Value="Motorer: omkoblingstid:"/>
+    <Text ID="283103" Value="Køretid conveyor"/>
+    <Text ID="283106" Value="Minimum template størrelse"/>
+    <Text ID="283742" Value="sek"/>
+    <Text ID="291151" Value="mm"/>
+    <Text ID="385616" Value="STF fullsensor Ondelay"/>
+    <Text ID="385617" Value="STF fullsensor Offdelay"/>
+    <Text ID="385618" Value="Forstop tid til "/>
+    <Text ID="385619" Value="Forstop tid fra"/>
+    <Text ID="457209" Value="10 * ms"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="281911" Value="Accatastatore Cinghia: Fattore Velocità"/>
+    <Text ID="281912" Value="cm"/>
+    <Text ID="281913" Value="pollici"/>
+    <Text ID="281914" Value="millisec"/>
+    <Text ID="282013" Value="Fotecellule: Filtro"/>
+    <Text ID="282015" Value="Motore: Switch time"/>
+    <Text ID="283103" Value="Conveyor Run Time:"/>
+    <Text ID="283106" Value="Misura Minima Sagoma:"/>
+    <Text ID="283742" Value="sec"/>
+    <Text ID="291151" Value="mm"/>
+    <Text ID="385616" Value="STF fullsensor Ondelay"/>
+    <Text ID="385617" Value="STF fullsensor Offdelay"/>
+    <Text ID="385618" Value="Durata Impulso Attivo Stop Accumulo "/>
+    <Text ID="385619" Value="Durata Impulso Disattivo Stop Accumulo "/>
+    <Text ID="457209" Value="10 * ms"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="281911" Value="Stacker Belt: Speed-Factor:"/>
+    <Text ID="281912" Value="cm"/>
+    <Text ID="281913" Value="inch"/>
+    <Text ID="281914" Value="msec"/>
+    <Text ID="282013" Value="Photocells: Filtertime:"/>
+    <Text ID="282015" Value="Motor: Switchtime:"/>
+    <Text ID="283103" Value="Conveyor Run Time:"/>
+    <Text ID="283106" Value="Minimum Template Size:"/>
+    <Text ID="283742" Value="sec"/>
+    <Text ID="291151" Value="mm"/>
+    <Text ID="385616" Value="STF fullsensor Ondelay"/>
+    <Text ID="385617" Value="STF fullsensor Offdelay"/>
+    <Text ID="385618" Value="Accum stop pulse Ontime"/>
+    <Text ID="385619" Value="Accum stop pulse Offtime"/>
+    <Text ID="457209" Value="10 * ms"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="281911" Value="Stacker Belt: Speed-Factor:"/>
+    <Text ID="281912" Value="cm"/>
+    <Text ID="281913" Value="inch"/>
+    <Text ID="281914" Value="msec"/>
+    <Text ID="282013" Value="Photocellen: Filtertijd:"/>
+    <Text ID="282015" Value="Motor: Omschakeltijd:"/>
+    <Text ID="283103" Value="Conveyor Run Time:"/>
+    <Text ID="283106" Value="Minimum Template Size:"/>
+    <Text ID="283742" Value="sec"/>
+    <Text ID="291151" Value="mm"/>
+    <Text ID="385616" Value="STF fullsensor Ondelay"/>
+    <Text ID="385617" Value="STF fullsensor Offdelay"/>
+    <Text ID="385618" Value="Accum stop pulse Ontime"/>
+    <Text ID="385619" Value="Accum stop pulse Offtime"/>
+    <Text ID="457209" Value="10 * ms"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="281911" Value="Stacker Belt: Speed-Factor:"/>
+    <Text ID="281912" Value="cm"/>
+    <Text ID="281913" Value="pulg"/>
+    <Text ID="281914" Value="mseg"/>
+    <Text ID="282013" Value="Fotocélulas: Tiempo filtrado:"/>
+    <Text ID="282015" Value="Motor: Tiempo de conmutación:"/>
+    <Text ID="283103" Value="Conveyor Run Time:"/>
+    <Text ID="283106" Value="Minimum Template Size:"/>
+    <Text ID="283742" Value="seg"/>
+    <Text ID="291151" Value="mm"/>
+    <Text ID="385616" Value="STF fullsensor Ondelay"/>
+    <Text ID="385617" Value="STF fullsensor Offdelay"/>
+    <Text ID="385618" Value="Accum stop pulse Ontime"/>
+    <Text ID="385619" Value="Accum stop pulse Offtime"/>
+    <Text ID="457209" Value="10 * ms"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="281911" Value=""/>
+    <Text ID="281912" Value=""/>
+    <Text ID="281913" Value=""/>
+    <Text ID="281914" Value=""/>
+    <Text ID="282013" Value=""/>
+    <Text ID="282015" Value=""/>
+    <Text ID="283103" Value=""/>
+    <Text ID="283106" Value=""/>
+    <Text ID="283742" Value=""/>
+    <Text ID="291151" Value=""/>
+    <Text ID="385616" Value=""/>
+    <Text ID="385617" Value=""/>
+    <Text ID="385618" Value=""/>
+    <Text ID="385619" Value=""/>
+    <Text ID="457209" Value="10 * ms"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="281911" Value=""/>
+    <Text ID="281912" Value=""/>
+    <Text ID="281913" Value=""/>
+    <Text ID="281914" Value=""/>
+    <Text ID="282013" Value=""/>
+    <Text ID="282015" Value=""/>
+    <Text ID="283103" Value=""/>
+    <Text ID="283106" Value=""/>
+    <Text ID="283742" Value=""/>
+    <Text ID="291151" Value=""/>
+    <Text ID="385616" Value=""/>
+    <Text ID="385617" Value=""/>
+    <Text ID="385618" Value=""/>
+    <Text ID="385619" Value=""/>
+    <Text ID="457209" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="281911" Value=""/>
+    <Text ID="281912" Value=""/>
+    <Text ID="281913" Value=""/>
+    <Text ID="281914" Value=""/>
+    <Text ID="282013" Value=""/>
+    <Text ID="282015" Value=""/>
+    <Text ID="283103" Value=""/>
+    <Text ID="283106" Value=""/>
+    <Text ID="283742" Value=""/>
+    <Text ID="291151" Value=""/>
+    <Text ID="385616" Value=""/>
+    <Text ID="385617" Value=""/>
+    <Text ID="385618" Value=""/>
+    <Text ID="385619" Value=""/>
+    <Text ID="457209" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="281911" Value=""/>
+    <Text ID="281912" Value=""/>
+    <Text ID="281913" Value=""/>
+    <Text ID="281914" Value=""/>
+    <Text ID="282013" Value=""/>
+    <Text ID="282015" Value=""/>
+    <Text ID="283103" Value=""/>
+    <Text ID="283106" Value=""/>
+    <Text ID="283742" Value=""/>
+    <Text ID="291151" Value=""/>
+    <Text ID="385616" Value=""/>
+    <Text ID="385617" Value=""/>
+    <Text ID="385618" Value=""/>
+    <Text ID="385619" Value=""/>
+    <Text ID="457209" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="281911" Value=""/>
+    <Text ID="281912" Value=""/>
+    <Text ID="281913" Value=""/>
+    <Text ID="281914" Value=""/>
+    <Text ID="282013" Value=""/>
+    <Text ID="282015" Value=""/>
+    <Text ID="283103" Value=""/>
+    <Text ID="283106" Value=""/>
+    <Text ID="283742" Value=""/>
+    <Text ID="291151" Value=""/>
+    <Text ID="385616" Value=""/>
+    <Text ID="385617" Value=""/>
+    <Text ID="385618" Value=""/>
+    <Text ID="385619" Value=""/>
+    <Text ID="457209" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="281911" Value=""/>
+    <Text ID="281912" Value=""/>
+    <Text ID="281913" Value=""/>
+    <Text ID="281914" Value=""/>
+    <Text ID="282013" Value=""/>
+    <Text ID="282015" Value=""/>
+    <Text ID="283103" Value=""/>
+    <Text ID="283106" Value=""/>
+    <Text ID="283742" Value=""/>
+    <Text ID="291151" Value=""/>
+    <Text ID="385616" Value=""/>
+    <Text ID="385617" Value=""/>
+    <Text ID="385618" Value=""/>
+    <Text ID="385619" Value=""/>
+    <Text ID="457209" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="281911" Value="Stackerbånd: hastighetsfaktor"/>
+    <Text ID="281912" Value="cm"/>
+    <Text ID="281913" Value="tom."/>
+    <Text ID="281914" Value="msek"/>
+    <Text ID="282013" Value="Fotoceller: filtertid:"/>
+    <Text ID="282015" Value="Motorer: omkoblingstid:"/>
+    <Text ID="283103" Value="Gangtid konveyor"/>
+    <Text ID="283106" Value="Minimum template størrelse"/>
+    <Text ID="283742" Value="sek"/>
+    <Text ID="291151" Value="mm"/>
+    <Text ID="385616" Value="STF fullsensor Ondelay"/>
+    <Text ID="385617" Value="STF fullsensor Offdelay"/>
+    <Text ID="385618" Value="Forstopp tid på"/>
+    <Text ID="385619" Value="Forstopp tid av"/>
+    <Text ID="457209" Value="10 * ms"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="281911" Value=""/>
+    <Text ID="281912" Value=""/>
+    <Text ID="281913" Value=""/>
+    <Text ID="281914" Value=""/>
+    <Text ID="282013" Value=""/>
+    <Text ID="282015" Value=""/>
+    <Text ID="283103" Value=""/>
+    <Text ID="283106" Value=""/>
+    <Text ID="283742" Value=""/>
+    <Text ID="291151" Value=""/>
+    <Text ID="385616" Value=""/>
+    <Text ID="385617" Value=""/>
+    <Text ID="385618" Value=""/>
+    <Text ID="385619" Value=""/>
+    <Text ID="457209" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="281911" Value="30"/>
+    <Index ID="281912" Value="0"/>
+    <Index ID="281913" Value="1"/>
+    <Index ID="281914" Value="5"/>
+    <Index ID="282013" Value="35"/>
+    <Index ID="282015" Value="40"/>
+    <Index ID="283103" Value="48"/>
+    <Index ID="283106" Value="50"/>
+    <Index ID="283742" Value="4"/>
+    <Index ID="291151" Value="2"/>
+    <Index ID="385616" Value="101"/>
+    <Index ID="385617" Value="102"/>
+    <Index ID="385618" Value="103"/>
+    <Index ID="385619" Value="104"/>
+    <Index ID="457209" Value="3"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Current">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[mA_100]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="None"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="156028" Value=""/>
+      <Text ID="156029" Value=""/>
+      <Text ID="156030" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="156028" Value="0"/>
+      <Index ID="156029" Value="1"/>
+      <Index ID="156030" Value="2"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="mA_100">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="10"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

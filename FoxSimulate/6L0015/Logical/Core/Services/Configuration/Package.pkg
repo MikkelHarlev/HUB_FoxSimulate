@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.4.112?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC" Description="HMI Panel configuration">pancfg</Object>
+    <Object Type="Program" Language="IEC" Description="HMI File handling for default values">system</Object>
+    <Object Type="Program" Language="IEC" Description="HMI Hardware Settings, File Load/Save">hcfg</Object>
+    <Object Type="Program" Language="IEC">CAR</Object>
+    <Object Type="Program" Language="IEC" Description="HMI operator list handling">oplist</Object>
+    <Object Type="Package" Description="rcfg package">rcfg</Object>
+    <Object Type="Package" Description="hcfg package">mcfg</Object>
+    <Object Type="Package" Description="Additional file handling">acfg</Object>
+  </Objects>
+</Package>

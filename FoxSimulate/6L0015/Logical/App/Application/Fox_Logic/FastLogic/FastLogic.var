@@ -1,0 +1,26 @@
+VAR
+	RTime : DTGetTime; (*	RUseMultiBlow : BOOL;
+	LeftArmBp : Blow_Type;
+	RightArmBp : Blow_Type;
+	LeftArmBpFunction : BlowPipe;
+	RightArmBpFunction : BlowPipe;
+	RLeftArmBp : BOOL; 
+	RRightArmBp : BOOL;	
+	LocalAutoProgram : REFERENCE TO ACfg_Type;
+	DummyAutoProgram : ACfg_Type;
+	LastUsedAutoProgram : UINT;
+	RActiveFunc : BOOL;*)
+	RCounterWheel : BOOL;
+	PulsTime : ARRAY[0..49] OF UDINT;
+	i : USINT;
+	PulsTimeStamp : UDINT;
+	RMilliSeconds : UDINT;
+	PulsTimeOff : ARRAY[0..49] OF UDINT;
+	iOff : USINT;
+	iOn : USINT;
+	PulsTimeOn : ARRAY[0..49] OF UDINT;
+	WrongMilli : UDINT;
+	JamDeloadingOut_Filter : FB_Filter;
+	JamDeloadOutCheck : ARRAY[0..20] OF UINT := [21(0)];
+	JamDeloadOutCheckMin : UINT := 1000;
+END_VAR

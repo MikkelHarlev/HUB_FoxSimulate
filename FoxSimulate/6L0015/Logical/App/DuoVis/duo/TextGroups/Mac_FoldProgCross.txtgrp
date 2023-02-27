@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_FoldProgCross">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="36"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msec"/>
+    <Text ID="317303" Value="XA Motor extra time"/>
+    <Text ID="318340" Value="Fold distance XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msek"/>
+    <Text ID="317303" Value="XA Motor extra Zeit"/>
+    <Text ID="318340" Value="Falt Distanz XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="tum "/>
+    <Text ID="258808" Value="ms"/>
+    <Text ID="317303" Value="XA Motor extra tid"/>
+    <Text ID="318340" Value="Vikavstånd XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="pouce"/>
+    <Text ID="258808" Value="ms"/>
+    <Text ID="317303" Value="Durée supplémentaire moteur XA"/>
+    <Text ID="318340" Value="Distance pli XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msek"/>
+    <Text ID="317303" Value="XA Motor ekstra tid"/>
+    <Text ID="318340" Value="Folde distance XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="pollici"/>
+    <Text ID="258808" Value="millisec"/>
+    <Text ID="317303" Value="XA Motore extra time"/>
+    <Text ID="318340" Value="Distanza da XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msec"/>
+    <Text ID="317303" Value="XA Motor extra time"/>
+    <Text ID="318340" Value="Fold distance XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msec"/>
+    <Text ID="317303" Value="Extra tijd motor XA"/>
+    <Text ID="318340" Value="Vouw afstand XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="pulg"/>
+    <Text ID="258808" Value="ms"/>
+    <Text ID="317303" Value="Tiempo extra motor Transversal A"/>
+    <Text ID="318340" Value="Distancia de doblado Transversal A"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="cale"/>
+    <Text ID="258808" Value="msek"/>
+    <Text ID="317303" Value="Dodatkowy czas silnika XA"/>
+    <Text ID="318340" Value="Odległość składania XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="258806" Value=""/>
+    <Text ID="258807" Value=""/>
+    <Text ID="258808" Value=""/>
+    <Text ID="317303" Value=""/>
+    <Text ID="318340" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="258806" Value=""/>
+    <Text ID="258807" Value=""/>
+    <Text ID="258808" Value=""/>
+    <Text ID="317303" Value=""/>
+    <Text ID="318340" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="cale"/>
+    <Text ID="258808" Value="msek"/>
+    <Text ID="317303" Value="Dodatkowy czas silnika XA"/>
+    <Text ID="318340" Value="Odległość składania XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msec"/>
+    <Text ID="317303" Value="XA Motor extra time"/>
+    <Text ID="318340" Value="Fold distance XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msec"/>
+    <Text ID="317303" Value="XA Motor extra time"/>
+    <Text ID="318340" Value="Fold distance XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="tom."/>
+    <Text ID="258808" Value="msek"/>
+    <Text ID="317303" Value="XA Motor ekstra tid"/>
+    <Text ID="318340" Value="Folde distanse XA"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="ms"/>
+    <Text ID="317303" Value="Tempo extra do motor da dobra cruzada A"/>
+    <Text ID="318340" Value="Distância da dobra cruzada A"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="258806" Value="0"/>
+    <Index ID="258807" Value="1"/>
+    <Index ID="258808" Value="5"/>
+    <Index ID="317303" Value="6"/>
+    <Index ID="318340" Value="7"/>
+  </IndexMap>
+</TextGroup>

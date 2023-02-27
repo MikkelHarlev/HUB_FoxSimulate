@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="Op_MachineMain">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Index" Value="2"/>
+  <Property Name="LockedBackColor" Value="197"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="320"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[ComLayer_Pages]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_Pages"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[ComLayer_Common]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_Common"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="240"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="320"/>
+      <Property Name="Z-Order" Value="2"/>
+      <TextGroup>
+        <TextLayer LanguageId="en-GB">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="de-DE">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="sv-SE">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="fr-FR">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="da-DK">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="it-IT">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="fi-FI">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="nl-NL">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="es-ES">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="pl-PL">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="ru-RU">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="en">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="zh-CN">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="cs-CZ">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="en-US">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="no-NO">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="pt-PT">
+          <Text ID="516857" Value=""/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="516857" Value="0"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001002" Name="StopFeedingButton">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[FeedHangers]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[Master.App.Application.Fox_Logic.h_inlet.HMIEnableFeeding]"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="282"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="171"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StopFeeding]"/>
+          <Property Name="Width" Value="34"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="11"/>
+          <Property Name="Left" Value="256"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="100"/>
+          <Property Name="Width" Value="17"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[Bump]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Big]"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="Left" Value="257"/>
+          <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[Master.Core.Services.GlobalCoreVars.g_Core.System.Configuration.isRemoteEnabled]"/>
+          <Property Name="LockingLevel" Value="1"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="99"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="1"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="41"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_AutoProgram.OperatorAutoProgram]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[Bump]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Medium]"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="Left" Value="3"/>
+          <Property Name="MaxChars" Value="20"/>
+          <Property Name="SimulationValue" Value="Lederhosen"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="Top" Value="41"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.MainAutoProgram.NameOfAutoProgram]"/>
+          <Property Name="Width" Value="251"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="43"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="3"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="39"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_AutoprgSelect]"/>
+          <Property Name="Width" Value="252"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="VK_OP_6">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="10"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_OP_7">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="10"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_OP_8">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="10"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_OP_9">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="10"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_OP_10">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="10"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AutoProgramHotspot">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="9"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="DeliveryButton">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="IndexingAkey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="IndexingAllKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="IndexingBkey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="IndexingCkey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="IndexingDkey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="ResetAllAlarms">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="SelectCustomerKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.op_pageh.cmdCustomPage]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="SelectFoldProgram">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="StopFeeding">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_HangerInletProcess.StopFeedingCmd]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="a12">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="None"/>
+              <Property Name="Target" Value="Page"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="newcatkeyup">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000162">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="MaxValue" Value="25"/>
+              <Property Name="MinValue" Value="1"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Repeat" Value="True"/>
+              <Property Name="StepValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="newrcpdownkey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000162">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="MaxValue" Value="25"/>
+              <Property Name="MinValue" Value="1"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Repeat" Value="True"/>
+              <Property Name="StepValue" Value="-1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="operatorselectKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.op_pageh.cmdOperatorPage]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="p123">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="Source[local].Page[Sim_OldMetric]"/>
+              <Property Name="Target" Value="Page"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="startbutton">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="stopbutton">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="ManualFeedingKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualKeys.BTN]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="ResetCom">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualKeys.Reset]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="VK_AutoprgSelect">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="7"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Core.Services.HMI.HMIHandler.MasterPanelHandler.Key.KeyPressed]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <Layer Name="Customer">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="240"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.App.Application.HMIControl.recpedit.HideNotUsedHmi]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Width" Value="320"/>
+      <Property Name="Z-Order" Value="3"/>
+      <TextGroup>
+        <TextLayer LanguageId="en-GB">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value="MP"/>
+        </TextLayer>
+        <TextLayer LanguageId="de-DE">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value="MP"/>
+        </TextLayer>
+        <TextLayer LanguageId="sv-SE">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value="MP"/>
+        </TextLayer>
+        <TextLayer LanguageId="fr-FR">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value="MP"/>
+        </TextLayer>
+        <TextLayer LanguageId="da-DK">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value="MP"/>
+        </TextLayer>
+        <TextLayer LanguageId="it-IT">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value="MP"/>
+        </TextLayer>
+        <TextLayer LanguageId="fi-FI">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value="MP"/>
+        </TextLayer>
+        <TextLayer LanguageId="nl-NL">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value="MP"/>
+        </TextLayer>
+        <TextLayer LanguageId="es-ES">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value="MP"/>
+        </TextLayer>
+        <TextLayer LanguageId="pl-PL">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value="MP"/>
+        </TextLayer>
+        <TextLayer LanguageId="ru-RU">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="en">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="zh-CN">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="cs-CZ">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="en-US">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="no-NO">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="pt-PT">
+          <Text ID="585988" Value=""/>
+          <Text ID="585989" Value=""/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="585988" Value="5"/>
+          <Index ID="585989" Value="6"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001005" Name="OperatorStatus">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[statusIcons]"/>
+          <Property Name="BitmapIndex" Value="30"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Master.App.Application.g_OperatorIcon]"/>
+          <Property Name="Left" Value="295"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.op_pageh.HideOperator]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="120"/>
+          <Property Name="Width" Value="23"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="Foldprogramtext1">
+          <Property Name="Border" Value="Source[local].Border[Jensen_Sunken1]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Medium]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="35"/>
+          <Property Name="SimulationValue" Value="Customer/Article 1234567890ABCDEF"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.op_pageh.HideCurtArtField]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="Top" Value="88"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_CustomerArticleName]"/>
+          <Property Name="Width" Value="278"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="SelCustArticleKey">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="23"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="34"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.op_pageh.HideCurtArtField]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="85"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[SelectCustomerKey]"/>
+          <Property Name="Width" Value="282"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="BatchIcon">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[C_25X25_BatchCart]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="1"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.op_pageh.HideOperator]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="88"/>
+          <Property Name="Width" Value="25"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="StopFeedingButton">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[FeedHangers]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[Master.App.Application.Fox_Logic.h_inlet.HMIEnableFeeding]"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="273"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="171"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StopFeeding]"/>
+          <Property Name="Width" Value="34"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="11"/>
+          <Property Name="Left" Value="256"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="100"/>
+          <Property Name="Width" Value="17"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="252"/>
+          <Property Name="Border" Value="Source[local].Border[Jensen_Border]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Medium]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="288"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualFeed.RT]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="6"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="143"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="SelectOperatorkey">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="292"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.op_pageh.HideOperator]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="120"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[operatorselectKey]"/>
+          <Property Name="Width" Value="27"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[Bump]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Big]"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="Left" Value="257"/>
+          <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[Master.Core.Services.GlobalCoreVars.g_Core.System.Configuration.isRemoteEnabled]"/>
+          <Property Name="LockingLevel" Value="1"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="99"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="1"/>
+          <Property Name="SimulationValue" Value="99"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="41"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_AutoProgram.OperatorAutoProgram]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[Bump]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Medium]"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="Left" Value="3"/>
+          <Property Name="MaxChars" Value="20"/>
+          <Property Name="SimulationValue" Value="1234567890ABCDEFGHIJK"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="Top" Value="41"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.auto_prg.MainAutoProgram.NameOfAutoProgram]"/>
+          <Property Name="Width" Value="251"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="43"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="3"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="40"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_AutoprgSelect]"/>
+          <Property Name="Width" Value="252"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="DeliveryButton">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="IndexingAkey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="IndexingAllKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="IndexingBkey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="IndexingCkey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="IndexingDkey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="ResetAllAlarms">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="SelectCustomerKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.op_pageh.cmdCustomPage]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="SelectFoldProgram">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="StopFeeding">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_HangerInletProcess.StopFeedingCmd]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="a12">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="None"/>
+              <Property Name="Target" Value="Page"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="newcatkeyup">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000162">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="MaxValue" Value="25"/>
+              <Property Name="MinValue" Value="1"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Repeat" Value="True"/>
+              <Property Name="StepValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="newrcpdownkey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000162">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="MaxValue" Value="25"/>
+              <Property Name="MinValue" Value="1"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Repeat" Value="True"/>
+              <Property Name="StepValue" Value="-1"/>
+              <Property Name="ValueDatapoint" Value="None"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="operatorselectKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.HMIControl.op_pageh.cmdOperatorPage]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="p123">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="Source[local].Page[Sim_OldMetric]"/>
+              <Property Name="Target" Value="Page"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="ManualFeedingKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualKeys.BTN]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="ResetCom">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.App.Application.g_HMI_MacConfig.ManualKeys.Reset]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[ComLayer_AddOn]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ComLayer_AddOn"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="4"/>
+    </LayerRef>
+    <Layer Name="AlarmPopUp">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="240"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.Alarm[0].AlarmActiveFront]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Width" Value="320"/>
+      <Property Name="Z-Order" Value="5"/>
+      <TextGroup>
+        <TextLayer LanguageId="en-GB"/>
+        <TextLayer LanguageId="de-DE"/>
+        <TextLayer LanguageId="sv-SE"/>
+        <TextLayer LanguageId="fr-FR"/>
+        <TextLayer LanguageId="da-DK"/>
+        <TextLayer LanguageId="it-IT"/>
+        <TextLayer LanguageId="fi-FI"/>
+        <TextLayer LanguageId="nl-NL"/>
+        <TextLayer LanguageId="es-ES"/>
+        <TextLayer LanguageId="pl-PL"/>
+        <TextLayer LanguageId="ru-RU"/>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="zh-CN"/>
+        <TextLayer LanguageId="cs-CZ"/>
+        <TextLayer LanguageId="en-US"/>
+        <TextLayer LanguageId="no-NO"/>
+        <TextLayer LanguageId="pt-PT"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001005" Name="Bitmap_1">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[TransLayer]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="190"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="20"/>
+          <Property Name="Width" Value="320"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="AlarmBox">
+          <Property Name="BackColor" Value="45"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.Alarm[0].FrontColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="109"/>
+          <Property Name="Left" Value="0"/>
+          <Property Name="LineWidth" Value="2"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape_Tranp]"/>
+          <Property Name="Top" Value="60"/>
+          <Property Name="Width" Value="320"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_3">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Warnings]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="102"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.WarningIconBackIndex]"/>
+          <Property Name="Left" Value="200"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="65"/>
+          <Property Name="Width" Value="116"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_2">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Warnings]"/>
+          <Property Name="BitmapIndex" Value="2"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="102"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.WarningIconIndex]"/>
+          <Property Name="Left" Value="200"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="63"/>
+          <Property Name="Width" Value="116"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Big]"/>
+          <Property Name="Height" Value="101"/>
+          <Property Name="HighlightingForeColor" Value="45"/>
+          <Property Name="Left" Value="4"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="No Product File"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+          <Property Name="TextDatapoint" Value="Source[global].Variable[Master.Core.Services.GlobalCoreVars.g_Core.Services.Alarmhandler.Runtime.Event[0].DescUniCode]"/>
+          <Property Name="TextSource" Value="SingleString"/>
+          <Property Name="Top" Value="60"/>
+          <Property Name="Width" Value="188"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="108"/>
+          <Property Name="KeyMatrixOffset" Value="0"/>
+          <Property Name="Left" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="60"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[ResetAlarmKey]"/>
+          <Property Name="Width" Value="320"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="108"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="199"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="60"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[AlarmOverviewKey]"/>
+          <Property Name="Width" Value="121"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="41"/>
+          <Property Name="KeyMatrixOffset" Value="0"/>
+          <Property Name="Left" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="169"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[AlarmToTop_VK]"/>
+          <Property Name="Width" Value="320"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="ResetAlarmKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.Alarm[0].AlarmShortcut]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AlarmOverviewKey">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="2"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.Alarm[0].AlarmShortcut]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AlarmToTop_VK">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="3"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.Alarm[0].AlarmShortcut]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[Select_Recipe]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Select_Recipe"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="6"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[Mac_ConfigM_Keys_Layer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Mac_ConfigM_Keys_Layer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="7"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Customer].Control[Numeric_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Customer].Control[Numeric_1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Customer].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Customer].Control[Numeric_1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Customer].Control[Foldprogramtext1]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_10]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_7]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_8]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_7]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Customer].Control[Numeric_1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+      <Property Name="Left" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_7]"/>
+      <Property Name="Up" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[ComLayer_AddOn].Control[Password]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_4]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_2]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_3]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_6]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_14]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_1]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_12]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_2]">
+      <Property Name="Down" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_17]"/>
+      <Property Name="Right" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_10]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_3]">
+      <Property Name="Down" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Left" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_12]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_4]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_19]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_17]"/>
+      <Property Name="Right" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Up" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_5]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_7]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_17]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_6]"/>
+      <Property Name="Up" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_6]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_8]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_5]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_7]">
+      <Property Name="Down" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_17]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_5]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_8]">
+      <Property Name="Down" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_6]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_9]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_21]"/>
+      <Property Name="Left" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_22]"/>
+      <Property Name="Up" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_10]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_2]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_17]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_11]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_6]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_20]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_12]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_9]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_12]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_6]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_11]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_13]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_9]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_13]">
+      <Property Name="Down" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_12]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_14]"/>
+      <Property Name="Up" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_14]">
+      <Property Name="Down" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_13]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_15]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_15]">
+      <Property Name="Down" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_14]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_16]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_22]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_16]">
+      <Property Name="Down" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_15]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_17]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_21]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_17]">
+      <Property Name="Down" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_16]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_18]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_18]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_5]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_17]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_19]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_4]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_19]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_5]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_18]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_20]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_4]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_20]">
+      <Property Name="Down" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_19]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_11]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_21]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_21]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_20]"/>
+      <Property Name="Left" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_5]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_11]"/>
+      <Property Name="Up" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_9]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_22]">
+      <Property Name="Down" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_15]"/>
+      <Property Name="Left" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+      <Property Name="Right" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_4]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[local].Layer[Select_Recipe].Control[RecipeNameList]"/>
+    <TabSeqItem Index="1" Value="Source[local].Layer[Select_Recipe].Control[DirectSelectInput]"/>
+    <TabSeqItem Index="2" Value="Source[local].Layer[Select_Recipe].Control[RecipeIndexList]"/>
+    <TabSeqItem Index="3" Value="Source[local].Layer[ComLayer_AddOn].Control[Password]"/>
+    <TabSeqItem Index="4" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_1]"/>
+    <TabSeqItem Index="5" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_2]"/>
+    <TabSeqItem Index="6" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_3]"/>
+    <TabSeqItem Index="7" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_4]"/>
+    <TabSeqItem Index="8" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_5]"/>
+    <TabSeqItem Index="9" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_6]"/>
+    <TabSeqItem Index="10" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_7]"/>
+    <TabSeqItem Index="11" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_8]"/>
+    <TabSeqItem Index="12" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_9]"/>
+    <TabSeqItem Index="13" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_10]"/>
+    <TabSeqItem Index="14" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_11]"/>
+    <TabSeqItem Index="15" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_12]"/>
+    <TabSeqItem Index="16" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_13]"/>
+    <TabSeqItem Index="17" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_14]"/>
+    <TabSeqItem Index="18" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_15]"/>
+    <TabSeqItem Index="19" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_16]"/>
+    <TabSeqItem Index="20" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_17]"/>
+    <TabSeqItem Index="21" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_18]"/>
+    <TabSeqItem Index="22" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_19]"/>
+    <TabSeqItem Index="23" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_20]"/>
+    <TabSeqItem Index="24" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_21]"/>
+    <TabSeqItem Index="25" Value="Source[local].Layer[Mac_ConfigM_Keys_Layer].Control[Numeric_22]"/>
+    <TabSeqItem Index="26" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    <TabSeqItem Index="27" Value="Source[embedded].Layer[Default].Control[String_2]"/>
+    <TabSeqItem Index="28" Value="Source[embedded].Layer[Customer].Control[Foldprogramtext1]"/>
+    <TabSeqItem Index="29" Value="Source[embedded].Layer[Customer].Control[Numeric_1]"/>
+    <TabSeqItem Index="30" Value="Source[embedded].Layer[Customer].Control[String_2]"/>
+  </TabSequence>
+</Page>

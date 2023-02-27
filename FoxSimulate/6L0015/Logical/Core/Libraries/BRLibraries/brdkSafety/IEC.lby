@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="1.00.0" SubType="IEC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="brdkSafety data types">brdkSafety.typ</File>
+    <File Description="brdkSafety constants">brdkSafety.var</File>
+    <File Description="brdkSafety function blocks">brdkSafety.fun</File>
+    <File Description="Function block for trigger remote safety controller actions such as acknowledging modules or reading back the status.">brdk_safety_remote_control.st</File>
+    <File Description="Function block for download the safety application to the safety controller.">brdk_safety_application.st</File>
+    <File Description="Function block for reading back data that has been loaded to the safety controller.">brdk_safety_data.st</File>
+    <File>CHANGELOG</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsSafety" />
+    <Dependency ObjectName="AsBrStr" />
+    <Dependency ObjectName="runtime" />
+    <Dependency ObjectName="AsIOAcc" />
+    <Dependency ObjectName="AsEPL" />
+    <Dependency ObjectName="standard" />
+    <Dependency ObjectName="FileIO" />
+    <Dependency ObjectName="astime" />
+    <Dependency ObjectName="DataObj" />
+    <Dependency ObjectName="AsXml" />
+    <Dependency ObjectName="AsIODiag" />
+  </Dependencies>
+</Library>

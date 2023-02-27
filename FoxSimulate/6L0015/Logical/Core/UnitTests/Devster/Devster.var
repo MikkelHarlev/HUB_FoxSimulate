@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT -- JENSEN Denmark A/S
+ ********************************************************************
+ * Program: Devster
+ * File: Devster.var
+ * Author: eg
+ * Created: July 03, 2013
+ ********************************************************************
+ * Local variables of program Devster
+ ********************************************************************)
+VAR
+	StartOffColor : UINT;
+	Color1 : UINT := 41;
+	Color2 : UINT;
+	Color3 : UINT := 51;
+	AppColor : UINT;
+END_VAR

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<methodCall>
+    <methodName>OperatorDelete</methodName>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>option</name>
+                    <value>
+                        <base64>YWxs</base64>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodCall>

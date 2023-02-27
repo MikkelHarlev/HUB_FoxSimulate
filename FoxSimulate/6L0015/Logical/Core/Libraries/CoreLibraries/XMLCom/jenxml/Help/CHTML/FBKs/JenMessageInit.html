@@ -1,0 +1,248 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html dir="ltr">
+<head>
+
+
+  
+  <meta name="generator" content="Microsoft FrontPage 5.0">
+
+
+  
+  <meta order="1">
+
+  
+
+
+  
+  <title>JenMessageInit.html</title>
+  <link rel="StyleSheet" href="../styles.css">
+<!--NavHead-->
+
+
+  
+  <link rel="stylesheet" type="text/css" href="../navigate.css">
+<!--/NavHead-->
+</head>
+
+
+<body>
+
+
+<h1>JenXML - JenMessageInit()</h1>
+JenMessageInit() will initiate the ShowMessage function on the server.<br>
+JenMessageInti() has to be called in
+the Init part of a task. Otherwise you
+will get a cycletime violation.<br>
+<br>
+The Message will be saved in the Variable which is given via Adr_Name_MsgString.<br>
+When a new Message is received, the Bit0 in the Statusvariable, given with Adr_Name_StatusVar will be cleared.<br>
+So the Statusvariable can be connect directly with the VC-Object.<br>
+<br>
+The Statusvariable has to be set&nbsp;manually.
+<h2> Parameters:</h2>
+
+
+<center>
+<table class="parameter_tab" border="1">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <th class="parameter_tab">
+      
+      <p align="center"> <b>I/O</b></p>
+
+
+      </th>
+
+
+      <th class="parameter_tab">
+      
+      <p> <b>Parameter</b></p>
+
+
+      </th>
+
+
+      <th class="parameter_tab">
+      
+      <p> <b>Data
+Type</b></p>
+
+
+      </th>
+
+
+      <th class="parameter_tab">
+      
+      <p> <b>Description</b></p>
+
+
+      </th>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td class="parameter_tab">IN</td>
+
+
+      <td class="parameter_tab">Adr_Name_MsgString</td>
+
+
+      <td class="parameter_tab">UDINT</td>
+
+
+      <td class="parameter_tab">Address of the Name of the Variable where the received message will be saved</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td class="parameter_tab">IN</td>
+
+
+      <td class="parameter_tab">Adr_Name_StatusVar</td>
+
+
+      <td class="parameter_tab">UDINT</td>
+
+
+      <td class="parameter_tab">Address of the Name of the Variable which is connected to the status datapoint<a href="LogInit.htm"></a></td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td class="parameter_tab">OUT</td>
+
+
+      <td class="parameter_tab">Status</td>
+
+
+      <td class="parameter_tab">UINT</td>
+
+
+      <td class="parameter_tab"> <a href="../General/Status%20Numbers.html">Status Number</a>
+(0 -&gt; FUB
+finished succesfull)</td>
+
+
+    </tr>
+
+
+  
+  </tbody>
+</table>
+
+
+</center>
+
+
+<h2> Call Syntax (Automation
+Basic):</h2>
+
+
+<p class="pSourceCode">JenMessageInit_0.Adr_Name_MsgString = <span style="color: rgb(51, 51, 255);" class="SourceCode">ADR</span>( <span style="color: rgb(204, 51, 204);">'Message'</span> )<br>
+JenMessageInit_0.Adr_Name_StatusVar = <span style="color: rgb(51, 51, 255);">ADR</span>( <span style="color: rgb(204, 51, 204);">'StatusVar'</span> )<br>
+JenMessageInit_0 <span style="color: rgb(51, 51, 255);">FUB</span> JenMessageInit()<br>
+status = JenMessageInit_0.Status&nbsp;</p>
+
+
+<h2>Examples:</h2>
+
+
+<p><a href="../Samples/AB/ex_ab_CalcChecksum.html">
+Automation Basic</a></p>
+
+
+<!--NavBottom-->
+<div class="DoNotPrintNavItems" id="NavBottom_8"> <br>
+
+
+<table class="Nav" cellpadding="0" cellspacing="2" width="100%">
+
+
+  <tbody>
+
+
+    <tr class="Nav">
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      <p class="Nav">&lt;&lt;
+Previous Topic<br>
+
+
+      <a class="Nav" href="RegisterJenFunctions.html">RegisterJenFunctions</a>
+      </p>
+
+
+      </td>
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="../JenXML.html">Start&nbsp;Page</a>
+&nbsp; </p>
+
+
+      </td>
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      <p class="NavRight">Next
+Topic &gt;&gt;<br>
+
+
+      <a class="Nav" href="JenCatTextInit.html">JenCatTextInit</a>
+      </p>
+
+
+      </td>
+
+
+    </tr>
+
+
+    <tr class="Nav">
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="FBKs.html">Start&nbsp;of&nbsp;Chapter</a>
+&nbsp; </p>
+
+
+      </td>
+
+
+    </tr>
+
+
+  
+  </tbody>
+</table>
+
+
+</div>
+
+
+<!--/NavBottom-->
+</body>
+</html>

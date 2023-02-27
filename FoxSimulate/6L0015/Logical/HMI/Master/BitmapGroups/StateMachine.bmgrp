@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="StateMachine">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="6"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="6318" Value="Source[local].Bitmap[aDown]"/>
+    <BitmapRef ID="6319" Value="Source[local].Bitmap[aLeft]"/>
+    <BitmapRef ID="6320" Value="Source[local].Bitmap[aRight]"/>
+    <BitmapRef ID="6321" Value="Source[local].Bitmap[aUp]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="6318" Value="0"/>
+    <Index ID="6319" Value="1"/>
+    <Index ID="6320" Value="2"/>
+    <Index ID="6321" Value="3"/>
+  </IndexMap>
+</BitmapGroup>

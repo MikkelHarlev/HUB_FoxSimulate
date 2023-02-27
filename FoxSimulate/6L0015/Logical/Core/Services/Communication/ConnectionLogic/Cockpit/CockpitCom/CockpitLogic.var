@@ -1,0 +1,25 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: CockpitLogic
+ * File: CockpitLogic.var
+ * Author: duem
+ * Created: November 11, 2014
+ ********************************************************************
+ * Local variables of program CockpitLogic
+ ********************************************************************)
+VAR
+	pThis : REFERENCE TO CockpitLogic_Type;
+	pConnectionManager : REFERENCE TO XMLRPCCL_Type;
+	addConnection_0 : addConnection;
+	defaultSQLServerAdr : STRING[16];
+	defaultSQLPort : UINT;
+	No : USINT;
+	connectionManagerID : USINT;
+	AdrMachineInfo : UDINT;
+	pMachineInfo : REFERENCE TO MachineInfo;
+	isError : BOOL;
+	defaultRefreshRate : UDINT;
+	tmpstr : STRING[10];
+	localCockpit : CockpitLogic_Type;
+END_VAR

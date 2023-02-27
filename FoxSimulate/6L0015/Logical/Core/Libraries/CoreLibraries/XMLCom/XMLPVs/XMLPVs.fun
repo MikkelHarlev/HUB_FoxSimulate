@@ -1,0 +1,13 @@
+FUNCTION XMLPVsportinit : DINT
+	VAR_INPUT
+		ident	:UDINT;
+		pparam	:UDINT;
+		port	:UINT;
+	END_VAR
+END_FUNCTION
+FUNCTION XMLPVsinit : DINT
+	VAR_INPUT
+		ident	:UDINT;
+		pparam	:UDINT;
+	END_VAR
+END_FUNCTION

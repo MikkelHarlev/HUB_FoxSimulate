@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_AutoProgramEdit">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="41"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="530577" Value="Inlet wait time"/>
+    <Text ID="530578" Value="Right Arm"/>
+    <Text ID="530579" Value="Left arm"/>
+    <Text ID="530580" Value="Trouser bypass blades"/>
+    <Text ID="530581" Value="Normal blades"/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value="Trouser Ver. and Hor."/>
+    <Text ID="530584" Value="All Bypass blades"/>
+    <Text ID="530585" Value="cm"/>
+    <Text ID="530586" Value="Auto detection"/>
+    <Text ID="530587" Value="Forced trouser"/>
+    <Text ID="530588" Value="Blow point"/>
+    <Text ID="530589" Value="Trouser air blast"/>
+    <Text ID="530590" Value="Forced shirt"/>
+    <Text ID="530591" Value="Forced pajamas"/>
+    <Text ID="530592" Value="Belt run inlet, TC 1"/>
+    <Text ID="530593" Value="Stop belt when feeding in"/>
+    <Text ID="530594" Value="No offset"/>
+    <Text ID="530595" Value="Offset trouser"/>
+    <Text ID="530596" Value="Alignment Off"/>
+    <Text ID="530597" Value="Alignment On"/>
+    <Text ID="530598" Value="Overall off"/>
+    <Text ID="530599" Value="Overall on"/>
+    <Text ID="530600" Value="Stop function"/>
+    <Text ID="530601" Value="Stop on shirts"/>
+    <Text ID="530602" Value="Stop on Trousers"/>
+    <Text ID="530603" Value="Stop on both"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value="Extreme Heavy Off"/>
+    <Text ID="525381" Value="Extreme Heavy On"/>
+    <Text ID="525382" Value="Raise Blades Off"/>
+    <Text ID="525383" Value="Raise Blades On"/>
+    <Text ID="525384" Value="Inlet Blow Off"/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value="Blow Adjust"/>
+    <Text ID="525387" Value="Blow Time"/>
+    <Text ID="525388" Value="Blow Gap"/>
+    <Text ID="525389" Value="Multi Blow"/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Stacker Indexing Time"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="530577" Value="Einlauf wartezeit"/>
+    <Text ID="530578" Value="Rechter Arm"/>
+    <Text ID="530579" Value="Linker Arm"/>
+    <Text ID="530580" Value="Hosen: Umgehung Schwerter"/>
+    <Text ID="530581" Value="Normal Schwerter"/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value="Hosen Ver. and Hor."/>
+    <Text ID="530584" Value="Alle: Umgehung Schwerter"/>
+    <Text ID="530585" Value="cm"/>
+    <Text ID="530586" Value="Auto Erkennung"/>
+    <Text ID="530587" Value="Zwangslauf Hosen"/>
+    <Text ID="530588" Value="Blaspunkt"/>
+    <Text ID="530589" Value="Hosen Luft blasen"/>
+    <Text ID="530590" Value="Zwangslauf Shirts"/>
+    <Text ID="530591" Value="Zwangslauf Nachthemden"/>
+    <Text ID="530592" Value="Gurt Einlass laufen, TC 1"/>
+    <Text ID="530593" Value="Gurt stoppen wärend Einlauf"/>
+    <Text ID="530594" Value="Kein Abgleich"/>
+    <Text ID="530595" Value="Bgleich Hosen"/>
+    <Text ID="530596" Value="Ausrichtung aus"/>
+    <Text ID="530597" Value="Ausrichtung An"/>
+    <Text ID="530598" Value="Overall aus"/>
+    <Text ID="530599" Value="Overall an"/>
+    <Text ID="530600" Value="Stop Funktion"/>
+    <Text ID="530601" Value="Stop bei Shirts"/>
+    <Text ID="530602" Value="Stop bei Hosen"/>
+    <Text ID="530603" Value="Stop bei Beiden"/>
+    <Text ID="460857" Value="Latzhosen Aus"/>
+    <Text ID="460858" Value="Latzhosen An"/>
+    <Text ID="461331" Value="Latzhosen Luft blasen"/>
+    <Text ID="461423" Value="Latzhosen Metricon Rezept"/>
+    <Text ID="480958" Value="Implem. Fotozelle vertikal start"/>
+    <Text ID="480959" Value="Implem. Fotozelle vertikal start + end"/>
+    <Text ID="482428" Value="Bügel bereinigen"/>
+    <Text ID="483899" Value="Konst."/>
+    <Text ID="483900" Value="Puls"/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value="Extreme Heavy Off"/>
+    <Text ID="525381" Value="Extreme Heavy On"/>
+    <Text ID="525382" Value="Raise Blades Off"/>
+    <Text ID="525383" Value="Raise Blades On"/>
+    <Text ID="525384" Value="Inlet Blow Off"/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value="Blow Adjust"/>
+    <Text ID="525387" Value="Blow Time"/>
+    <Text ID="525388" Value="Blow Gap"/>
+    <Text ID="525389" Value="Multi Blow"/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Ausschiebedistanz Zeit"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="530577" Value="Väntetid vid inmatning"/>
+    <Text ID="530578" Value="Höger arm"/>
+    <Text ID="530579" Value="Vänster arm"/>
+    <Text ID="530580" Value="Knivar byxpassering"/>
+    <Text ID="530581" Value="Normal knivfunktion"/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value="Byxor läses vertikalt och horisontellt"/>
+    <Text ID="530584" Value="Knivar passeras"/>
+    <Text ID="530585" Value="cm"/>
+    <Text ID="530586" Value="Automatisk avkänning"/>
+    <Text ID="530587" Value="Alltid som byxor"/>
+    <Text ID="530588" Value="Blåspunkt"/>
+    <Text ID="530589" Value="Byxblås"/>
+    <Text ID="530590" Value="Alltid skjort-typ"/>
+    <Text ID="530591" Value="Tvinga pyjamasfunktion"/>
+    <Text ID="530592" Value="Gångtid band, TC 1"/>
+    <Text ID="530593" Value="Stanna band vid inmatning"/>
+    <Text ID="530594" Value="Ingen offset"/>
+    <Text ID="530595" Value="Offset trouser"/>
+    <Text ID="530596" Value="Linjering av"/>
+    <Text ID="530597" Value="Linjering på"/>
+    <Text ID="530598" Value="Overall av"/>
+    <Text ID="530599" Value="Overall på"/>
+    <Text ID="530600" Value="Stop funktion"/>
+    <Text ID="530601" Value="Stop på tröja"/>
+    <Text ID="530602" Value="Stop på byxor"/>
+    <Text ID="530603" Value="Stop på båda"/>
+    <Text ID="460857" Value="Klaff byxor av"/>
+    <Text ID="460858" Value="Klaff byxor på"/>
+    <Text ID="461331" Value="Klaff byxblås"/>
+    <Text ID="461423" Value="Klaff byxblås-Metriconrecept"/>
+    <Text ID="480958" Value="Använd fotocell vertikal start"/>
+    <Text ID="480959" Value="Använd fotocell vertikal start samt slut"/>
+    <Text ID="482428" Value="Galgrengöring"/>
+    <Text ID="483899" Value="Konstant"/>
+    <Text ID="483900" Value="puls"/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value="Extreme Heavy Off"/>
+    <Text ID="525381" Value="Extreme Heavy On"/>
+    <Text ID="525382" Value="Raise Blades Off"/>
+    <Text ID="525383" Value="Raise Blades On"/>
+    <Text ID="525384" Value="Inlet Blow Off"/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value="Blow Adjust"/>
+    <Text ID="525387" Value="Blow Time"/>
+    <Text ID="525388" Value="Blow Gap"/>
+    <Text ID="525389" Value="Multi Blow"/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Tömning Tid"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="530577" Value="Attendre depart"/>
+    <Text ID="530578" Value="Manche droite"/>
+    <Text ID="530579" Value="Manche gauche"/>
+    <Text ID="530580" Value="Pantalons bypass volets"/>
+    <Text ID="530581" Value="Volets normales"/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value="Photocellule vert.+ horiz."/>
+    <Text ID="530584" Value="All Bypass blades"/>
+    <Text ID="530585" Value="cm"/>
+    <Text ID="530586" Value="Auto detection"/>
+    <Text ID="530587" Value="Forcer pantalons"/>
+    <Text ID="530588" Value="Point soufflage"/>
+    <Text ID="530589" Value="Jet air pantalons"/>
+    <Text ID="530590" Value="Forcer vêtements"/>
+    <Text ID="530591" Value="Forcer Pijamas"/>
+    <Text ID="530592" Value="Temps activ. TC1"/>
+    <Text ID="530593" Value="Arrèt band pendant engagement"/>
+    <Text ID="530594" Value="Pas d'offset"/>
+    <Text ID="530595" Value="Offset pantalons"/>
+    <Text ID="530596" Value="Alignment Off"/>
+    <Text ID="530597" Value="Alignment On"/>
+    <Text ID="530598" Value="Combinaisons desactivé"/>
+    <Text ID="530599" Value="Combinaisons activé"/>
+    <Text ID="530600" Value="Stop function"/>
+    <Text ID="530601" Value="Stop on shirts"/>
+    <Text ID="530602" Value="Stop on Trousers"/>
+    <Text ID="530603" Value="Stop on both"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value="Extreme Heavy Off"/>
+    <Text ID="525381" Value="Extreme Heavy On"/>
+    <Text ID="525382" Value="Raise Blades Off"/>
+    <Text ID="525383" Value="Raise Blades On"/>
+    <Text ID="525384" Value="Inlet Blow Off"/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value="Blow Adjust"/>
+    <Text ID="525387" Value="Blow Time"/>
+    <Text ID="525388" Value="Blow Gap"/>
+    <Text ID="525389" Value="Multi Blow"/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Sortir"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="530577" Value="Ventetid indløb"/>
+    <Text ID="530578" Value="Høyre Arm"/>
+    <Text ID="530579" Value="Venstre Arm"/>
+    <Text ID="530580" Value="Bypass bukser"/>
+    <Text ID="530581" Value="Normale foldeplader"/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value="Begge Fotoceller"/>
+    <Text ID="530584" Value="Bypass allt"/>
+    <Text ID="530585" Value="cm"/>
+    <Text ID="530586" Value="Skill automatisk"/>
+    <Text ID="530587" Value="Registrer alt som bukse"/>
+    <Text ID="530588" Value="Blæse punkt"/>
+    <Text ID="530589" Value="Blæs bukser"/>
+    <Text ID="530590" Value="Registrer alt som jakke"/>
+    <Text ID="530591" Value="Tvunget pyjamas"/>
+    <Text ID="530592" Value="Tid bånd inløb,TC1"/>
+    <Text ID="530593" Value="Stop bånd under indkøring"/>
+    <Text ID="530594" Value="Ingen offsett"/>
+    <Text ID="530595" Value="Offsett Bukser"/>
+    <Text ID="530596" Value="Tilpasning fra"/>
+    <Text ID="530597" Value="Tilpasning til"/>
+    <Text ID="530598" Value="Overall off"/>
+    <Text ID="530599" Value="Overall on"/>
+    <Text ID="530600" Value="Stop funktion"/>
+    <Text ID="530601" Value="Stop ved trøjer"/>
+    <Text ID="530602" Value="Stop ved bukser"/>
+    <Text ID="530603" Value="Stop ved begge"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value="Meget Tykt Off"/>
+    <Text ID="525381" Value="Meget Tykt On"/>
+    <Text ID="525382" Value="Hæv Foldeplader Off"/>
+    <Text ID="525383" Value="Hæv Foldeplader On"/>
+    <Text ID="525384" Value="Inlet Blow Off"/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value="Blow Adjust"/>
+    <Text ID="525387" Value="Blow Time"/>
+    <Text ID="525388" Value="Blow Gap"/>
+    <Text ID="525389" Value="Multi Blow"/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Bagkant vender"/>
+    <Text ID="526782" Value="Forkant tværfold A"/>
+    <Text ID="526791" Value="Brug Horisontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Skift stakker på tur Off"/>
+    <Text ID="528152" Value="Skift stakker på tur On"/>
+    <Text ID="542723" Value="Aftager let tøj"/>
+    <Text ID="542725" Value="Aftager tykt tøj"/>
+    <Text ID="542726" Value="Hanger belt normal start"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Hastighed Bøjle"/>
+    <Text ID="546002" Value="Hastighed ved bøjleaftager"/>
+    <Text ID="546003" Value="Ned position +/-"/>
+    <Text ID="546004" Value="Op hastighed procent"/>
+    <Text ID="546005" Value="acceleration op procent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Stacker Indexing Time"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Standard"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="530577" Value="Tempo Attesa Ingresso"/>
+    <Text ID="530578" Value="Braccio Destro"/>
+    <Text ID="530579" Value="Braccio Sinistro"/>
+    <Text ID="530580" Value="Lame di Bypass pantaloni"/>
+    <Text ID="530581" Value="Lame Normali"/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value="Fotocellula Vert. ed Orizz."/>
+    <Text ID="530584" Value="Lame di Tutto Bypass "/>
+    <Text ID="530585" Value="cm"/>
+    <Text ID="530586" Value="Auto Rilevazione"/>
+    <Text ID="530587" Value="Pantaloni Forzati"/>
+    <Text ID="530588" Value="Punto di Soffio"/>
+    <Text ID="530589" Value="Soffio Pantaloni"/>
+    <Text ID="530590" Value="Magliette Forzati"/>
+    <Text ID="530591" Value="Pigiami Forzati"/>
+    <Text ID="530592" Value="Corsa Cinghie d' Ingresso"/>
+    <Text ID="530593" Value="Arresto Cinghie quando si Introduce"/>
+    <Text ID="530594" Value="No compensazione"/>
+    <Text ID="530595" Value="Compensazione Pantaloni"/>
+    <Text ID="530596" Value="Allineamento Off"/>
+    <Text ID="530597" Value="Allineamento On"/>
+    <Text ID="530598" Value="Tute Off"/>
+    <Text ID="530599" Value="Tute ON"/>
+    <Text ID="530600" Value="Stop Funzioni"/>
+    <Text ID="530601" Value="Stop a magliette"/>
+    <Text ID="530602" Value="Stop a Pantaloni"/>
+    <Text ID="530603" Value="Stop entrambe"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value="Extreme Heavy Off"/>
+    <Text ID="525381" Value="Extreme Heavy On"/>
+    <Text ID="525382" Value="Raise Blades Off"/>
+    <Text ID="525383" Value="Raise Blades On"/>
+    <Text ID="525384" Value="Inlet Blow Off"/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value="Blow Adjust"/>
+    <Text ID="525387" Value="Blow Time"/>
+    <Text ID="525388" Value="Blow Gap"/>
+    <Text ID="525389" Value="Multi Blow"/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start¨"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Tempo Scarico"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="530577" Value="Inlet wait time"/>
+    <Text ID="530578" Value="Right Arm"/>
+    <Text ID="530579" Value="Left arm"/>
+    <Text ID="530580" Value="Trouser bypass blades"/>
+    <Text ID="530581" Value="Normal blades"/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value="Trouser Ver. and Hor."/>
+    <Text ID="530584" Value="Complete bypass "/>
+    <Text ID="530585" Value="cm"/>
+    <Text ID="530586" Value="Auto detection"/>
+    <Text ID="530587" Value="Forced trouser"/>
+    <Text ID="530588" Value="Blow point"/>
+    <Text ID="530589" Value="Trouser air blast"/>
+    <Text ID="530590" Value="Forced shirt"/>
+    <Text ID="530591" Value="Forced pajamas"/>
+    <Text ID="530592" Value="Belt run inlet, TC 1"/>
+    <Text ID="530593" Value="Stop belt when feeding in"/>
+    <Text ID="530594" Value="No offset"/>
+    <Text ID="530595" Value="Offset trouser"/>
+    <Text ID="530596" Value="Alignment Off"/>
+    <Text ID="530597" Value="Alignment On"/>
+    <Text ID="530598" Value="Overall off"/>
+    <Text ID="530599" Value="Overall on"/>
+    <Text ID="530600" Value="Stop function"/>
+    <Text ID="530601" Value="Stop on shirts"/>
+    <Text ID="530602" Value="Stop on Trousers"/>
+    <Text ID="530603" Value="Stop on both"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value="Extreme Heavy Off"/>
+    <Text ID="525381" Value="Extreme Heavy On"/>
+    <Text ID="525382" Value="Raise Blades Off"/>
+    <Text ID="525383" Value="Raise Blades On"/>
+    <Text ID="525384" Value="Inlet Blow Off"/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value="Blow Adjust"/>
+    <Text ID="525387" Value="Blow Time"/>
+    <Text ID="525388" Value="Blow Gap"/>
+    <Text ID="525389" Value="Multi Blow"/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start¨"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Stacker Indexing Time"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="530577" Value="Wachttijd invoer"/>
+    <Text ID="530578" Value="Rechter arm"/>
+    <Text ID="530579" Value="Linker arm"/>
+    <Text ID="530580" Value="Broeken bypass schuiven"/>
+    <Text ID="530581" Value="Schuiven normaal"/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value="Broeken Ver. en Hor."/>
+    <Text ID="530584" Value="Alles bypass schuiven"/>
+    <Text ID="530585" Value="cm"/>
+    <Text ID="530586" Value="Auto detectie"/>
+    <Text ID="530587" Value="Broeken geforceerd"/>
+    <Text ID="530588" Value="Blow point"/>
+    <Text ID="530589" Value="Trouser air blast"/>
+    <Text ID="530590" Value="Shirts geforceerd"/>
+    <Text ID="530591" Value="Pyamas geforceerd"/>
+    <Text ID="530592" Value="Belt run inlet, TC 1"/>
+    <Text ID="530593" Value="Singels stoppen bij invoeren"/>
+    <Text ID="530594" Value="No offset"/>
+    <Text ID="530595" Value="Offset trouser"/>
+    <Text ID="530596" Value="Alignment Off"/>
+    <Text ID="530597" Value="Alignment On"/>
+    <Text ID="530598" Value="Overall off"/>
+    <Text ID="530599" Value="Overall on"/>
+    <Text ID="530600" Value="Stop function"/>
+    <Text ID="530601" Value="Stop bij shirts"/>
+    <Text ID="530602" Value="Stop bij broeken"/>
+    <Text ID="530603" Value="Stop op beide"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Blazen klep broeken"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value="Extreme Heavy Off"/>
+    <Text ID="525381" Value="Extreme Heavy On"/>
+    <Text ID="525382" Value="Raise Blades Off"/>
+    <Text ID="525383" Value="Raise Blades On"/>
+    <Text ID="525384" Value="Inlet Blow Off"/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value="Blow Adjust"/>
+    <Text ID="525387" Value="Blow Time"/>
+    <Text ID="525388" Value="Blow Gap"/>
+    <Text ID="525389" Value="Multi Blow"/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Uitvoeren Tijd"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="530577" Value="Tiempo entre Separador y Transportador perchas"/>
+    <Text ID="530578" Value="Manga derecha"/>
+    <Text ID="530579" Value="Manga izquierda"/>
+    <Text ID="530580" Value="No usar cuchillas en pantalón"/>
+    <Text ID="530581" Value="Cuchillas en uso normal"/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value="Pantalón\n Fotocélula Vertical y Horizontal en borde trasero"/>
+    <Text ID="530584" Value="No usar cuchillas en ninguna prenda"/>
+    <Text ID="530585" Value="cm"/>
+    <Text ID="530586" Value="Auto detección"/>
+    <Text ID="530587" Value="Forzado pantalón"/>
+    <Text ID="530588" Value="Punto de soplado"/>
+    <Text ID="530589" Value="Soplado de pantalón"/>
+    <Text ID="530590" Value="Forzado camisas"/>
+    <Text ID="530591" Value="Forzado pijamas"/>
+    <Text ID="530592" Value="Tiempo del Transportador superior"/>
+    <Text ID="530593" Value="Parar cinta mientras se alimenta"/>
+    <Text ID="530594" Value="Sin compensación"/>
+    <Text ID="530595" Value="Compensación pantalón"/>
+    <Text ID="530596" Value="Alineamiento habilitado"/>
+    <Text ID="530597" Value="Alineamiento deshabilitado"/>
+    <Text ID="530598" Value="Mono/funda deshabilitado"/>
+    <Text ID="530599" Value="Mono/funda habilitado"/>
+    <Text ID="530600" Value="Función de parada"/>
+    <Text ID="530601" Value="Sólo parar en camisas"/>
+    <Text ID="530602" Value="Sólo parar en pantalón"/>
+    <Text ID="530603" Value="Parar en ambos"/>
+    <Text ID="460857" Value="Peto Inhabilitado"/>
+    <Text ID="460858" Value="Peto Habilitado"/>
+    <Text ID="461331" Value="Soplado de petos"/>
+    <Text ID="461423" Value="Petos - Programa de Metricon "/>
+    <Text ID="480958" Value="Añadir fotocélula vertical inicio"/>
+    <Text ID="480959" Value="Añadir fotocélula vertical inicio + fin"/>
+    <Text ID="482428" Value="Limpieza perchas"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulso"/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value="Extreme Heavy Off"/>
+    <Text ID="525381" Value="Extreme Heavy On"/>
+    <Text ID="525382" Value="Raise Blades Off"/>
+    <Text ID="525383" Value="Raise Blades On"/>
+    <Text ID="525384" Value="Inlet Blow Off"/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value="Blow Adjust"/>
+    <Text ID="525387" Value="Blow Time"/>
+    <Text ID="525388" Value="Blow Gap"/>
+    <Text ID="525389" Value="Multi Blow"/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Avance"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="530577" Value=""/>
+    <Text ID="530578" Value=""/>
+    <Text ID="530579" Value=""/>
+    <Text ID="530580" Value=""/>
+    <Text ID="530581" Value=""/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value=""/>
+    <Text ID="530584" Value=""/>
+    <Text ID="530585" Value=""/>
+    <Text ID="530586" Value=""/>
+    <Text ID="530587" Value=""/>
+    <Text ID="530588" Value=""/>
+    <Text ID="530589" Value=""/>
+    <Text ID="530590" Value=""/>
+    <Text ID="530591" Value=""/>
+    <Text ID="530592" Value=""/>
+    <Text ID="530593" Value=""/>
+    <Text ID="530594" Value=""/>
+    <Text ID="530595" Value=""/>
+    <Text ID="530596" Value=""/>
+    <Text ID="530597" Value=""/>
+    <Text ID="530598" Value=""/>
+    <Text ID="530599" Value=""/>
+    <Text ID="530600" Value="Stop function"/>
+    <Text ID="530601" Value="Stop on shirts"/>
+    <Text ID="530602" Value="Stop on Trousers"/>
+    <Text ID="530603" Value="Stop on both"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value="Extreme Heavy Off"/>
+    <Text ID="525381" Value="Extreme Heavy On"/>
+    <Text ID="525382" Value="Raise Blades Off"/>
+    <Text ID="525383" Value="Raise Blades On"/>
+    <Text ID="525384" Value="Inlet Blow Off"/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value="Blow Adjust"/>
+    <Text ID="525387" Value="Blow Time"/>
+    <Text ID="525388" Value="Blow Gap"/>
+    <Text ID="525389" Value="Multi Blow"/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Stacker Indexing Time"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="530577" Value=""/>
+    <Text ID="530578" Value=""/>
+    <Text ID="530579" Value=""/>
+    <Text ID="530580" Value=""/>
+    <Text ID="530581" Value=""/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value=""/>
+    <Text ID="530584" Value=""/>
+    <Text ID="530585" Value=""/>
+    <Text ID="530586" Value=""/>
+    <Text ID="530587" Value=""/>
+    <Text ID="530588" Value=""/>
+    <Text ID="530589" Value=""/>
+    <Text ID="530590" Value=""/>
+    <Text ID="530591" Value=""/>
+    <Text ID="530592" Value=""/>
+    <Text ID="530593" Value=""/>
+    <Text ID="530594" Value=""/>
+    <Text ID="530595" Value=""/>
+    <Text ID="530596" Value=""/>
+    <Text ID="530597" Value=""/>
+    <Text ID="530598" Value=""/>
+    <Text ID="530599" Value=""/>
+    <Text ID="530600" Value=""/>
+    <Text ID="530601" Value=""/>
+    <Text ID="530602" Value=""/>
+    <Text ID="530603" Value=""/>
+    <Text ID="460857" Value=""/>
+    <Text ID="460858" Value=""/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value=""/>
+    <Text ID="480958" Value=""/>
+    <Text ID="480959" Value=""/>
+    <Text ID="482428" Value=""/>
+    <Text ID="483899" Value=""/>
+    <Text ID="483900" Value=""/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value=""/>
+    <Text ID="525381" Value=""/>
+    <Text ID="525382" Value=""/>
+    <Text ID="525383" Value=""/>
+    <Text ID="525384" Value=""/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value=""/>
+    <Text ID="525387" Value=""/>
+    <Text ID="525388" Value=""/>
+    <Text ID="525389" Value=""/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Stacker Indexing Time"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="530577" Value=""/>
+    <Text ID="530578" Value=""/>
+    <Text ID="530579" Value=""/>
+    <Text ID="530580" Value=""/>
+    <Text ID="530581" Value=""/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value=""/>
+    <Text ID="530584" Value=""/>
+    <Text ID="530585" Value=""/>
+    <Text ID="530586" Value=""/>
+    <Text ID="530587" Value=""/>
+    <Text ID="530588" Value=""/>
+    <Text ID="530589" Value=""/>
+    <Text ID="530590" Value=""/>
+    <Text ID="530591" Value=""/>
+    <Text ID="530592" Value=""/>
+    <Text ID="530593" Value=""/>
+    <Text ID="530594" Value=""/>
+    <Text ID="530595" Value=""/>
+    <Text ID="530596" Value=""/>
+    <Text ID="530597" Value=""/>
+    <Text ID="530598" Value=""/>
+    <Text ID="530599" Value=""/>
+    <Text ID="530600" Value=""/>
+    <Text ID="530601" Value=""/>
+    <Text ID="530602" Value=""/>
+    <Text ID="530603" Value=""/>
+    <Text ID="460857" Value=""/>
+    <Text ID="460858" Value=""/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value=""/>
+    <Text ID="480958" Value=""/>
+    <Text ID="480959" Value=""/>
+    <Text ID="482428" Value=""/>
+    <Text ID="483899" Value=""/>
+    <Text ID="483900" Value=""/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value=""/>
+    <Text ID="525381" Value=""/>
+    <Text ID="525382" Value=""/>
+    <Text ID="525383" Value=""/>
+    <Text ID="525384" Value=""/>
+    <Text ID="525385" Value=""/>
+    <Text ID="525386" Value=""/>
+    <Text ID="525387" Value=""/>
+    <Text ID="525388" Value=""/>
+    <Text ID="525389" Value=""/>
+    <Text ID="526767" Value="OFF"/>
+    <Text ID="526768" Value="ON"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both verticals ph to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Stacker Indexing Time"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="530577" Value=""/>
+    <Text ID="530578" Value=""/>
+    <Text ID="530579" Value=""/>
+    <Text ID="530580" Value=""/>
+    <Text ID="530581" Value=""/>
+    <Text ID="530582" Value=""/>
+    <Text ID="530583" Value=""/>
+    <Text ID="530584" Value=""/>
+    <Text ID="530585" Value=""/>
+    <Text ID="530586" Value=""/>
+    <Text ID="530587" Value=""/>
+    <Text ID="530588" Value=""/>
+    <Text ID="530589" Value=""/>
+    <Text ID="530590" Value=""/>
+    <Text ID="530591" Value=""/>
+    <Text ID="530592" Value=""/>
+    <Text ID="530593" Value=""/>
+    <Text ID="530594" Value=""/>
+    <Text ID="530595" Value=""/>
+    <Text ID="530596" Value=""/>
+    <Text ID="530597" Value=""/>
+    <Text ID="530598" Value=""/>
+    <Text ID="530599" Value=""/>
+    <Text ID="530600" Value=""/>
+    <Text ID="530601" Value=""/>
+    <Text ID="530602" Value=""/>
+    <Text ID="530603" Value=""/>
+    <Text ID="460857" Value=""/>
+    <Text ID="460858" Value=""/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value=""/>
+    <Text ID="480958" Value=""/>
+    <Text ID="480959" Value=""/>
+    <Text ID="482428" Value=""/>
+    <Text ID="483899" Value=""/>
+    <Text ID="483900" Value=""/>
+    <Text ID="519037" Value=""/>
+    <Text ID="520296" Value=""/>
+    <Text ID="525380" Value=""/>
+    <Text ID="525381" Value=""/>
+    <Text ID="525382" Value=""/>
+    <Text ID="525383" Value=""/>
+    <Text ID="525384" Value=""/>
+    <Text ID="525385" Value=""/>
+    <Text ID="525386" Value=""/>
+    <Text ID="525387" Value=""/>
+    <Text ID="525388" Value=""/>
+    <Text ID="525389" Value=""/>
+    <Text ID="526767" Value=""/>
+    <Text ID="526768" Value=""/>
+    <Text ID="526780" Value=""/>
+    <Text ID="526782" Value=""/>
+    <Text ID="526791" Value=""/>
+    <Text ID="526792" Value=""/>
+    <Text ID="528151" Value=""/>
+    <Text ID="528152" Value=""/>
+    <Text ID="542723" Value=""/>
+    <Text ID="542725" Value=""/>
+    <Text ID="542726" Value=""/>
+    <Text ID="542727" Value=""/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value=""/>
+    <Text ID="546003" Value=""/>
+    <Text ID="546004" Value=""/>
+    <Text ID="546005" Value=""/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Stacker Indexing Time"/>
+    <Text ID="602263" Value=""/>
+    <Text ID="602266" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="530577" Value=""/>
+    <Text ID="530578" Value=""/>
+    <Text ID="530579" Value=""/>
+    <Text ID="530580" Value=""/>
+    <Text ID="530581" Value=""/>
+    <Text ID="530582" Value=""/>
+    <Text ID="530583" Value=""/>
+    <Text ID="530584" Value=""/>
+    <Text ID="530585" Value=""/>
+    <Text ID="530586" Value=""/>
+    <Text ID="530587" Value=""/>
+    <Text ID="530588" Value=""/>
+    <Text ID="530589" Value=""/>
+    <Text ID="530590" Value=""/>
+    <Text ID="530591" Value=""/>
+    <Text ID="530592" Value=""/>
+    <Text ID="530593" Value=""/>
+    <Text ID="530594" Value=""/>
+    <Text ID="530595" Value=""/>
+    <Text ID="530596" Value=""/>
+    <Text ID="530597" Value=""/>
+    <Text ID="530598" Value=""/>
+    <Text ID="530599" Value=""/>
+    <Text ID="530600" Value=""/>
+    <Text ID="530601" Value=""/>
+    <Text ID="530602" Value=""/>
+    <Text ID="530603" Value=""/>
+    <Text ID="460857" Value=""/>
+    <Text ID="460858" Value=""/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value=""/>
+    <Text ID="480958" Value=""/>
+    <Text ID="480959" Value=""/>
+    <Text ID="482428" Value=""/>
+    <Text ID="483899" Value=""/>
+    <Text ID="483900" Value=""/>
+    <Text ID="519037" Value=""/>
+    <Text ID="520296" Value=""/>
+    <Text ID="525380" Value=""/>
+    <Text ID="525381" Value=""/>
+    <Text ID="525382" Value=""/>
+    <Text ID="525383" Value=""/>
+    <Text ID="525384" Value=""/>
+    <Text ID="525385" Value=""/>
+    <Text ID="525386" Value=""/>
+    <Text ID="525387" Value=""/>
+    <Text ID="525388" Value=""/>
+    <Text ID="525389" Value=""/>
+    <Text ID="526767" Value=""/>
+    <Text ID="526768" Value=""/>
+    <Text ID="526780" Value=""/>
+    <Text ID="526782" Value=""/>
+    <Text ID="526791" Value=""/>
+    <Text ID="526792" Value=""/>
+    <Text ID="528151" Value=""/>
+    <Text ID="528152" Value=""/>
+    <Text ID="542723" Value=""/>
+    <Text ID="542725" Value=""/>
+    <Text ID="542726" Value=""/>
+    <Text ID="542727" Value=""/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value=""/>
+    <Text ID="546003" Value=""/>
+    <Text ID="546004" Value=""/>
+    <Text ID="546005" Value=""/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Stacker Indexing Time"/>
+    <Text ID="602263" Value=""/>
+    <Text ID="602266" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="530577" Value=""/>
+    <Text ID="530578" Value=""/>
+    <Text ID="530579" Value=""/>
+    <Text ID="530580" Value=""/>
+    <Text ID="530581" Value=""/>
+    <Text ID="530582" Value=""/>
+    <Text ID="530583" Value=""/>
+    <Text ID="530584" Value=""/>
+    <Text ID="530585" Value=""/>
+    <Text ID="530586" Value=""/>
+    <Text ID="530587" Value=""/>
+    <Text ID="530588" Value=""/>
+    <Text ID="530589" Value=""/>
+    <Text ID="530590" Value=""/>
+    <Text ID="530591" Value=""/>
+    <Text ID="530592" Value=""/>
+    <Text ID="530593" Value=""/>
+    <Text ID="530594" Value=""/>
+    <Text ID="530595" Value=""/>
+    <Text ID="530596" Value=""/>
+    <Text ID="530597" Value=""/>
+    <Text ID="530598" Value=""/>
+    <Text ID="530599" Value=""/>
+    <Text ID="530600" Value=""/>
+    <Text ID="530601" Value=""/>
+    <Text ID="530602" Value=""/>
+    <Text ID="530603" Value=""/>
+    <Text ID="460857" Value=""/>
+    <Text ID="460858" Value=""/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value=""/>
+    <Text ID="480958" Value=""/>
+    <Text ID="480959" Value=""/>
+    <Text ID="482428" Value=""/>
+    <Text ID="483899" Value=""/>
+    <Text ID="483900" Value=""/>
+    <Text ID="519037" Value=""/>
+    <Text ID="520296" Value=""/>
+    <Text ID="525380" Value=""/>
+    <Text ID="525381" Value=""/>
+    <Text ID="525382" Value=""/>
+    <Text ID="525383" Value=""/>
+    <Text ID="525384" Value=""/>
+    <Text ID="525385" Value=""/>
+    <Text ID="525386" Value=""/>
+    <Text ID="525387" Value=""/>
+    <Text ID="525388" Value=""/>
+    <Text ID="525389" Value=""/>
+    <Text ID="526767" Value=""/>
+    <Text ID="526768" Value=""/>
+    <Text ID="526780" Value=""/>
+    <Text ID="526782" Value=""/>
+    <Text ID="526791" Value=""/>
+    <Text ID="526792" Value=""/>
+    <Text ID="528151" Value=""/>
+    <Text ID="528152" Value=""/>
+    <Text ID="542723" Value=""/>
+    <Text ID="542725" Value=""/>
+    <Text ID="542726" Value=""/>
+    <Text ID="542727" Value=""/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value=""/>
+    <Text ID="546003" Value=""/>
+    <Text ID="546004" Value=""/>
+    <Text ID="546005" Value=""/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Stacker Indexing Time"/>
+    <Text ID="602263" Value=""/>
+    <Text ID="602266" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="530577" Value="Ventetid innløp"/>
+    <Text ID="530578" Value="Høyre Arm"/>
+    <Text ID="530579" Value="Venstre Arm"/>
+    <Text ID="530580" Value="Bukser bypass blader"/>
+    <Text ID="530581" Value="Normale Foldeblader"/>
+    <Text ID="530582" Value="Photocells modes"/>
+    <Text ID="530583" Value="Begge fotoseller"/>
+    <Text ID="530584" Value="Bypass allt"/>
+    <Text ID="530585" Value="cm"/>
+    <Text ID="530586" Value="Skill automatisk"/>
+    <Text ID="530587" Value="Registrer alt som bukse"/>
+    <Text ID="530588" Value="Blåse punkt"/>
+    <Text ID="530589" Value="Blåsing bukser"/>
+    <Text ID="530590" Value="Registrer alt som jakke"/>
+    <Text ID="530591" Value="Forced pajamas"/>
+    <Text ID="530592" Value="Tid belte på innløp, TC1"/>
+    <Text ID="530593" Value="Stopp belte under innkjøring"/>
+    <Text ID="530594" Value="Ingen offsett"/>
+    <Text ID="530595" Value="Offsett Bukser"/>
+    <Text ID="530596" Value="Tillpassing av"/>
+    <Text ID="530597" Value="Tillpassing på"/>
+    <Text ID="530598" Value="Overall off"/>
+    <Text ID="530599" Value="Overall on"/>
+    <Text ID="530600" Value="Stop function"/>
+    <Text ID="530601" Value="Stop on shirts"/>
+    <Text ID="530602" Value="Stop on Trousers"/>
+    <Text ID="530603" Value="Stop on both"/>
+    <Text ID="460857" Value="Flap Trousers Off"/>
+    <Text ID="460858" Value="Flap Trousers On"/>
+    <Text ID="461331" Value="Flap Trousers Air Blast"/>
+    <Text ID="461423" Value="Flap Trousers- Metricon Recipe"/>
+    <Text ID="480958" Value="Add. PH vertical start"/>
+    <Text ID="480959" Value="Add. PH vertical start + end"/>
+    <Text ID="482428" Value="Hanger cleaning"/>
+    <Text ID="483899" Value="const"/>
+    <Text ID="483900" Value="pulse"/>
+    <Text ID="519037" Value="XA OR"/>
+    <Text ID="520296" Value="XA AND"/>
+    <Text ID="525380" Value="Extreme Heavy Off"/>
+    <Text ID="525381" Value="Extreme Heavy On"/>
+    <Text ID="525382" Value="Raise Blades Off"/>
+    <Text ID="525383" Value="Raise Blades On"/>
+    <Text ID="525384" Value="Inlet Blow Off"/>
+    <Text ID="525385" Value="Inlet Blow On"/>
+    <Text ID="525386" Value="Blow Adjust"/>
+    <Text ID="525387" Value="Blow Time"/>
+    <Text ID="525388" Value="Blow Gap"/>
+    <Text ID="525389" Value="Multi Blow"/>
+    <Text ID="526767" Value="Av"/>
+    <Text ID="526768" Value="På"/>
+    <Text ID="526780" Value="Rear edge turnaround"/>
+    <Text ID="526782" Value="Lead edge crossfold A"/>
+    <Text ID="526791" Value="Use Horizontal"/>
+    <Text ID="526792" Value="Both photocells to detect"/>
+    <Text ID="528151" Value="Stack By Turn OFF"/>
+    <Text ID="528152" Value="Stack By Turn ON"/>
+    <Text ID="542723" Value="Deloader light garment"/>
+    <Text ID="542725" Value="Deloader heavy garment"/>
+    <Text ID="542726" Value="Hanger belt normal start"/>
+    <Text ID="542727" Value="Hanger belt quick start"/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value="Speed Hanger at deloader"/>
+    <Text ID="546003" Value="Down position +/-"/>
+    <Text ID="546004" Value="Speed up percent"/>
+    <Text ID="546005" Value="Acc. up percent"/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Stacker Indexing Time"/>
+    <Text ID="602263" Value="Conveyor"/>
+    <Text ID="602266" Value="0 = Default"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="530577" Value=""/>
+    <Text ID="530578" Value=""/>
+    <Text ID="530579" Value=""/>
+    <Text ID="530580" Value=""/>
+    <Text ID="530581" Value=""/>
+    <Text ID="530582" Value=""/>
+    <Text ID="530583" Value=""/>
+    <Text ID="530584" Value=""/>
+    <Text ID="530585" Value=""/>
+    <Text ID="530586" Value=""/>
+    <Text ID="530587" Value=""/>
+    <Text ID="530588" Value=""/>
+    <Text ID="530589" Value=""/>
+    <Text ID="530590" Value=""/>
+    <Text ID="530591" Value=""/>
+    <Text ID="530592" Value=""/>
+    <Text ID="530593" Value=""/>
+    <Text ID="530594" Value=""/>
+    <Text ID="530595" Value=""/>
+    <Text ID="530596" Value=""/>
+    <Text ID="530597" Value=""/>
+    <Text ID="530598" Value=""/>
+    <Text ID="530599" Value=""/>
+    <Text ID="530600" Value=""/>
+    <Text ID="530601" Value=""/>
+    <Text ID="530602" Value=""/>
+    <Text ID="530603" Value=""/>
+    <Text ID="460857" Value=""/>
+    <Text ID="460858" Value=""/>
+    <Text ID="461331" Value="Flap Trousers AirBlast"/>
+    <Text ID="461423" Value=""/>
+    <Text ID="480958" Value=""/>
+    <Text ID="480959" Value=""/>
+    <Text ID="482428" Value=""/>
+    <Text ID="483899" Value=""/>
+    <Text ID="483900" Value=""/>
+    <Text ID="519037" Value=""/>
+    <Text ID="520296" Value=""/>
+    <Text ID="525380" Value=""/>
+    <Text ID="525381" Value=""/>
+    <Text ID="525382" Value=""/>
+    <Text ID="525383" Value=""/>
+    <Text ID="525384" Value=""/>
+    <Text ID="525385" Value=""/>
+    <Text ID="525386" Value=""/>
+    <Text ID="525387" Value=""/>
+    <Text ID="525388" Value=""/>
+    <Text ID="525389" Value=""/>
+    <Text ID="526767" Value=""/>
+    <Text ID="526768" Value=""/>
+    <Text ID="526780" Value=""/>
+    <Text ID="526782" Value=""/>
+    <Text ID="526791" Value=""/>
+    <Text ID="526792" Value=""/>
+    <Text ID="528151" Value=""/>
+    <Text ID="528152" Value=""/>
+    <Text ID="542723" Value=""/>
+    <Text ID="542725" Value=""/>
+    <Text ID="542726" Value=""/>
+    <Text ID="542727" Value=""/>
+    <Text ID="546001" Value="Speed Hanger"/>
+    <Text ID="546002" Value=""/>
+    <Text ID="546003" Value=""/>
+    <Text ID="546004" Value=""/>
+    <Text ID="546005" Value=""/>
+    <Text ID="573988" Value="Guide Plates Off"/>
+    <Text ID="573989" Value="Guide Plates ON"/>
+    <Text ID="589228" Value="Stacker Indexing Time"/>
+    <Text ID="602263" Value=""/>
+    <Text ID="602266" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="530577" Value="1"/>
+    <Index ID="530578" Value="2"/>
+    <Index ID="530579" Value="3"/>
+    <Index ID="530580" Value="101"/>
+    <Index ID="530581" Value="100"/>
+    <Index ID="530582" Value="110"/>
+    <Index ID="530583" Value="111"/>
+    <Index ID="530584" Value="102"/>
+    <Index ID="530585" Value="10"/>
+    <Index ID="530586" Value="134"/>
+    <Index ID="530587" Value="135"/>
+    <Index ID="530588" Value="14"/>
+    <Index ID="530589" Value="15"/>
+    <Index ID="530590" Value="136"/>
+    <Index ID="530591" Value="137"/>
+    <Index ID="530592" Value="20"/>
+    <Index ID="530593" Value="21"/>
+    <Index ID="530594" Value="150"/>
+    <Index ID="530595" Value="151"/>
+    <Index ID="530596" Value="160"/>
+    <Index ID="530597" Value="161"/>
+    <Index ID="530598" Value="170"/>
+    <Index ID="530599" Value="171"/>
+    <Index ID="530600" Value="22"/>
+    <Index ID="530601" Value="180"/>
+    <Index ID="530602" Value="181"/>
+    <Index ID="530603" Value="182"/>
+    <Index ID="460857" Value="190"/>
+    <Index ID="460858" Value="191"/>
+    <Index ID="461331" Value="24"/>
+    <Index ID="461423" Value="25"/>
+    <Index ID="480958" Value="112"/>
+    <Index ID="480959" Value="113"/>
+    <Index ID="482428" Value="192"/>
+    <Index ID="483899" Value="193"/>
+    <Index ID="483900" Value="194"/>
+    <Index ID="519037" Value="195"/>
+    <Index ID="520296" Value="196"/>
+    <Index ID="525380" Value="197"/>
+    <Index ID="525381" Value="198"/>
+    <Index ID="525382" Value="199"/>
+    <Index ID="525383" Value="200"/>
+    <Index ID="525384" Value="210"/>
+    <Index ID="525385" Value="211"/>
+    <Index ID="525386" Value="212"/>
+    <Index ID="525387" Value="213"/>
+    <Index ID="525388" Value="214"/>
+    <Index ID="525389" Value="215"/>
+    <Index ID="526767" Value="216"/>
+    <Index ID="526768" Value="217"/>
+    <Index ID="526780" Value="218"/>
+    <Index ID="526782" Value="219"/>
+    <Index ID="526791" Value="220"/>
+    <Index ID="526792" Value="221"/>
+    <Index ID="528151" Value="222"/>
+    <Index ID="528152" Value="223"/>
+    <Index ID="542723" Value="224"/>
+    <Index ID="542725" Value="225"/>
+    <Index ID="542726" Value="226"/>
+    <Index ID="542727" Value="227"/>
+    <Index ID="546001" Value="228"/>
+    <Index ID="546002" Value="229"/>
+    <Index ID="546003" Value="230"/>
+    <Index ID="546004" Value="231"/>
+    <Index ID="546005" Value="232"/>
+    <Index ID="573988" Value="201"/>
+    <Index ID="573989" Value="202"/>
+    <Index ID="589228" Value="38"/>
+    <Index ID="602263" Value="233"/>
+    <Index ID="602266" Value="234"/>
+  </IndexMap>
+</TextGroup>

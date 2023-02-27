@@ -1,0 +1,42 @@
+VAR CONSTANT
+	MAX_MODULE_COUNT : UINT := 32;
+	MAX_MODULE_NAME_LEN : UINT := 20;
+	MAX_MODULE_POWERLINK : UINT := 20;
+	MAX_MODULE_X2X : UINT := 254;
+END_VAR
+VAR
+	CPUData : ARRAY[0..4] OF CPUInfoData_Type;
+	OnlyX20 : BOOL;
+	HW_msg : ARRAY[0..255] OF USINT;
+	hwSearchStatus : UINT;
+	DiagGetStrInfo_0 : DiagGetStrInfo;
+	search_hw_status : UINT;
+	CycleCount : UINT;
+	RefreshPage : BOOL;
+	counter : USINT;
+	DiagCreateInfo_0 : DiagCreateInfo;
+	Scan : BOOL;
+	module_cfg : BusStatusModule_Type;
+	cpu_found : BOOL;
+	hw_search_step : UINT;
+	I : UINT;
+	DiagGetNumInfo_0 : DiagGetNumInfo;
+	DiagDisposeInfo_0 : DiagDisposeInfo;
+	PathString : ARRAY[0..40] OF USINT;
+	stage : UINT;
+	CurrentX2XDecade : ARRAY[0..10] OF LocalBusData_Type;
+	LocalBus : ARRAY[0..20] OF LocalBusData_Type;
+	X2XBus : ARRAY[0..254] OF LocalBusData_Type;
+	SelectedDecade : UINT;
+	CurrentX2XNode : ARRAY[0..10] OF UINT;
+	UpdateIntervall : UINT;
+	TempStr : ARRAY[0..40] OF USINT;
+	FirstTime : BOOL;
+	InterFaceShowCount : UINT;
+	InterFaceHide : UINT;
+	PageBusStat : UINT;
+	PageLocalBusStat : UINT;
+	UnKnownType : UINT;
+	PAGE_X20BUS_STATUS_207 : UINT := 207;
+	PAGE_LOCALBUS_STATUS_205 : UINT;
+END_VAR

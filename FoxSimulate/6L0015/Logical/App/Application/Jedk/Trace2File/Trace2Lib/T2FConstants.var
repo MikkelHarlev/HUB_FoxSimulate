@@ -1,0 +1,7 @@
+VAR CONSTANT
+	T2F_MaxFileSize : UDINT := 10000000;
+	T2F_Array_Size : UDINT := 200;
+	T2F_StringLenght : USINT := 250;
+	T2F_FunctionStringLenght : USINT := 70;
+	T2F_NumberOfFiles : USINT := 3;
+END_VAR

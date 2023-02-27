@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">IOTServer</Object>
+    <Object Type="File">types.typ</Object>
+    <Object Type="File" Description="Local variables">variables.var</Object>
+    <Object Type="Program" Language="IEC">GLiteV2</Object>
+    <Object Type="Program" Language="IEC">sendMail</Object>
+    <Object Type="File" Description="Global data types for Task">ModuleGlobal.typ</Object>
+    <Object Type="File" Description="Global variables for Task">ModuleGlobal.var</Object>
+    <Object Type="Package">ModuleHMI</Object>
+    <Object Type="Program" Language="IEC">IOTTwinV2</Object>
+  </Objects>
+</Package>

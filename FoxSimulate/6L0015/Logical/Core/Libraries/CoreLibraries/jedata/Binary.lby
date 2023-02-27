@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="1.30.1" SubType="Binary" Description="JenDataCore" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>jedata.typ</File>
+    <File>jedata.fun</File>
+    <File Description="Exported constants">jedata.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsMem" FromDate="08-10-2004" />
+    <Dependency ObjectName="AsString" FromDate="06-11-2001" />
+    <Dependency ObjectName="AsTime" FromDate="23-07-2003" />
+    <Dependency ObjectName="LogLib" FromDate="10-09-2007" />
+    <Dependency ObjectName="brsystem" FromDate="07-09-2007" />
+    <Dependency ObjectName="jenxml" FromDate="29-06-2009" />
+    <Dependency ObjectName="standard" FromDate="06-08-2001" />
+    <Dependency ObjectName="AsMath" FromVersion="0.00.0" />
+    <Dependency ObjectName="SYS_LIB" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

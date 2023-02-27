@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_FoldProgStacker">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="54"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="259215" Value="msec"/>
+    <Text ID="432379" Value="Blowing: Delay"/>
+    <Text ID="432380" Value="Blowing: Ontime"/>
+    <Text ID="433630" Value="Air pipe in front of stacker flaps"/>
+    <Text ID="515324" Value="Group Number"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="259215" Value="msek"/>
+    <Text ID="432379" Value="Blasen: Verzögerung"/>
+    <Text ID="432380" Value="Blasen: Blaszeit"/>
+    <Text ID="433630" Value="Blasrohr vor Staplerklappe"/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="259215" Value="ms"/>
+    <Text ID="432379" Value="Blowing: Delay"/>
+    <Text ID="432380" Value="Blowing: Ontime"/>
+    <Text ID="433630" Value="Air pipe in front of stacker flaps"/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="259215" Value="msec"/>
+    <Text ID="432379" Value="Délais Jet Air"/>
+    <Text ID="432380" Value="Durée Jet Air"/>
+    <Text ID="433630" Value="Jet Air en face d'Empileur"/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="259215" Value="msek"/>
+    <Text ID="432379" Value="Forsinkelse blæs"/>
+    <Text ID="432380" Value="Blæsetid"/>
+    <Text ID="433630" Value="Blæserør foran stakker"/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="259215" Value="msec"/>
+    <Text ID="432379" Value="Soffio : Ritardo"/>
+    <Text ID="432380" Value="Soffio : Durata"/>
+    <Text ID="433630" Value="Soffio Aria di fronte ai flaps di accatast."/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="259215" Value="msec"/>
+    <Text ID="432379" Value="Blowing: Delay"/>
+    <Text ID="432380" Value="Blowing: Ontime"/>
+    <Text ID="433630" Value="Air pipe in front of stacker flaps"/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="259215" Value="msec"/>
+    <Text ID="432379" Value="Blowing: Delay"/>
+    <Text ID="432380" Value="Blowing: Ontime"/>
+    <Text ID="433630" Value="Air pipe in front of stacker flaps"/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="259215" Value="mseg"/>
+    <Text ID="432379" Value="Blowing: Delay"/>
+    <Text ID="432380" Value="Blowing: Ontime"/>
+    <Text ID="433630" Value="Air pipe in front of stacker flaps"/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="259215" Value=""/>
+    <Text ID="432379" Value=""/>
+    <Text ID="432380" Value=""/>
+    <Text ID="433630" Value=""/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="259215" Value=""/>
+    <Text ID="432379" Value=""/>
+    <Text ID="432380" Value=""/>
+    <Text ID="433630" Value=""/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="259215" Value=""/>
+    <Text ID="432379" Value=""/>
+    <Text ID="432380" Value=""/>
+    <Text ID="433630" Value=""/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="259215" Value=""/>
+    <Text ID="432379" Value=""/>
+    <Text ID="432380" Value=""/>
+    <Text ID="433630" Value=""/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="259215" Value=""/>
+    <Text ID="432379" Value=""/>
+    <Text ID="432380" Value=""/>
+    <Text ID="433630" Value=""/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="259215" Value=""/>
+    <Text ID="432379" Value=""/>
+    <Text ID="432380" Value=""/>
+    <Text ID="433630" Value=""/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="259215" Value="msek"/>
+    <Text ID="432379" Value="Forsinkelse blåsing"/>
+    <Text ID="432380" Value="Blåsetid"/>
+    <Text ID="433630" Value="Blåserør forran stacker"/>
+    <Text ID="515324" Value="Group Number"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="259215" Value=""/>
+    <Text ID="432379" Value=""/>
+    <Text ID="432380" Value=""/>
+    <Text ID="433630" Value=""/>
+    <Text ID="515324" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="259215" Value="5"/>
+    <Index ID="432379" Value="51"/>
+    <Index ID="432380" Value="52"/>
+    <Index ID="433630" Value="32"/>
+    <Index ID="515324" Value="53"/>
+  </IndexMap>
+</TextGroup>

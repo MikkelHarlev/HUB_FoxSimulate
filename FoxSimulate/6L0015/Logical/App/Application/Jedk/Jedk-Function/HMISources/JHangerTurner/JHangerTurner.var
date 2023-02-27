@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: JHangerTurner
+ * File: JHangerTurner.var
+ * Author: mha
+ * Created: January 08, 2014
+ ********************************************************************
+ * Local variables of program JHangerTurner
+ ********************************************************************)
+VAR
+	JamCheck : FB_Jam;
+	TopPreStop : FB_DelayOn;
+	HangerTurnerPrestop : FB_DelayOn;
+	HangerTurnerPresent : FB_Filter;
+	PreStopIn : FB_Filter;
+	PrestopIn : FB_Filter;
+END_VAR

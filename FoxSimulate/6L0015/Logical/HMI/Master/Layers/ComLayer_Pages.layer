@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="ComLayer_Pages">
+  <Property Name="BackColor" Value="52"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="320"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="349234" Value=""/>
+      <Text ID="349235" Value=""/>
+      <Text ID="349236" Value=""/>
+      <Text ID="349237" Value=""/>
+      <Text ID="349238" Value=""/>
+      <Text ID="349239" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="349234" Value=""/>
+      <Text ID="349235" Value=""/>
+      <Text ID="349236" Value=""/>
+      <Text ID="349237" Value=""/>
+      <Text ID="349238" Value=""/>
+      <Text ID="349239" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="349234" Value=""/>
+      <Text ID="349235" Value=""/>
+      <Text ID="349236" Value=""/>
+      <Text ID="349237" Value=""/>
+      <Text ID="349238" Value=""/>
+      <Text ID="349239" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="349234" Value="1"/>
+      <Text ID="349235" Value="2"/>
+      <Text ID="349236" Value="3"/>
+      <Text ID="349237" Value="4"/>
+      <Text ID="349238" Value="5"/>
+      <Text ID="349239" Value="6"/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="349234" Value=""/>
+      <Text ID="349235" Value=""/>
+      <Text ID="349236" Value=""/>
+      <Text ID="349237" Value=""/>
+      <Text ID="349238" Value=""/>
+      <Text ID="349239" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="349234" Value="48"/>
+      <Index ID="349235" Value="49"/>
+      <Index ID="349236" Value="50"/>
+      <Index ID="349237" Value="51"/>
+      <Index ID="349238" Value="52"/>
+      <Index ID="349239" Value="53"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001001" Name="Shape_2">
+      <Property Name="BackColor" Value="254"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="254"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape_Opaque]"/>
+      <Property Name="Top" Value="210"/>
+      <Property Name="Width" Value="320"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="320"/>
+      <Property Name="EndY" Value="210"/>
+      <Property Name="StartX" Value="0"/>
+      <Property Name="StartY" Value="210"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_19">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[ButtonIcons]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[0].IconID]"/>
+      <Property Name="BitmapSimulationValue" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="Border" Value="Source[local].Border[Jensen_Raised2]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[0]]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="27"/>
+      <Property Name="KeyMatrixOffset" Value="0"/>
+      <Property Name="Left" Value="2"/>
+      <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Locked[0]]"/>
+      <Property Name="LockingLevel" Value="1"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[Jensen_Sunken2]"/>
+      <Property Name="PressedColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[0]]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Button_Text]"/>
+      <Property Name="TextIndex" Value="0"/>
+      <Property Name="TextIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[0].TextID]"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="212"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMIKey1]"/>
+      <Property Name="Width" Value="52"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_20">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[ButtonIcons]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[1].IconID]"/>
+      <Property Name="BitmapSimulationValue" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="Border" Value="Source[local].Border[Jensen_Raised2]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[1]]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="27"/>
+      <Property Name="KeyMatrixOffset" Value="0"/>
+      <Property Name="Left" Value="55"/>
+      <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Locked[1]]"/>
+      <Property Name="LockingLevel" Value="1"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[Jensen_Sunken2]"/>
+      <Property Name="PressedColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[1]]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Button_Text]"/>
+      <Property Name="TextIndex" Value="0"/>
+      <Property Name="TextIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[1].TextID]"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="212"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMIKey2]"/>
+      <Property Name="Width" Value="52"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_21">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[ButtonIcons]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[2].IconID]"/>
+      <Property Name="BitmapSimulationValue" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="Border" Value="Source[local].Border[Jensen_Raised2]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[2]]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="27"/>
+      <Property Name="KeyMatrixOffset" Value="0"/>
+      <Property Name="Left" Value="108"/>
+      <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Locked[2]]"/>
+      <Property Name="LockingLevel" Value="1"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[Jensen_Sunken2]"/>
+      <Property Name="PressedColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[2]]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Button_Text]"/>
+      <Property Name="TextIndex" Value="0"/>
+      <Property Name="TextIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[2].TextID]"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="212"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMIKey3]"/>
+      <Property Name="Width" Value="52"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_22">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[ButtonIcons]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[3].IconID]"/>
+      <Property Name="BitmapSimulationValue" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="Border" Value="Source[local].Border[Jensen_Raised2]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[3]]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="27"/>
+      <Property Name="KeyMatrixOffset" Value="0"/>
+      <Property Name="Left" Value="161"/>
+      <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Locked[3]]"/>
+      <Property Name="LockingLevel" Value="1"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[Jensen_Sunken2]"/>
+      <Property Name="PressedColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[3]]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Button_Text]"/>
+      <Property Name="TextIndex" Value="0"/>
+      <Property Name="TextIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[3].TextID]"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="212"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMIKey4]"/>
+      <Property Name="Width" Value="52"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_23">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[ButtonIcons]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[4].IconID]"/>
+      <Property Name="BitmapSimulationValue" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="Border" Value="Source[local].Border[Jensen_Raised2]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[4]]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="27"/>
+      <Property Name="KeyMatrixOffset" Value="0"/>
+      <Property Name="Left" Value="214"/>
+      <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Locked[4]]"/>
+      <Property Name="LockingLevel" Value="1"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[Jensen_Sunken2]"/>
+      <Property Name="PressedColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[4]]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="SpacingVertical" Value="1"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Button_Text]"/>
+      <Property Name="TextIndex" Value="0"/>
+      <Property Name="TextIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[4].TextID]"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="212"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMIKey5]"/>
+      <Property Name="Width" Value="52"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_24">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[ButtonIcons]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[5].IconID]"/>
+      <Property Name="BitmapSimulationValue" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="Border" Value="Source[local].Border[Jensen_Raised2]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[5]]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="27"/>
+      <Property Name="KeyMatrixOffset" Value="0"/>
+      <Property Name="Left" Value="267"/>
+      <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Locked[5]]"/>
+      <Property Name="LockingLevel" Value="1"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[Jensen_Sunken2]"/>
+      <Property Name="PressedColorDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.ButtonMagic[0].Key[5]]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="SpacingVertical" Value="1"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Button_Text]"/>
+      <Property Name="TextIndex" Value="0"/>
+      <Property Name="TextIndexDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.Key[5].TextID]"/>
+      <Property Name="TextSimulationValue" Value="1"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="212"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[HMIKey6]"/>
+      <Property Name="Width" Value="52"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_2">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="249"/>
+      <Property Name="Height" Value="9"/>
+      <Property Name="Left" Value="45"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="48"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="230"/>
+      <Property Name="Width" Value="10"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_3">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="249"/>
+      <Property Name="Height" Value="9"/>
+      <Property Name="Left" Value="98"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="49"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="230"/>
+      <Property Name="Width" Value="10"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_4">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="249"/>
+      <Property Name="Height" Value="9"/>
+      <Property Name="Left" Value="151"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="50"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="230"/>
+      <Property Name="Width" Value="10"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_5">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="249"/>
+      <Property Name="Height" Value="9"/>
+      <Property Name="Left" Value="204"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="51"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="230"/>
+      <Property Name="Width" Value="10"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_6">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="249"/>
+      <Property Name="Height" Value="9"/>
+      <Property Name="Left" Value="257"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="52"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="230"/>
+      <Property Name="Width" Value="10"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_7">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="249"/>
+      <Property Name="Height" Value="9"/>
+      <Property Name="Left" Value="310"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="53"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="230"/>
+      <Property Name="Width" Value="10"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="ExternalPasswordRequest">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016B">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="3"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="HMIKey6">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016B">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="6"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="HMIKey5">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016B">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="5"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="HMIKey4">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016B">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="4"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="HMIKey3">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016B">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="3"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="HMIKey2">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016B">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="2"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="HMIKey1">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016B">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Master.Core.Services.HMI.HMIHandler.PanelHandler[0].Key.KeyPressed]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

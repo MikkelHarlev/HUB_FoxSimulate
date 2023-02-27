@@ -1,0 +1,83 @@
+VAR
+	nameStr : STRING[100];
+	tempStr : STRING[4];
+	adrRecipeName : UDINT;
+	ButtonId : INT;
+END_VAR
+VAR CONSTANT
+	OPCU_LIST_BUSY : UINT := 65535;
+END_VAR
+VAR
+	RRcpNo : ARRAY[0..5] OF USINT := [6(0)];
+	RestorePermCAR : BOOL := FALSE;
+	RestorePermCARDone : BOOL := FALSE;
+	RSearchOK : ARRAY[0..5] OF BOOL := [6(FALSE)];
+	RArtNo : ARRAY[0..5] OF UDINT := [6(0)];
+	RCustNo : ARRAY[0..5] OF UDINT := [6(0)];
+	PageCAREdit : UINT := 0;
+	PageCARSelect : UINT := 0;
+	RCycleCount : UDINT;
+	RInitDone : BOOL;
+	TaskCycleTime : UDINT;
+	RTInfo_0 : RTInfo;
+END_VAR
+VAR CONSTANT
+	LIST_LOCK_DEF : USINT := 4; (* Define which function to lock *)
+END_VAR
+VAR
+	x : USINT;
+	i : USINT;
+	CustSearch : ListSearch;
+	CustScroll : ARRAY[0..5] OF ListScroll;
+	CustSave : ListSave;
+	CustLock : ListLock;
+	CustLoad : ARRAY[0..5] OF ListLoad;
+	CustInit : ListInit;
+	CustEdit : ListEdit;
+	CustDelete : ListDelete;
+	CustAdd : ListAdd;
+END_VAR
+VAR CONSTANT
+	CUST_SEARCH_CUSTNO : USINT := 19;
+	CUST_SEARCH_CUSTART : USINT := 18;
+	CUST_SEARCH_ARTNO : USINT := 17;
+	CUST_SCROLL : USINT := 14;
+	CUST_SAVE : USINT := 12;
+	CUST_LOCK : USINT := 10;
+	CUST_LOAD : USINT := 8;
+	CUST_EDIT : USINT := 7;
+	CUST_DELETE_LIST : USINT := 23;
+	CUST_DELETE : USINT := 6;
+	CUST_CHECK_COMMAND : USINT := 3;
+	CUST_ADD : USINT := 1;
+END_VAR
+VAR
+	CARHandler : ARRAY[0..5] OF Customer_type;
+	RNoOfCARPanels : USINT;
+END_VAR
+VAR CONSTANT
+	CUST_SEARCH_CUSTARTNO : USINT := 20;
+END_VAR
+VAR
+	updatePermCAR : ARRAY[0..5] OF BOOL;
+END_VAR
+VAR CONSTANT
+	RdyTrue : CustomerRdy_type := (0);
+END_VAR
+VAR
+	TmpDelay : UDINT;
+	RDontNotify : BOOL;
+END_VAR
+VAR RETAIN
+	PermCAR : ARRAY[0..9] OF permCAR_Type;
+END_VAR
+VAR
+	CARBusy : BOOL;
+	isRemote : BOOL;
+	RcpCompletion : ARRAY[0..9] OF BOOL;
+	recipeName : STRING[100];
+	adrRecipeNorm : UDINT;
+	pNorm : REFERENCE TO UINT;
+	Norm : UINT;
+	CARFunction : ARRAY[0..5] OF CARFunction_type;
+END_VAR

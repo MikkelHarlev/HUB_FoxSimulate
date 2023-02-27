@@ -1,0 +1,45 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: RealTime
+ * File: RealTime.var
+ * Author: fuglsah
+ * Created: November 10, 2014
+ ********************************************************************
+ * Local variables of program RealTime
+ ********************************************************************)
+VAR
+	RealTimeData : Setup_Type := (0);
+	Status : USINT;
+	RealTimeState : USINT;
+	SqlInfo : JenSqlInfo_Type;
+	analysinfo : UDINT;
+	SqlStatus : UINT;
+	No : USINT;
+	OldCustNo : ARRAY[0..9] OF UDINT;
+	OldOperator : ARRAY[0..9] OF UDINT;
+	OldArticleNo : ARRAY[0..9] OF UDINT;
+	pCockpit : REFERENCE TO CockpitLogic_Type;
+	TmpMachineID : STRING[32];
+	TmpStatus : STRING[32];
+	TmpPieceCount : STRING[32];
+	TmpOnTime : STRING[32];
+	TmpRunTime : STRING[32];
+	TmpSpace : STRING[32];
+	TmpEnd : STRING[32];
+	TmpSubID : STRING[32];
+	TmpOperator : STRING[32];
+	TmpCustomer : STRING[32];
+	TmpErrorID : STRING[32];
+	TmpArticle : STRING[32];
+	InitState : initState_enum;
+	RumtimeState : USINT;
+	TOF_10ms_Sleep : TOF_10ms;
+	ChangeCustArtForSubId : UDINT;
+	TmpApostrof : USINT;
+	oldStatus : USINT;
+	TON_Watchdog : TON_10ms;
+	RealCustNo : ARRAY[0..9] OF UDINT;
+	RealArticleNo : ARRAY[0..9] OF UDINT;
+	RealOperator : ARRAY[0..9] OF UDINT;
+END_VAR

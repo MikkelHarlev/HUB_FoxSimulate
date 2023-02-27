@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.81.23 SP02?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Local data types">OMAC.typ</Object>
+    <Object Type="File" Description="Package data types">BlackBox.typ</Object>
+    <Object Type="File">Configuration.typ</Object>
+    <Object Type="File" Description="Package data types">xml_com.typ</Object>
+    <Object Type="File">Statistics.typ</Object>
+    <Object Type="File">Service.typ</Object>
+    <Object Type="File">Alarms.typ</Object>
+    <Object Type="File" Description="Package data types">System.typ</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<DataSource xmlns="http://br-automation.co.at/AS/VC/Project" Name="Local">
+  <Property Name="AutoRefresh" Value="True"/>
+  <Property Name="DefaultUpdateTime" Value="50"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="IsIntern" Value="False"/>
+  <Property Name="TextGroup" Value="None"/>
+  <DataPoints>
+    <Folder Name="g_MainAlarms">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <DataPoint Name="Ack">
+        <Property Name="ConnectedBySharedResource" Value="True"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="BOOL[0..25]"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="BOOL[]"/>
+      </DataPoint>
+      <DataPoint Name="Alarm">
+        <Property Name="ConnectedBySharedResource" Value="True"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="BOOL[0..25]"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="BOOL[]"/>
+      </DataPoint>
+      <DataPoint Name="Bypassed">
+        <Property Name="ConnectedBySharedResource" Value="True"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="BOOL[0..25]"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="BOOL[]"/>
+      </DataPoint>
+    </Folder>
+    <Folder Name="App">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Package"/>
+      <Folder Name="Application">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Package"/>
+        <Folder Name="HMIControl">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Package"/>
+          <Folder Name="recpedit">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Program"/>
+            <DataPoint Name="HideNotUsedHmi">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="HMI\Master"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="UINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="INTEGER"/>
+            </DataPoint>
+          </Folder>
+          <Folder Name="auto_prg">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Program"/>
+            <Folder Name="HmiAutoProgram">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="HideIndexingTime">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="UINT[0..10]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="INTEGER[]"/>
+                <DataPoint Name="HideIndexingTime[2]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="HideIndexingTime[3]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="HideIndexingTime[4]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="HideIndexingTime[5]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="HideIndexingTime[6]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="HideIndexingTime[7]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="HideIndexingTime[8]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="HideIndexingTime[9]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="HideIndexingTime[10]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+              </DataPoint>
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="Jedk">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Package"/>
+          <Folder Name="Jedk-Function">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Package"/>
+            <Folder Name="Wheelie_Test">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Program"/>
+              <Folder Name="TestWheel">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="cmdStart">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="Count">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UDINT[0..9]"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER[]"/>
+                  <DataPoint Name="Count[0]">
+                    <Property Name="ConnectedBySharedResource" Value="False"/>
+                    <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                    <Property Name="Description" Value=""/>
+                    <Property Name="PLCType" Value="UDINT"/>
+                    <Property Name="UpdateTime" Value="Default"/>
+                    <Property Name="UserID" Value="None"/>
+                    <Property Name="VCType" Value="INTEGER"/>
+                  </DataPoint>
+                  <DataPoint Name="Count[1]">
+                    <Property Name="ConnectedBySharedResource" Value="False"/>
+                    <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                    <Property Name="Description" Value=""/>
+                    <Property Name="PLCType" Value="UDINT"/>
+                    <Property Name="UpdateTime" Value="Default"/>
+                    <Property Name="UserID" Value="None"/>
+                    <Property Name="VCType" Value="INTEGER"/>
+                  </DataPoint>
+                  <DataPoint Name="Count[2]">
+                    <Property Name="ConnectedBySharedResource" Value="False"/>
+                    <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                    <Property Name="Description" Value=""/>
+                    <Property Name="PLCType" Value="UDINT"/>
+                    <Property Name="UpdateTime" Value="Default"/>
+                    <Property Name="UserID" Value="None"/>
+                    <Property Name="VCType" Value="INTEGER"/>
+                  </DataPoint>
+                  <DataPoint Name="Count[3]">
+                    <Property Name="ConnectedBySharedResource" Value="False"/>
+                    <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                    <Property Name="Description" Value=""/>
+                    <Property Name="PLCType" Value="UDINT"/>
+                    <Property Name="UpdateTime" Value="Default"/>
+                    <Property Name="UserID" Value="None"/>
+                    <Property Name="VCType" Value="INTEGER"/>
+                  </DataPoint>
+                  <DataPoint Name="Count[4]">
+                    <Property Name="ConnectedBySharedResource" Value="False"/>
+                    <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                    <Property Name="Description" Value=""/>
+                    <Property Name="PLCType" Value="UDINT"/>
+                    <Property Name="UpdateTime" Value="Default"/>
+                    <Property Name="UserID" Value="None"/>
+                    <Property Name="VCType" Value="INTEGER"/>
+                  </DataPoint>
+                  <DataPoint Name="Count[5]">
+                    <Property Name="ConnectedBySharedResource" Value="False"/>
+                    <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                    <Property Name="Description" Value=""/>
+                    <Property Name="PLCType" Value="UDINT"/>
+                    <Property Name="UpdateTime" Value="Default"/>
+                    <Property Name="UserID" Value="None"/>
+                    <Property Name="VCType" Value="INTEGER"/>
+                  </DataPoint>
+                  <DataPoint Name="Count[6]">
+                    <Property Name="ConnectedBySharedResource" Value="False"/>
+                    <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                    <Property Name="Description" Value=""/>
+                    <Property Name="PLCType" Value="UDINT"/>
+                    <Property Name="UpdateTime" Value="Default"/>
+                    <Property Name="UserID" Value="None"/>
+                    <Property Name="VCType" Value="INTEGER"/>
+                  </DataPoint>
+                  <DataPoint Name="Count[7]">
+                    <Property Name="ConnectedBySharedResource" Value="False"/>
+                    <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                    <Property Name="Description" Value=""/>
+                    <Property Name="PLCType" Value="UDINT"/>
+                    <Property Name="UpdateTime" Value="Default"/>
+                    <Property Name="UserID" Value="None"/>
+                    <Property Name="VCType" Value="INTEGER"/>
+                  </DataPoint>
+                  <DataPoint Name="Count[8]">
+                    <Property Name="ConnectedBySharedResource" Value="False"/>
+                    <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                    <Property Name="Description" Value=""/>
+                    <Property Name="PLCType" Value="UDINT"/>
+                    <Property Name="UpdateTime" Value="Default"/>
+                    <Property Name="UserID" Value="None"/>
+                    <Property Name="VCType" Value="INTEGER"/>
+                  </DataPoint>
+                  <DataPoint Name="Count[9]">
+                    <Property Name="ConnectedBySharedResource" Value="False"/>
+                    <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                    <Property Name="Description" Value=""/>
+                    <Property Name="PLCType" Value="UDINT"/>
+                    <Property Name="UpdateTime" Value="Default"/>
+                    <Property Name="UserID" Value="None"/>
+                    <Property Name="VCType" Value="INTEGER"/>
+                  </DataPoint>
+                </DataPoint>
+              </Folder>
+            </Folder>
+            <DataPoint Name="g_HangerSetupOkStart">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="HMI\Master"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="UINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="INTEGER"/>
+            </DataPoint>
+            <Folder Name="HMISources">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Package"/>
+              <DataPoint Name="g_HMIStackCountStr">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="STRING[0..10]"/>
+                <Property Name="StringLength" Value="3"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="STRING[]"/>
+                <DataPoint Name="g_HMIStackCountStr[1]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="3"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIStackCountStr[2]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="3"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIStackCountStr[3]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="3"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIStackCountStr[4]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="3"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIStackCountStr[5]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="3"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIStackCountStr[6]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="3"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIStackCountStr[7]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="3"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIStackCountStr[8]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="3"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIStackCountStr[9]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="3"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIStackCountStr[10]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="3"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+              </DataPoint>
+              <DataPoint Name="g_HMITopSensorAlarmStNo">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="UINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="INTEGER"/>
+              </DataPoint>
+              <DataPoint Name="g_HMIMakeIndexHide">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="UINT[0..10]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="INTEGER[]"/>
+                <DataPoint Name="g_HMIMakeIndexHide[1]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndexHide[10]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndexHide[0]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndexHide[2]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndexHide[3]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndexHide[4]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndexHide[5]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndexHide[6]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndexHide[7]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndexHide[8]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndexHide[9]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+              </DataPoint>
+              <DataPoint Name="g_HMIMakeIndex">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="UINT[0..10]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="INTEGER[]"/>
+                <DataPoint Name="g_HMIMakeIndex[0]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndex[1]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndex[2]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndex[3]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndex[4]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndex[5]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndex[6]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndex[7]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndex[8]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndex[9]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="g_HMIMakeIndex[10]">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+              </DataPoint>
+              <DataPoint Name="g_HMIOutletPressingCountDownStr">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="STRING"/>
+                <Property Name="StringLength" Value="3"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="STRING"/>
+              </DataPoint>
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="Fox_Logic">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Package"/>
+          <Folder Name="outlet">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Program"/>
+            <DataPoint Name="WaitingPhotocellNo">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="HMI\Master"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="UINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="INTEGER"/>
+            </DataPoint>
+          </Folder>
+          <Folder Name="delivery">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Program"/>
+            <DataPoint Name="HMIHideDelivBelt">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="HMI\Master"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="UINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="INTEGER"/>
+            </DataPoint>
+            <DataPoint Name="HMIRunDeliv">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="HMI\Master"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="USINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="INTEGER"/>
+            </DataPoint>
+          </Folder>
+        </Folder>
+        <Folder Name="g_sim">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="Test">
+            <Property Name="ConnectedBySharedResource" Value="False"/>
+            <Property Name="ConnectingVisus" Value="HMI\Master"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCType" Value="BOOL"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+            <Property Name="VCType" Value="BOOL"/>
+          </DataPoint>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="Core">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Package"/>
+      <Folder Name="Services">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Package"/>
+        <Folder Name="GlobalCoreVars">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Package"/>
+          <Folder Name="g_Core">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <Folder Name="System">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <Folder Name="Runtime">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="isRunning">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+              </Folder>
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="HMI">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Package"/>
+          <Folder Name="HMIHandler">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Program"/>
+            <Folder Name="MasterPanelHandler">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="FunctionBlock"/>
+              <Folder Name="Key">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="KeyPressed">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="USINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+              </Folder>
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="Alarms">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Package"/>
+          <Folder Name="HistoryAlarm">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Program"/>
+            <Folder Name="HMI">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="alarmText">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="STRING[0..10]"/>
+                <Property Name="StringLength" Value="80"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="STRING[]"/>
+              </DataPoint>
+              <DataPoint Name="events">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="STRING[0..10]"/>
+                <Property Name="StringLength" Value="10"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="STRING[]"/>
+              </DataPoint>
+              <DataPoint Name="durationTime">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="STRING[0..10]"/>
+                <Property Name="StringLength" Value="10"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="STRING[]"/>
+              </DataPoint>
+              <DataPoint Name="totalTime">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="STRING"/>
+                <Property Name="StringLength" Value="10"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="STRING"/>
+              </DataPoint>
+            </Folder>
+            <DataPoint Name="sortMode">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="HMI\Master"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="USINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="INTEGER"/>
+            </DataPoint>
+          </Folder>
+        </Folder>
+        <Folder Name="Safety">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Package"/>
+          <Folder Name="Safety">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Program"/>
+            <Folder Name="brdk_safety_application_0">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="FunctionBlock"/>
+              <Folder Name="cmd">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="reset">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="download">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="acknowledge">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="cancelDownload">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+              </Folder>
+              <Folder Name="status">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="applicationCRC">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UDINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="status">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="100"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+              </Folder>
+            </Folder>
+            <Folder Name="brdk_safety_data_0">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="FunctionBlock"/>
+              <Folder Name="cmd">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="reset">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+              </Folder>
+              <Folder Name="status">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="status">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="100"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+              </Folder>
+            </Folder>
+            <Folder Name="brdk_safety_remote_control_0">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="FunctionBlock"/>
+              <Folder Name="cmd">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="moduleExchange1">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="moduleExchange2">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="moduleExchange3">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="moduleExchange4">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="moduleExchangeN">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="monitorStatus">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="readStatus">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="firmwareAcknowledge">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="safeKeyExchange">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="clearData">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="safeKeyFormat">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="reset">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="setPassword">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+              </Folder>
+              <Folder Name="status">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="safeOSState">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="100"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="modulesState">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="100"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="systemState">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="100"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="operationMode">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="100"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+                <DataPoint Name="status">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="STRING"/>
+                  <Property Name="StringLength" Value="100"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="STRING"/>
+                </DataPoint>
+              </Folder>
+            </Folder>
+            <Folder Name="hmi">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="safeKEYnewPassword">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="STRING"/>
+                <Property Name="StringLength" Value="16"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="STRING"/>
+              </DataPoint>
+              <DataPoint Name="safeKEYpassword">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="STRING"/>
+                <Property Name="StringLength" Value="16"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="STRING"/>
+              </DataPoint>
+              <Folder Name="remoteControl">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="reset_SDP">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="monitorStatus_SDP">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="readStatus_SDP">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="firmwareAcknowledge_SDP">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="safeKeyExchange_SDP">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="clearData_SDP">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="safeKeyFormat_SDP">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+              </Folder>
+              <Folder Name="application">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="reset_SDP">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+                <DataPoint Name="acknowledge_SDP">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="UINT"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="INTEGER"/>
+                </DataPoint>
+              </Folder>
+              <Folder Name="data">
+                <Property Name="Description" Value=""/>
+                <Property Name="FolderType" Value="Struct"/>
+                <DataPoint Name="read">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+                <DataPoint Name="change">
+                  <Property Name="ConnectedBySharedResource" Value="False"/>
+                  <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                  <Property Name="Description" Value=""/>
+                  <Property Name="PLCType" Value="BOOL"/>
+                  <Property Name="UpdateTime" Value="Default"/>
+                  <Property Name="UserID" Value="None"/>
+                  <Property Name="VCType" Value="BOOL"/>
+                </DataPoint>
+              </Folder>
+            </Folder>
+            <Folder Name="autoLoad">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="infoText">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="STRING"/>
+                <Property Name="StringLength" Value="100"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="STRING"/>
+              </DataPoint>
+              <DataPoint Name="cmdRead">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="BOOL"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="BOOL"/>
+              </DataPoint>
+              <DataPoint Name="cmdLoad">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="BOOL"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="BOOL"/>
+              </DataPoint>
+              <DataPoint Name="cmdReset">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="BOOL"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="BOOL"/>
+              </DataPoint>
+              <DataPoint Name="cmdReadStatus">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="INTEGER"/>
+              </DataPoint>
+              <DataPoint Name="cmdLoadStatus">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="INTEGER"/>
+              </DataPoint>
+              <DataPoint Name="cmdResetStatus">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="INTEGER"/>
+              </DataPoint>
+              <DataPoint Name="filename">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="STRING"/>
+                <Property Name="StringLength" Value="80"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="STRING"/>
+              </DataPoint>
+              <DataPoint Name="statLedColor">
+                <Property Name="ConnectedBySharedResource" Value="False"/>
+                <Property Name="ConnectingVisus" Value="HMI\Master"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+                <Property Name="VCType" Value="INTEGER"/>
+              </DataPoint>
+            </Folder>
+          </Folder>
+        </Folder>
+      </Folder>
+    </Folder>
+  </DataPoints>
+</DataSource>

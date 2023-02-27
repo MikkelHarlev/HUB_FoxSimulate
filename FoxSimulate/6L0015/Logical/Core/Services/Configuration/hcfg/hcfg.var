@@ -1,0 +1,64 @@
+VAR
+	TON_VisiEnable : TON := (0);
+	RVariableEdited : BOOL := FALSE;
+	RDontNotify : BOOL := FALSE;
+END_VAR
+VAR CONSTANT
+	HWCFG_PARSCROLL_INIT : USINT := 6;
+	HWCFG_LOAD : USINT := 4;
+	HWCFG_ERROR : USINT := 3;
+	HWCFG_SAVE_WAIT : USINT := 8;
+	HWCFG_SAVE : USINT := 7;
+	HWCFG_LOAD_WAIT : USINT := 5;
+	HWCFG_CLEAR_ERROR_STRINGS : USINT := 2;
+	HWCFG_CHECK_FOR_COMMAND : USINT := 1;
+	NAME_CFGPARDEVICE : STRING[20] := 'cfgpar';
+	NAME_CFGFILE : STRING[20] := 'hcfg.csv';
+END_VAR
+VAR
+	TimeCounterUp : UDINT;
+	RTInfo_0 : RTInfo;
+	TaskCycleTime : UDINT;
+	RInitDone : BOOL;
+	LastLanguage : UINT;
+	SYSInfo_0 : SysInfo;
+	TriggScrollUp : R_TRIG;
+	TimePermanentScroll : UDINT;
+	NewStatusString : USINT;
+	NewStatusString_Time : UDINT;
+	TriggScrollDown : R_TRIG;
+	TimeCounterDown : UDINT;
+	CycleScroll : USINT;
+	CycleCount : USINT;
+	HwCfgLoad_0 : RcpLoad;
+	sHwCfg : USINT;
+	HwParScroCyclic_0 : ParScroCyclic;
+	HwParScroInit_0 : ParScroInit;
+	HwCfgSave_0 : RcpSave;
+	HwCfgInit_0 : RcpInit;
+	HCfg : Cfg_Type;
+	RcpPointRefState : UINT;
+	CfgInit_0 : Cfg_Type;
+	RcpPointInit_2 : RcpPointInit;
+END_VAR
+VAR CONSTANT
+	NAME_CFG_DEVICE : STRING[21] := 'hcfg';
+END_VAR
+VAR
+	NameStructure : STRING[80];
+	PageOptionEdit : UINT;
+	p_Options : UDINT;
+	BlockSaveHardware : BOOL;
+	SaveBlock : BOOL;
+	HCfgTimerVisibility : ARRAY[0..999] OF USINT;
+	HCfgParScrollSelectedItem : UINT := 0;
+	HCfgParScrollSelectedVariable : STRING[60] := '';
+END_VAR
+VAR CONSTANT
+	HWCFG_UPDATE_PAR : USINT := 20;
+	HWCFG_UPDATE_PAR_FINDPOS : USINT := 21;
+END_VAR
+VAR
+	TimerDescription : TimerDescription_Type;
+	Cnt : USINT := 0;
+END_VAR

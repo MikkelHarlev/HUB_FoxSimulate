@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="CogWheel">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="27"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="12025" Value="Source[local].Bitmap[C_32x32_CogWheel1]"/>
+    <BitmapRef ID="12026" Value="Source[local].Bitmap[C_32x32_CogWheel2]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="12025" Value="0"/>
+    <Index ID="12026" Value="1"/>
+  </IndexMap>
+</BitmapGroup>

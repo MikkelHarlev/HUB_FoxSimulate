@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TopConveyor">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.App.Application.g_TopConveyorProcess.Common.AlarmList.Ack]"/>
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.App.Application.g_TopConveyorProcess.Common.AlarmList.Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="Source[global].Variable[Master.App.Application.g_TopConveyorProcess.Common.AlarmList.Bypassed]"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="7"/>
+  <Property Name="LatchedBackColor" Value="47"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="2"/>
+  <Property Name="QuitBackColor" Value="11"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value="Hanger out stopped"/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="8">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="9">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="10">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="11">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="3195" Value="Starup error Turn around conveyor"/>
+      <Text ID="3267" Value="Overtime turn around"/>
+      <Text ID="7442" Value="Hanger out stopped"/>
+      <Text ID="9673" Value="Remove garment in turn around"/>
+      <Text ID="12518" Value="Oversize length.Photocell check,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value="Photocell Turnaround covered"/>
+      <Text ID="13031" Value="Photocell Turnaround covered at start"/>
+      <Text ID="13211" Value="Remove garment at XA"/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="3195" Value="Start fehler am umkehrconv."/>
+      <Text ID="3267" Value="Zeitueberschreitung umlenkung"/>
+      <Text ID="7442" Value="Buegel raus gestoppt"/>
+      <Text ID="9673" Value="Entferne die Waesche an der umkehrung"/>
+      <Text ID="12518" Value="Übergrösse.Fotozellenprüfung, IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value="Photocell Turnaround covered"/>
+      <Text ID="13031" Value="Photocell Turnaround covered at start"/>
+      <Text ID="13211" Value="Remove garment at XA"/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="3195" Value="Fel vid uppstart kullerbytan"/>
+      <Text ID="3267" Value="Övertid kullerbyttan"/>
+      <Text ID="7442" Value="Galgutmatning stoppad"/>
+      <Text ID="9673" Value="Ta bort plag från kullerbyttan"/>
+      <Text ID="12518" Value="Överstorlek.Fotocellskontroll,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value="Photocell Turnaround covered"/>
+      <Text ID="13031" Value="Photocell Turnaround covered at start"/>
+      <Text ID="13211" Value="Remove garment at XA"/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="3195" Value="Erreur démarrage convoyeur de retour"/>
+      <Text ID="3267" Value="Dépassement de temps de retour"/>
+      <Text ID="7442" Value="Sortie cintre arrêtée"/>
+      <Text ID="9673" Value="Retirer le vêtement dans le retour"/>
+      <Text ID="12518" Value="Trop long.cellule photoélectrique,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value="Photocell Turnaround covered"/>
+      <Text ID="13031" Value="Photocell Turnaround covered at start"/>
+      <Text ID="13211" Value="Remove garment at XA"/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="3195" Value="Opstartsfejl vendeconveyor"/>
+      <Text ID="3267" Value="Ikke tøj ved fotocelle vendeconveyor"/>
+      <Text ID="7442" Value="Böjle udlöb stoppet"/>
+      <Text ID="9673" Value="Fjern töj ved vendeconveyor"/>
+      <Text ID="12518" Value="Tøj for langt.Kontroler Fotocelle,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout imellem vendeconveyor og XA"/>
+      <Text ID="13030" Value="Fotocelle aktiv vendeconveyor"/>
+      <Text ID="13031" Value="Fotocelle aktiv vendeconveyor ved start"/>
+      <Text ID="13211" Value="Fjern tøj ved XA"/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="3195" Value="Errore start nastro inversione"/>
+      <Text ID="3267" Value="Superato tempo inversione"/>
+      <Text ID="7442" Value="Gruccia ferma in uscita"/>
+      <Text ID="9673" Value="Rimuovi abito in inversione"/>
+      <Text ID="12518" Value="Sovramisura.Controllo fotocellula,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value="Photocell Turnaround covered"/>
+      <Text ID="13031" Value="Photocell Turnaround covered at start"/>
+      <Text ID="13211" Value="Remove garment at XA"/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="3195" Value="Starup error Turn around conveyor"/>
+      <Text ID="3267" Value="Overtime turn around"/>
+      <Text ID="7442" Value="Hanger out stopped"/>
+      <Text ID="9673" Value="Remove garment in turn around"/>
+      <Text ID="12518" Value="Ylisuuri. Valokennon tarkistus,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value="Photocell Turnaround covered"/>
+      <Text ID="13031" Value="Photocell Turnaround covered at start"/>
+      <Text ID="13211" Value="Remove garment at XA"/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="3195" Value="Opstartfout omkeer transportband"/>
+      <Text ID="3267" Value="Overtijd omkeer"/>
+      <Text ID="7442" Value="Hangeruitvoer gestopt"/>
+      <Text ID="9673" Value="Kledingstuk in omkeer verwijderen"/>
+      <Text ID="12518" Value="Te groot.Fotocelcontrole,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value="Photocell Turnaround covered"/>
+      <Text ID="13031" Value="Photocell Turnaround covered at start"/>
+      <Text ID="13211" Value="Remove garment at XA"/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="3195" Value="Fallo arranque en cambio sentido"/>
+      <Text ID="3267" Value="Vencido tiempo en cambio sentido"/>
+      <Text ID="7442" Value="Salida de perchas parada"/>
+      <Text ID="9673" Value="Prendas retiradas en cambio sentido"/>
+      <Text ID="12518" Value="Tamaño excesivo.Comprobar célula fotoeléctrica,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value="Photocell Turnaround covered"/>
+      <Text ID="13031" Value="Photocell Turnaround covered at start"/>
+      <Text ID="13211" Value="Remove garment at XA"/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="3195" Value="Starup error Turn around conveyor"/>
+      <Text ID="3267" Value="Overtime turn around"/>
+      <Text ID="7442" Value="Hanger out stopped"/>
+      <Text ID="9673" Value="Remove garment in turn around"/>
+      <Text ID="12518" Value="Poza rozmiarem.Kontrola fotokomórki,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value="Photocell Turnaround covered"/>
+      <Text ID="13031" Value="Photocell Turnaround covered at start"/>
+      <Text ID="13211" Value="Remove garment at XA"/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="3195" Value=""/>
+      <Text ID="3267" Value=""/>
+      <Text ID="7442" Value=""/>
+      <Text ID="9673" Value=""/>
+      <Text ID="12518" Value=""/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value=""/>
+      <Text ID="13030" Value=""/>
+      <Text ID="13031" Value=""/>
+      <Text ID="13211" Value=""/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="3195" Value=""/>
+      <Text ID="3267" Value=""/>
+      <Text ID="7442" Value=""/>
+      <Text ID="9673" Value=""/>
+      <Text ID="12518" Value=""/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value=""/>
+      <Text ID="13030" Value=""/>
+      <Text ID="13031" Value=""/>
+      <Text ID="13211" Value=""/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="3195" Value="輸送機轉向啟動錯誤"/>
+      <Text ID="3267" Value="轉向逾時"/>
+      <Text ID="7442" Value="吊架出來停止"/>
+      <Text ID="9673" Value="在轉向中移除衣物"/>
+      <Text ID="12518" Value="長度尺寸過大 .光電管檢查,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value=""/>
+      <Text ID="13031" Value=""/>
+      <Text ID="13211" Value=""/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="3195" Value="Starup error Turn around conveyor"/>
+      <Text ID="3267" Value="Overtime turn around"/>
+      <Text ID="7442" Value="Hanger out stopped"/>
+      <Text ID="9673" Value="Remove garment in turn around"/>
+      <Text ID="12518" Value="Nadmerna velikost.Kontrola fotobunky,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value=""/>
+      <Text ID="13031" Value=""/>
+      <Text ID="13211" Value=""/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="3195" Value="Starup error Turn around conveyor"/>
+      <Text ID="3267" Value="Overtime turn around"/>
+      <Text ID="7442" Value="Hanger out stopped"/>
+      <Text ID="9673" Value="Remove garment in turn around"/>
+      <Text ID="12518" Value="Oversize length.Photocell check,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value=""/>
+      <Text ID="13031" Value=""/>
+      <Text ID="13211" Value=""/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="3195" Value="Oppstartsfeil vendekonveyor"/>
+      <Text ID="3267" Value="Ikke tøy ved fotocelle"/>
+      <Text ID="7442" Value="Henger utløp stoppet"/>
+      <Text ID="9673" Value="Fjern tøy I vendeseksjon"/>
+      <Text ID="12518" Value="Oversize length.Photocell check,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value="Photocell Turnaround covered"/>
+      <Text ID="13031" Value="Photocell Turnaround covered at start"/>
+      <Text ID="13211" Value="Remove garment at XA"/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="3195" Value="Erro de arranque na esteira de inversão"/>
+      <Text ID="3267" Value="Tempo limite de inversão excedido"/>
+      <Text ID="7442" Value="Cabide de saída parado"/>
+      <Text ID="9673" Value="Remover peça de roupa da esteira de inversão"/>
+      <Text ID="12518" Value="Excesso Tamanho.Verificar fotocélula,IBVertical,IBHorizontal"/>
+      <Text ID="12838" Value=""/>
+      <Text ID="12839" Value="Timeout IBXA Turn Around"/>
+      <Text ID="13030" Value=""/>
+      <Text ID="13031" Value=""/>
+      <Text ID="13211" Value=""/>
+      <Text ID="12687" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="3195" Value="3"/>
+      <Index ID="3267" Value="2"/>
+      <Index ID="7442" Value="5"/>
+      <Index ID="9673" Value="4"/>
+      <Index ID="12518" Value="7"/>
+      <Index ID="12838" Value="0"/>
+      <Index ID="12839" Value="8"/>
+      <Index ID="13030" Value="9"/>
+      <Index ID="13031" Value="10"/>
+      <Index ID="13211" Value="11"/>
+      <Index ID="12687" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

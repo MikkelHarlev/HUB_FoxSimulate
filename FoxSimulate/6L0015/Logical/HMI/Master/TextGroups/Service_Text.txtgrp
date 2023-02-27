@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Service_Text">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="5"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002001" Name="ErrNbCopy">
+      <Property Name="Datapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1008" Value="IO Description:"/>
+    <Text ID="1045" Value="Number of Elements in selected Level"/>
+    <Text ID="1047" Value="Number total:"/>
+    <Text ID="1048" Value="Number actual:"/>
+    <Text ID="3106" Value="Error Number:"/>
+    <Text ID="3107" Value="Error Info:"/>
+    <Text ID="3108" Value="Error Text:"/>
+    <Text ID="3109" Value="Date:"/>
+    <Text ID="3110" Value="Time:"/>
+    <Text ID="5624" Value="State:"/>
+    <Text ID="5625" Value="Value:"/>
+    <Text ID="11121" Value="Details:"/>
+    <Text ID="12266" Value="Warning: Existing files on the destination will be overwritten!"/>
+    <Text ID="12269" Value="Wait for Backup command"/>
+    <Text ID="12270" Value="Backup in progress ..."/>
+    <Text ID="12271" Value="Error {ErrNbCopy} during Backup"/>
+    <Text ID="12272" Value="Wait for Restore command"/>
+    <Text ID="12273" Value="Wait"/>
+    <Text ID="12274" Value="Restore in progress ..."/>
+    <Text ID="12275" Value="Error {ErrNbCopy} during Restore"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="This Machine only works with a JENSEN Panel"/>
+    <Text ID="368578" Value="Halt PLC"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="1008" Value="Ein-/Ausgang Beschreibung"/>
+    <Text ID="1045" Value="Anzahl der Elemente in der ausgewählten Ebene "/>
+    <Text ID="1047" Value="Anzahl gesamt"/>
+    <Text ID="1048" Value="Aktuelle Anzahl: "/>
+    <Text ID="3106" Value="Fehler Nummer"/>
+    <Text ID="3107" Value="Fehler Info:"/>
+    <Text ID="3108" Value="Fehlertext: "/>
+    <Text ID="3109" Value="Datum"/>
+    <Text ID="3110" Value="Zeit"/>
+    <Text ID="5624" Value="Status"/>
+    <Text ID="5625" Value="Wert"/>
+    <Text ID="11121" Value="Einzelheiten"/>
+    <Text ID="12266" Value="Achtung: Existierende Dateien am Ziel werden überschrieben!"/>
+    <Text ID="12269" Value="Warten für Backup-Befehl"/>
+    <Text ID="12270" Value="Backup wird ausgeführt..."/>
+    <Text ID="12271" Value="Fehler {ErrNbCopy} während Backup"/>
+    <Text ID="12272" Value="Warten auf Restore Befehl"/>
+    <Text ID="12273" Value="Warten"/>
+    <Text ID="12274" Value="Wiederherstellen in Bearbeitung ..."/>
+    <Text ID="12275" Value="Fehler {ErrNbCopy} während Restore"/>
+    <Text ID="12845" Value="Status"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Diese Maschine arbeitet nur mit einem JENSEN-Panel"/>
+    <Text ID="368578" Value="Stop PLC"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="1008" Value="Io beskrivning:"/>
+    <Text ID="1045" Value="Antal element i vald nivå"/>
+    <Text ID="1047" Value="Totalt nummer:"/>
+    <Text ID="1048" Value="Aktuellt nummer:"/>
+    <Text ID="3106" Value="Felnummer"/>
+    <Text ID="3107" Value="Felinfo"/>
+    <Text ID="3108" Value="Feltext"/>
+    <Text ID="3109" Value="Datum och tid"/>
+    <Text ID="3110" Value="Tid"/>
+    <Text ID="5624" Value="Status"/>
+    <Text ID="5625" Value="Värde"/>
+    <Text ID="11121" Value="Detaljer"/>
+    <Text ID="12266" Value="Varning: existerande fil på destinationen kommer skrivas över!"/>
+    <Text ID="12269" Value="Vänta på backupkommando"/>
+    <Text ID="12270" Value="Backup pågår"/>
+    <Text ID="12271" Value="Fel {ErrNbCopy} under backup"/>
+    <Text ID="12272" Value="Väntar på återställningskommando"/>
+    <Text ID="12273" Value="Vänta"/>
+    <Text ID="12274" Value="Årerställning pågår..."/>
+    <Text ID="12275" Value="Fel {ErrNbCopy} under återställning"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Denna maskin kan endast fungera med en jensen panel"/>
+    <Text ID="368578" Value="Stopp plc"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="1008" Value="Description E/S"/>
+    <Text ID="1045" Value="Nombre d elements a ce niveau"/>
+    <Text ID="1047" Value="Nombre total:"/>
+    <Text ID="1048" Value="Nombre actuel"/>
+    <Text ID="3106" Value="Erreur numero:"/>
+    <Text ID="3107" Value="Erreur info"/>
+    <Text ID="3108" Value="Erreur texte"/>
+    <Text ID="3109" Value="Date &amp; heure"/>
+    <Text ID="3110" Value="Heure:"/>
+    <Text ID="5624" Value="Etat:"/>
+    <Text ID="5625" Value="Valeur:"/>
+    <Text ID="11121" Value="Détails"/>
+    <Text ID="12266" Value="ATTENTION: reecriture sur fichier existant!"/>
+    <Text ID="12269" Value="Attente pour enregistrement"/>
+    <Text ID="12270" Value="Enregistrement en cours"/>
+    <Text ID="12271" Value="Erreur {ErrNbCopy} durant enregistrement"/>
+    <Text ID="12272" Value="Attente pour restauration"/>
+    <Text ID="12273" Value="Attente"/>
+    <Text ID="12274" Value="Restauration en cours"/>
+    <Text ID="12275" Value="Erreur {ErrNbCopy} durant la restauration"/>
+    <Text ID="12845" Value="Statut"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Cette machine fonctionne seulement avec 1 panneau Jensen"/>
+    <Text ID="368578" Value="Stop PLC"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="1008" Value="IO Beskrivelse"/>
+    <Text ID="1045" Value="Antal elementer i valgte niveau"/>
+    <Text ID="1047" Value="Antal Total:"/>
+    <Text ID="1048" Value="Aktuelt antal:"/>
+    <Text ID="3106" Value="Fejl Nummer:"/>
+    <Text ID="3107" Value="Fejl Info"/>
+    <Text ID="3108" Value="Fejl Tekst:"/>
+    <Text ID="3109" Value="Dato:"/>
+    <Text ID="3110" Value="Tid:"/>
+    <Text ID="5624" Value="Status:"/>
+    <Text ID="5625" Value="Værdi:"/>
+    <Text ID="11121" Value="Detaljer"/>
+    <Text ID="12266" Value="Advarsel: Eksisterende filer på destinationen vil blive overskrevet!"/>
+    <Text ID="12269" Value="Vent på backup kommando"/>
+    <Text ID="12270" Value="Backup igang..."/>
+    <Text ID="12271" Value="Fejl {ErrNbCopy} under Backup"/>
+    <Text ID="12272" Value="Vent på gendan kommando"/>
+    <Text ID="12273" Value="Vent"/>
+    <Text ID="12274" Value="Gendannelse i gang"/>
+    <Text ID="12275" Value="Fejl {ErrNbCopy} under Gendannelse"/>
+    <Text ID="12845" Value="Status"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Denne maskine virker kun med et JENSEN panel"/>
+    <Text ID="368578" Value="Stop PLC"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="1008" Value="IO descrizione"/>
+    <Text ID="1045" Value="Numero elementi Nel Livello Selezionato"/>
+    <Text ID="1047" Value="Numero totale"/>
+    <Text ID="1048" Value="Numero reale"/>
+    <Text ID="3106" Value="Errore numero"/>
+    <Text ID="3107" Value="Errore informazione"/>
+    <Text ID="3108" Value="Errore testo"/>
+    <Text ID="3109" Value="Data:"/>
+    <Text ID="3110" Value="Ora:"/>
+    <Text ID="5624" Value="Stato:"/>
+    <Text ID="5625" Value="Valore:"/>
+    <Text ID="11121" Value="Dettagli:"/>
+    <Text ID="12266" Value="Attenzione: I file esistenti verranno sovrascritti"/>
+    <Text ID="12269" Value="Attesa comando Backup"/>
+    <Text ID="12270" Value="BackUp in corso"/>
+    <Text ID="12271" Value="Errore {ErrNbCopy} durante BackUp"/>
+    <Text ID="12272" Value="Attesa Comando Ripristino"/>
+    <Text ID="12273" Value="Attendere"/>
+    <Text ID="12274" Value="Ripristino dati in progresso. . "/>
+    <Text ID="12275" Value="Errore {ErrNbCopy} durante Restore"/>
+    <Text ID="12845" Value="Stato"/>
+    <Text ID="98704" Value="mm."/>
+    <Text ID="100760" Value="Questa macchina lavora solo con un pannello Jensen"/>
+    <Text ID="368578" Value="Stop PLC"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="1008" Value="IO kuvaus"/>
+    <Text ID="1045" Value="Elementtien lukumäärä valitulla tasolla"/>
+    <Text ID="1047" Value="Kokonaismäärä:"/>
+    <Text ID="1048" Value="Lukumäärä nyt:"/>
+    <Text ID="3106" Value="Virhe numero:"/>
+    <Text ID="3107" Value="Virhe tiedot:"/>
+    <Text ID="3108" Value="Virhe teksti:"/>
+    <Text ID="3109" Value="Päiväys:"/>
+    <Text ID="3110" Value="Aika:"/>
+    <Text ID="5624" Value="Tila:"/>
+    <Text ID="5625" Value="Arvo:"/>
+    <Text ID="11121" Value="Tiedot"/>
+    <Text ID="12266" Value="Varoitus: Kohteen vanhojen tiedostojen päälle ylikirjoitetaan!!"/>
+    <Text ID="12269" Value="Odota varmuuskopiointi käskyä"/>
+    <Text ID="12270" Value="Varmuuskopiointi käynnissä..."/>
+    <Text ID="12271" Value="Virhe {ErrNbCopy} varmuuskopioinnin aikana"/>
+    <Text ID="12272" Value="Odota palautus käskyä"/>
+    <Text ID="12273" Value="Odota"/>
+    <Text ID="12274" Value="Palautus käynnissä"/>
+    <Text ID="12275" Value="Virhe {ErrNbCopy} palautuksen aikana"/>
+    <Text ID="12845" Value="Tila:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Tämä kone toimii vain JENSEN paneelilla"/>
+    <Text ID="368578" Value="Pysäytä plc"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="1008" Value="IO Beschrijving:"/>
+    <Text ID="1045" Value="Aantal elementen in geselecteerd Level"/>
+    <Text ID="1047" Value="Totaal aantal:"/>
+    <Text ID="1048" Value="Nummer actueel:"/>
+    <Text ID="3106" Value="Fout Nummer:"/>
+    <Text ID="3107" Value="Fout Info:"/>
+    <Text ID="3108" Value="Fout Tekst:"/>
+    <Text ID="3109" Value="Datum:"/>
+    <Text ID="3110" Value="Tijd:"/>
+    <Text ID="5624" Value="Status:"/>
+    <Text ID="5625" Value="Waarde:"/>
+    <Text ID="11121" Value="Details"/>
+    <Text ID="12266" Value="Waarschuwing: Bestaande bestanden op de bestemming worden overschreven!"/>
+    <Text ID="12269" Value="Wacht op Backup Commando"/>
+    <Text ID="12270" Value="Opslaan bezig..."/>
+    <Text ID="12271" Value="Fout {ErrNbCopy} tijdens opslaan"/>
+    <Text ID="12272" Value="Wacht op herstel Commando"/>
+    <Text ID="12273" Value="Wacht"/>
+    <Text ID="12274" Value="Terugzetten in gang..."/>
+    <Text ID="12275" Value="Fout {ErrNbCopy} tijdens terugzetten"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Deze Machine functioneert alleen met een JENSEN Paneel"/>
+    <Text ID="368578" Value="Stop Plc"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="1008" Value="I/O Entrada/Salida Descripción"/>
+    <Text ID="1045" Value="Número de elementos en el nivel seleccionado"/>
+    <Text ID="1047" Value="Número total"/>
+    <Text ID="1048" Value="Número actual"/>
+    <Text ID="3106" Value="Número de error"/>
+    <Text ID="3107" Value="Información de error:"/>
+    <Text ID="3108" Value="Error de texto:"/>
+    <Text ID="3109" Value="Fecha:"/>
+    <Text ID="3110" Value="Tiempo:"/>
+    <Text ID="5624" Value="Estado"/>
+    <Text ID="5625" Value="Valor:"/>
+    <Text ID="11121" Value="Detalles"/>
+    <Text ID="12266" Value="Advertencia: archivos existentes en destino serán sobrescritos"/>
+    <Text ID="12269" Value="Esperar comando para copia de seguridad"/>
+    <Text ID="12270" Value="Copia de seguridad en progreso…"/>
+    <Text ID="12271" Value="Error {ErrNbCopy} durante la copia de seguridad"/>
+    <Text ID="12272" Value="Esperar comando de restauración"/>
+    <Text ID="12273" Value="Esperar"/>
+    <Text ID="12274" Value="Restauración en progreso"/>
+    <Text ID="12275" Value="Error {ErrNbCopy} durante la restauración"/>
+    <Text ID="12845" Value="Estado:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Esta máquina sólo funciona con un panel JENSEN"/>
+    <Text ID="368578" Value="Parada de plc"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="1008" Value="IO Opis:"/>
+    <Text ID="1045" Value="Liczba elementów w wybranym poziomie"/>
+    <Text ID="1047" Value="Całkowita ilość:"/>
+    <Text ID="1048" Value="Bieżący numer:"/>
+    <Text ID="3106" Value="Błąd Numeru:"/>
+    <Text ID="3107" Value="Błąd Info:"/>
+    <Text ID="3108" Value="Błąd Tekstowy:"/>
+    <Text ID="3109" Value="Dane:"/>
+    <Text ID="3110" Value="Czas:"/>
+    <Text ID="5624" Value="Stan:"/>
+    <Text ID="5625" Value="Wartość:"/>
+    <Text ID="11121" Value="Szczegóły"/>
+    <Text ID="12266" Value="Uwaga: istniejący plik zostanie zamieniony (nadpisany)"/>
+    <Text ID="12269" Value="Czekaj na komunikat ZAPIS"/>
+    <Text ID="12270" Value="Zapisywanie kopii zapasowej trwa….."/>
+    <Text ID="12271" Value="Błąd {ErrNbCopy} podczas Backup"/>
+    <Text ID="12272" Value="Czekaj na komunikat PRZYWRÓĆ"/>
+    <Text ID="12273" Value="Czekaj"/>
+    <Text ID="12274" Value="Porces przywracania w toku .."/>
+    <Text ID="12275" Value="Błąd {ErrNbCopy} podczas Restore"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Urządzenie pracuje wyłącznie z panelem JENSENA"/>
+    <Text ID="368578" Value="Stop Plc"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="1008" Value="Описание Входа/Выхода"/>
+    <Text ID="1045" Value="Количество Элементов на выбранном Уровне"/>
+    <Text ID="1047" Value="Общее Количество:"/>
+    <Text ID="1048" Value="Фактический номер:"/>
+    <Text ID="3106" Value="Номер Ошибки:"/>
+    <Text ID="3107" Value="Информация об Ошибке"/>
+    <Text ID="3108" Value="Текст Ошибки:"/>
+    <Text ID="3109" Value="Дата:"/>
+    <Text ID="3110" Value="Время:"/>
+    <Text ID="5624" Value="Состояние:"/>
+    <Text ID="5625" Value="Значение:"/>
+    <Text ID="11121" Value="Подробности"/>
+    <Text ID="12266" Value="Предупреждение: Существ. файлы будут перезаписаны!"/>
+    <Text ID="12269" Value="Ждать Команды Резервирования"/>
+    <Text ID="12270" Value="Резервирование в действии"/>
+    <Text ID="12271" Value="Ошибка {ErrNbCopy} во время дублирования"/>
+    <Text ID="12272" Value="Ждать Команды Восстановления"/>
+    <Text ID="12273" Value="Ждать"/>
+    <Text ID="12274" Value="Восстановление в Процессе…"/>
+    <Text ID="12275" Value="Ошибка {ErrNbCopy} при восстановлении"/>
+    <Text ID="12845" Value="Статус"/>
+    <Text ID="98704" Value="мм"/>
+    <Text ID="100760" Value="Машина работает только с панелью Jensen"/>
+    <Text ID="368578" Value="Остановка ПЛК"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="1008" Value="IO Description:"/>
+    <Text ID="1045" Value="Number of Elements in selected Level"/>
+    <Text ID="1047" Value="Number total:"/>
+    <Text ID="1048" Value="Number actual:"/>
+    <Text ID="3106" Value="Error Number:"/>
+    <Text ID="3107" Value="Error Info:"/>
+    <Text ID="3108" Value="Error Text:"/>
+    <Text ID="3109" Value="Date:"/>
+    <Text ID="3110" Value="Time:"/>
+    <Text ID="5624" Value="State:"/>
+    <Text ID="5625" Value="Value:"/>
+    <Text ID="11121" Value="Details:"/>
+    <Text ID="12266" Value="Warning: Existing files on the destination will be overwritten!"/>
+    <Text ID="12269" Value="Wait for Backup command"/>
+    <Text ID="12270" Value="Backup in progress ..."/>
+    <Text ID="12271" Value="Error {ErrNbCopy} during Backup"/>
+    <Text ID="12272" Value="Wait for Restore command"/>
+    <Text ID="12273" Value="Wait"/>
+    <Text ID="12274" Value="Restore in progress ..."/>
+    <Text ID="12275" Value="Error {ErrNbCopy} during Restore"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="This Machine only works with a JENSEN Panel"/>
+    <Text ID="368578" Value="Halt PLC"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1008" Value=""/>
+    <Text ID="1045" Value=""/>
+    <Text ID="1047" Value=""/>
+    <Text ID="1048" Value=""/>
+    <Text ID="3106" Value=""/>
+    <Text ID="3107" Value=""/>
+    <Text ID="3108" Value=""/>
+    <Text ID="3109" Value=""/>
+    <Text ID="3110" Value=""/>
+    <Text ID="5624" Value=""/>
+    <Text ID="5625" Value=""/>
+    <Text ID="11121" Value=""/>
+    <Text ID="12266" Value=""/>
+    <Text ID="12269" Value=""/>
+    <Text ID="12270" Value=""/>
+    <Text ID="12271" Value=""/>
+    <Text ID="12272" Value=""/>
+    <Text ID="12273" Value=""/>
+    <Text ID="12274" Value=""/>
+    <Text ID="12275" Value=""/>
+    <Text ID="12845" Value=""/>
+    <Text ID="98704" Value=""/>
+    <Text ID="100760" Value=""/>
+    <Text ID="368578" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="1008" Value=""/>
+    <Text ID="1045" Value=""/>
+    <Text ID="1047" Value=""/>
+    <Text ID="1048" Value=""/>
+    <Text ID="3106" Value=""/>
+    <Text ID="3107" Value=""/>
+    <Text ID="3108" Value=""/>
+    <Text ID="3109" Value=""/>
+    <Text ID="3110" Value=""/>
+    <Text ID="5624" Value=""/>
+    <Text ID="5625" Value=""/>
+    <Text ID="11121" Value=""/>
+    <Text ID="12266" Value=""/>
+    <Text ID="12269" Value=""/>
+    <Text ID="12270" Value=""/>
+    <Text ID="12271" Value=""/>
+    <Text ID="12272" Value=""/>
+    <Text ID="12273" Value=""/>
+    <Text ID="12274" Value=""/>
+    <Text ID="12275" Value=""/>
+    <Text ID="12845" Value=""/>
+    <Text ID="98704" Value=""/>
+    <Text ID="100760" Value=""/>
+    <Text ID="368578" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="1008" Value=""/>
+    <Text ID="1045" Value=""/>
+    <Text ID="1047" Value=""/>
+    <Text ID="1048" Value=""/>
+    <Text ID="3106" Value=""/>
+    <Text ID="3107" Value=""/>
+    <Text ID="3108" Value=""/>
+    <Text ID="3109" Value=""/>
+    <Text ID="3110" Value=""/>
+    <Text ID="5624" Value=""/>
+    <Text ID="5625" Value=""/>
+    <Text ID="11121" Value=""/>
+    <Text ID="12266" Value=""/>
+    <Text ID="12269" Value=""/>
+    <Text ID="12270" Value=""/>
+    <Text ID="12271" Value=""/>
+    <Text ID="12272" Value=""/>
+    <Text ID="12273" Value=""/>
+    <Text ID="12274" Value=""/>
+    <Text ID="12275" Value=""/>
+    <Text ID="12845" Value=""/>
+    <Text ID="98704" Value=""/>
+    <Text ID="100760" Value=""/>
+    <Text ID="368578" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="1008" Value="IO Description:"/>
+    <Text ID="1045" Value="Elementer vist i valgt nivå"/>
+    <Text ID="1047" Value="Totalt antall:"/>
+    <Text ID="1048" Value="Aktuellt antall:"/>
+    <Text ID="3106" Value="Feil Nummer:"/>
+    <Text ID="3107" Value="Feil Info:"/>
+    <Text ID="3108" Value="Feil tekst:"/>
+    <Text ID="3109" Value="Dato:"/>
+    <Text ID="3110" Value="Tid:"/>
+    <Text ID="5624" Value="Tilstand:"/>
+    <Text ID="5625" Value="Verdi:"/>
+    <Text ID="11121" Value="Detaljer:"/>
+    <Text ID="12266" Value="FARE:Filer på destinasjonen vil bli overskrevet"/>
+    <Text ID="12269" Value="Venter På Backup kommando"/>
+    <Text ID="12270" Value="Backup pågår...."/>
+    <Text ID="12271" Value="Feil {ErrNbCopy} Under backup"/>
+    <Text ID="12272" Value="Venter på Gjennoprettelses kommando"/>
+    <Text ID="12273" Value="Vent"/>
+    <Text ID="12274" Value="Gjennoppretting pågår"/>
+    <Text ID="12275" Value="Error {ErrNbCopy} during Restore"/>
+    <Text ID="12845" Value="Status:"/>
+    <Text ID="98704" Value="mm"/>
+    <Text ID="100760" Value="Maskinen virker kun med et JENSEN Panel"/>
+    <Text ID="368578" Value="Stans Plc"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="1008" Value=""/>
+    <Text ID="1045" Value=""/>
+    <Text ID="1047" Value=""/>
+    <Text ID="1048" Value=""/>
+    <Text ID="3106" Value=""/>
+    <Text ID="3107" Value=""/>
+    <Text ID="3108" Value=""/>
+    <Text ID="3109" Value=""/>
+    <Text ID="3110" Value=""/>
+    <Text ID="5624" Value=""/>
+    <Text ID="5625" Value=""/>
+    <Text ID="11121" Value=""/>
+    <Text ID="12266" Value=""/>
+    <Text ID="12269" Value=""/>
+    <Text ID="12270" Value=""/>
+    <Text ID="12271" Value=""/>
+    <Text ID="12272" Value=""/>
+    <Text ID="12273" Value=""/>
+    <Text ID="12274" Value=""/>
+    <Text ID="12275" Value=""/>
+    <Text ID="12845" Value=""/>
+    <Text ID="98704" Value=""/>
+    <Text ID="100760" Value=""/>
+    <Text ID="368578" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1008" Value="0"/>
+    <Index ID="1045" Value="10"/>
+    <Index ID="1047" Value="11"/>
+    <Index ID="1048" Value="12"/>
+    <Index ID="3106" Value="13"/>
+    <Index ID="3107" Value="14"/>
+    <Index ID="3108" Value="15"/>
+    <Index ID="3109" Value="16"/>
+    <Index ID="3110" Value="17"/>
+    <Index ID="5624" Value="21"/>
+    <Index ID="5625" Value="22"/>
+    <Index ID="11121" Value="23"/>
+    <Index ID="12266" Value="24"/>
+    <Index ID="12269" Value="26"/>
+    <Index ID="12270" Value="27"/>
+    <Index ID="12271" Value="28"/>
+    <Index ID="12272" Value="29"/>
+    <Index ID="12273" Value="25"/>
+    <Index ID="12274" Value="30"/>
+    <Index ID="12275" Value="31"/>
+    <Index ID="12845" Value="32"/>
+    <Index ID="98704" Value="33"/>
+    <Index ID="100760" Value="5"/>
+    <Index ID="368578" Value="34"/>
+  </IndexMap>
+</TextGroup>

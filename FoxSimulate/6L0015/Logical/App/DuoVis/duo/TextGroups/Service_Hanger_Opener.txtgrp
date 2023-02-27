@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Service_Hanger_Opener">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="37"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Product Type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forced Trouser"/>
+    <Text ID="375980" Value="Forced Shirt"/>
+    <Text ID="375981" Value="Trouser"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="375972" Value="Auto programm"/>
+    <Text ID="375973" Value="Produkt typ"/>
+    <Text ID="375974" Value="Erkennungs Typ "/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Zwangslauf Hosen"/>
+    <Text ID="375980" Value="Zwangslauf Shirts"/>
+    <Text ID="375981" Value="Hosen"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Zwangslauf Nachthemden"/>
+    <Text ID="450710" Value="Nachthemd"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Product Type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forced Trouser"/>
+    <Text ID="375980" Value="Forced Shirt"/>
+    <Text ID="375981" Value="Trouser"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="375972" Value="Programme auto"/>
+    <Text ID="375973" Value="Type de produit"/>
+    <Text ID="375974" Value="Type de détection"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Pantalon forcé"/>
+    <Text ID="375980" Value="Chemise forcée"/>
+    <Text ID="375981" Value="Pantalon"/>
+    <Text ID="375982" Value="Chemise"/>
+    <Text ID="450709" Value="Pyjama forcé"/>
+    <Text ID="450710" Value="Pyjama"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Produkt type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Registrer alt som bukse"/>
+    <Text ID="375980" Value="Forced Shirt"/>
+    <Text ID="375981" Value="Bukser"/>
+    <Text ID="375982" Value="Jakke"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="375972" Value="Auto programma"/>
+    <Text ID="375973" Value="Tipo Prodotto"/>
+    <Text ID="375974" Value="Tipo Rilevamento"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Pantaloni Forzati"/>
+    <Text ID="375980" Value="Magliette Forzate"/>
+    <Text ID="375981" Value="Pantaloni"/>
+    <Text ID="375982" Value="Magliette."/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Product Type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forced Trouser"/>
+    <Text ID="375980" Value="Forced Shirt"/>
+    <Text ID="375981" Value="Trouser"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="375972" Value="Automatisch programma"/>
+    <Text ID="375973" Value="Producttype"/>
+    <Text ID="375974" Value="Detectietype"/>
+    <Text ID="375978" Value="Automatisch"/>
+    <Text ID="375979" Value="Geforceerde broek"/>
+    <Text ID="375980" Value="Geforceerd overhemd"/>
+    <Text ID="375981" Value="Broek"/>
+    <Text ID="375982" Value="Overhemd"/>
+    <Text ID="450709" Value="Geforceerd pyjama's"/>
+    <Text ID="450710" Value="Pyjama's"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="375972" Value="Autoprograma"/>
+    <Text ID="375973" Value="Tipo de producto"/>
+    <Text ID="375974" Value="Tipo de detección"/>
+    <Text ID="375978" Value="Automático"/>
+    <Text ID="375979" Value="Forzado pantalón"/>
+    <Text ID="375980" Value="Forzado camisas"/>
+    <Text ID="375981" Value="Pantalón"/>
+    <Text ID="375982" Value="Camisa"/>
+    <Text ID="450709" Value="Forzado pijamas"/>
+    <Text ID="450710" Value="Pijamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="375972" Value="Program Auto"/>
+    <Text ID="375973" Value="Typ produktu"/>
+    <Text ID="375974" Value="Typ wykrywania"/>
+    <Text ID="375978" Value="Automat."/>
+    <Text ID="375979" Value="Wymuszone spodnie"/>
+    <Text ID="375980" Value="Wymuszone koszule"/>
+    <Text ID="375981" Value="Spodnie"/>
+    <Text ID="375982" Value="Koszula"/>
+    <Text ID="450709" Value="Wymuszone piżamy"/>
+    <Text ID="450710" Value="Piżama"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="375972" Value=""/>
+    <Text ID="375973" Value=""/>
+    <Text ID="375974" Value=""/>
+    <Text ID="375978" Value=""/>
+    <Text ID="375979" Value=""/>
+    <Text ID="375980" Value=""/>
+    <Text ID="375981" Value=""/>
+    <Text ID="375982" Value=""/>
+    <Text ID="450709" Value=""/>
+    <Text ID="450710" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="375972" Value=""/>
+    <Text ID="375973" Value=""/>
+    <Text ID="375974" Value=""/>
+    <Text ID="375978" Value=""/>
+    <Text ID="375979" Value=""/>
+    <Text ID="375980" Value=""/>
+    <Text ID="375981" Value=""/>
+    <Text ID="375982" Value=""/>
+    <Text ID="450709" Value=""/>
+    <Text ID="450710" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="375972" Value="Program Auto"/>
+    <Text ID="375973" Value="Typ produktu"/>
+    <Text ID="375974" Value="Typ wykrywania"/>
+    <Text ID="375978" Value="Automat."/>
+    <Text ID="375979" Value="Wymuszone spodnie"/>
+    <Text ID="375980" Value="Wymuszone koszule"/>
+    <Text ID="375981" Value="Spodnie"/>
+    <Text ID="375982" Value="Koszula"/>
+    <Text ID="450709" Value="Wymuszone piżamy"/>
+    <Text ID="450710" Value="Piżama"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Product Type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forced Trouser"/>
+    <Text ID="375980" Value="Forced Shirt"/>
+    <Text ID="375981" Value="Trouser"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Product Type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forced Trouser"/>
+    <Text ID="375980" Value="Forced Shirt"/>
+    <Text ID="375981" Value="Trouser"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="375972" Value="Auto Program"/>
+    <Text ID="375973" Value="Produkt type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Registrer alt som bukse"/>
+    <Text ID="375980" Value="Registrer alt som jakke"/>
+    <Text ID="375981" Value="Bukser"/>
+    <Text ID="375982" Value="Jakke"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="375972" Value="Programa automático"/>
+    <Text ID="375973" Value="Tipo de produto"/>
+    <Text ID="375974" Value="Tipo de deteção"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forçosamente calças"/>
+    <Text ID="375980" Value="Forçosamente batas"/>
+    <Text ID="375981" Value="Calças"/>
+    <Text ID="375982" Value="Batas"/>
+    <Text ID="450709" Value="Forçosamente pijamas"/>
+    <Text ID="450710" Value="Pijamas"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="375972" Value="0"/>
+    <Index ID="375973" Value="1"/>
+    <Index ID="375974" Value="2"/>
+    <Index ID="375978" Value="50"/>
+    <Index ID="375979" Value="51"/>
+    <Index ID="375980" Value="52"/>
+    <Index ID="375981" Value="70"/>
+    <Index ID="375982" Value="71"/>
+    <Index ID="450709" Value="53"/>
+    <Index ID="450710" Value="72"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Outlet">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.App.Application.g_OutletProcess.Common.AlarmList.Ack]"/>
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.App.Application.g_OutletProcess.Common.AlarmList.Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="Source[global].Variable[Master.App.Application.g_OutletProcess.Common.AlarmList.Bypassed]"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="9"/>
+  <Property Name="LatchedBackColor" Value="47"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="2"/>
+  <Property Name="QuitBackColor" Value="11"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value="Outlet startup error"/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="8">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets>
+      <TextSnippet ClassId="0x00002001" Name="TopSensorAlarmNo">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Value Unittext"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.App.Application.Jedk.Jedk-Function.HMISources.g_HMITopSensorAlarmStNo]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002001" Name="LiftNotUpStackerNo">
+        <Property Name="AddFractionDigits" Value="0"/>
+        <Property Name="Alignment" Value="Right"/>
+        <Property Name="Content" Value="Value Unittext"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[Local.App.Application.Fox_Logic.outlet.WaitingPhotocellNo]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="MinIntegerDigits" Value="1"/>
+        <Property Name="Persistent" Value="True"/>
+        <Property Name="UnitText" Value="Abbreviation"/>
+      </TextSnippet>
+    </TextSnippets>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="3963" Value="Disturbance Photocell Liftstacker, Product jam in "/>
+      <Text ID="4037" Value="Outlet time out error"/>
+      <Text ID="4038" Value="Outlet startup error"/>
+      <Text ID="12090" Value="Lift not up stacker {LiftNotUpStackerNo}"/>
+      <Text ID="12091" Value="Top photocell 1 lift error"/>
+      <Text ID="12092" Value="Top photocell 1 lift error"/>
+      <Text ID="12094" Value="Top photocell 1 lift error"/>
+      <Text ID="12095" Value="Top photocell 1 lift error"/>
+      <Text ID="14173" Value="Garment at stacker lift top {TopSensorAlarmNo}"/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="3963" Value="Stoerung Fotozelle lift-stapler/ waesche steckt drin"/>
+      <Text ID="4037" Value="Ausgabezeit fehler"/>
+      <Text ID="4038" Value="Ausgabestart-Fehler"/>
+      <Text ID="12090" Value="Lift not up stacker {LiftNotUpStackerNo}"/>
+      <Text ID="12091" Value="Obere Fotozelle 1 lift fehler"/>
+      <Text ID="12092" Value="Obere Fotozelle 1 lift fehler"/>
+      <Text ID="12094" Value="Obere Fotozelle 1 lift fehler"/>
+      <Text ID="12095" Value="Obere Fotozelle 1 lift fehler"/>
+      <Text ID="14173" Value="Garment at stacker lift top {TopSensorAlarmNo}"/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="3963" Value="Störning fotocell liftstacker"/>
+      <Text ID="4037" Value="Övertid utmatning"/>
+      <Text ID="4038" Value="Fel vid uppstart utmatning"/>
+      <Text ID="12090" Value="Lift not up stacker {LiftNotUpStackerNo}"/>
+      <Text ID="12091" Value="Top photocell 1 lift error"/>
+      <Text ID="12092" Value="Top photocell 1 lift error"/>
+      <Text ID="12094" Value="Top photocell 1 lift error"/>
+      <Text ID="12095" Value="Top photocell 1 lift error"/>
+      <Text ID="14173" Value="Garment at stacker lift top {TopSensorAlarmNo}"/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="3963" Value="Erreur Empileur: vêtement est coincé"/>
+      <Text ID="4037" Value="Erreur temps de sorti"/>
+      <Text ID="4038" Value="Erreur sorti start up"/>
+      <Text ID="12090" Value="Lift not up stacker {LiftNotUpStackerNo}"/>
+      <Text ID="12091" Value="Top photocell 1 lift error"/>
+      <Text ID="12092" Value="Top photocell 1 lift error"/>
+      <Text ID="12094" Value="Top photocell 1 lift error"/>
+      <Text ID="12095" Value="Top photocell 1 lift error"/>
+      <Text ID="14173" Value="Garment at stacker lift top {TopSensorAlarmNo}"/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="3963" Value="Fejl fotocelle liftstakker"/>
+      <Text ID="4037" Value="Fejl udløbstid"/>
+      <Text ID="4038" Value="Fejl opstart udløb"/>
+      <Text ID="12090" Value="Lift ikke i top position stakker {LiftNotUpStackerNo}"/>
+      <Text ID="12091" Value="Top photocell 1 lift error"/>
+      <Text ID="12092" Value="Top photocell 1 lift error"/>
+      <Text ID="12094" Value="Top photocell 1 lift error"/>
+      <Text ID="12095" Value="Top photocell 1 lift error"/>
+      <Text ID="14173" Value="Garment at stacker lift top {TopSensorAlarmNo}"/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="3963" Value="Disturbo Fotocell. Ascensore, Indum. inceppato"/>
+      <Text ID="4037" Value="Errore Uscita TimeOut"/>
+      <Text ID="4038" Value="Errore Avviamento Uscita"/>
+      <Text ID="12090" Value="Lift not up stacker {LiftNotUpStackerNo}"/>
+      <Text ID="12091" Value="Top photocell 1 lift error"/>
+      <Text ID="12092" Value="Top photocell 1 lift error"/>
+      <Text ID="12094" Value="Top photocell 1 lift error"/>
+      <Text ID="12095" Value="Top photocell 1 lift error"/>
+      <Text ID="14173" Value="Garment at stacker lift top {TopSensorAlarmNo}"/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="3963" Value="Disturbance Photocell Liftstacker, Product jam in "/>
+      <Text ID="4037" Value="Outlet time out error"/>
+      <Text ID="4038" Value="Outlet startup error"/>
+      <Text ID="12090" Value="Lift not up stacker {LiftNotUpStackerNo}"/>
+      <Text ID="12091" Value="Top photocell 1 lift error"/>
+      <Text ID="12092" Value="Top photocell 1 lift error"/>
+      <Text ID="12094" Value="Top photocell 1 lift error"/>
+      <Text ID="12095" Value="Top photocell 1 lift error"/>
+      <Text ID="14173" Value="Garment at stacker lift top {TopSensorAlarmNo}"/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="3963" Value="Disturbance Photocell Liftstacker, Product jam in "/>
+      <Text ID="4037" Value="Outlet time out error"/>
+      <Text ID="4038" Value="Outlet startup error"/>
+      <Text ID="12090" Value="Lift not up stacker {LiftNotUpStackerNo}"/>
+      <Text ID="12091" Value="Top photocell 1 lift error"/>
+      <Text ID="12092" Value="Top photocell 1 lift error"/>
+      <Text ID="12094" Value="Top photocell 1 lift error"/>
+      <Text ID="12095" Value="Top photocell 1 lift error"/>
+      <Text ID="14173" Value="Garment at stacker lift top {TopSensorAlarmNo}"/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="3963" Value="Fallo fotocélula atasco en Apilador"/>
+      <Text ID="4037" Value="Error tiempo espera en salida"/>
+      <Text ID="4038" Value="Fallo arranque salida"/>
+      <Text ID="12090" Value="Lift not up stacker {LiftNotUpStackerNo}"/>
+      <Text ID="12091" Value="Error en fotocélula superior del Elevador  1"/>
+      <Text ID="12092" Value="Error en fotocélula superior del Elevador  1"/>
+      <Text ID="12094" Value="Error en fotocélula superior del Elevador  1"/>
+      <Text ID="12095" Value="Error en fotocélula superior del Elevador  1"/>
+      <Text ID="14173" Value="Garment at stacker lift top {TopSensorAlarmNo}"/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="3963" Value=""/>
+      <Text ID="4037" Value=""/>
+      <Text ID="4038" Value=""/>
+      <Text ID="12090" Value="Lift not up stacker {LiftNotUpStackerNo}"/>
+      <Text ID="12091" Value="Top photocell 1 lift error"/>
+      <Text ID="12092" Value="Top photocell 1 lift error"/>
+      <Text ID="12094" Value="Top photocell 1 lift error"/>
+      <Text ID="12095" Value="Top photocell 1 lift error"/>
+      <Text ID="14173" Value="Garment at stacker lift top {TopSensorAlarmNo}"/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="3963" Value=""/>
+      <Text ID="4037" Value=""/>
+      <Text ID="4038" Value=""/>
+      <Text ID="12090" Value=""/>
+      <Text ID="12091" Value=""/>
+      <Text ID="12092" Value=""/>
+      <Text ID="12094" Value=""/>
+      <Text ID="12095" Value=""/>
+      <Text ID="14173" Value=""/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="3963" Value=""/>
+      <Text ID="4037" Value=""/>
+      <Text ID="4038" Value=""/>
+      <Text ID="12090" Value=""/>
+      <Text ID="12091" Value=""/>
+      <Text ID="12092" Value=""/>
+      <Text ID="12094" Value=""/>
+      <Text ID="12095" Value=""/>
+      <Text ID="14173" Value=""/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="3963" Value=""/>
+      <Text ID="4037" Value=""/>
+      <Text ID="4038" Value=""/>
+      <Text ID="12090" Value=""/>
+      <Text ID="12091" Value=""/>
+      <Text ID="12092" Value=""/>
+      <Text ID="12094" Value=""/>
+      <Text ID="12095" Value=""/>
+      <Text ID="14173" Value=""/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="3963" Value=""/>
+      <Text ID="4037" Value=""/>
+      <Text ID="4038" Value=""/>
+      <Text ID="12090" Value=""/>
+      <Text ID="12091" Value=""/>
+      <Text ID="12092" Value=""/>
+      <Text ID="12094" Value=""/>
+      <Text ID="12095" Value=""/>
+      <Text ID="14173" Value=""/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="3963" Value=""/>
+      <Text ID="4037" Value=""/>
+      <Text ID="4038" Value=""/>
+      <Text ID="12090" Value=""/>
+      <Text ID="12091" Value=""/>
+      <Text ID="12092" Value=""/>
+      <Text ID="12094" Value=""/>
+      <Text ID="12095" Value=""/>
+      <Text ID="14173" Value=""/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="3963" Value="Feil fotocelle liftstacker"/>
+      <Text ID="4037" Value="Feil Utløpstid"/>
+      <Text ID="4038" Value="Feil oppstart utløp"/>
+      <Text ID="12090" Value="Lift not up stacker {LiftNotUpStackerNo}"/>
+      <Text ID="12091" Value="Top photocell 1 lift error"/>
+      <Text ID="12092" Value="Top photocell 1 lift error"/>
+      <Text ID="12094" Value="Top photocell 1 lift error"/>
+      <Text ID="12095" Value="Top photocell 1 lift error"/>
+      <Text ID="14173" Value="Garment at stacker lift top {TopSensorAlarmNo}"/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="3963" Value=""/>
+      <Text ID="4037" Value=""/>
+      <Text ID="4038" Value=""/>
+      <Text ID="12090" Value=""/>
+      <Text ID="12091" Value=""/>
+      <Text ID="12092" Value=""/>
+      <Text ID="12094" Value=""/>
+      <Text ID="12095" Value=""/>
+      <Text ID="14173" Value=""/>
+      <Text ID="12238" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="3963" Value="6"/>
+      <Index ID="4037" Value="2"/>
+      <Index ID="4038" Value="3"/>
+      <Index ID="12090" Value="8"/>
+      <Index ID="12091" Value="0"/>
+      <Index ID="12092" Value="1"/>
+      <Index ID="12094" Value="4"/>
+      <Index ID="12095" Value="5"/>
+      <Index ID="14173" Value="7"/>
+      <Index ID="12238" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

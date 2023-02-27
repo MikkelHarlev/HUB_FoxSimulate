@@ -1,0 +1,19 @@
+(**)
+VAR
+	RListIndexOld : UINT := 0;
+	RListIndexOldTime : UDINT := 0;
+	RScrollTime : UDINT := 0;
+	RCycleCounter : UDINT := 0;
+	DTCompare : UDINT := 0;
+	RTmp : STRING[25] := '';
+	MO_list_0 : MO_List_typ := (0);
+	SoftModuleInfo : SoftModule_typ;
+	ModuleIndex : USINT; (*Index for counting*)
+	MO_info_0 : MO_info; (*Sys_Lib*)
+	TmpModule : SoftModuleNo_typ := (0);
+	TEmpty : ARRAY[0..244] OF SoftModuleNo_typ;
+	VersionArray : ARRAY[0..244] OF STRING[10];
+	SizeArray : ARRAY[0..244] OF STRING[10];
+	DateArray : ARRAY[0..244] OF STRING[30];
+	NameArray : ARRAY[0..244] OF STRING[12];
+END_VAR

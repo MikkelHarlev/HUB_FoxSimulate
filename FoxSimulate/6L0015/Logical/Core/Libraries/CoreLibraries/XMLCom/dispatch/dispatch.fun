@@ -1,0 +1,23 @@
+FUNCTION dispatchBorrow : UDINT
+	VAR_INPUT
+		handle	:UDINT;
+		ticket	:REFERENCE TO USINT;
+	END_VAR
+END_FUNCTION
+FUNCTION dispatchClose : UDINT
+	VAR_INPUT
+		handle	:UDINT;
+	END_VAR
+END_FUNCTION
+FUNCTION dispatchInit : UDINT
+	VAR_INPUT
+		cb_create	:UDINT;
+		cb_delete	:UDINT;
+	END_VAR
+END_FUNCTION
+FUNCTION dispatchRestore : UDINT
+	VAR_INPUT
+		handle	:UDINT;
+		ticket	:REFERENCE TO USINT;
+	END_VAR
+END_FUNCTION

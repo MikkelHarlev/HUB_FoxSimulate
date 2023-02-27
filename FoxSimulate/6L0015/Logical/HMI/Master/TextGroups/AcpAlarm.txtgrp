@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="AcpAlarm">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="3"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="361994" Value="Error Number 1"/>
+    <Text ID="361995" Value="Error Number 2"/>
+    <Text ID="361996" Value="Error Number 3"/>
+    <Text ID="361997" Value="Error Number 4"/>
+    <Text ID="361998" Value="Error Number 5"/>
+    <Text ID="361999" Value="Status"/>
+    <Text ID="362000" Value="Error Id"/>
+    <Text ID="362001" Value="Error Info"/>
+    <Text ID="362002" Value="Error Entry 1 To 5"/>
+    <Text ID="362003" Value="Error Message"/>
+    <Text ID="362004" Value="Acopos Node"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="361994" Value="Fehler Nr. 1"/>
+    <Text ID="361995" Value="Fehler Nr. 2"/>
+    <Text ID="361996" Value="Fehler Nr. 3"/>
+    <Text ID="361997" Value="Fehler Nr. 4"/>
+    <Text ID="361998" Value="Fehler Nr. 5"/>
+    <Text ID="361999" Value="Status"/>
+    <Text ID="362000" Value="Fehler ID"/>
+    <Text ID="362001" Value="Fehler Info:"/>
+    <Text ID="362002" Value="Fehler Eintrag 1-5"/>
+    <Text ID="362003" Value="Fehler Meldung"/>
+    <Text ID="362004" Value="Acopos-Knoten"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="361994" Value="Fel nummer 1"/>
+    <Text ID="361995" Value="Fel nummer 2"/>
+    <Text ID="361996" Value="Fel nummer 3"/>
+    <Text ID="361997" Value="Fel nummer 4"/>
+    <Text ID="361998" Value="Fel nummer 5"/>
+    <Text ID="361999" Value="Status:"/>
+    <Text ID="362000" Value="Fel id"/>
+    <Text ID="362001" Value="Felinfo"/>
+    <Text ID="362002" Value="Fel 1 till 5"/>
+    <Text ID="362003" Value="Felmeddelande"/>
+    <Text ID="362004" Value="Acopos Node"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="361994" Value="Erreur numéro 1"/>
+    <Text ID="361995" Value="Erreur numéro 2"/>
+    <Text ID="361996" Value="Erreur numéro 3"/>
+    <Text ID="361997" Value="Erreur numéro 4"/>
+    <Text ID="361998" Value="Erreur numéro 5"/>
+    <Text ID="361999" Value="Statut"/>
+    <Text ID="362000" Value="Erreur id"/>
+    <Text ID="362001" Value="Erreur info"/>
+    <Text ID="362002" Value="Erreur entrée 1 à 5"/>
+    <Text ID="362003" Value="Message d'erreur"/>
+    <Text ID="362004" Value="Nœud Acopos"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="361994" Value="Fejl Nummer 1"/>
+    <Text ID="361995" Value="Fejl Nummer 2"/>
+    <Text ID="361996" Value="Fejl Nummer 3"/>
+    <Text ID="361997" Value="Fejl Nummer 4"/>
+    <Text ID="361998" Value="Fejl Nummer 5"/>
+    <Text ID="361999" Value="Status"/>
+    <Text ID="362000" Value="Fejl ID"/>
+    <Text ID="362001" Value="Fejl Info"/>
+    <Text ID="362002" Value="Fejl 1 til 5"/>
+    <Text ID="362003" Value="Fejl Meddelelse"/>
+    <Text ID="362004" Value="Acopos Node"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="361994" Value="Errore Num 1"/>
+    <Text ID="361995" Value="Errore Num 2"/>
+    <Text ID="361996" Value="Errore Num 3"/>
+    <Text ID="361997" Value="Errore Num 4"/>
+    <Text ID="361998" Value="Errore Num 5"/>
+    <Text ID="361999" Value="Stato"/>
+    <Text ID="362000" Value="Errore Id"/>
+    <Text ID="362001" Value="Errore informazione"/>
+    <Text ID="362002" Value="Errore ingresso da 1 a 5"/>
+    <Text ID="362003" Value="Messaggio di Errore"/>
+    <Text ID="362004" Value="Acopos Nodo"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="361994" Value="Error Number 1"/>
+    <Text ID="361995" Value="Error Number 2"/>
+    <Text ID="361996" Value="Error Number 3"/>
+    <Text ID="361997" Value="Error Number 4"/>
+    <Text ID="361998" Value="Error Number 5"/>
+    <Text ID="361999" Value="Tila:"/>
+    <Text ID="362000" Value="Virhetunnus"/>
+    <Text ID="362001" Value="Virhe tiedot:"/>
+    <Text ID="362002" Value="Virhe Sisääntulo 1- 5"/>
+    <Text ID="362003" Value="Error Message"/>
+    <Text ID="362004" Value="Acopos Node"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="361994" Value="Fout nummer 1"/>
+    <Text ID="361995" Value="Fout nummer 2"/>
+    <Text ID="361996" Value="Fout nummer 3"/>
+    <Text ID="361997" Value="Fout nummer 4"/>
+    <Text ID="361998" Value="Fout nummer 5"/>
+    <Text ID="361999" Value="Status:"/>
+    <Text ID="362000" Value="Fout Id"/>
+    <Text ID="362001" Value="Fout Info:"/>
+    <Text ID="362002" Value="Fout Ingang 1 Naar 5"/>
+    <Text ID="362003" Value="Fout melding"/>
+    <Text ID="362004" Value="Acopos Node"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="361994" Value="Error Number 1"/>
+    <Text ID="361995" Value="Error Number 2"/>
+    <Text ID="361996" Value="Error Number 3"/>
+    <Text ID="361997" Value="Error Number 4"/>
+    <Text ID="361998" Value="Error Number 5"/>
+    <Text ID="361999" Value="Estado:"/>
+    <Text ID="362000" Value="Error de identidad"/>
+    <Text ID="362001" Value="Información de error:"/>
+    <Text ID="362002" Value="Error de entrada 1 a 5"/>
+    <Text ID="362003" Value="Error Message"/>
+    <Text ID="362004" Value="Acopos Node"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="361994" Value="Error Number 1"/>
+    <Text ID="361995" Value="Error Number 2"/>
+    <Text ID="361996" Value="Error Number 3"/>
+    <Text ID="361997" Value="Error Number 4"/>
+    <Text ID="361998" Value="Error Number 5"/>
+    <Text ID="361999" Value="Status:"/>
+    <Text ID="362000" Value="Błąd Id"/>
+    <Text ID="362001" Value="Błąd Info:"/>
+    <Text ID="362002" Value="Błąd wejścia od 1 do 5"/>
+    <Text ID="362003" Value="Error Message"/>
+    <Text ID="362004" Value="Acopos Node"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="361994" Value="Ошибка №1"/>
+    <Text ID="361995" Value="Ошибка №2"/>
+    <Text ID="361996" Value="Ошибка №3"/>
+    <Text ID="361997" Value="Ошибка №4"/>
+    <Text ID="361998" Value="Ошибка №5"/>
+    <Text ID="361999" Value="Статус"/>
+    <Text ID="362000" Value="Идентиф. Ошибки"/>
+    <Text ID="362001" Value="Информация об Ошибке"/>
+    <Text ID="362002" Value="Ошибка Входа от 1 до 5"/>
+    <Text ID="362003" Value="Сообщение об Ошибке"/>
+    <Text ID="362004" Value="Узел Acopos"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="361994" Value="Error Number 1"/>
+    <Text ID="361995" Value="Error Number 2"/>
+    <Text ID="361996" Value="Error Number 3"/>
+    <Text ID="361997" Value="Error Number 4"/>
+    <Text ID="361998" Value="Error Number 5"/>
+    <Text ID="361999" Value="Status"/>
+    <Text ID="362000" Value="Error Id"/>
+    <Text ID="362001" Value="Error Info"/>
+    <Text ID="362002" Value="Error Entry 1 To 5"/>
+    <Text ID="362003" Value="Error Message"/>
+    <Text ID="362004" Value="Acopos Node"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="361994" Value=""/>
+    <Text ID="361995" Value=""/>
+    <Text ID="361996" Value=""/>
+    <Text ID="361997" Value=""/>
+    <Text ID="361998" Value=""/>
+    <Text ID="361999" Value=""/>
+    <Text ID="362000" Value=""/>
+    <Text ID="362001" Value=""/>
+    <Text ID="362002" Value=""/>
+    <Text ID="362003" Value=""/>
+    <Text ID="362004" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="361994" Value=""/>
+    <Text ID="361995" Value=""/>
+    <Text ID="361996" Value=""/>
+    <Text ID="361997" Value=""/>
+    <Text ID="361998" Value=""/>
+    <Text ID="361999" Value=""/>
+    <Text ID="362000" Value=""/>
+    <Text ID="362001" Value=""/>
+    <Text ID="362002" Value=""/>
+    <Text ID="362003" Value=""/>
+    <Text ID="362004" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="361994" Value=""/>
+    <Text ID="361995" Value=""/>
+    <Text ID="361996" Value=""/>
+    <Text ID="361997" Value=""/>
+    <Text ID="361998" Value=""/>
+    <Text ID="361999" Value=""/>
+    <Text ID="362000" Value=""/>
+    <Text ID="362001" Value=""/>
+    <Text ID="362002" Value=""/>
+    <Text ID="362003" Value=""/>
+    <Text ID="362004" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="361994" Value="Feil nummer 1"/>
+    <Text ID="361995" Value="Feil nummer 2"/>
+    <Text ID="361996" Value="Feil nummer 3"/>
+    <Text ID="361997" Value="Feil nummer 4"/>
+    <Text ID="361998" Value="Feil nummer 5"/>
+    <Text ID="361999" Value="Status:"/>
+    <Text ID="362000" Value="Feil-id"/>
+    <Text ID="362001" Value="Feil Info:"/>
+    <Text ID="362002" Value="Feil innløp 1 til 5"/>
+    <Text ID="362003" Value="Feilmelding"/>
+    <Text ID="362004" Value="Acopos node"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="361994" Value=""/>
+    <Text ID="361995" Value=""/>
+    <Text ID="361996" Value=""/>
+    <Text ID="361997" Value=""/>
+    <Text ID="361998" Value=""/>
+    <Text ID="361999" Value=""/>
+    <Text ID="362000" Value=""/>
+    <Text ID="362001" Value=""/>
+    <Text ID="362002" Value=""/>
+    <Text ID="362003" Value=""/>
+    <Text ID="362004" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="361994" Value="0"/>
+    <Index ID="361995" Value="1"/>
+    <Index ID="361996" Value="2"/>
+    <Index ID="361997" Value="3"/>
+    <Index ID="361998" Value="4"/>
+    <Index ID="361999" Value="5"/>
+    <Index ID="362000" Value="6"/>
+    <Index ID="362001" Value="7"/>
+    <Index ID="362002" Value="8"/>
+    <Index ID="362003" Value="9"/>
+    <Index ID="362004" Value="10"/>
+  </IndexMap>
+</TextGroup>

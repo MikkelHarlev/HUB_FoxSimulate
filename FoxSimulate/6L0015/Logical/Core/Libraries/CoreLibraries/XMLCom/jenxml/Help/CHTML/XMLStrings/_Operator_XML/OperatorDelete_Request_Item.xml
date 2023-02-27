@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<methodCall>
+    <methodName>OperatorDelete</methodName>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>option</name>
+                    <value>
+                        <base64>T3BlcmF0b3I=</base64>
+                    </value>
+                </member>
+                <member>
+                    <name>OpName</name>
+                    <value>
+                        <base64>"Operator Name"</base64>
+                    </value>
+                </member>
+                <member>
+                    <name>OpNumber</name>
+                    <value>
+                        <int>"Operator Number"</int>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodCall>

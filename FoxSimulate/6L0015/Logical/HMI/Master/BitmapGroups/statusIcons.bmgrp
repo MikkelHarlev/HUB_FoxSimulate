@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="statusIcons">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="4"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="155" Value="Source[local].Bitmap[C_10x10_Led_Off]"/>
+    <BitmapRef ID="156" Value="Source[local].Bitmap[C_10x10_Led_Green]"/>
+    <BitmapRef ID="157" Value="Source[local].Bitmap[C_10x10_Led_Yellow]"/>
+    <BitmapRef ID="163" Value="Source[local].Bitmap[C_20x20_TrafficLightGreen]"/>
+    <BitmapRef ID="164" Value="Source[local].Bitmap[C_20x20_TrafficLightYellow]"/>
+    <BitmapRef ID="165" Value="Source[local].Bitmap[C_20x20_TrafficLightRed]"/>
+    <BitmapRef ID="166" Value="Source[local].Bitmap[C_50x20_DirectionSign]"/>
+    <BitmapRef ID="168" Value="Source[local].Bitmap[C_32x32_CogWheel1]"/>
+    <BitmapRef ID="169" Value="Source[local].Bitmap[C_32x32_CogWheel2]"/>
+    <BitmapRef ID="172" Value="Source[local].Bitmap[C_20x20_Forced]"/>
+    <BitmapRef ID="173" Value="Source[local].Bitmap[C_20x20_Empty_Forced]"/>
+    <BitmapRef ID="174" Value="Source[local].Bitmap[C_20x20_Empty_Forced]"/>
+    <BitmapRef ID="175" Value="Source[local].Bitmap[C_20x20_ForceRemoveAll]"/>
+    <BitmapRef ID="571" Value="Source[local].Bitmap[C_10x10_Led_red]"/>
+    <BitmapRef ID="977" Value="None"/>
+    <BitmapRef ID="978" Value="Source[local].Bitmap[C_20x20_PasswordLevel0_Trans]"/>
+    <BitmapRef ID="979" Value="Source[local].Bitmap[C_20x20_PasswordLevel1_Trans]"/>
+    <BitmapRef ID="980" Value="Source[local].Bitmap[C_20x20_PasswordLevel2_Trans]"/>
+    <BitmapRef ID="981" Value="Source[local].Bitmap[C_20x20_PasswordLevel3_Trans]"/>
+    <BitmapRef ID="1027" Value="Source[local].Bitmap[C_25x25_OperatorOff]"/>
+    <BitmapRef ID="1028" Value="Source[local].Bitmap[C_25x25_Operator]"/>
+    <BitmapRef ID="4685" Value="Source[local].Bitmap[B_116x102_Warning_Damage]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="155" Value="0"/>
+    <Index ID="156" Value="1"/>
+    <Index ID="157" Value="2"/>
+    <Index ID="163" Value="8"/>
+    <Index ID="164" Value="9"/>
+    <Index ID="165" Value="10"/>
+    <Index ID="166" Value="11"/>
+    <Index ID="168" Value="13"/>
+    <Index ID="169" Value="14"/>
+    <Index ID="172" Value="5"/>
+    <Index ID="173" Value="4"/>
+    <Index ID="174" Value="17"/>
+    <Index ID="175" Value="18"/>
+    <Index ID="571" Value="3"/>
+    <Index ID="977" Value="19"/>
+    <Index ID="978" Value="20"/>
+    <Index ID="979" Value="21"/>
+    <Index ID="980" Value="22"/>
+    <Index ID="981" Value="23"/>
+    <Index ID="1027" Value="30"/>
+    <Index ID="1028" Value="31"/>
+    <Index ID="4685" Value="42"/>
+  </IndexMap>
+</BitmapGroup>

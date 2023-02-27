@@ -1,0 +1,4 @@
+VAR CONSTANT
+	LT_BUFFER_SIZE : UINT := 100; (*Long term function Block OEE data buffer size*)
+	ST_BUFFER_SIZE : UINT := 360; (*Short term function Block OEE data buffer size*)
+END_VAR

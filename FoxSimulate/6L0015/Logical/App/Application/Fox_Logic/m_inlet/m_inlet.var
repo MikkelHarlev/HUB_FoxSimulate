@@ -1,0 +1,59 @@
+(********************************************************************
+ * COPYRIGHT -- IT
+ ********************************************************************
+ * Program: m_inlet
+ * File: m_inlet.var
+ * Author: mariw
+ * Created: May 26, 2011
+ ********************************************************************
+ * Local variables of program m_inlet
+ ********************************************************************)
+VAR
+	Old_EdgeState : BOOL;
+	ShirtDetectedHMI : UINT;
+	StackDestinationTest : UINT;
+	TmpStr : STRING[41];
+END_VAR
+VAR RETAIN
+	NumberOfGarmentsCleaning : UINT;
+END_VAR
+VAR
+	i : USINT := 0;
+END_VAR
+VAR CONSTANT
+	MACHPROC_START_INLET_DELAY_22 : UINT := 22;
+	MACHPROC_START_SLEAVEBLAST_24 : UINT := 24;
+	MACHPROC_WAIT_INFEEDBELT_END_26 : UINT := 26;
+	MACHPROC_WAIT_RESTART_28 : UINT := 28;
+	MACHPROC_AT_TOPCONVOYER_32 : USINT := 32;
+END_VAR
+VAR
+	INIT_M_INLET : BOOL := FALSE;
+END_VAR
+VAR CONSTANT
+	MACHPROC_WAIT_READ_40 : UINT := 40;
+	MACHPROC_WAIT_DATA_41 : UINT := 41;
+	MACHPROC_DELAY_START_42 : UINT := 42;
+	LOG_TYPE_HANGER_REGUEST_1 : UINT := 1;
+END_VAR
+VAR
+	HangerNoRead : UINT;
+	OldAutoProgram : UINT;
+	StackChangeIndex : UINT;
+END_VAR
+VAR CONSTANT
+	LOG_TYPE_HANGER_FOUND_6 : UINT := 6;
+	LOG_TYPE_NODATA_FORCED_66 : UINT := 66;
+END_VAR
+VAR
+	PreStackChange : BOOL;
+	HangerNoReadMax : UINT;
+	ReadErrorTimer : UINT;
+	BlockStartBTN : BOOL;
+	LinenID : UINT;
+	ManPreStackChange : BOOL;
+	StckIdx : UINT;
+	OldStckIdx : UINT;
+	DuoStckIdx : UINT;
+	OldDuoStckIdx : UINT;
+END_VAR

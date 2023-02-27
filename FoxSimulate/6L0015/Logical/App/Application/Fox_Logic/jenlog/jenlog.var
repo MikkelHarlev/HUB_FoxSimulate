@@ -1,0 +1,27 @@
+VAR CONSTANT
+	LOG_RECORD_LENGHT_80 : UINT := 80;
+END_VAR
+VAR
+	LogHandle : JenLog_Type;
+	FB_FileDelete : FileDelete;
+	LastDay : UINT;
+	FB_FileCreate : FileCreate;
+	FB_FileWrite : FileWrite;
+	FB_FileClose : FileClose;
+	datestr : ARRAY[0..30] OF USINT;
+	tmpstr : STRING[LOG_RECORD_LENGHT_80];
+	LogRecLen : UINT;
+	DTGetTime_0 : DTGetTime;
+	logstr : ARRAY[0..LOG_RECORD_LENGHT_80] OF USINT;
+	LogRecord : ARRAY[0..19] OF STRING[LOG_RECORD_LENGHT_80];
+	TempLogRecord : STRING[1001];
+	MAX_STORE_TIMEOUT : UINT;
+	MAX_RECORDS_BEFORE_SAVE : UINT;
+	MyDTStructure : DTStructure;
+	FB_FileOpen : FileOpen;
+	HeaderRec : ARRAY[0..79] OF USINT;
+	endchar : ARRAY[0..9] OF USINT;
+	RInit : BOOL;
+	RInitNoRun : BOOL;
+	RInitRunning : BOOL;
+END_VAR

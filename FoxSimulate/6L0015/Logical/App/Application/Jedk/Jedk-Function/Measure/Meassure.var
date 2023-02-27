@@ -1,0 +1,24 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: Meassure
+ * File: Meassure.var
+ * Author: mha
+ * Created: August 30, 2012
+ ********************************************************************
+ * Local variables of program Meassure
+ ********************************************************************)
+VAR
+	RLeadPh : BOOL;
+	RRearPh : BOOL;
+	JedkMessState : USINT;
+	LinenMode : LinenLengthSinglePh;
+	LinenSameBoth : LinenLengthSinglePh;
+	LinenVertical : LinenLengthSinglePh;
+	LinenHorizontal : LinenLengthSinglePh;
+	CycleCounter : UDINT;
+	WheelCounter : UDINT;
+	CalcLengthMode : UDINT;
+	CalcLengthVertical : UDINT;
+	CalcLengthHorizontal : UDINT;
+END_VAR

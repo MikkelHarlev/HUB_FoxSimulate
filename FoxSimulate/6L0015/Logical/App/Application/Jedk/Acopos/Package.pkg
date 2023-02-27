@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">acopos.var</Object>
+    <Object Type="File" Description="Exported data types">acopos.typ</Object>
+    <Object Type="Library" Language="IEC" Description="Torque Mode Library">Kc</Object>
+    <Object Type="DataObject" Language="Ax">gServoHanger</Object>
+    <Object Type="DataObject" Language="Apt" Description="Acopos Extra Parameter">230par</Object>
+    <Object Type="DataObject" Language="Apt" Description="Acopos Extra Parameter">400par</Object>
+    <Object Type="DataObject" Language="Apt">gAxis01a</Object>
+    <Object Type="DataObject" Language="Ett">acp10etxen</Object>
+    <Object Type="Program" Language="IEC" Description="Master Acopos Handling">MasterAco</Object>
+    <Object Type="Program" Language="IEC" Description="Servo drive handling">axis</Object>
+    <Object Type="Package" Description="An empty package">GlobalCoreTypes</Object>
+    <Object Type="Package" Description="Global Core Variables">GlobalCoreVars</Object>
+  </Objects>
+</Package>

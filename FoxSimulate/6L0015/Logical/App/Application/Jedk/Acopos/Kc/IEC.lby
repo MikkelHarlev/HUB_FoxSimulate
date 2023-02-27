@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.4.112?>
+<Library Version="1.20.1" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>Kc.fun</File>
+    <File>MC_TorqueMode.st</File>
+    <File>MC_TorquePull.st</File>
+    <File>MC_Follow.st</File>
+    <File>FB_Average.st</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="runtime" Target="SG4" FromVersion="1.09.0" />
+    <Dependency ObjectName="ncglobal" Target="SG4" FromVersion="0.53.3" />
+    <Dependency ObjectName="acp10_mc" Target="SG4" FromVersion="2.03.0" />
+  </Dependencies>
+</Library>

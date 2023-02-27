@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MainAlarms">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Local.g_MainAlarms.Ack]"/>
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Local.g_MainAlarms.Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="Source[global].Variable[Local.g_MainAlarms.Bypassed]"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="3"/>
+  <Property Name="LatchedBackColor" Value="47"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="3"/>
+  <Property Name="QuitBackColor" Value="11"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value="alarm 0"/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="16">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="14">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value="Master/Slave com failed"/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="17">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value="Jenway com failed"/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="11">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="12">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="10">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value="Inverter Thermofault"/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="8">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="9">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="18">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="19">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="20">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="13">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="2154" Value="Emergency Stop"/>
+      <Text ID="2155" Value="Protective Motor Switch          "/>
+      <Text ID="2156" Value="Battery low or missing            "/>
+      <Text ID="2760" Value="Master machine not running. "/>
+      <Text ID="2772" Value="Low air pressure detected   "/>
+      <Text ID="9180" Value="Master/Slave com failed"/>
+      <Text ID="9181" Value="Jenway com failed"/>
+      <Text ID="10728" Value="Fuse Fault"/>
+      <Text ID="10729" Value="Security-Cover open            "/>
+      <Text ID="10730" Value="Safety Plc Error"/>
+      <Text ID="10731" Value="Manual Feed configured but not detected"/>
+      <Text ID="10768" Value="Manual Feed detected but not configured"/>
+      <Text ID="10769" Value="Option (Manual Feed) changed. PLC restart required"/>
+      <Text ID="11949" Value="Inverter Thermofault"/>
+      <Text ID="11950" Value="Inverter Error"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value="Connection Error Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="2154" Value="Not-Aus stop"/>
+      <Text ID="2155" Value="Motorschutz         "/>
+      <Text ID="2156" Value="Batterie schwach oder fehlt"/>
+      <Text ID="2760" Value="Master Maschine arbeitet nicht"/>
+      <Text ID="2772" Value="Niedriger luftdruck festgestellt   "/>
+      <Text ID="9180" Value="Haupt./Nebenmasch. Kommun. Fehlgeschlagen"/>
+      <Text ID="9181" Value="Jenway kommun. Fehlgeschlagen"/>
+      <Text ID="10728" Value="Sicherungs fehler"/>
+      <Text ID="10729" Value="Abdeckung offen"/>
+      <Text ID="10730" Value="Sicherheit SPS Fehler"/>
+      <Text ID="10731" Value="Manuelle Eingabe eingestellt, aber nicht erkannt"/>
+      <Text ID="10768" Value="Manuelle Eingabe erkannt aber nicht eingestellt"/>
+      <Text ID="10769" Value="Option (man. Eingabe) geaendert. PLC muss neu gestartet werden"/>
+      <Text ID="11949" Value="Umrichter Temparatur fehler"/>
+      <Text ID="11950" Value="FU Fehler"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value="Connection Error Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="2154" Value="Nödstopp"/>
+      <Text ID="2155" Value="Motorskyddsbrytare               "/>
+      <Text ID="2156" Value="Batteri tomt eller finns ej       "/>
+      <Text ID="2760" Value="Mastermaskin ej i drift"/>
+      <Text ID="2772" Value="Lågt lufttryck"/>
+      <Text ID="9180" Value="Master/Slave kommunikationsfel"/>
+      <Text ID="9181" Value="Jenway kommunikationsfel"/>
+      <Text ID="10728" Value="Fuse Fault"/>
+      <Text ID="10729" Value="skyddslucka öppen"/>
+      <Text ID="10730" Value="Safety Plc Error"/>
+      <Text ID="10731" Value="Manuell inmatning ej detekterad"/>
+      <Text ID="10768" Value="Manuell inmatning ej möjlig"/>
+      <Text ID="10769" Value="Option (Manual Feed) changed. PLC restart required"/>
+      <Text ID="11949" Value="Inverter Thermofault"/>
+      <Text ID="11950" Value="Inverter Error"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value="Anslutningsfel Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="2154" Value="Arrêt d'urgence ou défaut fusible"/>
+      <Text ID="2155" Value="Disjoncteur-protecteur moteur          "/>
+      <Text ID="2156" Value="Batterie faible ou manquante"/>
+      <Text ID="2760" Value="Machine maître arrêtée. "/>
+      <Text ID="2772" Value="Faible pression d'air détectée   "/>
+      <Text ID="9180" Value="Echec communication Maître/Esclave"/>
+      <Text ID="9181" Value="Echec de communication Jenway"/>
+      <Text ID="10728" Value="Défaut fusible"/>
+      <Text ID="10729" Value="Couvercle de sécurité ouvert            "/>
+      <Text ID="10730" Value="Automate de sécurité d'erreur"/>
+      <Text ID="10731" Value="Engagement manuel configuré mais non détecté"/>
+      <Text ID="10768" Value="Engagement manuel détecté mais non configuré"/>
+      <Text ID="10769" Value="Option (engagement manuel) modifiée. Redémarrage PLC nécessaire"/>
+      <Text ID="11949" Value="Variateur défaut thermique"/>
+      <Text ID="11950" Value="Défaut variateur"/>
+      <Text ID="11951" Value="Défaut fusible 24V"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value="Connection Error Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="2154" Value="Nödstop"/>
+      <Text ID="2155" Value="Motorvärnbryder                  "/>
+      <Text ID="2156" Value="Batteri tomt eller fjernet        "/>
+      <Text ID="2760" Value="Master Maskin kjører ikke"/>
+      <Text ID="2772" Value="Lufttrykk for lavt"/>
+      <Text ID="9180" Value="Master/Slave kommuniokasjon feilet"/>
+      <Text ID="9181" Value="Jenway kommunikasjon feilet"/>
+      <Text ID="10728" Value="Fuse Fault"/>
+      <Text ID="10729" Value="Sikkerhedsskærm Åben"/>
+      <Text ID="10730" Value="Safety Plc Error"/>
+      <Text ID="10731" Value="Manual Feed configured but not detected"/>
+      <Text ID="10768" Value="Manual Feed detected but not configured"/>
+      <Text ID="10769" Value="Option (Manual Feed) changed. PLC restart required"/>
+      <Text ID="11949" Value="Inverter Thermofault"/>
+      <Text ID="11950" Value="Inverter Error"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value="Fejl i forbindelse til Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="2154" Value="Arresto di emergenza"/>
+      <Text ID="2155" Value="Interruttore protezione motore   "/>
+      <Text ID="2156" Value="Batteria scarica o assente        "/>
+      <Text ID="2760" Value="Master machine not running. "/>
+      <Text ID="2772" Value="Bassa pressione rilevata"/>
+      <Text ID="9180" Value="Master/Slave com failed"/>
+      <Text ID="9181" Value="Jenway com failed"/>
+      <Text ID="10728" Value="Fuse Fault"/>
+      <Text ID="10729" Value="copertura sicurezza aperta"/>
+      <Text ID="10730" Value="Safety Plc Error"/>
+      <Text ID="10731" Value="Manual Feed configured but not detected"/>
+      <Text ID="10768" Value="Manual Feed detected but not configured"/>
+      <Text ID="10769" Value="Option (Manual Feed) changed. PLC restart required"/>
+      <Text ID="11949" Value="Inverter Thermofault"/>
+      <Text ID="11950" Value="Inverter Error"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value="Connection Error Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="2154" Value="Emergency Stop"/>
+      <Text ID="2155" Value="Protective Motor Switch          "/>
+      <Text ID="2156" Value="Battery low or missing            "/>
+      <Text ID="2760" Value="Master machine not running. "/>
+      <Text ID="2772" Value="Low air pressure detected   "/>
+      <Text ID="9180" Value="Master/Slave com failed"/>
+      <Text ID="9181" Value="Jenway com failed"/>
+      <Text ID="10728" Value="Fuse Fault"/>
+      <Text ID="10729" Value="Security-Cover open"/>
+      <Text ID="10730" Value="Safety Plc Error"/>
+      <Text ID="10731" Value="Manual Feed configured but not detected"/>
+      <Text ID="10768" Value="Manual Feed detected but not configured"/>
+      <Text ID="10769" Value="Option (Manual Feed) changed. PLC restart required"/>
+      <Text ID="11949" Value="Inverter Thermofault"/>
+      <Text ID="11950" Value="Inverter Error"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value="Connection Error Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="2154" Value="Noodstop of zekeringfout"/>
+      <Text ID="2155" Value="Motorbeveiligingsschakelaar      "/>
+      <Text ID="2156" Value="Geen of lage batterij spanning    "/>
+      <Text ID="2760" Value="Mastermachine werkt niet. "/>
+      <Text ID="2772" Value="Lage druk gedetecteerd  "/>
+      <Text ID="9180" Value="Communicatie master/slave mislukt"/>
+      <Text ID="9181" Value="Jenway communicatie mislukt"/>
+      <Text ID="10728" Value="Zekeringfout"/>
+      <Text ID="10729" Value="deur geopend"/>
+      <Text ID="10730" Value="Veiligheid PLC fout"/>
+      <Text ID="10731" Value="Handmatige invoer geconfigureerd maar niet gedetecteerd"/>
+      <Text ID="10768" Value="Handmatige invoer gedetecteerd maar niet geconfigureerd"/>
+      <Text ID="10769" Value="Optie (Handmatige invoer) gewijzigd. PLC opnieuw starten vereist"/>
+      <Text ID="11949" Value="Thermische fout frequentieregelaar"/>
+      <Text ID="11950" Value="Frequentieregelaar Fout"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value="Connection Error Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="2154" Value="Parada de emergencia o error en fusible"/>
+      <Text ID="2155" Value="Guardamotor"/>
+      <Text ID="2156" Value="Batería baja o ausente"/>
+      <Text ID="2760" Value="Máquina principal sin funcionamiento"/>
+      <Text ID="2772" Value="Presión baja detectada"/>
+      <Text ID="9180" Value="Fallo comunicación Maestro/Esclavo"/>
+      <Text ID="9181" Value="Fallo comunicación Jenway"/>
+      <Text ID="10728" Value="Error en fusible"/>
+      <Text ID="10729" Value="Protector de seguridad abierto           "/>
+      <Text ID="10730" Value="Error en Plc seguridad"/>
+      <Text ID="10731" Value="Alimentación manual configurada pero no detectada "/>
+      <Text ID="10768" Value="Alimentación manual detectada pero no configurada"/>
+      <Text ID="10769" Value="Opción (alimentación manual) cambiada. Reinicio de PLC requerido"/>
+      <Text ID="11949" Value="Fallo térmico en inversor"/>
+      <Text ID="11950" Value="Error en inversor"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value="Connection Error Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="2154" Value="Emergency Stop"/>
+      <Text ID="2155" Value="Protective Motor Switch          "/>
+      <Text ID="2156" Value="Battery low or missing            "/>
+      <Text ID="2760" Value="Master machine not running. "/>
+      <Text ID="2772" Value="Low air pressure detected   "/>
+      <Text ID="9180" Value="Master/Slave com failed"/>
+      <Text ID="9181" Value="Jenway com failed"/>
+      <Text ID="10728" Value="Fuse Fault"/>
+      <Text ID="10729" Value="Security-Cover open"/>
+      <Text ID="10730" Value="Safety Plc Error"/>
+      <Text ID="10731" Value="Manual Feed configured but not detected"/>
+      <Text ID="10768" Value="Manual Feed detected but not configured"/>
+      <Text ID="10769" Value="Option (Manual Feed) changed. PLC restart required"/>
+      <Text ID="11949" Value="Inverter Thermofault"/>
+      <Text ID="11950" Value="Inverter Error"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value="Connection Error Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="2154" Value=""/>
+      <Text ID="2155" Value=""/>
+      <Text ID="2156" Value=""/>
+      <Text ID="2760" Value=""/>
+      <Text ID="2772" Value=""/>
+      <Text ID="9180" Value=""/>
+      <Text ID="9181" Value=""/>
+      <Text ID="10728" Value=""/>
+      <Text ID="10729" Value=""/>
+      <Text ID="10730" Value=""/>
+      <Text ID="10731" Value=""/>
+      <Text ID="10768" Value=""/>
+      <Text ID="10769" Value=""/>
+      <Text ID="11949" Value=""/>
+      <Text ID="11950" Value=""/>
+      <Text ID="11951" Value=""/>
+      <Text ID="12375" Value=""/>
+      <Text ID="13650" Value="Connection Error Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="2154" Value=""/>
+      <Text ID="2155" Value=""/>
+      <Text ID="2156" Value=""/>
+      <Text ID="2760" Value=""/>
+      <Text ID="2772" Value=""/>
+      <Text ID="9180" Value=""/>
+      <Text ID="9181" Value=""/>
+      <Text ID="10728" Value=""/>
+      <Text ID="10729" Value=""/>
+      <Text ID="10730" Value=""/>
+      <Text ID="10731" Value=""/>
+      <Text ID="10768" Value=""/>
+      <Text ID="10769" Value=""/>
+      <Text ID="11949" Value=""/>
+      <Text ID="11950" Value=""/>
+      <Text ID="11951" Value=""/>
+      <Text ID="12375" Value=""/>
+      <Text ID="13650" Value=""/>
+      <Text ID="13670" Value=""/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="2154" Value="緊急停止或保險絲故障"/>
+      <Text ID="2155" Value="防護馬達開關          "/>
+      <Text ID="2156" Value="電池電量低或遺失"/>
+      <Text ID="2760" Value="主機器未運行。 "/>
+      <Text ID="2772" Value="偵測到氣壓低   "/>
+      <Text ID="9180" Value="主/從通訊失敗"/>
+      <Text ID="9181" Value="Jenway 通訊失敗"/>
+      <Text ID="10728" Value="保險絲故障"/>
+      <Text ID="10729" Value="安全蓋板打開            "/>
+      <Text ID="10730" Value="安全 Plc 錯誤"/>
+      <Text ID="10731" Value="已配置手動進料，但未偵測到"/>
+      <Text ID="10768" Value="已偵測到手動進料，但未配置"/>
+      <Text ID="10769" Value="選項（手動進料）被更改。需要重新啟動 PLC"/>
+      <Text ID="11949" Value="變頻器溫度故障"/>
+      <Text ID="11950" Value="變頻器錯誤"/>
+      <Text ID="11951" Value="24V 電源供應的保險絲故障"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value=""/>
+      <Text ID="13670" Value=""/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="2154" Value="Emergency Stop"/>
+      <Text ID="2155" Value="Protective Motor Switch          "/>
+      <Text ID="2156" Value="Battery low or missing            "/>
+      <Text ID="2760" Value="Master machine not running. "/>
+      <Text ID="2772" Value="Low air pressure detected   "/>
+      <Text ID="9180" Value="Master/Slave com failed"/>
+      <Text ID="9181" Value="Jenway com failed"/>
+      <Text ID="10728" Value="Fuse Fault"/>
+      <Text ID="10729" Value="Security-Cover open"/>
+      <Text ID="10730" Value="Safety Plc Error"/>
+      <Text ID="10731" Value="Manual Feed configured but not detected"/>
+      <Text ID="10768" Value="Manual Feed detected but not configured"/>
+      <Text ID="10769" Value="Option (Manual Feed) changed. PLC restart required"/>
+      <Text ID="11949" Value="Inverter Thermofault"/>
+      <Text ID="11950" Value="Inverter Error"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value=""/>
+      <Text ID="13670" Value=""/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="2154" Value="Emergency Stop"/>
+      <Text ID="2155" Value="Protective Motor Switch          "/>
+      <Text ID="2156" Value="Battery low or missing            "/>
+      <Text ID="2760" Value="Master machine not running. "/>
+      <Text ID="2772" Value="Low air pressure detected   "/>
+      <Text ID="9180" Value="Master/Slave com failed"/>
+      <Text ID="9181" Value="Jenway com failed"/>
+      <Text ID="10728" Value="Fuse Fault"/>
+      <Text ID="10729" Value="Security-Cover open"/>
+      <Text ID="10730" Value="Safety Plc Error"/>
+      <Text ID="10731" Value="Manual Feed configured but not detected"/>
+      <Text ID="10768" Value="Manual Feed detected but not configured"/>
+      <Text ID="10769" Value="Option (Manual Feed) changed. PLC restart required"/>
+      <Text ID="11949" Value="Inverter Thermofault"/>
+      <Text ID="11950" Value="Inverter Error"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value=""/>
+      <Text ID="13670" Value=""/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="2154" Value="Nødstopp"/>
+      <Text ID="2155" Value="Motorvernbryter"/>
+      <Text ID="2156" Value="Batteri tomt eller fjernet"/>
+      <Text ID="2760" Value="Master Maskin kjører ikke"/>
+      <Text ID="2772" Value="Lufttrykk for lavt"/>
+      <Text ID="9180" Value="Master/Slave kommuniokasjon feilet"/>
+      <Text ID="9181" Value="Jenway kommunikasjon feilet"/>
+      <Text ID="10728" Value="Fuse Fault"/>
+      <Text ID="10729" Value="sikkerhetsdeksel åpent"/>
+      <Text ID="10730" Value="Safety Plc Error"/>
+      <Text ID="10731" Value="Manual Feed configured but not detected"/>
+      <Text ID="10768" Value="Manual Feed detected but not configured"/>
+      <Text ID="10769" Value="Option (Manual Feed) changed. PLC restart required"/>
+      <Text ID="11949" Value="Inverter Thermofault"/>
+      <Text ID="11950" Value="Inverter Error"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value="Koblingsfeil Metricon"/>
+      <Text ID="13670" Value="Press reset emergency"/>
+      <Text ID="13690" Value="Jenway Blokkert"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="2154" Value="Paragem de emergência ou falha de fusível"/>
+      <Text ID="2155" Value="Interruptor protetor do motor          "/>
+      <Text ID="2156" Value="Battery low or missing            "/>
+      <Text ID="2760" Value="Máquina principal parada. "/>
+      <Text ID="2772" Value="Baixa pressão de ar detetada   "/>
+      <Text ID="9180" Value="Com. principal/secundário falhou"/>
+      <Text ID="9181" Value="Com. com a Jenway falhada"/>
+      <Text ID="10728" Value="Falha de fusível"/>
+      <Text ID="10729" Value="Tampa de segurança aberta            "/>
+      <Text ID="10730" Value="Safety Plc Error"/>
+      <Text ID="10731" Value="Alimentação manual configurada mas não detetada"/>
+      <Text ID="10768" Value="Alimentação manual detetada mas não configurada"/>
+      <Text ID="10769" Value="Opção (Alimentação manual) alterada. Necessário reinício do CLP"/>
+      <Text ID="11949" Value="Falha térmica no inversor"/>
+      <Text ID="11950" Value="Inverter Error"/>
+      <Text ID="11951" Value="Fuse Fault 24V Supply"/>
+      <Text ID="12375" Value="Fuse Fault Cross Conveyor"/>
+      <Text ID="13650" Value=""/>
+      <Text ID="13670" Value=""/>
+      <Text ID="13690" Value="Jenway blocked"/>
+      <Text ID="13011" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="2154" Value="0"/>
+      <Index ID="2155" Value="1"/>
+      <Index ID="2156" Value="2"/>
+      <Index ID="2760" Value="4"/>
+      <Index ID="2772" Value="16"/>
+      <Index ID="9180" Value="14"/>
+      <Index ID="9181" Value="17"/>
+      <Index ID="10728" Value="3"/>
+      <Index ID="10729" Value="5"/>
+      <Index ID="10730" Value="6"/>
+      <Index ID="10731" Value="11"/>
+      <Index ID="10768" Value="12"/>
+      <Index ID="10769" Value="10"/>
+      <Index ID="11949" Value="7"/>
+      <Index ID="11950" Value="8"/>
+      <Index ID="11951" Value="9"/>
+      <Index ID="12375" Value="18"/>
+      <Index ID="13650" Value="19"/>
+      <Index ID="13670" Value="20"/>
+      <Index ID="13690" Value="13"/>
+      <Index ID="13011" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

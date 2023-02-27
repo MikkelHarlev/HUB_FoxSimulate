@@ -1,0 +1,25 @@
+VAR
+	connectionDetails : connectionDetails_type;
+	connectionHMI : ARRAY[0..4] OF connectionHMI_type;
+	connectionPage : USINT;
+	connectionPageChanged : BOOL;
+	serverIPSegments : ARRAY[0..3] OF USINT;
+	invalidConnectionID : BOOL;
+	pHMIHandler : REFERENCE TO HMITaskInterface_Type;
+	oldInput : USINT;
+	(*tmpStr : STRING[20];*)
+	connectionStatus : connectionStatus_type;
+	TON_CommCheck : ARRAY[0..99] OF TON_10ms;
+	lagTimer : ARRAY[0..99] OF UDINT;
+	ICMPping_0 : IcmpPing;
+	TON_10ms_0 : TON_10ms;
+	changeValueAfter : USINT;
+	TempStr : STRING[80];
+	OldstatusRefreshRate : UDINT;
+	TempStrFinal : STRING[80];
+	connectionPageCount : USINT;
+	newavailableConnections : USINT;
+	sysNoSetting : USINT;
+	isExternalConnected : ARRAY[0..100] OF BOOL := [101(0)];
+	Test : ARRAY[0..10] OF BOOL := [11(0)];
+END_VAR

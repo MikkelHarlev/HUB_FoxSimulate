@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PageHeader_Text">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="19"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002004" Name="DefaultHeader">
+      <Property Name="Datapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[PageHeader_Text]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3884" Value="Recipe Edit"/>
+    <Text ID="3885" Value="Recipe Select"/>
+    <Text ID="3886" Value="Customer and Article List Select"/>
+    <Text ID="3887" Value="Customer and Article List Edit"/>
+    <Text ID="3888" Value="Machine Configuration Edit"/>
+    <Text ID="3889" Value="Machine Configuration Select"/>
+    <Text ID="3890" Value="Hardware Configuration Edit"/>
+    <Text ID="3891" Value="Hardware Configuration Select"/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="I/O Trace Configuration"/>
+    <Text ID="3899" Value="I/O Trace Graph"/>
+    <Text ID="3900" Value="PLC Logbook"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3904" Value="Panel Operator Settings"/>
+    <Text ID="3907" Value="IP Settings"/>
+    <Text ID="3908" Value="Password System"/>
+    <Text ID="3909" Value="Touch Calibrate"/>
+    <Text ID="3910" Value="Actual Alarm List"/>
+    <Text ID="3911" Value="Alarm History"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="3914" Value="Inverter Alarms"/>
+    <Text ID="3915" Value="M2M Communicaton Alarms"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Password Code"/>
+    <Text ID="10541" Value="Panel Default Settings"/>
+    <Text ID="12064" Value="Operator List"/>
+    <Text ID="13155" Value="System Main"/>
+    <Text ID="27148" Value="Operator List"/>
+    <Text ID="27149" Value="Customer&amp;Article List"/>
+    <Text ID="96530" Value="Recipe Name List"/>
+    <Text ID="98462" Value="Machine Main Page"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X bus"/>
+    <Text ID="121897" Value="Local Bus"/>
+    <Text ID="133015" Value="Inverter status"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Machine Main Page"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Stacker"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="General"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Outlet"/>
+    <Text ID="293718" Value="General"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="3884" Value="Programm editieren"/>
+    <Text ID="3885" Value="Programm auswählen"/>
+    <Text ID="3886" Value="Kunden- und Artikelliste auswählen"/>
+    <Text ID="3887" Value="Kunden- und Artikelliste editieren"/>
+    <Text ID="3888" Value="Maschinenkonfiguration Editieren"/>
+    <Text ID="3889" Value="Maschinenkonfiguration auswaehlen"/>
+    <Text ID="3890" Value="Hardware konfiguration editieren"/>
+    <Text ID="3891" Value="Hardwarekonfiguration auswaehlen"/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="Ein-/Ausgang Log Konfiguration"/>
+    <Text ID="3899" Value="Ein-/Ausgang Log Bild"/>
+    <Text ID="3900" Value="SPS Logbuch"/>
+    <Text ID="3901" Value="USB Sicherung"/>
+    <Text ID="3904" Value="Display Bediener Einstellungen"/>
+    <Text ID="3907" Value="IP-Einstellungen"/>
+    <Text ID="3908" Value="Passwort System"/>
+    <Text ID="3909" Value="Touch Kalibrierung"/>
+    <Text ID="3910" Value="Aktuelle Alarm Liste"/>
+    <Text ID="3911" Value="Alarm Logbuch"/>
+    <Text ID="3913" Value="Alarm Brücken"/>
+    <Text ID="3914" Value="Umrichter Alarme"/>
+    <Text ID="3915" Value="M2M Kommunikationsalarme"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Passwortcode"/>
+    <Text ID="10541" Value="Display Fehler Einstellungen"/>
+    <Text ID="12064" Value="Bediener Liste"/>
+    <Text ID="13155" Value="System Hauptseite"/>
+    <Text ID="27148" Value="Bediener Liste"/>
+    <Text ID="27149" Value="Kunden- &amp; Artikelliste"/>
+    <Text ID="96530" Value="Programmliste"/>
+    <Text ID="98462" Value="Hauptseite Maschine"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="IO-Status"/>
+    <Text ID="121896" Value="X2X Bus"/>
+    <Text ID="121897" Value="Lokales Bus"/>
+    <Text ID="133015" Value="Umrichter Status:"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Hauptseite Maschine"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Stapler"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="Generell"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Auslauf"/>
+    <Text ID="293718" Value="Generell"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="3884" Value="Recept edit"/>
+    <Text ID="3885" Value="Recept välj"/>
+    <Text ID="3886" Value="Kund och artikellista välj"/>
+    <Text ID="3887" Value="Kund och artikellista edit"/>
+    <Text ID="3888" Value="Maskinkonfiguration edit"/>
+    <Text ID="3889" Value="Maskinkonfiguration val"/>
+    <Text ID="3890" Value="Hårdvarukonfiguration edit"/>
+    <Text ID="3891" Value="Hårdvarukonfiguration välj"/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="I/o trace konfiguration"/>
+    <Text ID="3899" Value="I/o trace graf"/>
+    <Text ID="3900" Value="Plc loggbok"/>
+    <Text ID="3901" Value="Usb backup"/>
+    <Text ID="3904" Value="Panelens operatörsinställningar"/>
+    <Text ID="3907" Value="Ip inställningar"/>
+    <Text ID="3908" Value="Lösenord system"/>
+    <Text ID="3909" Value="Pek kalibrering"/>
+    <Text ID="3910" Value="Aktuell larmlista"/>
+    <Text ID="3911" Value="Alarmhistoria"/>
+    <Text ID="3913" Value="Alarm bypass"/>
+    <Text ID="3914" Value="Omvandlare larm"/>
+    <Text ID="3915" Value="M2m kommunikationslarm"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Lösenordskod"/>
+    <Text ID="10541" Value="Panelens orginalinställning"/>
+    <Text ID="12064" Value="Operatörslista"/>
+    <Text ID="13155" Value="System huvud"/>
+    <Text ID="27148" Value="Operatörslista"/>
+    <Text ID="27149" Value="Kund &amp; artikellista"/>
+    <Text ID="96530" Value="Recept namnlista"/>
+    <Text ID="98462" Value="Huvudsida maskin"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="IO status"/>
+    <Text ID="121896" Value="X2X Bus"/>
+    <Text ID="121897" Value="Local Bus"/>
+    <Text ID="133015" Value="Omvandlare Status"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Huvudsida maskin"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Staplare"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="General"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Utmatning"/>
+    <Text ID="293718" Value="General"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="3884" Value="Edition programme"/>
+    <Text ID="3885" Value="Selection programme"/>
+    <Text ID="3886" Value="Selection clients&amp;articles"/>
+    <Text ID="3887" Value="Edition liste article et clients"/>
+    <Text ID="3888" Value="Edition configuration machine"/>
+    <Text ID="3889" Value="Selection configuration machine"/>
+    <Text ID="3890" Value="Edition configuration hardware"/>
+    <Text ID="3891" Value="Selection configuration hardware"/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="Configuration trace e/s"/>
+    <Text ID="3899" Value="Graphique e/s"/>
+    <Text ID="3900" Value="Ecriture Log PLC"/>
+    <Text ID="3901" Value="Sauvegarde usb"/>
+    <Text ID="3904" Value="Ecran configuration"/>
+    <Text ID="3907" Value="Configuration i.p"/>
+    <Text ID="3908" Value="Ecran mot de passe"/>
+    <Text ID="3909" Value="Calibrage ecran"/>
+    <Text ID="3910" Value="Liste alarme actuelle"/>
+    <Text ID="3911" Value="Historique alarmes"/>
+    <Text ID="3913" Value="Alarme Bypass"/>
+    <Text ID="3914" Value="Alarmes Variateur"/>
+    <Text ID="3915" Value="Alarme Communicaton M2M"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Ecran mot de passe"/>
+    <Text ID="10541" Value="Ecran configuration"/>
+    <Text ID="12064" Value="Liste Operateurs"/>
+    <Text ID="13155" Value="Menu Système"/>
+    <Text ID="27148" Value="Liste Operateurs"/>
+    <Text ID="27149" Value="Liste Client &amp; Article"/>
+    <Text ID="96530" Value="Liste noms programmes"/>
+    <Text ID="98462" Value="PAGE PRINCIPALE"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="Etat E/S"/>
+    <Text ID="121896" Value="Bus X2X"/>
+    <Text ID="121897" Value="Bus local"/>
+    <Text ID="133015" Value="Statut Variateur"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="PAGE PRINCIPALE"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Empileur"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="General"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Sortie"/>
+    <Text ID="293718" Value="General"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="3884" Value="Kategori redigering"/>
+    <Text ID="3885" Value="Kategori valg"/>
+    <Text ID="3886" Value="Kunde- &amp; Artikelliste valg"/>
+    <Text ID="3887" Value="Kunde- &amp; Artikelliste Edit"/>
+    <Text ID="3888" Value="Maskin Konfiguration redigering"/>
+    <Text ID="3889" Value="Maskin Konfiguration valg"/>
+    <Text ID="3890" Value="Hardware Konfiguration redigering"/>
+    <Text ID="3891" Value="Hardware Konfiguration valg"/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="I/O Trace Konfiguration"/>
+    <Text ID="3899" Value="I/O Trace Graf"/>
+    <Text ID="3900" Value="PLC Logbog"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3904" Value="Operatør indstillinger panel"/>
+    <Text ID="3907" Value="IP Indstillinger"/>
+    <Text ID="3908" Value="Kodeordssystem"/>
+    <Text ID="3909" Value="Touch kalibrering"/>
+    <Text ID="3910" Value="Aktuel Alarm Liste"/>
+    <Text ID="3911" Value="Alarm Historik"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="3914" Value="Inverter alarmer"/>
+    <Text ID="3915" Value="M2M Kommunikations Alarmer"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Kodeords kode"/>
+    <Text ID="10541" Value="Standard indstillinger panel"/>
+    <Text ID="12064" Value="Operatør Liste"/>
+    <Text ID="13155" Value="System-Hoved"/>
+    <Text ID="27148" Value="Operatør Liste"/>
+    <Text ID="27149" Value="Kunde- &amp; Artikelliste"/>
+    <Text ID="96530" Value="Kategori liste"/>
+    <Text ID="98462" Value="Maskin Hovedside"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="IO status"/>
+    <Text ID="121896" Value="X2X Bus"/>
+    <Text ID="121897" Value="Local Bus"/>
+    <Text ID="133015" Value="Omformer Status:"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Maskin Hovedside"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Stakker"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="Generel"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Udløb"/>
+    <Text ID="293718" Value="Generel"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="3884" Value="Modifica Categoria"/>
+    <Text ID="3885" Value="Seleziona Categoria"/>
+    <Text ID="3886" Value="Selezione Lista clienti e articoli"/>
+    <Text ID="3887" Value="Elaborazione Lista clienti e articoli"/>
+    <Text ID="3888" Value="Elaborazione configurazione macchina"/>
+    <Text ID="3889" Value="Selezione configurazione macchina"/>
+    <Text ID="3890" Value="Conf. Hardware Modifica"/>
+    <Text ID="3891" Value="Conf. Hardware Selez."/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="I/O traccia configurazione"/>
+    <Text ID="3899" Value="I/O traccia grafico"/>
+    <Text ID="3900" Value="PLC Elenco Errori"/>
+    <Text ID="3901" Value="BACKUP USB"/>
+    <Text ID="3904" Value="Impostazioni Operative Pannello"/>
+    <Text ID="3907" Value="Impost. IP"/>
+    <Text ID="3908" Value="Sistema password"/>
+    <Text ID="3909" Value="Tocco calibrazione"/>
+    <Text ID="3910" Value="Attuale lista Allarmi"/>
+    <Text ID="3911" Value="Storico allarme"/>
+    <Text ID="3913" Value="Allarme by-pass"/>
+    <Text ID="3914" Value="Allarme inverter"/>
+    <Text ID="3915" Value="M2M Allarme Comunicazione"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Codice password"/>
+    <Text ID="10541" Value="Impostazioni Predef. Pannello"/>
+    <Text ID="12064" Value="Lista operatore"/>
+    <Text ID="13155" Value="Sistema principale"/>
+    <Text ID="27148" Value="Lista operatore"/>
+    <Text ID="27149" Value="Lista articoli e clienti"/>
+    <Text ID="96530" Value="Lista Nomi Categorie"/>
+    <Text ID="98462" Value="Pagina principale macchina"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="IO stato"/>
+    <Text ID="121896" Value="X2X Bus"/>
+    <Text ID="121897" Value="Local Bus"/>
+    <Text ID="133015" Value="Stato Inverter :"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Pagina principale macchina"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Accatastatore:"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="Generale"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Uscita"/>
+    <Text ID="293718" Value="Generale"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="3884" Value="Reseptin muokkaus"/>
+    <Text ID="3885" Value="Reseptin valinta"/>
+    <Text ID="3886" Value="Asiakas ja Kappalelistan valinta"/>
+    <Text ID="3887" Value="Asiakas ja Kappalelistan muokkaus"/>
+    <Text ID="3888" Value="Koneen konfigurointi muokkaus"/>
+    <Text ID="3889" Value="Koneen konfigurointi valinta"/>
+    <Text ID="3890" Value="Laitteisto Määritys Muokkaus"/>
+    <Text ID="3891" Value="Laitteisto Määritys Valinta"/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="I/O polku määritys"/>
+    <Text ID="3899" Value="I/O polku grafiikka"/>
+    <Text ID="3900" Value="PLC lokokirja"/>
+    <Text ID="3901" Value="USB varmuuskopio"/>
+    <Text ID="3904" Value="Paneelin käyttäjä asetukset"/>
+    <Text ID="3907" Value="IP asetukset"/>
+    <Text ID="3908" Value="Salasana järjestemä:"/>
+    <Text ID="3909" Value="Kosketuskalibrointi"/>
+    <Text ID="3910" Value="Hälytyslista"/>
+    <Text ID="3911" Value="Hälytyshistoria"/>
+    <Text ID="3913" Value="Hälytyksen ohitus"/>
+    <Text ID="3914" Value="Taajuusmuunnin hälytykset"/>
+    <Text ID="3915" Value="M2M kommunikointi häiriöt"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Salasana koodi:"/>
+    <Text ID="10541" Value="Paneelin oletus asetukset"/>
+    <Text ID="12064" Value="Käyttäjälista"/>
+    <Text ID="13155" Value="Järjestelmä Päävalikko"/>
+    <Text ID="27148" Value="Käyttäjälista"/>
+    <Text ID="27149" Value="Asiakas&amp;Tuotelista"/>
+    <Text ID="96530" Value="Reseptinimilista"/>
+    <Text ID="98462" Value="Kone pääsivu"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="IO status"/>
+    <Text ID="121896" Value="X2X Bus"/>
+    <Text ID="121897" Value="Local Bus"/>
+    <Text ID="133015" Value="Taajuusmuunnin tila:"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Kone pääsivu"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Niputtaja"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="General"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Ulostulo"/>
+    <Text ID="293718" Value="General"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="3884" Value="Programma Editeren"/>
+    <Text ID="3885" Value="Programma Selecteren"/>
+    <Text ID="3886" Value="Klant en Artikel List Selecteren"/>
+    <Text ID="3887" Value="Klant en Artikel Lijst Editeren"/>
+    <Text ID="3888" Value="Machine Configuratie editeren"/>
+    <Text ID="3889" Value="Machine Configuratie selecteren"/>
+    <Text ID="3890" Value="Hardware Configuratie editeren"/>
+    <Text ID="3891" Value="Hardware Configuratie Selecteren"/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="I/O Opsporen Configuratie"/>
+    <Text ID="3899" Value="I/O Opsporen Grafisch"/>
+    <Text ID="3900" Value="PLC Logboek"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3904" Value="Paneel Bediener instellingen"/>
+    <Text ID="3907" Value="IP Instellingen"/>
+    <Text ID="3908" Value="Paswoord Systeem"/>
+    <Text ID="3909" Value="Touch Calibreren"/>
+    <Text ID="3910" Value="Actuele alarmlijst"/>
+    <Text ID="3911" Value="Alarm geschiedenis"/>
+    <Text ID="3913" Value="Alarm Doorloop"/>
+    <Text ID="3914" Value="Frequentieregelaar Alarm"/>
+    <Text ID="3915" Value="M2M Communicatie Fouten"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Paswoord Code:"/>
+    <Text ID="10541" Value="Paneel Algemene instellingen"/>
+    <Text ID="12064" Value="Bediener Lijst"/>
+    <Text ID="13155" Value="Systeem Hoofd"/>
+    <Text ID="27148" Value="Bediener Lijst"/>
+    <Text ID="27149" Value="Klant&amp;Artikel Lijst"/>
+    <Text ID="96530" Value="Programma Naam Lijst"/>
+    <Text ID="98462" Value="Machine Hoofd pagina"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="IO status"/>
+    <Text ID="121896" Value="X2X Bus"/>
+    <Text ID="121897" Value="Local Bus"/>
+    <Text ID="133015" Value="Frequentieregelaar status:"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Machine Hoofd pagina"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Stapelaar:"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="General"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Uitvoer"/>
+    <Text ID="293718" Value="General"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="3884" Value="Editar programa"/>
+    <Text ID="3885" Value="Seleccionar programa"/>
+    <Text ID="3886" Value="Seleccionar listado Cliente y Artículo"/>
+    <Text ID="3887" Value="Editar listado Cliente y Artículo"/>
+    <Text ID="3888" Value="Configuración de máquina, Editar"/>
+    <Text ID="3889" Value="Configuración de máquina, Seleccionar"/>
+    <Text ID="3890" Value="Editar configuración de Hardware"/>
+    <Text ID="3891" Value="Seleccionar configuración de Hardware"/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="Configuración de rastreo  I/O entrada/salida"/>
+    <Text ID="3899" Value="Gráfico de rastreo  I/O entrada/salida"/>
+    <Text ID="3900" Value="Libro de registro de PLC"/>
+    <Text ID="3901" Value="Copia de seguridad USB"/>
+    <Text ID="3904" Value="Panel de ajustes de Operario"/>
+    <Text ID="3907" Value="Ajustes de IP"/>
+    <Text ID="3908" Value="Contraseña de sistema"/>
+    <Text ID="3909" Value="Graduar toque"/>
+    <Text ID="3910" Value="Listado alarma actual"/>
+    <Text ID="3911" Value="Historial de Alarma"/>
+    <Text ID="3913" Value="Alarma bypass"/>
+    <Text ID="3914" Value="Alarmas de inversor"/>
+    <Text ID="3915" Value="M2M Alarmas de comunicación"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Código de contraseña"/>
+    <Text ID="10541" Value="Panel de ajustes por defecto"/>
+    <Text ID="12064" Value="Lista de operarios"/>
+    <Text ID="13155" Value="Sistema principal"/>
+    <Text ID="27148" Value="Lista de operarios"/>
+    <Text ID="27149" Value="Listado Cliente y Artículo"/>
+    <Text ID="96530" Value="Lista de nombres de programas"/>
+    <Text ID="98462" Value="Página principal de máquina"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="IO status"/>
+    <Text ID="121896" Value="X2X Bus"/>
+    <Text ID="121897" Value="Local Bus"/>
+    <Text ID="133015" Value="Estado de inversor"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Página principal de máquina"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Apilador"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="General"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Salida"/>
+    <Text ID="293718" Value="General"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="3884" Value="Opis edycji"/>
+    <Text ID="3885" Value="Opis Wyboru"/>
+    <Text ID="3886" Value="Lista wyboru artykułu i Klienta "/>
+    <Text ID="3887" Value="Lista edycyjna artykułów i Klienta "/>
+    <Text ID="3888" Value="Maszyna w edycji konfiguracyjnej"/>
+    <Text ID="3889" Value="Maszyna w Wyborez konfiguracji"/>
+    <Text ID="3890" Value="Edycja konfiguracji hardweru"/>
+    <Text ID="3891" Value="Wybór konfiguracji hardweru"/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="I/O Konfiguracja trasy"/>
+    <Text ID="3899" Value="I/O Grafika trasy"/>
+    <Text ID="3900" Value="PLC rejestr"/>
+    <Text ID="3901" Value="USB zapis (kopia)"/>
+    <Text ID="3904" Value="Panel ustawień Operatora"/>
+    <Text ID="3907" Value="IP Ustawienie"/>
+    <Text ID="3908" Value="Hasło systemu"/>
+    <Text ID="3909" Value="Kalibracja dotykowa"/>
+    <Text ID="3910" Value="Aktualna lista alarmów"/>
+    <Text ID="3911" Value="Historia Alarmów"/>
+    <Text ID="3913" Value="Ominięcie Alarmu"/>
+    <Text ID="3914" Value="Alarm Inwertera"/>
+    <Text ID="3915" Value="M2M Alarm Komunikacji"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Hasło kodu:"/>
+    <Text ID="10541" Value="Panel ustawień domyślnych"/>
+    <Text ID="12064" Value="Wykaz operatorów"/>
+    <Text ID="13155" Value="System Główny"/>
+    <Text ID="27148" Value="Wykaz operatorów"/>
+    <Text ID="27149" Value="Klient i Lista artykułów "/>
+    <Text ID="96530" Value="Opis list nazwisk (nazw)"/>
+    <Text ID="98462" Value="Maszyna Główna Strona"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="IO status"/>
+    <Text ID="121896" Value="X2X Bus"/>
+    <Text ID="121897" Value="Local Bus"/>
+    <Text ID="133015" Value="Stan inwertera:"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Maszyna Główna Strona"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Sztaplarka:"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="General"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Wylot"/>
+    <Text ID="293718" Value="General"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="3884" Value="Редактирование Программы"/>
+    <Text ID="3885" Value="Выбор Программы"/>
+    <Text ID="3886" Value="Выбор Списка Клиентов и Изделий"/>
+    <Text ID="3887" Value="Редактирование Списка Клиентов и Изделий"/>
+    <Text ID="3888" Value="Редактирование Конфигурации Машины"/>
+    <Text ID="3889" Value="Выбор Конфигурации Машины"/>
+    <Text ID="3890" Value="Редактиров. Конфигурации Оборудования"/>
+    <Text ID="3891" Value="Выбор Конфигурации Оборудования"/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="Конфигурация Пути Входа/Выхода"/>
+    <Text ID="3899" Value="Граф Пути Входа/Выхода"/>
+    <Text ID="3900" Value="Журнал ПЛК"/>
+    <Text ID="3901" Value="Резервный USB"/>
+    <Text ID="3904" Value="Установки Панели Оператора"/>
+    <Text ID="3907" Value="IP Настройки"/>
+    <Text ID="3908" Value="Система Пароля"/>
+    <Text ID="3909" Value="Калибровка касанием"/>
+    <Text ID="3910" Value="Актуальный Список Тревог"/>
+    <Text ID="3911" Value="История Тревог"/>
+    <Text ID="3913" Value="Тревога обхода"/>
+    <Text ID="3914" Value="Сигнал Преобразователя"/>
+    <Text ID="3915" Value="Предупреждение Ethernet связи"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Код Пароля"/>
+    <Text ID="10541" Value="Установки Панели по умолчанию"/>
+    <Text ID="12064" Value="Список Оператора"/>
+    <Text ID="13155" Value="Главная Система"/>
+    <Text ID="27148" Value="Список Оператора"/>
+    <Text ID="27149" Value="Список Клиентов и Изделий"/>
+    <Text ID="96530" Value="Список Названий Программ"/>
+    <Text ID="98462" Value="Главная Страница Машины:"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="Статус Входа/Выхода"/>
+    <Text ID="121896" Value="X2X Шина"/>
+    <Text ID="121897" Value="Местная шина"/>
+    <Text ID="133015" Value="Статус преобразователя"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Главная Страница Машины:"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Штабелёр"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="Общее"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Вывод"/>
+    <Text ID="293718" Value="Общее"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="3884" Value="Recipe Edit"/>
+    <Text ID="3885" Value="Recipe Select"/>
+    <Text ID="3886" Value="Customer and Article List Select"/>
+    <Text ID="3887" Value="Customer and Article List Edit"/>
+    <Text ID="3888" Value="Machine Configuration Edit"/>
+    <Text ID="3889" Value="Machine Configuration Select"/>
+    <Text ID="3890" Value="Hardware Configuration Edit"/>
+    <Text ID="3891" Value="Hardware Configuration Select"/>
+    <Text ID="3894" Value="Digital I/O State "/>
+    <Text ID="3898" Value="I/O Trace Configuration"/>
+    <Text ID="3899" Value="I/O Trace Graph"/>
+    <Text ID="3900" Value="PLC Logbook"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3904" Value="Panel Operator Settings"/>
+    <Text ID="3907" Value="IP Settings"/>
+    <Text ID="3908" Value="Password System"/>
+    <Text ID="3909" Value="Touch Calibrate"/>
+    <Text ID="3910" Value="Actual Alarm List"/>
+    <Text ID="3911" Value="Alarm History"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="3914" Value="Inverter Alarms"/>
+    <Text ID="3915" Value="M2M Communicaton Alarms"/>
+    <Text ID="4459" Value="Machine Test Page"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Password Code"/>
+    <Text ID="10541" Value="Panel Default Settings"/>
+    <Text ID="12064" Value="Operator List"/>
+    <Text ID="13155" Value="System Main"/>
+    <Text ID="27148" Value="Operator List"/>
+    <Text ID="27149" Value="Customer&amp;Article List"/>
+    <Text ID="96530" Value="Recipe Name List"/>
+    <Text ID="98462" Value="Machine Main Page"/>
+    <Text ID="102266" Value="Service Page Main"/>
+    <Text ID="102267" Value="Service Page Transfer"/>
+    <Text ID="102268" Value="Service Page Loop"/>
+    <Text ID="102270" Value="Meassure Wheel Test Page"/>
+    <Text ID="114204" Value="Digital IO force"/>
+    <Text ID="119168" Value="Option Page 5"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X bus"/>
+    <Text ID="121897" Value="Local Bus"/>
+    <Text ID="133015" Value="Inverter status"/>
+    <Text ID="137749" Value="Option Page 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Machine Main Page"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Stacker"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256700" Value="Measuring-Wheel Test"/>
+    <Text ID="256701" Value="General"/>
+    <Text ID="256728" Value="Inlet and Lateral-Folding"/>
+    <Text ID="267264" Value="Outlet"/>
+    <Text ID="293718" Value="General"/>
+    <Text ID="293719" Value="Inlet and Folding"/>
+    <Text ID="293720" Value="Stacker and Outlet"/>
+    <Text ID="293721" Value="Stacker and Outlet"/>
+    <Text ID="293722" Value="Delivery"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound machines"/>
+    <Text ID="293725" Value="Loading Conveyor"/>
+    <Text ID="331841" Value="Diagnostics XML communication"/>
+    <Text ID="331842" Value="Diagnostic Ping connected Units"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="General 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3884" Value=""/>
+    <Text ID="3885" Value=""/>
+    <Text ID="3886" Value=""/>
+    <Text ID="3887" Value=""/>
+    <Text ID="3888" Value=""/>
+    <Text ID="3889" Value=""/>
+    <Text ID="3890" Value=""/>
+    <Text ID="3891" Value=""/>
+    <Text ID="3894" Value=""/>
+    <Text ID="3898" Value=""/>
+    <Text ID="3899" Value=""/>
+    <Text ID="3900" Value=""/>
+    <Text ID="3901" Value=""/>
+    <Text ID="3904" Value=""/>
+    <Text ID="3907" Value=""/>
+    <Text ID="3908" Value=""/>
+    <Text ID="3909" Value=""/>
+    <Text ID="3910" Value=""/>
+    <Text ID="3911" Value=""/>
+    <Text ID="3913" Value=""/>
+    <Text ID="3914" Value=""/>
+    <Text ID="3915" Value=""/>
+    <Text ID="4459" Value=""/>
+    <Text ID="9417" Value=""/>
+    <Text ID="10539" Value=""/>
+    <Text ID="10541" Value=""/>
+    <Text ID="12064" Value=""/>
+    <Text ID="13155" Value=""/>
+    <Text ID="27148" Value=""/>
+    <Text ID="27149" Value=""/>
+    <Text ID="96530" Value=""/>
+    <Text ID="98462" Value=""/>
+    <Text ID="102266" Value=""/>
+    <Text ID="102267" Value=""/>
+    <Text ID="102268" Value=""/>
+    <Text ID="102270" Value=""/>
+    <Text ID="114204" Value=""/>
+    <Text ID="119168" Value=""/>
+    <Text ID="121895" Value=""/>
+    <Text ID="121896" Value=""/>
+    <Text ID="121897" Value=""/>
+    <Text ID="133015" Value=""/>
+    <Text ID="137749" Value=""/>
+    <Text ID="161704" Value=""/>
+    <Text ID="161705" Value=""/>
+    <Text ID="198166" Value=""/>
+    <Text ID="256694" Value=""/>
+    <Text ID="256695" Value=""/>
+    <Text ID="256696" Value=""/>
+    <Text ID="256697" Value=""/>
+    <Text ID="256699" Value=""/>
+    <Text ID="256700" Value=""/>
+    <Text ID="256701" Value=""/>
+    <Text ID="256728" Value=""/>
+    <Text ID="267264" Value=""/>
+    <Text ID="293718" Value=""/>
+    <Text ID="293719" Value=""/>
+    <Text ID="293720" Value=""/>
+    <Text ID="293721" Value=""/>
+    <Text ID="293722" Value=""/>
+    <Text ID="293723" Value=""/>
+    <Text ID="293724" Value=""/>
+    <Text ID="293725" Value=""/>
+    <Text ID="331841" Value=""/>
+    <Text ID="331842" Value=""/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="3884" Value=""/>
+    <Text ID="3885" Value=""/>
+    <Text ID="3886" Value=""/>
+    <Text ID="3887" Value=""/>
+    <Text ID="3888" Value=""/>
+    <Text ID="3889" Value=""/>
+    <Text ID="3890" Value=""/>
+    <Text ID="3891" Value=""/>
+    <Text ID="3894" Value=""/>
+    <Text ID="3898" Value=""/>
+    <Text ID="3899" Value=""/>
+    <Text ID="3900" Value=""/>
+    <Text ID="3901" Value=""/>
+    <Text ID="3904" Value=""/>
+    <Text ID="3907" Value=""/>
+    <Text ID="3908" Value=""/>
+    <Text ID="3909" Value=""/>
+    <Text ID="3910" Value=""/>
+    <Text ID="3911" Value=""/>
+    <Text ID="3913" Value=""/>
+    <Text ID="3914" Value=""/>
+    <Text ID="3915" Value=""/>
+    <Text ID="4459" Value=""/>
+    <Text ID="9417" Value=""/>
+    <Text ID="10539" Value=""/>
+    <Text ID="10541" Value=""/>
+    <Text ID="12064" Value=""/>
+    <Text ID="13155" Value=""/>
+    <Text ID="27148" Value=""/>
+    <Text ID="27149" Value=""/>
+    <Text ID="96530" Value=""/>
+    <Text ID="98462" Value=""/>
+    <Text ID="102266" Value=""/>
+    <Text ID="102267" Value=""/>
+    <Text ID="102268" Value=""/>
+    <Text ID="102270" Value=""/>
+    <Text ID="114204" Value=""/>
+    <Text ID="119168" Value=""/>
+    <Text ID="121895" Value=""/>
+    <Text ID="121896" Value=""/>
+    <Text ID="121897" Value=""/>
+    <Text ID="133015" Value=""/>
+    <Text ID="137749" Value=""/>
+    <Text ID="161704" Value=""/>
+    <Text ID="161705" Value=""/>
+    <Text ID="198166" Value=""/>
+    <Text ID="256694" Value=""/>
+    <Text ID="256695" Value=""/>
+    <Text ID="256696" Value=""/>
+    <Text ID="256697" Value=""/>
+    <Text ID="256699" Value=""/>
+    <Text ID="256700" Value=""/>
+    <Text ID="256701" Value=""/>
+    <Text ID="256728" Value=""/>
+    <Text ID="267264" Value=""/>
+    <Text ID="293718" Value=""/>
+    <Text ID="293719" Value=""/>
+    <Text ID="293720" Value=""/>
+    <Text ID="293721" Value=""/>
+    <Text ID="293722" Value=""/>
+    <Text ID="293723" Value=""/>
+    <Text ID="293724" Value=""/>
+    <Text ID="293725" Value=""/>
+    <Text ID="331841" Value=""/>
+    <Text ID="331842" Value=""/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="3884" Value=""/>
+    <Text ID="3885" Value=""/>
+    <Text ID="3886" Value=""/>
+    <Text ID="3887" Value=""/>
+    <Text ID="3888" Value=""/>
+    <Text ID="3889" Value=""/>
+    <Text ID="3890" Value=""/>
+    <Text ID="3891" Value=""/>
+    <Text ID="3894" Value=""/>
+    <Text ID="3898" Value=""/>
+    <Text ID="3899" Value=""/>
+    <Text ID="3900" Value=""/>
+    <Text ID="3901" Value=""/>
+    <Text ID="3904" Value=""/>
+    <Text ID="3907" Value=""/>
+    <Text ID="3908" Value=""/>
+    <Text ID="3909" Value=""/>
+    <Text ID="3910" Value=""/>
+    <Text ID="3911" Value=""/>
+    <Text ID="3913" Value=""/>
+    <Text ID="3914" Value=""/>
+    <Text ID="3915" Value=""/>
+    <Text ID="4459" Value=""/>
+    <Text ID="9417" Value=""/>
+    <Text ID="10539" Value=""/>
+    <Text ID="10541" Value=""/>
+    <Text ID="12064" Value=""/>
+    <Text ID="13155" Value=""/>
+    <Text ID="27148" Value=""/>
+    <Text ID="27149" Value=""/>
+    <Text ID="96530" Value=""/>
+    <Text ID="98462" Value=""/>
+    <Text ID="102266" Value=""/>
+    <Text ID="102267" Value=""/>
+    <Text ID="102268" Value=""/>
+    <Text ID="102270" Value=""/>
+    <Text ID="114204" Value=""/>
+    <Text ID="119168" Value=""/>
+    <Text ID="121895" Value=""/>
+    <Text ID="121896" Value=""/>
+    <Text ID="121897" Value=""/>
+    <Text ID="133015" Value=""/>
+    <Text ID="137749" Value=""/>
+    <Text ID="161704" Value=""/>
+    <Text ID="161705" Value=""/>
+    <Text ID="198166" Value=""/>
+    <Text ID="256694" Value=""/>
+    <Text ID="256695" Value=""/>
+    <Text ID="256696" Value=""/>
+    <Text ID="256697" Value=""/>
+    <Text ID="256699" Value=""/>
+    <Text ID="256700" Value=""/>
+    <Text ID="256701" Value=""/>
+    <Text ID="256728" Value=""/>
+    <Text ID="267264" Value=""/>
+    <Text ID="293718" Value=""/>
+    <Text ID="293719" Value=""/>
+    <Text ID="293720" Value=""/>
+    <Text ID="293721" Value=""/>
+    <Text ID="293722" Value=""/>
+    <Text ID="293723" Value=""/>
+    <Text ID="293724" Value=""/>
+    <Text ID="293725" Value=""/>
+    <Text ID="331841" Value=""/>
+    <Text ID="331842" Value=""/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="3884" Value="Editer Program"/>
+    <Text ID="3885" Value="Program valg"/>
+    <Text ID="3886" Value="Kude og artikkel liste valg"/>
+    <Text ID="3887" Value="Editere Kunde og artikkel liste"/>
+    <Text ID="3888" Value="Editere maskin konfigurasjon"/>
+    <Text ID="3889" Value="Maskinkonfigurering, velg"/>
+    <Text ID="3890" Value="Editere HW konfigurasjon"/>
+    <Text ID="3891" Value="Maskinvarekonfigurering, velg"/>
+    <Text ID="3894" Value="Digital I/O-status"/>
+    <Text ID="3898" Value="I/O Sporings konfigurasjon"/>
+    <Text ID="3899" Value="I/O Sporingsgraf"/>
+    <Text ID="3900" Value="PLC Logbook"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3904" Value="Panel operatørinnstillinger"/>
+    <Text ID="3907" Value="IP Innstillinger"/>
+    <Text ID="3908" Value="Passord System"/>
+    <Text ID="3909" Value="Touch kalibrering"/>
+    <Text ID="3910" Value="Liste over aktuelle Alarmer"/>
+    <Text ID="3911" Value="Alarm Historie"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="3914" Value="Inverter-alarmer"/>
+    <Text ID="3915" Value="M2M kommunikasjonsalarmer"/>
+    <Text ID="4459" Value="Maskin test side"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Passord Kode"/>
+    <Text ID="10541" Value="Default Panel innstillinger"/>
+    <Text ID="12064" Value="Operatør liste"/>
+    <Text ID="13155" Value="System Hoved"/>
+    <Text ID="27148" Value="Operatør liste"/>
+    <Text ID="27149" Value="Kunde&amp;Artikkel Liste"/>
+    <Text ID="96530" Value="Program, navneliste"/>
+    <Text ID="98462" Value="Maskin Hovedside"/>
+    <Text ID="102266" Value="Serviceside hoved"/>
+    <Text ID="102267" Value="Serviceside overføring"/>
+    <Text ID="102268" Value="Serviceside sløyfe"/>
+    <Text ID="102270" Value="Målehjul test side"/>
+    <Text ID="114204" Value="Digital IO-kraft"/>
+    <Text ID="119168" Value="Alternativ side 5"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X Buss"/>
+    <Text ID="121897" Value="Lokal Bus"/>
+    <Text ID="133015" Value="Inverter Status"/>
+    <Text ID="137749" Value="Alternativ side 4"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page"/>
+    <Text ID="198166" Value="Maskin Hovedside"/>
+    <Text ID="256694" Value="Kryssfold A"/>
+    <Text ID="256695" Value="Kryssfold: Oversikt"/>
+    <Text ID="256696" Value="Kryssfold B"/>
+    <Text ID="256697" Value="Stacker"/>
+    <Text ID="256699" Value="Transport"/>
+    <Text ID="256700" Value="Målehjul test"/>
+    <Text ID="256701" Value="Generellt"/>
+    <Text ID="256728" Value="Innløp og bretting på langs"/>
+    <Text ID="267264" Value="Utløp"/>
+    <Text ID="293718" Value="Generellt"/>
+    <Text ID="293719" Value="Innløp og bretting"/>
+    <Text ID="293720" Value="Stacker og utløp"/>
+    <Text ID="293721" Value="Stacker og utløp"/>
+    <Text ID="293722" Value="Transport"/>
+    <Text ID="293723" Value="Jenway"/>
+    <Text ID="293724" Value="Compound maskiner"/>
+    <Text ID="293725" Value="Fylling conveyor"/>
+    <Text ID="331841" Value="Diagnostisk XML-kommunikasjon"/>
+    <Text ID="331842" Value="Enheter tilkoblet diagnoseping"/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value="Generelt 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="3884" Value=""/>
+    <Text ID="3885" Value=""/>
+    <Text ID="3886" Value=""/>
+    <Text ID="3887" Value=""/>
+    <Text ID="3888" Value=""/>
+    <Text ID="3889" Value=""/>
+    <Text ID="3890" Value=""/>
+    <Text ID="3891" Value=""/>
+    <Text ID="3894" Value=""/>
+    <Text ID="3898" Value=""/>
+    <Text ID="3899" Value=""/>
+    <Text ID="3900" Value=""/>
+    <Text ID="3901" Value=""/>
+    <Text ID="3904" Value=""/>
+    <Text ID="3907" Value=""/>
+    <Text ID="3908" Value=""/>
+    <Text ID="3909" Value=""/>
+    <Text ID="3910" Value=""/>
+    <Text ID="3911" Value=""/>
+    <Text ID="3913" Value=""/>
+    <Text ID="3914" Value=""/>
+    <Text ID="3915" Value=""/>
+    <Text ID="4459" Value=""/>
+    <Text ID="9417" Value=""/>
+    <Text ID="10539" Value=""/>
+    <Text ID="10541" Value=""/>
+    <Text ID="12064" Value=""/>
+    <Text ID="13155" Value=""/>
+    <Text ID="27148" Value=""/>
+    <Text ID="27149" Value=""/>
+    <Text ID="96530" Value=""/>
+    <Text ID="98462" Value=""/>
+    <Text ID="102266" Value=""/>
+    <Text ID="102267" Value=""/>
+    <Text ID="102268" Value=""/>
+    <Text ID="102270" Value=""/>
+    <Text ID="114204" Value=""/>
+    <Text ID="119168" Value=""/>
+    <Text ID="121895" Value=""/>
+    <Text ID="121896" Value=""/>
+    <Text ID="121897" Value=""/>
+    <Text ID="133015" Value=""/>
+    <Text ID="137749" Value=""/>
+    <Text ID="161704" Value=""/>
+    <Text ID="161705" Value=""/>
+    <Text ID="198166" Value=""/>
+    <Text ID="256694" Value=""/>
+    <Text ID="256695" Value=""/>
+    <Text ID="256696" Value=""/>
+    <Text ID="256697" Value=""/>
+    <Text ID="256699" Value=""/>
+    <Text ID="256700" Value=""/>
+    <Text ID="256701" Value=""/>
+    <Text ID="256728" Value=""/>
+    <Text ID="267264" Value=""/>
+    <Text ID="293718" Value=""/>
+    <Text ID="293719" Value=""/>
+    <Text ID="293720" Value=""/>
+    <Text ID="293721" Value=""/>
+    <Text ID="293722" Value=""/>
+    <Text ID="293723" Value=""/>
+    <Text ID="293724" Value=""/>
+    <Text ID="293725" Value=""/>
+    <Text ID="331841" Value=""/>
+    <Text ID="331842" Value=""/>
+    <Text ID="336466" Value=""/>
+    <Text ID="336467" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3884" Value="100"/>
+    <Index ID="3885" Value="101"/>
+    <Index ID="3886" Value="111"/>
+    <Index ID="3887" Value="110"/>
+    <Index ID="3888" Value="120"/>
+    <Index ID="3889" Value="121"/>
+    <Index ID="3890" Value="140"/>
+    <Index ID="3891" Value="141"/>
+    <Index ID="3894" Value="200"/>
+    <Index ID="3898" Value="215"/>
+    <Index ID="3899" Value="216"/>
+    <Index ID="3900" Value="220"/>
+    <Index ID="3901" Value="230"/>
+    <Index ID="3904" Value="301"/>
+    <Index ID="3907" Value="330"/>
+    <Index ID="3908" Value="310"/>
+    <Index ID="3909" Value="340"/>
+    <Index ID="3910" Value="400"/>
+    <Index ID="3911" Value="410"/>
+    <Index ID="3913" Value="430"/>
+    <Index ID="3914" Value="440"/>
+    <Index ID="3915" Value="450"/>
+    <Index ID="4459" Value="500"/>
+    <Index ID="9417" Value="0"/>
+    <Index ID="10539" Value="311"/>
+    <Index ID="10541" Value="300"/>
+    <Index ID="12064" Value="130"/>
+    <Index ID="13155" Value="99"/>
+    <Index ID="27148" Value="51"/>
+    <Index ID="27149" Value="52"/>
+    <Index ID="96530" Value="50"/>
+    <Index ID="98462" Value="1"/>
+    <Index ID="102266" Value="550"/>
+    <Index ID="102267" Value="553"/>
+    <Index ID="102268" Value="552"/>
+    <Index ID="102270" Value="518"/>
+    <Index ID="114204" Value="210"/>
+    <Index ID="119168" Value="555"/>
+    <Index ID="121895" Value="202"/>
+    <Index ID="121896" Value="206"/>
+    <Index ID="121897" Value="205"/>
+    <Index ID="133015" Value="460"/>
+    <Index ID="137749" Value="554"/>
+    <Index ID="161704" Value="2"/>
+    <Index ID="161705" Value="20"/>
+    <Index ID="198166" Value="3"/>
+    <Index ID="256694" Value="523"/>
+    <Index ID="256695" Value="522"/>
+    <Index ID="256696" Value="524"/>
+    <Index ID="256697" Value="525"/>
+    <Index ID="256699" Value="527"/>
+    <Index ID="256700" Value="519"/>
+    <Index ID="256701" Value="528"/>
+    <Index ID="256728" Value="521"/>
+    <Index ID="267264" Value="526"/>
+    <Index ID="293718" Value="600"/>
+    <Index ID="293719" Value="602"/>
+    <Index ID="293720" Value="603"/>
+    <Index ID="293721" Value="604"/>
+    <Index ID="293722" Value="605"/>
+    <Index ID="293723" Value="606"/>
+    <Index ID="293724" Value="607"/>
+    <Index ID="293725" Value="608"/>
+    <Index ID="331841" Value="541"/>
+    <Index ID="331842" Value="545"/>
+    <Index ID="336466" Value="4"/>
+    <Index ID="336467" Value="601"/>
+  </IndexMap>
+</TextGroup>

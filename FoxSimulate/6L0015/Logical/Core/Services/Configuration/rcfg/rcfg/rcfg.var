@@ -1,0 +1,98 @@
+VAR
+	RVariableEdited : BOOL := FALSE;
+	TON_VisiEnable : TON := (0);
+	RShowLevelOld : USINT := 0;
+	RDontNotify : BOOL := FALSE;
+	ClearString : UINT;
+	cmdAsk : USINT;
+	cmdCancel : BOOL;
+	cmdCopyTimerToAllRcp : BOOL;
+	cmdUpdateRcpAuto : BOOL;
+	cmdUpdateRcpOrg : BOOL;
+	Completion_CfgDestBegin : BOOL;
+	Completion_CfgDestEnd : BOOL;
+	CycleCount : USINT;
+	CycleScroll : USINT;
+	ElementsInArray : UINT;
+	ErrStrLen : UINT;
+	HmiAuto : BOOL;
+	LastLanguage : UINT;
+	cmdSelectRecipe : BOOL;
+	ShowRecipeSelect : BOOL;
+	CurrentRecipeName : STRING[41];
+END_VAR
+VAR CONSTANT
+	NAME_CFG_DEVICE : STRING[20] := 'rcfg';
+END_VAR
+VAR
+	NameFieldStructure : STRING[80];
+	NameStructure : STRING[80];
+	NewStatusString : USINT;
+	NewStatusString_Time : UDINT;
+	OldRcpNo : UINT;
+	OrgRcp : UINT;
+END_VAR
+VAR CONSTANT
+	PAGE_ID_STAT_RCP : USINT := 170;
+END_VAR
+VAR
+	PageRecipeEdit : UINT;
+	PageRecipieSelect : UINT;
+	ParScroCyclic_0 : ParScroCyclic;
+	ParScroInit_0 : ParScroInit;
+	RCfg : Cfg_Type;
+	Rcp_Select : USINT;
+	RcpAdd_0 : RcpAdd;
+	RcpCopy_0 : RcpCopy;
+	RcpDirList_0 : RcpDirList;
+	RcpFileListScroll_0 : RcpFileListScroll;
+	RcpGetNames_0 : RcpGetNames;
+	RcpInit_0 : RcpInit;
+	RcpLoad_0 : RcpLoad;
+	RcpNameList_0 : RcpNameList;
+	RcpSave_0 : RcpSave;
+	RCycleCount : UDINT;
+END_VAR
+VAR CONSTANT
+	RECIPE_CHECK_FOR_COMMAND : USINT := 1;
+	RECIPE_CLEAR_ERROR_STRINGS : USINT := 12;
+	RECIPE_COPY : USINT := 8;
+	RECIPE_DIR_LIST : USINT := 10;
+	RECIPE_DIRLIST_INIT : USINT := 11;
+	RECIPE_ERROR : USINT := 2;
+	RECIPE_GET_NAMES : USINT := 13;
+	RECIPE_LOAD : USINT := 3;
+	RECIPE_LOAD_WAIT : USINT := 4;
+	RECIPE_PARSCROLL_INIT : USINT := 5;
+	RECIPE_SAVE : USINT := 6;
+	RECIPE_UPDATE_PAR : USINT := 20;
+	RECIPE_SAVE_WAIT : USINT := 7;
+END_VAR
+VAR
+	RInitDone : BOOL;
+	RTimeCounter : UDINT := 0;
+	RTInfo_0 : RTInfo;
+	sRecipe : USINT;
+	SYSInfo_0 : SysInfo;
+	TaskCycleTime : UDINT;
+	TimeCounterDown : UDINT;
+	TimeCounterUp : UDINT;
+	TimePermanentScroll : UDINT;
+	tmpstr : ARRAY[0..40] OF USINT;
+	TriggScrollDown : R_TRIG;
+	TriggScrollUp : R_TRIG;
+	Value : STRING[32];
+	RecipeName : STRING[20];
+	RTrigFunctions : BOOL;
+	cmdReadRecipeNames : BOOL;
+	RCfgTimerVisibility : ARRAY[0..999] OF USINT;
+	RCfgParScrollSelectedItem : UINT := 0;
+	RCfgParScrollSelectedVariable : STRING[60] := '';
+	i : USINT;
+	TimerDescription : TimerDescription_Type;
+	ActParValueWChar : ARRAY[0..63] OF UINT;
+	Cnt : USINT := 0;
+END_VAR
+VAR CONSTANT
+	RECIPE_UPDATE_PAR_FINDPOS : USINT := 21;
+END_VAR

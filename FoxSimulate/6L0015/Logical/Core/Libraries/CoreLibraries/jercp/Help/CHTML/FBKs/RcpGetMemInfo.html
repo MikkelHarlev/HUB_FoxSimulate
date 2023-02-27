@@ -1,0 +1,119 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML DIR=LTR>
+ <HEAD>
+  <meta name="INDEX" content="RcpSave">
+  <meta name="ORDER" content="1">
+  <META NAME="generator" CONTENT="Microsoft FrontPage 5.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <TITLE>RcpGetMemInfo</TITLE>
+  <LINK REL="StyleSheet" HREF="../styles.css">
+ </HEAD>
+
+ <BODY>
+  <H1> Jercp_lib - RcpGetMemInfo()</H1>
+
+  <p style="margin-top: 0; margin-bottom: 0">The RcpGetMemInfo Function retrieves 
+  the amount of bytes available in the Memory partition, and also the block 
+  which holds the biggest amount of free bytes.</p>
+
+  <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+
+   <TABLE WIDTH="90%" CELLPADDING="4" CELLSPACING="2" BORDER="1">
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      <P ALIGN="CENTER"> <B>I/O</B></P>
+     </TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      <P> <B>Parameter</B></P>
+     </TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      <P> <B>Data Type</B></P>
+     </TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      <P> <B>Description</B></P>
+     </TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      Ident</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Ident from <a href="RcpInit.html">RcpInit</a> FUB</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      cmdGetMemInfo</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      USINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      trigger execution of function</TD>
+    </TR>
+
+    <tr>
+     <TD WIDTH="6%" VALIGN="TOP">
+      OUT</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      Status</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      <a href="../../../../IoListLib/Doc/CHTML/General/Error.html">Error Number</a></TD>
+    </tr>
+    <tr>
+     <TD WIDTH="6%" VALIGN="TOP">
+      OUT</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      NumberBytesFree</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Total amount of free bytes in the memory partition</TD>
+    </tr>
+    <tr>
+     <TD WIDTH="6%" VALIGN="TOP">
+      OUT</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      MaxBlockSizeFree</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Biggest available block in the memory partition</TD>
+    </tr>
+
+    </TABLE>
+
+  <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+
+  <h2>Call Syntax (Structured Text)</h2>
+  <p>&nbsp;&nbsp;&nbsp; </p>
+  <h2>Examples</h2>
+  <p>&nbsp;&nbsp;</p>
+  
+  </BODY>
+</HTML>

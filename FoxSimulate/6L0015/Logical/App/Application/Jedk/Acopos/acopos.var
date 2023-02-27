@@ -1,0 +1,6 @@
+VAR CONSTANT
+	g_MaxAxis : USINT := 0; (*3 Axis (Including 0 --> Value = 2)*)
+END_VAR
+VAR
+	g_Axis : ARRAY[0..g_MaxAxis] OF CommAxis_Type;
+END_VAR

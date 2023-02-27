@@ -1,0 +1,79 @@
+VAR CONSTANT
+	MACHPROC_LIFT_GOING_UP_40 : UINT := 40;
+	MACHPROC_WAIT_FOR_DOWN_55 : UINT := 55;
+	MACHPROC_REMOVE_HANGER_35 : UINT := 35;
+	MACHPROC_OPEN_HANGER_30 : UINT := 30;
+	MACHPROC_HANGER_IS_COMING_25 : UINT := 25;
+	MACHPROC_WAIT_FOR_UP_45 : UINT := 45;
+	MACHPROC_LIFT_GOING_DOWN_50 : UINT := 50;
+	MACHPROC_STARTUP_3 : UINT := 3;
+	MACHPROC_LIFT_WAIT_INLET_48 : UINT := 48;
+END_VAR
+VAR
+	TmpStr : STRING[41];
+	HangerValue : ARRAY[0..14] OF UINT;
+	Preset : FoldTaskCommon_Type;
+END_VAR
+VAR CONSTANT
+	MACHPROC_WAIT_HORN_33 : UINT := 33;
+	MACHPROC_PYJAMAS_OPENING_34 : UINT := 34;
+	MACHPROC_PAJAMAS_2ndSTOP_38 : USINT := 38;
+END_VAR
+VAR
+	GarmentHasGoneToTopConveyor : BOOL;
+END_VAR
+VAR CONSTANT
+	MACHPROC_WAIT_OPENER_31 : UINT := 31;
+END_VAR
+VAR
+	BeltStartTimer : UINT;
+	BeltStartTime : UINT := 0;
+	HangerIsPresent : BOOL;
+	CheckOnlyOnce : BOOL;
+END_VAR
+VAR CONSTANT
+	MACHPROC_PAJAMAS_STOP_36 : UINT := 36;
+END_VAR
+VAR
+	HI_HasSet_5 : BOOL;
+	INIT_OPENER : BOOL := FALSE;
+	StartPreBreaking : BOOL := FALSE;
+	KG_HangerClampTimer : UINT := 0;
+	HangerInDUTimer : UINT := 0;
+	HangerInDUChecked : BOOL := FALSE;
+	DelayDown : FB_Delay;
+	MotorStop : BOOL;
+	TON_DelayIdle : TON;
+	HangerResetPos : REAL;
+	HangerResetCount : UDINT;
+	HangerSetPos : REAL;
+	HangerSetCount : UDINT;
+	HangerResetState : AXIS_Enum;
+	HangerSetState : AXIS_Enum;
+	HangerUpTime : UDINT;
+	HangerResetTime : UDINT;
+	HangerSetTime : UDINT;
+	HangerMoveUpStartTime : UDINT;
+	HangerResetTimePoint : UDINT;
+	parAxisPosHOpenerReady : REAL := 500.0;
+	RLogBookSet : BOOL;
+	HangerInPositionActive : BOOL;
+	ACfgProgram : UINT := 0;
+	HangerClamp_Delay : FB_Delay := (0);
+	HangerOutOfMachinePosEdge : BOOL := 0;
+	ShirtDetectedHMI : UINT := 3;
+	RestartDeloader : BOOL := TRUE;
+	Logged : BOOL := 0;
+	HangerHammer_Delay : FB_Delay;
+	Horn_Delay : FB_Delay;
+	parHornDelayTime : UINT := 50;
+	HornRelease_Delay : FB_Delay;
+	HangerSetPosEarly : REAL := 0.0;
+	parHornHammerOffset : UINT := 600;
+	parUseEarlyHornHammer : BOOL := TRUE;
+	HangerClamp_Delay_Trigged : BOOL := 0;
+	RestartDeloaderWaitUp : BOOL := 0;
+	RestartDeloaderWaitInlet : BOOL := 0;
+	PosString : STRING[80] := '';
+	EdgePos_CheckHangerInDU : BOOL := 0;
+END_VAR

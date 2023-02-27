@@ -1,0 +1,18 @@
+VAR
+	Backup : Backup_Type;
+	Step : USINT;
+	USBDisk_0 : USBDisk;
+	CopySource : STRING[80];
+	CopyDestination : STRING[80];
+	RSearchFolder : STRING[80];
+	ROldPageID : UINT;
+	USBIconDisplayTimer : UINT;
+	MachineNumber : STRING[32];
+	DirCreate_0 : DirCreate;
+	TEXT_BACKUP_ERROR : BOOL;
+	TEXT_WAIT : BOOL;
+	USBReadWriteTimer : UINT;
+	PageBackUp : UINT;
+	pThis : REFERENCE TO BackupService_Type;
+	DirCopy_0 : DirCopy;
+END_VAR

@@ -1,0 +1,17 @@
+VAR
+	NumberX2XModules : UINT;
+	IoAlarmCheck : IoAlarmCheck_Type;
+	CountModule : UINT;
+	ListIoPoint : AsIOListDP;
+	NumberHwX2XModules : UINT;
+	NumberX2XModLoop : UINT;
+	ErrorOnModule : BOOL;
+	ErrorOnPSwarnFromHW : BOOL;
+	ErrorX2XBusOff : BOOL;
+	ErrorOnPSwarnOverCurrent : BOOL;
+	TestStringCopy : STRING[128];
+	pModule : REFERENCE TO IoAlarmCheckIoModule_Type;
+	PWL_2_X2X_isUsed : BOOL;
+	disableSearch : BOOL;
+	ErrorModulID : USINT;
+END_VAR

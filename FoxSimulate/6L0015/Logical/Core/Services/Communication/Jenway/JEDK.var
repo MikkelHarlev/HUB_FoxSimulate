@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT -- jensen
+ ********************************************************************
+ * Package: JEDK
+ * File: JEDK.var
+ * Author: jsstefly
+ * Created: June 08, 2010
+ ********************************************************************
+ * Variables of package JEDK
+ ********************************************************************)
+(*g_XMLClientCom : ARRAY[0..3] OF XML_Com_Type;
+	g_XMLClientData : ARRAY[0..3] OF XML_Jensen_Type;
+	g_XMLServerCom : ARRAY[0..3] OF XML_Com_Type;
+	g_XMLServerData : ARRAY[0..3] OF XML_Jensen_Type;*)
+VAR
+	(*g_pInterconnectServer : UDINT := 0;*)
+	g_JenwayCom : OutletCom_type := (0);
+END_VAR

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ProcessManagerErrorText">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="22"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="147730" Value="Shutting down"/>
+    <Text ID="147731" Value="Door open"/>
+    <Text ID="147732" Value="Stopped"/>
+    <Text ID="273804" Value="Master machine not running"/>
+    <Text ID="273819" Value="Emergency Stop or Security-Cover open            "/>
+    <Text ID="273820" Value="Protective Motor Switch          "/>
+    <Text ID="273823" Value="Machine in Operation               "/>
+    <Text ID="274343" Value="No air pressure"/>
+    <Text ID="292789" Value="ServiceMode in process."/>
+    <Text ID="364254" Value="Jenway blocked"/>
+    <Text ID="371970" Value="Machine ready to start           "/>
+    <Text ID="423080" Value="Empty hanger blocked"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="147730" Value="Herunterfahren"/>
+    <Text ID="147731" Value="Türe offen"/>
+    <Text ID="147732" Value="Gestoppt"/>
+    <Text ID="273804" Value="Master machine not running"/>
+    <Text ID="273819" Value="Notaus oder Schutzklappen offen                  "/>
+    <Text ID="273820" Value="Motorschutzschalter              "/>
+    <Text ID="273823" Value="Maschine in Betrieb               "/>
+    <Text ID="274343" Value="Keine Druckluft"/>
+    <Text ID="292789" Value="ServiceMode in Bearbeitung."/>
+    <Text ID="364254" Value="Jenway blockiert"/>
+    <Text ID="371970" Value="Maschine Betriebsbereit          "/>
+    <Text ID="423080" Value="Leerbügel blockiert"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="147730" Value="Shutting down"/>
+    <Text ID="147731" Value="Door open"/>
+    <Text ID="147732" Value="Stopped"/>
+    <Text ID="273804" Value="Master machine not running"/>
+    <Text ID="273819" Value="Nödstopp eller skyddslucka öppen                 "/>
+    <Text ID="273820" Value="Motorskyddsbrytare               "/>
+    <Text ID="273823" Value="Maskin i drift                  "/>
+    <Text ID="274343" Value="No air pressure"/>
+    <Text ID="292789" Value="ServiceMode in process."/>
+    <Text ID="364254" Value="Jenway blockerad"/>
+    <Text ID="371970" Value="Maskin driftklar              "/>
+    <Text ID="423080" Value="Empty hanger blocked"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="147730" Value="Arrèt en marche   "/>
+    <Text ID="147731" Value="Portes ouvertes"/>
+    <Text ID="147732" Value="Arrêt"/>
+    <Text ID="273804" Value="Master machine not running"/>
+    <Text ID="273819" Value="Arrèt d'Urgence ou Capot de Protection ouvert    "/>
+    <Text ID="273820" Value="Relais-Disjoncteur               "/>
+    <Text ID="273823" Value="Machine en Opération               "/>
+    <Text ID="274343" Value="Pas pression d'Air"/>
+    <Text ID="292789" Value="Mode Service en fonction"/>
+    <Text ID="364254" Value="Jenway bloque"/>
+    <Text ID="371970" Value="Machine prête               "/>
+    <Text ID="423080" Value="Cintre vides bloque"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="147730" Value="Soft stop"/>
+    <Text ID="147731" Value="Dør åben"/>
+    <Text ID="147732" Value="Stoppet"/>
+    <Text ID="273804" Value="Mastermaskine ikke startet eller kører ikke"/>
+    <Text ID="273819" Value="Nødstop eller sikkerhedsskærm åben"/>
+    <Text ID="273820" Value="Motorværn frakoblet"/>
+    <Text ID="273823" Value="Maskine i drift              "/>
+    <Text ID="274343" Value="Luft Mangler"/>
+    <Text ID="292789" Value="Prosseserer Servicemode"/>
+    <Text ID="364254" Value="Jenway blokkeret"/>
+    <Text ID="371970" Value="Maskin drifstklar             "/>
+    <Text ID="423080" Value="Tombøjle blokkeret"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="147730" Value="Stop dolce"/>
+    <Text ID="147731" Value="Porta Aperta"/>
+    <Text ID="147732" Value="Fermata"/>
+    <Text ID="273804" Value="Macchina Master non in funzione"/>
+    <Text ID="273819" Value="Arresto di emergenza o copertura sicurezza aperta"/>
+    <Text ID="273820" Value="Interruttore protezione motore   "/>
+    <Text ID="273823" Value="Macchina in funzione               "/>
+    <Text ID="274343" Value="No pressione Aria"/>
+    <Text ID="292789" Value="Modalità di Manutenzione in processo"/>
+    <Text ID="364254" Value="Jenway bloccato"/>
+    <Text ID="371970" Value="Macchina pronta              "/>
+    <Text ID="423080" Value="Grucce Vuote Bloccate"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="147730" Value="Shutting down"/>
+    <Text ID="147731" Value="Door open"/>
+    <Text ID="147732" Value="Stopped"/>
+    <Text ID="273804" Value="Master machine not running"/>
+    <Text ID="273819" Value="Emergency Stop or Security-Cover open            "/>
+    <Text ID="273820" Value="Protective Motor Switch          "/>
+    <Text ID="273823" Value="Machine in Operation               "/>
+    <Text ID="274343" Value="No air pressure"/>
+    <Text ID="292789" Value="ServiceMode in process."/>
+    <Text ID="364254" Value="Jenway blocked"/>
+    <Text ID="371970" Value="Machine ready to start           "/>
+    <Text ID="423080" Value="Empty hanger blocked"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="147730" Value="Shutting down"/>
+    <Text ID="147731" Value="Door open"/>
+    <Text ID="147732" Value="Stopped"/>
+    <Text ID="273804" Value="Master machine not running"/>
+    <Text ID="273819" Value="Noodstop of deur geopend                         "/>
+    <Text ID="273820" Value="Motorbeveiligingsschakelaar      "/>
+    <Text ID="273823" Value="Machine in bedrijf"/>
+    <Text ID="274343" Value="No air pressure"/>
+    <Text ID="292789" Value="ServiceMode in process."/>
+    <Text ID="364254" Value="Jenway blocked"/>
+    <Text ID="371970" Value="Machine startklaar"/>
+    <Text ID="423080" Value="Empty hanger blocked"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="147730" Value="Shutting down"/>
+    <Text ID="147731" Value="Door open"/>
+    <Text ID="147732" Value="Stopped"/>
+    <Text ID="273804" Value="Master machine not running"/>
+    <Text ID="273819" Value="Paro de emergencia o tapas protectoras           "/>
+    <Text ID="273820" Value="Interruptor protección del motor "/>
+    <Text ID="273823" Value="Máquina en marcha                "/>
+    <Text ID="274343" Value="No air pressure"/>
+    <Text ID="292789" Value="ServiceMode in process."/>
+    <Text ID="364254" Value="Jenway blocked"/>
+    <Text ID="371970" Value="Máquina lista para func.          "/>
+    <Text ID="423080" Value="Empty hanger blocked"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="147730" Value=""/>
+    <Text ID="147731" Value=""/>
+    <Text ID="147732" Value=""/>
+    <Text ID="273804" Value=""/>
+    <Text ID="273819" Value=""/>
+    <Text ID="273820" Value=""/>
+    <Text ID="273823" Value=""/>
+    <Text ID="274343" Value=""/>
+    <Text ID="292789" Value=""/>
+    <Text ID="364254" Value=""/>
+    <Text ID="371970" Value=""/>
+    <Text ID="423080" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="147730" Value=""/>
+    <Text ID="147731" Value=""/>
+    <Text ID="147732" Value=""/>
+    <Text ID="273804" Value=""/>
+    <Text ID="273819" Value=""/>
+    <Text ID="273820" Value=""/>
+    <Text ID="273823" Value=""/>
+    <Text ID="274343" Value=""/>
+    <Text ID="292789" Value=""/>
+    <Text ID="364254" Value=""/>
+    <Text ID="371970" Value=""/>
+    <Text ID="423080" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="147730" Value=""/>
+    <Text ID="147731" Value=""/>
+    <Text ID="147732" Value=""/>
+    <Text ID="273804" Value=""/>
+    <Text ID="273819" Value=""/>
+    <Text ID="273820" Value=""/>
+    <Text ID="273823" Value=""/>
+    <Text ID="274343" Value=""/>
+    <Text ID="292789" Value=""/>
+    <Text ID="364254" Value=""/>
+    <Text ID="371970" Value=""/>
+    <Text ID="423080" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="147730" Value=""/>
+    <Text ID="147731" Value=""/>
+    <Text ID="147732" Value=""/>
+    <Text ID="273804" Value=""/>
+    <Text ID="273819" Value=""/>
+    <Text ID="273820" Value=""/>
+    <Text ID="273823" Value=""/>
+    <Text ID="274343" Value=""/>
+    <Text ID="292789" Value=""/>
+    <Text ID="364254" Value=""/>
+    <Text ID="371970" Value=""/>
+    <Text ID="423080" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="147730" Value=""/>
+    <Text ID="147731" Value=""/>
+    <Text ID="147732" Value=""/>
+    <Text ID="273804" Value=""/>
+    <Text ID="273819" Value=""/>
+    <Text ID="273820" Value=""/>
+    <Text ID="273823" Value=""/>
+    <Text ID="274343" Value=""/>
+    <Text ID="292789" Value=""/>
+    <Text ID="364254" Value=""/>
+    <Text ID="371970" Value=""/>
+    <Text ID="423080" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="147730" Value=""/>
+    <Text ID="147731" Value=""/>
+    <Text ID="147732" Value=""/>
+    <Text ID="273804" Value=""/>
+    <Text ID="273819" Value=""/>
+    <Text ID="273820" Value=""/>
+    <Text ID="273823" Value=""/>
+    <Text ID="274343" Value=""/>
+    <Text ID="292789" Value=""/>
+    <Text ID="364254" Value=""/>
+    <Text ID="371970" Value=""/>
+    <Text ID="423080" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="147730" Value="Shutting down"/>
+    <Text ID="147731" Value="Dør Åpen"/>
+    <Text ID="147732" Value="Stoppet"/>
+    <Text ID="273804" Value="Master Maskin kjører ikke"/>
+    <Text ID="273819" Value="Nödstopp eller sikkerhetsdeksel åpent"/>
+    <Text ID="273820" Value="Motorvernbryter"/>
+    <Text ID="273823" Value="Maskin Klar"/>
+    <Text ID="274343" Value="Luft Mangler"/>
+    <Text ID="292789" Value="Prosseserer Servicemode"/>
+    <Text ID="364254" Value="Jenway Blokkert"/>
+    <Text ID="371970" Value="Maskin drifstklar"/>
+    <Text ID="423080" Value="Tom Henger blokkert"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="147730" Value=""/>
+    <Text ID="147731" Value=""/>
+    <Text ID="147732" Value=""/>
+    <Text ID="273804" Value=""/>
+    <Text ID="273819" Value=""/>
+    <Text ID="273820" Value=""/>
+    <Text ID="273823" Value=""/>
+    <Text ID="274343" Value=""/>
+    <Text ID="292789" Value=""/>
+    <Text ID="364254" Value=""/>
+    <Text ID="371970" Value=""/>
+    <Text ID="423080" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="147730" Value="12"/>
+    <Index ID="147731" Value="10"/>
+    <Index ID="147732" Value="99"/>
+    <Index ID="273804" Value="7"/>
+    <Index ID="273819" Value="1"/>
+    <Index ID="273820" Value="2"/>
+    <Index ID="273823" Value="5"/>
+    <Index ID="274343" Value="9"/>
+    <Index ID="292789" Value="11"/>
+    <Index ID="364254" Value="19"/>
+    <Index ID="371970" Value="0"/>
+    <Index ID="423080" Value="20"/>
+  </IndexMap>
+</TextGroup>

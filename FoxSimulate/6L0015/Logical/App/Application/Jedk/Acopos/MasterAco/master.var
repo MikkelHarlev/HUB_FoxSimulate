@@ -1,0 +1,9 @@
+VAR
+	AcoposStartOk : BOOL;
+	allDone : BOOL;
+	AXi : USINT;
+	F_TRIG_Alarm : ARRAY[0..5] OF F_TRIG;
+	rInit : BOOL := 0;
+	TStartSq : FB_Delay;
+	UDCValue : REAL;
+END_VAR

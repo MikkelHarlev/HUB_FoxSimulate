@@ -1,0 +1,66 @@
+(*IoT Logger Status*)
+VAR
+	status : gLiteStatus_type := (0);
+	IOTLogger_0 : IOTLogger;
+	makeUpdateStatus : BOOL;
+	machineState : USINT := 0;
+	statusOldValues : GLiteOldValues;
+	json : STRING[1000];
+	queryAlarmOutput : GLiteAlarmQueryOutput;
+	adrAlarmCache : UDINT := 0;
+	pAlarmCache : REFERENCE TO ARRAY[0..99] OF AlarmHandlerEvent_Type;
+	alarmId : UDINT := 0;
+END_VAR
+(*IoT Logger Data*)
+VAR
+	serverNoInlet : USINT;
+	oldJson : STRING[1000];
+	serverNoOutlet : USINT;
+	numberPosInlet : USINT := 0;
+	numberPosOutlet : USINT;
+	data : gLiteData_type := (0);
+	IOTLogger_1 : IOTLogger;
+	bucketHoldingDataInlet : ARRAY[0..9] OF GLiteBucket_Main;
+	bucketHoldingDataOutlet : ARRAY[0..9] OF GLiteBucket_Main;
+	initTracker_0 : initTracker;
+	getItem_0 : getItem;
+	addItem_0 : addItem;
+	clearTracker_0 : clearTracker;
+	bucketsUsed : INT;
+	buckets : ARRAY[0..99] OF gLiteBucket_type;
+	totalLoadFactor : UDINT;
+	pBucket : REFERENCE TO gLiteBucket_type;
+	currentProductionCount : UDINT;
+	currentRepairCount : UDINT;
+	currentReWashCount : UDINT;
+	currentQualityCount : UDINT;
+	currentTimeCount : UDINT;
+	hourStep : INT := 0;
+	makeUpdateData : BOOL;
+	dataLoggerUpdateCount : UDINT;
+END_VAR
+(*Common for the task*)
+VAR
+	runtimeStep : initState_enum := INIT;
+	oldSecond : UDINT;
+	addSecond : BOOL;
+	timeoutData : UDINT; (*milliseconds*)
+	timeoutStatus : UDINT; (*milliseconds*)
+	TON_DataRefreshInterval : TON;
+	TON_StatusRefreshInterval : TON;
+	edgeNegISControlPlc : BOOL := 0;
+	tmpString : STRING[80];
+	tmpLongString : STRING[250];
+	no : USINT := 0;
+	i : {REDUND_UNREPLICABLE} INT;
+	queryElement : UDINT;
+	isError : BOOL;
+	hashAddErrors : {REDUND_UNREPLICABLE} UDINT;
+	strAlarmQuery : STRING[50];
+	xEnableQuery : BOOL;
+	xResetQuery : BOOL;
+	xExecuteQuery : BOOL;
+	xNextQuery : BOOL;
+	activeIndex : UINT;
+	isAlarmHistoryLogged : BOOL;
+END_VAR

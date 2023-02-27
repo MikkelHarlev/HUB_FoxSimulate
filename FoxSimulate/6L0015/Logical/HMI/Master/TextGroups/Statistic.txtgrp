@@ -1,0 +1,2077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Statistic">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="9"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="196260" Value="December"/>
+    <Text ID="196261" Value="October"/>
+    <Text ID="196262" Value="September"/>
+    <Text ID="196263" Value="August"/>
+    <Text ID="196264" Value="July"/>
+    <Text ID="196265" Value="June"/>
+    <Text ID="196267" Value="May"/>
+    <Text ID="196268" Value="April"/>
+    <Text ID="196269" Value="March"/>
+    <Text ID="196270" Value="February"/>
+    <Text ID="196271" Value="January"/>
+    <Text ID="196272" Value="November"/>
+    <Text ID="198460" Value="All Customers"/>
+    <Text ID="198461" Value="All Articles"/>
+    <Text ID="198462" Value="All Periods"/>
+    <Text ID="198463" Value="Choose Date"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="All Recipes"/>
+    <Text ID="212065" Value="Lane 1"/>
+    <Text ID="212066" Value="Lane 2"/>
+    <Text ID="212067" Value="Lane 3"/>
+    <Text ID="212068" Value="Lane 4"/>
+    <Text ID="212069" Value="Lane 5"/>
+    <Text ID="212070" Value="Lane 6"/>
+    <Text ID="212071" Value="Station 1"/>
+    <Text ID="212072" Value="Station 2"/>
+    <Text ID="212073" Value="Station 3"/>
+    <Text ID="212074" Value="Station 4"/>
+    <Text ID="212075" Value="Station 5"/>
+    <Text ID="212076" Value="Station 6"/>
+    <Text ID="212302" Value="Total Count"/>
+    <Text ID="212303" Value="Quality"/>
+    <Text ID="212304" Value="Picks"/>
+    <Text ID="212307" Value="Time"/>
+    <Text ID="212308" Value="Drop"/>
+    <Text ID="212309" Value="Repair"/>
+    <Text ID="212310" Value="Rewash"/>
+    <Text ID="212311" Value="PreProduction"/>
+    <Text ID="212312" Value="OverSize"/>
+    <Text ID="212313" Value="Batchs"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Station 1"/>
+    <Text ID="213731" Value="Station 2"/>
+    <Text ID="213732" Value="Station 3"/>
+    <Text ID="213733" Value="Station 4"/>
+    <Text ID="213734" Value="Station 5"/>
+    <Text ID="213735" Value="Station 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Clear"/>
+    <Text ID="214799" Value="All Shifts"/>
+    <Text ID="370855" Value="Too Close"/>
+    <Text ID="373654" Value="Lane 1"/>
+    <Text ID="373655" Value="Lane 2"/>
+    <Text ID="373656" Value="Lane 3"/>
+    <Text ID="373657" Value="Lane 4"/>
+    <Text ID="373658" Value="Lane 5"/>
+    <Text ID="373659" Value="Lane 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Lane 1"/>
+    <Text ID="381300" Value="Lane 2"/>
+    <Text ID="381301" Value="Lane 3"/>
+    <Text ID="381302" Value="Lane 4"/>
+    <Text ID="381303" Value="Lane 5"/>
+    <Text ID="381304" Value="Lane 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Lane"/>
+    <Text ID="381309" Value="Lane"/>
+    <Text ID="386981" Value="Small"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Large"/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Station 7"/>
+    <Text ID="388595" Value="Station 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Station 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="196260" Value="Dezember"/>
+    <Text ID="196261" Value="Oktober"/>
+    <Text ID="196262" Value="September"/>
+    <Text ID="196263" Value="August"/>
+    <Text ID="196264" Value="Juli"/>
+    <Text ID="196265" Value="Juni"/>
+    <Text ID="196267" Value="Mai"/>
+    <Text ID="196268" Value="April"/>
+    <Text ID="196269" Value="März"/>
+    <Text ID="196270" Value="Februar"/>
+    <Text ID="196271" Value="Januar"/>
+    <Text ID="196272" Value="November"/>
+    <Text ID="198460" Value="Alle Kunden"/>
+    <Text ID="198461" Value="Alle Artikel"/>
+    <Text ID="198462" Value="Alle Perioden"/>
+    <Text ID="198463" Value="Datum wählen"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="Alle Programme"/>
+    <Text ID="212065" Value="Bahn 1"/>
+    <Text ID="212066" Value="Bahn 2"/>
+    <Text ID="212067" Value="Bahn 3"/>
+    <Text ID="212068" Value="Bahn 4"/>
+    <Text ID="212069" Value="Bahn 5"/>
+    <Text ID="212070" Value="Bahn 6"/>
+    <Text ID="212071" Value="Station 1"/>
+    <Text ID="212072" Value="Station 2"/>
+    <Text ID="212073" Value="Station 3"/>
+    <Text ID="212074" Value="Station 4 "/>
+    <Text ID="212075" Value="Station 5"/>
+    <Text ID="212076" Value="Station 6"/>
+    <Text ID="212302" Value="Gesamtzähler"/>
+    <Text ID="212303" Value="Quality"/>
+    <Text ID="212304" Value="Picks"/>
+    <Text ID="212307" Value="Zeit"/>
+    <Text ID="212308" Value="Absturz"/>
+    <Text ID="212309" Value="Reparatur"/>
+    <Text ID="212310" Value="Nachwäsche"/>
+    <Text ID="212311" Value="PreProduction"/>
+    <Text ID="212312" Value="Übergrösse"/>
+    <Text ID="212313" Value="Batchs"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Station 1"/>
+    <Text ID="213731" Value="Station 2"/>
+    <Text ID="213732" Value="Station 3"/>
+    <Text ID="213733" Value="Station 4 "/>
+    <Text ID="213734" Value="Station 5"/>
+    <Text ID="213735" Value="Station 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Clear"/>
+    <Text ID="214799" Value="All Shifts"/>
+    <Text ID="370855" Value="Too Close"/>
+    <Text ID="373654" Value="Bahn 1"/>
+    <Text ID="373655" Value="Bahn 2"/>
+    <Text ID="373656" Value="Bahn 3"/>
+    <Text ID="373657" Value="Bahn 4"/>
+    <Text ID="373658" Value="Bahn 5"/>
+    <Text ID="373659" Value="Bahn 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Bahn 1"/>
+    <Text ID="381300" Value="Bahn 2"/>
+    <Text ID="381301" Value="Bahn 3"/>
+    <Text ID="381302" Value="Bahn 4"/>
+    <Text ID="381303" Value="Bahn 5"/>
+    <Text ID="381304" Value="Bahn 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Lane"/>
+    <Text ID="381309" Value="Lane"/>
+    <Text ID="386981" Value="Small"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Large"/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Station 7"/>
+    <Text ID="388595" Value="Station 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Station 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="196260" Value="December"/>
+    <Text ID="196261" Value="October"/>
+    <Text ID="196262" Value="September"/>
+    <Text ID="196263" Value="August"/>
+    <Text ID="196264" Value="July"/>
+    <Text ID="196265" Value="June"/>
+    <Text ID="196267" Value="May"/>
+    <Text ID="196268" Value="April"/>
+    <Text ID="196269" Value="March"/>
+    <Text ID="196270" Value="February"/>
+    <Text ID="196271" Value="January"/>
+    <Text ID="196272" Value="November"/>
+    <Text ID="198460" Value="All Customers"/>
+    <Text ID="198461" Value="All Articles"/>
+    <Text ID="198462" Value="All Periods"/>
+    <Text ID="198463" Value="Choose Date"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="All Recipes"/>
+    <Text ID="212065" Value="Bana 1"/>
+    <Text ID="212066" Value="Bana 2"/>
+    <Text ID="212067" Value="Bana 3"/>
+    <Text ID="212068" Value="Bana 4"/>
+    <Text ID="212069" Value="Bana 5"/>
+    <Text ID="212070" Value="Bana 6"/>
+    <Text ID="212071" Value="Station 1"/>
+    <Text ID="212072" Value="Station 2"/>
+    <Text ID="212073" Value="Station 3"/>
+    <Text ID="212074" Value="Station 4"/>
+    <Text ID="212075" Value="Station 5"/>
+    <Text ID="212076" Value="Station 6"/>
+    <Text ID="212302" Value="Total Count"/>
+    <Text ID="212303" Value="Quality"/>
+    <Text ID="212304" Value="Picks"/>
+    <Text ID="212307" Value="Tid"/>
+    <Text ID="212308" Value="Släpp"/>
+    <Text ID="212309" Value="Reparera"/>
+    <Text ID="212310" Value="Omtvätt"/>
+    <Text ID="212311" Value="PreProduction"/>
+    <Text ID="212312" Value="Överstorlek"/>
+    <Text ID="212313" Value="Batchs"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Station 1"/>
+    <Text ID="213731" Value="Station 2"/>
+    <Text ID="213732" Value="Station 3"/>
+    <Text ID="213733" Value="Station 4"/>
+    <Text ID="213734" Value="Station 5"/>
+    <Text ID="213735" Value="Station 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Clear"/>
+    <Text ID="214799" Value="All Shifts"/>
+    <Text ID="370855" Value="Too Close"/>
+    <Text ID="373654" Value="Bana 1"/>
+    <Text ID="373655" Value="Bana 2"/>
+    <Text ID="373656" Value="Bana 3"/>
+    <Text ID="373657" Value="Bana 4"/>
+    <Text ID="373658" Value="Bana 5"/>
+    <Text ID="373659" Value="Bana 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Bana 1"/>
+    <Text ID="381300" Value="Bana 2"/>
+    <Text ID="381301" Value="Bana 3"/>
+    <Text ID="381302" Value="Bana 4"/>
+    <Text ID="381303" Value="Bana 5"/>
+    <Text ID="381304" Value="Bana 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Lane"/>
+    <Text ID="381309" Value="Lane"/>
+    <Text ID="386981" Value="Small"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Large"/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Station 7"/>
+    <Text ID="388595" Value="Station 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Station 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="196260" Value="Decembre"/>
+    <Text ID="196261" Value="Octobre"/>
+    <Text ID="196262" Value="Septembre"/>
+    <Text ID="196263" Value="Aout"/>
+    <Text ID="196264" Value="Juillet"/>
+    <Text ID="196265" Value="Juin"/>
+    <Text ID="196267" Value="Mai"/>
+    <Text ID="196268" Value="Avril"/>
+    <Text ID="196269" Value="Mars"/>
+    <Text ID="196270" Value="Fevrier"/>
+    <Text ID="196271" Value="Janvier"/>
+    <Text ID="196272" Value="Novembre"/>
+    <Text ID="198460" Value="Tout Clients"/>
+    <Text ID="198461" Value="Tout Articles"/>
+    <Text ID="198462" Value="Toute Periodes"/>
+    <Text ID="198463" Value="Choisir Date"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="Tout Programmes"/>
+    <Text ID="212065" Value="Voie 1"/>
+    <Text ID="212066" Value="Voie 2"/>
+    <Text ID="212067" Value="Voie 3"/>
+    <Text ID="212068" Value="Voie 4"/>
+    <Text ID="212069" Value="Voie 5"/>
+    <Text ID="212070" Value="Voie 6"/>
+    <Text ID="212071" Value="Poste 1"/>
+    <Text ID="212072" Value="Poste 2"/>
+    <Text ID="212073" Value="Poste 3"/>
+    <Text ID="212074" Value="Poste 4"/>
+    <Text ID="212075" Value="Poste 5"/>
+    <Text ID="212076" Value="Poste 6"/>
+    <Text ID="212302" Value="Comp.Total"/>
+    <Text ID="212303" Value="Qualité"/>
+    <Text ID="212304" Value="Pioches"/>
+    <Text ID="212307" Value="Heure:"/>
+    <Text ID="212308" Value="Rejet:"/>
+    <Text ID="212309" Value="Couture"/>
+    <Text ID="212310" Value="Relav."/>
+    <Text ID="212311" Value="Préproduction"/>
+    <Text ID="212312" Value="Trop long"/>
+    <Text ID="212313" Value="Lots"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Poste 1"/>
+    <Text ID="213731" Value="Poste 2"/>
+    <Text ID="213732" Value="Poste 3"/>
+    <Text ID="213733" Value="Poste 4"/>
+    <Text ID="213734" Value="Poste 5"/>
+    <Text ID="213735" Value="Poste 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Effacer"/>
+    <Text ID="214799" Value="Tous les changements"/>
+    <Text ID="370855" Value="Trop proche"/>
+    <Text ID="373654" Value="Voie 1"/>
+    <Text ID="373655" Value="Voie 2"/>
+    <Text ID="373656" Value="Voie 3"/>
+    <Text ID="373657" Value="Voie 4"/>
+    <Text ID="373658" Value="Voie 5"/>
+    <Text ID="373659" Value="Voie 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Voie 1"/>
+    <Text ID="381300" Value="Voie 2"/>
+    <Text ID="381301" Value="Voie 3"/>
+    <Text ID="381302" Value="Voie 4"/>
+    <Text ID="381303" Value="Voie 5"/>
+    <Text ID="381304" Value="Voie 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Voie"/>
+    <Text ID="381309" Value="Voie"/>
+    <Text ID="386981" Value="Small"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Large"/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Station 7"/>
+    <Text ID="388595" Value="Station 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Station 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="196260" Value="December"/>
+    <Text ID="196261" Value="Oktober"/>
+    <Text ID="196262" Value="September"/>
+    <Text ID="196263" Value="August"/>
+    <Text ID="196264" Value="Juli"/>
+    <Text ID="196265" Value="Juni"/>
+    <Text ID="196267" Value="Maj"/>
+    <Text ID="196268" Value="April"/>
+    <Text ID="196269" Value="Marts"/>
+    <Text ID="196270" Value="Februar"/>
+    <Text ID="196271" Value="Januar"/>
+    <Text ID="196272" Value="November"/>
+    <Text ID="198460" Value="Alle Kunder"/>
+    <Text ID="198461" Value="Alle Artikler"/>
+    <Text ID="198462" Value="Alle Perioder"/>
+    <Text ID="198463" Value="Vælg Dato"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="All Recipes"/>
+    <Text ID="212065" Value="Bane 1"/>
+    <Text ID="212066" Value="Bane 2"/>
+    <Text ID="212067" Value="Bane 3"/>
+    <Text ID="212068" Value="Bane 4"/>
+    <Text ID="212069" Value="Bane 5"/>
+    <Text ID="212070" Value="Bane 6"/>
+    <Text ID="212071" Value="Station 1"/>
+    <Text ID="212072" Value="Station 2"/>
+    <Text ID="212073" Value="Station 3"/>
+    <Text ID="212074" Value="Station 4"/>
+    <Text ID="212075" Value="Station 5"/>
+    <Text ID="212076" Value="Station 6"/>
+    <Text ID="212302" Value="Totale Antal"/>
+    <Text ID="212303" Value="Kvalitet"/>
+    <Text ID="212304" Value="Picks"/>
+    <Text ID="212307" Value="Tid:"/>
+    <Text ID="212308" Value="Drop"/>
+    <Text ID="212309" Value="Reparation"/>
+    <Text ID="212310" Value="Omvask"/>
+    <Text ID="212311" Value="PreProduction"/>
+    <Text ID="212312" Value="Tøj for bredt"/>
+    <Text ID="212313" Value="Batchs"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Station 1"/>
+    <Text ID="213731" Value="Station 2"/>
+    <Text ID="213732" Value="Station 3"/>
+    <Text ID="213733" Value="Station 4"/>
+    <Text ID="213734" Value="Station 5"/>
+    <Text ID="213735" Value="Station 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Clear"/>
+    <Text ID="214799" Value="Alle Skift"/>
+    <Text ID="370855" Value="Too Close"/>
+    <Text ID="373654" Value="Bane 1"/>
+    <Text ID="373655" Value="Bane 2"/>
+    <Text ID="373656" Value="Bane 3"/>
+    <Text ID="373657" Value="Bane 4"/>
+    <Text ID="373658" Value="Bane 5"/>
+    <Text ID="373659" Value="Bane 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Bane 1"/>
+    <Text ID="381300" Value="Bane 2"/>
+    <Text ID="381301" Value="Bane 3"/>
+    <Text ID="381302" Value="Bane 4"/>
+    <Text ID="381303" Value="Bane 5"/>
+    <Text ID="381304" Value="Bane 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Lane"/>
+    <Text ID="381309" Value="Lane"/>
+    <Text ID="386981" Value="Small"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Large"/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Station 7"/>
+    <Text ID="388595" Value="Station 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Station 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="196260" Value="Dicembre"/>
+    <Text ID="196261" Value="Ottobre"/>
+    <Text ID="196262" Value="Settembre"/>
+    <Text ID="196263" Value="Agosto"/>
+    <Text ID="196264" Value="Luglio"/>
+    <Text ID="196265" Value="Giugno"/>
+    <Text ID="196267" Value="Maggio"/>
+    <Text ID="196268" Value="Aprile"/>
+    <Text ID="196269" Value="Marzo"/>
+    <Text ID="196270" Value="Febbario"/>
+    <Text ID="196271" Value="Gennaio"/>
+    <Text ID="196272" Value="Novembre"/>
+    <Text ID="198460" Value="Tuti i clienti"/>
+    <Text ID="198461" Value="Tutti gli articoli"/>
+    <Text ID="198462" Value="Tutti i periodi"/>
+    <Text ID="198463" Value="Scelta data"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="Tutti i programmi"/>
+    <Text ID="212065" Value="Corsia 1"/>
+    <Text ID="212066" Value="Corsia 2"/>
+    <Text ID="212067" Value="Corsia 3"/>
+    <Text ID="212068" Value="Corsia 4"/>
+    <Text ID="212069" Value="Corsia 5"/>
+    <Text ID="212070" Value="Corsia 6"/>
+    <Text ID="212071" Value="Stazione 1"/>
+    <Text ID="212072" Value="Stazione 2"/>
+    <Text ID="212073" Value="Stazione 3"/>
+    <Text ID="212074" Value="Stazione 4"/>
+    <Text ID="212075" Value="Stazione 5"/>
+    <Text ID="212076" Value="Stazione 6"/>
+    <Text ID="212302" Value="Conteggio totale"/>
+    <Text ID="212303" Value="Qualità"/>
+    <Text ID="212304" Value="Pinze"/>
+    <Text ID="212307" Value="Ora:"/>
+    <Text ID="212308" Value="Caduta"/>
+    <Text ID="212309" Value="Rotto"/>
+    <Text ID="212310" Value="Sporco"/>
+    <Text ID="212311" Value="Produzione"/>
+    <Text ID="212312" Value="Sovramisura"/>
+    <Text ID="212313" Value="Lotti"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Stazione 1"/>
+    <Text ID="213731" Value="Stazione 2"/>
+    <Text ID="213732" Value="Stazione 3"/>
+    <Text ID="213733" Value="Stazione 4"/>
+    <Text ID="213734" Value="Stazione 5"/>
+    <Text ID="213735" Value="Stazione 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Cancella"/>
+    <Text ID="214799" Value="Scarica tutto"/>
+    <Text ID="370855" Value="Too Close"/>
+    <Text ID="373654" Value="Corsia 1"/>
+    <Text ID="373655" Value="Corsia 2"/>
+    <Text ID="373656" Value="Corsia 3"/>
+    <Text ID="373657" Value="Corsia 4"/>
+    <Text ID="373658" Value="Corsia 5"/>
+    <Text ID="373659" Value="Corsia 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Corsia 1"/>
+    <Text ID="381300" Value="Corsia 2"/>
+    <Text ID="381301" Value="Corsia 3"/>
+    <Text ID="381302" Value="Corsia 4"/>
+    <Text ID="381303" Value="Corsia 5"/>
+    <Text ID="381304" Value="Corsia 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Lane"/>
+    <Text ID="381309" Value="Lane"/>
+    <Text ID="386981" Value="Small"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Large"/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Stazione 7"/>
+    <Text ID="388595" Value="Stazione 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Stazione 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="196260" Value="December"/>
+    <Text ID="196261" Value="October"/>
+    <Text ID="196262" Value="September"/>
+    <Text ID="196263" Value="August"/>
+    <Text ID="196264" Value="July"/>
+    <Text ID="196265" Value="June"/>
+    <Text ID="196267" Value="May"/>
+    <Text ID="196268" Value="April"/>
+    <Text ID="196269" Value="March"/>
+    <Text ID="196270" Value="February"/>
+    <Text ID="196271" Value="January"/>
+    <Text ID="196272" Value="November"/>
+    <Text ID="198460" Value="All Customers"/>
+    <Text ID="198461" Value="All Articles"/>
+    <Text ID="198462" Value="All Periods"/>
+    <Text ID="198463" Value="Choose Date"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="All Recipes"/>
+    <Text ID="212065" Value="Rata 1"/>
+    <Text ID="212066" Value="Rata 2"/>
+    <Text ID="212067" Value="Rata 3"/>
+    <Text ID="212068" Value="Rata 4"/>
+    <Text ID="212069" Value="Rata 5"/>
+    <Text ID="212070" Value="Rata 6"/>
+    <Text ID="212071" Value="Asema 1"/>
+    <Text ID="212072" Value="Asema 2"/>
+    <Text ID="212073" Value="Asema 3"/>
+    <Text ID="212074" Value="Asema 4"/>
+    <Text ID="212075" Value="Asema 5"/>
+    <Text ID="212076" Value="Station 6"/>
+    <Text ID="212302" Value="Total Count"/>
+    <Text ID="212303" Value="Quality"/>
+    <Text ID="212304" Value="Picks"/>
+    <Text ID="212307" Value="Aika:"/>
+    <Text ID="212308" Value="Pudotus"/>
+    <Text ID="212309" Value="Korjaus"/>
+    <Text ID="212310" Value="Uusintapesu"/>
+    <Text ID="212311" Value="PreProduction"/>
+    <Text ID="212312" Value="Ylisuuri"/>
+    <Text ID="212313" Value="Batchs"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Asema 1"/>
+    <Text ID="213731" Value="Asema 2"/>
+    <Text ID="213732" Value="Asema 3"/>
+    <Text ID="213733" Value="Asema 4"/>
+    <Text ID="213734" Value="Asema 5"/>
+    <Text ID="213735" Value="Station 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Clear"/>
+    <Text ID="214799" Value="All Shifts"/>
+    <Text ID="370855" Value="Too Close"/>
+    <Text ID="373654" Value="Rata 1"/>
+    <Text ID="373655" Value="Rata 2"/>
+    <Text ID="373656" Value="Rata 3"/>
+    <Text ID="373657" Value="Rata 4"/>
+    <Text ID="373658" Value="Rata 5"/>
+    <Text ID="373659" Value="Rata 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Rata 1"/>
+    <Text ID="381300" Value="Rata 2"/>
+    <Text ID="381301" Value="Rata 3"/>
+    <Text ID="381302" Value="Rata 4"/>
+    <Text ID="381303" Value="Rata 5"/>
+    <Text ID="381304" Value="Rata 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Lane"/>
+    <Text ID="381309" Value="Lane"/>
+    <Text ID="386981" Value="Small"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Large"/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Station 7"/>
+    <Text ID="388595" Value="Station 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Station 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="196260" Value="December"/>
+    <Text ID="196261" Value="October"/>
+    <Text ID="196262" Value="September"/>
+    <Text ID="196263" Value="August"/>
+    <Text ID="196264" Value="July"/>
+    <Text ID="196265" Value="June"/>
+    <Text ID="196267" Value="May"/>
+    <Text ID="196268" Value="April"/>
+    <Text ID="196269" Value="March"/>
+    <Text ID="196270" Value="February"/>
+    <Text ID="196271" Value="January"/>
+    <Text ID="196272" Value="November"/>
+    <Text ID="198460" Value="All Customers"/>
+    <Text ID="198461" Value="All Articles"/>
+    <Text ID="198462" Value="All Periods"/>
+    <Text ID="198463" Value="Choose Date"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="All Recipes"/>
+    <Text ID="212065" Value="Baan 1"/>
+    <Text ID="212066" Value="Baan 2"/>
+    <Text ID="212067" Value="Baan 3"/>
+    <Text ID="212068" Value="Baan 4"/>
+    <Text ID="212069" Value="Baan 5"/>
+    <Text ID="212070" Value="Baan 6"/>
+    <Text ID="212071" Value="Station 1"/>
+    <Text ID="212072" Value="Station 2"/>
+    <Text ID="212073" Value="Station 3"/>
+    <Text ID="212074" Value="Station 4"/>
+    <Text ID="212075" Value="Station 5"/>
+    <Text ID="212076" Value="Station 6"/>
+    <Text ID="212302" Value="Total Count"/>
+    <Text ID="212303" Value="Quality"/>
+    <Text ID="212304" Value="Picks"/>
+    <Text ID="212307" Value="Tijd:"/>
+    <Text ID="212308" Value="Uitvallen"/>
+    <Text ID="212309" Value="Reparatie"/>
+    <Text ID="212310" Value="Overwas"/>
+    <Text ID="212311" Value="PreProduction"/>
+    <Text ID="212312" Value="Te groot"/>
+    <Text ID="212313" Value="Batchs"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Station 1"/>
+    <Text ID="213731" Value="Station 2"/>
+    <Text ID="213732" Value="Station 3"/>
+    <Text ID="213733" Value="Station 4"/>
+    <Text ID="213734" Value="Station 5"/>
+    <Text ID="213735" Value="Station 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Clear"/>
+    <Text ID="214799" Value="All Shifts"/>
+    <Text ID="370855" Value="Too Close"/>
+    <Text ID="373654" Value="Baan 1"/>
+    <Text ID="373655" Value="Baan 2"/>
+    <Text ID="373656" Value="Baan 3"/>
+    <Text ID="373657" Value="Baan 4"/>
+    <Text ID="373658" Value="Baan 5"/>
+    <Text ID="373659" Value="Baan 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Baan 1"/>
+    <Text ID="381300" Value="Baan 2"/>
+    <Text ID="381301" Value="Baan 3"/>
+    <Text ID="381302" Value="Baan 4"/>
+    <Text ID="381303" Value="Baan 5"/>
+    <Text ID="381304" Value="Baan 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Lane"/>
+    <Text ID="381309" Value="Lane"/>
+    <Text ID="386981" Value="Small"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Large"/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Station 7"/>
+    <Text ID="388595" Value="Station 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Station 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="196260" Value="December"/>
+    <Text ID="196261" Value="October"/>
+    <Text ID="196262" Value="September"/>
+    <Text ID="196263" Value="August"/>
+    <Text ID="196264" Value="July"/>
+    <Text ID="196265" Value="June"/>
+    <Text ID="196267" Value="May"/>
+    <Text ID="196268" Value="April"/>
+    <Text ID="196269" Value="March"/>
+    <Text ID="196270" Value="February"/>
+    <Text ID="196271" Value="January"/>
+    <Text ID="196272" Value="November"/>
+    <Text ID="198460" Value="All Customers"/>
+    <Text ID="198461" Value="All Articles"/>
+    <Text ID="198462" Value="All Periods"/>
+    <Text ID="198463" Value="Choose Date"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="All Recipes"/>
+    <Text ID="212065" Value="Vía 1"/>
+    <Text ID="212066" Value="Vía 2"/>
+    <Text ID="212067" Value="Vía 3"/>
+    <Text ID="212068" Value="Vía 4"/>
+    <Text ID="212069" Value="Vía 5"/>
+    <Text ID="212070" Value="Vía 6"/>
+    <Text ID="212071" Value="Estación 1"/>
+    <Text ID="212072" Value="Estación 2"/>
+    <Text ID="212073" Value="Estación 3"/>
+    <Text ID="212074" Value="Estación 4"/>
+    <Text ID="212075" Value="Station 5"/>
+    <Text ID="212076" Value="Station 6"/>
+    <Text ID="212302" Value="Total Count"/>
+    <Text ID="212303" Value="Quality"/>
+    <Text ID="212304" Value="Picks"/>
+    <Text ID="212307" Value="Tiempo:"/>
+    <Text ID="212308" Value="Soltar"/>
+    <Text ID="212309" Value="Reparar"/>
+    <Text ID="212310" Value="Relavar"/>
+    <Text ID="212311" Value="PreProduction"/>
+    <Text ID="212312" Value="Tamaño excesivo"/>
+    <Text ID="212313" Value="Batchs"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Estación 1"/>
+    <Text ID="213731" Value="Estación 2"/>
+    <Text ID="213732" Value="Estación 3"/>
+    <Text ID="213733" Value="Estación 4"/>
+    <Text ID="213734" Value="Station 5"/>
+    <Text ID="213735" Value="Station 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Clear"/>
+    <Text ID="214799" Value="All Shifts"/>
+    <Text ID="370855" Value="Too Close"/>
+    <Text ID="373654" Value="Vía 1"/>
+    <Text ID="373655" Value="Vía 2"/>
+    <Text ID="373656" Value="Vía 3"/>
+    <Text ID="373657" Value="Vía 4"/>
+    <Text ID="373658" Value="Vía 5"/>
+    <Text ID="373659" Value="Vía 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Vía 1"/>
+    <Text ID="381300" Value="Vía 2"/>
+    <Text ID="381301" Value="Vía 3"/>
+    <Text ID="381302" Value="Vía 4"/>
+    <Text ID="381303" Value="Vía 5"/>
+    <Text ID="381304" Value="Vía 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Lane"/>
+    <Text ID="381309" Value="Lane"/>
+    <Text ID="386981" Value="Small"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Large"/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Station 7"/>
+    <Text ID="388595" Value="Station 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Station 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="196260" Value="December"/>
+    <Text ID="196261" Value="October"/>
+    <Text ID="196262" Value="September"/>
+    <Text ID="196263" Value="August"/>
+    <Text ID="196264" Value="July"/>
+    <Text ID="196265" Value="June"/>
+    <Text ID="196267" Value="May"/>
+    <Text ID="196268" Value="April"/>
+    <Text ID="196269" Value="March"/>
+    <Text ID="196270" Value="February"/>
+    <Text ID="196271" Value="January"/>
+    <Text ID="196272" Value="November"/>
+    <Text ID="198460" Value="All Customers"/>
+    <Text ID="198461" Value="All Articles"/>
+    <Text ID="198462" Value="All Periods"/>
+    <Text ID="198463" Value="Choose Date"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="All Recipes"/>
+    <Text ID="212065" Value="Linia 1"/>
+    <Text ID="212066" Value="Linia 2"/>
+    <Text ID="212067" Value="Linia 3"/>
+    <Text ID="212068" Value="Linia 4"/>
+    <Text ID="212069" Value="Linia 5"/>
+    <Text ID="212070" Value="Linia 6"/>
+    <Text ID="212071" Value="Stacja 1"/>
+    <Text ID="212072" Value="Stacja 2"/>
+    <Text ID="212073" Value="Stacja 3"/>
+    <Text ID="212074" Value="Stacja 4"/>
+    <Text ID="212075" Value="Stacja 5"/>
+    <Text ID="212076" Value="Station 6"/>
+    <Text ID="212302" Value="Total Count"/>
+    <Text ID="212303" Value="Quality"/>
+    <Text ID="212304" Value="Picks"/>
+    <Text ID="212307" Value="Czas:"/>
+    <Text ID="212308" Value="Upuść"/>
+    <Text ID="212309" Value="Naprawa bielizny"/>
+    <Text ID="212310" Value="Powtórne pranie"/>
+    <Text ID="212311" Value="PreProduction"/>
+    <Text ID="212312" Value="Poza rozmiarem"/>
+    <Text ID="212313" Value="Batchs"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Stacja 1"/>
+    <Text ID="213731" Value="Stacja 2"/>
+    <Text ID="213732" Value="Stacja 3"/>
+    <Text ID="213733" Value="Stacja 4"/>
+    <Text ID="213734" Value="Stacja 5"/>
+    <Text ID="213735" Value="Station 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Clear"/>
+    <Text ID="214799" Value="All Shifts"/>
+    <Text ID="370855" Value="Too Close"/>
+    <Text ID="373654" Value="Linia 1"/>
+    <Text ID="373655" Value="Linia 2"/>
+    <Text ID="373656" Value="Linia 3"/>
+    <Text ID="373657" Value="Linia 4"/>
+    <Text ID="373658" Value="Linia 5"/>
+    <Text ID="373659" Value="Linia 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Linia 1"/>
+    <Text ID="381300" Value="Linia 2"/>
+    <Text ID="381301" Value="Linia 3"/>
+    <Text ID="381302" Value="Linia 4"/>
+    <Text ID="381303" Value="Linia 5"/>
+    <Text ID="381304" Value="Linia 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Lane"/>
+    <Text ID="381309" Value="Lane"/>
+    <Text ID="386981" Value="Small"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Large"/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Station 7"/>
+    <Text ID="388595" Value="Station 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Station 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="196260" Value=""/>
+    <Text ID="196261" Value=""/>
+    <Text ID="196262" Value=""/>
+    <Text ID="196263" Value=""/>
+    <Text ID="196264" Value=""/>
+    <Text ID="196265" Value=""/>
+    <Text ID="196267" Value=""/>
+    <Text ID="196268" Value=""/>
+    <Text ID="196269" Value=""/>
+    <Text ID="196270" Value=""/>
+    <Text ID="196271" Value=""/>
+    <Text ID="196272" Value=""/>
+    <Text ID="198460" Value=""/>
+    <Text ID="198461" Value=""/>
+    <Text ID="198462" Value=""/>
+    <Text ID="198463" Value=""/>
+    <Text ID="198570" Value=""/>
+    <Text ID="199141" Value=""/>
+    <Text ID="212065" Value=""/>
+    <Text ID="212066" Value=""/>
+    <Text ID="212067" Value=""/>
+    <Text ID="212068" Value=""/>
+    <Text ID="212069" Value=""/>
+    <Text ID="212070" Value=""/>
+    <Text ID="212071" Value=""/>
+    <Text ID="212072" Value=""/>
+    <Text ID="212073" Value=""/>
+    <Text ID="212074" Value=""/>
+    <Text ID="212075" Value=""/>
+    <Text ID="212076" Value=""/>
+    <Text ID="212302" Value=""/>
+    <Text ID="212303" Value=""/>
+    <Text ID="212304" Value=""/>
+    <Text ID="212307" Value=""/>
+    <Text ID="212308" Value=""/>
+    <Text ID="212309" Value=""/>
+    <Text ID="212310" Value=""/>
+    <Text ID="212311" Value=""/>
+    <Text ID="212312" Value=""/>
+    <Text ID="212313" Value=""/>
+    <Text ID="213723" Value=""/>
+    <Text ID="213724" Value=""/>
+    <Text ID="213725" Value=""/>
+    <Text ID="213726" Value=""/>
+    <Text ID="213727" Value=""/>
+    <Text ID="213731" Value=""/>
+    <Text ID="213732" Value=""/>
+    <Text ID="213733" Value=""/>
+    <Text ID="213734" Value=""/>
+    <Text ID="213735" Value=""/>
+    <Text ID="213736" Value=""/>
+    <Text ID="213737" Value=""/>
+    <Text ID="213738" Value=""/>
+    <Text ID="213739" Value=""/>
+    <Text ID="213740" Value=""/>
+    <Text ID="213749" Value=""/>
+    <Text ID="214799" Value=""/>
+    <Text ID="370855" Value=""/>
+    <Text ID="373654" Value=""/>
+    <Text ID="373655" Value=""/>
+    <Text ID="373656" Value=""/>
+    <Text ID="373657" Value=""/>
+    <Text ID="373658" Value=""/>
+    <Text ID="373659" Value=""/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value=""/>
+    <Text ID="381300" Value=""/>
+    <Text ID="381301" Value=""/>
+    <Text ID="381302" Value=""/>
+    <Text ID="381303" Value=""/>
+    <Text ID="381304" Value=""/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value=""/>
+    <Text ID="381309" Value=""/>
+    <Text ID="386981" Value=""/>
+    <Text ID="386982" Value=""/>
+    <Text ID="386983" Value=""/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Station 7"/>
+    <Text ID="388595" Value="Station 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Station 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="196260" Value="December"/>
+    <Text ID="196261" Value="October"/>
+    <Text ID="196262" Value="September"/>
+    <Text ID="196263" Value="August"/>
+    <Text ID="196264" Value="July"/>
+    <Text ID="196265" Value="June"/>
+    <Text ID="196267" Value="May"/>
+    <Text ID="196268" Value="April"/>
+    <Text ID="196269" Value="March"/>
+    <Text ID="196270" Value="February"/>
+    <Text ID="196271" Value="January"/>
+    <Text ID="196272" Value="November"/>
+    <Text ID="198460" Value="All Customers"/>
+    <Text ID="198461" Value="All Articles"/>
+    <Text ID="198462" Value="All Periods"/>
+    <Text ID="198463" Value="Choose Date"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="All Recipes"/>
+    <Text ID="212065" Value="Lane 1"/>
+    <Text ID="212066" Value="Lane 2"/>
+    <Text ID="212067" Value="Lane 3"/>
+    <Text ID="212068" Value="Lane 4"/>
+    <Text ID="212069" Value="Lane 5"/>
+    <Text ID="212070" Value="Lane 6"/>
+    <Text ID="212071" Value="Station 1"/>
+    <Text ID="212072" Value="Station 2"/>
+    <Text ID="212073" Value="Station 3"/>
+    <Text ID="212074" Value="Station 4"/>
+    <Text ID="212075" Value="Station 5"/>
+    <Text ID="212076" Value="Station 6"/>
+    <Text ID="212302" Value="Total Count"/>
+    <Text ID="212303" Value="Quality"/>
+    <Text ID="212304" Value="Picks"/>
+    <Text ID="212307" Value="Time"/>
+    <Text ID="212308" Value="Drop"/>
+    <Text ID="212309" Value="Repair"/>
+    <Text ID="212310" Value="Rewash"/>
+    <Text ID="212311" Value="PreProduction"/>
+    <Text ID="212312" Value="OverSize"/>
+    <Text ID="212313" Value="Batchs"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Station 1"/>
+    <Text ID="213731" Value="Station 2"/>
+    <Text ID="213732" Value="Station 3"/>
+    <Text ID="213733" Value="Station 4"/>
+    <Text ID="213734" Value="Station 5"/>
+    <Text ID="213735" Value="Station 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Clear"/>
+    <Text ID="214799" Value="All Shifts"/>
+    <Text ID="370855" Value="Too Close"/>
+    <Text ID="373654" Value="Lane 1"/>
+    <Text ID="373655" Value="Lane 2"/>
+    <Text ID="373656" Value="Lane 3"/>
+    <Text ID="373657" Value="Lane 4"/>
+    <Text ID="373658" Value="Lane 5"/>
+    <Text ID="373659" Value="Lane 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Lane 1"/>
+    <Text ID="381300" Value="Lane 2"/>
+    <Text ID="381301" Value="Lane 3"/>
+    <Text ID="381302" Value="Lane 4"/>
+    <Text ID="381303" Value="Lane 5"/>
+    <Text ID="381304" Value="Lane 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Lane"/>
+    <Text ID="381309" Value="Lane"/>
+    <Text ID="386981" Value="Small"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Large"/>
+    <Text ID="388584" Value="(f) Overlap"/>
+    <Text ID="388585" Value="(f) Prohibited"/>
+    <Text ID="388586" Value="(f) Idle"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Station 7"/>
+    <Text ID="388595" Value="Station 8"/>
+    <Text ID="388596" Value="Station 9"/>
+    <Text ID="388597" Value="Station 10"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="196260" Value=""/>
+    <Text ID="196261" Value=""/>
+    <Text ID="196262" Value=""/>
+    <Text ID="196263" Value=""/>
+    <Text ID="196264" Value=""/>
+    <Text ID="196265" Value=""/>
+    <Text ID="196267" Value=""/>
+    <Text ID="196268" Value=""/>
+    <Text ID="196269" Value=""/>
+    <Text ID="196270" Value=""/>
+    <Text ID="196271" Value=""/>
+    <Text ID="196272" Value=""/>
+    <Text ID="198460" Value=""/>
+    <Text ID="198461" Value=""/>
+    <Text ID="198462" Value=""/>
+    <Text ID="198463" Value=""/>
+    <Text ID="198570" Value=""/>
+    <Text ID="199141" Value=""/>
+    <Text ID="212065" Value=""/>
+    <Text ID="212066" Value=""/>
+    <Text ID="212067" Value=""/>
+    <Text ID="212068" Value=""/>
+    <Text ID="212069" Value=""/>
+    <Text ID="212070" Value=""/>
+    <Text ID="212071" Value=""/>
+    <Text ID="212072" Value=""/>
+    <Text ID="212073" Value=""/>
+    <Text ID="212074" Value=""/>
+    <Text ID="212075" Value=""/>
+    <Text ID="212076" Value=""/>
+    <Text ID="212302" Value=""/>
+    <Text ID="212303" Value=""/>
+    <Text ID="212304" Value=""/>
+    <Text ID="212307" Value=""/>
+    <Text ID="212308" Value=""/>
+    <Text ID="212309" Value=""/>
+    <Text ID="212310" Value=""/>
+    <Text ID="212311" Value=""/>
+    <Text ID="212312" Value=""/>
+    <Text ID="212313" Value=""/>
+    <Text ID="213723" Value=""/>
+    <Text ID="213724" Value=""/>
+    <Text ID="213725" Value=""/>
+    <Text ID="213726" Value=""/>
+    <Text ID="213727" Value=""/>
+    <Text ID="213731" Value=""/>
+    <Text ID="213732" Value=""/>
+    <Text ID="213733" Value=""/>
+    <Text ID="213734" Value=""/>
+    <Text ID="213735" Value=""/>
+    <Text ID="213736" Value=""/>
+    <Text ID="213737" Value=""/>
+    <Text ID="213738" Value=""/>
+    <Text ID="213739" Value=""/>
+    <Text ID="213740" Value=""/>
+    <Text ID="213749" Value=""/>
+    <Text ID="214799" Value=""/>
+    <Text ID="370855" Value=""/>
+    <Text ID="373654" Value=""/>
+    <Text ID="373655" Value=""/>
+    <Text ID="373656" Value=""/>
+    <Text ID="373657" Value=""/>
+    <Text ID="373658" Value=""/>
+    <Text ID="373659" Value=""/>
+    <Text ID="380301" Value=""/>
+    <Text ID="381299" Value=""/>
+    <Text ID="381300" Value=""/>
+    <Text ID="381301" Value=""/>
+    <Text ID="381302" Value=""/>
+    <Text ID="381303" Value=""/>
+    <Text ID="381304" Value=""/>
+    <Text ID="381305" Value=""/>
+    <Text ID="381306" Value=""/>
+    <Text ID="381307" Value=""/>
+    <Text ID="381308" Value=""/>
+    <Text ID="381309" Value=""/>
+    <Text ID="386981" Value=""/>
+    <Text ID="386982" Value=""/>
+    <Text ID="386983" Value=""/>
+    <Text ID="388584" Value=""/>
+    <Text ID="388585" Value=""/>
+    <Text ID="388586" Value=""/>
+    <Text ID="388587" Value=""/>
+    <Text ID="388588" Value=""/>
+    <Text ID="388589" Value=""/>
+    <Text ID="388592" Value=""/>
+    <Text ID="388595" Value=""/>
+    <Text ID="388596" Value=""/>
+    <Text ID="388597" Value=""/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="196260" Value=""/>
+    <Text ID="196261" Value=""/>
+    <Text ID="196262" Value=""/>
+    <Text ID="196263" Value=""/>
+    <Text ID="196264" Value=""/>
+    <Text ID="196265" Value=""/>
+    <Text ID="196267" Value=""/>
+    <Text ID="196268" Value=""/>
+    <Text ID="196269" Value=""/>
+    <Text ID="196270" Value=""/>
+    <Text ID="196271" Value=""/>
+    <Text ID="196272" Value=""/>
+    <Text ID="198460" Value=""/>
+    <Text ID="198461" Value=""/>
+    <Text ID="198462" Value=""/>
+    <Text ID="198463" Value=""/>
+    <Text ID="198570" Value=""/>
+    <Text ID="199141" Value=""/>
+    <Text ID="212065" Value=""/>
+    <Text ID="212066" Value=""/>
+    <Text ID="212067" Value=""/>
+    <Text ID="212068" Value=""/>
+    <Text ID="212069" Value=""/>
+    <Text ID="212070" Value=""/>
+    <Text ID="212071" Value=""/>
+    <Text ID="212072" Value=""/>
+    <Text ID="212073" Value=""/>
+    <Text ID="212074" Value=""/>
+    <Text ID="212075" Value=""/>
+    <Text ID="212076" Value=""/>
+    <Text ID="212302" Value=""/>
+    <Text ID="212303" Value=""/>
+    <Text ID="212304" Value=""/>
+    <Text ID="212307" Value=""/>
+    <Text ID="212308" Value=""/>
+    <Text ID="212309" Value=""/>
+    <Text ID="212310" Value=""/>
+    <Text ID="212311" Value=""/>
+    <Text ID="212312" Value=""/>
+    <Text ID="212313" Value=""/>
+    <Text ID="213723" Value=""/>
+    <Text ID="213724" Value=""/>
+    <Text ID="213725" Value=""/>
+    <Text ID="213726" Value=""/>
+    <Text ID="213727" Value=""/>
+    <Text ID="213731" Value=""/>
+    <Text ID="213732" Value=""/>
+    <Text ID="213733" Value=""/>
+    <Text ID="213734" Value=""/>
+    <Text ID="213735" Value=""/>
+    <Text ID="213736" Value=""/>
+    <Text ID="213737" Value=""/>
+    <Text ID="213738" Value=""/>
+    <Text ID="213739" Value=""/>
+    <Text ID="213740" Value=""/>
+    <Text ID="213749" Value=""/>
+    <Text ID="214799" Value=""/>
+    <Text ID="370855" Value=""/>
+    <Text ID="373654" Value=""/>
+    <Text ID="373655" Value=""/>
+    <Text ID="373656" Value=""/>
+    <Text ID="373657" Value=""/>
+    <Text ID="373658" Value=""/>
+    <Text ID="373659" Value=""/>
+    <Text ID="380301" Value=""/>
+    <Text ID="381299" Value=""/>
+    <Text ID="381300" Value=""/>
+    <Text ID="381301" Value=""/>
+    <Text ID="381302" Value=""/>
+    <Text ID="381303" Value=""/>
+    <Text ID="381304" Value=""/>
+    <Text ID="381305" Value=""/>
+    <Text ID="381306" Value=""/>
+    <Text ID="381307" Value=""/>
+    <Text ID="381308" Value=""/>
+    <Text ID="381309" Value=""/>
+    <Text ID="386981" Value=""/>
+    <Text ID="386982" Value=""/>
+    <Text ID="386983" Value=""/>
+    <Text ID="388584" Value=""/>
+    <Text ID="388585" Value=""/>
+    <Text ID="388586" Value=""/>
+    <Text ID="388587" Value=""/>
+    <Text ID="388588" Value=""/>
+    <Text ID="388589" Value=""/>
+    <Text ID="388592" Value=""/>
+    <Text ID="388595" Value=""/>
+    <Text ID="388596" Value=""/>
+    <Text ID="388597" Value=""/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="196260" Value=""/>
+    <Text ID="196261" Value=""/>
+    <Text ID="196262" Value=""/>
+    <Text ID="196263" Value=""/>
+    <Text ID="196264" Value=""/>
+    <Text ID="196265" Value=""/>
+    <Text ID="196267" Value=""/>
+    <Text ID="196268" Value=""/>
+    <Text ID="196269" Value=""/>
+    <Text ID="196270" Value=""/>
+    <Text ID="196271" Value=""/>
+    <Text ID="196272" Value=""/>
+    <Text ID="198460" Value=""/>
+    <Text ID="198461" Value=""/>
+    <Text ID="198462" Value=""/>
+    <Text ID="198463" Value=""/>
+    <Text ID="198570" Value=""/>
+    <Text ID="199141" Value=""/>
+    <Text ID="212065" Value=""/>
+    <Text ID="212066" Value=""/>
+    <Text ID="212067" Value=""/>
+    <Text ID="212068" Value=""/>
+    <Text ID="212069" Value=""/>
+    <Text ID="212070" Value=""/>
+    <Text ID="212071" Value=""/>
+    <Text ID="212072" Value=""/>
+    <Text ID="212073" Value=""/>
+    <Text ID="212074" Value=""/>
+    <Text ID="212075" Value=""/>
+    <Text ID="212076" Value=""/>
+    <Text ID="212302" Value=""/>
+    <Text ID="212303" Value=""/>
+    <Text ID="212304" Value=""/>
+    <Text ID="212307" Value=""/>
+    <Text ID="212308" Value=""/>
+    <Text ID="212309" Value=""/>
+    <Text ID="212310" Value=""/>
+    <Text ID="212311" Value=""/>
+    <Text ID="212312" Value=""/>
+    <Text ID="212313" Value=""/>
+    <Text ID="213723" Value=""/>
+    <Text ID="213724" Value=""/>
+    <Text ID="213725" Value=""/>
+    <Text ID="213726" Value=""/>
+    <Text ID="213727" Value=""/>
+    <Text ID="213731" Value=""/>
+    <Text ID="213732" Value=""/>
+    <Text ID="213733" Value=""/>
+    <Text ID="213734" Value=""/>
+    <Text ID="213735" Value=""/>
+    <Text ID="213736" Value=""/>
+    <Text ID="213737" Value=""/>
+    <Text ID="213738" Value=""/>
+    <Text ID="213739" Value=""/>
+    <Text ID="213740" Value=""/>
+    <Text ID="213749" Value=""/>
+    <Text ID="214799" Value=""/>
+    <Text ID="370855" Value=""/>
+    <Text ID="373654" Value=""/>
+    <Text ID="373655" Value=""/>
+    <Text ID="373656" Value=""/>
+    <Text ID="373657" Value=""/>
+    <Text ID="373658" Value=""/>
+    <Text ID="373659" Value=""/>
+    <Text ID="380301" Value=""/>
+    <Text ID="381299" Value=""/>
+    <Text ID="381300" Value=""/>
+    <Text ID="381301" Value=""/>
+    <Text ID="381302" Value=""/>
+    <Text ID="381303" Value=""/>
+    <Text ID="381304" Value=""/>
+    <Text ID="381305" Value=""/>
+    <Text ID="381306" Value=""/>
+    <Text ID="381307" Value=""/>
+    <Text ID="381308" Value=""/>
+    <Text ID="381309" Value=""/>
+    <Text ID="386981" Value=""/>
+    <Text ID="386982" Value=""/>
+    <Text ID="386983" Value=""/>
+    <Text ID="388584" Value=""/>
+    <Text ID="388585" Value=""/>
+    <Text ID="388586" Value=""/>
+    <Text ID="388587" Value=""/>
+    <Text ID="388588" Value=""/>
+    <Text ID="388589" Value=""/>
+    <Text ID="388592" Value=""/>
+    <Text ID="388595" Value=""/>
+    <Text ID="388596" Value=""/>
+    <Text ID="388597" Value=""/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="196260" Value="Desember"/>
+    <Text ID="196261" Value="Oktober"/>
+    <Text ID="196262" Value="September"/>
+    <Text ID="196263" Value="August"/>
+    <Text ID="196264" Value="Juli"/>
+    <Text ID="196265" Value="Juni"/>
+    <Text ID="196267" Value="Mai"/>
+    <Text ID="196268" Value="April"/>
+    <Text ID="196269" Value="Mars"/>
+    <Text ID="196270" Value="Februar"/>
+    <Text ID="196271" Value="Januar"/>
+    <Text ID="196272" Value="November"/>
+    <Text ID="198460" Value="Alle kunder"/>
+    <Text ID="198461" Value="Alle artikler"/>
+    <Text ID="198462" Value="Alle perioder"/>
+    <Text ID="198463" Value="Velg dato"/>
+    <Text ID="198570" Value="N/A"/>
+    <Text ID="199141" Value="Alle programmer"/>
+    <Text ID="212065" Value="Bane 1"/>
+    <Text ID="212066" Value="Bane 2"/>
+    <Text ID="212067" Value="Bane 3"/>
+    <Text ID="212068" Value="Bane 4"/>
+    <Text ID="212069" Value="Bane 5"/>
+    <Text ID="212070" Value="Bane 6"/>
+    <Text ID="212071" Value="Stasjon 1"/>
+    <Text ID="212072" Value="Stasjon 2"/>
+    <Text ID="212073" Value="Stasjon 3"/>
+    <Text ID="212074" Value="Stasjon 4"/>
+    <Text ID="212075" Value="Stasjon 5"/>
+    <Text ID="212076" Value="Stasjon 6"/>
+    <Text ID="212302" Value="Total telling"/>
+    <Text ID="212303" Value="Kvalitet"/>
+    <Text ID="212304" Value="Opphentinger"/>
+    <Text ID="212307" Value="Tid:"/>
+    <Text ID="212308" Value="Dropp"/>
+    <Text ID="212309" Value="Reparer"/>
+    <Text ID="212310" Value="Vask på nytt"/>
+    <Text ID="212311" Value="Før produksjon"/>
+    <Text ID="212312" Value="For stor størrelse"/>
+    <Text ID="212313" Value="Batcher"/>
+    <Text ID="213723" Value="N/A"/>
+    <Text ID="213724" Value="N/A"/>
+    <Text ID="213725" Value="N/A"/>
+    <Text ID="213726" Value="N/A"/>
+    <Text ID="213727" Value="Stasjon 1"/>
+    <Text ID="213731" Value="Stasjon 2"/>
+    <Text ID="213732" Value="Stasjon 3"/>
+    <Text ID="213733" Value="Stasjon 4"/>
+    <Text ID="213734" Value="Stasjon 5"/>
+    <Text ID="213735" Value="Stasjon 6"/>
+    <Text ID="213736" Value="N/A"/>
+    <Text ID="213737" Value="N/A"/>
+    <Text ID="213738" Value="N/A"/>
+    <Text ID="213739" Value="N/A"/>
+    <Text ID="213740" Value="N/A"/>
+    <Text ID="213749" Value="Slett"/>
+    <Text ID="214799" Value="Alle skift"/>
+    <Text ID="370855" Value="For nær"/>
+    <Text ID="373654" Value="Bane 1"/>
+    <Text ID="373655" Value="Bane 2"/>
+    <Text ID="373656" Value="Bane 3"/>
+    <Text ID="373657" Value="Bane 4"/>
+    <Text ID="373658" Value="Bane 5"/>
+    <Text ID="373659" Value="Bane 6"/>
+    <Text ID="380301" Value="Stacker 1"/>
+    <Text ID="381299" Value="Bane 1"/>
+    <Text ID="381300" Value="Bane 2"/>
+    <Text ID="381301" Value="Bane 3"/>
+    <Text ID="381302" Value="Bane 4"/>
+    <Text ID="381303" Value="Bane 5"/>
+    <Text ID="381304" Value="Bane 6"/>
+    <Text ID="381305" Value="Stacker 2"/>
+    <Text ID="381306" Value="Stacker 3"/>
+    <Text ID="381307" Value="Stacker 4"/>
+    <Text ID="381308" Value="Bane"/>
+    <Text ID="381309" Value="Bane"/>
+    <Text ID="386981" Value="Liten"/>
+    <Text ID="386982" Value="Medium"/>
+    <Text ID="386983" Value="Stor"/>
+    <Text ID="388584" Value="Overlapp"/>
+    <Text ID="388585" Value="[F] Prohibited"/>
+    <Text ID="388586" Value="Ledig"/>
+    <Text ID="388587" Value="FlowSLP"/>
+    <Text ID="388588" Value="FlowSFE"/>
+    <Text ID="388589" Value="FlowSFS"/>
+    <Text ID="388592" Value="Stasjon 7:"/>
+    <Text ID="388595" Value="Stasjon 8:"/>
+    <Text ID="388596" Value="Stasjon 9:"/>
+    <Text ID="388597" Value="Stasjon 10:"/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="196260" Value=""/>
+    <Text ID="196261" Value=""/>
+    <Text ID="196262" Value=""/>
+    <Text ID="196263" Value=""/>
+    <Text ID="196264" Value=""/>
+    <Text ID="196265" Value=""/>
+    <Text ID="196267" Value=""/>
+    <Text ID="196268" Value=""/>
+    <Text ID="196269" Value=""/>
+    <Text ID="196270" Value=""/>
+    <Text ID="196271" Value=""/>
+    <Text ID="196272" Value=""/>
+    <Text ID="198460" Value=""/>
+    <Text ID="198461" Value=""/>
+    <Text ID="198462" Value=""/>
+    <Text ID="198463" Value=""/>
+    <Text ID="198570" Value=""/>
+    <Text ID="199141" Value=""/>
+    <Text ID="212065" Value=""/>
+    <Text ID="212066" Value=""/>
+    <Text ID="212067" Value=""/>
+    <Text ID="212068" Value=""/>
+    <Text ID="212069" Value=""/>
+    <Text ID="212070" Value=""/>
+    <Text ID="212071" Value=""/>
+    <Text ID="212072" Value=""/>
+    <Text ID="212073" Value=""/>
+    <Text ID="212074" Value=""/>
+    <Text ID="212075" Value=""/>
+    <Text ID="212076" Value=""/>
+    <Text ID="212302" Value=""/>
+    <Text ID="212303" Value=""/>
+    <Text ID="212304" Value=""/>
+    <Text ID="212307" Value=""/>
+    <Text ID="212308" Value=""/>
+    <Text ID="212309" Value=""/>
+    <Text ID="212310" Value=""/>
+    <Text ID="212311" Value=""/>
+    <Text ID="212312" Value=""/>
+    <Text ID="212313" Value=""/>
+    <Text ID="213723" Value=""/>
+    <Text ID="213724" Value=""/>
+    <Text ID="213725" Value=""/>
+    <Text ID="213726" Value=""/>
+    <Text ID="213727" Value=""/>
+    <Text ID="213731" Value=""/>
+    <Text ID="213732" Value=""/>
+    <Text ID="213733" Value=""/>
+    <Text ID="213734" Value=""/>
+    <Text ID="213735" Value=""/>
+    <Text ID="213736" Value=""/>
+    <Text ID="213737" Value=""/>
+    <Text ID="213738" Value=""/>
+    <Text ID="213739" Value=""/>
+    <Text ID="213740" Value=""/>
+    <Text ID="213749" Value=""/>
+    <Text ID="214799" Value=""/>
+    <Text ID="370855" Value=""/>
+    <Text ID="373654" Value=""/>
+    <Text ID="373655" Value=""/>
+    <Text ID="373656" Value=""/>
+    <Text ID="373657" Value=""/>
+    <Text ID="373658" Value=""/>
+    <Text ID="373659" Value=""/>
+    <Text ID="380301" Value=""/>
+    <Text ID="381299" Value=""/>
+    <Text ID="381300" Value=""/>
+    <Text ID="381301" Value=""/>
+    <Text ID="381302" Value=""/>
+    <Text ID="381303" Value=""/>
+    <Text ID="381304" Value=""/>
+    <Text ID="381305" Value=""/>
+    <Text ID="381306" Value=""/>
+    <Text ID="381307" Value=""/>
+    <Text ID="381308" Value=""/>
+    <Text ID="381309" Value=""/>
+    <Text ID="386981" Value=""/>
+    <Text ID="386982" Value=""/>
+    <Text ID="386983" Value=""/>
+    <Text ID="388584" Value=""/>
+    <Text ID="388585" Value=""/>
+    <Text ID="388586" Value=""/>
+    <Text ID="388587" Value=""/>
+    <Text ID="388588" Value=""/>
+    <Text ID="388589" Value=""/>
+    <Text ID="388592" Value=""/>
+    <Text ID="388595" Value=""/>
+    <Text ID="388596" Value=""/>
+    <Text ID="388597" Value=""/>
+    <Text ID="388598" Value=""/>
+    <Text ID="388599" Value=""/>
+    <Text ID="388600" Value=""/>
+    <Text ID="388601" Value=""/>
+    <Text ID="388602" Value=""/>
+    <Text ID="388603" Value=""/>
+    <Text ID="388604" Value=""/>
+    <Text ID="388605" Value=""/>
+    <Text ID="388606" Value=""/>
+    <Text ID="388607" Value=""/>
+    <Text ID="388608" Value=""/>
+    <Text ID="388609" Value=""/>
+    <Text ID="388610" Value=""/>
+    <Text ID="388611" Value=""/>
+    <Text ID="388612" Value=""/>
+    <Text ID="388613" Value=""/>
+    <Text ID="388614" Value=""/>
+    <Text ID="388615" Value=""/>
+    <Text ID="388616" Value=""/>
+    <Text ID="388618" Value=""/>
+    <Text ID="388619" Value=""/>
+    <Text ID="388620" Value=""/>
+    <Text ID="388621" Value=""/>
+    <Text ID="388622" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="196260" Value="11"/>
+    <Index ID="196261" Value="9"/>
+    <Index ID="196262" Value="8"/>
+    <Index ID="196263" Value="7"/>
+    <Index ID="196264" Value="6"/>
+    <Index ID="196265" Value="5"/>
+    <Index ID="196267" Value="4"/>
+    <Index ID="196268" Value="3"/>
+    <Index ID="196269" Value="2"/>
+    <Index ID="196270" Value="1"/>
+    <Index ID="196271" Value="0"/>
+    <Index ID="196272" Value="10"/>
+    <Index ID="198460" Value="12"/>
+    <Index ID="198461" Value="13"/>
+    <Index ID="198462" Value="14"/>
+    <Index ID="198463" Value="15"/>
+    <Index ID="198570" Value="16"/>
+    <Index ID="199141" Value="17"/>
+    <Index ID="212065" Value="501"/>
+    <Index ID="212066" Value="502"/>
+    <Index ID="212067" Value="503"/>
+    <Index ID="212068" Value="504"/>
+    <Index ID="212069" Value="505"/>
+    <Index ID="212070" Value="506"/>
+    <Index ID="212071" Value="301"/>
+    <Index ID="212072" Value="302"/>
+    <Index ID="212073" Value="303"/>
+    <Index ID="212074" Value="304"/>
+    <Index ID="212075" Value="305"/>
+    <Index ID="212076" Value="306"/>
+    <Index ID="212302" Value="21"/>
+    <Index ID="212303" Value="25"/>
+    <Index ID="212304" Value="102"/>
+    <Index ID="212307" Value="20"/>
+    <Index ID="212308" Value="24"/>
+    <Index ID="212309" Value="23"/>
+    <Index ID="212310" Value="22"/>
+    <Index ID="212311" Value="27"/>
+    <Index ID="212312" Value="26"/>
+    <Index ID="212313" Value="101"/>
+    <Index ID="213723" Value="103"/>
+    <Index ID="213724" Value="104"/>
+    <Index ID="213725" Value="105"/>
+    <Index ID="213726" Value="106"/>
+    <Index ID="213727" Value="201"/>
+    <Index ID="213731" Value="202"/>
+    <Index ID="213732" Value="203"/>
+    <Index ID="213733" Value="204"/>
+    <Index ID="213734" Value="205"/>
+    <Index ID="213735" Value="206"/>
+    <Index ID="213736" Value="401"/>
+    <Index ID="213737" Value="402"/>
+    <Index ID="213738" Value="403"/>
+    <Index ID="213739" Value="405"/>
+    <Index ID="213740" Value="406"/>
+    <Index ID="213749" Value="18"/>
+    <Index ID="214799" Value="19"/>
+    <Index ID="370855" Value="28"/>
+    <Index ID="373654" Value="601"/>
+    <Index ID="373655" Value="602"/>
+    <Index ID="373656" Value="603"/>
+    <Index ID="373657" Value="604"/>
+    <Index ID="373658" Value="605"/>
+    <Index ID="373659" Value="606"/>
+    <Index ID="380301" Value="801"/>
+    <Index ID="381299" Value="701"/>
+    <Index ID="381300" Value="702"/>
+    <Index ID="381301" Value="703"/>
+    <Index ID="381302" Value="704"/>
+    <Index ID="381303" Value="705"/>
+    <Index ID="381304" Value="706"/>
+    <Index ID="381305" Value="802"/>
+    <Index ID="381306" Value="803"/>
+    <Index ID="381307" Value="804"/>
+    <Index ID="381308" Value="805"/>
+    <Index ID="381309" Value="806"/>
+    <Index ID="386981" Value="29"/>
+    <Index ID="386982" Value="30"/>
+    <Index ID="386983" Value="31"/>
+    <Index ID="388584" Value="35"/>
+    <Index ID="388585" Value="36"/>
+    <Index ID="388586" Value="37"/>
+    <Index ID="388587" Value="34"/>
+    <Index ID="388588" Value="33"/>
+    <Index ID="388589" Value="32"/>
+    <Index ID="388592" Value="207"/>
+    <Index ID="388595" Value="208"/>
+    <Index ID="388596" Value="209"/>
+    <Index ID="388597" Value="210"/>
+    <Index ID="388598" Value="807"/>
+    <Index ID="388599" Value="808"/>
+    <Index ID="388600" Value="809"/>
+    <Index ID="388601" Value="810"/>
+    <Index ID="388602" Value="707"/>
+    <Index ID="388603" Value="708"/>
+    <Index ID="388604" Value="709"/>
+    <Index ID="388605" Value="710"/>
+    <Index ID="388606" Value="607"/>
+    <Index ID="388607" Value="608"/>
+    <Index ID="388608" Value="609"/>
+    <Index ID="388609" Value="610"/>
+    <Index ID="388610" Value="507"/>
+    <Index ID="388611" Value="508"/>
+    <Index ID="388612" Value="509"/>
+    <Index ID="388613" Value="510"/>
+    <Index ID="388614" Value="407"/>
+    <Index ID="388615" Value="408"/>
+    <Index ID="388616" Value="409"/>
+    <Index ID="388618" Value="410"/>
+    <Index ID="388619" Value="307"/>
+    <Index ID="388620" Value="308"/>
+    <Index ID="388621" Value="309"/>
+    <Index ID="388622" Value="310"/>
+  </IndexMap>
+</TextGroup>

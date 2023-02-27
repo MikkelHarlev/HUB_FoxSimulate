@@ -1,0 +1,234 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML DIR=LTR>
+ <HEAD>
+  <meta name="INDEX" content="RcpCopy">
+  <meta name="ORDER" content="1">
+  <META NAME="generator" CONTENT="Microsoft FrontPage 5.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <TITLE>RcpCopy</TITLE>
+  <LINK REL="StyleSheet" HREF="../styles.css">
+ </HEAD>
+
+ <BODY>
+  <H1> Jercp_lib - RcpCopy()</H1>
+
+  <p style="margin-top: 0; margin-bottom: 0">This Function Block does the 
+  following:</p>
+
+  <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+
+  <p style="margin-top: 0; margin-bottom: 0"><u>RcpInit.cfgWorkWithVar = 0:</u></p>
+
+  <ul>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Calculate and Allocate the memory 
+  needed for all recipes, including the new one</p>
+
+    </li>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Copy all existing recipes to the 
+  new memory and copy the selected Recipes to the selected index in the new memory.</p>
+
+    </li>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Increase the NumberOfRecipes 
+  Parameter in the RecipeInfo Struct (<a href="../Datatypes/RcpExtInfo_Type.html">RcpExtInfo_Type</a>)</p>
+
+    </li>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Give the new address where the 
+  structured recipe data is stored to the RecipeInfo Struct (<a href="../Datatypes/RcpExtInfo_Type.html">RcpExtInfo_Type</a>)</p>
+
+    </li>
+  </ul>
+
+  <p style="margin-top: 0; margin-bottom: 0"><u>RcpInit.cfgWorkWithVar = 1:</u></p>
+
+    <ul>
+      <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Check if the selected recipes fit 
+  into the structure array.</p>
+
+      </li>
+      <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">If possible copy the recipes</p>
+
+      </li>
+      <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">If not then an error is returned</p>
+
+      </li>
+  </ul>
+
+  <H2> Parameters</H2>
+
+  <CENTER>
+   <TABLE WIDTH="90%" CELLPADDING="4" CELLSPACING="2" BORDER="1">
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      <P ALIGN="CENTER"> <B>I/O</B></P>
+     </TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      <P> <B>Parameter</B></P>
+     </TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      <P> <B>Data Type</B></P>
+     </TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      <P> <B>Description</B></P>
+     </TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      Enable</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      BOOL</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Enables the Function Block</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      Ident</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Ident from <a href="RcpInit.html">RcpInit()</a></TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      RcpSourceNumber</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Recipe Source Number which should be copied</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      RcpDestBegin</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Recipe Destination Number Start copy to</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      RcpDestEnd</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Recipe Destination Number Stop copy to</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      optCopySelectedPar</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      USINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Copy only the actual selected parameter (<a href="ParScroCyclic.html">ParScroCyclcic</a>) 
+      from Source to Dest.</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      OUT</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      Status</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      <a href="../General/Error.html">Error Number</a></TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      OUT</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      NewRecipeNumber</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Number of the new Recipe</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      OUT</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      ErrStringInfo</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      STRING(32)</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      In case of Error Information is given in this String</TD>
+    </TR>
+
+    </TABLE>
+  </CENTER>
+
+  <h2>Call Syntax (Structured Text)</h2>
+  <p>&nbsp;&nbsp;&nbsp; RcpCopy_0(Enable:=, Ident:=, RcpSourceNumber:=, 
+  RcpDestNumber:=, NumberOfRecipes:=);</p>
+  <h2>Examples</h2>
+  <p>&nbsp;&nbsp;&nbsp; <a href="../Example/AB.html">Automation 
+  Basic</a></p>
+  <p>&nbsp;&nbsp;&nbsp; <a href="../Example/C.html">Ansi C</a></p>
+  <p>&nbsp;&nbsp;&nbsp; <a href="../Example/ST.html">Structured 
+  Text</a></p>
+
+  </BODY>
+</HTML>

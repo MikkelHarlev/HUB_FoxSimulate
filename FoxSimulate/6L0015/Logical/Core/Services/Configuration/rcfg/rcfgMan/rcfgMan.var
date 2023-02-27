@@ -1,0 +1,20 @@
+(********************************************************************
+ * COPYRIGHT -- JENSEN Denmark A/S
+ ********************************************************************
+ * Program: rcfgMan
+ * File: rcfgMan.var
+ * Author: eg
+ * Created: July 31, 2013
+ ********************************************************************
+ * Local variables of program rcfgMan
+ ********************************************************************)
+VAR
+	DRead : DirRead;
+	i : UINT;
+END_VAR
+VAR CONSTANT
+	NAME_CFG_DEVICE : STRING[20] := 'rcfg';
+END_VAR
+VAR
+	RecipeFileManage : FileManager_Type;
+END_VAR

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Failsafe">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="21"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="443212" Value="FAIL SAFE MODE"/>
+    <Text ID="443213" Value="Node #"/>
+    <Text ID="443214" Value="IP address"/>
+    <Text ID="443215" Value="Default IP"/>
+    <Text ID="443216" Value="Press key to set default IP address (172.16.1.99) . then change Node id to 99 and reboot."/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="443212" Value="Fehler speicher modus"/>
+    <Text ID="443213" Value="Node #"/>
+    <Text ID="443214" Value="IP-Adresse:"/>
+    <Text ID="443215" Value="IP nicht erfuellt"/>
+    <Text ID="443216" Value="Druecke eine  taste um IP zu deaktiv. (172.16.1.99) . Dann wechsel Node id zu 99 und lade neu."/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="443212" Value="FAIL SAFE MODE"/>
+    <Text ID="443213" Value="Node #"/>
+    <Text ID="443214" Value="IP address"/>
+    <Text ID="443215" Value="Default IP"/>
+    <Text ID="443216" Value="Press key to set default IP address (172.16.1.99) . then change Node id to 99 and reboot."/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="443212" Value="MODE FAIL SAFE"/>
+    <Text ID="443213" Value="Nœud #"/>
+    <Text ID="443214" Value="Adresse IP"/>
+    <Text ID="443215" Value="IP par défaut"/>
+    <Text ID="443216" Value="Appuyer sur la touche pour régler l'adresse IP par défaut (172.16.1.99), puis modifier l'ID nœud sur 99 et redémarrer."/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="443212" Value="FEJL SIKKERHEDS MODUS"/>
+    <Text ID="443213" Value="Node #"/>
+    <Text ID="443214" Value="IP adresse"/>
+    <Text ID="443215" Value="Default IP"/>
+    <Text ID="443216" Value="Tryk for tilbagestilling af default IP-adresse"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="443212" Value="MODALITA' SICURA NON FUNZIONA"/>
+    <Text ID="443213" Value="Nodo #"/>
+    <Text ID="443214" Value="IP indirizzo"/>
+    <Text ID="443215" Value="Default IP"/>
+    <Text ID="443216" Value="Premere il tasto per impostare &quot;Default IP (172.16.1.99)&quot; , poi cambiare ID Nodo a 99 e  &quot;Reboot&quot;."/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="443212" Value="FAIL SAFE MODE"/>
+    <Text ID="443213" Value="Node #"/>
+    <Text ID="443214" Value="IP address"/>
+    <Text ID="443215" Value="Default IP"/>
+    <Text ID="443216" Value="Press key to set default IP address (172.16.1.99) . then change Node id to 99 and reboot."/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="443212" Value="FAALVEILIGE MODUS"/>
+    <Text ID="443213" Value="Node #"/>
+    <Text ID="443214" Value="IP-adres"/>
+    <Text ID="443215" Value="Standaard IP"/>
+    <Text ID="443216" Value="Op toets drukken om standaard IP-adres (172.16.1.99) in te stellen. Node-id dan wijzigen in 99 en opnieuw starten."/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="443212" Value="FALLO MODO SEGURO"/>
+    <Text ID="443213" Value="Nodo #"/>
+    <Text ID="443214" Value="Dirección IP:"/>
+    <Text ID="443215" Value="IP por defecto"/>
+    <Text ID="443216" Value="Pulsar para seleccionar dirección IP (172.16.1.99) . Luego cambiar Nodo a 99 y Reiniciar"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="443212" Value="TRYB AWARYJNY"/>
+    <Text ID="443213" Value="Węzeł nr"/>
+    <Text ID="443214" Value="Adres IP"/>
+    <Text ID="443215" Value="Domyślny adres IP"/>
+    <Text ID="443216" Value="Wciśnij przycisk, aby ustawić domyślny adres IP (172.16.1.99), następnie zmień id węzła na 99 i ponownie uruchom system."/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="443212" Value=""/>
+    <Text ID="443213" Value=""/>
+    <Text ID="443214" Value=""/>
+    <Text ID="443215" Value=""/>
+    <Text ID="443216" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="443212" Value=""/>
+    <Text ID="443213" Value=""/>
+    <Text ID="443214" Value=""/>
+    <Text ID="443215" Value=""/>
+    <Text ID="443216" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="443212" Value="TRYB AWARYJNY"/>
+    <Text ID="443213" Value="Węzeł nr"/>
+    <Text ID="443214" Value="Adres IP"/>
+    <Text ID="443215" Value="Domyślny adres IP"/>
+    <Text ID="443216" Value="Wciśnij przycisk, aby ustawić domyślny adres IP (172.16.1.99), następnie zmień id węzła na 99 i ponownie uruchom system."/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="443212" Value="FAIL SAFE MODE"/>
+    <Text ID="443213" Value="Node #"/>
+    <Text ID="443214" Value="IP address"/>
+    <Text ID="443215" Value="Default IP"/>
+    <Text ID="443216" Value="Press key to set default IP address (172.16.1.99) . then change Node id to 99 and reboot."/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="443212" Value="FAIL SAFE MODE"/>
+    <Text ID="443213" Value="Node #"/>
+    <Text ID="443214" Value="IP address"/>
+    <Text ID="443215" Value="Default IP"/>
+    <Text ID="443216" Value="Press key to set default IP address (172.16.1.99) . then change Node id to 99 and reboot."/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="443212" Value="FEIL SIKKERHETS MODUS"/>
+    <Text ID="443213" Value="Node #"/>
+    <Text ID="443214" Value="IP addresse"/>
+    <Text ID="443215" Value="Default IP"/>
+    <Text ID="443216" Value="Trykk for tilbakestilling av default IP-adresse"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="443212" Value="MODO ISENTO DE FALHAS"/>
+    <Text ID="443213" Value="Nó n.º"/>
+    <Text ID="443214" Value="IP Address:"/>
+    <Text ID="443215" Value="IP padrão"/>
+    <Text ID="443216" Value="Prima a tecla para definir o endereço de IP padrão (172.16.1.99) e depois altere a ID do nó para 99 e reinicie."/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="443212" Value="0"/>
+    <Index ID="443213" Value="1"/>
+    <Index ID="443214" Value="2"/>
+    <Index ID="443215" Value="3"/>
+    <Index ID="443216" Value="4"/>
+  </IndexMap>
+</TextGroup>

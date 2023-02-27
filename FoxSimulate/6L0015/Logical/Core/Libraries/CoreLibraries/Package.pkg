@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="An empty package">XMLCom</Object>
+    <Object Type="Library" Language="IEC" Description="Common Library, JeDK">JEDKLIB</Object>
+    <Object Type="Library" Language="Binary" Description="v3.07.1">MetUtils</Object>
+    <Object Type="Library" Language="Binary">base64</Object>
+    <Object Type="Library" Language="Binary" Description="v2.21.2">CacheLib</Object>
+    <Object Type="Library" Language="Binary">CLib</Object>
+    <Object Type="Library" Language="Binary" Description="Connection Manager Support Library">CMSupport</Object>
+    <Object Type="Library" Language="Binary">CRC</Object>
+    <Object Type="Library" Language="Binary">IoList</Object>
+    <Object Type="Library" Language="Binary" Description="JenDataCore">jedata</Object>
+    <Object Type="Library" Language="Binary">JEGR_Coop</Object>
+    <Object Type="Library" Language="Binary">JEHMI</Object>
+    <Object Type="Library" Language="Binary">JenSQL</Object>
+    <Object Type="Library" Language="Binary">jercp</Object>
+    <Object Type="Library" Language="Binary">ListHand</Object>
+    <Object Type="Library" Language="Binary">LogLib</Object>
+    <Object Type="Library" Language="Binary">MetIDUtils</Object>
+  </Objects>
+</Package>

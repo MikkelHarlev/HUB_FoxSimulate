@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigMiniJenway">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="24"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="291126" Value="Mini Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="291126" Value="Mini Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="291126" Value="Mini Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="291126" Value="Mini Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="291126" Value="Mini Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="291126" Value="Mini Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="291126" Value="Mini Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="291126" Value="Mini Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="291126" Value="Mini Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="291126" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="291126" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="291126" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="291126" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="291126" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="291126" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="291126" Value="Mini Jenway"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="291126" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="291126" Value="59"/>
+  </IndexMap>
+</TextGroup>

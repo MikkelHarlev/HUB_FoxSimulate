@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="l_PageHeader_Text">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="19"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002004" Name="DefaultHeader">
+      <Property Name="Datapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[l_PageHeader_Text]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3884" Value="Recipe Edit"/>
+    <Text ID="3885" Value="Recipe Select"/>
+    <Text ID="3886" Value="Customer and Article List Select"/>
+    <Text ID="3887" Value="Customer and Article List Edit"/>
+    <Text ID="3888" Value="Machine Configuration Edit"/>
+    <Text ID="3890" Value="Hardware Configuration Edit"/>
+    <Text ID="3898" Value="I/O Trace Configuration"/>
+    <Text ID="3899" Value="I/O Trace Graph"/>
+    <Text ID="3900" Value="PLC Logbook"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3907" Value="IP Settings"/>
+    <Text ID="3908" Value="Password System"/>
+    <Text ID="3909" Value="Touch Calibrate"/>
+    <Text ID="3910" Value="Actual Alarm List"/>
+    <Text ID="3911" Value="Alarm History"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Password Code"/>
+    <Text ID="10541" Value="Panel Default Settings"/>
+    <Text ID="12064" Value="Operator List"/>
+    <Text ID="13155" Value="System Main"/>
+    <Text ID="27148" Value="Operator List"/>
+    <Text ID="27149" Value="Customer&amp;Article List"/>
+    <Text ID="98462" Value="Machine Main Page"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X bus"/>
+    <Text ID="133015" Value="Inverter status"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistics 1: Global data"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Stacker group"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256728" Value="Lateral-Folding"/>
+    <Text ID="267264" Value="Stackers"/>
+    <Text ID="306322" Value="General"/>
+    <Text ID="306323" Value="Folding"/>
+    <Text ID="306324" Value="Stacker and Outlet"/>
+    <Text ID="306325" Value="Stacker and Outlet"/>
+    <Text ID="306326" Value="Delivery"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Compound machines"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Auto program Edit 1"/>
+    <Text ID="308421" Value="Auto Program File handling"/>
+    <Text ID="309595" Value="Inlet"/>
+    <Text ID="309596" Value="Hanger opener"/>
+    <Text ID="309999" Value="Hanger inlet service"/>
+    <Text ID="310000" Value="Hanger opener service"/>
+    <Text ID="318639" Value="Recipe select section"/>
+    <Text ID="321182" Value="Top conveyor"/>
+    <Text ID="321183" Value="Lateral"/>
+    <Text ID="321184" Value="Cross A"/>
+    <Text ID="321185" Value="Cross B"/>
+    <Text ID="321186" Value="Stacker group"/>
+    <Text ID="321187" Value="Outlet Stackers"/>
+    <Text ID="321188" Value="Delivery"/>
+    <Text ID="321189" Value="Roll off (Jenway)"/>
+    <Text ID="321550" Value="Auto program Edit 2"/>
+    <Text ID="324629" Value="Metricon XML communication"/>
+    <Text ID="325035" Value="Machine overview"/>
+    <Text ID="329521" Value="Metricon communication config"/>
+    <Text ID="330965" Value="IP Ping"/>
+    <Text ID="391406" Value="Printer diagnostics"/>
+    <Text ID="436804" Value="Auto program Edit 3"/>
+    <Text ID="445364" Value="X2X Bus"/>
+    <Text ID="445381" Value="Display clean"/>
+    <Text ID="445382" Value="System info"/>
+    <Text ID="445383" Value="Configuration files"/>
+    <Text ID="450103" Value="Login"/>
+    <Text ID="453971" Value="Metricon Serial communication"/>
+    <Text ID="458327" Value="Jenway communication"/>
+    <Text ID="472711" Value="Inlet Transport"/>
+    <Text ID="510091" Value="Statistics 2: Internal alarms"/>
+    <Text ID="511880" Value="Accumulator &amp; Hanger turner"/>
+    <Text ID="511881" Value="Statistics 3: Stacker"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="3884" Value="Programm editieren"/>
+    <Text ID="3885" Value="Programm auswählen"/>
+    <Text ID="3886" Value="Kunden- und Artikelliste auswählen"/>
+    <Text ID="3887" Value="Kunden- und Artikelliste editieren"/>
+    <Text ID="3888" Value="Maschinenkonfiguration Editieren"/>
+    <Text ID="3890" Value="Hardware konfiguration editieren"/>
+    <Text ID="3898" Value="Ein-/Ausgang Log Konfiguration"/>
+    <Text ID="3899" Value="Ein-/Ausgang Log Bild"/>
+    <Text ID="3900" Value="SPS Logbuch"/>
+    <Text ID="3901" Value="USB Sicherung"/>
+    <Text ID="3907" Value="IP-Einstellungen"/>
+    <Text ID="3908" Value="Passwort System"/>
+    <Text ID="3909" Value="Touch Kalibrierung"/>
+    <Text ID="3910" Value="Aktuelle Alarm Liste"/>
+    <Text ID="3911" Value="Alarm Logbuch"/>
+    <Text ID="3913" Value="Alarm Brücken"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Passwortcode"/>
+    <Text ID="10541" Value="Display Fehler Einstellungen"/>
+    <Text ID="12064" Value="Bediener Liste"/>
+    <Text ID="13155" Value="System Hauptseite"/>
+    <Text ID="27148" Value="Bediener Liste"/>
+    <Text ID="27149" Value="Kunden- &amp; Artikelliste"/>
+    <Text ID="98462" Value="Hauptseite Maschine"/>
+    <Text ID="121895" Value="IO-Status"/>
+    <Text ID="121896" Value="X2X Bus"/>
+    <Text ID="133015" Value="Umrichter Status:"/>
+    <Text ID="161704" Value="Maschinenübersichtsseite"/>
+    <Text ID="161705" Value="Statistik 1: Globale Daten"/>
+    <Text ID="256694" Value="Kreuzfaltung A"/>
+    <Text ID="256695" Value="Kreuzfaltung: Überblick"/>
+    <Text ID="256696" Value="Kreuzfaltung B"/>
+    <Text ID="256697" Value="Stapler Gruppe"/>
+    <Text ID="256699" Value="Übergabe"/>
+    <Text ID="256728" Value="Laengs-Faltung"/>
+    <Text ID="267264" Value="Stapler"/>
+    <Text ID="306322" Value="Generell"/>
+    <Text ID="306323" Value="Faltung"/>
+    <Text ID="306324" Value="Stapler und Ausgabe"/>
+    <Text ID="306325" Value="Stapler und Ausgabe"/>
+    <Text ID="306326" Value="Übergabe"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Zusatz-Maschinen"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Auto program bearbeitung 1"/>
+    <Text ID="308421" Value="Auto Program Datei Handhabung"/>
+    <Text ID="309595" Value="Einlauf"/>
+    <Text ID="309596" Value="Buegel Oeffner "/>
+    <Text ID="309999" Value="Buegel Einlauf service"/>
+    <Text ID="310000" Value="Buegel oeffner service"/>
+    <Text ID="318639" Value="Rezept Auswahl Bereich"/>
+    <Text ID="321182" Value="Oberer conveyor"/>
+    <Text ID="321183" Value="Laengs"/>
+    <Text ID="321184" Value="Kreuz A"/>
+    <Text ID="321185" Value="Kreuz B"/>
+    <Text ID="321186" Value="Stapler Gruppe"/>
+    <Text ID="321187" Value="Auslauf Stapler"/>
+    <Text ID="321188" Value="Übergabe"/>
+    <Text ID="321189" Value="Roll off (Jenway)"/>
+    <Text ID="321550" Value="Auto program bearbeitung 2"/>
+    <Text ID="324629" Value="Metricon XML kommunikation"/>
+    <Text ID="325035" Value="Maschinen Uebersicht"/>
+    <Text ID="329521" Value="Metricon Kommunikation einrichten"/>
+    <Text ID="330965" Value="IP Ping"/>
+    <Text ID="391406" Value="Drucker Diagnose"/>
+    <Text ID="436804" Value="Auto program bearbeitung 3"/>
+    <Text ID="445364" Value="X2X Bus"/>
+    <Text ID="445381" Value="Anzeige reinigen"/>
+    <Text ID="445382" Value="System info"/>
+    <Text ID="445383" Value="Einrichtungs-Dateien"/>
+    <Text ID="450103" Value="Login"/>
+    <Text ID="453971" Value="Metricon serielle kommunikation"/>
+    <Text ID="458327" Value="Jenway kommunikation"/>
+    <Text ID="472711" Value="Einlauf Transport"/>
+    <Text ID="510091" Value="Statistik 2: Interne Alarme"/>
+    <Text ID="511880" Value="Akku &amp; Aufhänger Wender"/>
+    <Text ID="511881" Value="Statistik 3: Stacker"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="3884" Value="Recipe Edit"/>
+    <Text ID="3885" Value="Recipe Select"/>
+    <Text ID="3886" Value="Customer and Article List Select"/>
+    <Text ID="3887" Value="Customer and Article List Edit"/>
+    <Text ID="3888" Value="Machine Configuration Edit"/>
+    <Text ID="3890" Value="Hardware Configuration Edit"/>
+    <Text ID="3898" Value="I/O Trace Configuration"/>
+    <Text ID="3899" Value="I/O Trace Graph"/>
+    <Text ID="3900" Value="PLC Logbook"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3907" Value="IP Settings"/>
+    <Text ID="3908" Value="Password System"/>
+    <Text ID="3909" Value="Touch Calibrate"/>
+    <Text ID="3910" Value="Actual Alarm List"/>
+    <Text ID="3911" Value="Alarm History"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Password Code"/>
+    <Text ID="10541" Value="Panel Default Settings"/>
+    <Text ID="12064" Value="Operator List"/>
+    <Text ID="13155" Value="System Main"/>
+    <Text ID="27148" Value="Operatörslista"/>
+    <Text ID="27149" Value="Kund&amp;Artikellista"/>
+    <Text ID="98462" Value="Maskin Huvudsida"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X bus"/>
+    <Text ID="133015" Value="Inverter status"/>
+    <Text ID="161704" Value="Maskin Översiktssida"/>
+    <Text ID="161705" Value="Statistiksida 1"/>
+    <Text ID="256694" Value="Tvärvikning A"/>
+    <Text ID="256695" Value="Tvärvikning: översikt"/>
+    <Text ID="256696" Value="Tvärvikning B"/>
+    <Text ID="256697" Value="Stacker grupp"/>
+    <Text ID="256699" Value="Transport"/>
+    <Text ID="256728" Value="Längsvikning"/>
+    <Text ID="267264" Value="Stackers"/>
+    <Text ID="306322" Value="Allmänt"/>
+    <Text ID="306323" Value="Vikning"/>
+    <Text ID="306324" Value="Stacker and Outlet"/>
+    <Text ID="306325" Value="Stacker and Outlet"/>
+    <Text ID="306326" Value="Delivery"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Compound machines"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Auto program Edit 1"/>
+    <Text ID="308421" Value="Auto Program File handling"/>
+    <Text ID="309595" Value="Inlet"/>
+    <Text ID="309596" Value="Hanger opener"/>
+    <Text ID="309999" Value="Hanger inlet service"/>
+    <Text ID="310000" Value="Hanger opener service"/>
+    <Text ID="318639" Value="Recipe select section"/>
+    <Text ID="321182" Value="Top conveyor"/>
+    <Text ID="321183" Value="Lateral"/>
+    <Text ID="321184" Value="Cross A"/>
+    <Text ID="321185" Value="Cross B"/>
+    <Text ID="321186" Value="Stacker group"/>
+    <Text ID="321187" Value="Outlet Stackers"/>
+    <Text ID="321188" Value="Delivery"/>
+    <Text ID="321189" Value="Roll off (Jenway)"/>
+    <Text ID="321550" Value="Auto program Edit 2"/>
+    <Text ID="324629" Value="Metricon XML communication"/>
+    <Text ID="325035" Value="Machine overview"/>
+    <Text ID="329521" Value="Metricon communication config"/>
+    <Text ID="330965" Value="IP Ping"/>
+    <Text ID="391406" Value="Printer diagnostics"/>
+    <Text ID="436804" Value="Auto program Edit 3"/>
+    <Text ID="445364" Value="X2X Bus"/>
+    <Text ID="445381" Value="Display clean"/>
+    <Text ID="445382" Value="System info"/>
+    <Text ID="445383" Value="Configuration files"/>
+    <Text ID="450103" Value="Inloggning"/>
+    <Text ID="453971" Value="Metricon Serial communication"/>
+    <Text ID="458327" Value="Jenway communication"/>
+    <Text ID="472711" Value="Inlet Transport"/>
+    <Text ID="510091" Value="Statistics 2: Internal alarms"/>
+    <Text ID="511880" Value="Accumulator &amp; Hanger turner"/>
+    <Text ID="511881" Value="Statistik 3: Stacker"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="3884" Value="Edition programme"/>
+    <Text ID="3885" Value="Selection programme"/>
+    <Text ID="3886" Value="Selection clients&amp;articles"/>
+    <Text ID="3887" Value="Edition liste article et clients"/>
+    <Text ID="3888" Value="Edition configuration machine"/>
+    <Text ID="3890" Value="Edition configuration hardware"/>
+    <Text ID="3898" Value="Configuration trace e/s"/>
+    <Text ID="3899" Value="Graphique e/s"/>
+    <Text ID="3900" Value="Ecriture Log PLC"/>
+    <Text ID="3901" Value="Sauvegarde usb"/>
+    <Text ID="3907" Value="Configuration i.p"/>
+    <Text ID="3908" Value="Ecran mot de passe"/>
+    <Text ID="3909" Value="Calibrage ecran"/>
+    <Text ID="3910" Value="Liste alarme actuelle"/>
+    <Text ID="3911" Value="Historique alarmes"/>
+    <Text ID="3913" Value="Alarme Bypass"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Code mot de passe"/>
+    <Text ID="10541" Value="Ecran configuration"/>
+    <Text ID="12064" Value="Liste Operateurs"/>
+    <Text ID="13155" Value="Menu Système"/>
+    <Text ID="27148" Value="Liste Operateurs"/>
+    <Text ID="27149" Value="Liste Client &amp; Article"/>
+    <Text ID="98462" Value="PAGE PRINCIPALE"/>
+    <Text ID="121895" Value="Etat E/S"/>
+    <Text ID="121896" Value="Bus X2X"/>
+    <Text ID="133015" Value="Statut Variateur"/>
+    <Text ID="161704" Value="Page vue d'ensemble machine"/>
+    <Text ID="161705" Value="Statistique 1 : données globales"/>
+    <Text ID="256694" Value="Pli cross A"/>
+    <Text ID="256695" Value="Pli cross: vue d'ensemble"/>
+    <Text ID="256696" Value="Pli cross B"/>
+    <Text ID="256697" Value="Groupe d'empileurs"/>
+    <Text ID="256699" Value="Livraison"/>
+    <Text ID="256728" Value="Pliage latéral"/>
+    <Text ID="267264" Value="Empileurs"/>
+    <Text ID="306322" Value="Général"/>
+    <Text ID="306323" Value="Pliage"/>
+    <Text ID="306324" Value="Empileur et sortie"/>
+    <Text ID="306325" Value="Empileur et sortie"/>
+    <Text ID="306326" Value="Livraison"/>
+    <Text ID="306327" Value="Jenway :"/>
+    <Text ID="306328" Value="Compound machines : "/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Modification programme auto 1"/>
+    <Text ID="308421" Value="Traitement fichiers programme auto"/>
+    <Text ID="309595" Value="Entrée"/>
+    <Text ID="309596" Value="Ouverture cintre"/>
+    <Text ID="309999" Value="Service entrée cintre"/>
+    <Text ID="310000" Value="Service ouverture cintre"/>
+    <Text ID="318639" Value="Section sélection programme"/>
+    <Text ID="321182" Value="Convoyeur supérieur"/>
+    <Text ID="321183" Value="Latéral"/>
+    <Text ID="321184" Value="Transversal A"/>
+    <Text ID="321185" Value="Pli cross B"/>
+    <Text ID="321186" Value="Groupe d'empileurs"/>
+    <Text ID="321187" Value="Empileurs de sortie"/>
+    <Text ID="321188" Value="Livraison"/>
+    <Text ID="321189" Value="Roll off (Jenway)"/>
+    <Text ID="321550" Value="Modification programme auto 2"/>
+    <Text ID="324629" Value="Communication Metricon XML"/>
+    <Text ID="325035" Value="Présentation machine"/>
+    <Text ID="329521" Value="Config. communication Metricon"/>
+    <Text ID="330965" Value="Ping IP"/>
+    <Text ID="391406" Value="Diagnostics imprimante"/>
+    <Text ID="436804" Value="Modification programme auto 3"/>
+    <Text ID="445364" Value="Bus X2X"/>
+    <Text ID="445381" Value="Ecran propre"/>
+    <Text ID="445382" Value="Infos système"/>
+    <Text ID="445383" Value="Fichiers de configuration"/>
+    <Text ID="450103" Value="Connection"/>
+    <Text ID="453971" Value="Communication Metricon série"/>
+    <Text ID="458327" Value="Communication Jenway"/>
+    <Text ID="472711" Value="Entrée transport"/>
+    <Text ID="510091" Value="Statistique 2 : alarmes internes"/>
+    <Text ID="511880" Value="Accumulateur &amp; pivotement de cintre"/>
+    <Text ID="511881" Value="Statistique 3 : empileur"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="3884" Value="Editer Program"/>
+    <Text ID="3885" Value="Program valg"/>
+    <Text ID="3886" Value="Kude og artikkel liste valg"/>
+    <Text ID="3887" Value="Editere Kunde og artikkel liste"/>
+    <Text ID="3888" Value="Editere maskin konfigurasjon"/>
+    <Text ID="3890" Value="Editere HW konfigurasjon"/>
+    <Text ID="3898" Value="I/O Sporings konfigurasjon"/>
+    <Text ID="3899" Value="I/O Sporingsgraf"/>
+    <Text ID="3900" Value="PLC Logbook"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3907" Value="IP Innstillinger"/>
+    <Text ID="3908" Value="Passord System"/>
+    <Text ID="3909" Value="Touch kalibrering"/>
+    <Text ID="3910" Value="Liste over aktuelle Alarmer"/>
+    <Text ID="3911" Value="Alarm Historie"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Passord Kode"/>
+    <Text ID="10541" Value="Default Panel innstillinger"/>
+    <Text ID="12064" Value="Operatør liste"/>
+    <Text ID="13155" Value="System Hoved"/>
+    <Text ID="27148" Value="Operatør liste"/>
+    <Text ID="27149" Value="Kunde&amp;Artikkel Liste"/>
+    <Text ID="98462" Value="Maskin Hovedside"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X buss"/>
+    <Text ID="133015" Value="Status frekvensomformer"/>
+    <Text ID="161704" Value="Oversigts side maskine"/>
+    <Text ID="161705" Value="Statistik 1: Globale data"/>
+    <Text ID="256694" Value="Kryssfold A"/>
+    <Text ID="256695" Value="Tværfold : oversigt"/>
+    <Text ID="256696" Value="Tværfold B"/>
+    <Text ID="256697" Value="Stacker gruppe"/>
+    <Text ID="256699" Value="Transport"/>
+    <Text ID="256728" Value="Længde foldning"/>
+    <Text ID="267264" Value="Stakkere"/>
+    <Text ID="306322" Value="Generalt"/>
+    <Text ID="306323" Value="Foldning"/>
+    <Text ID="306324" Value="Stakker og udløb"/>
+    <Text ID="306325" Value="Stakker og udløb"/>
+    <Text ID="306326" Value="Levering"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Compound Maskiner"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Auto program Edit 1"/>
+    <Text ID="308421" Value="Auto Program File handling"/>
+    <Text ID="309595" Value="Bøjle indløb  "/>
+    <Text ID="309596" Value="Bøjle åbner"/>
+    <Text ID="309999" Value="Bøjle indløb service"/>
+    <Text ID="310000" Value="Bøjleåbner service"/>
+    <Text ID="318639" Value="Programvalg sektion"/>
+    <Text ID="321182" Value="Top conveyor"/>
+    <Text ID="321183" Value="Længde foldning"/>
+    <Text ID="321184" Value="Tvær A"/>
+    <Text ID="321185" Value="Tvær B"/>
+    <Text ID="321186" Value="Stakker gruppe"/>
+    <Text ID="321187" Value="Udløbsstakkere"/>
+    <Text ID="321188" Value="Levering"/>
+    <Text ID="321189" Value="Roll off (Jenway)"/>
+    <Text ID="321550" Value="Auto program Edit 2"/>
+    <Text ID="324629" Value="Metricon XML kommunikasjon"/>
+    <Text ID="325035" Value="Oversigt maskine"/>
+    <Text ID="329521" Value="Konfiguration metricon kommunikation"/>
+    <Text ID="330965" Value="IP Ping"/>
+    <Text ID="391406" Value="Printer diagnose"/>
+    <Text ID="436804" Value="Auto program Edit 3"/>
+    <Text ID="445364" Value="X2X buss"/>
+    <Text ID="445381" Value="Display clean"/>
+    <Text ID="445382" Value="System info"/>
+    <Text ID="445383" Value="Configurations files"/>
+    <Text ID="450103" Value="System login"/>
+    <Text ID="453971" Value="Metricon Serial communication"/>
+    <Text ID="458327" Value="Jenway communication"/>
+    <Text ID="472711" Value="Inlet Transport"/>
+    <Text ID="510091" Value="Statistik 2: Interne alarmer"/>
+    <Text ID="511880" Value="Accumulator &amp; Hanger turner"/>
+    <Text ID="511881" Value="Statistik 3: Stabler"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="3884" Value="Modifica Categorie"/>
+    <Text ID="3885" Value="Selezionare Categorie"/>
+    <Text ID="3886" Value="Selezione lista clienti ed articolo"/>
+    <Text ID="3887" Value="Modifica lista cliente ed articolo"/>
+    <Text ID="3888" Value="Modifica Config. macchina"/>
+    <Text ID="3890" Value="Modifica config hardware"/>
+    <Text ID="3898" Value="I/O Configurazione Traccia"/>
+    <Text ID="3899" Value="I/O Grafico Traccia"/>
+    <Text ID="3900" Value="Diario PLC"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3907" Value="IP Impostazione"/>
+    <Text ID="3908" Value="Password System"/>
+    <Text ID="3909" Value="Calibrazione Pannello"/>
+    <Text ID="3910" Value="Lista allarme presenti"/>
+    <Text ID="3911" Value="Storico allarmi"/>
+    <Text ID="3913" Value="Allarmi Bypass"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Password Code"/>
+    <Text ID="10541" Value="Panel Default Settings"/>
+    <Text ID="12064" Value="Lista operatori"/>
+    <Text ID="13155" Value="Sistema principale"/>
+    <Text ID="27148" Value="Lista operatore"/>
+    <Text ID="27149" Value="Lista clienti &amp; capi"/>
+    <Text ID="98462" Value="Macchina pagina principale"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X bus"/>
+    <Text ID="133015" Value="Inverter status"/>
+    <Text ID="161704" Value="Macchina pagina controllo"/>
+    <Text ID="161705" Value="Statistiche 1: Dati globali"/>
+    <Text ID="256694" Value="Piega trasversale A"/>
+    <Text ID="256695" Value="Piega trasversale: controllo"/>
+    <Text ID="256696" Value="Piega trasversale B"/>
+    <Text ID="256697" Value="Gruppo Accatastatori"/>
+    <Text ID="256699" Value="Convogl. Consegna"/>
+    <Text ID="256728" Value="Piega laterale"/>
+    <Text ID="267264" Value="Accatastatori"/>
+    <Text ID="306322" Value="Generale"/>
+    <Text ID="306323" Value="Piegatura"/>
+    <Text ID="306324" Value="Accatastamento ed Uscita"/>
+    <Text ID="306325" Value="Accatastamento ed Uscita"/>
+    <Text ID="306326" Value="Convogl. Consegna"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Macchina composta"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Auto program Edit 1"/>
+    <Text ID="308421" Value="Gestione Auto Program File "/>
+    <Text ID="309595" Value="Ingresso Grucce"/>
+    <Text ID="309596" Value="Apertura Grucce"/>
+    <Text ID="309999" Value="Manutenzione Ingresso Grucce"/>
+    <Text ID="310000" Value="Manutenzione Apertura Grucce"/>
+    <Text ID="318639" Value="Sezione Selezione categoria"/>
+    <Text ID="321182" Value="Convogliatore alto"/>
+    <Text ID="321183" Value="Lateral"/>
+    <Text ID="321184" Value="Cross A"/>
+    <Text ID="321185" Value="Cross B"/>
+    <Text ID="321186" Value="Gruppo Accatastatori"/>
+    <Text ID="321187" Value="Uscita Accatastatori"/>
+    <Text ID="321188" Value="Convogl. Consegna"/>
+    <Text ID="321189" Value="Roll off (Jenway)"/>
+    <Text ID="321550" Value="Auto program Edit 2"/>
+    <Text ID="324629" Value="Metricon XML comunicazione"/>
+    <Text ID="325035" Value="Controllo Macchina"/>
+    <Text ID="329521" Value="Metricon Comunicazione Config. "/>
+    <Text ID="330965" Value="IP Ping"/>
+    <Text ID="391406" Value="Diagnostica Stampante"/>
+    <Text ID="436804" Value="Auto program Edit 3"/>
+    <Text ID="445364" Value="X2X Bus"/>
+    <Text ID="445381" Value="Display clean"/>
+    <Text ID="445382" Value="System info"/>
+    <Text ID="445383" Value="Configurazione files"/>
+    <Text ID="450103" Value="System login"/>
+    <Text ID="453971" Value="Metricon Serial communication"/>
+    <Text ID="458327" Value="Jenway communication"/>
+    <Text ID="472711" Value="Inlet Transport"/>
+    <Text ID="510091" Value="Statistiche 2: Allarmi interni"/>
+    <Text ID="511880" Value="Accumulatori e ganci turner"/>
+    <Text ID="511881" Value="Statistiche 3: Impilatore"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="3884" Value="Recipe Edit"/>
+    <Text ID="3885" Value="Recipe Select"/>
+    <Text ID="3886" Value="Customer and Article List Select"/>
+    <Text ID="3887" Value="Customer and Article List Edit"/>
+    <Text ID="3888" Value="Machine Configuration Edit"/>
+    <Text ID="3890" Value="Hardware Configuration Edit"/>
+    <Text ID="3898" Value="I/O Trace Configuration"/>
+    <Text ID="3899" Value="I/O Trace Graph"/>
+    <Text ID="3900" Value="PLC Logbook"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3907" Value="IP Settings"/>
+    <Text ID="3908" Value="Password System"/>
+    <Text ID="3909" Value="Touch Calibrate"/>
+    <Text ID="3910" Value="Actual Alarm List"/>
+    <Text ID="3911" Value="Alarm History"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Password Code"/>
+    <Text ID="10541" Value="Panel Default Settings"/>
+    <Text ID="12064" Value="Operator List"/>
+    <Text ID="13155" Value="System Main"/>
+    <Text ID="27148" Value="Operator List"/>
+    <Text ID="27149" Value="Customer&amp;Article List"/>
+    <Text ID="98462" Value="Machine Main Page"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X bus"/>
+    <Text ID="133015" Value="Inverter status"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistic Page 1"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Stacker group"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256728" Value="Lateral-Folding"/>
+    <Text ID="267264" Value="Stackers"/>
+    <Text ID="306322" Value="General"/>
+    <Text ID="306323" Value="Folding"/>
+    <Text ID="306324" Value="Stacker and Outlet"/>
+    <Text ID="306325" Value="Stacker and Outlet"/>
+    <Text ID="306326" Value="Delivery"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Compound machines"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Auto program Edit 1"/>
+    <Text ID="308421" Value="Auto Program File handling"/>
+    <Text ID="309595" Value="Inlet"/>
+    <Text ID="309596" Value="Hanger opener"/>
+    <Text ID="309999" Value="Hanger inlet service"/>
+    <Text ID="310000" Value="Hanger opener service"/>
+    <Text ID="318639" Value="Recipe select section"/>
+    <Text ID="321182" Value="Top conveyor"/>
+    <Text ID="321183" Value="Lateral"/>
+    <Text ID="321184" Value="Cross A"/>
+    <Text ID="321185" Value="Cross B"/>
+    <Text ID="321186" Value="Stacker group"/>
+    <Text ID="321187" Value="Outlet Stackers"/>
+    <Text ID="321188" Value="Delivery"/>
+    <Text ID="321189" Value="Roll off (Jenway)"/>
+    <Text ID="321550" Value="Auto program Edit 2"/>
+    <Text ID="324629" Value="Metricon XML communication"/>
+    <Text ID="325035" Value="Machine overview"/>
+    <Text ID="329521" Value="Metricon communication config"/>
+    <Text ID="330965" Value="IP Ping"/>
+    <Text ID="391406" Value="Printer diagnostics"/>
+    <Text ID="436804" Value="Auto program Edit 3"/>
+    <Text ID="445364" Value="X2X Bus"/>
+    <Text ID="445381" Value="Display clean"/>
+    <Text ID="445382" Value="System info"/>
+    <Text ID="445383" Value="Configuration files"/>
+    <Text ID="450103" Value="Login"/>
+    <Text ID="453971" Value="Metricon Serial communication"/>
+    <Text ID="458327" Value="Jenway communication"/>
+    <Text ID="472711" Value="Inlet Transport"/>
+    <Text ID="510091" Value="Statistics 2: Internal alarms"/>
+    <Text ID="511880" Value="Accumulator &amp; Hanger turner"/>
+    <Text ID="511881" Value="Statistics 3: Stacker"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="3884" Value="Aanpassen Recept"/>
+    <Text ID="3885" Value="Recept selecteren"/>
+    <Text ID="3886" Value="Selecteren Artikel-menu"/>
+    <Text ID="3887" Value="Aanpassen Artikel-menu"/>
+    <Text ID="3888" Value="Machine-configuratie aanpassen"/>
+    <Text ID="3890" Value="Hardware configuratie aanpassen"/>
+    <Text ID="3898" Value="I/O Traceer configuratie"/>
+    <Text ID="3899" Value="I/O Traceer, Grafisch"/>
+    <Text ID="3900" Value="Log-boek"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3907" Value="IP instellingen"/>
+    <Text ID="3908" Value="Paswoord-onderhoud"/>
+    <Text ID="3909" Value="Touch Calibratie"/>
+    <Text ID="3910" Value="Actuele Alarm-lijst"/>
+    <Text ID="3911" Value="Alarm-log"/>
+    <Text ID="3913" Value="Alarm blokkeren"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Wachtwoordcode"/>
+    <Text ID="10541" Value="Standaard instellingen Paneel"/>
+    <Text ID="12064" Value="Operator Lijst"/>
+    <Text ID="13155" Value="Systeem Hoofdmenu"/>
+    <Text ID="27148" Value="Operator Lijst"/>
+    <Text ID="27149" Value="Menu Artikel-type"/>
+    <Text ID="98462" Value="Machine Hoofdmenu"/>
+    <Text ID="121895" Value="I/O-status"/>
+    <Text ID="121896" Value="X2X bus"/>
+    <Text ID="133015" Value="Status frequentieregelaar"/>
+    <Text ID="161704" Value="Machine overzicht pagina"/>
+    <Text ID="161705" Value="Statistiek 1: Global data"/>
+    <Text ID="256694" Value="Dwarsvouw A"/>
+    <Text ID="256695" Value="Dwarsvouw: Overzicht"/>
+    <Text ID="256696" Value="Dwarsvouw B"/>
+    <Text ID="256697" Value="Stapelaargroep"/>
+    <Text ID="256699" Value="Uitvoer"/>
+    <Text ID="256728" Value="Invoer en langsvouw"/>
+    <Text ID="267264" Value="Stapelaars"/>
+    <Text ID="306322" Value="Algemeen"/>
+    <Text ID="306323" Value="Vouw"/>
+    <Text ID="306324" Value="Stapelaar en uitvoer"/>
+    <Text ID="306325" Value="Stapelaar en uitvoer"/>
+    <Text ID="306326" Value="Uitvoer"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Samengestelde machines"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Auto programma instellingen1"/>
+    <Text ID="308421" Value="Auto programma File handling"/>
+    <Text ID="309595" Value="Invoer"/>
+    <Text ID="309596" Value="Hangeropener"/>
+    <Text ID="309999" Value="Invoer conveyor service"/>
+    <Text ID="310000" Value="Hangeropener service"/>
+    <Text ID="318639" Value="Sectie programma selecteren"/>
+    <Text ID="321182" Value="Boventransportband"/>
+    <Text ID="321183" Value="Langsvouw"/>
+    <Text ID="321184" Value="Dwarsvouw A"/>
+    <Text ID="321185" Value="Dwars B"/>
+    <Text ID="321186" Value="Stapelaargroep"/>
+    <Text ID="321187" Value="Uitvoerstapelaars"/>
+    <Text ID="321188" Value="Uitvoer"/>
+    <Text ID="321189" Value="Afrollen (Jenway)"/>
+    <Text ID="321550" Value="Auto programma instellingen2"/>
+    <Text ID="324629" Value="Metricon XML-communicatie"/>
+    <Text ID="325035" Value="Machineoverzicht"/>
+    <Text ID="329521" Value="Metricon communicatie config"/>
+    <Text ID="330965" Value="IP Ping"/>
+    <Text ID="391406" Value="Printerdiagnose"/>
+    <Text ID="436804" Value="Auto programma instellingen3"/>
+    <Text ID="445364" Value="X2X bus"/>
+    <Text ID="445381" Value="Display schoon"/>
+    <Text ID="445382" Value="Systeeminfo"/>
+    <Text ID="445383" Value="Configuratiebestanden"/>
+    <Text ID="450103" Value="Inloggen"/>
+    <Text ID="453971" Value="Metricon seriële communicatie"/>
+    <Text ID="458327" Value="Jenway communicatie"/>
+    <Text ID="472711" Value="Invoertransport"/>
+    <Text ID="510091" Value="Statistieken 2: Interne alarmen"/>
+    <Text ID="511880" Value="Buffer &amp; hangerdraaier"/>
+    <Text ID="511881" Value="Statistieken 3: Stacker"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="3884" Value="Editar configuración de Programas"/>
+    <Text ID="3885" Value="Seleccionar Programa"/>
+    <Text ID="3886" Value="Seleccionar listado Cliente y Artículo"/>
+    <Text ID="3887" Value="Editar listado Cliente y Artículo"/>
+    <Text ID="3888" Value="Editar configuración de la Máquina"/>
+    <Text ID="3890" Value="Editar configuración del Hardware"/>
+    <Text ID="3898" Value="Monitorización de Entradas y Salidas"/>
+    <Text ID="3899" Value="Gráfico monitorización Entradas y Salidas"/>
+    <Text ID="3900" Value="Historial del Registro PLC"/>
+    <Text ID="3901" Value="Copia USB de seguridad "/>
+    <Text ID="3907" Value="Configuración de IP"/>
+    <Text ID="3908" Value="Contraseña de sistema"/>
+    <Text ID="3909" Value="Calibración pantalla táctil"/>
+    <Text ID="3910" Value="Listado de alarma actuales"/>
+    <Text ID="3911" Value="Historial de Alarma"/>
+    <Text ID="3913" Value="Puenteado de alarmas"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Código de contraseña"/>
+    <Text ID="10541" Value="Panel: Ajustes por defecto"/>
+    <Text ID="12064" Value="Lista de operarios"/>
+    <Text ID="13155" Value="Página principal del Sistema"/>
+    <Text ID="27148" Value="Lista de operarios"/>
+    <Text ID="27149" Value="Listado Cliente y Artículo"/>
+    <Text ID="98462" Value="Página principal de la Máquina"/>
+    <Text ID="121895" Value="Estado de Entradas y Salidas"/>
+    <Text ID="121896" Value="Bus X2X"/>
+    <Text ID="133015" Value="Estado del inversor"/>
+    <Text ID="161704" Value="Página resumen de la Máquina"/>
+    <Text ID="161705" Value="Estadísticas 1: Datos globales"/>
+    <Text ID="256694" Value="Doblado Transversal A"/>
+    <Text ID="256695" Value="Doblado Transversal A + B: Visión de conjunto"/>
+    <Text ID="256696" Value="Doblado Transversal B"/>
+    <Text ID="256697" Value="Apilador (por grupo)"/>
+    <Text ID="256699" Value="Entrega"/>
+    <Text ID="256728" Value="Doblado Longitudinal"/>
+    <Text ID="267264" Value="Apiladores"/>
+    <Text ID="306322" Value="General"/>
+    <Text ID="306323" Value="Plegado"/>
+    <Text ID="306324" Value="Apilador y Salida"/>
+    <Text ID="306325" Value="Apilador y Salida"/>
+    <Text ID="306326" Value="Entrega"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Combinar Máquinas"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Editar Autoprograma Nº1"/>
+    <Text ID="308421" Value="Autoprograma: Gestión de archivos"/>
+    <Text ID="309595" Value="Entrada"/>
+    <Text ID="309596" Value="Apertura de percha"/>
+    <Text ID="309999" Value="Entrada de percha"/>
+    <Text ID="310000" Value="Servicio apertura de percha"/>
+    <Text ID="318639" Value="Selección de Programa"/>
+    <Text ID="321182" Value="Transportador superior"/>
+    <Text ID="321183" Value="Longitudinal"/>
+    <Text ID="321184" Value="Doblado Transversal A"/>
+    <Text ID="321185" Value="Doblado Transversal B"/>
+    <Text ID="321186" Value="Apilador (por grupo)"/>
+    <Text ID="321187" Value="Salida del Apilador"/>
+    <Text ID="321188" Value="Entrega"/>
+    <Text ID="321189" Value="Transbordadora (Jenway)"/>
+    <Text ID="321550" Value="Editar Autoprograma Nº2"/>
+    <Text ID="324629" Value="Metricon: Comunicación XML"/>
+    <Text ID="325035" Value="Resumen de máquina"/>
+    <Text ID="329521" Value="Configuración de comunicación Metricon"/>
+    <Text ID="330965" Value="IP Ping"/>
+    <Text ID="391406" Value="Diagnósis de impresora"/>
+    <Text ID="436804" Value="Editar Autoprograma Nº3"/>
+    <Text ID="445364" Value="Bus X2X"/>
+    <Text ID="445381" Value="Borrado de pantalla"/>
+    <Text ID="445382" Value="Información de sistema"/>
+    <Text ID="445383" Value="Archivos de configuración de Máquina"/>
+    <Text ID="450103" Value="Inicio sesión"/>
+    <Text ID="453971" Value="Metricon: Comunicación serie"/>
+    <Text ID="458327" Value="Comunicación Jenway "/>
+    <Text ID="472711" Value="Transporte de entrada"/>
+    <Text ID="510091" Value="Estadísticas 2: Alarmas internas"/>
+    <Text ID="511880" Value="Acumulador y Volteador de perchas"/>
+    <Text ID="511881" Value="Estadísticas 3: Apilador"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="3884" Value="Edycja receptury"/>
+    <Text ID="3885" Value="Wybór receptury"/>
+    <Text ID="3886" Value="Wybór listy klientów oraz artykułów"/>
+    <Text ID="3887" Value="Edycja listy klientów oraz artykułów"/>
+    <Text ID="3888" Value="Edycja konfiguracji maszyny"/>
+    <Text ID="3890" Value="Edycja konfiguracji sprzętu"/>
+    <Text ID="3898" Value="Konfiguracja śledzenia we/wy"/>
+    <Text ID="3899" Value="Wykres śledzenia we/wy"/>
+    <Text ID="3900" Value="Rejestr PLC"/>
+    <Text ID="3901" Value="Pamięć USB kopii zapasowej"/>
+    <Text ID="3907" Value="Ustawienia adresu IP"/>
+    <Text ID="3908" Value="System haseł"/>
+    <Text ID="3909" Value="Kalibracja siły dotyku"/>
+    <Text ID="3910" Value="Lista aktualnych alarmów"/>
+    <Text ID="3911" Value="Historia alarmów"/>
+    <Text ID="3913" Value="Obejście alarmu"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Kod hasła"/>
+    <Text ID="10541" Value="Domyślne ustawienia panelu"/>
+    <Text ID="12064" Value="Lista operatorów"/>
+    <Text ID="13155" Value="System główny"/>
+    <Text ID="27148" Value="Lista operatorów"/>
+    <Text ID="27149" Value="Lista klienta i artykułów"/>
+    <Text ID="98462" Value="Strona główna maszyny"/>
+    <Text ID="121895" Value="Stan we/wy"/>
+    <Text ID="121896" Value="Szyna X2X"/>
+    <Text ID="133015" Value="Stan przemiennika"/>
+    <Text ID="161704" Value="Strona prezentacji maszyny"/>
+    <Text ID="161705" Value="Statystyki 1: Dane globalne"/>
+    <Text ID="256694" Value="Składanie poprzeczne A"/>
+    <Text ID="256695" Value="Składanie poprzeczne: Przegląd"/>
+    <Text ID="256696" Value="Składanie poprzeczne B"/>
+    <Text ID="256697" Value="Grupa układarek"/>
+    <Text ID="256699" Value="Dostawa"/>
+    <Text ID="256728" Value="Składanie wzdłużne"/>
+    <Text ID="267264" Value="Układarki"/>
+    <Text ID="306322" Value="Informacje ogólne"/>
+    <Text ID="306323" Value="Składanie"/>
+    <Text ID="306324" Value="Układarka i wyjście"/>
+    <Text ID="306325" Value="Układarka i wyjście"/>
+    <Text ID="306326" Value="Dostawa"/>
+    <Text ID="306327" Value="Jenway:"/>
+    <Text ID="306328" Value="Maszyny sprzężone: "/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Program Auto Edycja 1"/>
+    <Text ID="308421" Value="Obsługa pliku programu Auto"/>
+    <Text ID="309595" Value="Wejście"/>
+    <Text ID="309596" Value="Zespół otwierający wieszaki"/>
+    <Text ID="309999" Value="Serwis wlotu wieszaków"/>
+    <Text ID="310000" Value="Serwis zespół otwierającego wieszaków"/>
+    <Text ID="318639" Value="Sekcja wyboru receptury"/>
+    <Text ID="321182" Value="Przenośnik górny"/>
+    <Text ID="321183" Value="Wzdłużne"/>
+    <Text ID="321184" Value="Poprzeczne A"/>
+    <Text ID="321185" Value="Poprzeczne B"/>
+    <Text ID="321186" Value="Grupa układarek"/>
+    <Text ID="321187" Value="Układarki wylotowe"/>
+    <Text ID="321188" Value="Dostawa"/>
+    <Text ID="321189" Value="Przenośnik rolkowy wylotowy (Jenway)"/>
+    <Text ID="321550" Value="Program Auto Edycja 2"/>
+    <Text ID="324629" Value="Komunikacja XML Metricon"/>
+    <Text ID="325035" Value="Prezentacja maszyny"/>
+    <Text ID="329521" Value="Konfig. komunikacji Metricon"/>
+    <Text ID="330965" Value="Adres IP ping"/>
+    <Text ID="391406" Value="Diagnostyka drukarki"/>
+    <Text ID="436804" Value="Program Auto Edycja 3"/>
+    <Text ID="445364" Value="Szyna X2X"/>
+    <Text ID="445381" Value="Ekran czysty"/>
+    <Text ID="445382" Value="Informacje o systemie"/>
+    <Text ID="445383" Value="Pliki konfiguracji"/>
+    <Text ID="450103" Value="Zaloguj"/>
+    <Text ID="453971" Value="Komunikacja szeregowa Metricon"/>
+    <Text ID="458327" Value="komunikacja Jenway"/>
+    <Text ID="472711" Value="Transport wlotowy"/>
+    <Text ID="510091" Value="Statystyki 2: Alarmy wewnętrzne"/>
+    <Text ID="511880" Value="Akumulator i zespół obracający wieszaki"/>
+    <Text ID="511881" Value="Statystyki 3: Układarka"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="3884" Value=""/>
+    <Text ID="3885" Value=""/>
+    <Text ID="3886" Value=""/>
+    <Text ID="3887" Value=""/>
+    <Text ID="3888" Value=""/>
+    <Text ID="3890" Value=""/>
+    <Text ID="3898" Value=""/>
+    <Text ID="3899" Value=""/>
+    <Text ID="3900" Value=""/>
+    <Text ID="3901" Value=""/>
+    <Text ID="3907" Value=""/>
+    <Text ID="3908" Value=""/>
+    <Text ID="3909" Value=""/>
+    <Text ID="3910" Value=""/>
+    <Text ID="3911" Value=""/>
+    <Text ID="3913" Value=""/>
+    <Text ID="9417" Value=""/>
+    <Text ID="10539" Value=""/>
+    <Text ID="10541" Value=""/>
+    <Text ID="12064" Value=""/>
+    <Text ID="13155" Value=""/>
+    <Text ID="27148" Value=""/>
+    <Text ID="27149" Value=""/>
+    <Text ID="98462" Value=""/>
+    <Text ID="121895" Value=""/>
+    <Text ID="121896" Value=""/>
+    <Text ID="133015" Value=""/>
+    <Text ID="161704" Value=""/>
+    <Text ID="161705" Value=""/>
+    <Text ID="256694" Value=""/>
+    <Text ID="256695" Value=""/>
+    <Text ID="256696" Value=""/>
+    <Text ID="256697" Value=""/>
+    <Text ID="256699" Value=""/>
+    <Text ID="256728" Value=""/>
+    <Text ID="267264" Value=""/>
+    <Text ID="306322" Value=""/>
+    <Text ID="306323" Value=""/>
+    <Text ID="306324" Value=""/>
+    <Text ID="306325" Value=""/>
+    <Text ID="306326" Value=""/>
+    <Text ID="306327" Value=""/>
+    <Text ID="306328" Value=""/>
+    <Text ID="306330" Value=""/>
+    <Text ID="307366" Value=""/>
+    <Text ID="308421" Value=""/>
+    <Text ID="309595" Value=""/>
+    <Text ID="309596" Value=""/>
+    <Text ID="309999" Value=""/>
+    <Text ID="310000" Value=""/>
+    <Text ID="318639" Value=""/>
+    <Text ID="321182" Value=""/>
+    <Text ID="321183" Value=""/>
+    <Text ID="321184" Value=""/>
+    <Text ID="321185" Value=""/>
+    <Text ID="321186" Value=""/>
+    <Text ID="321187" Value=""/>
+    <Text ID="321188" Value=""/>
+    <Text ID="321189" Value=""/>
+    <Text ID="321550" Value=""/>
+    <Text ID="324629" Value=""/>
+    <Text ID="325035" Value=""/>
+    <Text ID="329521" Value=""/>
+    <Text ID="330965" Value=""/>
+    <Text ID="391406" Value=""/>
+    <Text ID="436804" Value=""/>
+    <Text ID="445364" Value=""/>
+    <Text ID="445381" Value=""/>
+    <Text ID="445382" Value=""/>
+    <Text ID="445383" Value=""/>
+    <Text ID="450103" Value=""/>
+    <Text ID="453971" Value=""/>
+    <Text ID="458327" Value=""/>
+    <Text ID="472711" Value=""/>
+    <Text ID="510091" Value=""/>
+    <Text ID="511880" Value=""/>
+    <Text ID="511881" Value=""/>
+    <Text ID="527060" Value=""/>
+    <Text ID="528955" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="3884" Value=""/>
+    <Text ID="3885" Value=""/>
+    <Text ID="3886" Value=""/>
+    <Text ID="3887" Value=""/>
+    <Text ID="3888" Value=""/>
+    <Text ID="3890" Value=""/>
+    <Text ID="3898" Value=""/>
+    <Text ID="3899" Value=""/>
+    <Text ID="3900" Value=""/>
+    <Text ID="3901" Value=""/>
+    <Text ID="3907" Value=""/>
+    <Text ID="3908" Value=""/>
+    <Text ID="3909" Value=""/>
+    <Text ID="3910" Value=""/>
+    <Text ID="3911" Value=""/>
+    <Text ID="3913" Value=""/>
+    <Text ID="9417" Value=""/>
+    <Text ID="10539" Value=""/>
+    <Text ID="10541" Value=""/>
+    <Text ID="12064" Value=""/>
+    <Text ID="13155" Value=""/>
+    <Text ID="27148" Value=""/>
+    <Text ID="27149" Value=""/>
+    <Text ID="98462" Value=""/>
+    <Text ID="121895" Value=""/>
+    <Text ID="121896" Value=""/>
+    <Text ID="133015" Value=""/>
+    <Text ID="161704" Value=""/>
+    <Text ID="161705" Value=""/>
+    <Text ID="256694" Value=""/>
+    <Text ID="256695" Value=""/>
+    <Text ID="256696" Value=""/>
+    <Text ID="256697" Value=""/>
+    <Text ID="256699" Value=""/>
+    <Text ID="256728" Value=""/>
+    <Text ID="267264" Value=""/>
+    <Text ID="306322" Value=""/>
+    <Text ID="306323" Value=""/>
+    <Text ID="306324" Value=""/>
+    <Text ID="306325" Value=""/>
+    <Text ID="306326" Value=""/>
+    <Text ID="306327" Value=""/>
+    <Text ID="306328" Value=""/>
+    <Text ID="306330" Value=""/>
+    <Text ID="307366" Value=""/>
+    <Text ID="308421" Value=""/>
+    <Text ID="309595" Value=""/>
+    <Text ID="309596" Value=""/>
+    <Text ID="309999" Value=""/>
+    <Text ID="310000" Value=""/>
+    <Text ID="318639" Value=""/>
+    <Text ID="321182" Value=""/>
+    <Text ID="321183" Value=""/>
+    <Text ID="321184" Value=""/>
+    <Text ID="321185" Value=""/>
+    <Text ID="321186" Value=""/>
+    <Text ID="321187" Value=""/>
+    <Text ID="321188" Value=""/>
+    <Text ID="321189" Value=""/>
+    <Text ID="321550" Value=""/>
+    <Text ID="324629" Value=""/>
+    <Text ID="325035" Value=""/>
+    <Text ID="329521" Value=""/>
+    <Text ID="330965" Value=""/>
+    <Text ID="391406" Value=""/>
+    <Text ID="436804" Value=""/>
+    <Text ID="445364" Value=""/>
+    <Text ID="445381" Value=""/>
+    <Text ID="445382" Value=""/>
+    <Text ID="445383" Value=""/>
+    <Text ID="450103" Value=""/>
+    <Text ID="453971" Value=""/>
+    <Text ID="458327" Value=""/>
+    <Text ID="472711" Value=""/>
+    <Text ID="510091" Value=""/>
+    <Text ID="511880" Value=""/>
+    <Text ID="511881" Value=""/>
+    <Text ID="527060" Value=""/>
+    <Text ID="528955" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3884" Value="Edycja receptury"/>
+    <Text ID="3885" Value="Wybór receptury"/>
+    <Text ID="3886" Value="Wybór listy klientów oraz artykułów"/>
+    <Text ID="3887" Value="Edycja listy klientów oraz artykułów"/>
+    <Text ID="3888" Value="Edycja konfiguracji maszyny"/>
+    <Text ID="3890" Value="Edycja konfiguracji sprzętu"/>
+    <Text ID="3898" Value="Konfiguracja śledzenia we/wy"/>
+    <Text ID="3899" Value="Wykres śledzenia we/wy"/>
+    <Text ID="3900" Value="Rejestr PLC"/>
+    <Text ID="3901" Value="Pamięć USB kopii zapasowej"/>
+    <Text ID="3907" Value="Ustawienia adresu IP"/>
+    <Text ID="3908" Value="System haseł"/>
+    <Text ID="3909" Value="Kalibracja siły dotyku"/>
+    <Text ID="3910" Value="Lista aktualnych alarmów"/>
+    <Text ID="3911" Value="Historia alarmów"/>
+    <Text ID="3913" Value="Obejście alarmu"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Kod hasła"/>
+    <Text ID="10541" Value="Domyślne ustawienia panelu"/>
+    <Text ID="12064" Value="Lista operatorów"/>
+    <Text ID="13155" Value="System główny"/>
+    <Text ID="27148" Value="Lista operatorów"/>
+    <Text ID="27149" Value="Lista klienta i artykułów"/>
+    <Text ID="98462" Value="Strona główna maszyny"/>
+    <Text ID="121895" Value="Stan we/wy"/>
+    <Text ID="121896" Value="Szyna X2X"/>
+    <Text ID="133015" Value="Stan przemiennika"/>
+    <Text ID="161704" Value="Strona prezentacji maszyny"/>
+    <Text ID="161705" Value="Statystyki 1: Dane globalne"/>
+    <Text ID="256694" Value="Składanie poprzeczne A"/>
+    <Text ID="256695" Value="Składanie poprzeczne: Przegląd"/>
+    <Text ID="256696" Value="Składanie poprzeczne B"/>
+    <Text ID="256697" Value="Grupa układarek"/>
+    <Text ID="256699" Value="Dostawa"/>
+    <Text ID="256728" Value="Składanie wzdłużne"/>
+    <Text ID="267264" Value="Układarki"/>
+    <Text ID="306322" Value="Informacje ogólne"/>
+    <Text ID="306323" Value="Składanie"/>
+    <Text ID="306324" Value="Układarka i wyjście"/>
+    <Text ID="306325" Value="Układarka i wyjście"/>
+    <Text ID="306326" Value="Dostawa"/>
+    <Text ID="306327" Value="Jenway:"/>
+    <Text ID="306328" Value="Maszyny sprzężone: "/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Program Auto Edycja 1"/>
+    <Text ID="308421" Value="Obsługa pliku programu Auto"/>
+    <Text ID="309595" Value="Wejście"/>
+    <Text ID="309596" Value="Zespół otwierający wieszaki"/>
+    <Text ID="309999" Value="Serwis wlotu wieszaków"/>
+    <Text ID="310000" Value="Serwis zespół otwierającego wieszaków"/>
+    <Text ID="318639" Value="Sekcja wyboru receptury"/>
+    <Text ID="321182" Value="Przenośnik górny"/>
+    <Text ID="321183" Value="Wzdłużne"/>
+    <Text ID="321184" Value="Poprzeczne A"/>
+    <Text ID="321185" Value="Poprzeczne B"/>
+    <Text ID="321186" Value="Grupa układarek"/>
+    <Text ID="321187" Value="Układarki wylotowe"/>
+    <Text ID="321188" Value="Dostawa"/>
+    <Text ID="321189" Value="Przenośnik rolkowy wylotowy (Jenway)"/>
+    <Text ID="321550" Value="Program Auto Edycja 2"/>
+    <Text ID="324629" Value="Komunikacja XML Metricon"/>
+    <Text ID="325035" Value="Prezentacja maszyny"/>
+    <Text ID="329521" Value="Konfig. komunikacji Metricon"/>
+    <Text ID="330965" Value="Adres IP ping"/>
+    <Text ID="391406" Value="Diagnostyka drukarki"/>
+    <Text ID="436804" Value="Program Auto Edycja 3"/>
+    <Text ID="445364" Value="Szyna X2X"/>
+    <Text ID="445381" Value="Ekran czysty"/>
+    <Text ID="445382" Value="Informacje o systemie"/>
+    <Text ID="445383" Value="Pliki konfiguracji"/>
+    <Text ID="450103" Value="Zaloguj"/>
+    <Text ID="453971" Value="Komunikacja szeregowa Metricon"/>
+    <Text ID="458327" Value="komunikacja Jenway"/>
+    <Text ID="472711" Value="Transport wlotowy"/>
+    <Text ID="510091" Value="Statystyki 2: Alarmy wewnętrzne"/>
+    <Text ID="511880" Value="Akumulator i zespół obracający wieszaki"/>
+    <Text ID="511881" Value="Statystyki 3: Układarka"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="3884" Value="Recipe Edit"/>
+    <Text ID="3885" Value="Recipe Select"/>
+    <Text ID="3886" Value="Customer and Article List Select"/>
+    <Text ID="3887" Value="Customer and Article List Edit"/>
+    <Text ID="3888" Value="Machine Configuration Edit"/>
+    <Text ID="3890" Value="Hardware Configuration Edit"/>
+    <Text ID="3898" Value="I/O Trace Configuration"/>
+    <Text ID="3899" Value="I/O Trace Graph"/>
+    <Text ID="3900" Value="PLC Logbook"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3907" Value="IP Settings"/>
+    <Text ID="3908" Value="Password System"/>
+    <Text ID="3909" Value="Touch Calibrate"/>
+    <Text ID="3910" Value="Actual Alarm List"/>
+    <Text ID="3911" Value="Alarm History"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Password Code"/>
+    <Text ID="10541" Value="Panel Default Settings"/>
+    <Text ID="12064" Value="Operator List"/>
+    <Text ID="13155" Value="System Main"/>
+    <Text ID="27148" Value="Operator List"/>
+    <Text ID="27149" Value="Customer&amp;Article List"/>
+    <Text ID="98462" Value="Machine Main Page"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X bus"/>
+    <Text ID="133015" Value="Inverter status"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistics 1: Global data"/>
+    <Text ID="256694" Value="Pricne-skladani A"/>
+    <Text ID="256695" Value="Pricne-skladani: Prehled"/>
+    <Text ID="256696" Value="Pricne-skladani B"/>
+    <Text ID="256697" Value="Stacker group"/>
+    <Text ID="256699" Value="Dodavka"/>
+    <Text ID="256728" Value="Vstup s podelny sklad"/>
+    <Text ID="267264" Value="Stackers"/>
+    <Text ID="306322" Value="Obecne"/>
+    <Text ID="306323" Value="Vstup a skladani"/>
+    <Text ID="306324" Value="Stacker and Outlet"/>
+    <Text ID="306325" Value="Stacker and Outlet"/>
+    <Text ID="306326" Value="Delivery"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Compound machines"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Auto program Edit 1"/>
+    <Text ID="308421" Value="Auto Program File handling"/>
+    <Text ID="309595" Value="inlet"/>
+    <Text ID="309596" Value="Hanger opener"/>
+    <Text ID="309999" Value="Hanger inlet service"/>
+    <Text ID="310000" Value="Hanger opener service"/>
+    <Text ID="318639" Value="Recipe select section"/>
+    <Text ID="321182" Value="Top conveyor"/>
+    <Text ID="321183" Value="Lateral"/>
+    <Text ID="321184" Value="Cross A"/>
+    <Text ID="321185" Value="Cross B"/>
+    <Text ID="321186" Value="Stacker group"/>
+    <Text ID="321187" Value="Outlet Stackers"/>
+    <Text ID="321188" Value="Delivery"/>
+    <Text ID="321189" Value="Roll off (Jenway)"/>
+    <Text ID="321550" Value="Auto program Edit 2"/>
+    <Text ID="324629" Value="Metricon XML communication"/>
+    <Text ID="325035" Value="Machine overview"/>
+    <Text ID="329521" Value="Metricon communication config"/>
+    <Text ID="330965" Value="IP Ping"/>
+    <Text ID="391406" Value="Printer diagnostics"/>
+    <Text ID="436804" Value="Auto program Edit 3"/>
+    <Text ID="445364" Value="X2X Bus"/>
+    <Text ID="445381" Value="Display clean"/>
+    <Text ID="445382" Value="System info"/>
+    <Text ID="445383" Value="Configuration files"/>
+    <Text ID="450103" Value="Login"/>
+    <Text ID="453971" Value="Metricon Serial communication"/>
+    <Text ID="458327" Value="Jenway communication"/>
+    <Text ID="472711" Value="Inlet Transport"/>
+    <Text ID="510091" Value="Statistics 2: Internal alarms"/>
+    <Text ID="511880" Value="Accumulator &amp; Hanger turner"/>
+    <Text ID="511881" Value="Statistics 3: Stacker"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="3884" Value="Recipe Edit"/>
+    <Text ID="3885" Value="Recipe Select"/>
+    <Text ID="3886" Value="Customer and Article List Select"/>
+    <Text ID="3887" Value="Customer and Article List Edit"/>
+    <Text ID="3888" Value="Machine Configuration Edit"/>
+    <Text ID="3890" Value="Hardware/Option View"/>
+    <Text ID="3898" Value="I/O Trace Configuration"/>
+    <Text ID="3899" Value="I/O Trace Graph"/>
+    <Text ID="3900" Value="PLC Logbook"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3907" Value="IP Settings"/>
+    <Text ID="3908" Value="Password System"/>
+    <Text ID="3909" Value="Touch Calibrate"/>
+    <Text ID="3910" Value="Actual Alarm List"/>
+    <Text ID="3911" Value="Alarm History"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Password Code"/>
+    <Text ID="10541" Value="Panel Default Settings"/>
+    <Text ID="12064" Value="Operator List"/>
+    <Text ID="13155" Value="System Main"/>
+    <Text ID="27148" Value="Operator List"/>
+    <Text ID="27149" Value="Customer&amp;Article List"/>
+    <Text ID="98462" Value="Machine Main Page"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X bus"/>
+    <Text ID="133015" Value="Inverter status"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistics 1: Global data"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Stacker group"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256728" Value="Lateral-Folding"/>
+    <Text ID="267264" Value="Stackers"/>
+    <Text ID="306322" Value="General"/>
+    <Text ID="306323" Value="Folding"/>
+    <Text ID="306324" Value="Stacker and Outlet"/>
+    <Text ID="306325" Value="Stacker and Outlet"/>
+    <Text ID="306326" Value="Delivery"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Compound machines"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Auto program Edit 1"/>
+    <Text ID="308421" Value="Auto Program File handling"/>
+    <Text ID="309595" Value="Inlet"/>
+    <Text ID="309596" Value="Hanger opener"/>
+    <Text ID="309999" Value="Hanger inlet service"/>
+    <Text ID="310000" Value="Hanger opener service"/>
+    <Text ID="318639" Value="Recipe select section"/>
+    <Text ID="321182" Value="Top conveyor"/>
+    <Text ID="321183" Value="Lateral"/>
+    <Text ID="321184" Value="Cross A"/>
+    <Text ID="321185" Value="Cross B"/>
+    <Text ID="321186" Value="Stacker group"/>
+    <Text ID="321187" Value="Outlet Stackers"/>
+    <Text ID="321188" Value="Delivery"/>
+    <Text ID="321189" Value="Roll off (Jenway)"/>
+    <Text ID="321550" Value="Auto program Edit 2"/>
+    <Text ID="324629" Value="Metricon XML communication"/>
+    <Text ID="325035" Value="Machine overview"/>
+    <Text ID="329521" Value="Metricon communication config"/>
+    <Text ID="330965" Value="IP Ping"/>
+    <Text ID="391406" Value="Printer diagnostics"/>
+    <Text ID="436804" Value="Auto program Edit 3"/>
+    <Text ID="445364" Value="X2X Bus"/>
+    <Text ID="445381" Value="Display clean"/>
+    <Text ID="445382" Value="System info"/>
+    <Text ID="445383" Value="Configuration files"/>
+    <Text ID="450103" Value="Login"/>
+    <Text ID="453971" Value="Metricon Serial communication"/>
+    <Text ID="458327" Value="Jenway communication"/>
+    <Text ID="472711" Value="Inlet Transport"/>
+    <Text ID="510091" Value="Statistics 2: Internal alarms"/>
+    <Text ID="511880" Value="Accumulator &amp; Hanger turner"/>
+    <Text ID="511881" Value="Statistics 3: Stacker"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="3884" Value="Editer Program"/>
+    <Text ID="3885" Value="Program valg"/>
+    <Text ID="3886" Value="Kude og artikkel liste valg"/>
+    <Text ID="3887" Value="Editere Kunde og artikkel liste"/>
+    <Text ID="3888" Value="Editere maskin konfigurasjon"/>
+    <Text ID="3890" Value="Editere HW konfigurasjon"/>
+    <Text ID="3898" Value="I/O Sporings konfigurasjon"/>
+    <Text ID="3899" Value="I/O Sporingsgraf"/>
+    <Text ID="3900" Value="PLC Logbook"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3907" Value="IP Innstillinger"/>
+    <Text ID="3908" Value="Passord System"/>
+    <Text ID="3909" Value="Touch kalibrering"/>
+    <Text ID="3910" Value="Liste over aktuelle Alarmer"/>
+    <Text ID="3911" Value="Alarm Historie"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Passord Kode"/>
+    <Text ID="10541" Value="Default Panel innstillinger"/>
+    <Text ID="12064" Value="Operatør liste"/>
+    <Text ID="13155" Value="System Hoved"/>
+    <Text ID="27148" Value="Operatør liste"/>
+    <Text ID="27149" Value="Kunde&amp;Artikkel Liste"/>
+    <Text ID="98462" Value="Maskin Hovedside"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X buss"/>
+    <Text ID="133015" Value="Status frekvensomformer"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Statistikk side 1"/>
+    <Text ID="256694" Value="Kryssfold A"/>
+    <Text ID="256695" Value="Kryssfold: Oversikt"/>
+    <Text ID="256696" Value="Kryssfold B"/>
+    <Text ID="256697" Value="Stacker gruppe"/>
+    <Text ID="256699" Value="Transport"/>
+    <Text ID="256728" Value="Lengde folding"/>
+    <Text ID="267264" Value="Stackers"/>
+    <Text ID="306322" Value="Generellt"/>
+    <Text ID="306323" Value="Folding"/>
+    <Text ID="306324" Value="Stacker og utløp"/>
+    <Text ID="306325" Value="Stacker og utløp"/>
+    <Text ID="306326" Value="Levering"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Compound Maskiner"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Auto program Edit 1"/>
+    <Text ID="308421" Value="Auto Program File handling"/>
+    <Text ID="309595" Value="Innløp  "/>
+    <Text ID="309596" Value="Hanger opener"/>
+    <Text ID="309999" Value="Henger innløp service"/>
+    <Text ID="310000" Value="Henger åpner service"/>
+    <Text ID="318639" Value="Program valg seksjon"/>
+    <Text ID="321182" Value="Top Konveyor"/>
+    <Text ID="321183" Value="Lengde"/>
+    <Text ID="321184" Value="Kryss A"/>
+    <Text ID="321185" Value="Cross B"/>
+    <Text ID="321186" Value="Stacker gruppe"/>
+    <Text ID="321187" Value="Utløps stackere"/>
+    <Text ID="321188" Value="Levering"/>
+    <Text ID="321189" Value="Roll off (Jenway)"/>
+    <Text ID="321550" Value="Auto program Edit 2"/>
+    <Text ID="324629" Value="Metricon XML kommunikasjon"/>
+    <Text ID="325035" Value="Oversikt Maskin"/>
+    <Text ID="329521" Value="Konfigurasjon Metricon kommunikasjon"/>
+    <Text ID="330965" Value="IP Ping"/>
+    <Text ID="391406" Value="Printer diagnose"/>
+    <Text ID="436804" Value="Auto program Edit 3"/>
+    <Text ID="445364" Value="X2X Buss"/>
+    <Text ID="445381" Value="Display clean"/>
+    <Text ID="445382" Value="System info"/>
+    <Text ID="445383" Value="Configuration files"/>
+    <Text ID="450103" Value="Login"/>
+    <Text ID="453971" Value="Metricon Serial communication"/>
+    <Text ID="458327" Value="Jenway communication"/>
+    <Text ID="472711" Value="Inlet Transport"/>
+    <Text ID="510091" Value="Statistics 2: Internal alarms"/>
+    <Text ID="511880" Value="Accumulator &amp; Hanger turner"/>
+    <Text ID="511881" Value="Statistikk 3: Stacker"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="3884" Value="Recipe Edit"/>
+    <Text ID="3885" Value="Recipe Select"/>
+    <Text ID="3886" Value="Customer and Article List Select"/>
+    <Text ID="3887" Value="Customer and Article List Edit"/>
+    <Text ID="3888" Value="Machine Configuration Edit"/>
+    <Text ID="3890" Value="Hardware Configuration Edit"/>
+    <Text ID="3898" Value="I/O Trace Configuration"/>
+    <Text ID="3899" Value="I/O Trace Graph"/>
+    <Text ID="3900" Value="PLC Logbook"/>
+    <Text ID="3901" Value="USB Backup"/>
+    <Text ID="3907" Value="IP Settings"/>
+    <Text ID="3908" Value="Password System"/>
+    <Text ID="3909" Value="Touch Calibrate"/>
+    <Text ID="3910" Value="Actual Alarm List"/>
+    <Text ID="3911" Value="Alarm History"/>
+    <Text ID="3913" Value="Alarm Bypass"/>
+    <Text ID="9417" Value="{DefaultHeader}"/>
+    <Text ID="10539" Value="Password Code:"/>
+    <Text ID="10541" Value="Panel Default Settings"/>
+    <Text ID="12064" Value="Operator List"/>
+    <Text ID="13155" Value="System Main"/>
+    <Text ID="27148" Value="Operator List"/>
+    <Text ID="27149" Value="Customer&amp;Article List"/>
+    <Text ID="98462" Value="Machine Main Page"/>
+    <Text ID="121895" Value="IO Status"/>
+    <Text ID="121896" Value="X2X bus"/>
+    <Text ID="133015" Value="Inverter Status"/>
+    <Text ID="161704" Value="Machine overview Page"/>
+    <Text ID="161705" Value="Estatísticas 1: Dados globais"/>
+    <Text ID="256694" Value="Cross-Folding A"/>
+    <Text ID="256695" Value="Cross-Folding: Overview"/>
+    <Text ID="256696" Value="Cross-Folding B"/>
+    <Text ID="256697" Value="Grupo do empilhador"/>
+    <Text ID="256699" Value="Delivery"/>
+    <Text ID="256728" Value="Dobragem lateral"/>
+    <Text ID="267264" Value="Empilhadores"/>
+    <Text ID="306322" Value="General"/>
+    <Text ID="306323" Value="Dobrar"/>
+    <Text ID="306324" Value="Stacker and Outlet"/>
+    <Text ID="306325" Value="Stacker and Outlet"/>
+    <Text ID="306326" Value="Delivery"/>
+    <Text ID="306327" Value="Jenway"/>
+    <Text ID="306328" Value="Compound machines"/>
+    <Text ID="306330" Value="Mini Jenway"/>
+    <Text ID="307366" Value="Editar programa automático 1"/>
+    <Text ID="308421" Value="Gestão de ficheiros de programas automáticos"/>
+    <Text ID="309595" Value="Entrada"/>
+    <Text ID="309596" Value="Abridor de cabides"/>
+    <Text ID="309999" Value="Assistência da entrada de cabides"/>
+    <Text ID="310000" Value="Assistência do abridor de cabides"/>
+    <Text ID="318639" Value="Secção de seleção do recibo"/>
+    <Text ID="321182" Value="Esteira superior"/>
+    <Text ID="321183" Value="Lateral"/>
+    <Text ID="321184" Value="Dobra cruzada A"/>
+    <Text ID="321185" Value="Cross B"/>
+    <Text ID="321186" Value="Grupo do empilhador"/>
+    <Text ID="321187" Value="Empilhadores de saída"/>
+    <Text ID="321188" Value="Delivery"/>
+    <Text ID="321189" Value="Descarregador (Jenway)"/>
+    <Text ID="321550" Value="Editar programa automático 2"/>
+    <Text ID="324629" Value="Comunicação XML do Metricon"/>
+    <Text ID="325035" Value="Vista geral da máquina"/>
+    <Text ID="329521" Value="Configuração da comunicação do Metricon"/>
+    <Text ID="330965" Value="Ping do IP"/>
+    <Text ID="391406" Value="Diagnóstico da impressora"/>
+    <Text ID="436804" Value="Editar programa automático 3"/>
+    <Text ID="445364" Value="X2X bus"/>
+    <Text ID="445381" Value="Visor limpo"/>
+    <Text ID="445382" Value="Informações do sistema"/>
+    <Text ID="445383" Value="Ficheiros de configuração"/>
+    <Text ID="450103" Value="Login"/>
+    <Text ID="453971" Value="Comunicação série do Metricon"/>
+    <Text ID="458327" Value="Comunicação da Jenway"/>
+    <Text ID="472711" Value="Transporte de entrada"/>
+    <Text ID="510091" Value="Estatísticas 2: Alarmes internos"/>
+    <Text ID="511880" Value="Acumulador e mecanismo de viragem de cabides"/>
+    <Text ID="511881" Value="Estatísticas 3: Empilhador"/>
+    <Text ID="527060" Value="Duo Inlet"/>
+    <Text ID="528955" Value="Duo Inlet"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3884" Value="100"/>
+    <Index ID="3885" Value="101"/>
+    <Index ID="3886" Value="111"/>
+    <Index ID="3887" Value="110"/>
+    <Index ID="3888" Value="120"/>
+    <Index ID="3890" Value="140"/>
+    <Index ID="3898" Value="215"/>
+    <Index ID="3899" Value="216"/>
+    <Index ID="3900" Value="220"/>
+    <Index ID="3901" Value="230"/>
+    <Index ID="3907" Value="330"/>
+    <Index ID="3908" Value="310"/>
+    <Index ID="3909" Value="340"/>
+    <Index ID="3910" Value="400"/>
+    <Index ID="3911" Value="410"/>
+    <Index ID="3913" Value="430"/>
+    <Index ID="9417" Value="0"/>
+    <Index ID="10539" Value="311"/>
+    <Index ID="10541" Value="300"/>
+    <Index ID="12064" Value="130"/>
+    <Index ID="13155" Value="99"/>
+    <Index ID="27148" Value="51"/>
+    <Index ID="27149" Value="52"/>
+    <Index ID="98462" Value="1"/>
+    <Index ID="121895" Value="202"/>
+    <Index ID="121896" Value="206"/>
+    <Index ID="133015" Value="460"/>
+    <Index ID="161704" Value="2"/>
+    <Index ID="161705" Value="20"/>
+    <Index ID="256694" Value="523"/>
+    <Index ID="256695" Value="522"/>
+    <Index ID="256696" Value="524"/>
+    <Index ID="256697" Value="525"/>
+    <Index ID="256699" Value="527"/>
+    <Index ID="256728" Value="521"/>
+    <Index ID="267264" Value="526"/>
+    <Index ID="306322" Value="601"/>
+    <Index ID="306323" Value="604"/>
+    <Index ID="306324" Value="605"/>
+    <Index ID="306325" Value="606"/>
+    <Index ID="306326" Value="607"/>
+    <Index ID="306327" Value="609"/>
+    <Index ID="306328" Value="610"/>
+    <Index ID="306330" Value="608"/>
+    <Index ID="307366" Value="530"/>
+    <Index ID="308421" Value="535"/>
+    <Index ID="309595" Value="602"/>
+    <Index ID="309596" Value="603"/>
+    <Index ID="309999" Value="561"/>
+    <Index ID="310000" Value="562"/>
+    <Index ID="318639" Value="520"/>
+    <Index ID="321182" Value="563"/>
+    <Index ID="321183" Value="564"/>
+    <Index ID="321184" Value="565"/>
+    <Index ID="321185" Value="566"/>
+    <Index ID="321186" Value="568"/>
+    <Index ID="321187" Value="569"/>
+    <Index ID="321188" Value="570"/>
+    <Index ID="321189" Value="571"/>
+    <Index ID="321550" Value="531"/>
+    <Index ID="324629" Value="540"/>
+    <Index ID="325035" Value="515"/>
+    <Index ID="329521" Value="611"/>
+    <Index ID="330965" Value="545"/>
+    <Index ID="391406" Value="542"/>
+    <Index ID="436804" Value="532"/>
+    <Index ID="445364" Value="207"/>
+    <Index ID="445381" Value="302"/>
+    <Index ID="445382" Value="320"/>
+    <Index ID="445383" Value="619"/>
+    <Index ID="450103" Value="98"/>
+    <Index ID="453971" Value="543"/>
+    <Index ID="458327" Value="547"/>
+    <Index ID="472711" Value="633"/>
+    <Index ID="510091" Value="21"/>
+    <Index ID="511880" Value="612"/>
+    <Index ID="511881" Value="3"/>
+    <Index ID="527060" Value="567"/>
+    <Index ID="528955" Value="529"/>
+  </IndexMap>
+</TextGroup>

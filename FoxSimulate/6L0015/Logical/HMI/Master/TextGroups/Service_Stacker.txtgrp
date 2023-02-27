@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Service_Stacker">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="53"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="385515" Value="Recipe"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="385515" Value="Rezept"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="385515" Value="Recipe"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="385515" Value="Recepter"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="385515" Value="Program"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="385515" Value="Categoria"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="385515" Value="Recipe"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="385515" Value="Recipe"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="385515" Value="Recipe"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="385515" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="385515" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="385515" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="385515" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="385515" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="385515" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="385515" Value="Program"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="385515" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="385515" Value="0"/>
+  </IndexMap>
+</TextGroup>

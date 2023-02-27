@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigH_Inlet_Layer">
+  <Property Name="BackColor" Value="52"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="320"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB"/>
+    <TextLayer LanguageId="de-DE"/>
+    <TextLayer LanguageId="sv-SE"/>
+    <TextLayer LanguageId="fr-FR"/>
+    <TextLayer LanguageId="da-DK"/>
+    <TextLayer LanguageId="it-IT"/>
+    <TextLayer LanguageId="fi-FI"/>
+    <TextLayer LanguageId="nl-NL"/>
+    <TextLayer LanguageId="es-ES"/>
+    <TextLayer LanguageId="pl-PL"/>
+    <TextLayer LanguageId="ru-RU"/>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="zh-CN"/>
+    <TextLayer LanguageId="cs-CZ"/>
+    <TextLayer LanguageId="en-US"/>
+    <TextLayer LanguageId="no-NO"/>
+    <TextLayer LanguageId="pt-PT"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001004" Name="Text_3">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="1"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="53"/>
+      <Property Name="Width" Value="236"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_4">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="2"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="69"/>
+      <Property Name="Width" Value="236"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_5">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="3"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="85"/>
+      <Property Name="Width" Value="236"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_6">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="4"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="101"/>
+      <Property Name="Width" Value="236"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_6">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="243"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="2000"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="53"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_7">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="243"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="69"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_8">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="243"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="85"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_9">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="243"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="101"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_24">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="277"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="50"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="53"/>
+      <Property Name="Width" Value="38"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_25">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="277"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="50"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="69"/>
+      <Property Name="Width" Value="38"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_26">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="277"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="50"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="85"/>
+      <Property Name="Width" Value="38"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_27">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="277"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="50"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="101"/>
+      <Property Name="Width" Value="38"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_10">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="8"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="116"/>
+      <Property Name="Width" Value="236"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_13">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="243"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="116"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_31">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="277"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="50"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="116"/>
+      <Property Name="Width" Value="38"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_11">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="9"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="131"/>
+      <Property Name="Width" Value="236"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_14">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="243"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="131"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_7">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="51"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="38"/>
+      <Property Name="Width" Value="236"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_10">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="244"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="38"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="28"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_28">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="277"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="50"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="37"/>
+      <Property Name="Width" Value="38"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_13">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="52"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="147"/>
+      <Property Name="Width" Value="236"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_16">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="243"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="147"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_14">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="53"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="163"/>
+      <Property Name="Width" Value="236"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_17">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="243"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="163"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_32">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="277"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="50"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="147"/>
+      <Property Name="Width" Value="38"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_33">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="277"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="50"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="163"/>
+      <Property Name="Width" Value="38"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_15">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="54"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="179"/>
+      <Property Name="Width" Value="236"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_18">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="243"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="1500"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="179"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_34">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="277"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="50"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="179"/>
+      <Property Name="Width" Value="38"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_16">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="5"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="55"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="194"/>
+      <Property Name="Width" Value="261"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_19">
+      <Property Name="CompletionDatapoint" Value="None"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="243"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="10000"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="194"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_35">
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Small]"/>
+      <Property Name="Height" Value="12"/>
+      <Property Name="Left" Value="277"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Transp]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Mac_ConfigH_Inlet]"/>
+      <Property Name="TextIndexOffset" Value="50"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="194"/>
+      <Property Name="Width" Value="38"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

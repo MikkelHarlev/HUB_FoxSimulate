@@ -1,0 +1,33 @@
+VAR CONSTANT
+	COLOR_OUTPUT_FIELD : UINT := 4041; (* Blue / White *)
+	PAGE_SERVICE_DIGITAL : UINT := 202;
+	COLOR_INPUT_FIELD : UINT := 46;
+END_VAR
+VAR
+	IoListInit_0 : IoListInit;
+	TimePermanentScroll : UDINT;
+	TaskCycleTime : UDINT;
+	IoDescLoad_0 : IoDescLoad;
+	RTInfo_0 : RTInfo;
+	IoListScroll_0 : IoListScroll;
+	TriggScrollUp : R_TRIG;
+	TriggScrollDown : R_TRIG;
+	TimeCounterUp : UDINT;
+	StateCount : USINT;
+	TimeCounterDown : UDINT;
+	oldIoType : USINT;
+	IoStatus : IoStatus_Type;
+	lastPage : UINT;
+	CycleScroll : USINT;
+	CycleCount : USINT;
+	SetIoCountDown : UINT;
+	DoSetValue : UINT;
+	SetForce : UINT;
+	ActualIoColour : UINT;
+	ModuleDescriptionText : ARRAY[0..5] OF STRING[21];
+	ModuleValueText : ARRAY[0..2] OF STRING[21];
+	PageIOStatus : UINT;
+	hideUnForceHMI : BOOL;
+	hidePlcHalt : BOOL;
+	IODescription : STRING[80] := '';
+END_VAR

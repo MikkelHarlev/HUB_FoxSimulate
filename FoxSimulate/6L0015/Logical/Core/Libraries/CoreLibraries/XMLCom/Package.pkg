@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Library" Language="Binary">dispatch</Object>
+    <Object Type="Library" Language="Binary">FlatXML</Object>
+    <Object Type="Library" Language="Binary" Description="v3.00.1">FoldXML</Object>
+    <Object Type="Library" Language="Binary">httpUtil</Object>
+    <Object Type="Library" Language="Binary">JenTrans</Object>
+    <Object Type="Library" Language="Binary">JenVar</Object>
+    <Object Type="Library" Language="Binary">jenxml</Object>
+    <Object Type="Library" Language="Binary" Description="rpc 2 daemon">rpc2d</Object>
+    <Object Type="Library" Language="Binary">SAX_RPC</Object>
+    <Object Type="Library" Language="Binary">XML</Object>
+    <Object Type="Library" Language="Binary" Description="XML_Send via Socket Libraray">XML_clnt</Object>
+    <Object Type="Library" Language="Binary" Description="Jensen Interconnect Function Blocks. Keep it strong - Keep it standard">XML_Interf</Object>
+    <Object Type="Library" Language="Binary">XML_IVs</Object>
+    <Object Type="Library" Language="Binary">XML_Mrsh</Object>
+    <Object Type="Library" Language="Binary">XMLPVs</Object>
+    <Object Type="Library" Language="Binary">XMLRPC</Object>
+  </Objects>
+</Package>

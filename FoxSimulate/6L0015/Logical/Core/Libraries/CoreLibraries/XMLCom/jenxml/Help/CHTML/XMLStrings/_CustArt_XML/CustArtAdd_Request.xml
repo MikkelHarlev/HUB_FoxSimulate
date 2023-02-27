@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<methodCall>
+    <methodName>CustArtAdd</methodName>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>Name</name>
+                    <value>
+                        <base64>"Customer or Article Name"</base64>
+                    </value>
+                </member>
+                <member>
+                    <name>CuNumber</name>
+                    <value>
+                        <int>"Customer Number"</int>
+                    </value>
+                </member>
+                <member>
+                    <name>ArtNumber</name>
+                    <value>
+                        <int>"Article Number"</int>
+                    </value>
+                </member>
+                <member>
+                    <name>CatNumber</name>
+                    <value>
+                        <int>"Category Number"</int>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodCall>

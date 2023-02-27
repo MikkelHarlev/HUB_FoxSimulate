@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="4.51.4" SubType="Binary" Description="JESW Scanner Lib " xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>ScanLib.typ</File>
+    <File>ScanLib.var</File>
+    <File>ScanLib.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="brsystem" FromDate="01-10-2002" />
+    <Dependency ObjectName="SYS_LIB" FromDate="01-10-2002" />
+    <Dependency ObjectName="DVFrame" FromDate="06-12-2002" />
+    <Dependency ObjectName="MetUtils" FromVersion="2.07.0" />
+    <Dependency ObjectName="CacheLib" FromVersion="3.00.0" />
+    <Dependency ObjectName="AsString" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

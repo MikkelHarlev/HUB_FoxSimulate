@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.81.23 SP02?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Parameter Name="PHASE_MON_IGNORE" ID="80" Value="1" Description="Power mains: Ignore phase failure" />
+  </Root>
+</AcoposParameterTable>

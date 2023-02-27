@@ -1,0 +1,27 @@
+VAR CONSTANT
+	SYSTEM_FILE_ERROR : USINT := 100;
+	SYSTEM_LOAD_FILE : USINT := 1;
+	SYSTEM_LOAD_FILE_BACKUP : USINT := 5;
+	SYSTEM_CREATE_FILE : USINT := 3;
+	SYSTEM_SAVE_FILE : USINT := 2;
+	SYSTEM_WAIT : USINT := 0;
+	LOAD_SYSTEM_FILE_ERROR : USINT := 6;
+END_VAR
+VAR
+	RcpInfo : RcpExtInfo_Type;
+	RcpInit_0 : RcpInit;
+	RcpLoad_0 : RcpLoad;
+	SystemFileData : SystemFile_Type;
+	RcpSave_0 : RcpSave;
+	step : USINT;
+END_VAR
+VAR CONSTANT
+	SYSTEM_SAVE_FILE_BACKUP : USINT := 4;
+END_VAR
+VAR
+	CheckForError : BOOL;
+	LoadErrorStep : USINT;
+	FileDelete_0 : FileDelete;
+	LockIcons : BOOL;
+	hitAnError : BOOL;
+END_VAR

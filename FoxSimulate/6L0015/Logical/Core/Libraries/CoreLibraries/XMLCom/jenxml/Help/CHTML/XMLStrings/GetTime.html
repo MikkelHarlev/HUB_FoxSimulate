@@ -1,0 +1,573 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html dir="ltr">
+<head>
+
+
+
+
+
+  
+  
+  
+  
+  <meta name="generator" content="Microsoft FrontPage 5.0">
+
+
+
+
+
+  
+  
+  
+  
+  <meta order="1">
+
+
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  <title>GetTime.html</title>
+  <link rel="StyleSheet" href="../styles.css">
+<!--NavHead-->
+
+
+
+
+
+  
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="../navigate.css">
+<!--/NavHead-->
+</head>
+
+
+<body>
+
+
+
+
+
+<h1>JenXML - XML-Call: GetTime()</h1>
+
+
+
+
+
+The GetTime read the actual date and time from the PLC.<br>
+
+
+
+
+<br>
+
+
+
+
+The used format of the actual Date and Time: 'YYYYMMDDThhmmss'<br>
+
+
+
+
+For example the 27th of October 20005, 09:22:08 will look: '20050727T092208'<br>
+
+
+
+
+
+<h2>XML-Strings:</h2>
+
+
+
+
+
+<h5><a href="_Other_XML/GetTime_Request.xml">Request:</a></h5>
+
+
+
+
+&lt;?xml version="1.0" ?&gt;<br>
+
+
+
+
+&lt;methodCall&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;methodName&gt;GetTime&lt;/methodName&gt;<br>
+
+
+
+
+&lt;/methodCall&gt;<br>
+
+
+
+
+
+<h5><a href="_Other_XML/GetTime_ResponseOK.xml">Response
+OK:</a></h5>
+
+
+
+
+&lt;?xml version="1.0" ?&gt;<br>
+
+
+
+
+&lt;methodResponse&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;params&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;param&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;struct&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;name&gt;GetTime&lt;/name&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&lt;base64&gt;T0s=&lt;/base64&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;name&gt;DateAndTime&lt;/name&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;dateTime.iso8601&gt;<span style="font-weight: bold; font-style: italic;">"Actual Date and Time of the PLC"</span>&lt;/dateTime.iso8601&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/struct&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/param&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;/params&gt;<br>
+
+
+
+
+&lt;/methodResponse&gt;<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<h5><a href="_Other_XML/GetTime_ResponseFail.xml">Response
+Fail:</a></h5>
+
+
+
+
+&lt;?xml version="1.0" ?&gt;<br>
+
+
+
+
+&lt;methodResponse&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;params&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;param&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;struct&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;name&gt;GetTime&lt;/name&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&lt;base64&gt;RmFpbA==&lt;/base64&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;name&gt;ErrorNumber&lt;/name&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;i4&gt;<span style="font-weight: bold; font-style: italic;">"Error Number"</span>&lt;/i4&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;name&gt;ErrorString&lt;/name&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;base64&gt;<span style="font-weight: bold; font-style: italic;">"Error String"</span>&lt;/base64&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;name&gt;ErrorInfo&lt;/name&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;base64&gt;<span style="font-weight: bold; font-style: italic;">"Error Info"</span>&lt;/base64&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/struct&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/param&gt;<br>
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;/params&gt;<br>
+
+
+
+
+&lt;/methodResponse&gt;<span style="font-weight: bold;"><br>
+
+
+
+
+
+</span><!--NavBottom-->
+<div class="DoNotPrintNavItems" id="NavBottom_8"> <br>
+
+
+
+
+
+<table class="Nav" cellpadding="0" cellspacing="2" width="100%">
+
+
+
+
+
+  <tbody>
+
+
+
+
+
+    <tr class="Nav">
+
+
+
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      
+      
+      
+      <p class="Nav">&lt;&lt; Previous Topic<br>
+
+
+
+
+
+      <a class="Nav" href="GetRealTimeData.html">GetRealTimeData</a>
+      </p>
+
+
+
+
+
+      </td>
+
+
+
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      
+      
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="../JenXML.html">Start&nbsp;Page</a>
+&nbsp; </p>
+
+
+
+
+
+      </td>
+
+
+
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      
+      
+      
+      <p class="NavRight">Next Topic &gt;&gt;<br>
+
+
+
+
+
+      <a href="SetTime.html"><span style="text-decoration: underline;">SetTime</span></a>
+      </p>
+
+
+
+
+
+      </td>
+
+
+
+
+
+    </tr>
+
+
+
+
+
+    <tr class="Nav">
+
+
+
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      
+      
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="XMLStrings.html">Start&nbsp;of&nbsp;Chapter</a>
+&nbsp; </p>
+
+
+
+
+
+      </td>
+
+
+
+
+
+    </tr>
+
+
+
+
+
+  
+  
+  
+  
+  </tbody>
+</table>
+
+
+
+
+
+</div>
+
+
+
+
+
+<!--/NavBottom-->
+</body>
+</html>

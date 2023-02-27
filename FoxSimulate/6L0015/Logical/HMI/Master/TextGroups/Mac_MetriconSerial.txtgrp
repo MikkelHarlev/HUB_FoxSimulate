@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_MetriconSerial">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="34"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="453208" Value="Tx"/>
+    <Text ID="453209" Value="Rx"/>
+    <Text ID="453883" Value="Data requested"/>
+    <Text ID="453884" Value="Data recieved"/>
+    <Text ID="453885" Value="Hanger away"/>
+    <Text ID="453886" Value="S2 recieved"/>
+    <Text ID="453891" Value="s1 Sent"/>
+    <Text ID="453892" Value="s2 Sent"/>
+    <Text ID="453895" Value="Tx Error"/>
+    <Text ID="453896" Value="Rx Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="453208" Value="Tx"/>
+    <Text ID="453209" Value="Rx"/>
+    <Text ID="453883" Value="Data requested"/>
+    <Text ID="453884" Value="Data recieved"/>
+    <Text ID="453885" Value="Hanger away"/>
+    <Text ID="453886" Value="S2 recieved"/>
+    <Text ID="453891" Value="s1 Sent"/>
+    <Text ID="453892" Value="s2 Sent"/>
+    <Text ID="453895" Value="Tx Error"/>
+    <Text ID="453896" Value="Rx Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="453208" Value="Tx"/>
+    <Text ID="453209" Value="Rx"/>
+    <Text ID="453883" Value="Data requested"/>
+    <Text ID="453884" Value="Data recieved"/>
+    <Text ID="453885" Value="Hanger away"/>
+    <Text ID="453886" Value="S2 recieved"/>
+    <Text ID="453891" Value="s1 Sent"/>
+    <Text ID="453892" Value="s2 Sent"/>
+    <Text ID="453895" Value="Tx Error"/>
+    <Text ID="453896" Value="Rx Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="453208" Value="Tx"/>
+    <Text ID="453209" Value="Rx"/>
+    <Text ID="453883" Value="Data requested"/>
+    <Text ID="453884" Value="Data recieved"/>
+    <Text ID="453885" Value="Hanger away"/>
+    <Text ID="453886" Value="S2 recieved"/>
+    <Text ID="453891" Value="s1 Sent"/>
+    <Text ID="453892" Value="s2 Sent"/>
+    <Text ID="453895" Value="Tx Error"/>
+    <Text ID="453896" Value="Rx Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="453208" Value="Tx"/>
+    <Text ID="453209" Value="Rx"/>
+    <Text ID="453883" Value="Data requested"/>
+    <Text ID="453884" Value="Data recieved"/>
+    <Text ID="453885" Value="Hanger away"/>
+    <Text ID="453886" Value="S2 recieved"/>
+    <Text ID="453891" Value="s1 Sent"/>
+    <Text ID="453892" Value="s2 Sent"/>
+    <Text ID="453895" Value="Tx Error"/>
+    <Text ID="453896" Value="Rx Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="453208" Value="Tx"/>
+    <Text ID="453209" Value="Rx"/>
+    <Text ID="453883" Value="Data requested"/>
+    <Text ID="453884" Value="Data recieved"/>
+    <Text ID="453885" Value="Hanger away"/>
+    <Text ID="453886" Value="S2 recieved"/>
+    <Text ID="453891" Value="s1 Sent"/>
+    <Text ID="453892" Value="s2 Sent"/>
+    <Text ID="453895" Value="Tx Error"/>
+    <Text ID="453896" Value="Rx Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="453208" Value="Tx"/>
+    <Text ID="453209" Value="Rx"/>
+    <Text ID="453883" Value="Data requested"/>
+    <Text ID="453884" Value="Data recieved"/>
+    <Text ID="453885" Value="Hanger away"/>
+    <Text ID="453886" Value="S2 recieved"/>
+    <Text ID="453891" Value="s1 Sent"/>
+    <Text ID="453892" Value="s2 Sent"/>
+    <Text ID="453895" Value="Tx Error"/>
+    <Text ID="453896" Value="Rx Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="453208" Value="Tx"/>
+    <Text ID="453209" Value="Rx"/>
+    <Text ID="453883" Value="Data requested"/>
+    <Text ID="453884" Value="Data recieved"/>
+    <Text ID="453885" Value="Hanger away"/>
+    <Text ID="453886" Value="S2 recieved"/>
+    <Text ID="453891" Value="s1 Sent"/>
+    <Text ID="453892" Value="s2 Sent"/>
+    <Text ID="453895" Value="Tx Error"/>
+    <Text ID="453896" Value="Rx Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="453208" Value="Tx"/>
+    <Text ID="453209" Value="Rx"/>
+    <Text ID="453883" Value="Data requested"/>
+    <Text ID="453884" Value="Data recieved"/>
+    <Text ID="453885" Value="Hanger away"/>
+    <Text ID="453886" Value="S2 recieved"/>
+    <Text ID="453891" Value="s1 Sent"/>
+    <Text ID="453892" Value="s2 Sent"/>
+    <Text ID="453895" Value="Tx Error"/>
+    <Text ID="453896" Value="Rx Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="453208" Value="Tx"/>
+    <Text ID="453209" Value="Rx"/>
+    <Text ID="453883" Value="Data requested"/>
+    <Text ID="453884" Value="Data recieved"/>
+    <Text ID="453885" Value="Hanger away"/>
+    <Text ID="453886" Value="S2 recieved"/>
+    <Text ID="453891" Value="s1 Sent"/>
+    <Text ID="453892" Value="s2 Sent"/>
+    <Text ID="453895" Value="Tx Error"/>
+    <Text ID="453896" Value="Rx Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="453208" Value=""/>
+    <Text ID="453209" Value=""/>
+    <Text ID="453883" Value=""/>
+    <Text ID="453884" Value=""/>
+    <Text ID="453885" Value=""/>
+    <Text ID="453886" Value=""/>
+    <Text ID="453891" Value=""/>
+    <Text ID="453892" Value=""/>
+    <Text ID="453895" Value=""/>
+    <Text ID="453896" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="453208" Value=""/>
+    <Text ID="453209" Value=""/>
+    <Text ID="453883" Value=""/>
+    <Text ID="453884" Value=""/>
+    <Text ID="453885" Value=""/>
+    <Text ID="453886" Value=""/>
+    <Text ID="453891" Value=""/>
+    <Text ID="453892" Value=""/>
+    <Text ID="453895" Value=""/>
+    <Text ID="453896" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="453208" Value=""/>
+    <Text ID="453209" Value=""/>
+    <Text ID="453883" Value=""/>
+    <Text ID="453884" Value=""/>
+    <Text ID="453885" Value=""/>
+    <Text ID="453886" Value=""/>
+    <Text ID="453891" Value=""/>
+    <Text ID="453892" Value=""/>
+    <Text ID="453895" Value=""/>
+    <Text ID="453896" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="453208" Value=""/>
+    <Text ID="453209" Value=""/>
+    <Text ID="453883" Value=""/>
+    <Text ID="453884" Value=""/>
+    <Text ID="453885" Value=""/>
+    <Text ID="453886" Value=""/>
+    <Text ID="453891" Value=""/>
+    <Text ID="453892" Value=""/>
+    <Text ID="453895" Value=""/>
+    <Text ID="453896" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="453208" Value=""/>
+    <Text ID="453209" Value=""/>
+    <Text ID="453883" Value=""/>
+    <Text ID="453884" Value=""/>
+    <Text ID="453885" Value=""/>
+    <Text ID="453886" Value=""/>
+    <Text ID="453891" Value=""/>
+    <Text ID="453892" Value=""/>
+    <Text ID="453895" Value=""/>
+    <Text ID="453896" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="453208" Value="Tx"/>
+    <Text ID="453209" Value="Rx"/>
+    <Text ID="453883" Value="Data requested"/>
+    <Text ID="453884" Value="Data recieved"/>
+    <Text ID="453885" Value="Hanger away"/>
+    <Text ID="453886" Value="S2 recieved"/>
+    <Text ID="453891" Value="s1 Sent"/>
+    <Text ID="453892" Value="s2 Sent"/>
+    <Text ID="453895" Value="Tx Error"/>
+    <Text ID="453896" Value="Rx Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="453208" Value=""/>
+    <Text ID="453209" Value=""/>
+    <Text ID="453883" Value=""/>
+    <Text ID="453884" Value=""/>
+    <Text ID="453885" Value=""/>
+    <Text ID="453886" Value=""/>
+    <Text ID="453891" Value=""/>
+    <Text ID="453892" Value=""/>
+    <Text ID="453895" Value=""/>
+    <Text ID="453896" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="453208" Value="0"/>
+    <Index ID="453209" Value="1"/>
+    <Index ID="453883" Value="10"/>
+    <Index ID="453884" Value="11"/>
+    <Index ID="453885" Value="12"/>
+    <Index ID="453886" Value="13"/>
+    <Index ID="453891" Value="14"/>
+    <Index ID="453892" Value="15"/>
+    <Index ID="453895" Value="16"/>
+    <Index ID="453896" Value="17"/>
+  </IndexMap>
+</TextGroup>

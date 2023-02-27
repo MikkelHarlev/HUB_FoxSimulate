@@ -1,0 +1,286 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML DIR=LTR>
+ <HEAD>
+  <meta name="INDEX" content="ParScroCyclic">
+  <meta name="ORDER" content="1">
+  <META NAME="generator" CONTENT="Microsoft FrontPage 5.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <TITLE>ParScroCyclic</TITLE>
+  <LINK REL="StyleSheet" HREF="../styles.css">
+ </HEAD>
+
+ <BODY>
+  <H1> Jercp_lib - ParScroCyclic()</H1>
+
+  <p style="margin-top: 0; margin-bottom: 0">This Function Block is doing the 
+  following things:</p>
+
+  <ul>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Scrolling in the Parameter List</p>
+
+    </li>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Copy the Parameter Names to the 
+  ParScrollArray</p>
+
+    </li>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Copy the Parameter Values to the 
+  parValueArray</p>
+
+    </li>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Change the Language if configured</p>
+
+    </li>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Change the Value of a Parameter</p>
+
+    </li>
+  </ul>
+
+  <H2> Parameters</H2>
+
+  <CENTER>
+   <TABLE WIDTH="90%" CELLPADDING="4" CELLSPACING="2" BORDER="1" height="436">
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      <P ALIGN="CENTER"> <B>I/O</B></P>
+     </TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      <P> <B>Parameter</B></P>
+     </TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      <P> <B>Data Type</B></P>
+     </TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      <P> <B>Description</B></P>
+     </TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      Enable</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      BOOL</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      Enables the Function Block</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      Ident</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      UDINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      Ident from <a href="RcpInit.html">RcpInit()</a></TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      cmdUp</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      USINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      Scroll Up in the Parameter List</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      cmdDown</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      USINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      Scroll Down in the Parameter List</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      cmdLangSwitch</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      USINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      Switch to other Language &quot;ActLanguage&quot; if configured in ParScroInit()</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="32">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="32">
+      cmdEditPar</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="32">
+      USINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="32">
+      Edit a Parameter - &quot;ActParValue&quot; will be written directly to the Recipe 
+      Data in the Memory ot the Recipe Number given by SelectRcpNumber.</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      cmdRcpChange</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      USINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      After the Recipe Number is select with Parameter SelectRcpNumber, this 
+      command has to be set.</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      ActLanguage</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      USINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      Actual Language</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      SelectRcpNumber</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      UINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      Recipe Number which will be edited with cmdEditPar</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      IN</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      ShowLevel</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      USINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      <a href="../Example/File%20Format.html#Feature to display a parameter passwordlevel dependent (ParListScroll)">
+      Actual Password Level: Only parameter configured with PWL equal or lower 
+      will be shown</a></TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      OUT</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      Status</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      UINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      <a href="../General/Error.html">Error Number</a></TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      OUT</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      ActParNumber</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      UINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      Number of the Actual Parameter</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      OUT</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      SelectedItem</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      UINT</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      Output for Visual Components List Box</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP" height="16">
+      OUT</TD>
+
+     <TD WIDTH="20%" VALIGN="TOP" height="16">
+      ErrStringInfo</TD>
+
+     <TD WIDTH="12%" VALIGN="TOP" height="16">
+      STRING(32)</TD>
+
+     <TD WIDTH="62%" VALIGN="TOP" height="16">
+      In case of Error Information is given in this String</TD>
+    </TR>
+
+    </TABLE>
+  </CENTER>
+
+  <h2>Call Syntax (Structured Text)</h2>
+  <p>&nbsp;&nbsp;&nbsp; ParScroCyclic_0(Enable:=, Ident:=, cmdUp:=, cmdDown:=, 
+  cmdLangSwitch:=, cmdEditPar:=, cmdRcpChange:=, ActLanguage:=, 
+  SelectRcpNumber:=);</p>
+  <h2>Examples</h2>
+  <p>&nbsp;&nbsp;&nbsp; <a href="../Example/AB.html">Automation 
+  Basic</a></p>
+  <p>&nbsp;&nbsp;&nbsp; <a href="../Example/C.html">Ansi C</a></p>
+  <p>&nbsp;&nbsp;&nbsp; <a href="../Example/ST.html">Structured 
+  Text</a></p>
+
+  </BODY>
+</HTML>

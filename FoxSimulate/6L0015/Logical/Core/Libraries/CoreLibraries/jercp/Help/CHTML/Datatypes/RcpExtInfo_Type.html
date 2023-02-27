@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta name="ORDER" content="1">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>RcpExtInfo_Type</title>
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body>
+
+<h1><span lang="de-at"><font size="5">RcpExtInfo_Type</font></span></h1>
+
+<p><span lang="de-at">Data Type which has to be used for the
+<a href="../FBKs/RcpInit.html">RcpInit()</a> Function Block.</span></p>
+
+<p><span lang="de-at">It provides Information where the Recipe Data could be 
+accessed, how many recipes are currently in the memory, detailed Error 
+Information if a Function Block returns with an Error.</span></p>
+
+  <CENTER>
+   <TABLE WIDTH="97%" CELLPADDING="4" CELLSPACING="2" BORDER="1">
+    <TR>
+     <TD WIDTH="18%" VALIGN="TOP">
+      <P ALIGN="left"> <span lang="de-at"><b>Element</b></span></P>
+     </TD>
+
+     <TD WIDTH="10%" VALIGN="TOP">
+      <P> <B>Data Type</B></P>
+     </TD>
+
+     <TD WIDTH="63%" VALIGN="TOP">
+      <P> <B>Description</B></P>
+     </TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="18%" VALIGN="TOP">
+      Ident</TD>
+
+     <TD WIDTH="10%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="63%" VALIGN="TOP">
+      Ident from <span lang="de-at">
+<a href="../FBKs/RcpInit.html">RcpInit()</a></span></TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="18%" VALIGN="TOP">
+      adrActRcpData</TD>
+
+     <TD WIDTH="10%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="63%" VALIGN="TOP">
+      Address where the actual recipes are located in the memory</TD>
+    </TR>
+
+    <tr>
+     <TD WIDTH="18%" VALIGN="TOP">
+      NumberOfRecipes</TD>
+
+     <TD WIDTH="10%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="63%" VALIGN="TOP">
+      Number of recipes in the memory</TD>
+    </tr>
+
+    <TR>
+     <TD WIDTH="18%" VALIGN="TOP">
+      NumberOfFiles</TD>
+
+     <TD WIDTH="10%" VALIGN="TOP">
+      USINT</TD>
+
+     <TD WIDTH="63%" VALIGN="TOP">
+      Number of Recipe Files in the specified directory
+      <a href="../FBKs/RcpDirList.html">RcpDirList()</a> - pDevice</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="18%" VALIGN="TOP">
+      MaxNumberOfFiles</TD>
+
+     <TD WIDTH="10%" VALIGN="TOP">
+      USINT</TD>
+
+     <TD WIDTH="63%" VALIGN="TOP">
+      Maximum allowed Number of Recipe Files - has to be set by the user!!</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="18%" VALIGN="TOP">
+      RcpStructName</TD>
+
+     <TD WIDTH="10%" VALIGN="TOP">
+      STRING(32)</TD>
+
+     <TD WIDTH="63%" VALIGN="TOP">
+      Name of the Recipe Structure given to <a href="../FBKs/RcpInit.html">
+      RcpInit()</a> Function Block</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="18%" VALIGN="TOP">
+      ErrStringInfo</TD>
+
+     <TD WIDTH="10%" VALIGN="TOP">
+      STRING(32)</TD>
+
+     <TD WIDTH="63%" VALIGN="TOP">
+      Error Information in Case a Function Block returns an Error</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="18%" VALIGN="TOP">
+      ErrStringDetail</TD>
+
+     <TD WIDTH="10%" VALIGN="TOP">
+      STRING(32)</TD>
+
+     <TD WIDTH="63%" VALIGN="TOP">
+      Detailed Error Information in Case a Function Block returns an Error</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="18%" VALIGN="TOP">
+      Status</TD>
+
+     <TD WIDTH="10%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="63%" VALIGN="TOP">
+      Status in case a Function Block of the Library returns an Error</TD>
+    </TR>
+
+    </TABLE>
+  </CENTER>
+
+  </body>
+</html>

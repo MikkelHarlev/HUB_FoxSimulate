@@ -1,0 +1,26 @@
+VAR
+	MachineIndex : UINT;
+	StopPointWheel : UINT;
+	StartPointDum : UINT;
+	Test : UINT;
+	Cycle : UINT;
+	StartPointWheel : UINT;
+	StopPointDum : UINT;
+	WheelResult : UINT;
+	DummyResult : UINT;
+	OldWheel : UINT;
+	i : UINT;
+	LastOff : UINT;
+	OffCounter : UINT;
+	OnCounter : UINT;
+	LastOn : UINT;
+	Counter : UINT;
+	Old_TestPulse : BOOL;
+	OnError : UINT;
+	OffError : UINT;
+	RCounterWheelDuo : BOOL;
+	OldSeconds : UDINT := 0;
+	ResetCheckCounters : BOOL := 0;
+	CheckWheelTotalCounter : UDINT := 0;
+	DummyFactor : LREAL := 3.9;
+END_VAR

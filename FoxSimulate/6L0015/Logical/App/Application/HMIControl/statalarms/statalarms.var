@@ -1,0 +1,27 @@
+(********************************************************************
+ * COPYRIGHT -- IT
+ ********************************************************************
+ * Program: statalarms
+ * File: statalarms.var
+ * Author: mariw
+ * Created: May 21, 2011
+ ********************************************************************
+ * Local variables of program statalarms
+ ********************************************************************)
+VAR
+	n : USINT;
+	vis_Cat_Layer : LYERS_STAT;
+END_VAR
+VAR RETAIN
+	StatAlarms : HMIStatistic_ALM;
+END_VAR
+VAR
+	j : USINT := 0;
+	ActiveAlarmSaved : BOOL := FALSE;
+	ActiveAlarm : BOOL := FALSE;
+	i : USINT;
+	RInit : BOOL;
+	Enable : BOOL := TRUE;
+	MHATest : ARRAY[0..20] OF UDINT := [21(0)];
+	OldMilliseconds : UDINT := 0;
+END_VAR

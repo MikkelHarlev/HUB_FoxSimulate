@@ -1,0 +1,348 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML DIR=LTR>
+ <HEAD>
+  <meta name="INDEX" content="ParScroInit">
+  <meta name="ORDER" content="1">
+  <META NAME="generator" CONTENT="Microsoft FrontPage 5.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <TITLE>ParScroInit</TITLE>
+  <LINK REL="StyleSheet" HREF="../styles.css">
+ </HEAD>
+
+ <BODY>
+  <H1> Jercp_lib - ParScroInit()</H1>
+
+  <p style="margin-top: 0; margin-bottom: 0">This function block does the 
+  following things:</p>
+
+  <ul>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">If &quot;pFileNameParLanguage&quot; given, 
+  then load the file into the memory (CSV Format)</p>
+
+    </li>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Build up a List with all Parameter 
+  Names</p>
+
+    </li>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Addtional if &quot;pFileNameParLanguage&quot; 
+  was loaded, then extend the List with these Entries. So it could be realized 
+  that the Parameters either could be shown with their names, or in a Clear Text 
+  - in different languages.</p>
+
+    </li>
+    <li>
+
+  <p style="margin-top: 0; margin-bottom: 0">Initialize the ParScrollArray and 
+  the ParValueArray</p>
+
+    </li>
+  </ul>
+
+  <p style="margin-top: 0; margin-bottom: 0"><font color="#FF0000"><b>The 
+  Function Block must be called in the Cyclic Part until the Status is unequal 
+  to 65535 - JERCP_FUB_BUSY!</b></font></p>
+
+  <H2> Parameters</H2>
+
+  <CENTER>
+   <TABLE WIDTH="90%" CELLPADDING="4" CELLSPACING="2" BORDER="1">
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      <P ALIGN="CENTER"> <B>I/O</B></P>
+     </TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      <P> <B>Parameter</B></P>
+     </TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      <P> <B>Data Type</B></P>
+     </TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      <P> <B>Description</B></P>
+     </TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      Enable</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      BOOL</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Enables the Function Block</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      Ident</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Ident from <a href="RcpInit.html">RcpInit()</a></TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      pFileNameParLanguage</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Address of a String containing the Parameter Language Switching Filename 
+      (optional)</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      pParScrollArray</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Address of a String Array which is used to Scroll through all Recipe 
+      Parameters</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      pParValueArray</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Address of a String Array which is used to show the Value of the Recipe 
+      Parameters</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      pParNameArray</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Address of a String Array which is used to Scroll through all Recipe Names</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      pParNameString</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Address of a String which contains the Name of the Structure Element 
+      (STRING) which contains the Recipe Name</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      pActParValue</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Address of the String is used to show and edit the value of the actual 
+      selected parameter</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      pDevice</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UDINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Address of a String containing the Device Name -&gt; FileIo</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      SizeParScrollArray</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Size of the String Array used to scroll through the Parameters</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      SizeParValueArray</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Size of the String Array used to show the Value of the Parameters</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      SizeParNameArray</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Size of the String Array used to show the Recipe Names</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      SizeActParValue</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Size of the String used to show and edit the actual selected paramter</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      LinesParScrollArray</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Number of Elements in the String Array</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      IN</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      LinesParNameArray</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      Number of Elements in the String Array</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      OUT</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      Status</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      UINT</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      <a href="../General/Error.html">Error Number</a></TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      OUT</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      ErrStringInfo</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      STRING(32)</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      In case of Error Inforation is given in this String</TD>
+    </TR>
+
+    <TR>
+     <TD WIDTH="6%" VALIGN="TOP">
+      OUT</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      ErrStringDetail</TD>
+
+     <TD WIDTH="17%" VALIGN="TOP">
+      STRING(32)</TD>
+
+     <TD WIDTH="60%" VALIGN="TOP">
+      In case of Error Detailed Information is given in this String</TD>
+    </TR>
+
+    </TABLE>
+  </CENTER>
+
+  <h2>Call Syntax (Structured Text)</h2>
+
+  <p>ParScroInit_0(Enable:=, Ident:=, pFileNameParLanguage:=, pParScrollArray:=, 
+  pParValueArray:=, pParNameArray:=, pParNameString:=, pDevice:=, 
+  SizeParScrollArray:=, SizeParValueArray:=, SizeParNameArray:=, 
+  LinesParScrollArray:=, LinesParNameArray);</p>
+  <h2>Examples</h2>
+  <p>&nbsp;&nbsp;&nbsp; <a href="../Example/AB.html">Automation 
+  Basic</a></p>
+  <p>&nbsp;&nbsp;&nbsp; <a href="../Example/C.html">Ansi C</a></p>
+  <p>&nbsp;&nbsp;&nbsp; <a href="../Example/ST.html">Structured 
+  Text</a></p>
+
+  </BODY>
+</HTML>

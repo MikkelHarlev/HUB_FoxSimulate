@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="USBBackup">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="64"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="508864" Value="Ready"/>
+    <Text ID="508865" Value="Wait for Backup command"/>
+    <Text ID="508866" Value="Backup in progress ..."/>
+    <Text ID="508867" Value="Wait for Restore command"/>
+    <Text ID="508868" Value="Restore in progress ..."/>
+    <Text ID="508869" Value="Invalid path"/>
+    <Text ID="508870" Value="The data length specified is too small"/>
+    <Text ID="508871" Value="No more file handles available"/>
+    <Text ID="508872" Value="IOCTL code error (system error)"/>
+    <Text ID="508873" Value="Invalid type"/>
+    <Text ID="508874" Value="File already exists"/>
+    <Text ID="508875" Value="Access not possible using the desired mode"/>
+    <Text ID="508876" Value="Illegal mode"/>
+    <Text ID="508877" Value="File does not exist"/>
+    <Text ID="508878" Value="File device not permitted (i.e. not initialized) "/>
+    <Text ID="508879" Value="Not enough memory for file with new write data"/>
+    <Text ID="508880" Value="Invalid file offset"/>
+    <Text ID="508881" Value="File not permitted"/>
+    <Text ID="508882" Value="Not enough virtual memory available to copy file "/>
+    <Text ID="508883" Value="General error in FileOpen "/>
+    <Text ID="508884" Value="General error in FileClose"/>
+    <Text ID="508885" Value="General error in FileRead"/>
+    <Text ID="508886" Value="General error in FileWrite"/>
+    <Text ID="508887" Value="General error in Ioctl"/>
+    <Text ID="508888" Value="The data pointer specified is invalid (NULL)"/>
+    <Text ID="508889" Value="Error in FileIoManager "/>
+    <Text ID="508890" Value="File not opened"/>
+    <Text ID="508891" Value="Invalid directory"/>
+    <Text ID="508892" Value="Directory does not exist"/>
+    <Text ID="508893" Value="Directory not empty"/>
+    <Text ID="508894" Value="Directory already exists"/>
+    <Text ID="508895" Value="Error during memory detection"/>
+    <Text ID="508896" Value="Not enough free memory on the target device "/>
+    <Text ID="508897" Value="Error in DeviceDriver"/>
+    <Text ID="508898" Value="Error in DeviceManager"/>
+    <Text ID="508899" Value="System Error. General System Fault."/>
+    <Text ID="508900" Value="FBK Enable is FALSE (only if FBK is no longer BUSY)"/>
+    <Text ID="508901" Value="FBK is still working"/>
+    <Text ID="508902" Value="All"/>
+    <Text ID="508903" Value="Customer and Article"/>
+    <Text ID="508904" Value="Operator"/>
+    <Text ID="508905" Value="Insert USB disc"/>
+    <Text ID="508906" Value="Service log"/>
+    <Text ID="508907" Value="Jenview log"/>
+    <Text ID="508908" Value="Jensen directory"/>
+    <Text ID="508909" Value="Statistics"/>
+    <Text ID="508910" Value="Set Project No."/>
+    <Text ID="508911" Value="Include:"/>
+    <Text ID="508912" Value="Status:"/>
+    <Text ID="508913" Value="Warning: Existing files on the destination will be overwritten!"/>
+    <Text ID="508914" Value="Process in progress - do not plug out the USB stick!!!"/>
+    <Text ID="508915" Value="Fatal failure: USB stick disconnected"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="508864" Value="Bereit"/>
+    <Text ID="508865" Value="Warten für Backup-Befehl"/>
+    <Text ID="508866" Value="Backup wird ausgeführt..."/>
+    <Text ID="508867" Value="Warten auf Restore Befehl"/>
+    <Text ID="508868" Value="Wiederherstellen in Bearbeitung ..."/>
+    <Text ID="508869" Value="Ungültiger Pfad"/>
+    <Text ID="508870" Value="Die spezifizierte Datenlänge ist zu klein "/>
+    <Text ID="508871" Value="Kein Dateizugriff mehr möglich"/>
+    <Text ID="508872" Value="Ein-/Ausgang CTL Kodefehler (Systemfehler)"/>
+    <Text ID="508873" Value="Ungueltiger Typ"/>
+    <Text ID="508874" Value="Datei bereits vorhanden"/>
+    <Text ID="508875" Value="Zugang im ausgewählten Modus nich möglich"/>
+    <Text ID="508876" Value="Ungültiger Modus"/>
+    <Text ID="508877" Value="Datei nicht vorhanden"/>
+    <Text ID="508878" Value="Dateilaufwerk nicht freigegeben (d.h. nicht voreingestellt) "/>
+    <Text ID="508879" Value="Nicht genug Speicher für Datei mit neuen Daten. "/>
+    <Text ID="508880" Value="Ungültiges Verzeichnis Verschiebung"/>
+    <Text ID="508881" Value="Datei nicht freigegeben"/>
+    <Text ID="508882" Value="Nicht genug virtueller Speicher vorhanden, um Datei zu kopieren. "/>
+    <Text ID="508883" Value="Allgemeiner Fehler in Datei Oeffnen"/>
+    <Text ID="508884" Value="Allgemeiner Fehler in Datei Schliessen"/>
+    <Text ID="508885" Value="Allgemeiner Fehler in Datei Lesen"/>
+    <Text ID="508886" Value="Allgemeiner Fehler in Datei Schreiben"/>
+    <Text ID="508887" Value="Allgemeiner Fehler in Ioctl"/>
+    <Text ID="508888" Value="Der spezifizierte Datenverweis ist ungültig (NULL) "/>
+    <Text ID="508889" Value="Fehler in Dateimanager "/>
+    <Text ID="508890" Value="Datei nicht geoeffnet"/>
+    <Text ID="508891" Value="Ungültiges Verzeichnis"/>
+    <Text ID="508892" Value="Verzeichnis nicht vorhanden"/>
+    <Text ID="508893" Value="Verzeichnis nicht leer "/>
+    <Text ID="508894" Value="Verzeichnis bereits vorhanden"/>
+    <Text ID="508895" Value="Fehler während Speicherprüfung"/>
+    <Text ID="508896" Value="Nicht genug freier Speicher auf dem Zielgerät. "/>
+    <Text ID="508897" Value="Fehler in Gerätetreiber "/>
+    <Text ID="508898" Value="Fehler in Gerätemanager"/>
+    <Text ID="508899" Value="Systemfehler. Allgemeiner Systemfehler. "/>
+    <Text ID="508900" Value="FBK Freigabe ist falsch (nur, wenn FBK nicht mehr belegt ist) "/>
+    <Text ID="508901" Value="FBK arbeitet noch "/>
+    <Text ID="508902" Value="Alles"/>
+    <Text ID="508903" Value="[F] Kunde und Artikel "/>
+    <Text ID="508904" Value="Bediener"/>
+    <Text ID="508905" Value="USB Disc einstecken"/>
+    <Text ID="508906" Value="Service Log"/>
+    <Text ID="508907" Value="Jenview log"/>
+    <Text ID="508908" Value="Jensen Verzeichnis"/>
+    <Text ID="508909" Value="Statistik"/>
+    <Text ID="508910" Value="Einstellung Projektnr. "/>
+    <Text ID="508911" Value="Enthalten:"/>
+    <Text ID="508912" Value="Status"/>
+    <Text ID="508913" Value="Achtung: Existierende Dateien am Ziel werden überschrieben!"/>
+    <Text ID="508914" Value="Process in progress - do not plug out the USB stick!!!"/>
+    <Text ID="508915" Value="Fatal failure: USB stick disconnected"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="508864" Value="Beredd"/>
+    <Text ID="508865" Value="Vänta på backupkommando"/>
+    <Text ID="508866" Value="Backup pågår"/>
+    <Text ID="508867" Value="Väntar på återställningskommando"/>
+    <Text ID="508868" Value="Årerställning pågår..."/>
+    <Text ID="508869" Value="Felaktig sökväg"/>
+    <Text ID="508870" Value="Specifierade datalägden för liten"/>
+    <Text ID="508871" Value="Inga fler filhanteringar tillgängliga"/>
+    <Text ID="508872" Value="Ioctl kodfel (systemfel)"/>
+    <Text ID="508873" Value="Felaktig typ"/>
+    <Text ID="508874" Value="Fil finns redan"/>
+    <Text ID="508875" Value="Tillträde ej möjligt vid användning av önskat mode"/>
+    <Text ID="508876" Value="Illegalt läge"/>
+    <Text ID="508877" Value="Fil finns inte"/>
+    <Text ID="508878" Value="Filenhet inte tillåten (tex. inte initzierad)"/>
+    <Text ID="508879" Value="Inte tillräckligt med minne för fil med ny data"/>
+    <Text ID="508880" Value="Felaktig filoffset"/>
+    <Text ID="508881" Value="Fil inte tillåten"/>
+    <Text ID="508882" Value="Inte tillräckligt med virituellt minne för att kopiera fil"/>
+    <Text ID="508883" Value="Generalfel i öppna fil"/>
+    <Text ID="508884" Value="Generalfel i stäng fel"/>
+    <Text ID="508885" Value="Generalfel i läs fil"/>
+    <Text ID="508886" Value="Generalfel i skriv fel"/>
+    <Text ID="508887" Value="Generalfel i ioctl"/>
+    <Text ID="508888" Value="Specifierade datavärdet felaktigt (null)"/>
+    <Text ID="508889" Value="Fel i fil io hanterare"/>
+    <Text ID="508890" Value="Fil ej öppnad"/>
+    <Text ID="508891" Value="Felaktigt register"/>
+    <Text ID="508892" Value="Register finns inte"/>
+    <Text ID="508893" Value="Register ej tomt"/>
+    <Text ID="508894" Value="Register finns redan"/>
+    <Text ID="508895" Value="Fel under minnesdetektering"/>
+    <Text ID="508896" Value="Inte tillräckligt med utrymme på målenheten"/>
+    <Text ID="508897" Value="Fel i enhets drivning"/>
+    <Text ID="508898" Value="Fel i enhets hanterare"/>
+    <Text ID="508899" Value="System fel. allmänt systemfel"/>
+    <Text ID="508900" Value="Fbk aktivering är falsk (endast om fbk inte är upptagen)"/>
+    <Text ID="508901" Value="Fbk arbetar fortfarande"/>
+    <Text ID="508902" Value="Alla"/>
+    <Text ID="508903" Value="Kund och Artikel"/>
+    <Text ID="508904" Value="Operatör"/>
+    <Text ID="508905" Value="Insert USB disc"/>
+    <Text ID="508906" Value="Service log"/>
+    <Text ID="508907" Value="Jenveiw log"/>
+    <Text ID="508908" Value="Jensen directory"/>
+    <Text ID="508909" Value="Statistics"/>
+    <Text ID="508910" Value="Ställ in projektnummer"/>
+    <Text ID="508911" Value="Include:"/>
+    <Text ID="508912" Value="Status:"/>
+    <Text ID="508913" Value="Varning: existerande fil på destinationen kommer skrivas över!"/>
+    <Text ID="508914" Value="Process in progress - do not plug out the USB stick!!!"/>
+    <Text ID="508915" Value="Fatal failure: USB stick disconnected"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="508864" Value="Prêt"/>
+    <Text ID="508865" Value="Attente pour enregistrement"/>
+    <Text ID="508866" Value="Enregistrement en cours"/>
+    <Text ID="508867" Value="Attente pour restauration"/>
+    <Text ID="508868" Value="Restauration en cours"/>
+    <Text ID="508869" Value="Chemin invalide"/>
+    <Text ID="508870" Value="Longueur spécifiée trop petite"/>
+    <Text ID="508871" Value="Plus de titres de fichier disponibles"/>
+    <Text ID="508872" Value="Erreur code IOCTL"/>
+    <Text ID="508873" Value="Type non valide"/>
+    <Text ID="508874" Value="Fichier déjà existant"/>
+    <Text ID="508875" Value="Accès impossible avec le mode désiré"/>
+    <Text ID="508876" Value="Mode illégal"/>
+    <Text ID="508877" Value="Fichier n'existe pas"/>
+    <Text ID="508878" Value="Fichier machine non autorisé (pas initialisé)"/>
+    <Text ID="508879" Value="Pas assez de memoire"/>
+    <Text ID="508880" Value="Décalage fichier non valide"/>
+    <Text ID="508881" Value="Fichier non autorisé"/>
+    <Text ID="508882" Value="Pas assez de memoire virtuel pour copier"/>
+    <Text ID="508883" Value="Erreur a l ouverture du fichier"/>
+    <Text ID="508884" Value="Erreur a la fermeture du fichier"/>
+    <Text ID="508885" Value="Erreur a la lecture du fichier"/>
+    <Text ID="508886" Value="Erreur a l ecriture du fichier"/>
+    <Text ID="508887" Value="Erreur localisation"/>
+    <Text ID="508888" Value="L'index de données spécifié n'est pas valide"/>
+    <Text ID="508889" Value="Erreur fichier administrateur"/>
+    <Text ID="508890" Value="Fichier non ouvert"/>
+    <Text ID="508891" Value="Dossier invalide"/>
+    <Text ID="508892" Value="Dossier n existe pas"/>
+    <Text ID="508893" Value="Dossier non vide"/>
+    <Text ID="508894" Value="Dossier existe deja"/>
+    <Text ID="508895" Value="Erreur durant detection memoire"/>
+    <Text ID="508896" Value="Pas assez de memoire"/>
+    <Text ID="508897" Value="Erreur driver machine"/>
+    <Text ID="508898" Value="Erreur administrateur machine"/>
+    <Text ID="508899" Value="Erreur système, défaut système général"/>
+    <Text ID="508900" Value="Ne pas autoriser FBK (seulement si FBK est libre)"/>
+    <Text ID="508901" Value="FBK toujours en marche"/>
+    <Text ID="508902" Value="Tous"/>
+    <Text ID="508903" Value="Client et article"/>
+    <Text ID="508904" Value="Operateur"/>
+    <Text ID="508905" Value="Inserer clé USB"/>
+    <Text ID="508906" Value="Journal de service"/>
+    <Text ID="508907" Value="Journal Jenview"/>
+    <Text ID="508908" Value="Dossier Jensen"/>
+    <Text ID="508909" Value="Statistiques"/>
+    <Text ID="508910" Value="N° du projet"/>
+    <Text ID="508911" Value="Inclure :"/>
+    <Text ID="508912" Value="Statut"/>
+    <Text ID="508913" Value="ATTENTION: reecriture sur fichier existant!"/>
+    <Text ID="508914" Value="Traitement en cours - ne pas débrancher la clé USB !!!"/>
+    <Text ID="508915" Value="Echec fatal : Clé USB débranchée"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="508864" Value="Klar"/>
+    <Text ID="508865" Value="Vent på backup kommando"/>
+    <Text ID="508866" Value="Backup igang..."/>
+    <Text ID="508867" Value="Vent på gendan kommando"/>
+    <Text ID="508868" Value="Gendannelse i gang"/>
+    <Text ID="508869" Value="Forkert sti"/>
+    <Text ID="508870" Value="Værdilængden er for kort"/>
+    <Text ID="508871" Value="Ikke flere filer at håndtere"/>
+    <Text ID="508872" Value="IOCTL kode fejl (System fejl)"/>
+    <Text ID="508873" Value="Forkert type"/>
+    <Text ID="508874" Value="Fil eksisterer i forvejen"/>
+    <Text ID="508875" Value="Adgang ikke mulig med ønsket mode"/>
+    <Text ID="508876" Value="Ilegalt Mode"/>
+    <Text ID="508877" Value="Fil eksisterer ikke"/>
+    <Text ID="508878" Value="Fil enhed ikke tilladt (ikke initialiseret)"/>
+    <Text ID="508879" Value="Ikke nok hukommelse til fil"/>
+    <Text ID="508880" Value="Forkert fil offset"/>
+    <Text ID="508881" Value="Fil ikke tilladt"/>
+    <Text ID="508882" Value="Ikke nok virtuel hukommelse til at kopiere fil"/>
+    <Text ID="508883" Value="Generel fejl i filåbning"/>
+    <Text ID="508884" Value="Generel fejl i fillukning"/>
+    <Text ID="508885" Value="Generel fejl i fillæsning"/>
+    <Text ID="508886" Value="Generel fejl i filskrivning"/>
+    <Text ID="508887" Value="Generel fejl i loctl"/>
+    <Text ID="508888" Value="Værdien defineret er forkert (null)"/>
+    <Text ID="508889" Value="Fejl i FileIoManager"/>
+    <Text ID="508890" Value="Fil ikke åbnet"/>
+    <Text ID="508891" Value="Forkert mappe"/>
+    <Text ID="508892" Value="Mappe eksisterer ikke"/>
+    <Text ID="508893" Value="Mappe ikke tom"/>
+    <Text ID="508894" Value="Mappe eksisterer i forvejen"/>
+    <Text ID="508895" Value="Fejl under hukommelses søgning"/>
+    <Text ID="508896" Value="Ikke nok hukommelse på enheden der skrives til"/>
+    <Text ID="508897" Value="Fejl i Enhedsdriver"/>
+    <Text ID="508898" Value="Fejl i Enhedsmanager"/>
+    <Text ID="508899" Value="General systemfejl"/>
+    <Text ID="508900" Value="FBK Enable is FALSE (only if FBK is no longer BUSY)"/>
+    <Text ID="508901" Value="FBK arbejder forsat"/>
+    <Text ID="508902" Value="Alle"/>
+    <Text ID="508903" Value="Kunde og artikel"/>
+    <Text ID="508904" Value="Operatør"/>
+    <Text ID="508905" Value="Isæt USB disk"/>
+    <Text ID="508906" Value="Service log"/>
+    <Text ID="508907" Value="Jenview log"/>
+    <Text ID="508908" Value="Jensen mappe"/>
+    <Text ID="508909" Value="Statistics"/>
+    <Text ID="508910" Value="Indstil projekt nr."/>
+    <Text ID="508911" Value="Inkluder:"/>
+    <Text ID="508912" Value="Status"/>
+    <Text ID="508913" Value="Advarsel: Eksisterende filer på destinationen vil blive overskrevet!"/>
+    <Text ID="508914" Value="Process in progress - do not plug out the USB stick!!!"/>
+    <Text ID="508915" Value="Fatal failure: USB stick disconnected"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="508864" Value="Pronta"/>
+    <Text ID="508865" Value="Attesa comando Backup"/>
+    <Text ID="508866" Value="BackUp in corso"/>
+    <Text ID="508867" Value="Attesa Comando Ripristino"/>
+    <Text ID="508868" Value="Ripristino dati in progresso. . "/>
+    <Text ID="508869" Value="Percorso non Valido"/>
+    <Text ID="508870" Value="La Lunghezza Dati Specificati è troppo corta"/>
+    <Text ID="508871" Value="Non più file disponibili"/>
+    <Text ID="508872" Value="IOCTL code Errore (system Errore)"/>
+    <Text ID="508873" Value="Tipologia non Valida"/>
+    <Text ID="508874" Value="File già esistente"/>
+    <Text ID="508875" Value="Accesso non possibile usando il modo desider."/>
+    <Text ID="508876" Value="Modalità non corretta"/>
+    <Text ID="508877" Value="File non esistente"/>
+    <Text ID="508878" Value="File Dispositivo non ammesso (non avviato)"/>
+    <Text ID="508879" Value="Memoria Insufficiente per nuovi file"/>
+    <Text ID="508880" Value="Compensazione non Valida"/>
+    <Text ID="508881" Value="File Non Permesso"/>
+    <Text ID="508882" Value="Memoria virtuale insufficiente per copiare i file"/>
+    <Text ID="508883" Value="Errore Generale in apertura file"/>
+    <Text ID="508884" Value="Errore Generale in Chiusura File"/>
+    <Text ID="508885" Value="Errore Generale in lettura file"/>
+    <Text ID="508886" Value="Errore Generale in scrittura file"/>
+    <Text ID="508887" Value="Errore Generale in Ioctl"/>
+    <Text ID="508888" Value="Il Dato Specifico non è Valido (NULL)"/>
+    <Text ID="508889" Value="Errore in gestione File"/>
+    <Text ID="508890" Value="File non Aperto"/>
+    <Text ID="508891" Value="Directory non valida"/>
+    <Text ID="508892" Value="Directory Non Esistente"/>
+    <Text ID="508893" Value="Directory Non Vuota"/>
+    <Text ID="508894" Value="Directory già Esistente"/>
+    <Text ID="508895" Value="Errore Durante Rilevamento Memoria"/>
+    <Text ID="508896" Value="Memoria insufficiente sul dispositivo"/>
+    <Text ID="508897" Value="Errore in DeviceDriver"/>
+    <Text ID="508898" Value="Errore in DeviceManager"/>
+    <Text ID="508899" Value="Errore Sistema. Anomalia Generale Sistema"/>
+    <Text ID="508900" Value="FBK Abilitaz. è FALSO (solo se FBK non è più lungo di BUSY)"/>
+    <Text ID="508901" Value="FBK sta ancora lavorando"/>
+    <Text ID="508902" Value="Tutto"/>
+    <Text ID="508903" Value="Cliente ed Articolo"/>
+    <Text ID="508904" Value="Operatore"/>
+    <Text ID="508905" Value="Inserire disco USB"/>
+    <Text ID="508906" Value="Service log"/>
+    <Text ID="508907" Value="Jenview log"/>
+    <Text ID="508908" Value="Jensen directory"/>
+    <Text ID="508909" Value="Statistiche"/>
+    <Text ID="508910" Value="Imposta n. progetto"/>
+    <Text ID="508911" Value="Include:"/>
+    <Text ID="508912" Value="Stato"/>
+    <Text ID="508913" Value="Attenzione: I file esistenti verranno sovrascritti"/>
+    <Text ID="508914" Value="Process in progress - do not plug out the USB stick!!!"/>
+    <Text ID="508915" Value="Fatal failure: USB stick disconnected"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="508864" Value="Valmis"/>
+    <Text ID="508865" Value="Odota varmuuskopiointi käskyä"/>
+    <Text ID="508866" Value="Varmuuskopiointi käynnissä..."/>
+    <Text ID="508867" Value="Odota palautus käskyä"/>
+    <Text ID="508868" Value="Palautus käynnissä"/>
+    <Text ID="508869" Value="Väärä erä"/>
+    <Text ID="508870" Value="Määritetyn tiedon pituus on liian lyhyt"/>
+    <Text ID="508871" Value="Ei enää tiedostoja saatavilla"/>
+    <Text ID="508872" Value="IOCTL koodivirhe (järjestelmä virhe)"/>
+    <Text ID="508873" Value="Väärä laji"/>
+    <Text ID="508874" Value="Tiedosto on jo olemassa"/>
+    <Text ID="508875" Value="Pääsy ei ole mahdollinen valitussa tilassa"/>
+    <Text ID="508876" Value="Laiton tila"/>
+    <Text ID="508877" Value="Tiedostoa ei ole"/>
+    <Text ID="508878" Value="Tiedosto laite ei ole sallittu (eli ei alustettu)"/>
+    <Text ID="508879" Value="Ei tarpeeksi muistia uuden tiedoston kirjoittamiseksi"/>
+    <Text ID="508880" Value="Kelpaamaton tiedosto tunnus"/>
+    <Text ID="508881" Value="Tiedosto ei sallittu"/>
+    <Text ID="508882" Value="Ei tarpeeksi virtuaalimuistia tiedoston kopiointiin"/>
+    <Text ID="508883" Value="Yleishäiriö tiedostonavaaminen"/>
+    <Text ID="508884" Value="Yleishäiriö tiedostonsulku"/>
+    <Text ID="508885" Value="Yleishäiriö tiedostonluku"/>
+    <Text ID="508886" Value="Yleishäiriö tiedostonkirjoittaminen"/>
+    <Text ID="508887" Value="Yleishäiriö lukitus"/>
+    <Text ID="508888" Value="Tiedon erotin ei ole oikea (NOLLA)"/>
+    <Text ID="508889" Value="Virhe tiedostohallinnassa"/>
+    <Text ID="508890" Value="Tiedostoa ei avattu"/>
+    <Text ID="508891" Value="Kelpaamaton hakemisto"/>
+    <Text ID="508892" Value="Hakemisto ei ole olemassa"/>
+    <Text ID="508893" Value="Hakemisto ei ole tyhjä"/>
+    <Text ID="508894" Value="Hakemisto on jo olemassa"/>
+    <Text ID="508895" Value="Virhe muistinmäärityksen aikana"/>
+    <Text ID="508896" Value="Ei tarpeeksi vapaatya muistia kohdelaitteessa"/>
+    <Text ID="508897" Value="Virhe laitteenohjaimessa"/>
+    <Text ID="508898" Value="Virhe laitteenhallinnassa"/>
+    <Text ID="508899" Value="Järjestelmävirhe. Yleinen järjestelmävika."/>
+    <Text ID="508900" Value="FBK mahdollinen kun VIRHE (vain jos FBK ei ole enää KIIREELLINEN)"/>
+    <Text ID="508901" Value="FBK käy vielä"/>
+    <Text ID="508902" Value="Kaikki"/>
+    <Text ID="508903" Value="Asiakas ja Artikkeli"/>
+    <Text ID="508904" Value="Operator"/>
+    <Text ID="508905" Value="Insert USB disc"/>
+    <Text ID="508906" Value="Service log"/>
+    <Text ID="508907" Value="Jenview log"/>
+    <Text ID="508908" Value="Jensen directory"/>
+    <Text ID="508909" Value="Statistics"/>
+    <Text ID="508910" Value="Anna projekti num"/>
+    <Text ID="508911" Value="Include:"/>
+    <Text ID="508912" Value="Tila:"/>
+    <Text ID="508913" Value="Varoitus: Kohteen vanhojen tiedostojen päälle ylikirjoitetaan!!"/>
+    <Text ID="508914" Value="Process in progress - do not plug out the USB stick!!!"/>
+    <Text ID="508915" Value="Fatal failure: USB stick disconnected"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="508864" Value="Klaar"/>
+    <Text ID="508865" Value="Wacht for Backup kommando"/>
+    <Text ID="508866" Value="Bezig met Backup..."/>
+    <Text ID="508867" Value="Wacht for Herstel kommando"/>
+    <Text ID="508868" Value="Terugzetten in gang..."/>
+    <Text ID="508869" Value="Ongeldig pad"/>
+    <Text ID="508870" Value="De opgegeven data lengte is te klein"/>
+    <Text ID="508871" Value="Geen bestandshandelingen meer mogelijk"/>
+    <Text ID="508872" Value="IOCTL code Fout (systeem fout)"/>
+    <Text ID="508873" Value="Ongeldig type"/>
+    <Text ID="508874" Value="Bestand bestaat al"/>
+    <Text ID="508875" Value="Toegang niet mogelijk bij gebruik verlangde modus"/>
+    <Text ID="508876" Value="Iligale mode"/>
+    <Text ID="508877" Value="Bestand bestaat niet"/>
+    <Text ID="508878" Value="Bestand opzet niet toegestaan (m.a.w. niet geïnitialiseerd)"/>
+    <Text ID="508879" Value="Niet genoeg geheugen voor bestand met nieuwe data"/>
+    <Text ID="508880" Value="Ongeldig bestand begin"/>
+    <Text ID="508881" Value="Bestand niet toegestaan"/>
+    <Text ID="508882" Value="Niet genoeg virtueel geheugen om bestand te kopiëren"/>
+    <Text ID="508883" Value="Algemene Fout in Bestand openen"/>
+    <Text ID="508884" Value="Algemene Fout in Bestand sluiten"/>
+    <Text ID="508885" Value="Algemene Fout in Bestand lezen"/>
+    <Text ID="508886" Value="Algemene Fout in Bestand schrijven"/>
+    <Text ID="508887" Value="Algemene Fout in Ioctl"/>
+    <Text ID="508888" Value="De gespecificeerde data pointer is niet aanwezig (NUL)"/>
+    <Text ID="508889" Value="Fout in FileIoManager"/>
+    <Text ID="508890" Value="Bestand niet geopend"/>
+    <Text ID="508891" Value="Ongeldige map"/>
+    <Text ID="508892" Value="Map bestaat niet"/>
+    <Text ID="508893" Value="Map niet leeg"/>
+    <Text ID="508894" Value="Map bestaat al"/>
+    <Text ID="508895" Value="Fout tijdens geheugen detectie"/>
+    <Text ID="508896" Value="Niet genoeg geheugen op de doelschijf"/>
+    <Text ID="508897" Value="Fout in DeviceDriver"/>
+    <Text ID="508898" Value="Fout in DeviceManager"/>
+    <Text ID="508899" Value="Systeem Error. Algemene Systeem Fout."/>
+    <Text ID="508900" Value="FBK mogelijk maken is FALSE (alleen als FBK niet bezig is)"/>
+    <Text ID="508901" Value="FBK nog altijd in werking"/>
+    <Text ID="508902" Value="Alles"/>
+    <Text ID="508903" Value="Klant en artikel"/>
+    <Text ID="508904" Value="Operator"/>
+    <Text ID="508905" Value="USB-schijf insteken"/>
+    <Text ID="508906" Value="Service log"/>
+    <Text ID="508907" Value="Jenview log"/>
+    <Text ID="508908" Value="Jensen map"/>
+    <Text ID="508909" Value="Statistiek"/>
+    <Text ID="508910" Value="Instellen Project Nr."/>
+    <Text ID="508911" Value="Inclusief:"/>
+    <Text ID="508912" Value="Status:"/>
+    <Text ID="508913" Value="Waarschuwing: Huidige file wordt overschreven!"/>
+    <Text ID="508914" Value="Proces in uitvoering - trek de USB-stick er niet uit!!!"/>
+    <Text ID="508915" Value="Fatale fout: USB-stick losgekoppeld"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="508864" Value="Preparado"/>
+    <Text ID="508865" Value="Esperar comando para copia de seguridad"/>
+    <Text ID="508866" Value="Copia de seguridad en progreso…"/>
+    <Text ID="508867" Value="Esperar comando de Restauración"/>
+    <Text ID="508868" Value="Restauración en progreso"/>
+    <Text ID="508869" Value="Camino inválido"/>
+    <Text ID="508870" Value="Longitud de datos demasiado pequeña"/>
+    <Text ID="508871" Value="Sin más archivos disponibles"/>
+    <Text ID="508872" Value="IOCTL error de código (error de sistema)"/>
+    <Text ID="508873" Value="Tipo inválido"/>
+    <Text ID="508874" Value="El archivo ya existe"/>
+    <Text ID="508875" Value="Acceso inválido usando modo deseado"/>
+    <Text ID="508876" Value="Modo ilegal"/>
+    <Text ID="508877" Value="El archivo no existe"/>
+    <Text ID="508878" Value="Archivo de dispositivo no permitido (ej: No inicializado)"/>
+    <Text ID="508879" Value="Memoria insuficiente para escibir nuevos datos en archivo"/>
+    <Text ID="508880" Value="Compensación de archivo inválida"/>
+    <Text ID="508881" Value="Archivo no permitido"/>
+    <Text ID="508882" Value="Sin memoria virtual disponible para copiar archivo"/>
+    <Text ID="508883" Value="Error general al abrir archivo"/>
+    <Text ID="508884" Value="Error general al cerrar archivo"/>
+    <Text ID="508885" Value="Error general al leer archivo"/>
+    <Text ID="508886" Value="Error general al escribir archivo"/>
+    <Text ID="508887" Value="Error general en loctl"/>
+    <Text ID="508888" Value="Inválido puntero de datos especificado (NULL)"/>
+    <Text ID="508889" Value="Error en gestor de archivos"/>
+    <Text ID="508890" Value="Archivo no abierto"/>
+    <Text ID="508891" Value="Directorio inválido"/>
+    <Text ID="508892" Value="El directorio no existe"/>
+    <Text ID="508893" Value="Directorio no vacío"/>
+    <Text ID="508894" Value="El directorio ya existe"/>
+    <Text ID="508895" Value="Error durante detección de memoria"/>
+    <Text ID="508896" Value="Sin memoria libre en objetivo"/>
+    <Text ID="508897" Value="Error en el driver del equipo"/>
+    <Text ID="508898" Value="Error en gestor de equipo"/>
+    <Text ID="508899" Value="Error de sistema. Fallo general."/>
+    <Text ID="508900" Value="Habilitado FBK FALSO (sólo si FBK ya no más ocupado)"/>
+    <Text ID="508901" Value="FBK todavía en progreso"/>
+    <Text ID="508902" Value="Todo"/>
+    <Text ID="508903" Value="Cliente y artículo"/>
+    <Text ID="508904" Value="Operador"/>
+    <Text ID="508905" Value="Insertar unidad USB"/>
+    <Text ID="508906" Value="Registro de servicio"/>
+    <Text ID="508907" Value="Registro de Jenview"/>
+    <Text ID="508908" Value="Directorio Jensen"/>
+    <Text ID="508909" Value="Estadísticas"/>
+    <Text ID="508910" Value="Establecer Nº de proyecto"/>
+    <Text ID="508911" Value="Incluir:"/>
+    <Text ID="508912" Value="Estado:"/>
+    <Text ID="508913" Value="Advertencia: Se sobreescribirán los archivos existentes en destino"/>
+    <Text ID="508914" Value="Proceso en prograso: No quitar unidad de USB!!"/>
+    <Text ID="508915" Value="Fallo grave: Unidad USB desconectada"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="508864" Value="Gotowość"/>
+    <Text ID="508865" Value="Czekaj na polecenie wykonania kopii zapasowej danych"/>
+    <Text ID="508866" Value="Trwa wykonywanie kopii zapasowej danych ..."/>
+    <Text ID="508867" Value="Czekaj na polecenie przywrócenia danych"/>
+    <Text ID="508868" Value="Trwa przywracanie danych ..."/>
+    <Text ID="508869" Value="Nieprawidłowa ścieżka"/>
+    <Text ID="508870" Value="Określona długość danych jest zbyt mała"/>
+    <Text ID="508871" Value="Brak dostępnych dojść do pliku"/>
+    <Text ID="508872" Value="Błąd kodu IOCTL (błąd systemowy)"/>
+    <Text ID="508873" Value="Nieprawidłowy typ"/>
+    <Text ID="508874" Value="Plik już istnieje"/>
+    <Text ID="508875" Value="Dostęp za pomocą żądanego trybu nie jest możliwy"/>
+    <Text ID="508876" Value="Tryb niedozwolony"/>
+    <Text ID="508877" Value="Plik nie istnieje"/>
+    <Text ID="508878" Value="Urządzenie plików niedozwolone (np. np brak inicjalizacji) "/>
+    <Text ID="508879" Value="Niewystarczająca ilość pamięci dla pliku z nowymi danymi do zapisu"/>
+    <Text ID="508880" Value="Nieprawidłowy offset pliku"/>
+    <Text ID="508881" Value="Plik niedozwolony"/>
+    <Text ID="508882" Value="Niewystarczająca ilość dostępnej pamięci wirtualnej do skopiowania pliku "/>
+    <Text ID="508883" Value="Ogólny błąd w poleceniu FileOpen "/>
+    <Text ID="508884" Value="Ogólny błąd w poleceniu FileClose"/>
+    <Text ID="508885" Value="Ogólny błąd w poleceniu FileRead"/>
+    <Text ID="508886" Value="Ogólny błąd w poleceniu FileWrite"/>
+    <Text ID="508887" Value="Ogólny błąd w kodzie Ioctl"/>
+    <Text ID="508888" Value="Określony wskaźnik danych jest nieprawidłowy (NULL)"/>
+    <Text ID="508889" Value="Błąd w FileIoManager "/>
+    <Text ID="508890" Value="Plik nie otwarty"/>
+    <Text ID="508891" Value="Nieprawidłowy katalog"/>
+    <Text ID="508892" Value="Katalog nie istnieje"/>
+    <Text ID="508893" Value="Katalog nie jest pusty"/>
+    <Text ID="508894" Value="Katalog już istnieje"/>
+    <Text ID="508895" Value="Błąd podczas wykrywania pamięci"/>
+    <Text ID="508896" Value="Niewystarczająca ilość wolnej pamięci na urządzeniu docelowym "/>
+    <Text ID="508897" Value="Błąd w DeviceDriver"/>
+    <Text ID="508898" Value="Błąd w DeviceManager"/>
+    <Text ID="508899" Value="Błąd systemowy. Ogólny błąd systemowy."/>
+    <Text ID="508900" Value="Odblokowanie FBK nie POWIODŁO SIĘ (tylko jeżeli FBK nie jest ZAJĘTE)"/>
+    <Text ID="508901" Value="FBK nadal pracuje"/>
+    <Text ID="508902" Value="Wszystko"/>
+    <Text ID="508903" Value="Klient i artykuł"/>
+    <Text ID="508904" Value="Operator"/>
+    <Text ID="508905" Value="Włóż dysk USB"/>
+    <Text ID="508906" Value="Rejestr serwisowy"/>
+    <Text ID="508907" Value="Rejestr Jenview"/>
+    <Text ID="508908" Value="Katalog Jensen"/>
+    <Text ID="508909" Value="Statystyka"/>
+    <Text ID="508910" Value="Ustaw nr projektu"/>
+    <Text ID="508911" Value="Zawiera:"/>
+    <Text ID="508912" Value="Stan:"/>
+    <Text ID="508913" Value="Ostrzeżenie: Pliki istniejące w miejscu docelowym zostaną nadpisane!"/>
+    <Text ID="508914" Value="Trwa proces - nie odłączać nośnika pamięci USB!!!"/>
+    <Text ID="508915" Value="Błąd krytyczny: Nośnik pamięci USB odłączony"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="508864" Value=""/>
+    <Text ID="508865" Value=""/>
+    <Text ID="508866" Value=""/>
+    <Text ID="508867" Value=""/>
+    <Text ID="508868" Value=""/>
+    <Text ID="508869" Value=""/>
+    <Text ID="508870" Value=""/>
+    <Text ID="508871" Value=""/>
+    <Text ID="508872" Value=""/>
+    <Text ID="508873" Value=""/>
+    <Text ID="508874" Value=""/>
+    <Text ID="508875" Value=""/>
+    <Text ID="508876" Value=""/>
+    <Text ID="508877" Value=""/>
+    <Text ID="508878" Value=""/>
+    <Text ID="508879" Value=""/>
+    <Text ID="508880" Value=""/>
+    <Text ID="508881" Value=""/>
+    <Text ID="508882" Value=""/>
+    <Text ID="508883" Value=""/>
+    <Text ID="508884" Value=""/>
+    <Text ID="508885" Value=""/>
+    <Text ID="508886" Value=""/>
+    <Text ID="508887" Value=""/>
+    <Text ID="508888" Value=""/>
+    <Text ID="508889" Value=""/>
+    <Text ID="508890" Value=""/>
+    <Text ID="508891" Value=""/>
+    <Text ID="508892" Value=""/>
+    <Text ID="508893" Value=""/>
+    <Text ID="508894" Value=""/>
+    <Text ID="508895" Value=""/>
+    <Text ID="508896" Value=""/>
+    <Text ID="508897" Value=""/>
+    <Text ID="508898" Value=""/>
+    <Text ID="508899" Value=""/>
+    <Text ID="508900" Value=""/>
+    <Text ID="508901" Value=""/>
+    <Text ID="508902" Value=""/>
+    <Text ID="508903" Value=""/>
+    <Text ID="508904" Value=""/>
+    <Text ID="508905" Value=""/>
+    <Text ID="508906" Value=""/>
+    <Text ID="508907" Value=""/>
+    <Text ID="508908" Value=""/>
+    <Text ID="508909" Value=""/>
+    <Text ID="508910" Value=""/>
+    <Text ID="508911" Value=""/>
+    <Text ID="508912" Value=""/>
+    <Text ID="508913" Value=""/>
+    <Text ID="508914" Value=""/>
+    <Text ID="508915" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="508864" Value=""/>
+    <Text ID="508865" Value=""/>
+    <Text ID="508866" Value=""/>
+    <Text ID="508867" Value=""/>
+    <Text ID="508868" Value=""/>
+    <Text ID="508869" Value=""/>
+    <Text ID="508870" Value=""/>
+    <Text ID="508871" Value=""/>
+    <Text ID="508872" Value=""/>
+    <Text ID="508873" Value=""/>
+    <Text ID="508874" Value=""/>
+    <Text ID="508875" Value=""/>
+    <Text ID="508876" Value=""/>
+    <Text ID="508877" Value=""/>
+    <Text ID="508878" Value=""/>
+    <Text ID="508879" Value=""/>
+    <Text ID="508880" Value=""/>
+    <Text ID="508881" Value=""/>
+    <Text ID="508882" Value=""/>
+    <Text ID="508883" Value=""/>
+    <Text ID="508884" Value=""/>
+    <Text ID="508885" Value=""/>
+    <Text ID="508886" Value=""/>
+    <Text ID="508887" Value=""/>
+    <Text ID="508888" Value=""/>
+    <Text ID="508889" Value=""/>
+    <Text ID="508890" Value=""/>
+    <Text ID="508891" Value=""/>
+    <Text ID="508892" Value=""/>
+    <Text ID="508893" Value=""/>
+    <Text ID="508894" Value=""/>
+    <Text ID="508895" Value=""/>
+    <Text ID="508896" Value=""/>
+    <Text ID="508897" Value=""/>
+    <Text ID="508898" Value=""/>
+    <Text ID="508899" Value=""/>
+    <Text ID="508900" Value=""/>
+    <Text ID="508901" Value=""/>
+    <Text ID="508902" Value=""/>
+    <Text ID="508903" Value=""/>
+    <Text ID="508904" Value=""/>
+    <Text ID="508905" Value=""/>
+    <Text ID="508906" Value=""/>
+    <Text ID="508907" Value=""/>
+    <Text ID="508908" Value=""/>
+    <Text ID="508909" Value=""/>
+    <Text ID="508910" Value=""/>
+    <Text ID="508911" Value=""/>
+    <Text ID="508912" Value=""/>
+    <Text ID="508913" Value=""/>
+    <Text ID="508914" Value=""/>
+    <Text ID="508915" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="508864" Value="Gotowość"/>
+    <Text ID="508865" Value="Czekaj na polecenie wykonania kopii zapasowej danych"/>
+    <Text ID="508866" Value="Trwa wykonywanie kopii zapasowej danych ..."/>
+    <Text ID="508867" Value="Czekaj na polecenie przywrócenia danych"/>
+    <Text ID="508868" Value="Trwa przywracanie danych ..."/>
+    <Text ID="508869" Value="Nieprawidłowa ścieżka"/>
+    <Text ID="508870" Value="Określona długość danych jest zbyt mała"/>
+    <Text ID="508871" Value="Brak dostępnych dojść do pliku"/>
+    <Text ID="508872" Value="Błąd kodu IOCTL (błąd systemowy)"/>
+    <Text ID="508873" Value="Nieprawidłowy typ"/>
+    <Text ID="508874" Value="Plik już istnieje"/>
+    <Text ID="508875" Value="Dostęp za pomocą żądanego trybu nie jest możliwy"/>
+    <Text ID="508876" Value="Tryb niedozwolony"/>
+    <Text ID="508877" Value="Plik nie istnieje"/>
+    <Text ID="508878" Value="Urządzenie plików niedozwolone (np. np brak inicjalizacji) "/>
+    <Text ID="508879" Value="Niewystarczająca ilość pamięci dla pliku z nowymi danymi do zapisu"/>
+    <Text ID="508880" Value="Nieprawidłowy offset pliku"/>
+    <Text ID="508881" Value="Plik niedozwolony"/>
+    <Text ID="508882" Value="Niewystarczająca ilość dostępnej pamięci wirtualnej do skopiowania pliku "/>
+    <Text ID="508883" Value="Ogólny błąd w poleceniu FileOpen "/>
+    <Text ID="508884" Value="Ogólny błąd w poleceniu FileClose"/>
+    <Text ID="508885" Value="Ogólny błąd w poleceniu FileRead"/>
+    <Text ID="508886" Value="Ogólny błąd w poleceniu FileWrite"/>
+    <Text ID="508887" Value="Ogólny błąd w kodzie Ioctl"/>
+    <Text ID="508888" Value="Określony wskaźnik danych jest nieprawidłowy (NULL)"/>
+    <Text ID="508889" Value="Błąd w FileIoManager "/>
+    <Text ID="508890" Value="Plik nie otwarty"/>
+    <Text ID="508891" Value="Nieprawidłowy katalog"/>
+    <Text ID="508892" Value="Katalog nie istnieje"/>
+    <Text ID="508893" Value="Katalog nie jest pusty"/>
+    <Text ID="508894" Value="Katalog już istnieje"/>
+    <Text ID="508895" Value="Błąd podczas wykrywania pamięci"/>
+    <Text ID="508896" Value="Niewystarczająca ilość wolnej pamięci na urządzeniu docelowym "/>
+    <Text ID="508897" Value="Błąd w DeviceDriver"/>
+    <Text ID="508898" Value="Błąd w DeviceManager"/>
+    <Text ID="508899" Value="Błąd systemowy. Ogólny błąd systemowy."/>
+    <Text ID="508900" Value="Odblokowanie FBK nie POWIODŁO SIĘ (tylko jeżeli FBK nie jest ZAJĘTE)"/>
+    <Text ID="508901" Value="FBK nadal pracuje"/>
+    <Text ID="508902" Value="Wszystko"/>
+    <Text ID="508903" Value="Klient i artykuł"/>
+    <Text ID="508904" Value="Operator"/>
+    <Text ID="508905" Value="Włóż dysk USB"/>
+    <Text ID="508906" Value="Rejestr serwisowy"/>
+    <Text ID="508907" Value="Rejestr Jenview"/>
+    <Text ID="508908" Value="Katalog Jensen"/>
+    <Text ID="508909" Value="Statystyka"/>
+    <Text ID="508910" Value="Ustaw nr projektu"/>
+    <Text ID="508911" Value="Zawiera:"/>
+    <Text ID="508912" Value="Stan:"/>
+    <Text ID="508913" Value="Ostrzeżenie: Pliki istniejące w miejscu docelowym zostaną nadpisane!"/>
+    <Text ID="508914" Value="Trwa proces - nie odłączać nośnika pamięci USB!!!"/>
+    <Text ID="508915" Value="Błąd krytyczny: Nośnik pamięci USB odłączony"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="508864" Value="Ready"/>
+    <Text ID="508865" Value="Wait for Backup command"/>
+    <Text ID="508866" Value="Backup in progress ..."/>
+    <Text ID="508867" Value="Wait for Restore command"/>
+    <Text ID="508868" Value="Restore in progress ..."/>
+    <Text ID="508869" Value="Invalid path"/>
+    <Text ID="508870" Value="The data length specified is too small"/>
+    <Text ID="508871" Value="No more file handles available"/>
+    <Text ID="508872" Value="IOCTL code error (system error)"/>
+    <Text ID="508873" Value="Invalid type"/>
+    <Text ID="508874" Value="File already exists"/>
+    <Text ID="508875" Value="Access not possible using the desired mode"/>
+    <Text ID="508876" Value="Illegal mode"/>
+    <Text ID="508877" Value="File does not exist"/>
+    <Text ID="508878" Value="File device not permitted (i.e. not initialized) "/>
+    <Text ID="508879" Value="Not enough memory for file with new write data"/>
+    <Text ID="508880" Value="Invalid file offset"/>
+    <Text ID="508881" Value="File not permitted"/>
+    <Text ID="508882" Value="Not enough virtual memory available to copy file "/>
+    <Text ID="508883" Value="General error in FileOpen "/>
+    <Text ID="508884" Value="General error in FileClose"/>
+    <Text ID="508885" Value="General error in FileRead"/>
+    <Text ID="508886" Value="General error in FileWrite"/>
+    <Text ID="508887" Value="General error in Ioctl"/>
+    <Text ID="508888" Value="The data pointer specified is invalid (NULL)"/>
+    <Text ID="508889" Value="Error in FileIoManager "/>
+    <Text ID="508890" Value="File not opened"/>
+    <Text ID="508891" Value="Invalid directory"/>
+    <Text ID="508892" Value="Directory does not exist"/>
+    <Text ID="508893" Value="Directory not empty"/>
+    <Text ID="508894" Value="Directory already exists"/>
+    <Text ID="508895" Value="Error during memory detection"/>
+    <Text ID="508896" Value="Not enough free memory on the target device "/>
+    <Text ID="508897" Value="Error in DeviceDriver"/>
+    <Text ID="508898" Value="Error in DeviceManager"/>
+    <Text ID="508899" Value="System Error. General System Fault."/>
+    <Text ID="508900" Value="FBK Enable is FALSE (only if FBK is no longer BUSY)"/>
+    <Text ID="508901" Value="FBK is still working"/>
+    <Text ID="508902" Value="All"/>
+    <Text ID="508903" Value="Customer and Article"/>
+    <Text ID="508904" Value="Operator"/>
+    <Text ID="508905" Value="Insert USB disc"/>
+    <Text ID="508906" Value="Service log"/>
+    <Text ID="508907" Value="Jenview log"/>
+    <Text ID="508908" Value="Jensen directory"/>
+    <Text ID="508909" Value="Statistics"/>
+    <Text ID="508910" Value="Set Project No."/>
+    <Text ID="508911" Value="Include:"/>
+    <Text ID="508912" Value="Status:"/>
+    <Text ID="508913" Value="Warning: Existing files on the destination will be overwritten!"/>
+    <Text ID="508914" Value="Process in progress - do not plug out the USB stick!!!"/>
+    <Text ID="508915" Value="Fatal failure: USB stick disconnected"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="508864" Value="Ready"/>
+    <Text ID="508865" Value="Wait for Backup command"/>
+    <Text ID="508866" Value="Backup in progress ..."/>
+    <Text ID="508867" Value="Wait for Restore command"/>
+    <Text ID="508868" Value="Restore in progress ..."/>
+    <Text ID="508869" Value="Invalid path"/>
+    <Text ID="508870" Value="The data length specified is too small"/>
+    <Text ID="508871" Value="No more file handles available"/>
+    <Text ID="508872" Value="IOCTL code error (system error)"/>
+    <Text ID="508873" Value="Invalid type"/>
+    <Text ID="508874" Value="File already exists"/>
+    <Text ID="508875" Value="Access not possible using the desired mode"/>
+    <Text ID="508876" Value="Illegal mode"/>
+    <Text ID="508877" Value="File does not exist"/>
+    <Text ID="508878" Value="File device not permitted (i.e. not initialized) "/>
+    <Text ID="508879" Value="Not enough memory for file with new write data"/>
+    <Text ID="508880" Value="Invalid file offset"/>
+    <Text ID="508881" Value="File not permitted"/>
+    <Text ID="508882" Value="Not enough virtual memory available to copy file "/>
+    <Text ID="508883" Value="General error in FileOpen "/>
+    <Text ID="508884" Value="General error in FileClose"/>
+    <Text ID="508885" Value="General error in FileRead"/>
+    <Text ID="508886" Value="General error in FileWrite"/>
+    <Text ID="508887" Value="General error in Ioctl"/>
+    <Text ID="508888" Value="The data pointer specified is invalid (NULL)"/>
+    <Text ID="508889" Value="Error in FileIoManager "/>
+    <Text ID="508890" Value="File not opened"/>
+    <Text ID="508891" Value="Invalid directory"/>
+    <Text ID="508892" Value="Directory does not exist"/>
+    <Text ID="508893" Value="Directory not empty"/>
+    <Text ID="508894" Value="Directory already exists"/>
+    <Text ID="508895" Value="Error during memory detection"/>
+    <Text ID="508896" Value="Not enough free memory on the target device "/>
+    <Text ID="508897" Value="Error in DeviceDriver"/>
+    <Text ID="508898" Value="Error in DeviceManager"/>
+    <Text ID="508899" Value="System Error. General System Fault."/>
+    <Text ID="508900" Value="FBK Enable is FALSE (only if FBK is no longer BUSY)"/>
+    <Text ID="508901" Value="FBK is still working"/>
+    <Text ID="508902" Value="All"/>
+    <Text ID="508903" Value="Customer and Article"/>
+    <Text ID="508904" Value="Operator"/>
+    <Text ID="508905" Value="Insert USB disc"/>
+    <Text ID="508906" Value="Service log"/>
+    <Text ID="508907" Value="Jenview log"/>
+    <Text ID="508908" Value="Jensen directory"/>
+    <Text ID="508909" Value="Statistics"/>
+    <Text ID="508910" Value="Set Project No."/>
+    <Text ID="508911" Value="Include:"/>
+    <Text ID="508912" Value="Status:"/>
+    <Text ID="508913" Value="Warning: Existing files on the destination will be overwritten!"/>
+    <Text ID="508914" Value="Process in progress - do not plug out the USB stick!!!"/>
+    <Text ID="508915" Value="Fatal failure: USB stick disconnected"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="508864" Value="Klar"/>
+    <Text ID="508865" Value="Vent på backup-kommando"/>
+    <Text ID="508866" Value="Backup pågår..."/>
+    <Text ID="508867" Value="Vent på gjennopprett kommando"/>
+    <Text ID="508868" Value="Gjenopprettning pågår..."/>
+    <Text ID="508869" Value="Ugyldig bane"/>
+    <Text ID="508870" Value="Den spesifiserte datalengden er for liten"/>
+    <Text ID="508871" Value="Ingen flere filbehandlinger tilgjengelige"/>
+    <Text ID="508872" Value="IOCTL kodefeil (systemfeil)"/>
+    <Text ID="508873" Value="Ugyldig type"/>
+    <Text ID="508874" Value="Filen finnes allerede"/>
+    <Text ID="508875" Value="Adgang ikke mulig under øsnket modus"/>
+    <Text ID="508876" Value="Ulovlig modus"/>
+    <Text ID="508877" Value="Fil finnes ikke"/>
+    <Text ID="508878" Value="Filenhet ikke tillatt (dvs. ikke initialisert)"/>
+    <Text ID="508879" Value="Ikke nok minne for filen med nyskrevne data"/>
+    <Text ID="508880" Value="Ugyldig fil offset"/>
+    <Text ID="508881" Value="Fil ikke tillatt"/>
+    <Text ID="508882" Value="Ikke nok virtuelt minne tilgjengelig for å kopiere filen"/>
+    <Text ID="508883" Value="Generell feil i FileOpen"/>
+    <Text ID="508884" Value="Generell feil i FileClose"/>
+    <Text ID="508885" Value="Generell feil i FileRead"/>
+    <Text ID="508886" Value="Generell feil i FileWrite"/>
+    <Text ID="508887" Value="Generell feil i Ioctl"/>
+    <Text ID="508888" Value="Den verdien er for ugyldig (NULL)"/>
+    <Text ID="508889" Value="Feil i FileIoManager"/>
+    <Text ID="508890" Value="Fil ikke åpnet"/>
+    <Text ID="508891" Value="Ugyldig katalog"/>
+    <Text ID="508892" Value="Katalogen finnes ikke"/>
+    <Text ID="508893" Value="Katalogen er ikke tom"/>
+    <Text ID="508894" Value="Katalogen finnes allerede"/>
+    <Text ID="508895" Value="Feil under minnelesing"/>
+    <Text ID="508896" Value="Ikke nok ledig minne i målenheten"/>
+    <Text ID="508897" Value="Feil i enhetsdriver"/>
+    <Text ID="508898" Value="Feil i enhetsmanager"/>
+    <Text ID="508899" Value="Systemfeil: Generell systemfeil."/>
+    <Text ID="508900" Value="FBK aktiver er FEIL (kun hvis FBK ikke lenger er OPPTATT)"/>
+    <Text ID="508901" Value="FBK iarbeider fremdeles"/>
+    <Text ID="508902" Value="Alle"/>
+    <Text ID="508903" Value="Kunde og artikkel"/>
+    <Text ID="508904" Value="Operatør"/>
+    <Text ID="508905" Value="Sett inn USB-enhet"/>
+    <Text ID="508906" Value="Servicelogg"/>
+    <Text ID="508907" Value="Jenview logg"/>
+    <Text ID="508908" Value="Jensen mappe"/>
+    <Text ID="508909" Value="Statistikk"/>
+    <Text ID="508910" Value="Still inn prosjektnr."/>
+    <Text ID="508911" Value="Inkluder:"/>
+    <Text ID="508912" Value="Status:"/>
+    <Text ID="508913" Value="Advarsel: Eksisterende filer i destinasjonen vil bli skrevet over!"/>
+    <Text ID="508914" Value="Process in progress - do not plug out the USB stick!!!"/>
+    <Text ID="508915" Value="Fatal failure: USB stick disconnected"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="508864" Value="Pronto"/>
+    <Text ID="508865" Value="Aguardar comando de cópia de segurança"/>
+    <Text ID="508866" Value="Cópia de segurança em curso..."/>
+    <Text ID="508867" Value="Aguardar comando de restauro"/>
+    <Text ID="508868" Value="Restauro em curso..."/>
+    <Text ID="508869" Value="Caminho inválido"/>
+    <Text ID="508870" Value="O comprimento dos dados especificados é demasiado curto"/>
+    <Text ID="508871" Value="Sem mais gestões de ficheiros disponíveis"/>
+    <Text ID="508872" Value="Código de erro IOCTL (erro do sistema)"/>
+    <Text ID="508873" Value="Tipo inválido"/>
+    <Text ID="508874" Value="Ficheiro já existe"/>
+    <Text ID="508875" Value="Acesso não possível através do modo pretendido"/>
+    <Text ID="508876" Value="Modo ilegal"/>
+    <Text ID="508877" Value="Ficheiro não existe"/>
+    <Text ID="508878" Value="Dispositivo de ficheiro não permitido (ou seja, não inicializado) "/>
+    <Text ID="508879" Value="Memória insuficiente para o ficheiro com novos dados de escrita"/>
+    <Text ID="508880" Value="Desvio de ficheiro inválido"/>
+    <Text ID="508881" Value="Ficheiro não permitido"/>
+    <Text ID="508882" Value="Memória virtual insuficiente disponível para copiar ficheiro "/>
+    <Text ID="508883" Value="Erro geral na abertura do ficheiro "/>
+    <Text ID="508884" Value="Erro geral no fecho do ficheiro"/>
+    <Text ID="508885" Value="Erro geral na leitura do ficheiro"/>
+    <Text ID="508886" Value="Erro geral na escrita do ficheiro"/>
+    <Text ID="508887" Value="Erro geral em loctl"/>
+    <Text ID="508888" Value="O ponteiro de dados especificado é inválido (NULO)"/>
+    <Text ID="508889" Value="Erro no gestor de E/S de ficheiros "/>
+    <Text ID="508890" Value="Ficheiro não está aberto"/>
+    <Text ID="508891" Value="Diretório inválido"/>
+    <Text ID="508892" Value="Diretório não existe"/>
+    <Text ID="508893" Value="Diretório não está vazio"/>
+    <Text ID="508894" Value="Diretório já existe"/>
+    <Text ID="508895" Value="Erro durante a deteção da memória"/>
+    <Text ID="508896" Value="Memória livre insuficiente no dispositivo alvo "/>
+    <Text ID="508897" Value="Erro no controlador de dispositivo"/>
+    <Text ID="508898" Value="Erro no gestor de dispositivo"/>
+    <Text ID="508899" Value="Erro do sistema. Falha geral do sistema."/>
+    <Text ID="508900" Value="Ativação de FBK é FALSA (apenas se FBK já não estiver OCUPADO)"/>
+    <Text ID="508901" Value="FBK ainda está em funcionamento"/>
+    <Text ID="508902" Value="Tudo"/>
+    <Text ID="508903" Value="Cliente e artigo"/>
+    <Text ID="508904" Value="Operador"/>
+    <Text ID="508905" Value="Inserir disco USB"/>
+    <Text ID="508906" Value="Registo de assistência"/>
+    <Text ID="508907" Value="Registo Jenview"/>
+    <Text ID="508908" Value="Diretório Jensen"/>
+    <Text ID="508909" Value="Estatísticas"/>
+    <Text ID="508910" Value="Definir n.º do projeto"/>
+    <Text ID="508911" Value="Incluir:"/>
+    <Text ID="508912" Value="Estado:"/>
+    <Text ID="508913" Value="Aviso: Os ficheiros existentes no destino serão substituídos!"/>
+    <Text ID="508914" Value="Processo em curso - não desligar o dispositivo USB!!!"/>
+    <Text ID="508915" Value="Falha fatal: Dispositivo USB desligado"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="508864" Value="0"/>
+    <Index ID="508865" Value="1"/>
+    <Index ID="508866" Value="2"/>
+    <Index ID="508867" Value="4"/>
+    <Index ID="508868" Value="5"/>
+    <Index ID="508869" Value="20700"/>
+    <Index ID="508870" Value="20701"/>
+    <Index ID="508871" Value="20702"/>
+    <Index ID="508872" Value="20703"/>
+    <Index ID="508873" Value="20704"/>
+    <Index ID="508874" Value="20705"/>
+    <Index ID="508875" Value="20706"/>
+    <Index ID="508876" Value="20707"/>
+    <Index ID="508877" Value="20708"/>
+    <Index ID="508878" Value="20709"/>
+    <Index ID="508879" Value="20710"/>
+    <Index ID="508880" Value="20711"/>
+    <Index ID="508881" Value="20712"/>
+    <Index ID="508882" Value="20713"/>
+    <Index ID="508883" Value="20714"/>
+    <Index ID="508884" Value="20715"/>
+    <Index ID="508885" Value="20716"/>
+    <Index ID="508886" Value="20717"/>
+    <Index ID="508887" Value="20718"/>
+    <Index ID="508888" Value="20719"/>
+    <Index ID="508889" Value="20720"/>
+    <Index ID="508890" Value="20721"/>
+    <Index ID="508891" Value="20722"/>
+    <Index ID="508892" Value="20723"/>
+    <Index ID="508893" Value="20724"/>
+    <Index ID="508894" Value="20725"/>
+    <Index ID="508895" Value="20726"/>
+    <Index ID="508896" Value="20727"/>
+    <Index ID="508897" Value="20797"/>
+    <Index ID="508898" Value="20798"/>
+    <Index ID="508899" Value="20799"/>
+    <Index ID="508900" Value="65534"/>
+    <Index ID="508901" Value="65535"/>
+    <Index ID="508902" Value="100"/>
+    <Index ID="508903" Value="105"/>
+    <Index ID="508904" Value="106"/>
+    <Index ID="508905" Value="3"/>
+    <Index ID="508906" Value="103"/>
+    <Index ID="508907" Value="104"/>
+    <Index ID="508908" Value="101"/>
+    <Index ID="508909" Value="102"/>
+    <Index ID="508910" Value="6"/>
+    <Index ID="508911" Value="7"/>
+    <Index ID="508912" Value="8"/>
+    <Index ID="508913" Value="24"/>
+    <Index ID="508914" Value="25"/>
+    <Index ID="508915" Value="26"/>
+  </IndexMap>
+</TextGroup>

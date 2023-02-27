@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="HangerInlet">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.App.Application.g_HangerInletProcess.Common.AlarmList.Ack]"/>
+  <Property Name="ActiveBackColor" Value="4"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.App.Application.g_HangerInletProcess.Common.AlarmList.Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="Source[global].Variable[Master.App.Application.g_HangerInletProcess.Common.AlarmList.Bypassed]"/>
+  <Property Name="DefaultBackColor" Value="15"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="11"/>
+  <Property Name="LatchedBackColor" Value="2"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="2"/>
+  <Property Name="QuitBackColor" Value="1"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="8">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="9">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="10">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="11">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="12">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="6232" Value="Time out Hanger inlet"/>
+      <Text ID="6233" Value="Hanger inlet startup error"/>
+      <Text ID="6234" Value="No hanger from feeder."/>
+      <Text ID="6256" Value="Remove hanger from Inlet"/>
+      <Text ID="7222" Value="Collapsed hanger in Inlet"/>
+      <Text ID="8872" Value="No hanger read or double hanger."/>
+      <Text ID="10161" Value="Time out Hanger inlet"/>
+      <Text ID="10162" Value="Time out Hanger inlet"/>
+      <Text ID="10163" Value="Timeout hanger turner"/>
+      <Text ID="12196" Value="Inlet Phtocell blocked"/>
+      <Text ID="13296" Value="Hanger not in inlet"/>
+      <Text ID="13975" Value="Hanger dropped in inlet"/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="6232" Value="Zeitueberschreitung Buegeleinlass"/>
+      <Text ID="6233" Value="Buegeleinlass start fehler"/>
+      <Text ID="6234" Value="Kein Buegel von der Eingabe"/>
+      <Text ID="6256" Value="Entferne Buegel vom Einlauf"/>
+      <Text ID="7222" Value="Buegel am Einlauf haengt fest"/>
+      <Text ID="8872" Value="Buegel nicht gelesen oder doppelbuegel"/>
+      <Text ID="10161" Value="Zeitueberschreitung Buegeleinlass"/>
+      <Text ID="10162" Value="Zeitueberschreitung Buegeleinlass"/>
+      <Text ID="10163" Value="Zeitueberschreitung vom Buegeldreher"/>
+      <Text ID="12196" Value="Einlauffotozelle blockiert"/>
+      <Text ID="13296" Value="Hanger not in inlet"/>
+      <Text ID="13975" Value="Hanger dropped in inlet"/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="6232" Value="Övertid galginmatning"/>
+      <Text ID="6233" Value="Fel vid uppstart galgmatning"/>
+      <Text ID="6234" Value="Ingen galge från separator"/>
+      <Text ID="6256" Value="Ta bort galge från inmatning"/>
+      <Text ID="7222" Value="Öppnad galge vid inmatning"/>
+      <Text ID="8872" Value="Ingen galge läst eller dubbla galgar"/>
+      <Text ID="10161" Value="Övertid galginmatning"/>
+      <Text ID="10162" Value="Övertid galginmatning"/>
+      <Text ID="10163" Value="Övertid galgvändare"/>
+      <Text ID="12196" Value="Inlet Phtocell blocked"/>
+      <Text ID="13296" Value="Hanger not in inlet"/>
+      <Text ID="13975" Value="Hanger dropped in inlet"/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="6232" Value="Cintre pas arrivé au DU"/>
+      <Text ID="6233" Value="Erreur Cintre startup"/>
+      <Text ID="6234" Value="Pas de cintre arrivée de mise a l'unité"/>
+      <Text ID="6256" Value="Enlever le cintre de l'entrée"/>
+      <Text ID="7222" Value="Cintre fermé à l'entrée"/>
+      <Text ID="8872" Value="Pas de lecture de cintre ou deux cintres"/>
+      <Text ID="10161" Value="Cintre pas arrivé au DU"/>
+      <Text ID="10162" Value="Cintre pas arrivé au DU"/>
+      <Text ID="10163" Value="Timeout hanger turner"/>
+      <Text ID="12196" Value="Inlet Phtocell blocked"/>
+      <Text ID="13296" Value="Hanger not in inlet"/>
+      <Text ID="13975" Value="Hanger dropped in inlet"/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="6232" Value="Time out böjletransport"/>
+      <Text ID="6233" Value="henger innløp oppstartsfeil"/>
+      <Text ID="6234" Value="Ingen böjler fra tilgang"/>
+      <Text ID="6256" Value="Fjern böjle fra indlöb"/>
+      <Text ID="7222" Value="Sammenklappet bøjle i indløb"/>
+      <Text ID="8872" Value="Ingen böjle läst eller dobbeltböjle"/>
+      <Text ID="10161" Value="Time out böjletransport"/>
+      <Text ID="10162" Value="Time out böjletransport"/>
+      <Text ID="10163" Value="Timeout hanger turner"/>
+      <Text ID="12196" Value="Inlet Phtocell blocked"/>
+      <Text ID="13296" Value="Bøjle ikke i indløb"/>
+      <Text ID="13975" Value="Hanger dropped in inlet"/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="6232" Value="Superato tempo ingresso gruccia "/>
+      <Text ID="6233" Value="Errore partenza ingresso gruccia"/>
+      <Text ID="6234" Value="Nessuna gruccia da STF"/>
+      <Text ID="6256" Value="Rimuovi gruccia in ingresso"/>
+      <Text ID="7222" Value="Gruccia collasssata in ingresso"/>
+      <Text ID="8872" Value="No gruccia o non letta"/>
+      <Text ID="10161" Value="Superato tempo ingresso gruccia "/>
+      <Text ID="10162" Value="Superato tempo ingresso gruccia "/>
+      <Text ID="10163" Value="Superato T gruccia "/>
+      <Text ID="12196" Value="Inlet Phtocell blocked"/>
+      <Text ID="13296" Value="Hanger not in inlet7"/>
+      <Text ID="13975" Value="Hanger dropped in inlet"/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="6232" Value="Time out Hanger inlet"/>
+      <Text ID="6233" Value="Hanger inlet startup error"/>
+      <Text ID="6234" Value="No hanger from feeder."/>
+      <Text ID="6256" Value="Remove hanger from Inlet"/>
+      <Text ID="7222" Value="Collapsed hanger in Inlet"/>
+      <Text ID="8872" Value="No hanger read or double hanger"/>
+      <Text ID="10161" Value="Time out Hanger inlet"/>
+      <Text ID="10162" Value="Time out Hanger inlet"/>
+      <Text ID="10163" Value="Timeout hanger turner"/>
+      <Text ID="12196" Value="Inlet Phtocell blocked"/>
+      <Text ID="13296" Value="Hanger not in inlet"/>
+      <Text ID="13975" Value="Hanger dropped in inlet"/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="6232" Value="Time out Hanger inlet"/>
+      <Text ID="6233" Value="Hanger inlet startup error"/>
+      <Text ID="6234" Value="No hanger from feeder."/>
+      <Text ID="6256" Value="Remove hanger from Inlet"/>
+      <Text ID="7222" Value="Collapsed hanger in Inlet"/>
+      <Text ID="8872" Value="No hanger read or double hanger"/>
+      <Text ID="10161" Value="Time out Hanger inlet"/>
+      <Text ID="10162" Value="Time out Hanger inlet"/>
+      <Text ID="10163" Value="Timeout hanger turner"/>
+      <Text ID="12196" Value="Inlet Phtocell blocked"/>
+      <Text ID="13296" Value="Hanger not in inlet"/>
+      <Text ID="13975" Value="Hanger dropped in inlet"/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="6232" Value="Tiempo excedido de entrada perchas"/>
+      <Text ID="6233" Value="Error inicio en transportador de perchas"/>
+      <Text ID="6234" Value="Sin percha desde el alimentador"/>
+      <Text ID="6256" Value="Perchas retiradas en la entrada"/>
+      <Text ID="7222" Value="Percha plegadas en la entrada"/>
+      <Text ID="8872" Value="Sin lectura de percha o percha doble"/>
+      <Text ID="10161" Value="Tiempo excedido de entrada perchas"/>
+      <Text ID="10162" Value="Tiempo excedido de entrada perchas"/>
+      <Text ID="10163" Value="Vencimiento tiempo en girador perchas"/>
+      <Text ID="12196" Value="Fotocélula de entrada bloqueada"/>
+      <Text ID="13296" Value="Hanger not in inlet"/>
+      <Text ID="13975" Value="Hanger dropped in inlet"/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="6232" Value="Time out Hanger inlet"/>
+      <Text ID="6233" Value="Hanger inlet startup error"/>
+      <Text ID="6234" Value="No hanger from feeder."/>
+      <Text ID="6256" Value="Remove hanger from Inlet"/>
+      <Text ID="7222" Value="Collapsed hanger in Inlet"/>
+      <Text ID="8872" Value="No hanger read or double hanger"/>
+      <Text ID="10161" Value="Time out Hanger inlet"/>
+      <Text ID="10162" Value="Time out Hanger inlet"/>
+      <Text ID="10163" Value="Timeout hanger turner"/>
+      <Text ID="12196" Value="Inlet Phtocell blocked"/>
+      <Text ID="13296" Value="Hanger not in inlet"/>
+      <Text ID="13975" Value="Hanger dropped in inlet"/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="6232" Value=""/>
+      <Text ID="6233" Value=""/>
+      <Text ID="6234" Value=""/>
+      <Text ID="6256" Value=""/>
+      <Text ID="7222" Value=""/>
+      <Text ID="8872" Value=""/>
+      <Text ID="10161" Value=""/>
+      <Text ID="10162" Value=""/>
+      <Text ID="10163" Value=""/>
+      <Text ID="12196" Value=""/>
+      <Text ID="13296" Value=""/>
+      <Text ID="13975" Value=""/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="6232" Value=""/>
+      <Text ID="6233" Value=""/>
+      <Text ID="6234" Value=""/>
+      <Text ID="6256" Value=""/>
+      <Text ID="7222" Value=""/>
+      <Text ID="8872" Value=""/>
+      <Text ID="10161" Value=""/>
+      <Text ID="10162" Value=""/>
+      <Text ID="10163" Value=""/>
+      <Text ID="12196" Value=""/>
+      <Text ID="13296" Value=""/>
+      <Text ID="13975" Value=""/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="6232" Value=""/>
+      <Text ID="6233" Value=""/>
+      <Text ID="6234" Value=""/>
+      <Text ID="6256" Value=""/>
+      <Text ID="7222" Value=""/>
+      <Text ID="8872" Value=""/>
+      <Text ID="10161" Value=""/>
+      <Text ID="10162" Value=""/>
+      <Text ID="10163" Value=""/>
+      <Text ID="12196" Value=""/>
+      <Text ID="13296" Value=""/>
+      <Text ID="13975" Value=""/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="6232" Value=""/>
+      <Text ID="6233" Value=""/>
+      <Text ID="6234" Value=""/>
+      <Text ID="6256" Value=""/>
+      <Text ID="7222" Value=""/>
+      <Text ID="8872" Value=""/>
+      <Text ID="10161" Value=""/>
+      <Text ID="10162" Value=""/>
+      <Text ID="10163" Value=""/>
+      <Text ID="12196" Value=""/>
+      <Text ID="13296" Value=""/>
+      <Text ID="13975" Value=""/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="6232" Value=""/>
+      <Text ID="6233" Value=""/>
+      <Text ID="6234" Value=""/>
+      <Text ID="6256" Value=""/>
+      <Text ID="7222" Value=""/>
+      <Text ID="8872" Value=""/>
+      <Text ID="10161" Value=""/>
+      <Text ID="10162" Value=""/>
+      <Text ID="10163" Value=""/>
+      <Text ID="12196" Value=""/>
+      <Text ID="13296" Value=""/>
+      <Text ID="13975" Value=""/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="6232" Value="Time out Henger innløp"/>
+      <Text ID="6233" Value="henger innløp oppstartsfeil"/>
+      <Text ID="6234" Value="Ingen henger fra innmating"/>
+      <Text ID="6256" Value="Fjern henger fra innløp"/>
+      <Text ID="7222" Value="Henger ikke resatt i innløp"/>
+      <Text ID="8872" Value="Ingen henger lest eller dobbel henger"/>
+      <Text ID="10161" Value="Time out Henger innløp"/>
+      <Text ID="10162" Value="Time out Henger innløp"/>
+      <Text ID="10163" Value="Timeout hanger turner"/>
+      <Text ID="12196" Value="Inlet Phtocell blocked"/>
+      <Text ID="13296" Value="Hanger not in inlet"/>
+      <Text ID="13975" Value="Hanger dropped in inlet"/>
+      <Text ID="14439" Value="H_Opener not ready check sensor"/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="6232" Value=""/>
+      <Text ID="6233" Value=""/>
+      <Text ID="6234" Value=""/>
+      <Text ID="6256" Value=""/>
+      <Text ID="7222" Value=""/>
+      <Text ID="8872" Value=""/>
+      <Text ID="10161" Value=""/>
+      <Text ID="10162" Value=""/>
+      <Text ID="10163" Value=""/>
+      <Text ID="12196" Value=""/>
+      <Text ID="13296" Value=""/>
+      <Text ID="13975" Value=""/>
+      <Text ID="14439" Value=""/>
+      <Text ID="9840" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="6232" Value="2"/>
+      <Index ID="6233" Value="3"/>
+      <Index ID="6234" Value="4"/>
+      <Index ID="6256" Value="5"/>
+      <Index ID="7222" Value="6"/>
+      <Index ID="8872" Value="7"/>
+      <Index ID="10161" Value="0"/>
+      <Index ID="10162" Value="1"/>
+      <Index ID="10163" Value="8"/>
+      <Index ID="12196" Value="9"/>
+      <Index ID="13296" Value="10"/>
+      <Index ID="13975" Value="11"/>
+      <Index ID="14439" Value="12"/>
+      <Index ID="9840" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

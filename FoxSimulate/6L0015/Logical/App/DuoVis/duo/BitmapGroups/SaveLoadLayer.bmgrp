@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="SaveLoadLayer">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="10"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="4677" Value="Source[local].Bitmap[C_32x32_SaveFile]"/>
+    <BitmapRef ID="4678" Value="Source[local].Bitmap[C_32x32_OpenFile]"/>
+    <BitmapRef ID="4679" Value="Source[local].Bitmap[C_32x32_NewFile]"/>
+    <BitmapRef ID="4680" Value="Source[local].Bitmap[C_32x32_DeleteFile]"/>
+    <BitmapRef ID="4681" Value="Source[local].Bitmap[C_32x32_CopyFile]"/>
+    <BitmapRef ID="4682" Value="Source[local].Bitmap[C_20x20_PasswordLevel0]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="4677" Value="1"/>
+    <Index ID="4678" Value="2"/>
+    <Index ID="4679" Value="3"/>
+    <Index ID="4680" Value="4"/>
+    <Index ID="4681" Value="5"/>
+    <Index ID="4682" Value="6"/>
+  </IndexMap>
+</BitmapGroup>

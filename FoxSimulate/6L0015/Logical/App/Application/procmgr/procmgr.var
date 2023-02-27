@@ -1,0 +1,36 @@
+VAR CONSTANT
+	MACHPROC_FORCED_STOP_16 : UINT := 16;
+END_VAR
+VAR
+	SimulStop : BOOL;
+	MachProcesIndex : UINT;
+	SimulStart : BOOL;
+	MachineManagerStatus : UINT;
+	ManagerStatusTextId : UINT;
+	StopReasonTextId : UINT;
+	CurTimer : UINT;
+	HMIButtonsVisible : UINT;
+	RelayDelay : UINT;
+	g_ProcessService : BOOL;
+	ForceStopButton : FoldIOCounter_Type;
+	cmdLogBookFlag : SINT;
+	StopAttemptResetTimer : UINT;
+	OldSecondsJam : UINT;
+	SoftStopTimeOut : UINT;
+	i : UINT;
+	RFuseFault : BOOL;
+	RFuseFaultSide : BOOL := FALSE;
+	FuseFault24V : BOOL;
+	RInit : BOOL;
+	TestDisableAllMainAlarms : BOOL := 0;
+	LowAirPressure_TON : TON := (0);
+	rQHStatusRed : BOOL := 0;
+	rFlashing : BOOL := 0;
+	rQHStatusYellow : BOOL := 0;
+	rQHStatusGreen : BOOL := 0;
+	rQHStatusBlue : BOOL := 0;
+	rQHStatusGreenFlash : BOOL := 0;
+	rQHStatusRedFlash : BOOL := 0;
+	rQHStatusYellowFlash : BOOL := 0;
+	rQHStatusBlueFlash : BOOL := 0;
+END_VAR

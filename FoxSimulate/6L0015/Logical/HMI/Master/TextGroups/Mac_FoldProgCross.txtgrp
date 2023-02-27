@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_FoldProgCross">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="40"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msec"/>
+    <Text ID="317303" Value="XA Motor extra time"/>
+    <Text ID="318340" Value="Fold XA"/>
+    <Text ID="515325" Value="Half Fold Lead Edge UP"/>
+    <Text ID="515326" Value="Half Fold Lead Edge DOWN"/>
+    <Text ID="515327" Value="Third Fold S DIRECT"/>
+    <Text ID="515328" Value="Third Fold S REVERSE"/>
+    <Text ID="515329" Value="Four Fold INSIDE"/>
+    <Text ID="515330" Value="Four Fold OUTSIDE"/>
+    <Text ID="515331" Value="Fix Rear Edge OUTSIDE"/>
+    <Text ID="515332" Value="Fix Rear Edge INSIDE"/>
+    <Text ID="515333" Value="Fold Appearence"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msek"/>
+    <Text ID="317303" Value="XA Motor extra Zeit"/>
+    <Text ID="318340" Value="Faltpunkt XA"/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="tum "/>
+    <Text ID="258808" Value="ms"/>
+    <Text ID="317303" Value="XA Motor extra time"/>
+    <Text ID="318340" Value="Fold XA"/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msec"/>
+    <Text ID="317303" Value="XA moteur temps extra"/>
+    <Text ID="318340" Value="Pli A"/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msek"/>
+    <Text ID="317303" Value="XA Motor ekstra tid"/>
+    <Text ID="318340" Value="Fold XA"/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="pollici"/>
+    <Text ID="258808" Value="millisec"/>
+    <Text ID="317303" Value="XA Motore extra time"/>
+    <Text ID="318340" Value="da XA"/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msec"/>
+    <Text ID="317303" Value="XA Motor extra time"/>
+    <Text ID="318340" Value="Fold XA"/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="inch"/>
+    <Text ID="258808" Value="msec"/>
+    <Text ID="317303" Value="XA Motor extra time"/>
+    <Text ID="318340" Value="Fold XA"/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="pulg"/>
+    <Text ID="258808" Value="mseg"/>
+    <Text ID="317303" Value="XA Motor extra time"/>
+    <Text ID="318340" Value="Fold XA"/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="258806" Value=""/>
+    <Text ID="258807" Value=""/>
+    <Text ID="258808" Value=""/>
+    <Text ID="317303" Value=""/>
+    <Text ID="318340" Value=""/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="258806" Value=""/>
+    <Text ID="258807" Value=""/>
+    <Text ID="258808" Value=""/>
+    <Text ID="317303" Value=""/>
+    <Text ID="318340" Value=""/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="258806" Value=""/>
+    <Text ID="258807" Value=""/>
+    <Text ID="258808" Value=""/>
+    <Text ID="317303" Value=""/>
+    <Text ID="318340" Value=""/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="258806" Value=""/>
+    <Text ID="258807" Value=""/>
+    <Text ID="258808" Value=""/>
+    <Text ID="317303" Value=""/>
+    <Text ID="318340" Value=""/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="258806" Value=""/>
+    <Text ID="258807" Value=""/>
+    <Text ID="258808" Value=""/>
+    <Text ID="317303" Value=""/>
+    <Text ID="318340" Value=""/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="258806" Value=""/>
+    <Text ID="258807" Value=""/>
+    <Text ID="258808" Value=""/>
+    <Text ID="317303" Value=""/>
+    <Text ID="318340" Value=""/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="258806" Value="cm"/>
+    <Text ID="258807" Value="tom."/>
+    <Text ID="258808" Value="msek"/>
+    <Text ID="317303" Value="XA Motor ekstra tid"/>
+    <Text ID="318340" Value="Fold XA"/>
+    <Text ID="515325" Value="Half Fold Lead Edge UP"/>
+    <Text ID="515326" Value="Half Fold Lead Edge DOWN"/>
+    <Text ID="515327" Value="Third Fold S DIRECT"/>
+    <Text ID="515328" Value="Third Fold S REVERSE"/>
+    <Text ID="515329" Value="Four Fold INSIDE"/>
+    <Text ID="515330" Value="Four Fold OUTSIDE"/>
+    <Text ID="515331" Value="Fix Rear Edge OUTSIDE"/>
+    <Text ID="515332" Value="Fix Rear Edge INSIDE"/>
+    <Text ID="515333" Value="Fold Appearence"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="258806" Value=""/>
+    <Text ID="258807" Value=""/>
+    <Text ID="258808" Value=""/>
+    <Text ID="317303" Value=""/>
+    <Text ID="318340" Value=""/>
+    <Text ID="515325" Value=""/>
+    <Text ID="515326" Value=""/>
+    <Text ID="515327" Value=""/>
+    <Text ID="515328" Value=""/>
+    <Text ID="515329" Value=""/>
+    <Text ID="515330" Value=""/>
+    <Text ID="515331" Value=""/>
+    <Text ID="515332" Value=""/>
+    <Text ID="515333" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="258806" Value="0"/>
+    <Index ID="258807" Value="1"/>
+    <Index ID="258808" Value="5"/>
+    <Index ID="317303" Value="6"/>
+    <Index ID="318340" Value="7"/>
+    <Index ID="515325" Value="21"/>
+    <Index ID="515326" Value="22"/>
+    <Index ID="515327" Value="23"/>
+    <Index ID="515328" Value="24"/>
+    <Index ID="515329" Value="25"/>
+    <Index ID="515330" Value="26"/>
+    <Index ID="515331" Value="27"/>
+    <Index ID="515332" Value="28"/>
+    <Index ID="515333" Value="29"/>
+  </IndexMap>
+</TextGroup>

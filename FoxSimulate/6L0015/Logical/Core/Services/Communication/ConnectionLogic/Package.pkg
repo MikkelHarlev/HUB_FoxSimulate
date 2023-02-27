@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.4.112?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="A package of related programs and data objects.">Remote</Object>
+    <Object Type="Package" Description="Real time server">Cockpit</Object>
+    <Object Type="Package" Description="Generek Logic for M2M">M2MLogic</Object>
+    <Object Type="Package" Description="New Jensen Protocol used between PECs">JensenInterCom</Object>
+    <Object Type="Package" Description="Arcnet logic">ArcNet</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,66 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: Jedkadapt
+ * File: Jedkadapt.var
+ * Author: mha
+ * Created: July 20, 2012
+ ********************************************************************
+ * Local variables of program Jedkadapt
+ ********************************************************************)
+VAR
+	BGarmentDetection : FB_Filter;
+	BladeLeftOn : UDINT;
+	BladeRightOn : UDINT;
+	BXBFold_Filter : FB_Filter;
+	EmptyLinenDetect : LinenDetect_Type;
+	GarmentPress_TON : TON_10ms;
+	GarmentPressDelay10ms : UDINT;
+	HangerTimeout : TON;
+	HangerWide : UINT;
+	i : INT;
+	InfeedDelay : TON;
+	LinenDetect : LinenDetect_Type := (0);
+	LockDelay : TON_10ms;
+	MachineStartTrig : BOOL;
+	MachineStopTrig : BOOL;
+	OldMilliSeconds : UDINT;
+	OldStackChange : INT;
+	OutletDelay_Filter : FB_Filter;
+	RClampDown : BOOL;
+	RClampLock : BOOL;
+	RClampStartSequenceOn : BOOL;
+	RConnectVacuumInlet : BOOL;
+	RStartClampInit : BOOL;
+	RXStart : BOOL;
+	ShowStackChange_TOF : TOF;
+	StartupClampState : USINT;
+	StopValveTime : UINT;
+	setBuzz : BOOL;
+	BuzzerShort : FB_DelayOn;
+	BuzzerLong : FB_Delay;
+	OldPieceCount : UDINT;
+END_VAR
+VAR CONSTANT
+	MAX_AVERAGE_COUNT : USINT := 10;
+END_VAR
+VAR
+	StackCountStamp : ARRAY[0..MAX_AVERAGE_COUNT] OF UDINT;
+	Regs : USINT;
+	AverageTimeBetweenMs : REAL;
+	PerHour : REAL;
+	TestThis : BOOL;
+	TestStatCount : BOOL;
+	TON_TestStatCount : TON;
+	OldPieceCountB : UDINT := 0;
+	TestCount : BOOL := 0;
+	OldPieceCountStacker : ARRAY[0..10] OF UDINT := [11(0)];
+	TestCountStacker : ARRAY[0..10] OF BOOL := [11(0)];
+	KStackCounter_TOF : ARRAY[0..10] OF TOF := [11((0))];
+	KPieceCounter_TOF : TOF := (0);
+	HangerPassedOutCount : UDINT := 0;
+	KJamCounter_TOF : TOF := (0);
+	ReleaseHanger_Delay : FB_Delay;
+	ElapsedMs : UINT := 0;
+	TestLogEntry : BOOL := 0;
+END_VAR

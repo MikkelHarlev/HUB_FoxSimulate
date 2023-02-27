@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Op_CustArtSelect">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="56"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="270636" Value="Customer"/>
+    <Text ID="270637" Value="Article"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="270636" Value="Kunde"/>
+    <Text ID="270637" Value="Artikel"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="270636" Value="Kund"/>
+    <Text ID="270637" Value="Artikel"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="270636" Value="Client:"/>
+    <Text ID="270637" Value="Articles:"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="270636" Value="Kunde"/>
+    <Text ID="270637" Value="Artikkel"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="270636" Value="Cliente"/>
+    <Text ID="270637" Value="Articolo"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="270636" Value="Customer"/>
+    <Text ID="270637" Value="Article"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="270636" Value="Klant"/>
+    <Text ID="270637" Value="Artikel"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="270636" Value="Cliente"/>
+    <Text ID="270637" Value="Artículo"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="270636" Value="Klient"/>
+    <Text ID="270637" Value="Artykuł"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="270636" Value=""/>
+    <Text ID="270637" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="270636" Value=""/>
+    <Text ID="270637" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="270636" Value="Klient"/>
+    <Text ID="270637" Value="Artykuł"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="270636" Value="Customer"/>
+    <Text ID="270637" Value="Article"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="270636" Value="Customer"/>
+    <Text ID="270637" Value="Article"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="270636" Value="Kunde"/>
+    <Text ID="270637" Value="Artikkel"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="270636" Value="Cliente"/>
+    <Text ID="270637" Value="Article"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="270636" Value="0"/>
+    <Index ID="270637" Value="1"/>
+  </IndexMap>
+</TextGroup>

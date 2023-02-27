@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<methodResponse>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>GetTime</name>
+                    <value>
+                        <base64>T0s=</base64>
+                    </value>
+                </member>
+                <member>
+                    <name>DateAndTime</name>
+                    <value>
+                        <dateTime.iso8601>"Actual Date and Time of the PLC"</dateTime.iso8601>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodResponse>

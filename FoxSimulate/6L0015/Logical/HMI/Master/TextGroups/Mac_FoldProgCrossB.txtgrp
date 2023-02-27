@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_FoldProgCrossB">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="52"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="258994" Value="cm"/>
+    <Text ID="258995" Value="inch"/>
+    <Text ID="258996" Value="msec"/>
+    <Text ID="258999" Value="FoldingXB"/>
+    <Text ID="259000" Value="Blowtime"/>
+    <Text ID="259001" Value="Roller"/>
+    <Text ID="259002" Value="Blowing: Folding-Delay"/>
+    <Text ID="259003" Value="Blowing: Leading-Edge-Time         "/>
+    <Text ID="259004" Value="Blowing: Leading-Edge-Delay"/>
+    <Text ID="259005" Value="Blowing: After reversing to stacker        "/>
+    <Text ID="259006" Value="Blowing: Delay reversing to stacker"/>
+    <Text ID="259015" Value="In active"/>
+    <Text ID="259016" Value="Active"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="258994" Value="cm"/>
+    <Text ID="258995" Value="inch"/>
+    <Text ID="258996" Value="msek"/>
+    <Text ID="258999" Value="FaltungXB"/>
+    <Text ID="259000" Value="Blaszeit"/>
+    <Text ID="259001" Value="Walse XB"/>
+    <Text ID="259002" Value="Blasen: Verzögerung bei Faltung"/>
+    <Text ID="259003" Value="Blasen: Zeit Vorderkante           "/>
+    <Text ID="259004" Value="Blasen: Verzögerung bei Vorderkante"/>
+    <Text ID="259005" Value="Blasen: Zeit nach Reversierung      "/>
+    <Text ID="259006" Value="Blasen: Verz. bei Reversierung Richtung Stapler"/>
+    <Text ID="259015" Value="Nicht Akitv"/>
+    <Text ID="259016" Value="Akitv"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="258994" Value="cm"/>
+    <Text ID="258995" Value="tum "/>
+    <Text ID="258996" Value="ms"/>
+    <Text ID="258999" Value="VikningXB"/>
+    <Text ID="259000" Value="Blåstid"/>
+    <Text ID="259001" Value="Vippgunga"/>
+    <Text ID="259002" Value="Blåsning: fördröjning vid vikning"/>
+    <Text ID="259003" Value="Blåsning: tid framkant             "/>
+    <Text ID="259004" Value="Blåsning: fördröjning vid framkant"/>
+    <Text ID="259005" Value="Blåsning: tid vända ut och in  "/>
+    <Text ID="259006" Value="Blåsning: Fördröjning vid vändning"/>
+    <Text ID="259015" Value="In active"/>
+    <Text ID="259016" Value="Active"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="258994" Value="cm"/>
+    <Text ID="258995" Value="inch"/>
+    <Text ID="258996" Value="msec"/>
+    <Text ID="258999" Value="Pli XB"/>
+    <Text ID="259000" Value="Soufflage"/>
+    <Text ID="259001" Value="Bascule"/>
+    <Text ID="259002" Value="Soufflage: Délai pour le Pli"/>
+    <Text ID="259003" Value="Soufflage: Temps pour Bord avant   "/>
+    <Text ID="259004" Value="Soufflage: Délai pour Bord avant"/>
+    <Text ID="259005" Value="Soufflage: Temps pour Bord Inversion"/>
+    <Text ID="259006" Value="Soufflage: Délai pour l'Inversion"/>
+    <Text ID="259015" Value="Desactive"/>
+    <Text ID="259016" Value="Active"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="258994" Value="cm"/>
+    <Text ID="258995" Value="inch"/>
+    <Text ID="258996" Value="msek"/>
+    <Text ID="258999" Value="Foldning XB"/>
+    <Text ID="259000" Value="Blæsetid"/>
+    <Text ID="259001" Value="Valse"/>
+    <Text ID="259002" Value="Blæs forsinkelse ved foldning"/>
+    <Text ID="259003" Value="Blæs:tid forkant"/>
+    <Text ID="259004" Value="Blæs:forsinkelse forkant"/>
+    <Text ID="259005" Value="Blæs:tid revesering"/>
+    <Text ID="259006" Value="Blæs:forsinkelse revesering"/>
+    <Text ID="259015" Value="Inaktiv"/>
+    <Text ID="259016" Value="Aktiv"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="258994" Value="cm"/>
+    <Text ID="258995" Value="pollici"/>
+    <Text ID="258996" Value="millisec"/>
+    <Text ID="258999" Value="Piega XB"/>
+    <Text ID="259000" Value="T.Soffio"/>
+    <Text ID="259001" Value="Rullo"/>
+    <Text ID="259002" Value="Soffiatura: Ritardo piega"/>
+    <Text ID="259003" Value="Soffiatura: Su bordo anteriore  "/>
+    <Text ID="259004" Value="Soffiatura: Ritardo su bordo anteriore"/>
+    <Text ID="259005" Value="Soffiatura: Dopo inversione , verso accat.   "/>
+    <Text ID="259006" Value="Soffiatura: Ritardo inversione, versop acc."/>
+    <Text ID="259015" Value="Inattivo"/>
+    <Text ID="259016" Value="Attivo"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="258994" Value="cm"/>
+    <Text ID="258995" Value="inch"/>
+    <Text ID="258996" Value="msec"/>
+    <Text ID="258999" Value="FoldingXB"/>
+    <Text ID="259000" Value="Blowtime"/>
+    <Text ID="259001" Value="Roller"/>
+    <Text ID="259002" Value="Blowing: Folding-Delay"/>
+    <Text ID="259003" Value="Blowing: Leading-Edge-Time         "/>
+    <Text ID="259004" Value="Blowing: Leading-Edge-Delay"/>
+    <Text ID="259005" Value="Blowing: Reversing-Edge-Time    "/>
+    <Text ID="259006" Value="Blowing: Delay reversing to stacker"/>
+    <Text ID="259015" Value="In active"/>
+    <Text ID="259016" Value="Active"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="258994" Value="cm"/>
+    <Text ID="258995" Value="inch"/>
+    <Text ID="258996" Value="msec"/>
+    <Text ID="258999" Value="Vouw XB"/>
+    <Text ID="259000" Value="Blaastijd"/>
+    <Text ID="259001" Value="Schuinte"/>
+    <Text ID="259002" Value="Blazen: Vouwvertr."/>
+    <Text ID="259003" Value="Blazen: voorkant -Tijd             "/>
+    <Text ID="259004" Value="Blazen: Opgaande flank vertr."/>
+    <Text ID="259005" Value="Blazen: omgekeerd-Tijd         "/>
+    <Text ID="259006" Value="Blazen: Omkeervertr."/>
+    <Text ID="259015" Value="In active"/>
+    <Text ID="259016" Value="Active"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="258994" Value="cm"/>
+    <Text ID="258995" Value="pulg"/>
+    <Text ID="258996" Value="mseg"/>
+    <Text ID="258999" Value="PlegadoXB"/>
+    <Text ID="259000" Value="Tpo.sopl."/>
+    <Text ID="259001" Value="Basculante"/>
+    <Text ID="259002" Value="Soplido: Retardo de plegado"/>
+    <Text ID="259003" Value="Soplido: Tiemp borde delantero     "/>
+    <Text ID="259004" Value="Soplido: Retardo borde delantero"/>
+    <Text ID="259005" Value="Soplido: Tiempo bordo inversión      "/>
+    <Text ID="259006" Value="Soplido: Retardo en inversión"/>
+    <Text ID="259015" Value="In active"/>
+    <Text ID="259016" Value="Active"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="258994" Value=""/>
+    <Text ID="258995" Value=""/>
+    <Text ID="258996" Value=""/>
+    <Text ID="258999" Value=""/>
+    <Text ID="259000" Value=""/>
+    <Text ID="259001" Value=""/>
+    <Text ID="259002" Value=""/>
+    <Text ID="259003" Value=""/>
+    <Text ID="259004" Value=""/>
+    <Text ID="259005" Value=""/>
+    <Text ID="259006" Value=""/>
+    <Text ID="259015" Value=""/>
+    <Text ID="259016" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="258994" Value=""/>
+    <Text ID="258995" Value=""/>
+    <Text ID="258996" Value=""/>
+    <Text ID="258999" Value=""/>
+    <Text ID="259000" Value=""/>
+    <Text ID="259001" Value=""/>
+    <Text ID="259002" Value=""/>
+    <Text ID="259003" Value=""/>
+    <Text ID="259004" Value=""/>
+    <Text ID="259005" Value=""/>
+    <Text ID="259006" Value=""/>
+    <Text ID="259015" Value=""/>
+    <Text ID="259016" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="258994" Value=""/>
+    <Text ID="258995" Value=""/>
+    <Text ID="258996" Value=""/>
+    <Text ID="258999" Value=""/>
+    <Text ID="259000" Value=""/>
+    <Text ID="259001" Value=""/>
+    <Text ID="259002" Value=""/>
+    <Text ID="259003" Value=""/>
+    <Text ID="259004" Value=""/>
+    <Text ID="259005" Value=""/>
+    <Text ID="259006" Value=""/>
+    <Text ID="259015" Value=""/>
+    <Text ID="259016" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="258994" Value=""/>
+    <Text ID="258995" Value=""/>
+    <Text ID="258996" Value=""/>
+    <Text ID="258999" Value=""/>
+    <Text ID="259000" Value=""/>
+    <Text ID="259001" Value=""/>
+    <Text ID="259002" Value=""/>
+    <Text ID="259003" Value=""/>
+    <Text ID="259004" Value=""/>
+    <Text ID="259005" Value=""/>
+    <Text ID="259006" Value=""/>
+    <Text ID="259015" Value=""/>
+    <Text ID="259016" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="258994" Value=""/>
+    <Text ID="258995" Value=""/>
+    <Text ID="258996" Value=""/>
+    <Text ID="258999" Value=""/>
+    <Text ID="259000" Value=""/>
+    <Text ID="259001" Value=""/>
+    <Text ID="259002" Value=""/>
+    <Text ID="259003" Value=""/>
+    <Text ID="259004" Value=""/>
+    <Text ID="259005" Value=""/>
+    <Text ID="259006" Value=""/>
+    <Text ID="259015" Value=""/>
+    <Text ID="259016" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="258994" Value=""/>
+    <Text ID="258995" Value=""/>
+    <Text ID="258996" Value=""/>
+    <Text ID="258999" Value=""/>
+    <Text ID="259000" Value=""/>
+    <Text ID="259001" Value=""/>
+    <Text ID="259002" Value=""/>
+    <Text ID="259003" Value=""/>
+    <Text ID="259004" Value=""/>
+    <Text ID="259005" Value=""/>
+    <Text ID="259006" Value=""/>
+    <Text ID="259015" Value=""/>
+    <Text ID="259016" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="258994" Value="cm"/>
+    <Text ID="258995" Value="tom."/>
+    <Text ID="258996" Value="msek"/>
+    <Text ID="258999" Value="FoldingXB"/>
+    <Text ID="259000" Value="Blåsetid"/>
+    <Text ID="259001" Value="Valse"/>
+    <Text ID="259002" Value="Blåsing: forsinkelse ved folding"/>
+    <Text ID="259003" Value="Blåsing: tid framkant"/>
+    <Text ID="259004" Value="Blåsing: forsinkelse fremkant"/>
+    <Text ID="259005" Value="Blåsing: tid reversering"/>
+    <Text ID="259006" Value="Blåsing: forsinkelse reversering"/>
+    <Text ID="259015" Value="Innaktiv"/>
+    <Text ID="259016" Value="Aktiv"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="258994" Value=""/>
+    <Text ID="258995" Value=""/>
+    <Text ID="258996" Value=""/>
+    <Text ID="258999" Value=""/>
+    <Text ID="259000" Value=""/>
+    <Text ID="259001" Value=""/>
+    <Text ID="259002" Value=""/>
+    <Text ID="259003" Value=""/>
+    <Text ID="259004" Value=""/>
+    <Text ID="259005" Value=""/>
+    <Text ID="259006" Value=""/>
+    <Text ID="259015" Value=""/>
+    <Text ID="259016" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="258994" Value="0"/>
+    <Index ID="258995" Value="1"/>
+    <Index ID="258996" Value="5"/>
+    <Index ID="258999" Value="11"/>
+    <Index ID="259000" Value="12"/>
+    <Index ID="259001" Value="13"/>
+    <Index ID="259002" Value="14"/>
+    <Index ID="259003" Value="15"/>
+    <Index ID="259004" Value="16"/>
+    <Index ID="259005" Value="17"/>
+    <Index ID="259006" Value="18"/>
+    <Index ID="259015" Value="45"/>
+    <Index ID="259016" Value="46"/>
+  </IndexMap>
+</TextGroup>

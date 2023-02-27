@@ -1,0 +1,20 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: XMLConnectionHandler
+ * File: XMLConnectionHandler.var
+ * Author: eg
+ * Created: April 24, 2012
+ ********************************************************************
+ * Local variables of program XMLConnectionHandler
+ ********************************************************************)
+VAR
+	pThis : REFERENCE TO XMLRPCCL_Type;
+	No : USINT;
+	reboot : BOOL;
+	saveCounter : UDINT;
+	countByte : USINT;
+	EthGenUDINT : UDINT;
+	invalidIP : BOOL;
+	pEthernetCfg : REFERENCE TO USINT;
+END_VAR

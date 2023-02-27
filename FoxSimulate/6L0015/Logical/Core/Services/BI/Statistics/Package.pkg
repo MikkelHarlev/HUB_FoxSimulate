@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.81.23 SP02?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC" Description="Statistics Handling">statistics</Object>
+    <Object Type="Program" Language="IEC" Description="Jenview Services">log</Object>
+  </Objects>
+</Package>

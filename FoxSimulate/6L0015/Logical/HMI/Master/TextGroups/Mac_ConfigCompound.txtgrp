@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigCompound">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="12"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msec"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Pieces"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Compound machines: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP address MASTER:"/>
+    <Text ID="289621" Value="IP address SALVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+    <Text ID="546007" Value="Hz"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msek"/>
+    <Text ID="289596" Value="Min"/>
+    <Text ID="289597" Value="Ink"/>
+    <Text ID="289598" Value="Stück"/>
+    <Text ID="289599" Value="An"/>
+    <Text ID="289600" Value="Aus"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sek"/>
+    <Text ID="289612" Value="Verbundmaschine: "/>
+    <Text ID="289613" Value="Verbindungs ID für Master/Slave Betrieb:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP Adresse MASTER:"/>
+    <Text ID="289621" Value="IP Adresse SALVE:"/>
+    <Text ID="291001" Value="Verbindungs ID für Kunde/Artikel-Wechsel:"/>
+    <Text ID="291157" Value="mm"/>
+    <Text ID="546007" Value="Hz"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="tum "/>
+    <Text ID="289595" Value="ms"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Ink"/>
+    <Text ID="289598" Value="Styck"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/min"/>
+    <Text ID="289603" Value="s"/>
+    <Text ID="289612" Value="Compound machines: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP address MASTER:"/>
+    <Text ID="289621" Value="IP address SALVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+    <Text ID="546007" Value="Hz"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msec"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Pièce"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Machine du Groupe"/>
+    <Text ID="289613" Value="Code ID pour Maitre/Esclave operation"/>
+    <Text ID="289614" Value="XML durée rafraichissement"/>
+    <Text ID="289615" Value="XML durée rafraichissement timeout"/>
+    <Text ID="289620" Value="IP Adresse maitre"/>
+    <Text ID="289621" Value="IP Adresse esclave"/>
+    <Text ID="291001" Value="Code ID pour Changement Client/Article"/>
+    <Text ID="291157" Value="mm"/>
+    <Text ID="546007" Value="Hz"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msek"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Ink"/>
+    <Text ID="289598" Value="Stk"/>
+    <Text ID="289599" Value="Til"/>
+    <Text ID="289600" Value="Fra"/>
+    <Text ID="289601" Value="m/min"/>
+    <Text ID="289603" Value="sek"/>
+    <Text ID="289612" Value="Compound maskiner"/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="Ip Adresse MASTER:"/>
+    <Text ID="289621" Value="Ip Adresse SLAVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+    <Text ID="546007" Value="Hz"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="pollici"/>
+    <Text ID="289595" Value="millisec"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Pezzi"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Macchine Composte: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP indirizzo MASTER:"/>
+    <Text ID="289621" Value="IP indirizzo SLAVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+    <Text ID="546007" Value="Hz"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msec"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Pieces"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Compound machines: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP address MASTER:"/>
+    <Text ID="289621" Value="IP address SALVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+    <Text ID="546007" Value="Hz"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="inch"/>
+    <Text ID="289595" Value="msec"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Stuks"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sec"/>
+    <Text ID="289612" Value="Compound machines: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP address MASTER:"/>
+    <Text ID="289621" Value="IP address SALVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+    <Text ID="546007" Value="Hz"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="pulg"/>
+    <Text ID="289595" Value="mseg"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Inc"/>
+    <Text ID="289598" Value="Piezas"/>
+    <Text ID="289599" Value="On"/>
+    <Text ID="289600" Value="Off"/>
+    <Text ID="289601" Value="m/min"/>
+    <Text ID="289603" Value="seg"/>
+    <Text ID="289612" Value="Compound machines: "/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="IP address MASTER:"/>
+    <Text ID="289621" Value="IP address SALVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+    <Text ID="546007" Value="Hz"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="289593" Value=""/>
+    <Text ID="289594" Value=""/>
+    <Text ID="289595" Value=""/>
+    <Text ID="289596" Value=""/>
+    <Text ID="289597" Value=""/>
+    <Text ID="289598" Value=""/>
+    <Text ID="289599" Value=""/>
+    <Text ID="289600" Value=""/>
+    <Text ID="289601" Value=""/>
+    <Text ID="289603" Value=""/>
+    <Text ID="289612" Value=""/>
+    <Text ID="289613" Value=""/>
+    <Text ID="289614" Value=""/>
+    <Text ID="289615" Value=""/>
+    <Text ID="289620" Value=""/>
+    <Text ID="289621" Value=""/>
+    <Text ID="291001" Value=""/>
+    <Text ID="291157" Value=""/>
+    <Text ID="546007" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="289593" Value=""/>
+    <Text ID="289594" Value=""/>
+    <Text ID="289595" Value=""/>
+    <Text ID="289596" Value=""/>
+    <Text ID="289597" Value=""/>
+    <Text ID="289598" Value=""/>
+    <Text ID="289599" Value=""/>
+    <Text ID="289600" Value=""/>
+    <Text ID="289601" Value=""/>
+    <Text ID="289603" Value=""/>
+    <Text ID="289612" Value=""/>
+    <Text ID="289613" Value=""/>
+    <Text ID="289614" Value=""/>
+    <Text ID="289615" Value=""/>
+    <Text ID="289620" Value=""/>
+    <Text ID="289621" Value=""/>
+    <Text ID="291001" Value=""/>
+    <Text ID="291157" Value=""/>
+    <Text ID="546007" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="289593" Value=""/>
+    <Text ID="289594" Value=""/>
+    <Text ID="289595" Value=""/>
+    <Text ID="289596" Value=""/>
+    <Text ID="289597" Value=""/>
+    <Text ID="289598" Value=""/>
+    <Text ID="289599" Value=""/>
+    <Text ID="289600" Value=""/>
+    <Text ID="289601" Value=""/>
+    <Text ID="289603" Value=""/>
+    <Text ID="289612" Value=""/>
+    <Text ID="289613" Value=""/>
+    <Text ID="289614" Value=""/>
+    <Text ID="289615" Value=""/>
+    <Text ID="289620" Value=""/>
+    <Text ID="289621" Value=""/>
+    <Text ID="291001" Value=""/>
+    <Text ID="291157" Value=""/>
+    <Text ID="546007" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="289593" Value=""/>
+    <Text ID="289594" Value=""/>
+    <Text ID="289595" Value=""/>
+    <Text ID="289596" Value=""/>
+    <Text ID="289597" Value=""/>
+    <Text ID="289598" Value=""/>
+    <Text ID="289599" Value=""/>
+    <Text ID="289600" Value=""/>
+    <Text ID="289601" Value=""/>
+    <Text ID="289603" Value=""/>
+    <Text ID="289612" Value=""/>
+    <Text ID="289613" Value=""/>
+    <Text ID="289614" Value=""/>
+    <Text ID="289615" Value=""/>
+    <Text ID="289620" Value=""/>
+    <Text ID="289621" Value=""/>
+    <Text ID="291001" Value=""/>
+    <Text ID="291157" Value=""/>
+    <Text ID="546007" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="289593" Value=""/>
+    <Text ID="289594" Value=""/>
+    <Text ID="289595" Value=""/>
+    <Text ID="289596" Value=""/>
+    <Text ID="289597" Value=""/>
+    <Text ID="289598" Value=""/>
+    <Text ID="289599" Value=""/>
+    <Text ID="289600" Value=""/>
+    <Text ID="289601" Value=""/>
+    <Text ID="289603" Value=""/>
+    <Text ID="289612" Value=""/>
+    <Text ID="289613" Value=""/>
+    <Text ID="289614" Value=""/>
+    <Text ID="289615" Value=""/>
+    <Text ID="289620" Value=""/>
+    <Text ID="289621" Value=""/>
+    <Text ID="291001" Value=""/>
+    <Text ID="291157" Value=""/>
+    <Text ID="546007" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="289593" Value=""/>
+    <Text ID="289594" Value=""/>
+    <Text ID="289595" Value=""/>
+    <Text ID="289596" Value=""/>
+    <Text ID="289597" Value=""/>
+    <Text ID="289598" Value=""/>
+    <Text ID="289599" Value=""/>
+    <Text ID="289600" Value=""/>
+    <Text ID="289601" Value=""/>
+    <Text ID="289603" Value=""/>
+    <Text ID="289612" Value=""/>
+    <Text ID="289613" Value=""/>
+    <Text ID="289614" Value=""/>
+    <Text ID="289615" Value=""/>
+    <Text ID="289620" Value=""/>
+    <Text ID="289621" Value=""/>
+    <Text ID="291001" Value=""/>
+    <Text ID="291157" Value=""/>
+    <Text ID="546007" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="289593" Value="cm"/>
+    <Text ID="289594" Value="tom."/>
+    <Text ID="289595" Value="msek"/>
+    <Text ID="289596" Value="min"/>
+    <Text ID="289597" Value="Ink"/>
+    <Text ID="289598" Value="Stk"/>
+    <Text ID="289599" Value="På"/>
+    <Text ID="289600" Value="Av"/>
+    <Text ID="289601" Value="m/Min"/>
+    <Text ID="289603" Value="sek"/>
+    <Text ID="289612" Value="Compound maskiner"/>
+    <Text ID="289613" Value="Connect ID for Master/Slave operating:"/>
+    <Text ID="289614" Value="XML Refresh Time:"/>
+    <Text ID="289615" Value="XML Refresh Timeout:"/>
+    <Text ID="289620" Value="Ip Adresse MASTER:"/>
+    <Text ID="289621" Value="IP address SALVE:"/>
+    <Text ID="291001" Value="Connect ID for Cust/Art Change:"/>
+    <Text ID="291157" Value="mm"/>
+    <Text ID="546007" Value="Hz"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="289593" Value=""/>
+    <Text ID="289594" Value=""/>
+    <Text ID="289595" Value=""/>
+    <Text ID="289596" Value=""/>
+    <Text ID="289597" Value=""/>
+    <Text ID="289598" Value=""/>
+    <Text ID="289599" Value=""/>
+    <Text ID="289600" Value=""/>
+    <Text ID="289601" Value=""/>
+    <Text ID="289603" Value=""/>
+    <Text ID="289612" Value=""/>
+    <Text ID="289613" Value=""/>
+    <Text ID="289614" Value=""/>
+    <Text ID="289615" Value=""/>
+    <Text ID="289620" Value=""/>
+    <Text ID="289621" Value=""/>
+    <Text ID="291001" Value=""/>
+    <Text ID="291157" Value=""/>
+    <Text ID="546007" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="289593" Value="0"/>
+    <Index ID="289594" Value="1"/>
+    <Index ID="289595" Value="5"/>
+    <Index ID="289596" Value="6"/>
+    <Index ID="289597" Value="10"/>
+    <Index ID="289598" Value="11"/>
+    <Index ID="289599" Value="15"/>
+    <Index ID="289600" Value="16"/>
+    <Index ID="289601" Value="8"/>
+    <Index ID="289603" Value="4"/>
+    <Index ID="289612" Value="40"/>
+    <Index ID="289613" Value="51"/>
+    <Index ID="289614" Value="55"/>
+    <Index ID="289615" Value="56"/>
+    <Index ID="289620" Value="46"/>
+    <Index ID="289621" Value="45"/>
+    <Index ID="291001" Value="50"/>
+    <Index ID="291157" Value="3"/>
+    <Index ID="546007" Value="57"/>
+  </IndexMap>
+</TextGroup>

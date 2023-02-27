@@ -1,0 +1,99 @@
+
+FUNCTION xmlParse : DINT
+	VAR_INPUT
+		Parser : UDINT;
+		buffer : UDINT;
+		len : DINT;
+		isFinal : BOOL;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlCreateParser : UDINT
+	VAR_INPUT
+		encoding : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlFreeParser : USINT
+	VAR_INPUT
+		Parser : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlGetNextH : UDINT
+END_FUNCTION
+
+FUNCTION xmlSAXActivate : USINT
+END_FUNCTION
+
+FUNCTION xmlHash : UDINT
+	VAR_INPUT
+		key : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlSetElemH : BOOL
+	VAR_INPUT
+		parser : UDINT;
+		startH : UDINT;
+		endH : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlSetCharH : UDINT
+	VAR_INPUT
+		parser : UDINT;
+		dataH : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlSetUserData : BOOL
+	VAR_INPUT
+		parser : UDINT;
+		userdata : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlGetError : SINT
+	VAR_INPUT
+		parser : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlGetLine : INT
+	VAR_INPUT
+		parse : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlGetCol : DINT
+	VAR_INPUT
+		parser : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlGetByteIdx : DINT
+	VAR_INPUT
+		parser : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlErr2Str : BOOL
+	VAR_INPUT
+		err : SINT;
+		errString : REFERENCE TO STRING[80];
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlParserReset : UDINT
+	VAR_INPUT
+		parser : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION xmlSetCommH : BOOL
+	VAR_INPUT
+		parser : UDINT;
+		commentH : UDINT;
+	END_VAR
+END_FUNCTION

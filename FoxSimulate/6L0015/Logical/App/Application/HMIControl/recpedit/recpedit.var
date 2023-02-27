@@ -1,0 +1,27 @@
+VAR RETAIN
+	SelectedFoldProgram : UINT;
+END_VAR
+VAR
+	CopyToProgram : REFERENCE TO RCfg_Type;
+	LocalFoldProgram : REFERENCE TO RCfg_Type;
+	FoldProgramList : CategorySelection_Type;
+	FoldProgramName : STRING[41];
+	SyncRecipe : BOOL;
+	StateOnEntryDone : BOOL;
+	NameStringStatus : UINT;
+	cmdChangeName : USINT;
+	cmdCompleteNameChange : BOOL;
+	StatusSetMenu : UDINT;
+	cmdSelectRecipe : BOOL;
+	HMI : HMIFoldProgramChange_Type;
+	ElementsInArray : UINT;
+	i : UINT;
+	KeyFoldPages : ARRAY[0..10] OF UINT;
+	NewPage : UINT;
+	HideNotUsedHmi : UINT;
+	TriggerNameChange : UINT;
+	SetToAllRcp : Set_Rcp; (*WM*)
+	n : UINT := 0; (*WM*)
+	SaveRecepieFlag : BOOL;
+	RecipePrgSet : BOOL := 0;
+END_VAR

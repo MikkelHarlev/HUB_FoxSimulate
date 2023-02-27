@@ -1,0 +1,27 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: Tests
+ * File: Tests.var
+ * Author: mha
+ * Created: September 24, 2012
+ ********************************************************************
+ * Local variables of program Tests
+ ********************************************************************)
+VAR
+	RTestRev : BOOL;
+	RFw : BOOL;
+	RTestRevXA : BOOL;
+	RFwXA : BOOL;
+	RRollDoGoGo : BOOL;
+	RRollGoGo : ARRAY[0..5] OF BOOL;
+	i : USINT;
+	TrimFlash : DelayOn;
+	RIIJamDeloadingOutCount : UDINT;
+	RIIJamDeloadingOut : UDINT;
+	RX_HangerPosCount : UINT;
+	RTaskNo : USINT;
+	StartTime : ARRAY[0..4] OF UDINT;
+	StartTimeTop : ARRAY[0..4] OF UDINT;
+	ii : UINT;
+END_VAR

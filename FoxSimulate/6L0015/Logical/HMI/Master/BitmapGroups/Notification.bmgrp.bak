@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="3.0.81.23 SP02"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Notification">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="11"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="5986" Value="Source[local].Bitmap[Lock_Trans]"/>
+    <BitmapRef ID="5987" Value="Source[local].Bitmap[Exit_Trans]"/>
+    <BitmapRef ID="5988" Value="Source[local].Bitmap[UnLocked_Trans]"/>
+    <BitmapRef ID="5989" Value="None"/>
+    <BitmapRef ID="5990" Value="Source[local].Bitmap[UnLocked2_Trans]"/>
+    <BitmapRef ID="5992" Value="Source[local].Bitmap[UnLocked_Trans]"/>
+    <BitmapRef ID="5993" Value="Source[local].Bitmap[NotifyCopy]"/>
+    <BitmapRef ID="5995" Value="Source[local].Bitmap[TouchDone_Trans]"/>
+    <BitmapRef ID="5996" Value="Source[local].Bitmap[USB_Trans]"/>
+    <BitmapRef ID="5997" Value="Source[local].Bitmap[USBUnlink_Trans]"/>
+    <BitmapRef ID="5998" Value="Source[local].Bitmap[spin1]"/>
+    <BitmapRef ID="5999" Value="Source[local].Bitmap[spin2]"/>
+    <BitmapRef ID="6000" Value="Source[local].Bitmap[spin3]"/>
+    <BitmapRef ID="6001" Value="Source[local].Bitmap[spin4]"/>
+    <BitmapRef ID="6002" Value="Source[local].Bitmap[spin5]"/>
+    <BitmapRef ID="6003" Value="Source[local].Bitmap[spin6]"/>
+    <BitmapRef ID="6004" Value="Source[local].Bitmap[spin7]"/>
+    <BitmapRef ID="6005" Value="Source[local].Bitmap[spin8]"/>
+    <BitmapRef ID="6008" Value="Source[local].Bitmap[NotifyOpen]"/>
+    <BitmapRef ID="6009" Value="Source[local].Bitmap[NotifySave]"/>
+    <BitmapRef ID="6022" Value="Source[local].Bitmap[Touch2_Trans]"/>
+    <BitmapRef ID="6023" Value="Source[local].Bitmap[Touch3_Trans]"/>
+    <BitmapRef ID="6024" Value="Source[local].Bitmap[Touch4_Trans]"/>
+    <BitmapRef ID="6025" Value="Source[local].Bitmap[Touch5_Trans]"/>
+    <BitmapRef ID="6034" Value="Source[local].Bitmap[Check_Trans]"/>
+    <BitmapRef ID="6035" Value="Source[local].Bitmap[NotCheck_Trans]"/>
+    <BitmapRef ID="6251" Value="Source[local].Bitmap[PowerSave]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="5986" Value="101"/>
+    <Index ID="5987" Value="99"/>
+    <Index ID="5988" Value="3"/>
+    <Index ID="5989" Value="1"/>
+    <Index ID="5990" Value="2"/>
+    <Index ID="5992" Value="202"/>
+    <Index ID="5993" Value="122"/>
+    <Index ID="5995" Value="405"/>
+    <Index ID="5996" Value="300"/>
+    <Index ID="5997" Value="301"/>
+    <Index ID="5998" Value="10"/>
+    <Index ID="5999" Value="11"/>
+    <Index ID="6000" Value="12"/>
+    <Index ID="6001" Value="13"/>
+    <Index ID="6002" Value="14"/>
+    <Index ID="6003" Value="15"/>
+    <Index ID="6004" Value="16"/>
+    <Index ID="6005" Value="17"/>
+    <Index ID="6008" Value="120"/>
+    <Index ID="6009" Value="121"/>
+    <Index ID="6022" Value="400"/>
+    <Index ID="6023" Value="401"/>
+    <Index ID="6024" Value="402"/>
+    <Index ID="6025" Value="403"/>
+    <Index ID="6034" Value="20"/>
+    <Index ID="6035" Value="21"/>
+    <Index ID="6251" Value="30"/>
+  </IndexMap>
+</BitmapGroup>

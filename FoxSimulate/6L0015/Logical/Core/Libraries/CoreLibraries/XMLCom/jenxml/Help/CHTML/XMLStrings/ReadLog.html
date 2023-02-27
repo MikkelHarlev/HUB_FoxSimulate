@@ -1,0 +1,1424 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html dir="ltr">
+<head>
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  <meta name="generator" content="Microsoft FrontPage 5.0">
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  <meta order="1">
+
+
+
+
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>ReadLog.html</title>
+  <link rel="StyleSheet" href="../styles.css">
+<!--NavHead-->
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="../navigate.css">
+<!--/NavHead-->
+</head>
+
+
+<body>
+
+
+
+
+
+
+
+<h1>JenXML - XML-Call: ReadLog()</h1>
+
+
+
+
+
+
+
+The ReadLog Call read Log entries from the Log File.<br>
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+<h2> Parameters:</h2>
+
+<table class="parameter_tab" border="1">
+
+
+
+
+
+
+
+  <tbody>
+
+
+
+
+
+
+
+    <tr>
+
+
+
+
+
+
+
+      <th class="parameter_tab">
+      
+      
+      
+      
+      
+      
+      <p> <b>Parameter</b></p>
+
+
+
+
+
+
+
+      </th>
+
+
+
+
+
+
+
+      <th class="parameter_tab">
+      
+      
+      
+      
+      
+      
+      <p> <b>Data
+Type</b></p>
+
+
+
+
+
+
+
+      </th>
+
+
+
+
+
+
+
+      <th class="parameter_tab">
+      
+      
+      
+      
+      
+      
+      <p> <b>Description</b></p>
+
+
+
+
+
+
+
+      </th>
+
+
+
+
+
+
+
+    </tr>
+
+
+
+
+
+
+
+    <tr>
+
+
+
+
+
+
+
+      <td style="vertical-align: middle;" class="parameter_tab">LogName</td>
+
+
+
+
+
+
+
+      <td style="vertical-align: middle;" class="parameter_tab">&lt;base64&gt;</td>
+
+
+
+
+
+
+
+      <td style="vertical-align: middle;" class="parameter_tab">Name of the log which has to be read<br>
+
+
+
+
+
+defined via pLogCallName from JenLogInit()</td>
+
+
+
+
+
+
+
+    </tr>
+
+
+
+
+
+
+
+    <tr>
+
+
+
+
+
+
+
+      <td style="vertical-align: middle;" class="parameter_tab">option</td>
+
+
+
+
+
+
+
+      <td style="vertical-align: middle;" class="parameter_tab">&lt;base64&gt;</td>
+
+
+
+
+
+
+
+      <td class="parameter_tab">Option to decide where the function should start to read the entries<br>
+
+
+
+
+
+      
+      
+      
+      
+      
+      <ul>
+
+
+
+
+
+        <li>first (Zmlyc3Q=)&nbsp; -&gt; Start at the last position where SetLogPointer was called</li>
+
+
+
+
+
+        <li>next (bmV4dA==) -&gt; Start with the next entry in the file</li>
+
+
+
+
+
+      
+      
+      
+      
+      
+      </ul>
+
+
+
+
+
+      </td>
+
+
+
+
+
+
+
+    </tr>
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+<h2>XML-Strings:</h2>
+
+
+
+
+
+
+
+<h5><a href="_Other_XML/ReadLog_RequestFirst.xml">Request to start reading with the first entry in the Log-File:</a></h5>
+
+
+
+
+
+
+
+&lt;?xml version="1.0" ?&gt;<br>
+
+
+
+
+
+
+&lt;methodCall&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;methodName&gt;ReadLog&lt;/methodName&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;params&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;param&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;struct&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;name&gt;LogName&lt;/name&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;base64&gt;<span style="font-weight: bold; font-style: italic;">"Name of the Log type"</span>&lt;/base64&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;name&gt;option&lt;/name&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;base64&gt;Zmlyc3Q=&lt;/base64&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/struct&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/param&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;/params&gt;<br>
+
+
+
+
+
+
+&lt;/methodCall&gt;<br>
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+<h5><a href="_Other_XML/ReadLog_RequestNext.xml">Request to start reading with the next entry in the Log-File:</a></h5>
+
+
+
+
+
+
+&lt;?xml version="1.0" ?&gt;<br>
+
+
+
+
+
+
+&lt;methodCall&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;methodName&gt;ReadLog&lt;/methodName&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;params&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;param&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;struct&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;name&gt;LogName&lt;/name&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;base64&gt;<span style="font-weight: bold; font-style: italic;">"Name of the Log type"</span>&lt;/base64&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;name&gt;option&lt;/name&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;base64&gt;bmV4dA==&lt;/base64&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/struct&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/param&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;/params&gt;<br>
+
+
+
+
+
+
+&lt;/methodCall&gt;<br>
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+<h5><a href="_Other_XML/ReadLog_ResponseOK.xml">Response
+OK:</a></h5>
+
+
+
+
+
+&lt;?xml version="1.0" ?&gt;<br>
+
+
+
+
+
+&lt;methodResponse&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;params&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;param&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;struct&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;name&gt;ReadLog&lt;/name&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&lt;base64&gt;T0s=&lt;/base64&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;name&gt;<span style="font-weight: bold; font-style: italic;">"Name of the Log
+type"</span>&lt;/name&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;array&gt;<span style="font-weight: bold; font-style: italic;">"Array of Log Data"</span>&lt;/array&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/struct&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/param&gt;<br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;/params&gt;<br>
+
+
+
+
+
+&lt;/methodResponse&gt;<br>
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+<a href="_Other_XML/ReadLog_ResponseOK_Example1Entry.xml">Response OK Example</a><br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; 1&nbsp;entry was read, the datatype is a struct consist the following elements:<br>
+
+
+
+
+
+<table style="text-align: left; width: 100px;" border="1" cellpadding="2" cellspacing="2">
+
+
+
+
+
+  <tbody>
+
+
+
+
+
+    <tr>
+
+
+
+
+
+      <td class="List">&lt;int&gt;</td>
+
+
+
+
+
+      <td class="List">LogData1</td>
+
+
+
+
+
+    </tr>
+
+
+
+
+
+    <tr>
+
+
+
+
+
+      <td class="List">&lt;int&gt;</td>
+
+
+
+
+
+      <td class="List">LogData2</td>
+
+
+
+
+
+    </tr>
+
+
+
+
+
+    <tr>
+
+
+
+
+
+      <td class="List">&lt;i4&gt;</td>
+
+
+
+
+
+      <td class="List">LogData3</td>
+
+
+
+
+
+    </tr>
+
+
+
+
+
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<a href="_Other_XML/ReadLog_ResponseOK_Example5Entries.xml">Response OK Example</a><br>
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; 5 entries were read, same structure
+
+<h5><a href="_Other_XML/ReadLog_ResponseFail.xml">Response
+Fail:</a></h5>
+
+
+
+
+
+
+&lt;?xml version="1.0" ?&gt;<br>
+
+
+
+
+
+
+&lt;methodResponse&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;params&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;param&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;struct&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;name&gt;ReadLog&lt;/name&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&lt;base64&gt;RmFpbA==&lt;/base64&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;name&gt;ErrorNumber&lt;/name&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;i4&gt;<span style="font-weight: bold; font-style: italic;">"Error Number"</span>&lt;/i4&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&lt;name&gt;ErrorString&lt;/name&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;base64&gt;<span style="font-weight: bold; font-style: italic;">"Error String"</span>&lt;/base64&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;name&gt;ErrorInfo&lt;/name&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;base64&gt;<span style="font-weight: bold; font-style: italic;">"Error Info"</span>&lt;/base64&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/value&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/member&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/struct&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/param&gt;<br>
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; &lt;/params&gt;<br>
+
+
+
+
+
+
+&lt;/methodResponse&gt;<span style="font-weight: bold;"><br>
+
+
+
+
+
+
+
+</span><!--NavBottom-->
+<div class="DoNotPrintNavItems" id="NavBottom_8"> <br>
+
+
+
+
+
+
+
+<table class="Nav" cellpadding="0" cellspacing="2" width="100%">
+
+
+
+
+
+
+
+  <tbody>
+
+
+
+
+
+
+
+    <tr class="Nav">
+
+
+
+
+
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      
+      
+      
+      
+      
+      <p class="Nav">&lt;&lt; Previous Topic<br>
+
+
+
+
+
+
+
+      <a href="CustArtAdd.html">CustArtAdd</a>
+      </p>
+
+
+
+
+
+
+
+      </td>
+
+
+
+
+
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      
+      
+      
+      
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="../JenXML.html">Start&nbsp;Page</a>
+&nbsp; </p>
+
+
+
+
+
+
+
+      </td>
+
+
+
+
+
+
+
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      
+      
+      
+      
+      
+      
+      <p class="NavRight">Next Topic &gt;&gt;<br>
+
+
+
+
+
+
+
+      <a href="SetLogPointer.html"><span style="text-decoration: underline;">SetLogPointer</span></a>
+      </p>
+
+
+
+
+
+
+
+      </td>
+
+
+
+
+
+
+
+    </tr>
+
+
+
+
+
+
+
+    <tr class="Nav">
+
+
+
+
+
+
+
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      
+      
+      
+      
+      
+      
+      <p class="NavCenter">&nbsp; <a class="Nav" href="XMLStrings.html">Start&nbsp;of&nbsp;Chapter</a>
+&nbsp; </p>
+
+
+
+
+
+
+
+      </td>
+
+
+
+
+
+
+
+    </tr>
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<!--/NavBottom-->
+</body>
+</html>

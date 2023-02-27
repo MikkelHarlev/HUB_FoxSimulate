@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="OperatorTextID">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="12"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="209170" Value="Delete"/>
+    <Text ID="209171" Value="Add"/>
+    <Text ID="209173" Value="Operator Name"/>
+    <Text ID="209174" Value="OperatorNo."/>
+    <Text ID="209175" Value="Edit"/>
+    <Text ID="209176" Value="SAVE List"/>
+    <Text ID="209177" Value="LOAD List"/>
+    <Text ID="209178" Value="ADD Operator"/>
+    <Text ID="209179" Value="DELETE Operator"/>
+    <Text ID="209180" Value="EDIT Operator"/>
+    <Text ID="209904" Value="No Operator added"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="209170" Value="Löschen"/>
+    <Text ID="209171" Value="Hinzufügen"/>
+    <Text ID="209173" Value="Name Bedienperson"/>
+    <Text ID="209174" Value="Bediener Nr. "/>
+    <Text ID="209175" Value="Editieren"/>
+    <Text ID="209176" Value="Sicher Liste"/>
+    <Text ID="209177" Value="Lade Liste"/>
+    <Text ID="209178" Value="Fuege Arbeiter hinzu"/>
+    <Text ID="209179" Value="Loesche Arbeiter"/>
+    <Text ID="209180" Value="Veraendere Arbeiter"/>
+    <Text ID="209904" Value="Kein Operator hinzugefügt"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="209170" Value="Radera"/>
+    <Text ID="209171" Value="Lägg till"/>
+    <Text ID="209173" Value="Operatörs namn"/>
+    <Text ID="209174" Value="Kund nr"/>
+    <Text ID="209175" Value="Redigera"/>
+    <Text ID="209176" Value="SAVE List"/>
+    <Text ID="209177" Value="Ladda lista"/>
+    <Text ID="209178" Value="Lägg till operatör"/>
+    <Text ID="209179" Value="Radera operatör"/>
+    <Text ID="209180" Value="EDIT Operator"/>
+    <Text ID="209904" Value="Ingen operatör inlagd"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="209170" Value="Effacer"/>
+    <Text ID="209171" Value="Ajouter"/>
+    <Text ID="209173" Value="Nom opérateur"/>
+    <Text ID="209174" Value="N° d'opérateur"/>
+    <Text ID="209175" Value="Edition"/>
+    <Text ID="209176" Value="ENREGISTRER liste"/>
+    <Text ID="209177" Value="CHARGER liste"/>
+    <Text ID="209178" Value="AJOUTER opérateur"/>
+    <Text ID="209179" Value="SUPPRIMER opérateur"/>
+    <Text ID="209180" Value="MODIFIER opérateur"/>
+    <Text ID="209904" Value="Pas d'opérateur ajouté"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="209170" Value="Slett"/>
+    <Text ID="209171" Value="Legg til"/>
+    <Text ID="209173" Value="Operatør Navn"/>
+    <Text ID="209174" Value="Operatør nummer"/>
+    <Text ID="209175" Value="Redigere"/>
+    <Text ID="209176" Value="Lagre Liste"/>
+    <Text ID="209177" Value="Last inn Liste"/>
+    <Text ID="209178" Value="Legg til Operatør"/>
+    <Text ID="209179" Value="Slett Operatør"/>
+    <Text ID="209180" Value="Rediger Operatør"/>
+    <Text ID="209904" Value="Ingen operatør lagt til"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="209170" Value="Cancella"/>
+    <Text ID="209171" Value="Aggiungi"/>
+    <Text ID="209173" Value="Operatore Nome"/>
+    <Text ID="209174" Value="Operatore Numero"/>
+    <Text ID="209175" Value="Modifica"/>
+    <Text ID="209176" Value="Salva Lista"/>
+    <Text ID="209177" Value="Carica  Lista"/>
+    <Text ID="209178" Value="Aggiungi Operatore"/>
+    <Text ID="209179" Value="Cancella Operatore"/>
+    <Text ID="209180" Value="Modifica Operatore"/>
+    <Text ID="209904" Value="Nessun  Operatore Aggiunto"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="209170" Value="Delete"/>
+    <Text ID="209171" Value="Add"/>
+    <Text ID="209173" Value="Operator Name"/>
+    <Text ID="209174" Value="OperatorNo."/>
+    <Text ID="209175" Value="Edit"/>
+    <Text ID="209176" Value="SAVE List"/>
+    <Text ID="209177" Value="LOAD List"/>
+    <Text ID="209178" Value="ADD Operator"/>
+    <Text ID="209179" Value="DELETE Operator"/>
+    <Text ID="209180" Value="EDIT Operator"/>
+    <Text ID="209904" Value="No Operator added"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="209170" Value="Verw."/>
+    <Text ID="209171" Value="Toev."/>
+    <Text ID="209173" Value="Operator Naam"/>
+    <Text ID="209174" Value="Bedienernr."/>
+    <Text ID="209175" Value="Wijzig"/>
+    <Text ID="209176" Value="Lijst opslaan"/>
+    <Text ID="209177" Value="Lijst laden"/>
+    <Text ID="209178" Value="Bediener toevoegen"/>
+    <Text ID="209179" Value="Bediener verwijderen"/>
+    <Text ID="209180" Value="Bediener bewerken"/>
+    <Text ID="209904" Value="Geen operator toegevoegd"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="209170" Value="Borrar"/>
+    <Text ID="209171" Value="Añadir"/>
+    <Text ID="209173" Value="Nombre de operario"/>
+    <Text ID="209174" Value="Número de operario"/>
+    <Text ID="209175" Value="Editar"/>
+    <Text ID="209176" Value="GUARDAR lista"/>
+    <Text ID="209177" Value="CARGAR lista"/>
+    <Text ID="209178" Value="AÑADIR operador"/>
+    <Text ID="209179" Value="BORRAR operador"/>
+    <Text ID="209180" Value="EDITAR operador"/>
+    <Text ID="209904" Value="Operario sin añadir"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="209170" Value="Kasuj"/>
+    <Text ID="209171" Value="Dodaj"/>
+    <Text ID="209173" Value="Nazwisko operatora"/>
+    <Text ID="209174" Value="Nr operatora"/>
+    <Text ID="209175" Value="Edytuj"/>
+    <Text ID="209176" Value="ZAPISZ listę"/>
+    <Text ID="209177" Value="ZAŁADUJ listę"/>
+    <Text ID="209178" Value="DODAJ operatora"/>
+    <Text ID="209179" Value="USUŃ operatora"/>
+    <Text ID="209180" Value="EDYTUJ operatora"/>
+    <Text ID="209904" Value="Nie dodano operatora"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="209170" Value=""/>
+    <Text ID="209171" Value=""/>
+    <Text ID="209173" Value=""/>
+    <Text ID="209174" Value=""/>
+    <Text ID="209175" Value=""/>
+    <Text ID="209176" Value=""/>
+    <Text ID="209177" Value=""/>
+    <Text ID="209178" Value=""/>
+    <Text ID="209179" Value=""/>
+    <Text ID="209180" Value=""/>
+    <Text ID="209904" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="209170" Value=""/>
+    <Text ID="209171" Value=""/>
+    <Text ID="209173" Value=""/>
+    <Text ID="209174" Value=""/>
+    <Text ID="209175" Value=""/>
+    <Text ID="209176" Value=""/>
+    <Text ID="209177" Value=""/>
+    <Text ID="209178" Value=""/>
+    <Text ID="209179" Value=""/>
+    <Text ID="209180" Value=""/>
+    <Text ID="209904" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="209170" Value="Kasuj"/>
+    <Text ID="209171" Value="Dodaj"/>
+    <Text ID="209173" Value="Nazwisko operatora"/>
+    <Text ID="209174" Value="Nr operatora"/>
+    <Text ID="209175" Value="Edytuj"/>
+    <Text ID="209176" Value="ZAPISZ listę"/>
+    <Text ID="209177" Value="ZAŁADUJ listę"/>
+    <Text ID="209178" Value="DODAJ operatora"/>
+    <Text ID="209179" Value="USUŃ operatora"/>
+    <Text ID="209180" Value="EDYTUJ operatora"/>
+    <Text ID="209904" Value="Nie dodano operatora"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="209170" Value="Delete"/>
+    <Text ID="209171" Value="Add"/>
+    <Text ID="209173" Value="Operator Name"/>
+    <Text ID="209174" Value="OperatorNo."/>
+    <Text ID="209175" Value="Edit"/>
+    <Text ID="209176" Value="SAVE List"/>
+    <Text ID="209177" Value="LOAD List"/>
+    <Text ID="209178" Value="ADD Operator"/>
+    <Text ID="209179" Value="DELETE Operator"/>
+    <Text ID="209180" Value="EDIT Operator"/>
+    <Text ID="209904" Value="No Operator added"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="209170" Value="Delete"/>
+    <Text ID="209171" Value="Add"/>
+    <Text ID="209173" Value="Operator Name"/>
+    <Text ID="209174" Value="OperatorNo."/>
+    <Text ID="209175" Value="Edit"/>
+    <Text ID="209176" Value="SAVE List"/>
+    <Text ID="209177" Value="LOAD List"/>
+    <Text ID="209178" Value="ADD Operator"/>
+    <Text ID="209179" Value="DELETE Operator"/>
+    <Text ID="209180" Value="EDIT Operator"/>
+    <Text ID="209904" Value="No Operator added"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="209170" Value="Slett"/>
+    <Text ID="209171" Value="Legg til"/>
+    <Text ID="209173" Value="Operatør Navn"/>
+    <Text ID="209174" Value="Operatør nummer"/>
+    <Text ID="209175" Value="Redigere"/>
+    <Text ID="209176" Value="Lagre Liste"/>
+    <Text ID="209177" Value="Last inn Liste"/>
+    <Text ID="209178" Value="Legg til Operatør"/>
+    <Text ID="209179" Value="Slett Operatør"/>
+    <Text ID="209180" Value="Rediger Operatør"/>
+    <Text ID="209904" Value="Ingen operatør lagt til"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="209170" Value="Delete"/>
+    <Text ID="209171" Value="Add"/>
+    <Text ID="209173" Value="Operator Name"/>
+    <Text ID="209174" Value="Operator No."/>
+    <Text ID="209175" Value="Edit"/>
+    <Text ID="209176" Value="GUARDAR Lista"/>
+    <Text ID="209177" Value="CARREGAR Lista"/>
+    <Text ID="209178" Value="ADICIONAR Operador"/>
+    <Text ID="209179" Value="ELIMINAR Operador"/>
+    <Text ID="209180" Value="EDITAR Operador"/>
+    <Text ID="209904" Value="No Operator added"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="209170" Value="2"/>
+    <Index ID="209171" Value="3"/>
+    <Index ID="209173" Value="5"/>
+    <Index ID="209174" Value="8"/>
+    <Index ID="209175" Value="4"/>
+    <Index ID="209176" Value="21"/>
+    <Index ID="209177" Value="20"/>
+    <Index ID="209178" Value="17"/>
+    <Index ID="209179" Value="19"/>
+    <Index ID="209180" Value="18"/>
+    <Index ID="209904" Value="22"/>
+  </IndexMap>
+</TextGroup>

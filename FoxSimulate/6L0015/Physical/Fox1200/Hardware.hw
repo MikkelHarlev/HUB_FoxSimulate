@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.9.2.46 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="0484_1" Type="X20CP0484-1" Version="1.3.0.0">
+    <Connection Connector="SL" TargetModule="X20BB52" TargetConnector="SL1" />
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="172.16.23.5" />
+      <Parameter ID="SubnetMask" Value="255.255.0.0" />
+      <Parameter ID="InaNodeNumber" Value="1" />
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="Master" />
+      <Parameter ID="VncAuthentication1" Value="1" />
+      <Parameter ID="VncPasswordViewOnly1" Value="123" />
+      <Parameter ID="VncPasswordViewControl1" Value="789" />
+      <Parameter ID="VncMaxConnections1" Value="5" />
+      <Parameter ID="VncRefreshRate1" Value="200" />
+      <Parameter ID="VncTitle1" Value="6L0015" />
+      <Parameter ID="ActivateSnmp" Value="2" />
+    </Connector>
+    <Connector Name="IF3">
+      <Parameter ID="CycleTime" Value="1200" />
+      <Parameter ID="InaNodeNumber" Value="1" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="Fox_0484" />
+    <Parameter ID="UserPartitionSize" Value="238" />
+    <Parameter ID="UserRamSize" Value="20000" />
+    <Parameter ID="RemMemSize" Value="32000" />
+    <Parameter ID="PermanentPvSize" Value="8172" />
+    <Parameter ID="RemanentGlobalPvSize" Value="18400" />
+    <Parameter ID="VolatileGlobalPvSize" Value="650000" />
+    <Parameter ID="EnableUsbRemoteInstall" Value="1" />
+    <Parameter ID="RebootReset" Value="2" />
+    <Parameter ID="Connections" Value="25" />
+    <Parameter ID="TimerDeviceType" Value="EPLX2X" />
+    <Parameter ID="TimerDevice" Value="0484_1.IF3" />
+    <Parameter ID="IdleTaskClass" Value="8" />
+    <Parameter ID="TaskClassIdleTime" Value="1200" />
+    <Parameter ID="Cyclic1Duration" Value="1200" />
+    <Parameter ID="Cyclic1Tolerance" Value="1200" />
+    <Parameter ID="Cyclic2Duration" Value="2400" />
+    <Parameter ID="Cyclic2Tolerance" Value="2400" />
+    <Parameter ID="Cyclic2Stack" Value="16384" />
+    <Parameter ID="Cyclic3Duration" Value="19200" />
+    <Parameter ID="Cyclic3Tolerance" Value="192000" />
+    <Parameter ID="Cyclic3Stack" Value="12000" />
+    <Parameter ID="Cyclic4Duration" Value="49200" />
+    <Parameter ID="Cyclic4Tolerance" Value="5067600" />
+    <Parameter ID="Cyclic4Stack" Value="33000" />
+    <Parameter ID="Cyclic5Duration" Value="201600" />
+    <Parameter ID="Cyclic5Tolerance" Value="201600" />
+    <Parameter ID="Cyclic6Duration" Value="502800" />
+    <Parameter ID="Cyclic6Tolerance" Value="502800" />
+    <Parameter ID="Cyclic7Duration" Value="99600" />
+    <Parameter ID="Cyclic7Tolerance" Value="10159200" />
+    <Parameter ID="Cyclic7Stack" Value="32000" />
+    <Parameter ID="Cyclic8Duration" Value="13200" />
+    <Parameter ID="Cyclic8Tolerance" Value="30003600" />
+    <Parameter ID="Cyclic8Stack" Value="32000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="" />
+    <Parameter ID="FileDevicePath1" Value="" />
+    <Parameter ID="EthernetDefaultGateway" Value="172.16.200.1" />
+    <Parameter ID="ActivateDns" Value="1" />
+    <Parameter ID="DnsServer1" Value="1.1.1.1" />
+    <Parameter ID="DnsServer2" Value="8.8.4.4" />
+    <Group ID="FtpUser1" />
+    <Parameter ID="FtpUsername1" Value="abc" Description="FTP access for Jensen employees" />
+    <Parameter ID="FtpUserPassword1" Value="Gw+LqamLP2/KT+N2vot3BQ3dXBG+rEla0wVSxlgPeJY=" />
+    <Parameter ID="FtpUserSalt1" Value="l/0c4sPf" />
+    <Parameter ID="FTPAccessRight1" Value="0" />
+    <Parameter ID="FTPdevice1" Value="ALL" />
+    <Group ID="FtpUser2" />
+    <Parameter ID="FtpUsername2" Value="anything" Description="FTP access for Globe" />
+    <Parameter ID="FtpUserPassword2" Value="DKLX+myp/jp0LLfYkuGYjl/zFC/gtsURbT+XYOoSPco=" />
+    <Parameter ID="FtpUserSalt2" Value="Qxug4QR8" />
+    <Parameter ID="FTPAccessRight2" Value="0" />
+    <Group ID="FtpUser3" />
+    <Parameter ID="FtpUsername3" Value="Tools" Description="FTP access for SW tools" />
+    <Parameter ID="FtpUserPassword3" Value="h2jo/14gheyfMqA2NkM2NpjlsXMZDEv4xLbwjECnHA0=" />
+    <Parameter ID="FtpUserSalt3" Value="4HZZuiVW" />
+    <Parameter ID="FTPAccessRight3" Value="0" />
+    <Parameter ID="FTPdevice3" Value="ALL" />
+    <Parameter ID="WebServerPort" Value="8080" />
+  </Module>
+  <Module Name="6PPT80.101E-16B" Type="6PPT80.101E-16B" Version="1.0.2.0">
+    <Connection Connector="ETH2" TargetModule="0484_1" TargetConnector="IF2" NodeNumber="1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="Terminal" Value="true" />
+    <Parameter ID="Startmode" Value="1" />
+    <Parameter ID="Mode" Value="Manual" />
+    <Parameter ID="InternetAddress" Value="172.16.24.1" />
+    <Parameter ID="Subnetmask" Value="255.255.0.0" />
+    <Parameter ID="DefaultGateway" Value="172.16.200.1" />
+    <Parameter ID="SelectedFavoriteVNC" Value="172.16.23.5" />
+    <Parameter ID="Favorites_VNC1" Value="" />
+    <Parameter ID="PasswordVNC" Value="789" />
+    <Parameter ID="LocalScaling" Value="1" />
+    <Parameter ID="PasswordCIFS" Value="" />
+    <Parameter ID="PasswordService" Value="" />
+    <Parameter ID="VncMaxConnections" Value="2" />
+    <Parameter ID="VncRefreshRate" Value="100" />
+    <Parameter ID="VncTitle" Value="6L0015" />
+  </Module>
+  <Module Name="8AC114.60-2" Type="8AC114.60-2" Version="1.0.0.8">
+    <Connection Connector="SS" TargetModule="8V1016.00-2" TargetConnector="SS1" />
+    <Connection Connector="PLK1" TargetModule="0484_1" TargetConnector="IF3" NodeNumber="51">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="PLK2" TargetModule="8I66T400075.0P-000" TargetConnector="PLK1" NodeNumber="51">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="Multiplexed" Value="1" />
+  </Module>
+  <Module Name="8AC126.60-1" Type="8AC126.60-1" Version="2.2.0.0">
+    <Connection Connector="SS" TargetModule="8V1016.00-2" TargetConnector="SS2" />
+  </Module>
+  <Module Name="8I66T400075.0P-000" Type="8I66xxxxxxx.0P-xxx" Version="2.4.0.0">
+    <Connection Connector="PLK1" TargetModule="8AC114.60-2" TargetConnector="PLK2" NodeNumber="101">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="Multiplexed" Value="1" />
+    <Parameter ID="UnitOfSetpoint" Value="Rpm" />
+    <Parameter ID="IOM_AIDP1" Value="HMIS" />
+    <Parameter ID="IOM_AIDP2" Value="ETI" />
+    <Parameter ID="IOM_AIDP3" Value="RFR_D" />
+    <Parameter ID="IOM_AIDP4" Value="OTR" />
+    <Parameter ID="IOM_AIDP5" Value="LCR" />
+    <Parameter ID="IOM_AIDP6" Value="THD" />
+    <Parameter ID="IOM_AIDP7" Value="THR" />
+    <Parameter ID="IOM_AIDP8" Value="LFT" />
+    <Parameter ID="Cfg_CTD" Value="37" />
+    <Parameter ID="Cfg_ETF" Value="133" />
+    <Parameter ID="Cfg_LET" Value="0" />
+    <Parameter ID="Cfg_EPL" Value="1" />
+    <Parameter ID="Sel_NameplateMask" Value="MANU" />
+    <Parameter ID="Cfg_NSP" Value="1365" />
+    <Parameter ID="Cfg_UNS" Value="400" />
+    <Parameter ID="Cfg_NCR" Value="7" />
+    <Parameter ID="Cfg_COS" Value="64" />
+    <Parameter ID="Cfg_NPR" Value="18" />
+    <Parameter ID="Sel_TUN" Value="AUTO" />
+    <Parameter ID="Cfg_ATR" Value="1" />
+    <Parameter ID="Cfg_SFR" Value="160" />
+    <Parameter ID="Sel_CTT" Value="STD" />
+    <Parameter ID="Sel_References" Value="Hz" />
+    <Parameter ID="Cfg_TFR" Value="910" />
+    <Parameter ID="Sel_HSP" Value="MANU" />
+    <Parameter ID="Cfg_HSP" Value="910" />
+    <Parameter ID="Sel_INR" Value="INR_0" />
+    <Parameter ID="Cfg_ACC" Value="50" />
+    <Parameter ID="Cfg_DEC" Value="3" />
+    <Parameter ID="Sel_ADC" Value="NO" />
+  </Module>
+  <Module Name="8LSA44.DA030S100-3" Type="8LSA44.DA030S100-3" Version="2.2.0.0">
+    <Connection Connector="EC" TargetModule="8AC126.60-1" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8V1016.00-2" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="5" />
+  </Module>
+  <Module Name="8V1016.00-2" Type="8V1016.00-2" Version="2.2.0.0" />
+  <Module Name="X20BB52" Type="X20BB52" Version="1.1.1.0">
+    <Connector Name="IF6">
+      <Parameter ID="CycleTime" Value="2000" />
+      <Parameter ID="AsyncPayload" Value="1000" />
+    </Connector>
+  </Module>
+  <Module Name="X20DI9371" Type="X20DI9371" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20DI9371TB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20DI9371SM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DI9371SM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BB52" TargetConnector="IF6" />
+  </Module>
+  <Module Name="X20DI9371TB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20DI9371a" Type="X20DI9371" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20DI9371aTB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20DI9371aSM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DI9371aSM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20DI9371SM" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DI9371aTB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20DI9371b" Type="X20DI9371" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20DI9371bTB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20DI9371bSM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DI9371bSM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20DI9371aSM" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DI9371bTB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20DI9371c" Type="X20DI9371" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20DI9371cTB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20DI9371cSM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DI9371cSM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20DI9371bSM" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DI9371cTB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20DO9322" Type="X20DO9322" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20DO9322TB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20DO9322SM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO9322SM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20PS2100SM" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DO9322TB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20DO9322a" Type="X20DO9322" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20DO9322aTB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20DO9322aSM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO9322aSM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20DO9322SM" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DO9322aTB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20DO9322b" Type="X20DO9322" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20DO9322bTB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20DO9322bSM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO9322bSM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20DO9322aSM" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DO9322bTB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20DO9322c" Type="X20DO9322" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20DO9322cTB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20DO9322cSM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO9322cSM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20DO9322bSM" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DO9322cTB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20DO9322d" Type="X20DO9322" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20DO9322dTB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20DO9322dSM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO9322dSM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20DO9322cSM" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DO9322dTB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20DO9322e" Type="X20DO9322" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20DO9322eTB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20DO9322eSM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO9322eSM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20DO9322dSM" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DO9322eTB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20DO9322f" Type="X20DO9322" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20DO9322fTB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20DO9322fSM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO9322fSM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20DO9322eSM" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DO9322fTB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20PS2100" Type="X20PS2100" Version="1.2.0.0">
+    <Connection Connector="SS1" TargetModule="X20PS2100TB" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20PS2100SM" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="PowerInfo" Value="on" />
+  </Module>
+  <Module Name="X20PS2100SM" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20DI9371cSM" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20PS2100TB" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20PS9600" Type="X20PS9600" Version="1.3.0.0">
+    <Connection Connector="PS" TargetModule="X20BB52" TargetConnector="PS1" />
+    <Connection Connector="SS1" TargetModule="X20PS9600TB" TargetConnector="SS" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="PowerInfo" Value="on" />
+  </Module>
+  <Module Name="X20PS9600TB" Type="X20TB12" Version="1.0.0.0" />
+</Hardware>

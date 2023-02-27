@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Service_Hanger_Opener">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="44"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Product Type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forced Trouser"/>
+    <Text ID="375980" Value="Forced Shirt"/>
+    <Text ID="375981" Value="Trouser"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="375972" Value="Auto programm"/>
+    <Text ID="375973" Value="Produkt Type"/>
+    <Text ID="375974" Value="Gefundener Type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="alles Hosen"/>
+    <Text ID="375980" Value="Alles Shirts"/>
+    <Text ID="375981" Value="Hosen"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Product Type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forced Trouser"/>
+    <Text ID="375980" Value="Forced Shirt"/>
+    <Text ID="375981" Value="Trouser"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Type de Produit"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forcer Pantalons"/>
+    <Text ID="375980" Value="Forcer Vêtements"/>
+    <Text ID="375981" Value="Pantalons"/>
+    <Text ID="375982" Value="Vêtements"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Produkt type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Registrer alt som bukse"/>
+    <Text ID="375980" Value="Forced Shirt"/>
+    <Text ID="375981" Value="Bukser"/>
+    <Text ID="375982" Value="Jakke"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="375972" Value="Auto programma"/>
+    <Text ID="375973" Value="Tipo Prodotto"/>
+    <Text ID="375974" Value="Tipo Rilevamento"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Pantaloni Forzati"/>
+    <Text ID="375980" Value="Magliette Forzate"/>
+    <Text ID="375981" Value="Pantaloni"/>
+    <Text ID="375982" Value="Magliette."/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Product Type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forced Trouser"/>
+    <Text ID="375980" Value="Forced Shirt"/>
+    <Text ID="375981" Value="Trouser"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Product Type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forced Trouser"/>
+    <Text ID="375980" Value="Registrer alt som jakke"/>
+    <Text ID="375981" Value="Trouser"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Product Type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Forced Trouser"/>
+    <Text ID="375980" Value="Forced Shirt"/>
+    <Text ID="375981" Value="Trouser"/>
+    <Text ID="375982" Value="Shirt"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="375972" Value=""/>
+    <Text ID="375973" Value=""/>
+    <Text ID="375974" Value=""/>
+    <Text ID="375978" Value=""/>
+    <Text ID="375979" Value=""/>
+    <Text ID="375980" Value=""/>
+    <Text ID="375981" Value=""/>
+    <Text ID="375982" Value=""/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="375972" Value=""/>
+    <Text ID="375973" Value=""/>
+    <Text ID="375974" Value=""/>
+    <Text ID="375978" Value=""/>
+    <Text ID="375979" Value=""/>
+    <Text ID="375980" Value=""/>
+    <Text ID="375981" Value=""/>
+    <Text ID="375982" Value=""/>
+    <Text ID="450709" Value=""/>
+    <Text ID="450710" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="375972" Value=""/>
+    <Text ID="375973" Value=""/>
+    <Text ID="375974" Value=""/>
+    <Text ID="375978" Value=""/>
+    <Text ID="375979" Value=""/>
+    <Text ID="375980" Value=""/>
+    <Text ID="375981" Value=""/>
+    <Text ID="375982" Value=""/>
+    <Text ID="450709" Value=""/>
+    <Text ID="450710" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="375972" Value=""/>
+    <Text ID="375973" Value=""/>
+    <Text ID="375974" Value=""/>
+    <Text ID="375978" Value=""/>
+    <Text ID="375979" Value=""/>
+    <Text ID="375980" Value=""/>
+    <Text ID="375981" Value=""/>
+    <Text ID="375982" Value=""/>
+    <Text ID="450709" Value=""/>
+    <Text ID="450710" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="375972" Value=""/>
+    <Text ID="375973" Value=""/>
+    <Text ID="375974" Value=""/>
+    <Text ID="375978" Value=""/>
+    <Text ID="375979" Value=""/>
+    <Text ID="375980" Value=""/>
+    <Text ID="375981" Value=""/>
+    <Text ID="375982" Value=""/>
+    <Text ID="450709" Value=""/>
+    <Text ID="450710" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="375972" Value=""/>
+    <Text ID="375973" Value=""/>
+    <Text ID="375974" Value=""/>
+    <Text ID="375978" Value=""/>
+    <Text ID="375979" Value=""/>
+    <Text ID="375980" Value=""/>
+    <Text ID="375981" Value=""/>
+    <Text ID="375982" Value=""/>
+    <Text ID="450709" Value=""/>
+    <Text ID="450710" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="375972" Value="Auto program"/>
+    <Text ID="375973" Value="Produkt type"/>
+    <Text ID="375974" Value="Detection type"/>
+    <Text ID="375978" Value="Auto"/>
+    <Text ID="375979" Value="Registrer alt som bukse"/>
+    <Text ID="375980" Value="Registrer alt som jakke"/>
+    <Text ID="375981" Value="Bukser"/>
+    <Text ID="375982" Value="Jakke"/>
+    <Text ID="450709" Value="Forced pajamas"/>
+    <Text ID="450710" Value="Pajamas"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="375972" Value=""/>
+    <Text ID="375973" Value=""/>
+    <Text ID="375974" Value=""/>
+    <Text ID="375978" Value=""/>
+    <Text ID="375979" Value=""/>
+    <Text ID="375980" Value=""/>
+    <Text ID="375981" Value=""/>
+    <Text ID="375982" Value=""/>
+    <Text ID="450709" Value=""/>
+    <Text ID="450710" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="375972" Value="0"/>
+    <Index ID="375973" Value="1"/>
+    <Index ID="375974" Value="2"/>
+    <Index ID="375978" Value="50"/>
+    <Index ID="375979" Value="51"/>
+    <Index ID="375980" Value="52"/>
+    <Index ID="375981" Value="70"/>
+    <Index ID="375982" Value="71"/>
+    <Index ID="450709" Value="53"/>
+    <Index ID="450710" Value="72"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="3.00.0" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>FoldTool.typ</File>
+    <File>FoldTool.var</File>
+    <File>FoldTool.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="brsystem" FromDate="29-04-2005" />
+    <Dependency ObjectName="AsString" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

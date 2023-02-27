@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<methodResponse>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>GetRealTimeData</name>
+                    <value>
+                        <base64>T0s=</base64>
+</value></member><member><name>BoolVar</name><value><array><data><value><boolean>0</boolean></value><value><boolean>0</boolean></value></data></array></value></member></struct></param></params></methodResponse>

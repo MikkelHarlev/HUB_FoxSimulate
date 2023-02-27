@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigStackerAndOutlet">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="25"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="msec"/>
+    <Text ID="285781" Value="Pieces"/>
+    <Text ID="285783" Value="Off"/>
+    <Text ID="285786" Value="sec"/>
+    <Text ID="286053" Value="Stacker Start Position:"/>
+    <Text ID="286054" Value="Outlet Start Position:"/>
+    <Text ID="286055" Value="Stacker Stop Position:"/>
+    <Text ID="286056" Value="Outlet Stop Position:"/>
+    <Text ID="286155" Value="Stacker: Transport Offset: "/>
+    <Text ID="286158" Value="Stacker: Indexing-Delay:"/>
+    <Text ID="286159" Value="Stacker: Max. Sink Delay:"/>
+    <Text ID="286180" Value="Outlet: Stack Change:"/>
+    <Text ID="286207" Value="Outlet: RollOff Return Time:"/>
+    <Text ID="286208" Value="Outlet: Cross-Belt length:"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Position"/>
+    <Text ID="287132" Value="on Customer- or Article-Change"/>
+    <Text ID="287131" Value="on Fold-Program-Change"/>
+    <Text ID="287156" Value="No Stack Change"/>
+    <Text ID="325468" Value="on Metricon command"/>
+    <Text ID="394229" Value="Stacker"/>
+    <Text ID="285782" Value="On"/>
+    <Text ID="434740" Value="Flaps delay open"/>
+    <Text ID="434741" Value="Flaps delay close"/>
+    <Text ID="434742" Value="Flaps restart delay"/>
+    <Text ID="434748" Value="Stacker: Lift raise delay"/>
+    <Text ID="485373" Value="on Metricon command &amp; reset"/>
+    <Text ID="486762" Value="CrossBelt Type #"/>
+    <Text ID="493171" Value="on Metricon &amp; FoldProgram"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="msek"/>
+    <Text ID="285781" Value="Stueck"/>
+    <Text ID="285783" Value="Aus"/>
+    <Text ID="285786" Value="sek"/>
+    <Text ID="286053" Value="Stapler Start Position:"/>
+    <Text ID="286054" Value="Auslass Start Position:"/>
+    <Text ID="286055" Value="Stapler Stop Position:"/>
+    <Text ID="286056" Value="Auslass Stop Position:"/>
+    <Text ID="286155" Value="Stapler: Transport abgleich: "/>
+    <Text ID="286158" Value="Stapler: Bezugsverzoegerung"/>
+    <Text ID="286159" Value="Stapler: Max. Sink verzoegerung:"/>
+    <Text ID="286180" Value="Auslauf: Stapel wechsel:"/>
+    <Text ID="286207" Value="Auslauf: RollOff zurruek zeit:"/>
+    <Text ID="286208" Value="Auslass: Kreuzband Laenge:"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Position"/>
+    <Text ID="287132" Value="An Kunden- oder Artickel-wechsel"/>
+    <Text ID="287131" Value="An Falt-Programm-wechsel"/>
+    <Text ID="287156" Value="Kein Stapelwechsel"/>
+    <Text ID="325468" Value="An Metricon befehl"/>
+    <Text ID="394229" Value="Stapler"/>
+    <Text ID="285782" Value="An "/>
+    <Text ID="434740" Value="Klappen verzoegerung auf"/>
+    <Text ID="434741" Value="Klappen verzoegerung zu"/>
+    <Text ID="434742" Value="Klappen neustart verzoegerung"/>
+    <Text ID="434748" Value="Stapler: Lift hebe-verzoegerung"/>
+    <Text ID="485373" Value="An Metricon befehl &amp; ruecksetzen"/>
+    <Text ID="486762" Value="CrossBelt Type #"/>
+    <Text ID="493171" Value="An Metricon &amp; Falt Programm"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="ms"/>
+    <Text ID="285781" Value="Styck"/>
+    <Text ID="285783" Value="Off"/>
+    <Text ID="285786" Value="s"/>
+    <Text ID="286053" Value="Stacker Start Position:"/>
+    <Text ID="286054" Value="Outlet Start Position:"/>
+    <Text ID="286055" Value="Stacker Stop Position:"/>
+    <Text ID="286056" Value="Outlet Stop Position:"/>
+    <Text ID="286155" Value="Stacker: Transport Offset: "/>
+    <Text ID="286158" Value="Staplare: fördröjning utmatning:"/>
+    <Text ID="286159" Value="Stacker: Max. Sink Delay:"/>
+    <Text ID="286180" Value="Outlet: Stack Change:"/>
+    <Text ID="286207" Value="Outlet: RollOff Return Time:"/>
+    <Text ID="286208" Value="Outlet: Cross-Belt length:"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Position"/>
+    <Text ID="287132" Value="vid byte av kund eller artikel"/>
+    <Text ID="287131" Value="vid byte av vikprogram"/>
+    <Text ID="287156" Value="No Stack Change"/>
+    <Text ID="325468" Value="on Metricon command"/>
+    <Text ID="394229" Value="Stacker"/>
+    <Text ID="285782" Value="On"/>
+    <Text ID="434740" Value="Flaps delay open"/>
+    <Text ID="434741" Value="Flaps delay close"/>
+    <Text ID="434742" Value="Flaps restart delay"/>
+    <Text ID="434748" Value="Stacker: Lift raise delay"/>
+    <Text ID="485373" Value="on Metricon command &amp; reset"/>
+    <Text ID="486762" Value="CrossBelt Type #"/>
+    <Text ID="493171" Value="on Metricon &amp; FoldProgram"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="ms"/>
+    <Text ID="285781" Value="Pièces"/>
+    <Text ID="285783" Value="Non"/>
+    <Text ID="285786" Value="s"/>
+    <Text ID="286053" Value="Position démarr. empileur :"/>
+    <Text ID="286054" Value="Position démarr. sortie :"/>
+    <Text ID="286055" Value="Position arrêt empileur :"/>
+    <Text ID="286056" Value="Position arrêt sortie :"/>
+    <Text ID="286155" Value="Empileur : décalage transport : "/>
+    <Text ID="286158" Value="Empileur : retard indexage :"/>
+    <Text ID="286159" Value="Empileur : retard descente max."/>
+    <Text ID="286180" Value="Sortie : changement de pile :"/>
+    <Text ID="286207" Value="Sortie : temps de retour rollOff :"/>
+    <Text ID="286208" Value="Sortie : longueur bande transfert :"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Position"/>
+    <Text ID="287132" Value="sur changement client ou article"/>
+    <Text ID="287131" Value="sur changement programme de pliage"/>
+    <Text ID="287156" Value="Pas de changement de pile"/>
+    <Text ID="325468" Value="sur commande Metricon"/>
+    <Text ID="394229" Value="Empileur"/>
+    <Text ID="285782" Value="En marche"/>
+    <Text ID="434740" Value="Retard ouverture volets"/>
+    <Text ID="434741" Value="Retard fermeture volets"/>
+    <Text ID="434742" Value="Retard redémarr. volets"/>
+    <Text ID="434748" Value="Empileur : Retard montée dispositif de levage"/>
+    <Text ID="485373" Value="sur commande &amp; réinitialisation Metricon"/>
+    <Text ID="486762" Value="Type courroie cross #"/>
+    <Text ID="493171" Value="sur Metricon &amp; programme de pliage"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="msek"/>
+    <Text ID="285781" Value="Stk"/>
+    <Text ID="285783" Value="Fra"/>
+    <Text ID="285786" Value="sec"/>
+    <Text ID="286053" Value="Stakker start position"/>
+    <Text ID="286054" Value="Udløb start position"/>
+    <Text ID="286055" Value="Stakker stop position"/>
+    <Text ID="286056" Value="Udløb stop position"/>
+    <Text ID="286155" Value="Stakker:transport offset:"/>
+    <Text ID="286158" Value="Stakker: forsinkelse udkøringstid"/>
+    <Text ID="286159" Value="Stakker: max forsinkelse ned"/>
+    <Text ID="286180" Value="Udløb : stakkerskift"/>
+    <Text ID="286207" Value="Udløb tid rolloff tilbage"/>
+    <Text ID="286208" Value="Udløb: Tværbånd længde"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Position"/>
+    <Text ID="287132" Value="Ved skift af kunde eller artikkel"/>
+    <Text ID="287131" Value="Ved skift af foldeprogram"/>
+    <Text ID="287156" Value="Ingen stakker skift"/>
+    <Text ID="325468" Value="På kommando fra Metricon"/>
+    <Text ID="394229" Value="Stakker"/>
+    <Text ID="285782" Value="Til"/>
+    <Text ID="434740" Value="Forsinkelse åbning af stakkerklapper"/>
+    <Text ID="434741" Value="Forsinkelse lukking av stackerflaps"/>
+    <Text ID="434742" Value="Forsinkelse genstart stakkerklapper"/>
+    <Text ID="434748" Value="Stakker: forsinkelse løft stakkerhejs"/>
+    <Text ID="485373" Value="På kommando fra Metricon &amp; reset"/>
+    <Text ID="486762" Value="CrossBelt Type #"/>
+    <Text ID="493171" Value="På Metricon &amp; foldeprogram"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="millisec"/>
+    <Text ID="285781" Value="Pezzi"/>
+    <Text ID="285783" Value="Off"/>
+    <Text ID="285786" Value="sec"/>
+    <Text ID="286053" Value="Accatast. Posizione di Avviamento:Accatast. Posizione di Avviamento:"/>
+    <Text ID="286054" Value="Posizione Avviamento Uscita:"/>
+    <Text ID="286055" Value="Accatast. Posizione di Arresto:"/>
+    <Text ID="286056" Value="Posizione Arresto Uscita:"/>
+    <Text ID="286155" Value="Accatastatore:  Compensazione Trasporto"/>
+    <Text ID="286158" Value="Accatastatore: Ritardo - Avanzamento"/>
+    <Text ID="286159" Value="Accatastatore: Ritardo Max"/>
+    <Text ID="286180" Value="Uscita: Cambio Pila"/>
+    <Text ID="286207" Value="Uscita: Tempo Riturno RollOff :"/>
+    <Text ID="286208" Value="Uscita: Cross-Belt length:"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Posiz."/>
+    <Text ID="287132" Value="dopo cambiam. cliente/articolo"/>
+    <Text ID="287131" Value="dopo cambiamento programma"/>
+    <Text ID="287156" Value="Nessun Cambio Cliente"/>
+    <Text ID="325468" Value="on Metricon command"/>
+    <Text ID="394229" Value="Accatastatore:  "/>
+    <Text ID="285782" Value="On"/>
+    <Text ID="434740" Value="Ritardo apertura Flaps"/>
+    <Text ID="434741" Value="Ritardo Chiusura Flaps:"/>
+    <Text ID="434742" Value="Ritardo Riavviamento Flaps"/>
+    <Text ID="434748" Value="Accatastat.: Ritardo Alzamento "/>
+    <Text ID="485373" Value="on Metricon command &amp; reset"/>
+    <Text ID="486762" Value="CrossBelt Type #"/>
+    <Text ID="493171" Value="on Metricon &amp; FoldProgram"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="msec"/>
+    <Text ID="285781" Value="Pieces"/>
+    <Text ID="285783" Value="Off"/>
+    <Text ID="285786" Value="sec"/>
+    <Text ID="286053" Value="Stacker Start Position:"/>
+    <Text ID="286054" Value="Outlet Start Position:"/>
+    <Text ID="286055" Value="Stacker Stop Position:"/>
+    <Text ID="286056" Value="Outlet Stop Position:"/>
+    <Text ID="286155" Value="Stacker: Transport Offset: "/>
+    <Text ID="286158" Value="Stacker: Indexing-Delay:"/>
+    <Text ID="286159" Value="Stacker: Max. Sink Delay:"/>
+    <Text ID="286180" Value="Outlet: Stack Change:"/>
+    <Text ID="286207" Value="Outlet: RollOff Return Time:"/>
+    <Text ID="286208" Value="Outlet: Cross-Belt length:"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Position"/>
+    <Text ID="287132" Value="on Customer- or Article-Change"/>
+    <Text ID="287131" Value="on Fold-Program-Change"/>
+    <Text ID="287156" Value="No Stack Change"/>
+    <Text ID="325468" Value="on Metricon command"/>
+    <Text ID="394229" Value="Stacker"/>
+    <Text ID="285782" Value="On"/>
+    <Text ID="434740" Value="Flaps delay open"/>
+    <Text ID="434741" Value="Flaps delay close"/>
+    <Text ID="434742" Value="Flaps restart delay"/>
+    <Text ID="434748" Value="Stacker: Lift raise delay"/>
+    <Text ID="485373" Value="on Metricon command &amp; reset"/>
+    <Text ID="486762" Value="CrossBelt Type #"/>
+    <Text ID="493171" Value="on Metricon &amp; FoldProgram"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="msec"/>
+    <Text ID="285781" Value="Stuks"/>
+    <Text ID="285783" Value="Uit"/>
+    <Text ID="285786" Value="Sec."/>
+    <Text ID="286053" Value="Stapelaar start positie"/>
+    <Text ID="286054" Value="Uitvoer start positie"/>
+    <Text ID="286055" Value="Stapelaar stop positie"/>
+    <Text ID="286056" Value="Uitvoer stop positie"/>
+    <Text ID="286155" Value="Transporttijd stapelaar"/>
+    <Text ID="286158" Value="Stapelaar uitschuif vertraging"/>
+    <Text ID="286159" Value="Vertraging stapelaar maximaal zakken"/>
+    <Text ID="286180" Value="Uitvoer stapel wissel"/>
+    <Text ID="286207" Value="Uitvoer RollOff retour tijd"/>
+    <Text ID="286208" Value="Uitvoer lengte dwars conveyor"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Positie"/>
+    <Text ID="287132" Value="bij ander de klant of artikel"/>
+    <Text ID="287131" Value="bij ander vouwprogramma"/>
+    <Text ID="287156" Value="Geen stapel wissel"/>
+    <Text ID="325468" Value="Commando op Metricon"/>
+    <Text ID="394229" Value="Stapelaar"/>
+    <Text ID="285782" Value="Aan"/>
+    <Text ID="434740" Value="Vertraging kleppen openen"/>
+    <Text ID="434741" Value="Vertraging kleppen sluiten"/>
+    <Text ID="434742" Value="Vertraging kleppen herstart"/>
+    <Text ID="434748" Value="Vertraging stapelaar lift omhoog"/>
+    <Text ID="485373" Value="Commando op Metricon &amp; reset"/>
+    <Text ID="486762" Value="Dwarsband type #"/>
+    <Text ID="493171" Value="op Metricon &amp; vouwprogramma"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="ms"/>
+    <Text ID="285781" Value="Piezas"/>
+    <Text ID="285783" Value="Apagado/Desconectado"/>
+    <Text ID="285786" Value="sec"/>
+    <Text ID="286053" Value="Posición de parada en el Apilador (Anterior)"/>
+    <Text ID="286054" Value="Posición de parada en la Salida (Anterior)"/>
+    <Text ID="286055" Value="Posición de parada en el Apilador (Posterior)"/>
+    <Text ID="286056" Value="Posición de parada en la Salida (Posterior)"/>
+    <Text ID="286155" Value="Apilador: Compensación de transporte"/>
+    <Text ID="286158" Value="Apilador: Retardo indexación"/>
+    <Text ID="286159" Value="Apilador: Retardo máximo bajada del Elevador"/>
+    <Text ID="286180" Value="Salida: Crear pila nueva"/>
+    <Text ID="286207" Value="Salida: Tiempo retorno Transbordadora"/>
+    <Text ID="286208" Value="Salida: Longitud Transportador-Cruzado"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Posición"/>
+    <Text ID="287132" Value="Por cambio en Cliente/Artículo"/>
+    <Text ID="287131" Value="Por cambio en Programa de doblado"/>
+    <Text ID="287156" Value="Sin cambio de pila"/>
+    <Text ID="325468" Value="Por comando Metricon"/>
+    <Text ID="394229" Value="Apilador"/>
+    <Text ID="285782" Value="Conectado/Encendido"/>
+    <Text ID="434740" Value="Retardo de apertura solapas"/>
+    <Text ID="434741" Value="Retardo de cierre solapas"/>
+    <Text ID="434742" Value="Retardo reinicio solapas"/>
+    <Text ID="434748" Value="Apilador: Retardo subida del Elevador"/>
+    <Text ID="485373" Value="Por comando Metricon y Reseteo"/>
+    <Text ID="486762" Value="Cruzado Tipo #"/>
+    <Text ID="493171" Value="Por Metricon y Programa de doblado"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="msek"/>
+    <Text ID="285781" Value="Sztuki"/>
+    <Text ID="285783" Value="Wył."/>
+    <Text ID="285786" Value="sek."/>
+    <Text ID="286053" Value="Położenie uruchomienia układarki:"/>
+    <Text ID="286054" Value="Położenie uruchomienia wylotu:"/>
+    <Text ID="286055" Value="Położenie zatrzymania układarki:"/>
+    <Text ID="286056" Value="Położenie zatrzymania wylotu:"/>
+    <Text ID="286155" Value="Układarka: Przesunięcie transportu: "/>
+    <Text ID="286158" Value="Układarka: Opóźnienie indeksowania:"/>
+    <Text ID="286159" Value="Układarka: Maks. opóźnienie opadania:"/>
+    <Text ID="286180" Value="Wylot: Zmiana stosu:"/>
+    <Text ID="286207" Value="Wylot: Czas powrotu wyłączonych walców:"/>
+    <Text ID="286208" Value="Wylot: Długość taśmy poprzecznego składania:"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Pozycja"/>
+    <Text ID="287132" Value="Przy zmianie klienta lub artykułu"/>
+    <Text ID="287131" Value="Przy zmianie programu składania"/>
+    <Text ID="287156" Value="Brak zmiany stosu"/>
+    <Text ID="325468" Value="Przy poleceniu Metricon"/>
+    <Text ID="394229" Value="Układarka"/>
+    <Text ID="285782" Value="Wł."/>
+    <Text ID="434740" Value="Opóźnienie otwarcia klap"/>
+    <Text ID="434741" Value="Opóźnienie zamknięcia klap"/>
+    <Text ID="434742" Value="Opóźnienie ponownego uruchomienia klap"/>
+    <Text ID="434748" Value="Układarka: Opóźnienie podnoszenia podnośnika"/>
+    <Text ID="485373" Value="Przy poleceniu Metricon i resecie"/>
+    <Text ID="486762" Value="Typ taśmy poprzeczne nr"/>
+    <Text ID="493171" Value="Przy Metricon i programie składania"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="285776" Value=""/>
+    <Text ID="285778" Value=""/>
+    <Text ID="285781" Value=""/>
+    <Text ID="285783" Value=""/>
+    <Text ID="285786" Value=""/>
+    <Text ID="286053" Value=""/>
+    <Text ID="286054" Value=""/>
+    <Text ID="286055" Value=""/>
+    <Text ID="286056" Value=""/>
+    <Text ID="286155" Value=""/>
+    <Text ID="286158" Value=""/>
+    <Text ID="286159" Value=""/>
+    <Text ID="286180" Value=""/>
+    <Text ID="286207" Value=""/>
+    <Text ID="286208" Value=""/>
+    <Text ID="291152" Value=""/>
+    <Text ID="295660" Value=""/>
+    <Text ID="287132" Value=""/>
+    <Text ID="287131" Value=""/>
+    <Text ID="287156" Value=""/>
+    <Text ID="325468" Value=""/>
+    <Text ID="394229" Value=""/>
+    <Text ID="285782" Value=""/>
+    <Text ID="434740" Value=""/>
+    <Text ID="434741" Value=""/>
+    <Text ID="434742" Value=""/>
+    <Text ID="434748" Value=""/>
+    <Text ID="485373" Value=""/>
+    <Text ID="486762" Value=""/>
+    <Text ID="493171" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="285776" Value=""/>
+    <Text ID="285778" Value=""/>
+    <Text ID="285781" Value=""/>
+    <Text ID="285783" Value=""/>
+    <Text ID="285786" Value=""/>
+    <Text ID="286053" Value=""/>
+    <Text ID="286054" Value=""/>
+    <Text ID="286055" Value=""/>
+    <Text ID="286056" Value=""/>
+    <Text ID="286155" Value=""/>
+    <Text ID="286158" Value=""/>
+    <Text ID="286159" Value=""/>
+    <Text ID="286180" Value=""/>
+    <Text ID="286207" Value=""/>
+    <Text ID="286208" Value=""/>
+    <Text ID="291152" Value=""/>
+    <Text ID="295660" Value=""/>
+    <Text ID="287132" Value=""/>
+    <Text ID="287131" Value=""/>
+    <Text ID="287156" Value=""/>
+    <Text ID="325468" Value=""/>
+    <Text ID="394229" Value=""/>
+    <Text ID="285782" Value=""/>
+    <Text ID="434740" Value=""/>
+    <Text ID="434741" Value=""/>
+    <Text ID="434742" Value=""/>
+    <Text ID="434748" Value=""/>
+    <Text ID="485373" Value=""/>
+    <Text ID="486762" Value=""/>
+    <Text ID="493171" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="msek"/>
+    <Text ID="285781" Value="Sztuki"/>
+    <Text ID="285783" Value="Wył."/>
+    <Text ID="285786" Value="sek."/>
+    <Text ID="286053" Value="Położenie uruchomienia układarki:"/>
+    <Text ID="286054" Value="Położenie uruchomienia wylotu:"/>
+    <Text ID="286055" Value="Położenie zatrzymania układarki:"/>
+    <Text ID="286056" Value="Położenie zatrzymania wylotu:"/>
+    <Text ID="286155" Value="Układarka: Przesunięcie transportu: "/>
+    <Text ID="286158" Value="Układarka: Opóźnienie indeksowania:"/>
+    <Text ID="286159" Value="Układarka: Maks. opóźnienie opadania:"/>
+    <Text ID="286180" Value="Wylot: Zmiana stosu:"/>
+    <Text ID="286207" Value="Wylot: Czas powrotu wyłączonych walców:"/>
+    <Text ID="286208" Value="Wylot: Długość taśmy poprzecznego składania:"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Pozycja"/>
+    <Text ID="287132" Value="Przy zmianie klienta lub artykułu"/>
+    <Text ID="287131" Value="Przy zmianie programu składania"/>
+    <Text ID="287156" Value="Brak zmiany stosu"/>
+    <Text ID="325468" Value="Przy poleceniu Metricon"/>
+    <Text ID="394229" Value="Układarka"/>
+    <Text ID="285782" Value="Wł."/>
+    <Text ID="434740" Value="Opóźnienie otwarcia klap"/>
+    <Text ID="434741" Value="Opóźnienie zamknięcia klap"/>
+    <Text ID="434742" Value="Opóźnienie ponownego uruchomienia klap"/>
+    <Text ID="434748" Value="Układarka: Opóźnienie podnoszenia podnośnika"/>
+    <Text ID="485373" Value="Przy poleceniu Metricon i resecie"/>
+    <Text ID="486762" Value="Typ taśmy poprzeczne nr"/>
+    <Text ID="493171" Value="Przy Metricon i programie składania"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="msec"/>
+    <Text ID="285781" Value="Ks"/>
+    <Text ID="285783" Value="Off"/>
+    <Text ID="285786" Value="sec"/>
+    <Text ID="286053" Value="Stacker Start Position:"/>
+    <Text ID="286054" Value="Outlet Start Position:"/>
+    <Text ID="286055" Value="Stacker Stop Position:"/>
+    <Text ID="286056" Value="Outlet Stop Position:"/>
+    <Text ID="286155" Value="Stacker: Transport Offset: "/>
+    <Text ID="286158" Value="Stohovac: Indexace-Zpozdeni:"/>
+    <Text ID="286159" Value="Stacker: Max. Sink Delay:"/>
+    <Text ID="286180" Value="Outlet: Stack Change:"/>
+    <Text ID="286207" Value="Outlet: RollOff Return Time:"/>
+    <Text ID="286208" Value="Outlet: Cross-Belt length:"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Pozice"/>
+    <Text ID="287132" Value="na zakaznika-nebo zmìna artiklu"/>
+    <Text ID="287131" Value="na zmene skladici-program"/>
+    <Text ID="287156" Value="No Stack Change"/>
+    <Text ID="325468" Value="on Metricon command"/>
+    <Text ID="394229" Value="Stacker"/>
+    <Text ID="285782" Value="On"/>
+    <Text ID="434740" Value="Flaps delay open"/>
+    <Text ID="434741" Value="Flaps delay close"/>
+    <Text ID="434742" Value="Flaps restart delay"/>
+    <Text ID="434748" Value="Stacker: Lift raise delay"/>
+    <Text ID="485373" Value="on Metricon command &amp; reset"/>
+    <Text ID="486762" Value="CrossBelt Type #"/>
+    <Text ID="493171" Value="on Metricon &amp; FoldProgram"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="msec"/>
+    <Text ID="285781" Value="Pieces"/>
+    <Text ID="285783" Value="Off"/>
+    <Text ID="285786" Value="sec"/>
+    <Text ID="286053" Value="Stacker Start Position:"/>
+    <Text ID="286054" Value="Outlet Start Position:"/>
+    <Text ID="286055" Value="Stacker Stop Position:"/>
+    <Text ID="286056" Value="Outlet Stop Position:"/>
+    <Text ID="286155" Value="Stacker: Transport Offset:"/>
+    <Text ID="286158" Value="Stacker: Indexing-Delay:"/>
+    <Text ID="286159" Value="Stacker: Max. Sink Delay:"/>
+    <Text ID="286180" Value="Outlet: Stack Change:"/>
+    <Text ID="286207" Value="Outlet: RollOff Return Time:"/>
+    <Text ID="286208" Value="Outlet: Cross-Belt length:"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Position"/>
+    <Text ID="287132" Value="on Customer- or Article-Change"/>
+    <Text ID="287131" Value="on Fold-Program-Change"/>
+    <Text ID="287156" Value="No Stack Change"/>
+    <Text ID="325468" Value="on Metricon command"/>
+    <Text ID="394229" Value="Stacker"/>
+    <Text ID="285782" Value="On"/>
+    <Text ID="434740" Value="Flaps delay open"/>
+    <Text ID="434741" Value="Flaps delay close"/>
+    <Text ID="434742" Value="Flaps restart delay"/>
+    <Text ID="434748" Value="Stacker: Lift raise delay"/>
+    <Text ID="485373" Value="on Metricon command &amp; reset"/>
+    <Text ID="486762" Value="CrossBelt Type #"/>
+    <Text ID="493171" Value="on Metricon &amp; FoldProgram"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="msek"/>
+    <Text ID="285781" Value="Stk"/>
+    <Text ID="285783" Value="Av"/>
+    <Text ID="285786" Value="sek"/>
+    <Text ID="286053" Value="Stacker Start Posisjon:"/>
+    <Text ID="286054" Value="Utløp Start posisjon:"/>
+    <Text ID="286055" Value="Stacker Stop Posisjon:"/>
+    <Text ID="286056" Value="Utløp Stopp posisjon:"/>
+    <Text ID="286155" Value="Stacker: Transport Offset:"/>
+    <Text ID="286158" Value="Stacker: forsinkelse utkjöringstid:"/>
+    <Text ID="286159" Value="Stacker: max forsinkelse ned"/>
+    <Text ID="286180" Value="Utløp: Stacker bytte"/>
+    <Text ID="286207" Value="Utløp: Tid rolloff tilbake"/>
+    <Text ID="286208" Value="Utløp: Kryss-Bånd lengde"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Posisjon"/>
+    <Text ID="287132" Value="ved bytte av kunde eller artikel"/>
+    <Text ID="287131" Value="ved bytte av foldeprogram"/>
+    <Text ID="287156" Value="Ingen stacker bytte"/>
+    <Text ID="325468" Value="På kommando fra Metricon"/>
+    <Text ID="394229" Value="Stacker"/>
+    <Text ID="285782" Value="På"/>
+    <Text ID="434740" Value="Forsinkelse åpninig av stackerflaps"/>
+    <Text ID="434741" Value="Forsinkelse lukking av stackerflaps"/>
+    <Text ID="434742" Value="Forsinkelse restart stakkerflaps"/>
+    <Text ID="434748" Value="Stacker: forsinkelse løft stackerheis"/>
+    <Text ID="485373" Value="På kommando fra Metricon &amp; reset"/>
+    <Text ID="486762" Value="CrossBelt Type #"/>
+    <Text ID="493171" Value="on Metricon &amp; FoldProgram"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="285776" Value="cm"/>
+    <Text ID="285778" Value="ms"/>
+    <Text ID="285781" Value="Peças"/>
+    <Text ID="285783" Value="Off"/>
+    <Text ID="285786" Value="sec"/>
+    <Text ID="286053" Value="Posição inicial do empilhador:"/>
+    <Text ID="286054" Value="Posição inicial da saída:"/>
+    <Text ID="286055" Value="Posição de paragem do empilhador:"/>
+    <Text ID="286056" Value="Posição de paragem da saída:"/>
+    <Text ID="286155" Value="Empilhador: Deslocação do transporte: "/>
+    <Text ID="286158" Value="Empilhador: Atraso de indexação:"/>
+    <Text ID="286159" Value="Empilhador: Atraso máx. de afundamento:"/>
+    <Text ID="286180" Value="Saída: Mudança de pilha:"/>
+    <Text ID="286207" Value="Saída: Tempo de regresso do descarregador:"/>
+    <Text ID="286208" Value="Saída: Comprimento da correia cruzada:"/>
+    <Text ID="291152" Value="mm"/>
+    <Text ID="295660" Value="Position"/>
+    <Text ID="287132" Value="na Mudança de cliente ou artigo"/>
+    <Text ID="287131" Value="na Mudança do programa de dobragem"/>
+    <Text ID="287156" Value="Sem mudança de pilha"/>
+    <Text ID="325468" Value="no comando Metricon"/>
+    <Text ID="394229" Value="Stacker"/>
+    <Text ID="285782" Value="On"/>
+    <Text ID="434740" Value="Atraso de abertura das abas"/>
+    <Text ID="434741" Value="Atraso de fecho das abas"/>
+    <Text ID="434742" Value="Atraso de reinício das abas"/>
+    <Text ID="434748" Value="Empilhador: Atraso de elevação do elevador"/>
+    <Text ID="485373" Value="no comando e reinicialização do Metricon"/>
+    <Text ID="486762" Value="Tipo de correia cruzada n.º"/>
+    <Text ID="493171" Value="no Metricon e programa de dobragem"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="285776" Value="0"/>
+    <Index ID="285778" Value="5"/>
+    <Index ID="285781" Value="11"/>
+    <Index ID="285783" Value="16"/>
+    <Index ID="285786" Value="4"/>
+    <Index ID="286053" Value="30"/>
+    <Index ID="286054" Value="35"/>
+    <Index ID="286055" Value="31"/>
+    <Index ID="286056" Value="36"/>
+    <Index ID="286155" Value="50"/>
+    <Index ID="286158" Value="52"/>
+    <Index ID="286159" Value="53"/>
+    <Index ID="286180" Value="55"/>
+    <Index ID="286207" Value="58"/>
+    <Index ID="286208" Value="59"/>
+    <Index ID="291152" Value="3"/>
+    <Index ID="295660" Value="25"/>
+    <Index ID="287132" Value="72"/>
+    <Index ID="287131" Value="71"/>
+    <Index ID="287156" Value="70"/>
+    <Index ID="325468" Value="73"/>
+    <Index ID="394229" Value="81"/>
+    <Index ID="285782" Value="15"/>
+    <Index ID="434740" Value="40"/>
+    <Index ID="434741" Value="41"/>
+    <Index ID="434742" Value="42"/>
+    <Index ID="434748" Value="45"/>
+    <Index ID="485373" Value="74"/>
+    <Index ID="486762" Value="82"/>
+    <Index ID="493171" Value="75"/>
+  </IndexMap>
+</TextGroup>

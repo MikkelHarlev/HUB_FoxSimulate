@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigH_Opener">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="27"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="309475" Value="Delay lift time"/>
+    <Text ID="309476" Value="Delay hanger clamp"/>
+    <Text ID="309477" Value="Hanger reset time"/>
+    <Text ID="309478" Value="Slide out time"/>
+    <Text ID="309479" Value="Delay hanger reset"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Run time after garment left"/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="309475" Value="Verzögerung Entladeplatte hochfahren"/>
+    <Text ID="309476" Value="Verzögerung Bügel klemmen"/>
+    <Text ID="309477" Value="Bügel Rückstell Zeit"/>
+    <Text ID="309478" Value="Bügel Auslaufzeit"/>
+    <Text ID="309479" Value="Verzögerung Bügel spannen"/>
+    <Text ID="309490" Value="msek"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Nachlaufzeit TC2 nach letztem Teil"/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="309475" Value="Delay lift time"/>
+    <Text ID="309476" Value="Delay hanger clamp"/>
+    <Text ID="309477" Value="Hanger reset time"/>
+    <Text ID="309478" Value="Slide out time"/>
+    <Text ID="309479" Value="Delay hanger reset"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Run time after garment left"/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="627951" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="309475" Value="Délais DU en haut"/>
+    <Text ID="309476" Value="Délais serrage cintre"/>
+    <Text ID="309477" Value="Temps fermenture cintre"/>
+    <Text ID="309478" Value="Max. Temp Sortie Cintre"/>
+    <Text ID="309479" Value="Délais fermenture cintre"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Temps fonction TC aprè dern.Vt."/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="309475" Value="Forsinkelse løftetid"/>
+    <Text ID="309476" Value="Forsinkelse bøjleklemme"/>
+    <Text ID="309477" Value="Bøjle reset tid"/>
+    <Text ID="309478" Value="Tid for udkøring"/>
+    <Text ID="309479" Value="Forsinkelse bøjle reset"/>
+    <Text ID="309490" Value="msek"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Køretid efter tøj forsvundet"/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="309475" Value="Ritardo Alzamento"/>
+    <Text ID="309476" Value="Ritardo "/>
+    <Text ID="309477" Value="Tempo reset Gruccia"/>
+    <Text ID="309478" Value="Tempo Scivolamento"/>
+    <Text ID="309479" Value="Ritardo reset Gruccia"/>
+    <Text ID="309490" Value="millisec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Tempo funzionamento dopo passaggio indumento"/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="309475" Value="Delay lift time"/>
+    <Text ID="309476" Value="Delay hanger clamp"/>
+    <Text ID="309477" Value="Hanger reset time"/>
+    <Text ID="309478" Value="Slide out time"/>
+    <Text ID="309479" Value="Delay hanger reset"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Run time after garment left"/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="309475" Value="Delay lift time"/>
+    <Text ID="309476" Value="Delay hanger clamp"/>
+    <Text ID="309477" Value="Hanger reset time"/>
+    <Text ID="309478" Value="Slide out time"/>
+    <Text ID="309479" Value="Delay hanger reset"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Run time after garment left"/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="309475" Value="Delay lift time"/>
+    <Text ID="309476" Value="Delay hanger clamp"/>
+    <Text ID="309477" Value="Hanger reset time"/>
+    <Text ID="309478" Value="Slide out time"/>
+    <Text ID="309479" Value="Delay hanger reset"/>
+    <Text ID="309490" Value="msec"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Run time after garment left"/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="309475" Value=""/>
+    <Text ID="309476" Value=""/>
+    <Text ID="309477" Value=""/>
+    <Text ID="309478" Value=""/>
+    <Text ID="309479" Value=""/>
+    <Text ID="309490" Value=""/>
+    <Text ID="394443" Value=""/>
+    <Text ID="394444" Value=""/>
+    <Text ID="441427" Value=""/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value=""/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="309475" Value=""/>
+    <Text ID="309476" Value=""/>
+    <Text ID="309477" Value=""/>
+    <Text ID="309478" Value=""/>
+    <Text ID="309479" Value=""/>
+    <Text ID="309490" Value=""/>
+    <Text ID="394443" Value=""/>
+    <Text ID="394444" Value=""/>
+    <Text ID="441427" Value=""/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value=""/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="309475" Value=""/>
+    <Text ID="309476" Value=""/>
+    <Text ID="309477" Value=""/>
+    <Text ID="309478" Value=""/>
+    <Text ID="309479" Value=""/>
+    <Text ID="309490" Value=""/>
+    <Text ID="394443" Value=""/>
+    <Text ID="394444" Value=""/>
+    <Text ID="441427" Value=""/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value=""/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="309475" Value=""/>
+    <Text ID="309476" Value=""/>
+    <Text ID="309477" Value=""/>
+    <Text ID="309478" Value=""/>
+    <Text ID="309479" Value=""/>
+    <Text ID="309490" Value=""/>
+    <Text ID="394443" Value=""/>
+    <Text ID="394444" Value=""/>
+    <Text ID="441427" Value=""/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value=""/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="309475" Value=""/>
+    <Text ID="309476" Value=""/>
+    <Text ID="309477" Value=""/>
+    <Text ID="309478" Value=""/>
+    <Text ID="309479" Value=""/>
+    <Text ID="309490" Value=""/>
+    <Text ID="394443" Value=""/>
+    <Text ID="394444" Value=""/>
+    <Text ID="441427" Value=""/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value=""/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="309475" Value=""/>
+    <Text ID="309476" Value=""/>
+    <Text ID="309477" Value=""/>
+    <Text ID="309478" Value=""/>
+    <Text ID="309479" Value=""/>
+    <Text ID="309490" Value=""/>
+    <Text ID="394443" Value=""/>
+    <Text ID="394444" Value=""/>
+    <Text ID="441427" Value=""/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value=""/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="309475" Value="Forsinkelse løftetid"/>
+    <Text ID="309476" Value="Forsinkelse Hengerklemme"/>
+    <Text ID="309477" Value="Henger resett tid"/>
+    <Text ID="309478" Value="Tid for utkjøring"/>
+    <Text ID="309479" Value="Forsinkelse resett henger"/>
+    <Text ID="309490" Value="msek"/>
+    <Text ID="394443" Value="A"/>
+    <Text ID="394444" Value="B"/>
+    <Text ID="441427" Value="Gangtid etter tøy forsvunnet"/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value="Pajamas, delay restart"/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="309475" Value=""/>
+    <Text ID="309476" Value=""/>
+    <Text ID="309477" Value=""/>
+    <Text ID="309478" Value=""/>
+    <Text ID="309479" Value=""/>
+    <Text ID="309490" Value=""/>
+    <Text ID="394443" Value=""/>
+    <Text ID="394444" Value=""/>
+    <Text ID="441427" Value=""/>
+    <Text ID="450504" Value="Pajamas, motor position"/>
+    <Text ID="450505" Value=""/>
+    <Text ID="627951" Value="Pajamas, motor position 2"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="309475" Value="0"/>
+    <Index ID="309476" Value="1"/>
+    <Index ID="309477" Value="2"/>
+    <Index ID="309478" Value="3"/>
+    <Index ID="309479" Value="4"/>
+    <Index ID="309490" Value="50"/>
+    <Index ID="394443" Value="51"/>
+    <Index ID="394444" Value="52"/>
+    <Index ID="441427" Value="5"/>
+    <Index ID="450504" Value="10"/>
+    <Index ID="450505" Value="11"/>
+    <Index ID="627951" Value="12"/>
+  </IndexMap>
+</TextGroup>

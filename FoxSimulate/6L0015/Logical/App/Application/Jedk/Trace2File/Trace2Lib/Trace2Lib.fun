@@ -1,0 +1,86 @@
+
+FUNCTION T2F_Log : BOOL
+	VAR_INPUT
+		DA : UDINT;
+	END_VAR
+	VAR
+		Data : REFERENCE TO Trace2File_Data_Type;
+		Tmp : STRING[20];
+		UsedFifo : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION T2F_New : BOOL
+	VAR_INPUT
+		DA : UDINT;
+		F : UDINT;
+		W : UDINT;
+	END_VAR
+	VAR
+		Data : REFERENCE TO Trace2File_Data_Type;
+		notused : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION T2F_AddStringADR : BOOL
+	VAR_INPUT
+		DA : UDINT;
+		T : UDINT;
+	END_VAR
+	VAR
+		Data : REFERENCE TO Trace2File_Data_Type;
+		notused : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION T2F_AddString : BOOL
+	VAR_INPUT
+		DA : UDINT;
+		T : UDINT;
+	END_VAR
+	VAR
+		Data : REFERENCE TO Trace2File_Data_Type;
+		notused : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION T2F_AddUDINT_HEX : BOOL
+	VAR_INPUT
+		DA : UDINT;
+		N : UDINT;
+		V : USINT;
+	END_VAR
+	VAR
+		Data : REFERENCE TO Trace2File_Data_Type;
+		Text : STRING[20];
+		notused : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION T2F_AddUDINT : BOOL
+	VAR_INPUT
+		DA : UDINT;
+		N : UDINT;
+		V : UDINT;
+	END_VAR
+	VAR
+		Data : REFERENCE TO Trace2File_Data_Type;
+		Text : STRING[20];
+		notused : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION LogEntry : UINT
+	VAR_INPUT
+		TraceLogEnable : BOOL; (*4*)
+		DA : UDINT; (*4*)
+		Priority : UINT;
+		LogBookLevel : UINT;
+		LogValue : UDINT;
+		LogText : STRING[80];
+	END_VAR
+	VAR
+		T2FD : REFERENCE TO Trace2File_Data_Type; (*11*)
+		TaskName : STRING[10];
+	END_VAR
+END_FUNCTION

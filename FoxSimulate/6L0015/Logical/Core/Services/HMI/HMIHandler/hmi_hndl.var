@@ -1,0 +1,22 @@
+VAR
+	SelectedTheme : ARRAY[0..NUMBER_OF_EXTRA_PANELS] OF USINT := [2(0)];
+	ButtonTheme : ARRAY[0..4] OF HMIButtonTheme_Type := [5(0)];
+	HMIMemPool : AsMemPartCreate;
+	KeyNo : USINT := 0;
+	i : USINT;
+	PanelHandler : ARRAY[0..NUMBER_OF_EXTRA_PANELS] OF HMIHandler;
+	BootCalc : UINT;
+	UpdateSpinCount : UINT;
+	SpinCountSpeed : UINT := 2;
+	ButtonMagic : ARRAY[0..NUMBER_OF_EXTRA_PANELS] OF HMIMagicButtons_Type;
+END_VAR
+VAR CONSTANT
+	NUMBER_OF_EXTRA_PANELS : UINT := 1;
+END_VAR
+VAR
+	pInterface : REFERENCE TO HMIService_Type;
+	Term1PanelHandler : REFERENCE TO HMIHandler;
+	MasterPanelHandler : REFERENCE TO HMIHandler;
+	cnt : ARRAY[0..1] OF UDINT;
+	rTrig : ARRAY[0..1] OF R_TRIG;
+END_VAR

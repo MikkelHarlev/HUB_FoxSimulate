@@ -1,0 +1,31 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: InterconnectHandler
+ * File: InterconnectHandler.var
+ * Author: eg
+ * Created: October 10, 2012
+ ********************************************************************
+ * Local variables of program InterconnectHandler
+ ********************************************************************)
+VAR
+	No : USINT;
+	arrServerConnectionControl : ARRAY[0..99] OF udtServerConnectionControl_type := [100((0))];
+	arrClientConnectionControl : ARRAY[0..99] OF udtClientConnectionControl_type ;
+	arrXMLClientConnection : ARRAY[0..99] OF XML_ClientConnection;
+	arrXMLServerConnection : ARRAY[0..99] OF XML_ServerConnection;
+	pThis : REFERENCE TO XMLInterconnect_Type;
+	i : USINT;
+	pClientCom : REFERENCE TO OutletCom_type;
+	pIsConnected : REFERENCE TO BOOL;
+	clientLogic : ARRAY[0..99] OF OutletCom_type;
+	serverLogic : ARRAY[0..99] OF InletCom_type;
+	pServerCom : REFERENCE TO InletCom_type;
+	isClientActivated : ARRAY[0..99] OF BOOL;
+	isServerActivated : ARRAY[0..99] OF BOOL;
+	pConnectionManager : REFERENCE TO XMLRPCCL_Type;
+	pJenTrans : REFERENCE TO XMLRPCInterComCH_Type;
+	pStatus : REFERENCE TO ComCMIFConStatus_Type;
+	clientStatusString : ARRAY[0..9] OF STRING[200];
+	serverStatusString : ARRAY[0..9] OF STRING[200];
+END_VAR

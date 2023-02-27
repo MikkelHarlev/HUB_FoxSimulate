@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigMetricon">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="38"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="327602" Value="Metricon IP Address"/>
+    <Text ID="327603" Value="Refresh time"/>
+    <Text ID="327604" Value="I/O Full signals"/>
+    <Text ID="327605" Value="Data exchange mode"/>
+    <Text ID="327606" Value="msec"/>
+    <Text ID="327607" Value="Full data exchange"/>
+    <Text ID="327608" Value="Autoprogram only"/>
+    <Text ID="327616" Value="Com link full signals"/>
+    <Text ID="392701" Value="MLabel IP Address"/>
+    <Text ID="392702" Value="Refresh time"/>
+    <Text ID="437881" Value="No communication"/>
+    <Text ID="437882" Value="Ehternet XML"/>
+    <Text ID="437883" Value="Ehternet PVI"/>
+    <Text ID="437884" Value="Serial"/>
+    <Text ID="437885" Value="BCD Relays"/>
+    <Text ID="449051" Value="Autoprogram + Stack change "/>
+    <Text ID="449184" Value="Only full signals"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="327602" Value="Metricon IP Address"/>
+    <Text ID="327603" Value="Reaktivierungs Zeit"/>
+    <Text ID="327604" Value="I/O voll Signale"/>
+    <Text ID="327605" Value="Daten Austausch Modus"/>
+    <Text ID="327606" Value="msec"/>
+    <Text ID="327607" Value="Voller Datenaustausch"/>
+    <Text ID="327608" Value="Autoprogram only"/>
+    <Text ID="327616" Value="Com link Vollsignale"/>
+    <Text ID="392701" Value="MLabel IP Address"/>
+    <Text ID="392702" Value="Reaktivierungs Zeit"/>
+    <Text ID="437881" Value="No communication"/>
+    <Text ID="437882" Value="Ehternet XML"/>
+    <Text ID="437883" Value="Ehternet PVI"/>
+    <Text ID="437884" Value="Serial"/>
+    <Text ID="437885" Value="BCD Relays"/>
+    <Text ID="449051" Value="Autoprogram + Stack change "/>
+    <Text ID="449184" Value="Only full signals"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="327602" Value="Metricon IP Address"/>
+    <Text ID="327603" Value="Refresh time"/>
+    <Text ID="327604" Value="I/O Full signals"/>
+    <Text ID="327605" Value="Data exchange mode"/>
+    <Text ID="327606" Value="msec"/>
+    <Text ID="327607" Value="Full data exchange"/>
+    <Text ID="327608" Value="Autoprogram only"/>
+    <Text ID="327616" Value="Com link full signals"/>
+    <Text ID="392701" Value="MLabel IP Address"/>
+    <Text ID="392702" Value="Refresh time"/>
+    <Text ID="437881" Value="No communication"/>
+    <Text ID="437882" Value="Ehternet XML"/>
+    <Text ID="437883" Value="Ehternet PVI"/>
+    <Text ID="437884" Value="Serial"/>
+    <Text ID="437885" Value="BCD Relays"/>
+    <Text ID="449051" Value="Autoprogram + Stack change "/>
+    <Text ID="449184" Value="Only full signals"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="327602" Value="Metricon IP Address"/>
+    <Text ID="327603" Value="Refrechisement temps"/>
+    <Text ID="327604" Value="I/O Signal seulement"/>
+    <Text ID="327605" Value="Data echange mode"/>
+    <Text ID="327606" Value="msec"/>
+    <Text ID="327607" Value="Complete echange mode"/>
+    <Text ID="327608" Value="seulement Autoprogram"/>
+    <Text ID="327616" Value="comm.que Cintre vide plein"/>
+    <Text ID="392701" Value="MLabel IP Address"/>
+    <Text ID="392702" Value="Refrechisement temps"/>
+    <Text ID="437881" Value="Pas de communication"/>
+    <Text ID="437882" Value="Ehternet XML"/>
+    <Text ID="437883" Value="Ehternet PVI"/>
+    <Text ID="437884" Value="Serial"/>
+    <Text ID="437885" Value="BCD Relais"/>
+    <Text ID="449051" Value="Autoprogram + Changement empileur"/>
+    <Text ID="449184" Value="Seulement signals plein"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="327602" Value="Metricon IP Addresse"/>
+    <Text ID="327603" Value="Opdateringstid"/>
+    <Text ID="327604" Value="I/O Fulde signaler"/>
+    <Text ID="327605" Value="Overføringsmodus data"/>
+    <Text ID="327606" Value="msek"/>
+    <Text ID="327607" Value="Full data overføring"/>
+    <Text ID="327608" Value="Kun Autoprogram"/>
+    <Text ID="327616" Value="Kommunikationslink fulde signaler"/>
+    <Text ID="392701" Value="Mlabel ip adresse"/>
+    <Text ID="392702" Value="Opdateringstid"/>
+    <Text ID="437881" Value="Ingen kommunikation"/>
+    <Text ID="437882" Value="Ehternet XML"/>
+    <Text ID="437883" Value="Ehternet PVI"/>
+    <Text ID="437884" Value="Seriel"/>
+    <Text ID="437885" Value="BCD relæer"/>
+    <Text ID="449051" Value="Autoprogram + Stack Endring"/>
+    <Text ID="449184" Value="Kun Fulde signaler"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="327602" Value="Metricon IP Indirizzo"/>
+    <Text ID="327603" Value="Refresh time"/>
+    <Text ID="327604" Value="I/O Segnali Completi"/>
+    <Text ID="327605" Value="Modalità Scambio Dati"/>
+    <Text ID="327606" Value="millisec"/>
+    <Text ID="327607" Value="Scambio Dati Totali"/>
+    <Text ID="327608" Value="Solo Autoprogramma"/>
+    <Text ID="327616" Value="Com link Segnali Completi"/>
+    <Text ID="392701" Value="MLabel IP Indirizzo"/>
+    <Text ID="392702" Value="Refresh time"/>
+    <Text ID="437881" Value="No communicazione"/>
+    <Text ID="437882" Value="Ehternet XML"/>
+    <Text ID="437883" Value="Ehternet PVI"/>
+    <Text ID="437884" Value="Serial"/>
+    <Text ID="437885" Value="BCD Relays"/>
+    <Text ID="449051" Value="Autoprograma + Cambio Accatastatore"/>
+    <Text ID="449184" Value="Solo Segnali Completi"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="327602" Value="Metricon IP Address"/>
+    <Text ID="327603" Value="Refresh time"/>
+    <Text ID="327604" Value="I/O Full signals"/>
+    <Text ID="327605" Value="Data exchange mode"/>
+    <Text ID="327606" Value="msec"/>
+    <Text ID="327607" Value="Full data exchange"/>
+    <Text ID="327608" Value="Autoprogram only"/>
+    <Text ID="327616" Value="Com link full signals"/>
+    <Text ID="392701" Value="MLabel IP Address"/>
+    <Text ID="392702" Value="Refresh time"/>
+    <Text ID="437881" Value="No communication"/>
+    <Text ID="437882" Value="Ehternet XML"/>
+    <Text ID="437883" Value="Ehternet PVI"/>
+    <Text ID="437884" Value="Serial"/>
+    <Text ID="437885" Value="BCD Relays"/>
+    <Text ID="449051" Value="Autoprogram + Stack change "/>
+    <Text ID="449184" Value="Only full signals"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="327602" Value="Metricon IP Address"/>
+    <Text ID="327603" Value="Refresh time"/>
+    <Text ID="327604" Value="I/O Full signals"/>
+    <Text ID="327605" Value="Data exchange mode"/>
+    <Text ID="327606" Value="msec"/>
+    <Text ID="327607" Value="Full data exchange"/>
+    <Text ID="327608" Value="Autoprogram only"/>
+    <Text ID="327616" Value="Com link full signals"/>
+    <Text ID="392701" Value="MLabel IP Address"/>
+    <Text ID="392702" Value="Refresh time"/>
+    <Text ID="437881" Value="No communication"/>
+    <Text ID="437882" Value="Ehternet XML"/>
+    <Text ID="437883" Value="Ehternet PVI"/>
+    <Text ID="437884" Value="Serial"/>
+    <Text ID="437885" Value="BCD Relays"/>
+    <Text ID="449051" Value="Autoprogram + Stack change "/>
+    <Text ID="449184" Value="Only full signals"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="327602" Value="Metricon IP Address"/>
+    <Text ID="327603" Value="Refresh time"/>
+    <Text ID="327604" Value="I/O Full signals"/>
+    <Text ID="327605" Value="Data exchange mode"/>
+    <Text ID="327606" Value="msec"/>
+    <Text ID="327607" Value="Full data exchange"/>
+    <Text ID="327608" Value="Autoprogram only"/>
+    <Text ID="327616" Value="Com link full signals"/>
+    <Text ID="392701" Value="MLabel IP Address"/>
+    <Text ID="392702" Value="Refresh time"/>
+    <Text ID="437881" Value="No communication"/>
+    <Text ID="437882" Value="Ehternet XML"/>
+    <Text ID="437883" Value="Ehternet PVI"/>
+    <Text ID="437884" Value="Serial"/>
+    <Text ID="437885" Value="BCD Relays"/>
+    <Text ID="449051" Value="Autoprogram + Stack change "/>
+    <Text ID="449184" Value="Only full signals"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="327602" Value=""/>
+    <Text ID="327603" Value=""/>
+    <Text ID="327604" Value=""/>
+    <Text ID="327605" Value=""/>
+    <Text ID="327606" Value="msec"/>
+    <Text ID="327607" Value=""/>
+    <Text ID="327608" Value=""/>
+    <Text ID="327616" Value=""/>
+    <Text ID="392701" Value=""/>
+    <Text ID="392702" Value=""/>
+    <Text ID="437881" Value=""/>
+    <Text ID="437882" Value=""/>
+    <Text ID="437883" Value=""/>
+    <Text ID="437884" Value=""/>
+    <Text ID="437885" Value=""/>
+    <Text ID="449051" Value=""/>
+    <Text ID="449184" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="327602" Value=""/>
+    <Text ID="327603" Value=""/>
+    <Text ID="327604" Value=""/>
+    <Text ID="327605" Value=""/>
+    <Text ID="327606" Value=""/>
+    <Text ID="327607" Value=""/>
+    <Text ID="327608" Value=""/>
+    <Text ID="327616" Value=""/>
+    <Text ID="392701" Value=""/>
+    <Text ID="392702" Value=""/>
+    <Text ID="437881" Value=""/>
+    <Text ID="437882" Value=""/>
+    <Text ID="437883" Value=""/>
+    <Text ID="437884" Value=""/>
+    <Text ID="437885" Value=""/>
+    <Text ID="449051" Value=""/>
+    <Text ID="449184" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="327602" Value=""/>
+    <Text ID="327603" Value=""/>
+    <Text ID="327604" Value=""/>
+    <Text ID="327605" Value=""/>
+    <Text ID="327606" Value=""/>
+    <Text ID="327607" Value=""/>
+    <Text ID="327608" Value=""/>
+    <Text ID="327616" Value=""/>
+    <Text ID="392701" Value=""/>
+    <Text ID="392702" Value=""/>
+    <Text ID="437881" Value=""/>
+    <Text ID="437882" Value=""/>
+    <Text ID="437883" Value=""/>
+    <Text ID="437884" Value=""/>
+    <Text ID="437885" Value=""/>
+    <Text ID="449051" Value=""/>
+    <Text ID="449184" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="327602" Value=""/>
+    <Text ID="327603" Value=""/>
+    <Text ID="327604" Value=""/>
+    <Text ID="327605" Value=""/>
+    <Text ID="327606" Value=""/>
+    <Text ID="327607" Value=""/>
+    <Text ID="327608" Value=""/>
+    <Text ID="327616" Value=""/>
+    <Text ID="392701" Value=""/>
+    <Text ID="392702" Value=""/>
+    <Text ID="437881" Value=""/>
+    <Text ID="437882" Value=""/>
+    <Text ID="437883" Value=""/>
+    <Text ID="437884" Value=""/>
+    <Text ID="437885" Value=""/>
+    <Text ID="449051" Value=""/>
+    <Text ID="449184" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="327602" Value=""/>
+    <Text ID="327603" Value=""/>
+    <Text ID="327604" Value=""/>
+    <Text ID="327605" Value=""/>
+    <Text ID="327606" Value=""/>
+    <Text ID="327607" Value=""/>
+    <Text ID="327608" Value=""/>
+    <Text ID="327616" Value=""/>
+    <Text ID="392701" Value=""/>
+    <Text ID="392702" Value=""/>
+    <Text ID="437881" Value=""/>
+    <Text ID="437882" Value=""/>
+    <Text ID="437883" Value=""/>
+    <Text ID="437884" Value=""/>
+    <Text ID="437885" Value=""/>
+    <Text ID="449051" Value=""/>
+    <Text ID="449184" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="327602" Value=""/>
+    <Text ID="327603" Value=""/>
+    <Text ID="327604" Value=""/>
+    <Text ID="327605" Value=""/>
+    <Text ID="327606" Value=""/>
+    <Text ID="327607" Value=""/>
+    <Text ID="327608" Value=""/>
+    <Text ID="327616" Value=""/>
+    <Text ID="392701" Value=""/>
+    <Text ID="392702" Value=""/>
+    <Text ID="437881" Value=""/>
+    <Text ID="437882" Value=""/>
+    <Text ID="437883" Value=""/>
+    <Text ID="437884" Value=""/>
+    <Text ID="437885" Value=""/>
+    <Text ID="449051" Value=""/>
+    <Text ID="449184" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="327602" Value="Metricon IP Addresse"/>
+    <Text ID="327603" Value="Oppdaterings tid"/>
+    <Text ID="327604" Value="I/O Fulle signaler"/>
+    <Text ID="327605" Value="Overføringsmodus data"/>
+    <Text ID="327606" Value="msek"/>
+    <Text ID="327607" Value="Full data overføring"/>
+    <Text ID="327608" Value="Autoprogram bara"/>
+    <Text ID="327616" Value="Kommunikasjonslink fulle signaler"/>
+    <Text ID="392701" Value="MLabel IP Addresse"/>
+    <Text ID="392702" Value="Oppdaterings tid"/>
+    <Text ID="437881" Value="Ingen Kommunikasjon"/>
+    <Text ID="437882" Value="Ehternet XML"/>
+    <Text ID="437883" Value="Ehternet PVI"/>
+    <Text ID="437884" Value="Seriell"/>
+    <Text ID="437885" Value="BCD Relèer"/>
+    <Text ID="449051" Value="Autoprogram + Stack change "/>
+    <Text ID="449184" Value="Only full signals"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="327602" Value=""/>
+    <Text ID="327603" Value=""/>
+    <Text ID="327604" Value=""/>
+    <Text ID="327605" Value=""/>
+    <Text ID="327606" Value=""/>
+    <Text ID="327607" Value=""/>
+    <Text ID="327608" Value=""/>
+    <Text ID="327616" Value=""/>
+    <Text ID="392701" Value=""/>
+    <Text ID="392702" Value=""/>
+    <Text ID="437881" Value=""/>
+    <Text ID="437882" Value=""/>
+    <Text ID="437883" Value=""/>
+    <Text ID="437884" Value=""/>
+    <Text ID="437885" Value=""/>
+    <Text ID="449051" Value=""/>
+    <Text ID="449184" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="327602" Value="10"/>
+    <Index ID="327603" Value="11"/>
+    <Index ID="327604" Value="71"/>
+    <Index ID="327605" Value="13"/>
+    <Index ID="327606" Value="0"/>
+    <Index ID="327607" Value="51"/>
+    <Index ID="327608" Value="52"/>
+    <Index ID="327616" Value="72"/>
+    <Index ID="392701" Value="150"/>
+    <Index ID="392702" Value="151"/>
+    <Index ID="437881" Value="80"/>
+    <Index ID="437882" Value="81"/>
+    <Index ID="437883" Value="82"/>
+    <Index ID="437884" Value="83"/>
+    <Index ID="437885" Value="84"/>
+    <Index ID="449051" Value="53"/>
+    <Index ID="449184" Value="54"/>
+  </IndexMap>
+</TextGroup>

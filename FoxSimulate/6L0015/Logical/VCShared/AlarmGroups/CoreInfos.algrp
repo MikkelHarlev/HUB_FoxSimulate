@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="CoreInfos">
+  <Property Name="AcknowledgeImage" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.pThis.Interface.AlarmGroup[1].Ack]"/>
+  <Property Name="ActiveBackColor" Value="14"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[Master.Core.Services.Alarms.AlarmHandler.pThis.Interface.AlarmGroup[1].Alarm]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="None"/>
+  <Property Name="DefaultBackColor" Value="14"/>
+  <Property Name="DefaultForeColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="2"/>
+  <Property Name="LatchedBackColor" Value="14"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="1"/>
+  <Property Name="QuitBackColor" Value="14"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="None"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="14">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="15">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="16">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="None"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="None"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="None"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="None"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="11">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="12">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="13">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="None"/>
+      <Property Name="RecordTrigger" Value="False"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="10">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="17">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="18">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value="Empty hanger blocked"/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="19">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="5764" Value="Check Alarm"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Ready To Start"/>
+      <Text ID="6052" Value="In Operation"/>
+      <Text ID="6053" Value="In Operation (Powersave Mode)"/>
+      <Text ID="6054" Value="Initializing"/>
+      <Text ID="6055" Value="Recipe Configuration Initializing"/>
+      <Text ID="6056" Value="Machine Configuration Initializing"/>
+      <Text ID="6057" Value="Hardware Configuration Initializing"/>
+      <Text ID="6058" Value="Acopos Initializing"/>
+      <Text ID="6059" Value="Inverter Initializing"/>
+      <Text ID="6061" Value="New Customer"/>
+      <Text ID="6062" Value="System Configuration initializing"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="5764" Value="Prüfe Alarm"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Bereit zum Starten"/>
+      <Text ID="6052" Value="In Betrieb"/>
+      <Text ID="6053" Value="In Betrieb (Energiesparmodus)"/>
+      <Text ID="6054" Value="Initialisieren"/>
+      <Text ID="6055" Value="Programmkonfiguration initialisieren"/>
+      <Text ID="6056" Value="Maschinenkonfiguration initialisieren"/>
+      <Text ID="6057" Value="Hardwarekonfiguration initalisieren"/>
+      <Text ID="6058" Value="Acopos initialisieren"/>
+      <Text ID="6059" Value="Umrichter initialisieren"/>
+      <Text ID="6061" Value="Neuer Kunde"/>
+      <Text ID="6062" Value="System Initialisierung"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Leerbuegel blockiert"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv-SE">
+      <Text ID="5764" Value="Check Alarm"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Beredd att starta"/>
+      <Text ID="6052" Value="I drift"/>
+      <Text ID="6053" Value="I Drift (Powersave Mode)"/>
+      <Text ID="6054" Value="Initialisering"/>
+      <Text ID="6055" Value="Initiera receptconfiguration"/>
+      <Text ID="6056" Value="Maskinkonfiguration initialisera"/>
+      <Text ID="6057" Value="Hårdvarukonfiguration Initialisera"/>
+      <Text ID="6058" Value="Acopos Initialisering"/>
+      <Text ID="6059" Value="Omvandlare initialiseras"/>
+      <Text ID="6061" Value="Ny kund"/>
+      <Text ID="6062" Value="Systemet initialiseras"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr-FR">
+      <Text ID="5764" Value="Verifier Alarme"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Pret pour marche"/>
+      <Text ID="6052" Value="En marche"/>
+      <Text ID="6053" Value="En Marche (Mode Economie)"/>
+      <Text ID="6054" Value="Initilisation"/>
+      <Text ID="6055" Value="Init.config.programme"/>
+      <Text ID="6056" Value="Init.config.machine"/>
+      <Text ID="6057" Value="Init.config.hardware"/>
+      <Text ID="6058" Value="Initialisation Acopos"/>
+      <Text ID="6059" Value="Initialisation Variateur"/>
+      <Text ID="6061" Value="Nouveau Client"/>
+      <Text ID="6062" Value="Init.config.systeme"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Cintre vide bloqué"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="da-DK">
+      <Text ID="5764" Value="Kontroller Alarm"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Klar til Start"/>
+      <Text ID="6052" Value="I drift"/>
+      <Text ID="6053" Value="I Drift (Energisparetilstand)"/>
+      <Text ID="6054" Value="Initialisering"/>
+      <Text ID="6055" Value="Kategori Konfiguration Initialisering"/>
+      <Text ID="6056" Value="Maskin Konfiguration initialisering"/>
+      <Text ID="6057" Value="Hardware Konfiguration initialisering"/>
+      <Text ID="6058" Value="Acopos Initialisering"/>
+      <Text ID="6059" Value="Omformer Initialisering"/>
+      <Text ID="6061" Value="Ny kunde"/>
+      <Text ID="6062" Value="System Initialisering"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="it-IT">
+      <Text ID="5764" Value="Controllo allarmi"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Pronta per Avviamento"/>
+      <Text ID="6052" Value="In Funzione"/>
+      <Text ID="6053" Value="In Funzione (modalità risparmio energentico)"/>
+      <Text ID="6054" Value="Inizializzazione"/>
+      <Text ID="6055" Value="Inizializzaz. Configurazione Categorie"/>
+      <Text ID="6056" Value="Inizializzazione Config. Macchina"/>
+      <Text ID="6057" Value="Inizializz. Configurazione hardware"/>
+      <Text ID="6058" Value="Acopos Inizializz"/>
+      <Text ID="6059" Value="Avvio Inverter"/>
+      <Text ID="6061" Value="Nuovo cliente"/>
+      <Text ID="6062" Value="Inizializz. Configurazio sistema"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fi-FI">
+      <Text ID="5764" Value="Check Alarm"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Valmis käynnistettäväksi"/>
+      <Text ID="6052" Value="Toiminnassa"/>
+      <Text ID="6053" Value="In Operation (Powersave Mode)"/>
+      <Text ID="6054" Value="initialisoi"/>
+      <Text ID="6055" Value="Reseptin Konfigurointi Initialisoi"/>
+      <Text ID="6056" Value="Koneen konfigurointi alustus"/>
+      <Text ID="6057" Value="Laitteisto Määritys Alustus"/>
+      <Text ID="6058" Value="Acopos Initializing"/>
+      <Text ID="6059" Value="Inverter Initializing"/>
+      <Text ID="6061" Value="Uusi Asiakas"/>
+      <Text ID="6062" Value="Järjestelmä initialisointi"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="5764" Value="Check Alarm"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Klaar voor Start"/>
+      <Text ID="6052" Value="In Bedrijf"/>
+      <Text ID="6053" Value="In Bedrijf (Energie besparing Mode)"/>
+      <Text ID="6054" Value="Initialiseren"/>
+      <Text ID="6055" Value="Programma Configuratie Initialiseren"/>
+      <Text ID="6056" Value="Machine Configuratie initialiseren"/>
+      <Text ID="6057" Value="Hardware Configuratie Initialiseren"/>
+      <Text ID="6058" Value="Acopos Initialiseren"/>
+      <Text ID="6059" Value="Frequentieregelaar Initialiseren"/>
+      <Text ID="6061" Value="Nieuwe Klant"/>
+      <Text ID="6062" Value="Systeem Initialiseren"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="5764" Value="Check Alarm"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Listo para iniciar"/>
+      <Text ID="6052" Value="En operación"/>
+      <Text ID="6053" Value="In Operation (Powersave Mode)"/>
+      <Text ID="6054" Value="Inicialización"/>
+      <Text ID="6055" Value="Programa Inicialización de Configuración"/>
+      <Text ID="6056" Value="Configuración de máquina, Inicialización"/>
+      <Text ID="6057" Value="Inicializar configuración de Hardware"/>
+      <Text ID="6058" Value="Acopos Initializing"/>
+      <Text ID="6059" Value="Inverter Initializing"/>
+      <Text ID="6061" Value="Nuevo cliente"/>
+      <Text ID="6062" Value="Iniciar sistema"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pl-PL">
+      <Text ID="5764" Value="Check Alarm"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Gotowy do Startu"/>
+      <Text ID="6052" Value="W działaniu"/>
+      <Text ID="6053" Value="W działaniu (Powersave Mode)"/>
+      <Text ID="6054" Value="Inicjalizacja"/>
+      <Text ID="6055" Value="Opis inicjalizacji konfiguracji"/>
+      <Text ID="6056" Value="Maszyna w Inicjacji konfiguracyjnej"/>
+      <Text ID="6057" Value="Inicjacja konfiguracji hardweru"/>
+      <Text ID="6058" Value="Acopos Initializing"/>
+      <Text ID="6059" Value="Inverter Initializing"/>
+      <Text ID="6061" Value="Nowy Klient"/>
+      <Text ID="6062" Value="Inicjalizacja systemu"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="ru-RU">
+      <Text ID="5764" Value="Проверка Тревога"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Готово к Старту"/>
+      <Text ID="6052" Value="В Работе"/>
+      <Text ID="6053" Value="В Работе (Powersave Mode)"/>
+      <Text ID="6054" Value="Инициализация"/>
+      <Text ID="6055" Value="Программа Инициализ. Конфигурации"/>
+      <Text ID="6056" Value="Инициализ. Конфигур. Машины"/>
+      <Text ID="6057" Value="Инициализ. Конфигурации Оборудования"/>
+      <Text ID="6058" Value="Acopos Инициализация"/>
+      <Text ID="6059" Value="Инициализация Инвертера"/>
+      <Text ID="6061" Value="Новый клиент"/>
+      <Text ID="6062" Value="Инициал. Системы"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en">
+      <Text ID="5764" Value="Check Alarm"/>
+      <Text ID="5792" Value="Customer Configuration Initializing"/>
+      <Text ID="5794" Value="Operator Configuration Initializing"/>
+      <Text ID="5936" Value="File Devices Initializing"/>
+      <Text ID="6051" Value="Ready To Start"/>
+      <Text ID="6052" Value="In Operation"/>
+      <Text ID="6053" Value="In Operation (Powersave Mode)"/>
+      <Text ID="6054" Value="Initializing"/>
+      <Text ID="6055" Value="Recipe Configuration Initializing"/>
+      <Text ID="6056" Value="Machine Configuration Initializing"/>
+      <Text ID="6057" Value="Hardware Configuration Initializing"/>
+      <Text ID="6058" Value="Acopos Initializing"/>
+      <Text ID="6059" Value="Inverter Initializing"/>
+      <Text ID="6061" Value="New Customer"/>
+      <Text ID="6062" Value="System Configuration initializing"/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="5764" Value=""/>
+      <Text ID="5792" Value=""/>
+      <Text ID="5794" Value=""/>
+      <Text ID="5936" Value=""/>
+      <Text ID="6051" Value=""/>
+      <Text ID="6052" Value=""/>
+      <Text ID="6053" Value=""/>
+      <Text ID="6054" Value=""/>
+      <Text ID="6055" Value=""/>
+      <Text ID="6056" Value=""/>
+      <Text ID="6057" Value=""/>
+      <Text ID="6058" Value=""/>
+      <Text ID="6059" Value=""/>
+      <Text ID="6061" Value=""/>
+      <Text ID="6062" Value=""/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="cs-CZ">
+      <Text ID="5764" Value=""/>
+      <Text ID="5792" Value=""/>
+      <Text ID="5794" Value=""/>
+      <Text ID="5936" Value=""/>
+      <Text ID="6051" Value=""/>
+      <Text ID="6052" Value=""/>
+      <Text ID="6053" Value=""/>
+      <Text ID="6054" Value=""/>
+      <Text ID="6055" Value=""/>
+      <Text ID="6056" Value=""/>
+      <Text ID="6057" Value=""/>
+      <Text ID="6058" Value=""/>
+      <Text ID="6059" Value=""/>
+      <Text ID="6061" Value=""/>
+      <Text ID="6062" Value=""/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="en-US">
+      <Text ID="5764" Value=""/>
+      <Text ID="5792" Value=""/>
+      <Text ID="5794" Value=""/>
+      <Text ID="5936" Value=""/>
+      <Text ID="6051" Value=""/>
+      <Text ID="6052" Value=""/>
+      <Text ID="6053" Value=""/>
+      <Text ID="6054" Value=""/>
+      <Text ID="6055" Value=""/>
+      <Text ID="6056" Value=""/>
+      <Text ID="6057" Value=""/>
+      <Text ID="6058" Value=""/>
+      <Text ID="6059" Value=""/>
+      <Text ID="6061" Value=""/>
+      <Text ID="6062" Value=""/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="5764" Value="Sjekk alarm"/>
+      <Text ID="5792" Value="Kunde konfigurasjon initialiserer"/>
+      <Text ID="5794" Value="Operatørkonfigurasjon initialiseres"/>
+      <Text ID="5936" Value="Fil innretninger initialiseres"/>
+      <Text ID="6051" Value="Klar til å starte"/>
+      <Text ID="6052" Value="I drift"/>
+      <Text ID="6053" Value="I drift (strømsparermodus)"/>
+      <Text ID="6054" Value="Initialisering"/>
+      <Text ID="6055" Value="Programkonfigurering, initialisering"/>
+      <Text ID="6056" Value="Maskinkonfigurering, initialisering"/>
+      <Text ID="6057" Value="Maskinvarekonfigurering, initialisering"/>
+      <Text ID="6058" Value="Acopos initalisering"/>
+      <Text ID="6059" Value="Inverter initialisering"/>
+      <Text ID="6061" Value="Ny kunde"/>
+      <Text ID="6062" Value="Systemkonfigurasjon initialisering"/>
+      <Text ID="13868" Value="Jenway Blokkert"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-PT">
+      <Text ID="5764" Value=""/>
+      <Text ID="5792" Value=""/>
+      <Text ID="5794" Value=""/>
+      <Text ID="5936" Value=""/>
+      <Text ID="6051" Value=""/>
+      <Text ID="6052" Value=""/>
+      <Text ID="6053" Value=""/>
+      <Text ID="6054" Value=""/>
+      <Text ID="6055" Value=""/>
+      <Text ID="6056" Value=""/>
+      <Text ID="6057" Value=""/>
+      <Text ID="6058" Value=""/>
+      <Text ID="6059" Value=""/>
+      <Text ID="6061" Value=""/>
+      <Text ID="6062" Value=""/>
+      <Text ID="13868" Value="Jenway blocked"/>
+      <Text ID="14332" Value="Empty hanger blocked"/>
+      <Text ID="14733" Value="Simulation"/>
+      <Text ID="12408" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="5764" Value="0"/>
+      <Index ID="5792" Value="14"/>
+      <Index ID="5794" Value="15"/>
+      <Index ID="5936" Value="16"/>
+      <Index ID="6051" Value="1"/>
+      <Index ID="6052" Value="2"/>
+      <Index ID="6053" Value="3"/>
+      <Index ID="6054" Value="4"/>
+      <Index ID="6055" Value="11"/>
+      <Index ID="6056" Value="12"/>
+      <Index ID="6057" Value="13"/>
+      <Index ID="6058" Value="5"/>
+      <Index ID="6059" Value="7"/>
+      <Index ID="6061" Value="6"/>
+      <Index ID="6062" Value="10"/>
+      <Index ID="13868" Value="17"/>
+      <Index ID="14332" Value="18"/>
+      <Index ID="14733" Value="19"/>
+      <Index ID="12408" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

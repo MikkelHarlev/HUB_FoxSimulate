@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="1.00.0" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>ListHand.fun</File>
+    <File>ListHand.typ</File>
+    <File>ListHand.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="SYS_LIB" Target="SG4" FromVersion="1.38.6" />
+    <Dependency ObjectName="FileIO" Target="SG4" FromVersion="1.03.8" />
+    <Dependency ObjectName="AsString" Target="SG4" FromVersion="1.01.1" />
+    <Dependency ObjectName="AsMem" Target="SG4" FromVersion="1.00.2" />
+  </Dependencies>
+</Library>

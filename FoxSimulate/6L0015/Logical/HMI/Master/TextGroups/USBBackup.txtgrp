@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="USBBackup">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="32"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="345409" Value="Ready"/>
+    <Text ID="345410" Value="Wait For Backup Command"/>
+    <Text ID="345411" Value="Backup In Progress..."/>
+    <Text ID="345412" Value="Wait For Restore Command"/>
+    <Text ID="345413" Value="Restore In Progress..."/>
+    <Text ID="345414" Value="Invalid path"/>
+    <Text ID="345415" Value="The data length specified is too small"/>
+    <Text ID="345416" Value="No more file handles available"/>
+    <Text ID="345417" Value="IOCTL code error (system error)"/>
+    <Text ID="345418" Value="Invalid type"/>
+    <Text ID="345419" Value="File already exists"/>
+    <Text ID="345420" Value="Access not possible using the desired mode"/>
+    <Text ID="345421" Value="Illegal mode"/>
+    <Text ID="345422" Value="File does not exist"/>
+    <Text ID="345423" Value="File device not permitted (i.e. not initialized) "/>
+    <Text ID="345424" Value="Not enough memory for file with new write data"/>
+    <Text ID="345425" Value="Invalid file offset"/>
+    <Text ID="345426" Value="File not permitted"/>
+    <Text ID="345427" Value="Not enough virtual memory available to copy file "/>
+    <Text ID="345428" Value="General error in FileOpen "/>
+    <Text ID="345429" Value="General error in FileClose"/>
+    <Text ID="345430" Value="General error in FileRead"/>
+    <Text ID="345431" Value="General error in FileWrite"/>
+    <Text ID="345432" Value="General error in Ioctl"/>
+    <Text ID="345433" Value="The data pointer specified is invalid (NULL)"/>
+    <Text ID="345434" Value="Error in FileIoManager "/>
+    <Text ID="345435" Value="File not opened"/>
+    <Text ID="345436" Value="Invalid directory"/>
+    <Text ID="345437" Value="Directory does not exist"/>
+    <Text ID="345438" Value="Directory not empty"/>
+    <Text ID="345439" Value="Directory already exists"/>
+    <Text ID="345440" Value="Error during memory detection"/>
+    <Text ID="345441" Value="Not enough free memory on the target device "/>
+    <Text ID="345442" Value="Error in DeviceDriver"/>
+    <Text ID="345443" Value="Error in DeviceManager"/>
+    <Text ID="345444" Value="System Error. General System Fault."/>
+    <Text ID="345445" Value="FBK Enable is FALSE (only if FBK is no longer BUSY)"/>
+    <Text ID="345446" Value="FBK is still working"/>
+    <Text ID="345447" Value="All"/>
+    <Text ID="345448" Value="Customer and Article"/>
+    <Text ID="345449" Value="Operator"/>
+    <Text ID="345450" Value="Insert USB disc"/>
+    <Text ID="345451" Value="Service log"/>
+    <Text ID="345452" Value="Jenveiw log"/>
+    <Text ID="345453" Value="Jensen directory"/>
+    <Text ID="345454" Value="Statistics"/>
+    <Text ID="345575" Value="Set Project No."/>
+    <Text ID="345576" Value="Include"/>
+    <Text ID="345577" Value="Status"/>
+    <Text ID="345578" Value="Warning: Existing files on the destination will be overwritten!"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="345409" Value="Bereit"/>
+    <Text ID="345410" Value="Warten für Backup-Befehl"/>
+    <Text ID="345411" Value="Backup wird ausgeführt..."/>
+    <Text ID="345412" Value="Warten auf Restore Befehl"/>
+    <Text ID="345413" Value="Wiederherstellen in Bearbeitung ..."/>
+    <Text ID="345414" Value="Ungültiger Pfad"/>
+    <Text ID="345415" Value="Die spezifizierte Datenlänge ist zu klein "/>
+    <Text ID="345416" Value="Kein Dateizugriff mehr möglich"/>
+    <Text ID="345417" Value="Ein-/Ausgang CTL Kodefehler (Systemfehler)"/>
+    <Text ID="345418" Value="Ungueltiger Typ"/>
+    <Text ID="345419" Value="Datei bereits vorhanden"/>
+    <Text ID="345420" Value="Zugang im ausgewählten Modus nich möglich"/>
+    <Text ID="345421" Value="Ungültiger Modus"/>
+    <Text ID="345422" Value="Datei nicht vorhanden"/>
+    <Text ID="345423" Value="Dateilaufwerk nicht freigegeben (d.h. nicht voreingestellt) "/>
+    <Text ID="345424" Value="Nicht genug Speicher für Datei mit neuen Daten. "/>
+    <Text ID="345425" Value="Ungültiges Verzeichnis Verschiebung"/>
+    <Text ID="345426" Value="Datei nicht freigegeben"/>
+    <Text ID="345427" Value="Nicht genug virtueller Speicher vorhanden, um Datei zu kopieren. "/>
+    <Text ID="345428" Value="Allgemeiner Fehler in Datei Oeffnen"/>
+    <Text ID="345429" Value="Allgemeiner Fehler in Datei Schliessen"/>
+    <Text ID="345430" Value="Allgemeiner Fehler in Datei Lesen"/>
+    <Text ID="345431" Value="Allgemeiner Fehler in Datei Schreiben"/>
+    <Text ID="345432" Value="Allgemeiner Fehler in Ioctl"/>
+    <Text ID="345433" Value="Der spezifizierte Datenverweis ist ungültig (NULL) "/>
+    <Text ID="345434" Value="Fehler in Dateimanager "/>
+    <Text ID="345435" Value="Datei nicht geoeffnet"/>
+    <Text ID="345436" Value="Ungültiges Verzeichnis"/>
+    <Text ID="345437" Value="Verzeichnis nicht vorhanden"/>
+    <Text ID="345438" Value="Verzeichnis nicht leer "/>
+    <Text ID="345439" Value="Verzeichnis bereits vorhanden"/>
+    <Text ID="345440" Value="Fehler während Speicherprüfung"/>
+    <Text ID="345441" Value="Nicht genug freier Speicher auf dem Zielgerät. "/>
+    <Text ID="345442" Value="Fehler in Gerätetreiber "/>
+    <Text ID="345443" Value="Fehler in Gerätemanager"/>
+    <Text ID="345444" Value="Systemfehler. Allgemeiner Systemfehler. "/>
+    <Text ID="345445" Value="FBK Freigabe ist falsch (nur, wenn FBK nicht mehr belegt ist) "/>
+    <Text ID="345446" Value="FBK arbeitet noch "/>
+    <Text ID="345447" Value="Alles"/>
+    <Text ID="345448" Value="[F] Kunde und Artikel "/>
+    <Text ID="345449" Value="Bediener"/>
+    <Text ID="345450" Value="USB Disc einstecken"/>
+    <Text ID="345451" Value="Service Log"/>
+    <Text ID="345452" Value="Jenveiw Log"/>
+    <Text ID="345453" Value="Jensen Verzeichnis"/>
+    <Text ID="345454" Value="Statistik"/>
+    <Text ID="345575" Value="Einstellung Projektnr. "/>
+    <Text ID="345576" Value="Enthalten:"/>
+    <Text ID="345577" Value="Status"/>
+    <Text ID="345578" Value="Achtung: Existierende Dateien am Ziel werden überschrieben!"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="345409" Value="Beredd"/>
+    <Text ID="345410" Value="Vänta på backupkommando"/>
+    <Text ID="345411" Value="Backup pågår"/>
+    <Text ID="345412" Value="Väntar på återställningskommando"/>
+    <Text ID="345413" Value="Årerställning pågår..."/>
+    <Text ID="345414" Value="Felaktig sökväg"/>
+    <Text ID="345415" Value="Specifierade datalägden för liten"/>
+    <Text ID="345416" Value="Inga fler filhanteringar tillgängliga"/>
+    <Text ID="345417" Value="Ioctl kodfel (systemfel)"/>
+    <Text ID="345418" Value="Felaktig typ"/>
+    <Text ID="345419" Value="Fil finns redan"/>
+    <Text ID="345420" Value="Tillträde ej möjligt vid användning av önskat mode"/>
+    <Text ID="345421" Value="Illegalt läge"/>
+    <Text ID="345422" Value="Fil finns inte"/>
+    <Text ID="345423" Value="Filenhet inte tillåten (tex. inte initzierad)"/>
+    <Text ID="345424" Value="Inte tillräckligt med minne för fil med ny data"/>
+    <Text ID="345425" Value="Felaktig filoffset"/>
+    <Text ID="345426" Value="Fil inte tillåten"/>
+    <Text ID="345427" Value="Inte tillräckligt med virituellt minne för att kopiera fil"/>
+    <Text ID="345428" Value="Generalfel i öppna fil"/>
+    <Text ID="345429" Value="Generalfel i stäng fel"/>
+    <Text ID="345430" Value="Generalfel i läs fil"/>
+    <Text ID="345431" Value="Generalfel i skriv fel"/>
+    <Text ID="345432" Value="Generalfel i ioctl"/>
+    <Text ID="345433" Value="Specifierade datavärdet felaktigt (null)"/>
+    <Text ID="345434" Value="Fel i fil io hanterare"/>
+    <Text ID="345435" Value="Fil ej öppnad"/>
+    <Text ID="345436" Value="Felaktigt register"/>
+    <Text ID="345437" Value="Register finns inte"/>
+    <Text ID="345438" Value="Register ej tomt"/>
+    <Text ID="345439" Value="Register finns redan"/>
+    <Text ID="345440" Value="Fel under minnesdetektering"/>
+    <Text ID="345441" Value="Inte tillräckligt med utrymme på målenheten"/>
+    <Text ID="345442" Value="Fel i enhets drivning"/>
+    <Text ID="345443" Value="Fel i enhets hanterare"/>
+    <Text ID="345444" Value="System fel. allmänt systemfel"/>
+    <Text ID="345445" Value="Fbk aktivering är falsk (endast om fbk inte är upptagen)"/>
+    <Text ID="345446" Value="Fbk arbetar fortfarande"/>
+    <Text ID="345447" Value="Alla"/>
+    <Text ID="345448" Value="Kund och Artikel"/>
+    <Text ID="345449" Value="Operatör"/>
+    <Text ID="345450" Value="Insert USB disc"/>
+    <Text ID="345451" Value="Service log"/>
+    <Text ID="345452" Value="Jenveiw log"/>
+    <Text ID="345453" Value="Jensen directory"/>
+    <Text ID="345454" Value="Statistics"/>
+    <Text ID="345575" Value="Ställ in projektnummer"/>
+    <Text ID="345576" Value="Include:"/>
+    <Text ID="345577" Value="Status:"/>
+    <Text ID="345578" Value="Varning: existerande fil på destinationen kommer skrivas över!"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="345409" Value="Prêt"/>
+    <Text ID="345410" Value="Attente pour enregistrement"/>
+    <Text ID="345411" Value="Enregistrement en cours"/>
+    <Text ID="345412" Value="Attente pour restauration"/>
+    <Text ID="345413" Value="Restauration en cours"/>
+    <Text ID="345414" Value="Dossier invalide"/>
+    <Text ID="345415" Value="Longueur spécifiée trop petite"/>
+    <Text ID="345416" Value="Plus de titres de fichier disponibles"/>
+    <Text ID="345417" Value="Erreur code IOCTL"/>
+    <Text ID="345418" Value="Type non valide"/>
+    <Text ID="345419" Value="Fichier existant deja"/>
+    <Text ID="345420" Value="Accès impossible avec le mode désiré"/>
+    <Text ID="345421" Value="Mode illégal"/>
+    <Text ID="345422" Value="Fichier n'existe pas"/>
+    <Text ID="345423" Value="Fichier machine non autorisé (pas initialisé)"/>
+    <Text ID="345424" Value="Pas assez de memoire"/>
+    <Text ID="345425" Value="Décalage fichier non valide"/>
+    <Text ID="345426" Value="Fichier non permis"/>
+    <Text ID="345427" Value="Pas assez de memoire virtuel pour copier"/>
+    <Text ID="345428" Value="Erreur a l ouverture du fichier"/>
+    <Text ID="345429" Value="Erreur a la fermeture du fichier"/>
+    <Text ID="345430" Value="Erreur a la lecture du fichier"/>
+    <Text ID="345431" Value="Erreur a l ecriture du fichier"/>
+    <Text ID="345432" Value="Erreur localisation"/>
+    <Text ID="345433" Value="L'index de données spécifié n'est pas valide"/>
+    <Text ID="345434" Value="Erreur fichier administrateur"/>
+    <Text ID="345435" Value="Fichier non ouvert"/>
+    <Text ID="345436" Value="Dossier invalide"/>
+    <Text ID="345437" Value="Dossier n existe pas"/>
+    <Text ID="345438" Value="Dossier non vide"/>
+    <Text ID="345439" Value="Dossier existe deja"/>
+    <Text ID="345440" Value="Erreur durant detection memoire"/>
+    <Text ID="345441" Value="Pas assez de memoire"/>
+    <Text ID="345442" Value="Erreur driver machine"/>
+    <Text ID="345443" Value="Erreur administrateur machine"/>
+    <Text ID="345444" Value="Erreur système, défaut système général"/>
+    <Text ID="345445" Value="Autoriser FBK est faux (seulement si FBK est libre)"/>
+    <Text ID="345446" Value="FBK toujours en marche"/>
+    <Text ID="345447" Value="Tous"/>
+    <Text ID="345448" Value="Client et article"/>
+    <Text ID="345449" Value="Operateur"/>
+    <Text ID="345450" Value="Inserer clé USB"/>
+    <Text ID="345451" Value="Journal de service"/>
+    <Text ID="345452" Value="Journal Jenview"/>
+    <Text ID="345453" Value="Dossier Jensen"/>
+    <Text ID="345454" Value="Statistique"/>
+    <Text ID="345575" Value="N° du projet"/>
+    <Text ID="345576" Value="Inclure :"/>
+    <Text ID="345577" Value="Statut"/>
+    <Text ID="345578" Value="ATTENTION: reecriture sur fichier existant!"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="345409" Value="Klar"/>
+    <Text ID="345410" Value="Vent på backup kommando"/>
+    <Text ID="345411" Value="Backup igang..."/>
+    <Text ID="345412" Value="Vent på gendan kommando"/>
+    <Text ID="345413" Value="Gendannelse i gang"/>
+    <Text ID="345414" Value="Forkert sti"/>
+    <Text ID="345415" Value="Værdilængden er for kort"/>
+    <Text ID="345416" Value="Ikke flere filer at håndtere"/>
+    <Text ID="345417" Value="IOCTL kode fejl (System fejl)"/>
+    <Text ID="345418" Value="Forkert type"/>
+    <Text ID="345419" Value="Fil eksisterer i forvejen"/>
+    <Text ID="345420" Value="Adgang ikke mulig med ønsket mode"/>
+    <Text ID="345421" Value="Ilegalt Mode"/>
+    <Text ID="345422" Value="Fil eksisterer ikke"/>
+    <Text ID="345423" Value="Fil enhed ikke tilladt (ikke initialiseret)"/>
+    <Text ID="345424" Value="Ikke nok hukommelse til fil"/>
+    <Text ID="345425" Value="Forkert fil offset"/>
+    <Text ID="345426" Value="Fil ikke tilladt"/>
+    <Text ID="345427" Value="Ikke nok virtuel hukommelse til at kopiere fil"/>
+    <Text ID="345428" Value="Generel fejl i filåbning"/>
+    <Text ID="345429" Value="Generel fejl i fillukning"/>
+    <Text ID="345430" Value="Generel fejl i fillæsning"/>
+    <Text ID="345431" Value="Generel fejl i filskrivning"/>
+    <Text ID="345432" Value="Generel fejl i loctl"/>
+    <Text ID="345433" Value="Værdien defineret er forkert (null)"/>
+    <Text ID="345434" Value="Fejl i FileIoManager"/>
+    <Text ID="345435" Value="Fil ikke åbnet"/>
+    <Text ID="345436" Value="Forkert mappe"/>
+    <Text ID="345437" Value="Mappe eksisterer ikke"/>
+    <Text ID="345438" Value="Mappe ikke tom"/>
+    <Text ID="345439" Value="Mappe eksisterer i forvejen"/>
+    <Text ID="345440" Value="Fejl under hukommelses søgning"/>
+    <Text ID="345441" Value="Ikke nok hukommelse på enheden der skrives til"/>
+    <Text ID="345442" Value="Fejl i Enhedsdriver"/>
+    <Text ID="345443" Value="Fejl i Enhedsmanager"/>
+    <Text ID="345444" Value="General systemfejl"/>
+    <Text ID="345445" Value="FBK Enable is FALSE (only if FBK is no longer BUSY)"/>
+    <Text ID="345446" Value="FBK arbejder forsat"/>
+    <Text ID="345447" Value="Alle"/>
+    <Text ID="345448" Value="Kunde og artikel"/>
+    <Text ID="345449" Value="Operatør"/>
+    <Text ID="345450" Value="Isæt USB disk"/>
+    <Text ID="345451" Value="Service log"/>
+    <Text ID="345452" Value="Jenveiw log"/>
+    <Text ID="345453" Value="Jensen mappe"/>
+    <Text ID="345454" Value="Statistics"/>
+    <Text ID="345575" Value="Indstil projekt nr."/>
+    <Text ID="345576" Value="Inkluder:"/>
+    <Text ID="345577" Value="Status"/>
+    <Text ID="345578" Value="Advarsel: Eksisterende filer på destinationen vil blive overskrevet!"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="345409" Value="Pronta"/>
+    <Text ID="345410" Value="Attesa comando Backup"/>
+    <Text ID="345411" Value="BackUp in corso"/>
+    <Text ID="345412" Value="Attesa Comando Ripristino"/>
+    <Text ID="345413" Value="Ripristino dati in progresso. . "/>
+    <Text ID="345414" Value="Percorso non Valido"/>
+    <Text ID="345415" Value="La Lunghezza Dati Specificati è troppo corta"/>
+    <Text ID="345416" Value="Non più file disponibili"/>
+    <Text ID="345417" Value="IOCTL code Errore (system Errore)"/>
+    <Text ID="345418" Value="Tipologia non Valida"/>
+    <Text ID="345419" Value="File già esistente"/>
+    <Text ID="345420" Value="Accesso non possibile usando il modo desider."/>
+    <Text ID="345421" Value="Modalità non corretta"/>
+    <Text ID="345422" Value="File non esistente"/>
+    <Text ID="345423" Value="File Dispositivo non ammesso (non avviato)"/>
+    <Text ID="345424" Value="Memoria Insufficiente per nuovi file"/>
+    <Text ID="345425" Value="Compensazione non Valida"/>
+    <Text ID="345426" Value="File Non Permesso"/>
+    <Text ID="345427" Value="Memoria virtuale insufficiente per copiare i file"/>
+    <Text ID="345428" Value="Errore Generale in apertura file"/>
+    <Text ID="345429" Value="Errore Generale in Chiusura File"/>
+    <Text ID="345430" Value="Errore Generale in lettura file"/>
+    <Text ID="345431" Value="Errore Generale in scrittura file"/>
+    <Text ID="345432" Value="Errore Generale in Ioctl"/>
+    <Text ID="345433" Value="Il Dato Specifico non è Valido (NULL)"/>
+    <Text ID="345434" Value="Errore in gestione File"/>
+    <Text ID="345435" Value="File non Aperto"/>
+    <Text ID="345436" Value="Directory non valida"/>
+    <Text ID="345437" Value="Directory Non Esistente"/>
+    <Text ID="345438" Value="Directory Non Vuota"/>
+    <Text ID="345439" Value="Directory già Esistente"/>
+    <Text ID="345440" Value="Errore Durante Rilevamento Memoria"/>
+    <Text ID="345441" Value="Memoria insufficiente sul dispositivo"/>
+    <Text ID="345442" Value="Errore in DeviceDriver"/>
+    <Text ID="345443" Value="Errore in DeviceManager"/>
+    <Text ID="345444" Value="Errore Sistema. Anomalia Generale Sistema"/>
+    <Text ID="345445" Value="FBK Abilitaz. è FALSO (solo se FBK non è più lungo di BUSY)"/>
+    <Text ID="345446" Value="FBK sta ancora lavorando"/>
+    <Text ID="345447" Value="Tutto"/>
+    <Text ID="345448" Value="Cliente ed Articolo"/>
+    <Text ID="345449" Value="Operatore"/>
+    <Text ID="345450" Value="Inserire disco USB"/>
+    <Text ID="345451" Value="Service log"/>
+    <Text ID="345452" Value="Jenveiw log"/>
+    <Text ID="345453" Value="Jensen directory"/>
+    <Text ID="345454" Value="Statistiche"/>
+    <Text ID="345575" Value="Imposta n. progetto"/>
+    <Text ID="345576" Value="Include:"/>
+    <Text ID="345577" Value="Stato"/>
+    <Text ID="345578" Value="Attenzione: I file esistenti verranno sovrascritti"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="345409" Value="Valmis"/>
+    <Text ID="345410" Value="Odota varmuuskopiointi käskyä"/>
+    <Text ID="345411" Value="Varmuuskopiointi käynnissä..."/>
+    <Text ID="345412" Value="Odota palautus käskyä"/>
+    <Text ID="345413" Value="Palautus käynnissä"/>
+    <Text ID="345414" Value="Väärä erä"/>
+    <Text ID="345415" Value="Määritetyn tiedon pituus on liian lyhyt"/>
+    <Text ID="345416" Value="Ei enää tiedostoja saatavilla"/>
+    <Text ID="345417" Value="IOCTL koodivirhe (järjestelmä virhe)"/>
+    <Text ID="345418" Value="Väärä laji"/>
+    <Text ID="345419" Value="Tiedosto on jo olemassa"/>
+    <Text ID="345420" Value="Pääsy ei ole mahdollinen valitussa tilassa"/>
+    <Text ID="345421" Value="Laiton tila"/>
+    <Text ID="345422" Value="Tiedostoa ei ole"/>
+    <Text ID="345423" Value="Tiedosto laite ei ole sallittu (eli ei alustettu)"/>
+    <Text ID="345424" Value="Ei tarpeeksi muistia uuden tiedoston kirjoittamiseksi"/>
+    <Text ID="345425" Value="Kelpaamaton tiedosto tunnus"/>
+    <Text ID="345426" Value="Tiedosto ei sallittu"/>
+    <Text ID="345427" Value="Ei tarpeeksi virtuaalimuistia tiedoston kopiointiin"/>
+    <Text ID="345428" Value="Yleishäiriö tiedostonavaaminen"/>
+    <Text ID="345429" Value="Yleishäiriö tiedostonsulku"/>
+    <Text ID="345430" Value="Yleishäiriö tiedostonluku"/>
+    <Text ID="345431" Value="Yleishäiriö tiedostonkirjoittaminen"/>
+    <Text ID="345432" Value="Yleishäiriö lukitus"/>
+    <Text ID="345433" Value="Tiedon erotin ei ole oikea (NOLLA)"/>
+    <Text ID="345434" Value="Virhe tiedostohallinnassa"/>
+    <Text ID="345435" Value="Tiedostoa ei avattu"/>
+    <Text ID="345436" Value="Kelpaamaton hakemisto"/>
+    <Text ID="345437" Value="Hakemisto ei ole olemassa"/>
+    <Text ID="345438" Value="Hakemisto ei ole tyhjä"/>
+    <Text ID="345439" Value="Hakemisto on jo olemassa"/>
+    <Text ID="345440" Value="Virhe muistinmäärityksen aikana"/>
+    <Text ID="345441" Value="Ei tarpeeksi vapaatya muistia kohdelaitteessa"/>
+    <Text ID="345442" Value="Virhe laitteenohjaimessa"/>
+    <Text ID="345443" Value="Virhe laitteenhallinnassa"/>
+    <Text ID="345444" Value="Järjestelmävirhe. Yleinen järjestelmävika."/>
+    <Text ID="345445" Value="FBK mahdollinen kun VIRHE (vain jos FBK ei ole enää KIIREELLINEN)"/>
+    <Text ID="345446" Value="FBK käy vielä"/>
+    <Text ID="345447" Value="Kaikki"/>
+    <Text ID="345448" Value="Asiakas ja Artikkeli"/>
+    <Text ID="345449" Value="Operator"/>
+    <Text ID="345450" Value="Insert USB disc"/>
+    <Text ID="345451" Value="Service log"/>
+    <Text ID="345452" Value="Jenveiw log"/>
+    <Text ID="345453" Value="Jensen directory"/>
+    <Text ID="345454" Value="Statistics"/>
+    <Text ID="345575" Value="Anna projekti num"/>
+    <Text ID="345576" Value="Include:"/>
+    <Text ID="345577" Value="Tila:"/>
+    <Text ID="345578" Value="Varoitus: Kohteen vanhojen tiedostojen päälle ylikirjoitetaan!!"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="345409" Value="Klaar"/>
+    <Text ID="345410" Value="Wacht op Backup Commando"/>
+    <Text ID="345411" Value="Opslaan bezig..."/>
+    <Text ID="345412" Value="Wacht op herstel Commando"/>
+    <Text ID="345413" Value="Terugzetten in gang..."/>
+    <Text ID="345414" Value="Ongeldig pad"/>
+    <Text ID="345415" Value="De opgegeven data lengte is te klein"/>
+    <Text ID="345416" Value="Geen bestandshandelingen meer mogelijk"/>
+    <Text ID="345417" Value="IOCTL code Fout (systeem fout)"/>
+    <Text ID="345418" Value="Ongeldig type"/>
+    <Text ID="345419" Value="Bestand bestaat al"/>
+    <Text ID="345420" Value="Toegang niet mogelijk bij gebruik verlangde modus"/>
+    <Text ID="345421" Value="Iligale mode"/>
+    <Text ID="345422" Value="Bestand bestaat niet"/>
+    <Text ID="345423" Value="Bestand opzet niet toegestaan (m.a.w. niet geïnitialiseerd)"/>
+    <Text ID="345424" Value="Niet genoeg geheugen voor bestand met nieuwe data"/>
+    <Text ID="345425" Value="Ongeldig bestand begin"/>
+    <Text ID="345426" Value="Bestand niet toegestaan"/>
+    <Text ID="345427" Value="Niet genoeg virtueel geheugen om bestand te kopiëren"/>
+    <Text ID="345428" Value="Algemene Fout in Bestand openen"/>
+    <Text ID="345429" Value="Algemene Fout in Bestand sluiten"/>
+    <Text ID="345430" Value="Algemene Fout in Bestand lezen"/>
+    <Text ID="345431" Value="Algemene Fout in Bestand schrijven"/>
+    <Text ID="345432" Value="Algemene Fout in Ioctl"/>
+    <Text ID="345433" Value="De gespecificeerde data pointer is niet aanwezig (NUL)"/>
+    <Text ID="345434" Value="Fout in FileIoManager"/>
+    <Text ID="345435" Value="Bestand niet geopend"/>
+    <Text ID="345436" Value="Ongeldige map"/>
+    <Text ID="345437" Value="Map bestaat niet"/>
+    <Text ID="345438" Value="Map niet leeg"/>
+    <Text ID="345439" Value="Map bestaat al"/>
+    <Text ID="345440" Value="Fout tijdens geheugen detectie"/>
+    <Text ID="345441" Value="Niet genoeg geheugen op de doelschijf"/>
+    <Text ID="345442" Value="Fout in DeviceDriver"/>
+    <Text ID="345443" Value="Fout in DeviceManager"/>
+    <Text ID="345444" Value="Systeem Error. Algemene Systeem Fout."/>
+    <Text ID="345445" Value="FBK mogelijk maken is FALSE (alleen als FBK niet bezig is)"/>
+    <Text ID="345446" Value="FBK nog altijd in werking"/>
+    <Text ID="345447" Value="Alles"/>
+    <Text ID="345448" Value="Klant en artikel"/>
+    <Text ID="345449" Value="Operator"/>
+    <Text ID="345450" Value="Insert USB disc"/>
+    <Text ID="345451" Value="Service log"/>
+    <Text ID="345452" Value="Jenveiw log"/>
+    <Text ID="345453" Value="Jensen directory"/>
+    <Text ID="345454" Value="Statistics"/>
+    <Text ID="345575" Value="Instellen Project Nr."/>
+    <Text ID="345576" Value="Include:"/>
+    <Text ID="345577" Value="Status:"/>
+    <Text ID="345578" Value="Waarschuwing: Bestaande bestanden op de bestemming worden overschreven!"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="345409" Value="Listo"/>
+    <Text ID="345410" Value="Esperar comando para copia de seguridad"/>
+    <Text ID="345411" Value="Copia de seguridad en progreso…"/>
+    <Text ID="345412" Value="Esperar comando de restauración"/>
+    <Text ID="345413" Value="Restauración en progreso"/>
+    <Text ID="345414" Value="Camino no válido"/>
+    <Text ID="345415" Value="La longitud de datos especificada es demasiado pequeña"/>
+    <Text ID="345416" Value="No hay disponibles más archivos manipulables "/>
+    <Text ID="345417" Value="Código de error IOCTL (error de sistema)"/>
+    <Text ID="345418" Value="Tipo no válido"/>
+    <Text ID="345419" Value="El archivo ya existe"/>
+    <Text ID="345420" Value="Acceso no posible usando el modo deseado"/>
+    <Text ID="345421" Value="Modo ilegal"/>
+    <Text ID="345422" Value="El archivo no existe"/>
+    <Text ID="345423" Value="Dispositivo de archivo no permitido (p. ej. No inicializado)"/>
+    <Text ID="345424" Value="No hay suficiente memoria para archivar con los nuevos datos escritos"/>
+    <Text ID="345425" Value="Destino no válido de archivo"/>
+    <Text ID="345426" Value="Archivo no permitido"/>
+    <Text ID="345427" Value="No hay suficiente memoria virtual disponible para copiar archivo"/>
+    <Text ID="345428" Value="Error general en AbrirArchivo"/>
+    <Text ID="345429" Value="Error general en CerrarArchivo"/>
+    <Text ID="345430" Value="Error general en LeerArchivo"/>
+    <Text ID="345431" Value="Error general en EscribirArchivo"/>
+    <Text ID="345432" Value="Error general en loctl"/>
+    <Text ID="345433" Value="El puntero de datos especificado no es válido (NULL)"/>
+    <Text ID="345434" Value="Error en Gestor de archivos"/>
+    <Text ID="345435" Value="Archivo no abierto"/>
+    <Text ID="345436" Value="Directorio no válido"/>
+    <Text ID="345437" Value="Directorio no existe"/>
+    <Text ID="345438" Value="Directorio no vacío"/>
+    <Text ID="345439" Value="Directorio ya existe"/>
+    <Text ID="345440" Value="Error durante la detección de memoria"/>
+    <Text ID="345441" Value="No hay suficiente memoria libre en el dispositivo de destino"/>
+    <Text ID="345442" Value="Error en DriverDispositivo"/>
+    <Text ID="345443" Value="Error en GestorDispositivo"/>
+    <Text ID="345444" Value="Error de sistema. Fallo sistema general"/>
+    <Text ID="345445" Value="Disponibilidad de FBK desactivada (sólo si FBK no está ocupado)"/>
+    <Text ID="345446" Value="FBK está todavía funcionando"/>
+    <Text ID="345447" Value="Todas"/>
+    <Text ID="345448" Value="Cliente y Artículo"/>
+    <Text ID="345449" Value="Operator"/>
+    <Text ID="345450" Value="Insert USB disc"/>
+    <Text ID="345451" Value="Service log"/>
+    <Text ID="345452" Value="Jenveiw log"/>
+    <Text ID="345453" Value="Jensen directory"/>
+    <Text ID="345454" Value="Statistics"/>
+    <Text ID="345575" Value="Fijar número de proyecto"/>
+    <Text ID="345576" Value="Include:"/>
+    <Text ID="345577" Value="Estado:"/>
+    <Text ID="345578" Value="Advertencia: archivos existentes en destino serán sobrescritos"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="345409" Value="Gotowy"/>
+    <Text ID="345410" Value="Czekaj na komunikat ZAPIS"/>
+    <Text ID="345411" Value="Zapisywanie kopii zapasowej trwa….."/>
+    <Text ID="345412" Value="Czekaj na komunikat PRZYWRÓĆ"/>
+    <Text ID="345413" Value="Porces przywracania w toku .."/>
+    <Text ID="345414" Value="Niepoprawna ścieżka"/>
+    <Text ID="345415" Value="Dane długości zbyt małe"/>
+    <Text ID="345416" Value="Nigdy więcej plików"/>
+    <Text ID="345417" Value="IOCTL błąd kodu (błąd systemu) "/>
+    <Text ID="345418" Value="Niepoprawny typ"/>
+    <Text ID="345419" Value="Plik już istnieje"/>
+    <Text ID="345420" Value="Dostęp niemożliwy w tym trybie"/>
+    <Text ID="345421" Value="Nielegalny tryb "/>
+    <Text ID="345422" Value="Plik nie istnieje"/>
+    <Text ID="345423" Value="Plik urządzenia nie dostępny"/>
+    <Text ID="345424" Value="Brak wystarczającej pamięci dla pliku z nowymi danymi"/>
+    <Text ID="345425" Value="Niepoprawny plik"/>
+    <Text ID="345426" Value="Plik nie dostępny"/>
+    <Text ID="345427" Value="Brak wystarczającej wirtualnej pamięci do przekopiowania pliku"/>
+    <Text ID="345428" Value="Ogólny błąd w Pliku otwarcia"/>
+    <Text ID="345429" Value="Ogólny błąd w Pliku zamknięcia"/>
+    <Text ID="345430" Value="Ogólny błąd w Pliku odczytu"/>
+    <Text ID="345431" Value="Ogólny błąd w Pliku zapisu"/>
+    <Text ID="345432" Value="Ogólny błąd w loctl"/>
+    <Text ID="345433" Value="Dane wskaźnika nie właściwe (Puste, zero)"/>
+    <Text ID="345434" Value="Błąd w Pliku"/>
+    <Text ID="345435" Value="Plik nie otwarty"/>
+    <Text ID="345436" Value="Niepoprawny katalog"/>
+    <Text ID="345437" Value="Katalog nie istnieje"/>
+    <Text ID="345438" Value="Katalog nie jest pusty"/>
+    <Text ID="345439" Value="Katalog już istnieje"/>
+    <Text ID="345440" Value="Błąd podczas detekcji pamięci"/>
+    <Text ID="345441" Value="Brak wystarczającej pamięci dla docelowego urządzenia"/>
+    <Text ID="345442" Value="Błąd w napędzie"/>
+    <Text ID="345443" Value="Błąd w Manager"/>
+    <Text ID="345444" Value="Błąd systemu. Ogółny błąd systemu."/>
+    <Text ID="345445" Value="FBK Enable is FALSE (only if FBK is no longer BUSY)"/>
+    <Text ID="345446" Value="FKB ciągle działa"/>
+    <Text ID="345447" Value="Wszystko"/>
+    <Text ID="345448" Value="Klient &amp; Artykul"/>
+    <Text ID="345449" Value="Operator"/>
+    <Text ID="345450" Value="Insert USB disc"/>
+    <Text ID="345451" Value="Service log"/>
+    <Text ID="345452" Value="Jenveiw log"/>
+    <Text ID="345453" Value="Jensen directory"/>
+    <Text ID="345454" Value="Statistics"/>
+    <Text ID="345575" Value="Ustaw nr. Projektu"/>
+    <Text ID="345576" Value="Include:"/>
+    <Text ID="345577" Value="Status:"/>
+    <Text ID="345578" Value="Uwaga: istniejący plik zostanie zamieniony (nadpisany)"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="345409" Value="Готово"/>
+    <Text ID="345410" Value="Ждать Команды Резервирования"/>
+    <Text ID="345411" Value="Резервирование в действии"/>
+    <Text ID="345412" Value="Ждать Команды Восстановления"/>
+    <Text ID="345413" Value="Восстановление в Процессе…"/>
+    <Text ID="345414" Value="Неверный путь"/>
+    <Text ID="345415" Value="Заданная длина данных слишком мала"/>
+    <Text ID="345416" Value="Больше нет идентификаторов файлов"/>
+    <Text ID="345417" Value="Ошибка кода управления вводом-выводом (системная ошибка)"/>
+    <Text ID="345418" Value="Неверный тип"/>
+    <Text ID="345419" Value="Файл уже существует"/>
+    <Text ID="345420" Value="Желаемым способом доступ невозможен"/>
+    <Text ID="345421" Value="Недопустимый режим"/>
+    <Text ID="345422" Value="Файл не существует"/>
+    <Text ID="345423" Value="Устройство Файла не разрешено (не инициализировано)"/>
+    <Text ID="345424" Value="Не достаточно памяти для файла с новыми данными записи"/>
+    <Text ID="345425" Value="Неверное смещение файла"/>
+    <Text ID="345426" Value="Файл не разрешён"/>
+    <Text ID="345427" Value="Не достаточно виртуальной памяти для копирования файла"/>
+    <Text ID="345428" Value="Общая Ошибка в открытии файла"/>
+    <Text ID="345429" Value="Общая Ошибка в закрытии файла"/>
+    <Text ID="345430" Value="Общая Ошибка в чтении файла"/>
+    <Text ID="345431" Value="Общая Ошибка в записи файла"/>
+    <Text ID="345432" Value="Общая Ошибка в Ioctl"/>
+    <Text ID="345433" Value="Заданный указатель данных неверен (Нулевой)"/>
+    <Text ID="345434" Value="Ошибка в Файловой Системе I\o"/>
+    <Text ID="345435" Value="Файл не открыт"/>
+    <Text ID="345436" Value="Неверная директория"/>
+    <Text ID="345437" Value="Директория не существует"/>
+    <Text ID="345438" Value="Директория не пустая"/>
+    <Text ID="345439" Value="Директория уже существует"/>
+    <Text ID="345440" Value="Ошибка в процессе обнаружения памяти"/>
+    <Text ID="345441" Value="Не достаточно свободной памяти на целевом устройстве"/>
+    <Text ID="345442" Value="Ошибка в Драйвере Устройства"/>
+    <Text ID="345443" Value="Ошибка в Менеджере Устройства"/>
+    <Text ID="345444" Value="Системная Ошибка. Общий Системный Сбой."/>
+    <Text ID="345445" Value="FBK Включение ОШИБОЧНО"/>
+    <Text ID="345446" Value="FBK работает"/>
+    <Text ID="345447" Value="Все"/>
+    <Text ID="345448" Value="Клиент и Изделие"/>
+    <Text ID="345449" Value="Оператор"/>
+    <Text ID="345450" Value="Вставить USB диск"/>
+    <Text ID="345451" Value="Сервис регистрация"/>
+    <Text ID="345452" Value="Jenveiw регистрация"/>
+    <Text ID="345453" Value="Jensen руководство"/>
+    <Text ID="345454" Value="Статистика"/>
+    <Text ID="345575" Value="Установить Номер Проекта"/>
+    <Text ID="345576" Value="Включая:"/>
+    <Text ID="345577" Value="Статус"/>
+    <Text ID="345578" Value="Предупреждение: Существ. файлы будут перезаписаны!"/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="345409" Value="Ready"/>
+    <Text ID="345410" Value="Wait For Backup Command"/>
+    <Text ID="345411" Value="Backup In Progress..."/>
+    <Text ID="345412" Value="Wait For Restore Command"/>
+    <Text ID="345413" Value="Restore In Progress..."/>
+    <Text ID="345414" Value="Invalid path"/>
+    <Text ID="345415" Value="The data length specified is too small"/>
+    <Text ID="345416" Value="No more file handles available"/>
+    <Text ID="345417" Value="IOCTL code error (system error)"/>
+    <Text ID="345418" Value="Invalid type"/>
+    <Text ID="345419" Value="File already exists"/>
+    <Text ID="345420" Value="Access not possible using the desired mode"/>
+    <Text ID="345421" Value="Illegal mode"/>
+    <Text ID="345422" Value="File does not exist"/>
+    <Text ID="345423" Value="File device not permitted (i.e. not initialized) "/>
+    <Text ID="345424" Value="Not enough memory for file with new write data"/>
+    <Text ID="345425" Value="Invalid file offset"/>
+    <Text ID="345426" Value="File not permitted"/>
+    <Text ID="345427" Value="Not enough virtual memory available to copy file "/>
+    <Text ID="345428" Value="General error in FileOpen "/>
+    <Text ID="345429" Value="General error in FileClose"/>
+    <Text ID="345430" Value="General error in FileRead"/>
+    <Text ID="345431" Value="General error in FileWrite"/>
+    <Text ID="345432" Value="General error in Ioctl"/>
+    <Text ID="345433" Value="The data pointer specified is invalid (NULL)"/>
+    <Text ID="345434" Value="Error in FileIoManager "/>
+    <Text ID="345435" Value="File not opened"/>
+    <Text ID="345436" Value="Invalid directory"/>
+    <Text ID="345437" Value="Directory does not exist"/>
+    <Text ID="345438" Value="Directory not empty"/>
+    <Text ID="345439" Value="Directory already exists"/>
+    <Text ID="345440" Value="Error during memory detection"/>
+    <Text ID="345441" Value="Not enough free memory on the target device "/>
+    <Text ID="345442" Value="Error in DeviceDriver"/>
+    <Text ID="345443" Value="Error in DeviceManager"/>
+    <Text ID="345444" Value="System Error. General System Fault."/>
+    <Text ID="345445" Value="FBK Enable is FALSE (only if FBK is no longer BUSY)"/>
+    <Text ID="345446" Value="FBK is still working"/>
+    <Text ID="345447" Value="All"/>
+    <Text ID="345448" Value="Customer and Article"/>
+    <Text ID="345449" Value="Operator"/>
+    <Text ID="345450" Value="Insert USB disc"/>
+    <Text ID="345451" Value="Service log"/>
+    <Text ID="345452" Value="Jenveiw log"/>
+    <Text ID="345453" Value="Jensen directory"/>
+    <Text ID="345454" Value="Statistics"/>
+    <Text ID="345575" Value="Set Project No."/>
+    <Text ID="345576" Value="Include"/>
+    <Text ID="345577" Value="Status"/>
+    <Text ID="345578" Value="Warning: Existing files on the destination will be overwritten!"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="345409" Value=""/>
+    <Text ID="345410" Value=""/>
+    <Text ID="345411" Value=""/>
+    <Text ID="345412" Value=""/>
+    <Text ID="345413" Value=""/>
+    <Text ID="345414" Value=""/>
+    <Text ID="345415" Value=""/>
+    <Text ID="345416" Value=""/>
+    <Text ID="345417" Value=""/>
+    <Text ID="345418" Value=""/>
+    <Text ID="345419" Value=""/>
+    <Text ID="345420" Value=""/>
+    <Text ID="345421" Value=""/>
+    <Text ID="345422" Value=""/>
+    <Text ID="345423" Value=""/>
+    <Text ID="345424" Value=""/>
+    <Text ID="345425" Value=""/>
+    <Text ID="345426" Value=""/>
+    <Text ID="345427" Value=""/>
+    <Text ID="345428" Value=""/>
+    <Text ID="345429" Value=""/>
+    <Text ID="345430" Value=""/>
+    <Text ID="345431" Value=""/>
+    <Text ID="345432" Value=""/>
+    <Text ID="345433" Value=""/>
+    <Text ID="345434" Value=""/>
+    <Text ID="345435" Value=""/>
+    <Text ID="345436" Value=""/>
+    <Text ID="345437" Value=""/>
+    <Text ID="345438" Value=""/>
+    <Text ID="345439" Value=""/>
+    <Text ID="345440" Value=""/>
+    <Text ID="345441" Value=""/>
+    <Text ID="345442" Value=""/>
+    <Text ID="345443" Value=""/>
+    <Text ID="345444" Value=""/>
+    <Text ID="345445" Value=""/>
+    <Text ID="345446" Value=""/>
+    <Text ID="345447" Value=""/>
+    <Text ID="345448" Value=""/>
+    <Text ID="345449" Value=""/>
+    <Text ID="345450" Value=""/>
+    <Text ID="345451" Value=""/>
+    <Text ID="345452" Value=""/>
+    <Text ID="345453" Value=""/>
+    <Text ID="345454" Value=""/>
+    <Text ID="345575" Value=""/>
+    <Text ID="345576" Value=""/>
+    <Text ID="345577" Value=""/>
+    <Text ID="345578" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="345409" Value=""/>
+    <Text ID="345410" Value=""/>
+    <Text ID="345411" Value=""/>
+    <Text ID="345412" Value=""/>
+    <Text ID="345413" Value=""/>
+    <Text ID="345414" Value=""/>
+    <Text ID="345415" Value=""/>
+    <Text ID="345416" Value=""/>
+    <Text ID="345417" Value=""/>
+    <Text ID="345418" Value=""/>
+    <Text ID="345419" Value=""/>
+    <Text ID="345420" Value=""/>
+    <Text ID="345421" Value=""/>
+    <Text ID="345422" Value=""/>
+    <Text ID="345423" Value=""/>
+    <Text ID="345424" Value=""/>
+    <Text ID="345425" Value=""/>
+    <Text ID="345426" Value=""/>
+    <Text ID="345427" Value=""/>
+    <Text ID="345428" Value=""/>
+    <Text ID="345429" Value=""/>
+    <Text ID="345430" Value=""/>
+    <Text ID="345431" Value=""/>
+    <Text ID="345432" Value=""/>
+    <Text ID="345433" Value=""/>
+    <Text ID="345434" Value=""/>
+    <Text ID="345435" Value=""/>
+    <Text ID="345436" Value=""/>
+    <Text ID="345437" Value=""/>
+    <Text ID="345438" Value=""/>
+    <Text ID="345439" Value=""/>
+    <Text ID="345440" Value=""/>
+    <Text ID="345441" Value=""/>
+    <Text ID="345442" Value=""/>
+    <Text ID="345443" Value=""/>
+    <Text ID="345444" Value=""/>
+    <Text ID="345445" Value=""/>
+    <Text ID="345446" Value=""/>
+    <Text ID="345447" Value=""/>
+    <Text ID="345448" Value=""/>
+    <Text ID="345449" Value=""/>
+    <Text ID="345450" Value=""/>
+    <Text ID="345451" Value=""/>
+    <Text ID="345452" Value=""/>
+    <Text ID="345453" Value=""/>
+    <Text ID="345454" Value=""/>
+    <Text ID="345575" Value=""/>
+    <Text ID="345576" Value=""/>
+    <Text ID="345577" Value=""/>
+    <Text ID="345578" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="345409" Value=""/>
+    <Text ID="345410" Value=""/>
+    <Text ID="345411" Value=""/>
+    <Text ID="345412" Value=""/>
+    <Text ID="345413" Value=""/>
+    <Text ID="345414" Value=""/>
+    <Text ID="345415" Value=""/>
+    <Text ID="345416" Value=""/>
+    <Text ID="345417" Value=""/>
+    <Text ID="345418" Value=""/>
+    <Text ID="345419" Value=""/>
+    <Text ID="345420" Value=""/>
+    <Text ID="345421" Value=""/>
+    <Text ID="345422" Value=""/>
+    <Text ID="345423" Value=""/>
+    <Text ID="345424" Value=""/>
+    <Text ID="345425" Value=""/>
+    <Text ID="345426" Value=""/>
+    <Text ID="345427" Value=""/>
+    <Text ID="345428" Value=""/>
+    <Text ID="345429" Value=""/>
+    <Text ID="345430" Value=""/>
+    <Text ID="345431" Value=""/>
+    <Text ID="345432" Value=""/>
+    <Text ID="345433" Value=""/>
+    <Text ID="345434" Value=""/>
+    <Text ID="345435" Value=""/>
+    <Text ID="345436" Value=""/>
+    <Text ID="345437" Value=""/>
+    <Text ID="345438" Value=""/>
+    <Text ID="345439" Value=""/>
+    <Text ID="345440" Value=""/>
+    <Text ID="345441" Value=""/>
+    <Text ID="345442" Value=""/>
+    <Text ID="345443" Value=""/>
+    <Text ID="345444" Value=""/>
+    <Text ID="345445" Value=""/>
+    <Text ID="345446" Value=""/>
+    <Text ID="345447" Value=""/>
+    <Text ID="345448" Value=""/>
+    <Text ID="345449" Value=""/>
+    <Text ID="345450" Value=""/>
+    <Text ID="345451" Value=""/>
+    <Text ID="345452" Value=""/>
+    <Text ID="345453" Value=""/>
+    <Text ID="345454" Value=""/>
+    <Text ID="345575" Value=""/>
+    <Text ID="345576" Value=""/>
+    <Text ID="345577" Value=""/>
+    <Text ID="345578" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="345409" Value="Klar"/>
+    <Text ID="345410" Value="Venter På Backup kommando"/>
+    <Text ID="345411" Value="Backup pågår...."/>
+    <Text ID="345412" Value="Venter på Gjennoprettelses kommando"/>
+    <Text ID="345413" Value="Gjennoppretting pågår"/>
+    <Text ID="345414" Value="Ugyldig bane"/>
+    <Text ID="345415" Value="Den spesifiserte datalengden er for liten"/>
+    <Text ID="345416" Value="Ingen flere filbehandlinger tilgjengelige"/>
+    <Text ID="345417" Value="IOCTL kodefeil (systemfeil)"/>
+    <Text ID="345418" Value="Ugyldig type"/>
+    <Text ID="345419" Value="Filen finnes allerede"/>
+    <Text ID="345420" Value="Adgang ikke mulig under øsnket modus"/>
+    <Text ID="345421" Value="Ulovlig modus"/>
+    <Text ID="345422" Value="Fil finnes ikke"/>
+    <Text ID="345423" Value="Filenhet ikke tillatt (dvs. ikke initialisert)"/>
+    <Text ID="345424" Value="Ikke nok minne for filen med nyskrevne data"/>
+    <Text ID="345425" Value="Ugyldig fil offset"/>
+    <Text ID="345426" Value="Fil ikke tillatt"/>
+    <Text ID="345427" Value="Ikke nok virtuelt minne tilgjengelig for å kopiere filen"/>
+    <Text ID="345428" Value="Generell feil i FileOpen"/>
+    <Text ID="345429" Value="Generell feil i FileClose"/>
+    <Text ID="345430" Value="Generell feil i FileRead"/>
+    <Text ID="345431" Value="Generell feil i FileWrite"/>
+    <Text ID="345432" Value="Generell feil i Ioctl"/>
+    <Text ID="345433" Value="Den verdien er for ugyldig (NULL)"/>
+    <Text ID="345434" Value="Feil i FileIoManager"/>
+    <Text ID="345435" Value="Fil ikke åpnet"/>
+    <Text ID="345436" Value="Ugyldig katalog"/>
+    <Text ID="345437" Value="Katalogen finnes ikke"/>
+    <Text ID="345438" Value="Katalogen er ikke tom"/>
+    <Text ID="345439" Value="Katalogen finnes allerede"/>
+    <Text ID="345440" Value="Feil under minnelesing"/>
+    <Text ID="345441" Value="Ikke nok ledig minne i målenheten"/>
+    <Text ID="345442" Value="Feil i enhetsdriver"/>
+    <Text ID="345443" Value="Feil i enhetsmanager"/>
+    <Text ID="345444" Value="Systemfeil: Generell systemfeil."/>
+    <Text ID="345445" Value="FBK aktiver er FEIL (kun hvis FBK ikke lenger er OPPTATT)"/>
+    <Text ID="345446" Value="FBK iarbeider fremdeles"/>
+    <Text ID="345447" Value="Alle"/>
+    <Text ID="345448" Value="Kunde og artikkel"/>
+    <Text ID="345449" Value="Operatør"/>
+    <Text ID="345450" Value="Sett inn USB-enhet"/>
+    <Text ID="345451" Value="Servicelogg"/>
+    <Text ID="345452" Value="Jenveiw logg"/>
+    <Text ID="345453" Value="Jensen mappe"/>
+    <Text ID="345454" Value="Statistikk"/>
+    <Text ID="345575" Value="Still inn prosjektnr."/>
+    <Text ID="345576" Value="Inkluder:"/>
+    <Text ID="345577" Value="Status:"/>
+    <Text ID="345578" Value="FARE:Filer på destinasjonen vil bli overskrevet"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="345409" Value=""/>
+    <Text ID="345410" Value=""/>
+    <Text ID="345411" Value=""/>
+    <Text ID="345412" Value=""/>
+    <Text ID="345413" Value=""/>
+    <Text ID="345414" Value=""/>
+    <Text ID="345415" Value=""/>
+    <Text ID="345416" Value=""/>
+    <Text ID="345417" Value=""/>
+    <Text ID="345418" Value=""/>
+    <Text ID="345419" Value=""/>
+    <Text ID="345420" Value=""/>
+    <Text ID="345421" Value=""/>
+    <Text ID="345422" Value=""/>
+    <Text ID="345423" Value=""/>
+    <Text ID="345424" Value=""/>
+    <Text ID="345425" Value=""/>
+    <Text ID="345426" Value=""/>
+    <Text ID="345427" Value=""/>
+    <Text ID="345428" Value=""/>
+    <Text ID="345429" Value=""/>
+    <Text ID="345430" Value=""/>
+    <Text ID="345431" Value=""/>
+    <Text ID="345432" Value=""/>
+    <Text ID="345433" Value=""/>
+    <Text ID="345434" Value=""/>
+    <Text ID="345435" Value=""/>
+    <Text ID="345436" Value=""/>
+    <Text ID="345437" Value=""/>
+    <Text ID="345438" Value=""/>
+    <Text ID="345439" Value=""/>
+    <Text ID="345440" Value=""/>
+    <Text ID="345441" Value=""/>
+    <Text ID="345442" Value=""/>
+    <Text ID="345443" Value=""/>
+    <Text ID="345444" Value=""/>
+    <Text ID="345445" Value=""/>
+    <Text ID="345446" Value=""/>
+    <Text ID="345447" Value=""/>
+    <Text ID="345448" Value=""/>
+    <Text ID="345449" Value=""/>
+    <Text ID="345450" Value=""/>
+    <Text ID="345451" Value=""/>
+    <Text ID="345452" Value=""/>
+    <Text ID="345453" Value=""/>
+    <Text ID="345454" Value=""/>
+    <Text ID="345575" Value=""/>
+    <Text ID="345576" Value=""/>
+    <Text ID="345577" Value=""/>
+    <Text ID="345578" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="345409" Value="0"/>
+    <Index ID="345410" Value="1"/>
+    <Index ID="345411" Value="2"/>
+    <Index ID="345412" Value="4"/>
+    <Index ID="345413" Value="5"/>
+    <Index ID="345414" Value="20700"/>
+    <Index ID="345415" Value="20701"/>
+    <Index ID="345416" Value="20702"/>
+    <Index ID="345417" Value="20703"/>
+    <Index ID="345418" Value="20704"/>
+    <Index ID="345419" Value="20705"/>
+    <Index ID="345420" Value="20706"/>
+    <Index ID="345421" Value="20707"/>
+    <Index ID="345422" Value="20708"/>
+    <Index ID="345423" Value="20709"/>
+    <Index ID="345424" Value="20710"/>
+    <Index ID="345425" Value="20711"/>
+    <Index ID="345426" Value="20712"/>
+    <Index ID="345427" Value="20713"/>
+    <Index ID="345428" Value="20714"/>
+    <Index ID="345429" Value="20715"/>
+    <Index ID="345430" Value="20716"/>
+    <Index ID="345431" Value="20717"/>
+    <Index ID="345432" Value="20718"/>
+    <Index ID="345433" Value="20719"/>
+    <Index ID="345434" Value="20720"/>
+    <Index ID="345435" Value="20721"/>
+    <Index ID="345436" Value="20722"/>
+    <Index ID="345437" Value="20723"/>
+    <Index ID="345438" Value="20724"/>
+    <Index ID="345439" Value="20725"/>
+    <Index ID="345440" Value="20726"/>
+    <Index ID="345441" Value="20727"/>
+    <Index ID="345442" Value="20797"/>
+    <Index ID="345443" Value="20798"/>
+    <Index ID="345444" Value="20799"/>
+    <Index ID="345445" Value="65534"/>
+    <Index ID="345446" Value="65535"/>
+    <Index ID="345447" Value="100"/>
+    <Index ID="345448" Value="105"/>
+    <Index ID="345449" Value="106"/>
+    <Index ID="345450" Value="3"/>
+    <Index ID="345451" Value="103"/>
+    <Index ID="345452" Value="104"/>
+    <Index ID="345453" Value="101"/>
+    <Index ID="345454" Value="102"/>
+    <Index ID="345575" Value="6"/>
+    <Index ID="345576" Value="7"/>
+    <Index ID="345577" Value="8"/>
+    <Index ID="345578" Value="24"/>
+  </IndexMap>
+</TextGroup>

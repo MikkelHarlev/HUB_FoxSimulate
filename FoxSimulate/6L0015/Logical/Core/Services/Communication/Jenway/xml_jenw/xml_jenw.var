@@ -1,0 +1,12 @@
+VAR RETAIN
+	TrackID : UDINT := 0;
+END_VAR
+VAR
+	No : USINT := 0;
+	NoOutlets : USINT := 0;
+	HMIJenwayColor : USINT := 0;
+	(*jenwayComIdent : UDINT := 0;*)
+	getLogicIdent_0 : getLogicIdent := (0);
+	pJenwayCom : REFERENCE TO OutletCom_type;
+	isAbortAcknowledged : BOOL := 0;
+END_VAR

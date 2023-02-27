@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigAccum">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="33"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="inch"/>
+    <Text ID="457221" Value="msec"/>
+    <Text ID="457226" Value="sec"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="STF fullsensor Ondelay"/>
+    <Text ID="457229" Value="STF fullsensor Offdelay"/>
+    <Text ID="457230" Value="Accum stop pulse Ontime"/>
+    <Text ID="457231" Value="Accum stop pulse Offtime"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Timeout to reach Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox Near"/>
+    <Text ID="457236" Value="Prox Far"/>
+    <Text ID="457237" Value="Pre-\nStopper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Feeding from old Metricon"/>
+    <Text ID="457262" Value="Feeding from old Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="inch"/>
+    <Text ID="457221" Value="msek"/>
+    <Text ID="457226" Value="sek"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="STF Vollsensor An-Verzoegerung"/>
+    <Text ID="457229" Value="STF Vollsensor Aus-Verzoegerung"/>
+    <Text ID="457230" Value="Akkum. stop puls An-Zeit"/>
+    <Text ID="457231" Value="Akkum. stop puls Aus-Zeit"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Zeitueberschreitung um sensor zu erreichen"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Sensor erreichen"/>
+    <Text ID="457236" Value="Sensor weit"/>
+    <Text ID="457237" Value="Vor-\end Stopper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Eigabe von Alter Metricon"/>
+    <Text ID="457262" Value="Eigabe von Alter Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="tum "/>
+    <Text ID="457221" Value="ms"/>
+    <Text ID="457226" Value="s"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="STF fullsensor Ondelay"/>
+    <Text ID="457229" Value="STF fullsensor Offdelay"/>
+    <Text ID="457230" Value="Accum stop pulse Ontime"/>
+    <Text ID="457231" Value="Accum stop pulse Offtime"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Timeout to reach Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox Near"/>
+    <Text ID="457236" Value="Prox Far"/>
+    <Text ID="457237" Value="Pre-\nStopper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Feeding from old Metricon"/>
+    <Text ID="457262" Value="Feeding from old Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="pouce"/>
+    <Text ID="457221" Value="ms"/>
+    <Text ID="457226" Value="s"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="Capteur mise à l'unité délais on"/>
+    <Text ID="457229" Value="Capteur mise à l'unité délais off"/>
+    <Text ID="457230" Value="Durée activ. impulsion arrêt accum."/>
+    <Text ID="457231" Value="Durée désactiv. impulsion arrêt accum."/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Temporisation pour atteindre Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Détecteur de position proche"/>
+    <Text ID="457236" Value="Détecteur de position éloignée"/>
+    <Text ID="457237" Value="Pré-\nstoppeur"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Engagement à partir de l'ancien Metricon"/>
+    <Text ID="457262" Value="Engagement à partir de l'ancien Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="inch"/>
+    <Text ID="457221" Value="msek"/>
+    <Text ID="457226" Value="sek"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="STF fullsensor Ondelay"/>
+    <Text ID="457229" Value="STF fullsensor Offdelay"/>
+    <Text ID="457230" Value="Forstop tid til "/>
+    <Text ID="457231" Value="Forstop tid fra"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Timeout to reach Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox Near"/>
+    <Text ID="457236" Value="Prox Far"/>
+    <Text ID="457237" Value="Pre-\nStopper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Feeding from old Metricon"/>
+    <Text ID="457262" Value="Feeding from old Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="pollici"/>
+    <Text ID="457221" Value="millisec"/>
+    <Text ID="457226" Value="sec"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="STF fullsensor Ondelay"/>
+    <Text ID="457229" Value="STF fullsensor Offdelay"/>
+    <Text ID="457230" Value="Durata Impulso Attivo Stop Accumulo "/>
+    <Text ID="457231" Value="Durata Impulso Disattivo Stop Accumulo "/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Timeout to reach Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox Near"/>
+    <Text ID="457236" Value="Prox Far"/>
+    <Text ID="457237" Value="Pre-\nStopper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Feeding from old Metricon"/>
+    <Text ID="457262" Value="Feeding from old Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="inch"/>
+    <Text ID="457221" Value="msec"/>
+    <Text ID="457226" Value="sec"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="STF fullsensor Ondelay"/>
+    <Text ID="457229" Value="STF fullsensor Offdelay"/>
+    <Text ID="457230" Value="Accum stop pulse Ontime"/>
+    <Text ID="457231" Value="Accum stop pulse Offtime"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Timeout to reach Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox Near"/>
+    <Text ID="457236" Value="Prox Far"/>
+    <Text ID="457237" Value="Pre-\nStopper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Feeding from old Metricon"/>
+    <Text ID="457262" Value="Feeding from old Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="inch"/>
+    <Text ID="457221" Value="msec"/>
+    <Text ID="457226" Value="Sec."/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="Inschakelvertraging vol-sensor stapsgewijze aanvoer"/>
+    <Text ID="457229" Value="Uitschakelvertraging vol-sensor stapsgewijze aanvoer"/>
+    <Text ID="457230" Value="Inschakeltijd buffer stopimpuls"/>
+    <Text ID="457231" Value="Uitschakeltijd buffer stopimpuls"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Timeout om Prox-dichtbij te bereiken"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox dichtbij"/>
+    <Text ID="457236" Value="Prox ver weg"/>
+    <Text ID="457237" Value="Pre-\nStopper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Aanvoer vanaf oude Metricon"/>
+    <Text ID="457262" Value="Aanvoer vanaf oude Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="pulg"/>
+    <Text ID="457221" Value="ms"/>
+    <Text ID="457226" Value="sec"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="Tiempo activo retardo de Sensor STF lleno"/>
+    <Text ID="457229" Value="Tiempo inactivo retardo de Sensor STF lleno"/>
+    <Text ID="457230" Value="Tiempo activo apertura Acumulador"/>
+    <Text ID="457231" Value="Tiempo inactivo apertura Acumulador"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Tiempo de espera alcanzar Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox Near"/>
+    <Text ID="457236" Value="Prox Far"/>
+    <Text ID="457237" Value="Pre-\nStopper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Alimentación desde Metricon viejo"/>
+    <Text ID="457262" Value="Alimentación desde Metricon viejo"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="cale"/>
+    <Text ID="457221" Value="msek"/>
+    <Text ID="457226" Value="sek."/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="Włączenie opóźnienia czujnika zapełnienia STF"/>
+    <Text ID="457229" Value="Wyłączenie opóźnienia czujnika zapełnienia STF"/>
+    <Text ID="457230" Value="Czas włączenia impulsu zatrzymania akumulacji"/>
+    <Text ID="457231" Value="Czas wyłączenia impulsu zatrzymania akumulacji"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Limit czasowy do osiągnięcia Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox Near"/>
+    <Text ID="457236" Value="Prox Far"/>
+    <Text ID="457237" Value="Przed-\nstoper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Wprowadzanie ze starego Metricon"/>
+    <Text ID="457262" Value="Wprowadzanie ze starego Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="457219" Value=""/>
+    <Text ID="457220" Value=""/>
+    <Text ID="457221" Value=""/>
+    <Text ID="457226" Value=""/>
+    <Text ID="457227" Value=""/>
+    <Text ID="457228" Value=""/>
+    <Text ID="457229" Value=""/>
+    <Text ID="457230" Value=""/>
+    <Text ID="457231" Value=""/>
+    <Text ID="457232" Value=""/>
+    <Text ID="457233" Value=""/>
+    <Text ID="457234" Value=""/>
+    <Text ID="457235" Value=""/>
+    <Text ID="457236" Value=""/>
+    <Text ID="457237" Value=""/>
+    <Text ID="457238" Value=""/>
+    <Text ID="457239" Value=""/>
+    <Text ID="457262" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="457219" Value=""/>
+    <Text ID="457220" Value=""/>
+    <Text ID="457221" Value=""/>
+    <Text ID="457226" Value=""/>
+    <Text ID="457227" Value=""/>
+    <Text ID="457228" Value=""/>
+    <Text ID="457229" Value=""/>
+    <Text ID="457230" Value=""/>
+    <Text ID="457231" Value=""/>
+    <Text ID="457232" Value=""/>
+    <Text ID="457233" Value=""/>
+    <Text ID="457234" Value=""/>
+    <Text ID="457235" Value=""/>
+    <Text ID="457236" Value=""/>
+    <Text ID="457237" Value=""/>
+    <Text ID="457238" Value=""/>
+    <Text ID="457239" Value=""/>
+    <Text ID="457262" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="cale"/>
+    <Text ID="457221" Value="msek"/>
+    <Text ID="457226" Value="sek."/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="Włączenie opóźnienia czujnika zapełnienia STF"/>
+    <Text ID="457229" Value="Wyłączenie opóźnienia czujnika zapełnienia STF"/>
+    <Text ID="457230" Value="Czas włączenia impulsu zatrzymania akumulacji"/>
+    <Text ID="457231" Value="Czas wyłączenia impulsu zatrzymania akumulacji"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Limit czasowy do osiągnięcia Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox Near"/>
+    <Text ID="457236" Value="Prox Far"/>
+    <Text ID="457237" Value="Przed-\nstoper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Wprowadzanie ze starego Metricon"/>
+    <Text ID="457262" Value="Wprowadzanie ze starego Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="inch"/>
+    <Text ID="457221" Value="msec"/>
+    <Text ID="457226" Value="sec"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="STF fullsensor Ondelay"/>
+    <Text ID="457229" Value="STF fullsensor Offdelay"/>
+    <Text ID="457230" Value="Accum stop pulse Ontime"/>
+    <Text ID="457231" Value="Accum stop pulse Offtime"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Timeout to reach Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox Near"/>
+    <Text ID="457236" Value="Prox Far"/>
+    <Text ID="457237" Value="Pre-\nStopper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Feeding from old Metricon"/>
+    <Text ID="457262" Value="Feeding from old Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="inch"/>
+    <Text ID="457221" Value="msec"/>
+    <Text ID="457226" Value="sec"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="STF fullsensor Ondelay"/>
+    <Text ID="457229" Value="STF fullsensor Offdelay"/>
+    <Text ID="457230" Value="Accum stop pulse Ontime"/>
+    <Text ID="457231" Value="Accum stop pulse Offtime"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Timeout to reach Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox Near"/>
+    <Text ID="457236" Value="Prox Far"/>
+    <Text ID="457237" Value="Pre-\nStopper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Feeding from old Metricon"/>
+    <Text ID="457262" Value="Feeding from old Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="tom."/>
+    <Text ID="457221" Value="msek"/>
+    <Text ID="457226" Value="sek"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="STF fullsensor Ondelay"/>
+    <Text ID="457229" Value="STF fullsensor Offdelay"/>
+    <Text ID="457230" Value="Forstopp tid på"/>
+    <Text ID="457231" Value="Forstopp tid av"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Timeout to reach Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Prox Near"/>
+    <Text ID="457236" Value="Prox Far"/>
+    <Text ID="457237" Value="Pre-\nStopper"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Feeding from old Metricon"/>
+    <Text ID="457262" Value="Feeding from old Metricon"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="457219" Value="cm"/>
+    <Text ID="457220" Value="inch"/>
+    <Text ID="457221" Value="ms"/>
+    <Text ID="457226" Value="sec"/>
+    <Text ID="457227" Value="mm"/>
+    <Text ID="457228" Value="Atraso ligado no sensor total do STF"/>
+    <Text ID="457229" Value="Atraso desligado no sensor total do STF"/>
+    <Text ID="457230" Value="Tempo de funcionamento do impulso de paragem do acumulador"/>
+    <Text ID="457231" Value="Tempo desligado do impulso de paragem do acumulador"/>
+    <Text ID="457232" Value="10 * ms"/>
+    <Text ID="457233" Value="Timeout to reach Prox-Near"/>
+    <Text ID="457234" Value="Metricon"/>
+    <Text ID="457235" Value="Após viragem de cabide"/>
+    <Text ID="457236" Value="Antes da viragem de cabide"/>
+    <Text ID="457237" Value="Pré-\nBatente"/>
+    <Text ID="457238" Value="STF"/>
+    <Text ID="457239" Value="Alimentação a partir do Metricon antigo"/>
+    <Text ID="457262" Value="Alimentação a partir do Metricon antigo"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="457219" Value="0"/>
+    <Index ID="457220" Value="1"/>
+    <Index ID="457221" Value="5"/>
+    <Index ID="457226" Value="4"/>
+    <Index ID="457227" Value="2"/>
+    <Index ID="457228" Value="101"/>
+    <Index ID="457229" Value="102"/>
+    <Index ID="457230" Value="103"/>
+    <Index ID="457231" Value="104"/>
+    <Index ID="457232" Value="3"/>
+    <Index ID="457233" Value="6"/>
+    <Index ID="457234" Value="7"/>
+    <Index ID="457235" Value="8"/>
+    <Index ID="457236" Value="9"/>
+    <Index ID="457237" Value="10"/>
+    <Index ID="457238" Value="11"/>
+    <Index ID="457239" Value="12"/>
+    <Index ID="457262" Value="13"/>
+  </IndexMap>
+</TextGroup>

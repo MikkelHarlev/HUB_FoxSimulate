@@ -1,0 +1,34 @@
+VAR
+	CreateMachineInfoDataObject : USINT;
+	DataObjectLenght : UDINT;
+	DatObjInfo_0 : DatObjInfo;
+	DatObjRead_0 : DatObjRead;
+	fDevice : STRING[80];
+	(*HwGetBatteryInfo_0 : HwGetBatteryInfo;*)
+	i : USINT;
+	InfoFileCreate_0 : FileCreate;
+	InfoFileOpen_0 : FileOpen;
+	InfoFileRead_0 : FileRead;
+	Init : BOOL;
+	MachineInfo_0 : MachineInfo;
+	MachineInfoByte : MachinePermInfo_Type;
+	MachineInfoDataObjectIdent : UDINT;
+	MEMInfo_0 : MEMInfo;
+	OldIcons : BOOL;
+	OpenMachineInfoDataObject : USINT;
+	PageInfo : UINT;
+	PageSystem : UINT;
+	ProductionEvents : USINT;
+	ReadMachineInfoDataObject : USINT;
+	RevisionString : STRING[10];
+	Sysinfo : sysinfo_type;
+	TempLanguageChange : UINT;
+	TimerUpdate_TON : TON;
+	UpdateMachineInfoDataObject : USINT;
+	CloseMachineInfoDataObject : USINT;
+	InfoFileWrite_0 : FileWrite;
+	InfoFileClose_0 : FileClose;
+	waitingToUpdate : BOOL;
+	CoreFramworkVersion : STRING[32] := '';
+	ProgramVersion : STRING[32];
+END_VAR

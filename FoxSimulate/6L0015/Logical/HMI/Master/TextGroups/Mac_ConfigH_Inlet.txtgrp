@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigH_Inlet">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="30"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="309496" Value="Delay feeding of new hanger"/>
+    <Text ID="309497" Value="Hanger passed timeout"/>
+    <Text ID="309498" Value="Check shirt delay"/>
+    <Text ID="309499" Value="Check shirt ontime"/>
+    <Text ID="309500" Value="Hold point"/>
+    <Text ID="309504" Value="msec"/>
+    <Text ID="340391" Value="Reset Press delay"/>
+    <Text ID="434015" Value="No reads before alarm"/>
+    <Text ID="434016" Value="Autoprogram for unknown hanger"/>
+    <Text ID="440357" Value="Run time Hanger conv. from stepfeeder"/>
+    <Text ID="448810" Value="Overall center Startdelay"/>
+    <Text ID="448811" Value="Overall center ontime"/>
+    <Text ID="451591" Value="Delay vaccum flap"/>
+    <Text ID="454558" Value="Run Time Inlet and Top Convoyer (overall) "/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="309496" Value="Verzögerung Eingabe nächster Bügel"/>
+    <Text ID="309497" Value="Bügeleinlauf Kontrollzeit"/>
+    <Text ID="309498" Value="Verzögerung Shirt Kontrolle ab Einlauffotozelle"/>
+    <Text ID="309499" Value="Shirt Kontrollzeit"/>
+    <Text ID="309500" Value="Warteposition"/>
+    <Text ID="309504" Value="msec"/>
+    <Text ID="340391" Value="Verzögerung Niederhalter heben"/>
+    <Text ID="434015" Value="Anzahl nicht gelesene Bügel bis Alarm"/>
+    <Text ID="434016" Value="Autoprogram für nicht gelesenen Bügel"/>
+    <Text ID="440357" Value="Laufzeit Bügelconveyor nach Beladung"/>
+    <Text ID="448810" Value="Overall center Startdelay"/>
+    <Text ID="448811" Value="Overall center ontime"/>
+    <Text ID="451591" Value="Delay vaccum flap"/>
+    <Text ID="454558" Value="Laufzeit - Inlet und Top Convoyer- (overall) "/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="309496" Value="Delay feeding of new hanger"/>
+    <Text ID="309497" Value="Hanger passed timeout"/>
+    <Text ID="309498" Value="Check shirt delay"/>
+    <Text ID="309499" Value="Check shirt ontime"/>
+    <Text ID="309500" Value="Hold point"/>
+    <Text ID="309504" Value="msec"/>
+    <Text ID="340391" Value="Reset Press delay"/>
+    <Text ID="434015" Value="No reads before alarm"/>
+    <Text ID="434016" Value="Autoprogram for unknown hanger"/>
+    <Text ID="440357" Value="Run time Hanger conv. from stepfeeder"/>
+    <Text ID="448810" Value="Overall center Startdelay"/>
+    <Text ID="448811" Value="Overall center ontime"/>
+    <Text ID="451591" Value="Delay vaccum flap"/>
+    <Text ID="454558" Value="Run Time Inlet and Top Convoyer (overall) "/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="309496" Value="Délais engagement nouv. Cintre"/>
+    <Text ID="309497" Value="Temps controlle Cintre après MàU"/>
+    <Text ID="309498" Value="Délais controlle Vêtements"/>
+    <Text ID="309499" Value="Temps controlle Vêtements"/>
+    <Text ID="309500" Value="Point arrêt cintre"/>
+    <Text ID="309504" Value="msec"/>
+    <Text ID="340391" Value="Délais montée lames de pression"/>
+    <Text ID="434015" Value="Nombre cintres non lu avant alarm"/>
+    <Text ID="434016" Value="Autoprogram pour cintre non lu"/>
+    <Text ID="440357" Value="Position d'attendre avant engagement cintre"/>
+    <Text ID="448810" Value="Délais serrage des jambes Overall"/>
+    <Text ID="448811" Value="Temps serrage des jambes Overall"/>
+    <Text ID="451591" Value="Delay vaccum flap"/>
+    <Text ID="454558" Value="Run Time Inlet and Top Convoyer (overall) "/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="309496" Value="Forsinkelse indkøring ny bøjle"/>
+    <Text ID="309497" Value="Bøjle passeret timeout"/>
+    <Text ID="309498" Value="Forsinkelse tjek skjorte"/>
+    <Text ID="309499" Value="Tid tjek skjorte"/>
+    <Text ID="309500" Value="Holde punkt"/>
+    <Text ID="309504" Value="msek"/>
+    <Text ID="340391" Value="Reset tryk forsinkelse"/>
+    <Text ID="434015" Value="Ingen læst før alarm"/>
+    <Text ID="434016" Value="Autoprogram for ukendte kunder"/>
+    <Text ID="440357" Value="Køretid bøjleconveyor fra stepconveyor"/>
+    <Text ID="448810" Value="Overalls centrering forsinkelse start"/>
+    <Text ID="448811" Value="Overalls centerring tid til"/>
+    <Text ID="451591" Value="Delay vaccum flap"/>
+    <Text ID="454558" Value="Run Time Inlet and Top Convoyer (overall) "/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="309496" Value="Ritardo introduzione nuova gruccia"/>
+    <Text ID="309497" Value="TimeOut Gruccia Passata"/>
+    <Text ID="309498" Value="Ritardo controllo maglietta"/>
+    <Text ID="309499" Value="Controllo maglietta in Tempo"/>
+    <Text ID="309500" Value="Punto di Attesa"/>
+    <Text ID="309504" Value="millisec"/>
+    <Text ID="340391" Value="Ritardo Reset Pressione"/>
+    <Text ID="434015" Value="Nessuna Lettura prima di Allarme"/>
+    <Text ID="434016" Value="Autoprogramma per gruccia sconosciuta"/>
+    <Text ID="440357" Value="Run time Hanger conv. from stepfeeder"/>
+    <Text ID="448810" Value="Tute center Ritardo avviamento"/>
+    <Text ID="448811" Value="Centraggi Tute in Tempo"/>
+    <Text ID="451591" Value="Delay vaccum flap"/>
+    <Text ID="454558" Value="Run Time Inlet and Top Convoyer (overall) "/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="309496" Value="Delay feeding of new hanger"/>
+    <Text ID="309497" Value="Hanger passed timeout"/>
+    <Text ID="309498" Value="Check shirt delay"/>
+    <Text ID="309499" Value="Check shirt ontime"/>
+    <Text ID="309500" Value="Hold point"/>
+    <Text ID="309504" Value="msec"/>
+    <Text ID="340391" Value="Reset Press delay"/>
+    <Text ID="434015" Value="No reads before alarm"/>
+    <Text ID="434016" Value="Autoprogram for unknown hanger"/>
+    <Text ID="440357" Value="Run time Hanger conv. from stepfeeder"/>
+    <Text ID="448810" Value="Overall center Startdelay"/>
+    <Text ID="448811" Value="Overall center ontime"/>
+    <Text ID="451591" Value="Delay vaccum flap"/>
+    <Text ID="454558" Value="Run Time Inlet and Top Convoyer (overall) "/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="309496" Value="Delay feeding of new hanger"/>
+    <Text ID="309497" Value="Hanger passed timeout"/>
+    <Text ID="309498" Value="Check shirt delay"/>
+    <Text ID="309499" Value="Check shirt ontime"/>
+    <Text ID="309500" Value="Hold point"/>
+    <Text ID="309504" Value="msec"/>
+    <Text ID="340391" Value="Reset Press delay"/>
+    <Text ID="434015" Value="No reads before alarm"/>
+    <Text ID="434016" Value="Autoprogram for unknown hanger"/>
+    <Text ID="440357" Value="Run time Hanger conv. from stepfeeder"/>
+    <Text ID="448810" Value="Overall center Startdelay"/>
+    <Text ID="448811" Value="Overall center ontime"/>
+    <Text ID="451591" Value="Delay vaccum flap"/>
+    <Text ID="454558" Value="Run Time Inlet and Top Convoyer (overall) "/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="309496" Value="Delay feeding of new hanger"/>
+    <Text ID="309497" Value="Hanger passed timeout"/>
+    <Text ID="309498" Value="Check shirt delay"/>
+    <Text ID="309499" Value="Check shirt ontime"/>
+    <Text ID="309500" Value="Hold point"/>
+    <Text ID="309504" Value="msec"/>
+    <Text ID="340391" Value="Reset Press delay"/>
+    <Text ID="434015" Value="No reads before alarm"/>
+    <Text ID="434016" Value="Autoprogram for unknown hanger"/>
+    <Text ID="440357" Value="Run time Hanger conv. from stepfeeder"/>
+    <Text ID="448810" Value="Overall center Startdelay"/>
+    <Text ID="448811" Value="Overall center ontime"/>
+    <Text ID="451591" Value="Delay vaccum flap"/>
+    <Text ID="454558" Value="Run Time Inlet and Top Convoyer (overall) "/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="309496" Value=""/>
+    <Text ID="309497" Value=""/>
+    <Text ID="309498" Value=""/>
+    <Text ID="309499" Value=""/>
+    <Text ID="309500" Value=""/>
+    <Text ID="309504" Value=""/>
+    <Text ID="340391" Value=""/>
+    <Text ID="434015" Value=""/>
+    <Text ID="434016" Value=""/>
+    <Text ID="440357" Value=""/>
+    <Text ID="448810" Value=""/>
+    <Text ID="448811" Value=""/>
+    <Text ID="451591" Value="Delay vaccum flap"/>
+    <Text ID="454558" Value="Run Time Inlet and Top Convoyer (overall) "/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="309496" Value=""/>
+    <Text ID="309497" Value=""/>
+    <Text ID="309498" Value=""/>
+    <Text ID="309499" Value=""/>
+    <Text ID="309500" Value=""/>
+    <Text ID="309504" Value=""/>
+    <Text ID="340391" Value=""/>
+    <Text ID="434015" Value=""/>
+    <Text ID="434016" Value=""/>
+    <Text ID="440357" Value=""/>
+    <Text ID="448810" Value=""/>
+    <Text ID="448811" Value=""/>
+    <Text ID="451591" Value=""/>
+    <Text ID="454558" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="309496" Value=""/>
+    <Text ID="309497" Value=""/>
+    <Text ID="309498" Value=""/>
+    <Text ID="309499" Value=""/>
+    <Text ID="309500" Value=""/>
+    <Text ID="309504" Value=""/>
+    <Text ID="340391" Value=""/>
+    <Text ID="434015" Value=""/>
+    <Text ID="434016" Value=""/>
+    <Text ID="440357" Value=""/>
+    <Text ID="448810" Value=""/>
+    <Text ID="448811" Value=""/>
+    <Text ID="451591" Value=""/>
+    <Text ID="454558" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="309496" Value=""/>
+    <Text ID="309497" Value=""/>
+    <Text ID="309498" Value=""/>
+    <Text ID="309499" Value=""/>
+    <Text ID="309500" Value=""/>
+    <Text ID="309504" Value=""/>
+    <Text ID="340391" Value=""/>
+    <Text ID="434015" Value=""/>
+    <Text ID="434016" Value=""/>
+    <Text ID="440357" Value=""/>
+    <Text ID="448810" Value=""/>
+    <Text ID="448811" Value=""/>
+    <Text ID="451591" Value=""/>
+    <Text ID="454558" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="309496" Value=""/>
+    <Text ID="309497" Value=""/>
+    <Text ID="309498" Value=""/>
+    <Text ID="309499" Value=""/>
+    <Text ID="309500" Value=""/>
+    <Text ID="309504" Value=""/>
+    <Text ID="340391" Value=""/>
+    <Text ID="434015" Value=""/>
+    <Text ID="434016" Value=""/>
+    <Text ID="440357" Value=""/>
+    <Text ID="448810" Value=""/>
+    <Text ID="448811" Value=""/>
+    <Text ID="451591" Value=""/>
+    <Text ID="454558" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="309496" Value=""/>
+    <Text ID="309497" Value=""/>
+    <Text ID="309498" Value=""/>
+    <Text ID="309499" Value=""/>
+    <Text ID="309500" Value=""/>
+    <Text ID="309504" Value=""/>
+    <Text ID="340391" Value=""/>
+    <Text ID="434015" Value=""/>
+    <Text ID="434016" Value=""/>
+    <Text ID="440357" Value=""/>
+    <Text ID="448810" Value=""/>
+    <Text ID="448811" Value=""/>
+    <Text ID="451591" Value=""/>
+    <Text ID="454558" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="309496" Value="Forsinkelse innmating ny henger"/>
+    <Text ID="309497" Value="Henger passert timeout"/>
+    <Text ID="309498" Value="Forsinkelse sjekk skjorte"/>
+    <Text ID="309499" Value="Tid sjekk skjorte"/>
+    <Text ID="309500" Value="Holde punkt"/>
+    <Text ID="309504" Value="msek"/>
+    <Text ID="340391" Value="Resett trykk forsinkelse"/>
+    <Text ID="434015" Value="Ikke noe lest før alarm"/>
+    <Text ID="434016" Value="Autoprogram for ukjent henger"/>
+    <Text ID="440357" Value="Gangtid hengerkonveyor fra stegmater"/>
+    <Text ID="448810" Value="Kjeledress sentrering forsink start"/>
+    <Text ID="448811" Value="Kjeledress sentrering tid på"/>
+    <Text ID="451591" Value="Delay vaccum flap"/>
+    <Text ID="454558" Value="Run Time Inlet and Top Convoyer (overall) "/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="309496" Value=""/>
+    <Text ID="309497" Value=""/>
+    <Text ID="309498" Value=""/>
+    <Text ID="309499" Value=""/>
+    <Text ID="309500" Value=""/>
+    <Text ID="309504" Value=""/>
+    <Text ID="340391" Value=""/>
+    <Text ID="434015" Value=""/>
+    <Text ID="434016" Value=""/>
+    <Text ID="440357" Value=""/>
+    <Text ID="448810" Value=""/>
+    <Text ID="448811" Value=""/>
+    <Text ID="451591" Value=""/>
+    <Text ID="454558" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="309496" Value="0"/>
+    <Index ID="309497" Value="1"/>
+    <Index ID="309498" Value="2"/>
+    <Index ID="309499" Value="3"/>
+    <Index ID="309500" Value="4"/>
+    <Index ID="309504" Value="50"/>
+    <Index ID="340391" Value="8"/>
+    <Index ID="434015" Value="9"/>
+    <Index ID="434016" Value="10"/>
+    <Index ID="440357" Value="51"/>
+    <Index ID="448810" Value="52"/>
+    <Index ID="448811" Value="53"/>
+    <Index ID="451591" Value="54"/>
+    <Index ID="454558" Value="55"/>
+  </IndexMap>
+</TextGroup>

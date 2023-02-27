@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Cpu xmlns="http://br-automation.co.at/AS/Cpu">
+  <Objects>
+    <Object Type="File" Description="Software configuration">Cpu.sw</Object>
+    <Object Type="File" Description="Declaration of permanent variables">Cpu.per</Object>
+    <Object Type="File" Description="IO mapping file">IoMap.iom</Object>
+    <Object Type="File" Description="PV mapping file">PvMap.vvm</Object>
+    <Object Type="File">VCPS2_Keyboard.dis</Object>
+    <Object Type="Package">Motion</Object>
+    <Object Type="Package">ExternalHardware</Object>
+    <Object Type="Package">VC</Object>
+    <Object Type="File">SafetyFOX_1_3.bin.swt</Object>
+  </Objects>
+  <Configuration ClassID="4PP065.0571-K01" GeneratePPCode="false" HasNcOperatingSystem="true" LocalVariablesMemory="MemoryPool" ModuleID="PP065" OnlineConfigurationName="Fox_Core_TestPanel" Target="SG4" ModuleId="X20CP0484-1">
+    <AutomationRuntime Version="E4.90" />
+    <Build AdditionalBuildOptions="-W 6779" AnsicAdditionalBuildOptions="-DBR_AR -DBR_REDEFINE -DXML_NS -DXML_DTD" AnsicIncludeDirectories="\Logical\Machine\Core\CoreLink\,\Logical\Core\Services\GlobalCoreTypes\,\Logical\Core\Libraries\LibraryIncludes\,\Logical\Core\Services\BI\BlackBox\,\Logical\Core\Services\Alarms\,\Logical\App\CoreLink\Includes\,\Logical\Modules\Backbone\Includes\Global\,\Logical\Modules\Backbone\Libraries\rtk\SG4\" GccVersion="6.3.0" PostBuildStep="cscript &quot;\\jedkfle1\jedkdfs01\fgrp\El_udvikling\SW Tools\Machine SW Build Scripts\Post-Build.vbs&quot; &quot;$(WIN32_AS_PROJECT_PATH)&quot; &quot;$(AS_CONFIGURATION)&quot;" />
+    <DefaultTargetMemory DataObjects="UserROM" Libraries="UserROM" Tasks="UserROM" />
+    <Io ArConfigDataModule="false" ArConfigDataModulePath="$(AS_CPU_PATH)\AS\CfgData.br" IoMapDataModule="false" IoMapDataModulePath="$(AS_CPU_PATH)\AS\IomData.br" Supervision="false" />
+    <Opc WindowsServer="false" />
+    <Safety SafetyRelease="1.10" />
+    <TaskClasses DefaultIoTaskClass="Automatic" DefaultTaskClass="Cyclic2" />
+    <Transfer AddToUserPart="True" AdditionalUserDir="C:\_BnR Kar\Garment\6L\6L0000-6L0099\6L0015\6L0015\CF" AllowDowngrade="False" AllowInitialTransfer="False" AllowPartitioning="False" ExecuteInitExitProgram="True" ForceInitialTransfer="False" IdentificationTypeValue="" IgnoreVersion="True" KeepNonVolatileMemory="False" ModuleSystemForPip="" PreserveVariableValues="True" ProjectConsistent="True" RebootDuringTransfer="False" TargetIdentificationType="Always" TryToBootInRunMode="True" UserFilesIgnoreDifference="False" />
+    <Vc FirmwareVersion="V4.72.5" />
+    <TechnologyPackages>
+      <SafetyRelease Version="1.10.0" />
+    </TechnologyPackages>
+    <OnlineConfiguration Name="6L0015" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=5" ConnectionParameters="/RT=1000 /AM=* /SDT=5 /DAIP=172.16.23.5 /REPO=11159 /ANSL=1 /PT=11169" Description="" />
+  </Configuration>
+</Cpu>

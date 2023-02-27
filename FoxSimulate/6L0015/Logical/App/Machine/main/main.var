@@ -1,0 +1,3 @@
+VAR
+	RTest : ARRAY[0..15] OF BOOL := [16(0)];
+END_VAR

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Alarmsystem">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="0"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R "/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="21" Value=""/>
+    <Text ID="22" Value=""/>
+    <Text ID="23" Value=""/>
+    <Text ID="24" Value=""/>
+    <Text ID="25" Value=""/>
+    <Text ID="26" Value=""/>
+    <Text ID="27" Value=""/>
+    <Text ID="28" Value=""/>
+    <Text ID="29" Value=""/>
+    <Text ID="30" Value=""/>
+    <Text ID="31" Value=""/>
+    <Text ID="32" Value=""/>
+    <Text ID="33" Value=""/>
+    <Text ID="34" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="21" Value=""/>
+    <Text ID="22" Value=""/>
+    <Text ID="23" Value=""/>
+    <Text ID="24" Value=""/>
+    <Text ID="25" Value=""/>
+    <Text ID="26" Value=""/>
+    <Text ID="27" Value=""/>
+    <Text ID="28" Value=""/>
+    <Text ID="29" Value=""/>
+    <Text ID="30" Value=""/>
+    <Text ID="31" Value=""/>
+    <Text ID="32" Value=""/>
+    <Text ID="33" Value=""/>
+    <Text ID="34" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="21" Value="A"/>
+    <Text ID="22" Value="nA"/>
+    <Text ID="23" Value="RA"/>
+    <Text ID="24" Value="AR"/>
+    <Text ID="25" Value="1"/>
+    <Text ID="26" Value="nB"/>
+    <Text ID="27" Value="0"/>
+    <Text ID="28" Value="B"/>
+    <Text ID="29" Value="R"/>
+    <Text ID="30" Value="T"/>
+    <Text ID="31" Value="B"/>
+    <Text ID="32" Value="nB"/>
+    <Text ID="33" Value="RA"/>
+    <Text ID="34" Value="AR"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="21" Value="0"/>
+    <Index ID="22" Value="1"/>
+    <Index ID="23" Value="2"/>
+    <Index ID="24" Value="3"/>
+    <Index ID="25" Value="4"/>
+    <Index ID="26" Value="6"/>
+    <Index ID="27" Value="5"/>
+    <Index ID="28" Value="7"/>
+    <Index ID="29" Value="8"/>
+    <Index ID="30" Value="9"/>
+    <Index ID="31" Value="10"/>
+    <Index ID="32" Value="11"/>
+    <Index ID="33" Value="12"/>
+    <Index ID="34" Value="13"/>
+  </IndexMap>
+</TextGroup>

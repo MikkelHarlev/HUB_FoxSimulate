@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<methodCall>
+    <methodName>GetRealTimeData</methodName>
+    <params>
+        <param>
+            <struct>
+                <member>
+                    <name>RealTimeName</name>
+                    <value>
+                        <base64>"Name of the Realtime type"</base64>
+                    </value>
+                </member>
+            </struct>
+        </param>
+    </params>
+</methodCall>

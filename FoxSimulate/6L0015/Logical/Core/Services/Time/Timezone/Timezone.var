@@ -1,0 +1,24 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: Timezone
+ * File: Timezone.var
+ * Author: duem
+ * Created: January 14, 2014
+ ********************************************************************
+ * Local variables of program Timezone
+ ********************************************************************)
+VAR
+	OldSelectedTimezone : INT := -1;
+	CfgGetTimeZone_0 : CfgGetTimeZone;
+	GUI_ButtonCancel : USINT := 0;
+	GUI_ButtonConfirm : INT := 0;
+	GUI_ButtonSetup : INT := 0;
+	GUI_HideLayer : INT := 0;
+	GUI_ListboxIndex : INT := 0;
+	GUI_SelectedTimezone : STRING[80] := '';
+	InitDoneTimezone : BOOL := FALSE;
+	CfgSetTimeZone_0 : CfgSetTimeZone;
+	GUI_LoadingHide : INT;
+	Timezone_Names : ARRAY[0..76] OF STRING[80] := [77('')];
+END_VAR

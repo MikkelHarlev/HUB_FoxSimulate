@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT -- Microsoft
+ ********************************************************************
+ * Program: MachineStop
+ * File: MachineStop.var
+ * Author: mha
+ * Created: September 24, 2012
+ ********************************************************************
+ * Local variables of program MachineStop
+ ********************************************************************)
+VAR
+	MachineStop_TP : TP;
+	SoftStopMaxTime : FB_Delay;
+	MachineStopTrig : BOOL;
+	RAnyService : BOOL;
+	RServiceEnable : ARRAY[0..20] OF BOOL;
+	i : INT;
+	RInit : BOOL;
+END_VAR

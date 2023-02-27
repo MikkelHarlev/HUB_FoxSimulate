@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_FoldProgLateral">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="35"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msec"/>
+    <Text ID="258735" Value="Width first part"/>
+    <Text ID="304657" Value="Left blade ontime"/>
+    <Text ID="304658" Value="Right blade ontime"/>
+    <Text ID="304659" Value="Width last part"/>
+    <Text ID="352400" Value="Left blade delay"/>
+    <Text ID="352401" Value="Right blade delay"/>
+    <Text ID="352402" Value="Blade return time"/>
+    <Text ID="360389" Value="Blades back"/>
+    <Text ID="360390" Value="Blade out"/>
+    <Text ID="361499" Value="Blade function"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msek"/>
+    <Text ID="258735" Value="Schablonenbreite 1.Set"/>
+    <Text ID="304657" Value="Faltschieber links ausfahren"/>
+    <Text ID="304658" Value="Faltschieber rechts ausfahren"/>
+    <Text ID="304659" Value="Schablonenbreite 2.Set"/>
+    <Text ID="352400" Value="Verzögerung Faltschieber links"/>
+    <Text ID="352401" Value="Verzögerung Faltschieber rechts"/>
+    <Text ID="352402" Value="Faltschieber Rücklaufzeit"/>
+    <Text ID="360389" Value="Faltschieber zurück"/>
+    <Text ID="360390" Value="Faltschieber aussen"/>
+    <Text ID="361499" Value="Funktion Faltschieber"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="tum "/>
+    <Text ID="258732" Value="ms"/>
+    <Text ID="258735" Value="Width first part"/>
+    <Text ID="304657" Value="Left blade ontime"/>
+    <Text ID="304658" Value="Right blade ontime"/>
+    <Text ID="304659" Value="Width last part"/>
+    <Text ID="352400" Value="Left blade delay"/>
+    <Text ID="352401" Value="Right blade delay"/>
+    <Text ID="352402" Value="Blade return time"/>
+    <Text ID="360389" Value="Blades back"/>
+    <Text ID="360390" Value="Blade out"/>
+    <Text ID="361499" Value="Blade function"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msec"/>
+    <Text ID="258735" Value="Largeur première partie"/>
+    <Text ID="304657" Value="Durée lame gauche"/>
+    <Text ID="304658" Value="Durée lame droite"/>
+    <Text ID="304659" Value="Largeur deuxieme partie"/>
+    <Text ID="352400" Value="Délais lame gauche"/>
+    <Text ID="352401" Value="Délais lame droite"/>
+    <Text ID="352402" Value="Durée retour lame"/>
+    <Text ID="360389" Value="Retour des lames"/>
+    <Text ID="360390" Value="Sortie des lames"/>
+    <Text ID="361499" Value="Fonctionnement des lames"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msek"/>
+    <Text ID="258735" Value="Bredde første del"/>
+    <Text ID="304657" Value="Tid venstre foldeblad til"/>
+    <Text ID="304658" Value="Tid højre foldeblad til"/>
+    <Text ID="304659" Value="Bredde siste del"/>
+    <Text ID="352400" Value="Forsinkelse venstre foldeblad"/>
+    <Text ID="352401" Value="Forsinkelse højre foldeblad"/>
+    <Text ID="352402" Value="Tid foldeblad tilbage"/>
+    <Text ID="360389" Value="Foldeplader tilbage"/>
+    <Text ID="360390" Value="Foldeblad ind"/>
+    <Text ID="361499" Value="Foldebladsfunktion"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="pollici"/>
+    <Text ID="258732" Value="millisec"/>
+    <Text ID="258735" Value="Larghezza prima parte"/>
+    <Text ID="304657" Value="Lama Sinistra in Tempo"/>
+    <Text ID="304658" Value="Lama Destra in Tempo"/>
+    <Text ID="304659" Value="larghezza ultima parte"/>
+    <Text ID="352400" Value="Ritardo Lama sinistra"/>
+    <Text ID="352401" Value="Ritardo Lama Destra"/>
+    <Text ID="352402" Value="Lama Tempo Ritorno"/>
+    <Text ID="360389" Value="Lama Indietro"/>
+    <Text ID="360390" Value="Lama Attivata"/>
+    <Text ID="361499" Value="Lama Funzione"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msec"/>
+    <Text ID="258735" Value="Width first part"/>
+    <Text ID="304657" Value="Left blade ontime"/>
+    <Text ID="304658" Value="Right blade ontime"/>
+    <Text ID="304659" Value="Width last part"/>
+    <Text ID="352400" Value="Left blade delay"/>
+    <Text ID="352401" Value="Right blade delay"/>
+    <Text ID="352402" Value="Blade return time"/>
+    <Text ID="360389" Value="Blades back"/>
+    <Text ID="360390" Value="Blade out"/>
+    <Text ID="361499" Value="Blade function"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="inch"/>
+    <Text ID="258732" Value="msec"/>
+    <Text ID="258735" Value="Width first part"/>
+    <Text ID="304657" Value="Left blade ontime"/>
+    <Text ID="304658" Value="Right blade ontime"/>
+    <Text ID="304659" Value="Width last part"/>
+    <Text ID="352400" Value="Left blade delay"/>
+    <Text ID="352401" Value="Right blade delay"/>
+    <Text ID="352402" Value="Blade return time"/>
+    <Text ID="360389" Value="Blades back"/>
+    <Text ID="360390" Value="Blade out"/>
+    <Text ID="361499" Value="Blade function"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="pulg"/>
+    <Text ID="258732" Value="mseg"/>
+    <Text ID="258735" Value="Width first part"/>
+    <Text ID="304657" Value="Left blade ontime"/>
+    <Text ID="304658" Value="Right blade ontime"/>
+    <Text ID="304659" Value="Width last part"/>
+    <Text ID="352400" Value="Left blade delay"/>
+    <Text ID="352401" Value="Right blade delay"/>
+    <Text ID="352402" Value="Blade return time"/>
+    <Text ID="360389" Value="Blades back"/>
+    <Text ID="360390" Value="Blade out"/>
+    <Text ID="361499" Value="Blade function"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="258730" Value=""/>
+    <Text ID="258731" Value=""/>
+    <Text ID="258732" Value=""/>
+    <Text ID="258735" Value=""/>
+    <Text ID="304657" Value=""/>
+    <Text ID="304658" Value=""/>
+    <Text ID="304659" Value=""/>
+    <Text ID="352400" Value=""/>
+    <Text ID="352401" Value=""/>
+    <Text ID="352402" Value=""/>
+    <Text ID="360389" Value=""/>
+    <Text ID="360390" Value=""/>
+    <Text ID="361499" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="258730" Value=""/>
+    <Text ID="258731" Value=""/>
+    <Text ID="258732" Value=""/>
+    <Text ID="258735" Value=""/>
+    <Text ID="304657" Value=""/>
+    <Text ID="304658" Value=""/>
+    <Text ID="304659" Value=""/>
+    <Text ID="352400" Value=""/>
+    <Text ID="352401" Value=""/>
+    <Text ID="352402" Value=""/>
+    <Text ID="360389" Value=""/>
+    <Text ID="360390" Value=""/>
+    <Text ID="361499" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="258730" Value=""/>
+    <Text ID="258731" Value=""/>
+    <Text ID="258732" Value=""/>
+    <Text ID="258735" Value=""/>
+    <Text ID="304657" Value=""/>
+    <Text ID="304658" Value=""/>
+    <Text ID="304659" Value=""/>
+    <Text ID="352400" Value=""/>
+    <Text ID="352401" Value=""/>
+    <Text ID="352402" Value=""/>
+    <Text ID="360389" Value=""/>
+    <Text ID="360390" Value=""/>
+    <Text ID="361499" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="258730" Value=""/>
+    <Text ID="258731" Value=""/>
+    <Text ID="258732" Value=""/>
+    <Text ID="258735" Value=""/>
+    <Text ID="304657" Value=""/>
+    <Text ID="304658" Value=""/>
+    <Text ID="304659" Value=""/>
+    <Text ID="352400" Value=""/>
+    <Text ID="352401" Value=""/>
+    <Text ID="352402" Value=""/>
+    <Text ID="360389" Value=""/>
+    <Text ID="360390" Value=""/>
+    <Text ID="361499" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="258730" Value=""/>
+    <Text ID="258731" Value=""/>
+    <Text ID="258732" Value=""/>
+    <Text ID="258735" Value=""/>
+    <Text ID="304657" Value=""/>
+    <Text ID="304658" Value=""/>
+    <Text ID="304659" Value=""/>
+    <Text ID="352400" Value=""/>
+    <Text ID="352401" Value=""/>
+    <Text ID="352402" Value=""/>
+    <Text ID="360389" Value=""/>
+    <Text ID="360390" Value=""/>
+    <Text ID="361499" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="258730" Value=""/>
+    <Text ID="258731" Value=""/>
+    <Text ID="258732" Value=""/>
+    <Text ID="258735" Value=""/>
+    <Text ID="304657" Value=""/>
+    <Text ID="304658" Value=""/>
+    <Text ID="304659" Value=""/>
+    <Text ID="352400" Value=""/>
+    <Text ID="352401" Value=""/>
+    <Text ID="352402" Value=""/>
+    <Text ID="360389" Value=""/>
+    <Text ID="360390" Value=""/>
+    <Text ID="361499" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="258730" Value="cm"/>
+    <Text ID="258731" Value="tom."/>
+    <Text ID="258732" Value="msek"/>
+    <Text ID="258735" Value="Bredde første del"/>
+    <Text ID="304657" Value="Tid venstre foldeblad på"/>
+    <Text ID="304658" Value="Tid høyre foldeblad på"/>
+    <Text ID="304659" Value="Bredde siste del"/>
+    <Text ID="352400" Value="forsinkelse venstre foldeblad"/>
+    <Text ID="352401" Value="Forsinkelse høyre foldeblad"/>
+    <Text ID="352402" Value="Tid foldeblad tilbake"/>
+    <Text ID="360389" Value="Foldeblader tilbake"/>
+    <Text ID="360390" Value="Foldeblad ut"/>
+    <Text ID="361499" Value="Foldebladsfunksjon"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="258730" Value=""/>
+    <Text ID="258731" Value=""/>
+    <Text ID="258732" Value=""/>
+    <Text ID="258735" Value=""/>
+    <Text ID="304657" Value=""/>
+    <Text ID="304658" Value=""/>
+    <Text ID="304659" Value=""/>
+    <Text ID="352400" Value=""/>
+    <Text ID="352401" Value=""/>
+    <Text ID="352402" Value=""/>
+    <Text ID="360389" Value=""/>
+    <Text ID="360390" Value=""/>
+    <Text ID="361499" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="258730" Value="0"/>
+    <Index ID="258731" Value="1"/>
+    <Index ID="258732" Value="5"/>
+    <Index ID="258735" Value="12"/>
+    <Index ID="304657" Value="15"/>
+    <Index ID="304658" Value="16"/>
+    <Index ID="304659" Value="17"/>
+    <Index ID="352400" Value="18"/>
+    <Index ID="352401" Value="19"/>
+    <Index ID="352402" Value="20"/>
+    <Index ID="360389" Value="101"/>
+    <Index ID="360390" Value="102"/>
+    <Index ID="361499" Value="100"/>
+  </IndexMap>
+</TextGroup>

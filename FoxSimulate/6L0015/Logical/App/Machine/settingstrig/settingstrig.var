@@ -1,0 +1,16 @@
+(********************************************************************
+ * COPYRIGHT -- IXP Data
+ ********************************************************************
+ * Program: StackTrig
+ * File: StackTrig.var
+ * Author: hansencw
+ * Created: September 15, 2017
+ ********************************************************************
+ * Local variables of program StackTrig
+ ********************************************************************)
+VAR
+	ident : UDINT := 0; (*Pointer*)
+	i : USINT;
+	TON_LoadDelay : TON;
+	rLoadStart : BOOL := FALSE;
+END_VAR

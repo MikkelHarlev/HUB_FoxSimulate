@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html dir="ltr">
+<head>
+  <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+  <meta order="3">
+  <title>Example-AB-CalcChecksum</title>
+  <link rel="StyleSheet" href="../../styles.css">
+<!--NavHead-->
+  <link rel="stylesheet" type="text/css" href="../../navigate.css">
+<!--/NavHead-->
+</head>
+<body>
+<h1>DemoLib - Example of
+CalcChecksum in Automation Basic</h1>
+<h2>Description of Example</h2>
+<p>This example of the <a href="../../FBKs/LogInit.html">LogInit</a>
+function shows how to initialise the LogLib.<br>
+</p>
+<h2>Example Code (cyclic)</h2>
+<pre class="SourceCode"><font color="#008000">(* init program *)<br><span
+ style="color: rgb(0, 0, 0);"><br>LogInit_0.enable= TRUE;<br>LogInit_0.EntrysLogfile= 100;<br>LogInit_0.sizeLogbuffer= <span
+ style="color: rgb(51, 51, 255);">sizeof</span>(Logbuffer);<br>LogInit_0.pNameDevice= <span
+ style="color: rgb(51, 51, 255);">adr</span>(<span
+ style="color: rgb(204, 51, 204);"></span></span></font><font
+ style="color: rgb(238, 39, 236);" color="#008000">'FileDevice</font><font
+ style="color: rgb(238, 39, 236);" color="#008000">'</font><font
+ color="#008000"><span style="color: rgb(0, 0, 0);"><span
+ style="color: rgb(204, 51, 204);"></span></span></font><font
+ color="#008000"><span style="color: rgb(0, 0, 0);">);<br>LogInit_0.pNameFile= <span
+ style="color: rgb(51, 51, 255);">adr</span>(<span
+ style="color: rgb(238, 39, 236);">'FileName.csv'</span>);<br>LogInit_0.AdrLogbuffer= <span
+ style="color: rgb(51, 51, 255);">adr</span>(Logbuffer);<br>LogInit_0.pNameWriteData= <span
+ style="color: rgb(51, 51, 255);">adr</span>(<span
+ style="color: rgb(255, 39, 255);">'LogData'</span>);<br><br><span
+ style="color: rgb(0, 153, 0);">(* Call FUB *)</span><br>LogInit_0();<br></span><br>(* cyclic program *)</font><br>SumStatus = CalcChecksum(DL_MODE_SUM, <font
+ color="#0000ff">adr</font>(TestData), <font color="#0000ff">sizeof</font>(TestData), <font
+ color="#0000ff">adr</font>(Checksum1) )<br></pre>
+<h2>Variable Declaration</h2>
+<table class="parameter_tab" border="1">
+  <tbody>
+    <tr>
+      <th class="parameter_tab"><b>Name</b></th>
+      <th class="parameter_tab"><b>Data
+Type</b></th>
+      <th class="parameter_tab"><b>Scope</b></th>
+    </tr>
+    <tr>
+      <td class="parameter_tab">LogInit_0</td>
+      <td class="parameter_tab">LogInit_typ</td>
+      <td class="parameter_tab">local</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">Logbuffer</td>
+      <td class="parameter_tab">LogInit_typ[20]</td>
+      <td class="parameter_tab">local</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">LogData</td>
+      <td class="parameter_tab">PV_Log_typ</td>
+      <td class="parameter_tab">local</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<h2>PV_Log_typ Parameter</h2>
+<br>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2"
+ cellspacing="2">
+  <tbody>
+    <tr>
+      <th class="parameter_tab">Element</th>
+      <th class="parameter_tab">Data
+Type</th>
+      <th class="parameter_tab">Description</th>
+    </tr>
+    <tr>
+      <td class="parameter_tab">date</td>
+      <td class="parameter_tab">DATE_AND_TIME</td>
+      <td class="parameter_tab">Date
+of Logentry</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">text</td>
+      <td class="parameter_tab">STRING(32)</td>
+      <td class="parameter_tab">Text
+of Logentry</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">value</td>
+      <td class="parameter_tab">USINT</td>
+      <td class="parameter_tab">Value
+of a Variable</td>
+    </tr>
+    <tr>
+      <td class="parameter_tab">peaceCount</td>
+      <td class="parameter_tab">UDINT</td>
+      <td class="parameter_tab">Counter
+of produced peaces</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<table class="Nav" cellpadding="0" cellspacing="2" width="100%">
+  <tbody>
+    <tr class="Nav">
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      <p class="Nav">&lt;&lt; Previous Topic<br>
+      <a class="Nav" href="AB.html">AB</a> </p>
+      </td>
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      <p class="NavCenter">&nbsp; <a class="Nav"
+ href="../../LogLib.html">Start&nbsp;Page</a>
+&nbsp; </p>
+      </td>
+      <td rowspan="2" class="Nav" valign="top" width="45%">
+      <p class="NavRight">&nbsp; </p>
+      </td>
+    </tr>
+    <tr class="Nav">
+      <td class="Nav" nowrap="nowrap" valign="top" width="10%">
+      <p class="NavCenter">&nbsp; <a class="Nav" href="AB.html">Start&nbsp;of&nbsp;Chapter</a>
+&nbsp; </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!--NavBottom--><!--/NavBottom-->
+</body>
+</html>

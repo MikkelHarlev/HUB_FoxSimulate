@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.4.112?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="Jedk laver noget om">Jedk-Function</Object>
+    <Object Type="Library" Language="IEC" Description="A new source library">Util</Object>
+    <Object Type="Package">Acopos</Object>
+    <Object Type="Package">Trace2File</Object>
+  </Objects>
+</Package>

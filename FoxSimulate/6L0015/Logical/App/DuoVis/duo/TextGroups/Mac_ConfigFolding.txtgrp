@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mac_ConfigFolding">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="8"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msec"/>
+    <Text ID="285766" Value="Distance:  XB - FoldStart:"/>
+    <Text ID="285767" Value="Distance:  XB FoldStart - XBExit:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distance: TC - XA Fold point"/>
+    <Text ID="409432" Value="XB Extra reverse time"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msek"/>
+    <Text ID="285766" Value="Distanz:  XB - Falt-Start:"/>
+    <Text ID="285767" Value="Distanz:  XB FaltStart - XB Ausgang:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distanz: TC - XA Falt Punkt"/>
+    <Text ID="409432" Value="XB Extra Rücklauf zeit"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="tum "/>
+    <Text ID="284698" Value="ms"/>
+    <Text ID="285766" Value="Distans:  XB - Vikstart:"/>
+    <Text ID="285767" Value="Distans:  XB Vikstart - XBslut:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distans: TC - XA Vikpunkt"/>
+    <Text ID="409432" Value="XB Extra reverseringstid"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="pouce"/>
+    <Text ID="284698" Value="ms"/>
+    <Text ID="285766" Value="Distance :  démarrage pli XB :"/>
+    <Text ID="285767" Value="Distance :  démarrage pli XB - sortie XB :"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distance : TC - point de pli XA"/>
+    <Text ID="409432" Value="XB Temps d'inversion suppl."/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msek"/>
+    <Text ID="285766" Value="Distanse:XB- Foldestart"/>
+    <Text ID="285767" Value="Distanse:  XB FoldStart - XButgangt:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distanse TC - XA Foldepunkt"/>
+    <Text ID="409432" Value="XB Ekstra reverseringstide"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="pollici"/>
+    <Text ID="284698" Value="millisec"/>
+    <Text ID="285766" Value="Distanza:  XB - Avviamento Piega:"/>
+    <Text ID="285767" Value="Distanza:  XB Avviam. Piega - XB Uscita:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distanza TC - XA Punto di Piega"/>
+    <Text ID="409432" Value="XB Tempo Extra di inversione  "/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msec"/>
+    <Text ID="285766" Value="Distance:  XB - FoldStart:"/>
+    <Text ID="285767" Value="Distance:  XB FoldStart - XBExit:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distance: TC - XA Fold point"/>
+    <Text ID="409432" Value="XB Extra reverse time"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msec"/>
+    <Text ID="285766" Value="Afstand XB - Vouw start"/>
+    <Text ID="285767" Value="Afstand XB vouw start - XB uitgang"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Afstand TC - XA vouwpunt"/>
+    <Text ID="409432" Value="XB extra omkeertijd"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="pulg"/>
+    <Text ID="284698" Value="ms"/>
+    <Text ID="285766" Value="Distancia: Transversal B a punto de inicio de plegado"/>
+    <Text ID="285767" Value="Distancia: Transversal B a Salida B"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distancia: Cinta superior a plegado Transversal A"/>
+    <Text ID="409432" Value="Tiempo extra reverso Transversal B"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="cale"/>
+    <Text ID="284698" Value="msek"/>
+    <Text ID="285766" Value="Odległość:  XB - Początek składania:"/>
+    <Text ID="285767" Value="Odległość:  Początek składania XB - wyjście XB:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Odległość: Punkt składania TC-XA"/>
+    <Text ID="409432" Value="XB dodatkowy czas nawrotu"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="284696" Value=""/>
+    <Text ID="284697" Value=""/>
+    <Text ID="284698" Value=""/>
+    <Text ID="285766" Value=""/>
+    <Text ID="285767" Value=""/>
+    <Text ID="291155" Value=""/>
+    <Text ID="316351" Value=""/>
+    <Text ID="409432" Value=""/>
+    <Text ID="525286" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="284696" Value=""/>
+    <Text ID="284697" Value=""/>
+    <Text ID="284698" Value=""/>
+    <Text ID="285766" Value=""/>
+    <Text ID="285767" Value=""/>
+    <Text ID="291155" Value=""/>
+    <Text ID="316351" Value=""/>
+    <Text ID="409432" Value=""/>
+    <Text ID="525286" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="cale"/>
+    <Text ID="284698" Value="msek"/>
+    <Text ID="285766" Value="Odległość:  XB - Początek składania:"/>
+    <Text ID="285767" Value="Odległość:  Początek składania XB - wyjście XB:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Odległość: Punkt składania TC-XA"/>
+    <Text ID="409432" Value="XB dodatkowy czas nawrotu"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msec"/>
+    <Text ID="285766" Value="Distance:  XB - FoldStart:"/>
+    <Text ID="285767" Value="Distance:  XB FoldStart - XBExit:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distance: TC - XA Fold point"/>
+    <Text ID="409432" Value="XB Extra reverse time"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="msec"/>
+    <Text ID="285766" Value="Distance:  XB - FoldStart:"/>
+    <Text ID="285767" Value="Distance:  XB FoldStart - XBExit:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distance: TC - XA Fold point"/>
+    <Text ID="409432" Value="XB Extra reverse time"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="tom."/>
+    <Text ID="284698" Value="msek"/>
+    <Text ID="285766" Value="Distanse: XB- Foldestart"/>
+    <Text ID="285767" Value="Distanse:  XB FoldStart - XB utgangt:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distanse: TC - XA Foldepunkt"/>
+    <Text ID="409432" Value="XB Ekstra reverseringstide"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="284696" Value="cm"/>
+    <Text ID="284697" Value="inch"/>
+    <Text ID="284698" Value="ms"/>
+    <Text ID="285766" Value="Distância:  Dobra cruzada B - Início da dobra:"/>
+    <Text ID="285767" Value="Distância:  Início da dobra cruzada B - Saída da dobra cruzada B:"/>
+    <Text ID="291155" Value="mm"/>
+    <Text ID="316351" Value="Distância: TC - Ponto de dobragem da dobra cruzada A"/>
+    <Text ID="409432" Value="Tempo de inversão extra da dobra cruzada B"/>
+    <Text ID="525286" Value="StartXAOffset"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="284696" Value="0"/>
+    <Index ID="284697" Value="1"/>
+    <Index ID="284698" Value="5"/>
+    <Index ID="285766" Value="28"/>
+    <Index ID="285767" Value="29"/>
+    <Index ID="291155" Value="3"/>
+    <Index ID="316351" Value="50"/>
+    <Index ID="409432" Value="51"/>
+    <Index ID="525286" Value="52"/>
+  </IndexMap>
+</TextGroup>

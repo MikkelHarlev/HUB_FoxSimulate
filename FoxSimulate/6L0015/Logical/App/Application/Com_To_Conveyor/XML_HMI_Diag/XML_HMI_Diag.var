@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: XML_HMI_Diag
+ * File: XML_HMI_Diag.var
+ * Author: jspernil
+ * Created: June 23, 2009
+ ********************************************************************
+ * Local variables of program XML_HMI_Diag
+ ********************************************************************)
+VAR
+	XMLMetriconDiag : XMLDiag_Type := (0);
+	ShowLogText : UINT;
+	PageXMLDiag : UINT;
+	PageMain : UINT;
+	HasConnected : BOOL := 0;
+	CommunicationErrorMetriconTOF : TOF := (0);
+	StartUpDelayTOF : TOF := (0);
+END_VAR

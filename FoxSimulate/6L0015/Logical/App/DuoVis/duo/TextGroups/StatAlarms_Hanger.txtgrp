@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="StatAlarms_Hanger">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="54"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="498131" Value="No hanger from feeder."/>
+    <Text ID="498132" Value="Hanger inlet startup error"/>
+    <Text ID="498133" Value="Time out Hanger inlet"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Remove hanger from Inlet"/>
+    <Text ID="498136" Value="Collapsed hanger in Inlet"/>
+    <Text ID="498137" Value="No hanger read or double hanger."/>
+    <Text ID="498138" Value="Timeout hanger turner"/>
+    <Text ID="498139" Value="Hanger opener time out"/>
+    <Text ID="498140" Value="Hanger opener startup error"/>
+    <Text ID="498141" Value="Garment on hanger"/>
+    <Text ID="498142" Value="Hanger out error"/>
+    <Text ID="498143" Value="Out sensor ontime error"/>
+    <Text ID="498144" Value="Garment on hanger startup"/>
+    <Text ID="498145" Value="Hanger not on deloading unit, remove hanger and garment."/>
+    <Text ID="498146" Value="Garment stuck DU"/>
+    <Text ID="498147" Value="Overtime turn around"/>
+    <Text ID="498148" Value="Starup error Turn around conveyor"/>
+    <Text ID="498149" Value="Remove garment in turn around"/>
+    <Text ID="498150" Value="Hanger out stopped"/>
+    <Text ID="498151" Value="Lateral Error"/>
+    <Text ID="498152" Value="CrossA Error"/>
+    <Text ID="498153" Value="Cross-Folding Overtime               "/>
+    <Text ID="498154" Value="Jam inlet STG 1"/>
+    <Text ID="498155" Value="Startup error STG 1"/>
+    <Text ID="498156" Value="Photocell covered at start STG 1"/>
+    <Text ID="498157" Value="Photocell covered at foldpoint STG 1"/>
+    <Text ID="498158" Value="Photocell covered STG1"/>
+    <Text ID="498159" Value="Jam inlet STG 2"/>
+    <Text ID="498160" Value="Startup error STG 2"/>
+    <Text ID="498161" Value="Photocell covered at start STG 2"/>
+    <Text ID="498162" Value="Photocell covered at foldpoint STG 2"/>
+    <Text ID="498163" Value="Photocell covered STG2"/>
+    <Text ID="498164" Value="Jam inlet STG 3"/>
+    <Text ID="498165" Value="Startup error STG 3"/>
+    <Text ID="498166" Value="Photocell covered at start STG 3"/>
+    <Text ID="498167" Value="Photocell covered at foldpoint STG 3"/>
+    <Text ID="498168" Value="Photocell covered STG3"/>
+    <Text ID="498169" Value="Jam inlet STG 4"/>
+    <Text ID="498170" Value="Startup error STG 4"/>
+    <Text ID="498171" Value="Photocell covered at start STG 4"/>
+    <Text ID="498172" Value="Photocell covered at foldpoint STG 4"/>
+    <Text ID="498173" Value="Photocell covered STG4"/>
+    <Text ID="498174" Value="Jam inlet STG 5"/>
+    <Text ID="498175" Value="Startup error STG 5"/>
+    <Text ID="498176" Value="Photocell covered at start STG 5"/>
+    <Text ID="498177" Value="Photocell covered at foldpoint STG 5"/>
+    <Text ID="498178" Value="Photocell covered STG 5"/>
+    <Text ID="498179" Value="Outlet time out error"/>
+    <Text ID="498180" Value="Outlet startup error"/>
+    <Text ID="498181" Value="Disturbance Photocell Liftstacker, Product jam in "/>
+    <Text ID="498182" Value="Lift not down 1"/>
+    <Text ID="498183" Value="Lift not down 2"/>
+    <Text ID="498184" Value="Lift not down 3"/>
+    <Text ID="498185" Value="Lift not down 4"/>
+    <Text ID="498186" Value="Lift not down 5"/>
+    <Text ID="498187" Value="Lift not down 6"/>
+    <Text ID="498188" Value="Lift not down 7"/>
+    <Text ID="498189" Value="Lift not down 8"/>
+    <Text ID="498190" Value="Lift not down 9"/>
+    <Text ID="498191" Value="Lift not down 10"/>
+    <Text ID="498192" Value="Emergency Stop or Security-Cover open            "/>
+    <Text ID="498193" Value="Protective Motor Switch          "/>
+    <Text ID="498194" Value="Low air pressure detected   "/>
+    <Text ID="498195" Value="Jenway com failed"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="498131" Value="Kein Buegel von der Eingabe"/>
+    <Text ID="498132" Value="Buegeleinlass start fehler"/>
+    <Text ID="498133" Value="Zeitueberschreitung Buegeleinlass"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Entferne Buegel vom Einlauf"/>
+    <Text ID="498136" Value="Buegel am Einlauf haengt fest"/>
+    <Text ID="498137" Value="Buegel nicht gelesen oder doppelbuegel"/>
+    <Text ID="498138" Value="Zeitueberschreitung vom Buegeldreher"/>
+    <Text ID="498139" Value="Zeitueberschreitung Buegel-Oeffner"/>
+    <Text ID="498140" Value="Buegeloeffner start fehler"/>
+    <Text ID="498141" Value="Waesche auf dem Buegel"/>
+    <Text ID="498142" Value="Buegel Auslass fehler"/>
+    <Text ID="498143" Value="Auslasssensor Anzeit-Fehler"/>
+    <Text ID="498144" Value="Waesche auf Buegel start"/>
+    <Text ID="498145" Value="Buegel nicht in Auslasseinheit., Entferne Buegel und Waesche"/>
+    <Text ID="498146" Value="Waesche blockiert DU"/>
+    <Text ID="498147" Value="Zeitueberschreitung umlenkung"/>
+    <Text ID="498148" Value="Start fehler am umkehrconv."/>
+    <Text ID="498149" Value="Entferne die Waesche an der umkehrung"/>
+    <Text ID="498150" Value="Buegel raus gestoppt"/>
+    <Text ID="498151" Value="Laengs fehler"/>
+    <Text ID="498152" Value="KreuzA Fehler"/>
+    <Text ID="498153" Value="Kreuzfaltung zeit ueberschritten"/>
+    <Text ID="498154" Value="Stau Eingabe STG 1"/>
+    <Text ID="498155" Value="Start fehler STG 1"/>
+    <Text ID="498156" Value="Fotozelle betaetigt bei start STG 1"/>
+    <Text ID="498157" Value="Fotozelle betaetigt bei Faltpunkt STG 1"/>
+    <Text ID="498158" Value="Fotozelle betaetigt  STG1"/>
+    <Text ID="498159" Value="Stau Einlauf STG 2"/>
+    <Text ID="498160" Value="Start fehler STG 2"/>
+    <Text ID="498161" Value="Fotozelle betaetigt bei start STG 2"/>
+    <Text ID="498162" Value="Fotozelle betaetigt bei Faltpunkt STG 2"/>
+    <Text ID="498163" Value="Fotozelle betaetigt  STG2"/>
+    <Text ID="498164" Value="Stau Einlauf STG 3"/>
+    <Text ID="498165" Value="Start fehler STG 3"/>
+    <Text ID="498166" Value="Fotozelle betaetigt bei STG 3"/>
+    <Text ID="498167" Value="Fotozelle betaetigt bei foldpoint STG 3"/>
+    <Text ID="498168" Value="Fotozelle betaetigt  STG3"/>
+    <Text ID="498169" Value="Stau Eingabe STG 4"/>
+    <Text ID="498170" Value="Start Fehler STG 4"/>
+    <Text ID="498171" Value="Fotozelle betaetigt bei STG 4"/>
+    <Text ID="498172" Value="Fotozelle betaetigt bei Faltpunkt STG 4"/>
+    <Text ID="498173" Value="Fotozelle betaetigt bei STG4"/>
+    <Text ID="498174" Value="Stau Einlauf STG 5"/>
+    <Text ID="498175" Value="Start Fehler STG 5"/>
+    <Text ID="498176" Value="Fotozelle betaetigt bei start STG 5"/>
+    <Text ID="498177" Value="Fotozelle betaetigt bei Faltpunkt STG 5"/>
+    <Text ID="498178" Value="Fotozelle betaetigt  STG 5"/>
+    <Text ID="498179" Value="Ausgabezeit fehler"/>
+    <Text ID="498180" Value="Ausgabestart-Fehler"/>
+    <Text ID="498181" Value="Stoerung Fotozelle lift-stapler/ waesche steckt drin"/>
+    <Text ID="498182" Value="Lift nicht unten 1"/>
+    <Text ID="498183" Value="Lift nicht unten 2"/>
+    <Text ID="498184" Value="Lift nicht unten 3"/>
+    <Text ID="498185" Value="Lift nicht unten 4"/>
+    <Text ID="498186" Value="Lift nicht unten 5"/>
+    <Text ID="498187" Value="Lift nicht unten 6"/>
+    <Text ID="498188" Value="Lift nicht unten 7"/>
+    <Text ID="498189" Value="Lift nicht unten 8"/>
+    <Text ID="498190" Value="Lift nicht unten 9"/>
+    <Text ID="498191" Value="Lift nicht unten 10"/>
+    <Text ID="498192" Value="Not-Aus oder abdeckung offen            "/>
+    <Text ID="498193" Value="Motorschutz         "/>
+    <Text ID="498194" Value="Niedriger luftdruck festgestellt   "/>
+    <Text ID="498195" Value="Jenway kommun. Fehlgeschlagen"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="498131" Value="Ingen galge från separator"/>
+    <Text ID="498132" Value="Fel vid uppstart galginmatning"/>
+    <Text ID="498133" Value="Övertid galginmatning"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Ta bort galge från inmatning"/>
+    <Text ID="498136" Value="Galge öppnad vid inmatning"/>
+    <Text ID="498137" Value="Ingen galge läst eller dubbla galgar"/>
+    <Text ID="498138" Value="Övertid galgvändare"/>
+    <Text ID="498139" Value="Övertid galgöppnare"/>
+    <Text ID="498140" Value="Fel vid uppstart galgöppnare"/>
+    <Text ID="498141" Value="Plagg på galge"/>
+    <Text ID="498142" Value="Ingen galge detekterad vid utmatning"/>
+    <Text ID="498143" Value="Läsare för galgutmatning påverkad"/>
+    <Text ID="498144" Value="Plagg på galge vid uppstart"/>
+    <Text ID="498145" Value="Galge ej i DU, ta bort plagg samt galge"/>
+    <Text ID="498146" Value="Plagg fastnat i DU"/>
+    <Text ID="498147" Value="Övertid kullerbyttan"/>
+    <Text ID="498148" Value="Fel vid uppstart i kullerbyttan"/>
+    <Text ID="498149" Value="Ta bort plagg från kullerbyttan"/>
+    <Text ID="498150" Value="Galgutmatning stoppad"/>
+    <Text ID="498151" Value="Längsvikningsfel"/>
+    <Text ID="498152" Value="Fel i tvärvik A"/>
+    <Text ID="498153" Value="Transporttid tvärvikning övertid                    "/>
+    <Text ID="498154" Value="Fastnat ingång till stacker"/>
+    <Text ID="498155" Value="Fel vid uppstart STG 1"/>
+    <Text ID="498156" Value="Fotocell påverkad vid uppstart STG 1"/>
+    <Text ID="498157" Value="Fotocell påverkad vid vikpunkt STG 1"/>
+    <Text ID="498158" Value="Fotocell påverkad STG 1"/>
+    <Text ID="498159" Value="Jam inlet STG 2"/>
+    <Text ID="498160" Value="Startup error STG 2"/>
+    <Text ID="498161" Value="Photocell covered at start STG 2"/>
+    <Text ID="498162" Value="Photocell covered at foldpoint STG 2"/>
+    <Text ID="498163" Value="Photocell covered STG2"/>
+    <Text ID="498164" Value="Jam inlet STG 3"/>
+    <Text ID="498165" Value="Startup error STG 3"/>
+    <Text ID="498166" Value="Photocell covered at start STG 3"/>
+    <Text ID="498167" Value="Photocell covered at foldpoint STG 3"/>
+    <Text ID="498168" Value="Photocell covered STG3"/>
+    <Text ID="498169" Value="Jam inlet STG 4"/>
+    <Text ID="498170" Value="Startup error STG 4"/>
+    <Text ID="498171" Value="Photocell covered at start STG 4"/>
+    <Text ID="498172" Value="Photocell covered at foldpoint STG 4"/>
+    <Text ID="498173" Value="Photocell covered STG4"/>
+    <Text ID="498174" Value="Jam inlet STG 5"/>
+    <Text ID="498175" Value="Startup error STG 5"/>
+    <Text ID="498176" Value="Photocell covered at start STG 5"/>
+    <Text ID="498177" Value="Photocell covered at foldpoint STG 5"/>
+    <Text ID="498178" Value="Photocell covered STG 5"/>
+    <Text ID="498179" Value="Övertid utmatning"/>
+    <Text ID="498180" Value="Fel vid uppstart utmatning"/>
+    <Text ID="498181" Value="Störning fotocell liftstacker"/>
+    <Text ID="498182" Value="Lift ej nere 1"/>
+    <Text ID="498183" Value="Lift ej nere 2"/>
+    <Text ID="498184" Value="Lift not down 3"/>
+    <Text ID="498185" Value="Lift not down 4"/>
+    <Text ID="498186" Value="Lift not down 5"/>
+    <Text ID="498187" Value="Lift not down 6"/>
+    <Text ID="498188" Value="Lift not down 7"/>
+    <Text ID="498189" Value="Lift not down 8"/>
+    <Text ID="498190" Value="Lift not down 9"/>
+    <Text ID="498191" Value="Lift not down 10"/>
+    <Text ID="498192" Value="Nödstopp eller skyddslucka öppen                 "/>
+    <Text ID="498193" Value="Motorskyddsbrytare               "/>
+    <Text ID="498194" Value="Lågt lufttryck"/>
+    <Text ID="498195" Value="Jenway kommunikationsfel"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="498131" Value="Pas de cintre provenant de l'engageuse."/>
+    <Text ID="498132" Value="Erreur démarrage entrée cintre"/>
+    <Text ID="498133" Value="Temporisation entrée cintre"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Retirer cintre de l'entrée"/>
+    <Text ID="498136" Value="Chute de cintre à l'entrée"/>
+    <Text ID="498137" Value="Pas de lecture de cintre ou double cintre."/>
+    <Text ID="498138" Value="Temporisation pivotement de cintre"/>
+    <Text ID="498139" Value="Temporisation ouverture cintre"/>
+    <Text ID="498140" Value="Erreur démarrage ouverture cintre"/>
+    <Text ID="498141" Value="Vêtement sur cintre"/>
+    <Text ID="498142" Value="Erreur sortie cintre"/>
+    <Text ID="498143" Value="Erreur durée activ. capteur sortie"/>
+    <Text ID="498144" Value="Démarrage vêtement sur cintre"/>
+    <Text ID="498145" Value="Cintre pas sur unité de déchargement, retirer cintre et vêtement."/>
+    <Text ID="498146" Value="Vêtement coincé DU"/>
+    <Text ID="498147" Value="Dépassement de temps de retour"/>
+    <Text ID="498148" Value="Erreur démarrage convoyeur de retour"/>
+    <Text ID="498149" Value="Retirer le vêtement dans le retour"/>
+    <Text ID="498150" Value="Sortie cintre arrêtée"/>
+    <Text ID="498151" Value="Erreur latérale"/>
+    <Text ID="498152" Value="Erreur transversale A"/>
+    <Text ID="498153" Value="Dépassement de temps pli transversal               "/>
+    <Text ID="498154" Value="Bourrage entrée STG 1"/>
+    <Text ID="498155" Value="Erreur démarrage STG 1"/>
+    <Text ID="498156" Value="Cellule photoél. recouverte au démarrage STG 1"/>
+    <Text ID="498157" Value="Cellule photoél. recouverte au point de pliage STG 1"/>
+    <Text ID="498158" Value="Cellule photoél. recouverte STG1"/>
+    <Text ID="498159" Value="Bourrage entrée STG 2"/>
+    <Text ID="498160" Value="Erreur démarrage STG 2"/>
+    <Text ID="498161" Value="Cellule photoél. recouverte au démarrage STG 2"/>
+    <Text ID="498162" Value="Cellule photoél. recouverte au point de pliage STG 2"/>
+    <Text ID="498163" Value="Cellule photoél. recouverte STG2"/>
+    <Text ID="498164" Value="Bourrage entrée STG 3"/>
+    <Text ID="498165" Value="Erreur démarrage STG 3"/>
+    <Text ID="498166" Value="Cellule photoél. recouverte au démarrage STG 3"/>
+    <Text ID="498167" Value="Cellule photoél. recouverte au point de pliage STG 3"/>
+    <Text ID="498168" Value="Cellule photoél. recouverte STG3"/>
+    <Text ID="498169" Value="Bourrage entrée STG 4"/>
+    <Text ID="498170" Value="Erreur démarrage STG 4"/>
+    <Text ID="498171" Value="Cellule photoél. recouverte au démarrage STG 4"/>
+    <Text ID="498172" Value="Cellule photoél. recouverte au point de pliage STG 4"/>
+    <Text ID="498173" Value="Cellule photoél. recouverte STG4"/>
+    <Text ID="498174" Value="Bourrage entrée STG 5"/>
+    <Text ID="498175" Value="Erreur démarrage STG 5"/>
+    <Text ID="498176" Value="Cellule photoél. recouverte au démarrage STG 5"/>
+    <Text ID="498177" Value="Cellule photoél. recouverte au point de pliage STG 5"/>
+    <Text ID="498178" Value="Cellule photoél. recouverte STG5"/>
+    <Text ID="498179" Value="Erreur temporisation sortie"/>
+    <Text ID="498180" Value="Erreur démarrage sortie"/>
+    <Text ID="498181" Value="Dérangement cellule photoél. empil. élévat., bourrage de produit en "/>
+    <Text ID="498182" Value="Dispositif de levage pas en bas 1"/>
+    <Text ID="498183" Value="Dispositif de levage pas en bas 2"/>
+    <Text ID="498184" Value="Dispositif de levage pas en bas 3"/>
+    <Text ID="498185" Value="Dispositif de levage pas en bas 4"/>
+    <Text ID="498186" Value="Dispositif de levage pas en bas 5"/>
+    <Text ID="498187" Value="Dispositif de levage pas en bas 6"/>
+    <Text ID="498188" Value="Dispositif de levage pas en bas 7"/>
+    <Text ID="498189" Value="Dispositif de levage pas en bas 8"/>
+    <Text ID="498190" Value="Dispositif de levage pas en bas 9"/>
+    <Text ID="498191" Value="Dispositif de levage pas en bas 10"/>
+    <Text ID="498192" Value="Arrêt d'urgence ou couvercle de sécurité ouvert            "/>
+    <Text ID="498193" Value="Disjoncteur-protecteur moteur          "/>
+    <Text ID="498194" Value="Faible pression d'air détectée   "/>
+    <Text ID="498195" Value="Echec de communication Jenway"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="498131" Value="Ingen böjler fra tilgang"/>
+    <Text ID="498132" Value="henger innløp oppstartsfeil"/>
+    <Text ID="498133" Value="Time out böjletransport"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Fjern böjle fra indlöb"/>
+    <Text ID="498136" Value="Böjle ikke resat i indløb"/>
+    <Text ID="498137" Value="Ingen böjle läst eller dobbeltböjle"/>
+    <Text ID="498138" Value="Timeout hanger turner"/>
+    <Text ID="498139" Value="Bøjleåbner timeout"/>
+    <Text ID="498140" Value="Fejl på bøjleåbner efter opstart"/>
+    <Text ID="498141" Value="Tøj på bøjle"/>
+    <Text ID="498142" Value="Ingen bøjle set ved udløb"/>
+    <Text ID="498143" Value="Ingen bøjle set ved udløb"/>
+    <Text ID="498144" Value="Tøj på bøjle ved opstart"/>
+    <Text ID="498145" Value="Bøjle ikke i aflasterenhed, fjern bøjle"/>
+    <Text ID="498146" Value="Garment stuck DU"/>
+    <Text ID="498147" Value="Ikke tøj ved fotocelle"/>
+    <Text ID="498148" Value="Opstartsfejl vendeconveyor"/>
+    <Text ID="498149" Value="Fjern töj ved vendeconveyor"/>
+    <Text ID="498150" Value="Böjle udlöb stoppet"/>
+    <Text ID="498151" Value="Fejl Längdefold"/>
+    <Text ID="498152" Value="Fejl Tvärfold A"/>
+    <Text ID="498153" Value="Transporttid Tvärfold overtid                      "/>
+    <Text ID="498154" Value="Fejl STG 1"/>
+    <Text ID="498155" Value="Startup error STG 1"/>
+    <Text ID="498156" Value="Fotocelle tildäkket under start STG 1"/>
+    <Text ID="498157" Value="Fotocelle tildäkket foldepunkt STG 1"/>
+    <Text ID="498158" Value="Fotocelle tildäkket STG 1"/>
+    <Text ID="498159" Value="Fejl STG 2"/>
+    <Text ID="498160" Value="Startup error STG 2"/>
+    <Text ID="498161" Value="Fotocelle tildäkket under start STG 2"/>
+    <Text ID="498162" Value="Fotocelle tildäkket foldepunkt STG 2"/>
+    <Text ID="498163" Value="Fotocelle tildäkket STG 2"/>
+    <Text ID="498164" Value="Fejl STG 3"/>
+    <Text ID="498165" Value="Startup error STG 3"/>
+    <Text ID="498166" Value="Fotocelle tildäkket under start STG 3"/>
+    <Text ID="498167" Value="Fotocelle tildäkket foldepunkt STG 3"/>
+    <Text ID="498168" Value="Fotocelle tildäkket STG 3"/>
+    <Text ID="498169" Value="Fejl STG 4"/>
+    <Text ID="498170" Value="Startup error STG 4"/>
+    <Text ID="498171" Value="Fotocelle tildäkket under start STG 4"/>
+    <Text ID="498172" Value="Fotocelle tildäkket foldepunkt STG 4"/>
+    <Text ID="498173" Value="Fotocelle tildäkket STG 4"/>
+    <Text ID="498174" Value="Fejl STG 5"/>
+    <Text ID="498175" Value="Startup error STG 5"/>
+    <Text ID="498176" Value="Fotocelle tildäkket under start STG 5"/>
+    <Text ID="498177" Value="Fotocelle tildäkket foldepunkt STG 5"/>
+    <Text ID="498178" Value="Fotocelle tildäkket STG 5"/>
+    <Text ID="498179" Value="Fejl udløbstid"/>
+    <Text ID="498180" Value="Fejl opstart udløb"/>
+    <Text ID="498181" Value="Fejl fotocelle liftstakker"/>
+    <Text ID="498182" Value="Stakkerlift 1 ikke nede"/>
+    <Text ID="498183" Value="Stakkerlift 2 ikke nede"/>
+    <Text ID="498184" Value="Stakkerlift 3 ikke nede"/>
+    <Text ID="498185" Value="Stakkerlift 4 ikke nede"/>
+    <Text ID="498186" Value="Stakkerlift 5 ikke nede"/>
+    <Text ID="498187" Value="Stakkerlift 6 ikke nede"/>
+    <Text ID="498188" Value="Stakkerlift 7 ikke nede"/>
+    <Text ID="498189" Value="Stakkerlift 8 ikke nede"/>
+    <Text ID="498190" Value="Stakkerlift 9 ikke nede"/>
+    <Text ID="498191" Value="Stakkerlift 10 ikke nede"/>
+    <Text ID="498192" Value="Nödstop eller sikkerhedsskärm åben            "/>
+    <Text ID="498193" Value="Motorvärnbryder                  "/>
+    <Text ID="498194" Value="Lufttrykk for lavt"/>
+    <Text ID="498195" Value="Jenway kommunikasjon feilet"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="498131" Value="Nessuna gruccia da STF"/>
+    <Text ID="498132" Value="Errore partenza ingresso gruccia"/>
+    <Text ID="498133" Value="Superato tempo ingresso gruccia "/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Rimuovi gruccia in ingresso"/>
+    <Text ID="498136" Value="Gruccia collasssata in ingresso"/>
+    <Text ID="498137" Value="No gruccia o non letta"/>
+    <Text ID="498138" Value="Superato T gruccia "/>
+    <Text ID="498139" Value="Supersto T Apertura Gruccia"/>
+    <Text ID="498140" Value="Errore Avviamento Apertura Gruccia"/>
+    <Text ID="498141" Value="Indumento in gruccia"/>
+    <Text ID="498142" Value="Errore Fuoriuscita Gruccia"/>
+    <Text ID="498143" Value="Errore Tempo Sensore Rilevamento Uscita "/>
+    <Text ID="498144" Value="Avviamento Gruccia con capo"/>
+    <Text ID="498145" Value="Gruccia non sul sollevatore, rimujoverla"/>
+    <Text ID="498146" Value="Abito fermi in accatastatre"/>
+    <Text ID="498147" Value="Superato tempo inversione"/>
+    <Text ID="498148" Value="Errore start nastro inversione"/>
+    <Text ID="498149" Value="Rimuovi abito in inversione"/>
+    <Text ID="498150" Value="Gruccia ferma in uscita"/>
+    <Text ID="498151" Value="Errore laterale"/>
+    <Text ID="498152" Value="CrossA Errore"/>
+    <Text ID="498153" Value="Tempo di trasporto piega trasversale scaduto        "/>
+    <Text ID="498154" Value="Inceppamento STG1"/>
+    <Text ID="498155" Value="Errore Avviamento STG 1"/>
+    <Text ID="498156" Value="Fotocellula Coperta al punto di partenza STG 1"/>
+    <Text ID="498157" Value="Fotocellula Coperta al punto di piega STG 1"/>
+    <Text ID="498158" Value="Fotocellula Coperta STG1"/>
+    <Text ID="498159" Value="Inceppamento STG2"/>
+    <Text ID="498160" Value="Errore Avviamento STG 2"/>
+    <Text ID="498161" Value="Fotocellula Coperta al punto di partenza STG 2"/>
+    <Text ID="498162" Value="Fotocellula Coperta al punto di piega STG 2"/>
+    <Text ID="498163" Value="Fotocellula Coperta STG2"/>
+    <Text ID="498164" Value="Inceppamento STG3"/>
+    <Text ID="498165" Value="Errore Avviamento STG 3"/>
+    <Text ID="498166" Value="Fotocellula Coperta alla partenza STG 3"/>
+    <Text ID="498167" Value="Fotocellula Coperta al punto di piega STG 3"/>
+    <Text ID="498168" Value="Fotocellula Coperta STG3"/>
+    <Text ID="498169" Value="Inceppamento STG4"/>
+    <Text ID="498170" Value="Errore Avviamento STG 4"/>
+    <Text ID="498171" Value="Fotocellula Coperta alla partenza STG 4"/>
+    <Text ID="498172" Value="Fotocellula Coperta al punto di piega STG 4"/>
+    <Text ID="498173" Value="Fotocellula Coperta STG4"/>
+    <Text ID="498174" Value="Inceppamento STG5"/>
+    <Text ID="498175" Value="Errore Avviamento STG 5"/>
+    <Text ID="498176" Value="Fotocellula Coperta alla partenza STG 5"/>
+    <Text ID="498177" Value="Fotocellula Coperta al punto di piega STG 5"/>
+    <Text ID="498178" Value="Fotocellula Coperta STG 5"/>
+    <Text ID="498179" Value="Errore Uscita TimeOut"/>
+    <Text ID="498180" Value="Errore Avviamento Uscita"/>
+    <Text ID="498181" Value="Disturbo Fotocell. Ascensore, Indum. inceppato"/>
+    <Text ID="498182" Value="Sollevatore non giù 1"/>
+    <Text ID="498183" Value="Sollevatore non giù 2"/>
+    <Text ID="498184" Value="Sollevatore non giù 3"/>
+    <Text ID="498185" Value="Sollevatore non giù 4"/>
+    <Text ID="498186" Value="Sollevatore non giù 5"/>
+    <Text ID="498187" Value="Sollevatore non giù 6"/>
+    <Text ID="498188" Value="Sollevatore non giù 7"/>
+    <Text ID="498189" Value="Sollevatore non giù 8"/>
+    <Text ID="498190" Value="Sollevatore non giù 9"/>
+    <Text ID="498191" Value="Sollevatore non giù 10"/>
+    <Text ID="498192" Value="Arresto di emergenza o copertura sicurezza aperta"/>
+    <Text ID="498193" Value="Interruttore protezione motore   "/>
+    <Text ID="498194" Value="Bassa pressione rilevata"/>
+    <Text ID="498195" Value="Jenway com failed"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="498131" Value="No hanger from feeder."/>
+    <Text ID="498132" Value="Hanger inlet startup error"/>
+    <Text ID="498133" Value="Time out Hanger inlet"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Remove hanger from Inlet"/>
+    <Text ID="498136" Value="Collapsed hanger in Inlet"/>
+    <Text ID="498137" Value="No hanger read or double hanger"/>
+    <Text ID="498138" Value="Timeout hanger turner"/>
+    <Text ID="498139" Value="Hanger opener time out"/>
+    <Text ID="498140" Value="Hanger opener startup error"/>
+    <Text ID="498141" Value="Garment on hanger"/>
+    <Text ID="498142" Value="Hanger out error"/>
+    <Text ID="498143" Value="Out sensor ontime error"/>
+    <Text ID="498144" Value="Garment on hanger startup"/>
+    <Text ID="498145" Value="Hanger not on deloading unit, remove hanger and garment."/>
+    <Text ID="498146" Value="Garment stuck DU"/>
+    <Text ID="498147" Value="Overtime turn around"/>
+    <Text ID="498148" Value="Starup error Turn around conveyor"/>
+    <Text ID="498149" Value="Remove garment in turn around"/>
+    <Text ID="498150" Value="Hanger out stopped"/>
+    <Text ID="498151" Value="Lateral Error"/>
+    <Text ID="498152" Value="CrossA Error"/>
+    <Text ID="498153" Value="Transport-Time Cross-Folding Overtime               "/>
+    <Text ID="498154" Value="Jam inlet STG 1"/>
+    <Text ID="498155" Value="Startup error STG 1"/>
+    <Text ID="498156" Value="Photocell covered at start STG 1"/>
+    <Text ID="498157" Value="Photocell covered at foldpoint STG 1"/>
+    <Text ID="498158" Value="Photocell covered STG1"/>
+    <Text ID="498159" Value="Jam inlet STG 2"/>
+    <Text ID="498160" Value="Startup error STG 2"/>
+    <Text ID="498161" Value="Photocell covered at start STG 2"/>
+    <Text ID="498162" Value="Photocell covered at foldpoint STG 2"/>
+    <Text ID="498163" Value="Photocell covered STG2"/>
+    <Text ID="498164" Value="Jam inlet STG 3"/>
+    <Text ID="498165" Value="Startup error STG 3"/>
+    <Text ID="498166" Value="Photocell covered at start STG 3"/>
+    <Text ID="498167" Value="Photocell covered at foldpoint STG 3"/>
+    <Text ID="498168" Value="Photocell covered STG3"/>
+    <Text ID="498169" Value="Jam inlet STG 4"/>
+    <Text ID="498170" Value="Startup error STG 4"/>
+    <Text ID="498171" Value="Photocell covered at start STG 4"/>
+    <Text ID="498172" Value="Photocell covered at foldpoint STG 4"/>
+    <Text ID="498173" Value="Photocell covered STG4"/>
+    <Text ID="498174" Value="Jam inlet STG 5"/>
+    <Text ID="498175" Value="Startup error STG 5"/>
+    <Text ID="498176" Value="Photocell covered at start STG 5"/>
+    <Text ID="498177" Value="Photocell covered at foldpoint STG 5"/>
+    <Text ID="498178" Value="Photocell covered STG 5"/>
+    <Text ID="498179" Value="Outlet time out error"/>
+    <Text ID="498180" Value="Outlet startup error"/>
+    <Text ID="498181" Value="Disturbance Photocell Liftstacker, Product jam in "/>
+    <Text ID="498182" Value="Lift not down 1"/>
+    <Text ID="498183" Value="Lift not down 2"/>
+    <Text ID="498184" Value="Lift not down 3"/>
+    <Text ID="498185" Value="Lift not down 4"/>
+    <Text ID="498186" Value="Lift not down 5"/>
+    <Text ID="498187" Value="Lift not down 6"/>
+    <Text ID="498188" Value="Lift not down 7"/>
+    <Text ID="498189" Value="Lift not down 8"/>
+    <Text ID="498190" Value="Lift not down 9"/>
+    <Text ID="498191" Value="Lift not down 10"/>
+    <Text ID="498192" Value="Emergency Stop or Security-Cover open            "/>
+    <Text ID="498193" Value="Protective Motor Switch          "/>
+    <Text ID="498194" Value="Low air pressure detected   "/>
+    <Text ID="498195" Value="Jenway com failed"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="498131" Value="Geen hanger vanuit invoerinrichting."/>
+    <Text ID="498132" Value="Opstartfout hangerinvoer"/>
+    <Text ID="498133" Value="Time-out hangerinvoer"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Hanger uit invoer verwijderen"/>
+    <Text ID="498136" Value="Ingeklapte hanger in invoer"/>
+    <Text ID="498137" Value="Geen hanger gelezen of dubbele hanger."/>
+    <Text ID="498138" Value="Time-out hangerdraaier"/>
+    <Text ID="498139" Value="Time-out hangeropener"/>
+    <Text ID="498140" Value="Opstartfout hangeropener"/>
+    <Text ID="498141" Value="Kledingstuk op hanger"/>
+    <Text ID="498142" Value="Fout hangeruitvoer"/>
+    <Text ID="498143" Value="Fout inschakeltijd uitvoersensor"/>
+    <Text ID="498144" Value="Kledingstuk op hanger bij opstarten"/>
+    <Text ID="498145" Value="Hanger niet op uitlaadeenheid"/>
+    <Text ID="498146" Value="Kledingstuk vastgelopen DU"/>
+    <Text ID="498147" Value="Overtijd omkeer"/>
+    <Text ID="498148" Value="Opstartfout omkeer transportband"/>
+    <Text ID="498149" Value="Kledingstuk in omkeer verwijderen"/>
+    <Text ID="498150" Value="Hangeruitvoer gestopt"/>
+    <Text ID="498151" Value="Fout langsvouw"/>
+    <Text ID="498152" Value="Fout dwarsvouw A"/>
+    <Text ID="498153" Value="Transporttijd dwarsvouw duurt te lang               "/>
+    <Text ID="498154" Value="Storing invoer STG 1"/>
+    <Text ID="498155" Value="Opstartfout STG 1"/>
+    <Text ID="498156" Value="Fotocel bedekt bij start STG 1"/>
+    <Text ID="498157" Value="Fotocel bedekt bij vouwpunt STG 1"/>
+    <Text ID="498158" Value="Fotocel bedekt STG1"/>
+    <Text ID="498159" Value="Storing invoer STG 2"/>
+    <Text ID="498160" Value="Opstartfout STG 2"/>
+    <Text ID="498161" Value="Fotocel bedekt bij start STG 2"/>
+    <Text ID="498162" Value="Fotocel bedekt bij vouwpunt STG 2"/>
+    <Text ID="498163" Value="Fotocel bedekt STG2"/>
+    <Text ID="498164" Value="Storing invoer STG 3"/>
+    <Text ID="498165" Value="Opstartfout STG 3"/>
+    <Text ID="498166" Value="Fotocel bedekt bij start STG 3"/>
+    <Text ID="498167" Value="Fotocel bedekt bij vouwpunt STG 3"/>
+    <Text ID="498168" Value="Fotocel bedekt STG3"/>
+    <Text ID="498169" Value="Storing invoer STG 4"/>
+    <Text ID="498170" Value="Opstartfout STG 4"/>
+    <Text ID="498171" Value="Fotocel bedekt bij start STG 4"/>
+    <Text ID="498172" Value="Fotocel bedekt bij vouwpunt STG 4"/>
+    <Text ID="498173" Value="Fotocel bedekt STG4"/>
+    <Text ID="498174" Value="Storing invoer STG 5"/>
+    <Text ID="498175" Value="Opstartfout STG 5"/>
+    <Text ID="498176" Value="Fotocel bedekt bij start STG 5"/>
+    <Text ID="498177" Value="Fotocel bedekt bij vouwpunt STG 5"/>
+    <Text ID="498178" Value="Fotocel bedekt STG5"/>
+    <Text ID="498179" Value="Time-outfout uitvoer"/>
+    <Text ID="498180" Value="Opstartfout uitvoer"/>
+    <Text ID="498181" Value="Storing fotocel hefstapelaar, productstoring in "/>
+    <Text ID="498182" Value="Lift niet omlaag 1"/>
+    <Text ID="498183" Value="Lift niet omlaag 2"/>
+    <Text ID="498184" Value="Lift niet omlaag 3"/>
+    <Text ID="498185" Value="Lift niet omlaag 4"/>
+    <Text ID="498186" Value="Lift niet omlaag 5"/>
+    <Text ID="498187" Value="Lift niet omlaag 6"/>
+    <Text ID="498188" Value="Lift niet omlaag 7"/>
+    <Text ID="498189" Value="Lift niet omlaag 8"/>
+    <Text ID="498190" Value="Lift niet omlaag 9"/>
+    <Text ID="498191" Value="Lift niet omlaag 10"/>
+    <Text ID="498192" Value="Noodstop of deur geopend                         "/>
+    <Text ID="498193" Value="Motorbeveiligingsschakelaar      "/>
+    <Text ID="498194" Value="Lage druk gedetecteerd  "/>
+    <Text ID="498195" Value="Jenway communicatie mislukt"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="498131" Value="Sin percha desde el alimentador"/>
+    <Text ID="498132" Value="Error inicio en transportador de perchas"/>
+    <Text ID="498133" Value="Tiempo excedido de entrada perchas"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Perchas retiradas en la entrada"/>
+    <Text ID="498136" Value="Percha plegadas en la entrada"/>
+    <Text ID="498137" Value="Sin lectura de percha o percha doble"/>
+    <Text ID="498138" Value="Vencimiento tiempo en girador perchas"/>
+    <Text ID="498139" Value="Vencimiento tiempo en abridor de perchas"/>
+    <Text ID="498140" Value="Error de inicio en abridor de perchas"/>
+    <Text ID="498141" Value="Error de prenda en percha"/>
+    <Text ID="498142" Value="Error en salida de perchas"/>
+    <Text ID="498143" Value="Error tiempo activo de sensor salida"/>
+    <Text ID="498144" Value="Inicio de prenda en percha"/>
+    <Text ID="498145" Value="Sin percha en UD, retirar percha"/>
+    <Text ID="498146" Value="Prenda atascada en Unidad descarga"/>
+    <Text ID="498147" Value="Vencido tiempo en cambio sentido"/>
+    <Text ID="498148" Value="Fallo arranque en cambio sentido"/>
+    <Text ID="498149" Value="Prendas retiradas en cambio sentido"/>
+    <Text ID="498150" Value="Salida de perchas parada"/>
+    <Text ID="498151" Value="Fallo plegado longitudinal"/>
+    <Text ID="498152" Value="Fallo en plegado Transversal A"/>
+    <Text ID="498153" Value="Sobretiempo en plegado Transversal             "/>
+    <Text ID="498154" Value="Atasco en entrada STG1"/>
+    <Text ID="498155" Value="Error en inicio STG1"/>
+    <Text ID="498156" Value="Fotocélula cubierta en inicio STG1"/>
+    <Text ID="498157" Value="Fotocélula cubierta en plegado STG1"/>
+    <Text ID="498158" Value="Fotocélula cubierta STG1"/>
+    <Text ID="498159" Value="Atasco en entrada STG2"/>
+    <Text ID="498160" Value="Error en inicio STG2"/>
+    <Text ID="498161" Value="Fotocélula cubierta en inicio STG2"/>
+    <Text ID="498162" Value="Fotocélula cubierta en plegado STG2"/>
+    <Text ID="498163" Value="Fotocélula cubierta STG2"/>
+    <Text ID="498164" Value="Atasco en entrada STG3"/>
+    <Text ID="498165" Value="Error en inicio STG3"/>
+    <Text ID="498166" Value="Fotocélula cubierta en inicio STG3"/>
+    <Text ID="498167" Value="Fotocélula cubierta en plegado STG3"/>
+    <Text ID="498168" Value="Fotocélula cubierta STG3"/>
+    <Text ID="498169" Value="Atasco en entrada STG4"/>
+    <Text ID="498170" Value="Error en inicio STG4"/>
+    <Text ID="498171" Value="Fotocélula cubierta en inicio STG4"/>
+    <Text ID="498172" Value="Fotocélula cubierta en plegado STG4"/>
+    <Text ID="498173" Value="Fotocélula cubierta STG4"/>
+    <Text ID="498174" Value="Atasco en entrada STG5"/>
+    <Text ID="498175" Value="Error en inicio STG5"/>
+    <Text ID="498176" Value="Fotocélula cubierta en inicio STG5"/>
+    <Text ID="498177" Value="Fotocélula cubierta en plegado STG5"/>
+    <Text ID="498178" Value="Fotocélula cubierta STG5"/>
+    <Text ID="498179" Value="Error tiempo espera en salida"/>
+    <Text ID="498180" Value="Fallo arranque salida"/>
+    <Text ID="498181" Value="Fallo fotocélula atasco en Apilador"/>
+    <Text ID="498182" Value="Elevador  1 NO abajo"/>
+    <Text ID="498183" Value="Elevador  2 NO abajo"/>
+    <Text ID="498184" Value="Elevador  3 NO abajo"/>
+    <Text ID="498185" Value="Elevador  4 NO abajo"/>
+    <Text ID="498186" Value="Elevador  5 NO abajo"/>
+    <Text ID="498187" Value="Elevador  6 NO abajo"/>
+    <Text ID="498188" Value="Elevador  7 NO abajo"/>
+    <Text ID="498189" Value="Elevador  8 NO abajo"/>
+    <Text ID="498190" Value="Elevador  9 NO abajo"/>
+    <Text ID="498191" Value="Elevador 10 NO abajo"/>
+    <Text ID="498192" Value="Desconexión Emergencia o Protectores de seguridad abiertos"/>
+    <Text ID="498193" Value="Guardamotor"/>
+    <Text ID="498194" Value="Presión baja detectada"/>
+    <Text ID="498195" Value="Fallo comunicación Jenway"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="498131" Value="Brak wieszaka z podajnika."/>
+    <Text ID="498132" Value="Błąd rozruchu wlotu wieszaków"/>
+    <Text ID="498133" Value="Limit czasowy na wlocie wieszaków"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Usuń wieszak z wlotu"/>
+    <Text ID="498136" Value="Opadnięty wieszak na wlocie"/>
+    <Text ID="498137" Value="Brak odczytu wieszaka lub podwójny wieszak."/>
+    <Text ID="498138" Value="Limit czasowy zespołu obracającego wieszaki"/>
+    <Text ID="498139" Value="Limit czasowy zespołu otwierającego wieszaki"/>
+    <Text ID="498140" Value="Błąd rozruchu zespołu otwierającego wieszaki"/>
+    <Text ID="498141" Value="Odzież na wieszaku"/>
+    <Text ID="498142" Value="Błąd wyjścia wieszaka"/>
+    <Text ID="498143" Value="Błąd czasu włączenia czujnika wyjścia"/>
+    <Text ID="498144" Value="Odzież na wieszaku podczas uruchomienia"/>
+    <Text ID="498145" Value="Brak wieszaka w zespole wyładunkowym, zdjąć wieszak i odzież."/>
+    <Text ID="498146" Value="Odzież uwięziona DU"/>
+    <Text ID="498147" Value="Nadmierny czas przenośnika odwracającego"/>
+    <Text ID="498148" Value="Błąd uruchomienia przenośnika odwracającego"/>
+    <Text ID="498149" Value="Usunąć odzież z przenośnika odwracającego"/>
+    <Text ID="498150" Value="Wyjście wieszaka zatrzymane"/>
+    <Text ID="498151" Value="Błąd składania wzdłużnego"/>
+    <Text ID="498152" Value="Błąd złożenia poprzecznego A"/>
+    <Text ID="498153" Value="Zbyt długi czas składania poprzecznego               "/>
+    <Text ID="498154" Value="Zator na wlocie STG 1"/>
+    <Text ID="498155" Value="Błąd uruchomienia STG 1"/>
+    <Text ID="498156" Value="Fotokomórka na starcie STG 1 zasłonięta"/>
+    <Text ID="498157" Value="Fotokomórka w punkcie składania STG 1 zasłonięta"/>
+    <Text ID="498158" Value="Fotokomórka STG1 zasłonięta"/>
+    <Text ID="498159" Value="Zator na wlocie STG 2"/>
+    <Text ID="498160" Value="Błąd uruchomienia STG 2"/>
+    <Text ID="498161" Value="Fotokomórka na starcie STG 2 zasłonięta"/>
+    <Text ID="498162" Value="Fotokomórka w punkcie składania STG 2 zasłonięta"/>
+    <Text ID="498163" Value="Fotokomórka STG2 zasłonięta"/>
+    <Text ID="498164" Value="Zator na wlocie STG 3"/>
+    <Text ID="498165" Value="Błąd uruchomienia STG 3"/>
+    <Text ID="498166" Value="Fotokomórka na starcie STG 3 zasłonięta"/>
+    <Text ID="498167" Value="Fotokomórka w punkcie składania STG 3 zasłonięta"/>
+    <Text ID="498168" Value="Fotokomórka STG3 zasłonięta"/>
+    <Text ID="498169" Value="Zator na wlocie STG 4"/>
+    <Text ID="498170" Value="Błąd uruchomienia STG 4"/>
+    <Text ID="498171" Value="Fotokomórka na starcie STG 4 zasłonięta"/>
+    <Text ID="498172" Value="Fotokomórka w punkcie składania STG 4 zasłonięta"/>
+    <Text ID="498173" Value="Fotokomórka STG4 zasłonięta"/>
+    <Text ID="498174" Value="Zator na wlocie STG 5"/>
+    <Text ID="498175" Value="Błąd uruchomienia STG 5"/>
+    <Text ID="498176" Value="Fotokomórka na starcie STG 5 zasłonięta"/>
+    <Text ID="498177" Value="Fotokomórka w punkcie składania STG 5 zasłonięta"/>
+    <Text ID="498178" Value="Fotokomórka STG5 zasłonięta"/>
+    <Text ID="498179" Value="Błąd przekroczenia czasu wyprowadzania"/>
+    <Text ID="498180" Value="Błąd uruchomienia wyprowadzania"/>
+    <Text ID="498181" Value="Zakłócenie fotokomórki podnośnika układarki, zator produktu w "/>
+    <Text ID="498182" Value="Podnośnik nie jest w pozycji dolnej 1"/>
+    <Text ID="498183" Value="Podnośnik nie jest w pozycji dolnej 2"/>
+    <Text ID="498184" Value="Podnośnik nie jest w pozycji dolnej 3"/>
+    <Text ID="498185" Value="Podnośnik nie jest w pozycji dolnej 4"/>
+    <Text ID="498186" Value="Podnośnik nie jest w pozycji dolnej 5"/>
+    <Text ID="498187" Value="Podnośnik nie jest w pozycji dolnej 6"/>
+    <Text ID="498188" Value="Podnośnik nie jest w pozycji dolnej 7"/>
+    <Text ID="498189" Value="Podnośnik nie jest w pozycji dolnej 8"/>
+    <Text ID="498190" Value="Podnośnik nie jest w pozycji dolnej 9"/>
+    <Text ID="498191" Value="Podnośnik nie jest w pozycji dolnej 10"/>
+    <Text ID="498192" Value="Uruchomiony wyłącznik zatrzymania awaryjnego lub otwarta osłona zabezpieczająca            "/>
+    <Text ID="498193" Value="Wyłącznik zabezpieczający silnik          "/>
+    <Text ID="498194" Value="Wykryto niskie ciśnienie powietrza   "/>
+    <Text ID="498195" Value="Niepowodzenie kom z urządzeniem Jenway"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="498131" Value=""/>
+    <Text ID="498132" Value=""/>
+    <Text ID="498133" Value=""/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value=""/>
+    <Text ID="498136" Value=""/>
+    <Text ID="498137" Value=""/>
+    <Text ID="498138" Value=""/>
+    <Text ID="498139" Value=""/>
+    <Text ID="498140" Value=""/>
+    <Text ID="498141" Value=""/>
+    <Text ID="498142" Value=""/>
+    <Text ID="498143" Value=""/>
+    <Text ID="498144" Value=""/>
+    <Text ID="498145" Value=""/>
+    <Text ID="498146" Value=""/>
+    <Text ID="498147" Value=""/>
+    <Text ID="498148" Value=""/>
+    <Text ID="498149" Value=""/>
+    <Text ID="498150" Value=""/>
+    <Text ID="498151" Value=""/>
+    <Text ID="498152" Value=""/>
+    <Text ID="498153" Value=""/>
+    <Text ID="498154" Value=""/>
+    <Text ID="498155" Value=""/>
+    <Text ID="498156" Value=""/>
+    <Text ID="498157" Value=""/>
+    <Text ID="498158" Value=""/>
+    <Text ID="498159" Value=""/>
+    <Text ID="498160" Value=""/>
+    <Text ID="498161" Value=""/>
+    <Text ID="498162" Value=""/>
+    <Text ID="498163" Value=""/>
+    <Text ID="498164" Value=""/>
+    <Text ID="498165" Value=""/>
+    <Text ID="498166" Value=""/>
+    <Text ID="498167" Value=""/>
+    <Text ID="498168" Value=""/>
+    <Text ID="498169" Value=""/>
+    <Text ID="498170" Value=""/>
+    <Text ID="498171" Value=""/>
+    <Text ID="498172" Value=""/>
+    <Text ID="498173" Value=""/>
+    <Text ID="498174" Value=""/>
+    <Text ID="498175" Value=""/>
+    <Text ID="498176" Value=""/>
+    <Text ID="498177" Value=""/>
+    <Text ID="498178" Value=""/>
+    <Text ID="498179" Value=""/>
+    <Text ID="498180" Value=""/>
+    <Text ID="498181" Value=""/>
+    <Text ID="498182" Value=""/>
+    <Text ID="498183" Value=""/>
+    <Text ID="498184" Value=""/>
+    <Text ID="498185" Value=""/>
+    <Text ID="498186" Value=""/>
+    <Text ID="498187" Value=""/>
+    <Text ID="498188" Value=""/>
+    <Text ID="498189" Value=""/>
+    <Text ID="498190" Value=""/>
+    <Text ID="498191" Value=""/>
+    <Text ID="498192" Value=""/>
+    <Text ID="498193" Value=""/>
+    <Text ID="498194" Value=""/>
+    <Text ID="498195" Value=""/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="498131" Value=""/>
+    <Text ID="498132" Value=""/>
+    <Text ID="498133" Value=""/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value=""/>
+    <Text ID="498136" Value=""/>
+    <Text ID="498137" Value=""/>
+    <Text ID="498138" Value=""/>
+    <Text ID="498139" Value=""/>
+    <Text ID="498140" Value=""/>
+    <Text ID="498141" Value=""/>
+    <Text ID="498142" Value=""/>
+    <Text ID="498143" Value=""/>
+    <Text ID="498144" Value=""/>
+    <Text ID="498145" Value=""/>
+    <Text ID="498146" Value=""/>
+    <Text ID="498147" Value=""/>
+    <Text ID="498148" Value=""/>
+    <Text ID="498149" Value=""/>
+    <Text ID="498150" Value=""/>
+    <Text ID="498151" Value=""/>
+    <Text ID="498152" Value=""/>
+    <Text ID="498153" Value=""/>
+    <Text ID="498154" Value=""/>
+    <Text ID="498155" Value=""/>
+    <Text ID="498156" Value=""/>
+    <Text ID="498157" Value=""/>
+    <Text ID="498158" Value=""/>
+    <Text ID="498159" Value=""/>
+    <Text ID="498160" Value=""/>
+    <Text ID="498161" Value=""/>
+    <Text ID="498162" Value=""/>
+    <Text ID="498163" Value=""/>
+    <Text ID="498164" Value=""/>
+    <Text ID="498165" Value=""/>
+    <Text ID="498166" Value=""/>
+    <Text ID="498167" Value=""/>
+    <Text ID="498168" Value=""/>
+    <Text ID="498169" Value=""/>
+    <Text ID="498170" Value=""/>
+    <Text ID="498171" Value=""/>
+    <Text ID="498172" Value=""/>
+    <Text ID="498173" Value=""/>
+    <Text ID="498174" Value=""/>
+    <Text ID="498175" Value=""/>
+    <Text ID="498176" Value=""/>
+    <Text ID="498177" Value=""/>
+    <Text ID="498178" Value=""/>
+    <Text ID="498179" Value=""/>
+    <Text ID="498180" Value=""/>
+    <Text ID="498181" Value=""/>
+    <Text ID="498182" Value=""/>
+    <Text ID="498183" Value=""/>
+    <Text ID="498184" Value=""/>
+    <Text ID="498185" Value=""/>
+    <Text ID="498186" Value=""/>
+    <Text ID="498187" Value=""/>
+    <Text ID="498188" Value=""/>
+    <Text ID="498189" Value=""/>
+    <Text ID="498190" Value=""/>
+    <Text ID="498191" Value=""/>
+    <Text ID="498192" Value=""/>
+    <Text ID="498193" Value=""/>
+    <Text ID="498194" Value=""/>
+    <Text ID="498195" Value=""/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="498131" Value="Brak wieszaka z podajnika."/>
+    <Text ID="498132" Value="Błąd rozruchu wlotu wieszaków"/>
+    <Text ID="498133" Value="Limit czasowy na wlocie wieszaków"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Usuń wieszak z wlotu"/>
+    <Text ID="498136" Value="Opadnięty wieszak na wlocie"/>
+    <Text ID="498137" Value="Brak odczytu wieszaka lub podwójny wieszak."/>
+    <Text ID="498138" Value="Limit czasowy zespołu obracającego wieszaki"/>
+    <Text ID="498139" Value="Limit czasowy zespołu otwierającego wieszaki"/>
+    <Text ID="498140" Value="Błąd rozruchu zespołu otwierającego wieszaki"/>
+    <Text ID="498141" Value="Odzież na wieszaku"/>
+    <Text ID="498142" Value="Błąd wyjścia wieszaka"/>
+    <Text ID="498143" Value="Błąd czasu włączenia czujnika wyjścia"/>
+    <Text ID="498144" Value="Odzież na wieszaku podczas uruchomienia"/>
+    <Text ID="498145" Value="Brak wieszaka w zespole wyładunkowym, zdjąć wieszak i odzież."/>
+    <Text ID="498146" Value="Odzież uwięziona DU"/>
+    <Text ID="498147" Value="Nadmierny czas przenośnika odwracającego"/>
+    <Text ID="498148" Value="Błąd uruchomienia przenośnika odwracającego"/>
+    <Text ID="498149" Value="Usunąć odzież z przenośnika odwracającego"/>
+    <Text ID="498150" Value="Wyjście wieszaka zatrzymane"/>
+    <Text ID="498151" Value="Błąd składania wzdłużnego"/>
+    <Text ID="498152" Value="Błąd złożenia poprzecznego A"/>
+    <Text ID="498153" Value="Zbyt długi czas składania poprzecznego               "/>
+    <Text ID="498154" Value="Zator na wlocie STG 1"/>
+    <Text ID="498155" Value="Błąd uruchomienia STG 1"/>
+    <Text ID="498156" Value="Fotokomórka na starcie STG 1 zasłonięta"/>
+    <Text ID="498157" Value="Fotokomórka w punkcie składania STG 1 zasłonięta"/>
+    <Text ID="498158" Value="Fotokomórka STG1 zasłonięta"/>
+    <Text ID="498159" Value="Zator na wlocie STG 2"/>
+    <Text ID="498160" Value="Błąd uruchomienia STG 2"/>
+    <Text ID="498161" Value="Fotokomórka na starcie STG 2 zasłonięta"/>
+    <Text ID="498162" Value="Fotokomórka w punkcie składania STG 2 zasłonięta"/>
+    <Text ID="498163" Value="Fotokomórka STG2 zasłonięta"/>
+    <Text ID="498164" Value="Zator na wlocie STG 3"/>
+    <Text ID="498165" Value="Błąd uruchomienia STG 3"/>
+    <Text ID="498166" Value="Fotokomórka na starcie STG 3 zasłonięta"/>
+    <Text ID="498167" Value="Fotokomórka w punkcie składania STG 3 zasłonięta"/>
+    <Text ID="498168" Value="Fotokomórka STG3 zasłonięta"/>
+    <Text ID="498169" Value="Zator na wlocie STG 4"/>
+    <Text ID="498170" Value="Błąd uruchomienia STG 4"/>
+    <Text ID="498171" Value="Fotokomórka na starcie STG 4 zasłonięta"/>
+    <Text ID="498172" Value="Fotokomórka w punkcie składania STG 4 zasłonięta"/>
+    <Text ID="498173" Value="Fotokomórka STG4 zasłonięta"/>
+    <Text ID="498174" Value="Zator na wlocie STG 5"/>
+    <Text ID="498175" Value="Błąd uruchomienia STG 5"/>
+    <Text ID="498176" Value="Fotokomórka na starcie STG 5 zasłonięta"/>
+    <Text ID="498177" Value="Fotokomórka w punkcie składania STG 5 zasłonięta"/>
+    <Text ID="498178" Value="Fotokomórka STG5 zasłonięta"/>
+    <Text ID="498179" Value="Błąd przekroczenia czasu wyprowadzania"/>
+    <Text ID="498180" Value="Błąd uruchomienia wyprowadzania"/>
+    <Text ID="498181" Value="Zakłócenie fotokomórki podnośnika układarki, zator produktu w "/>
+    <Text ID="498182" Value="Podnośnik nie jest w pozycji dolnej 1"/>
+    <Text ID="498183" Value="Podnośnik nie jest w pozycji dolnej 2"/>
+    <Text ID="498184" Value="Podnośnik nie jest w pozycji dolnej 3"/>
+    <Text ID="498185" Value="Podnośnik nie jest w pozycji dolnej 4"/>
+    <Text ID="498186" Value="Podnośnik nie jest w pozycji dolnej 5"/>
+    <Text ID="498187" Value="Podnośnik nie jest w pozycji dolnej 6"/>
+    <Text ID="498188" Value="Podnośnik nie jest w pozycji dolnej 7"/>
+    <Text ID="498189" Value="Podnośnik nie jest w pozycji dolnej 8"/>
+    <Text ID="498190" Value="Podnośnik nie jest w pozycji dolnej 9"/>
+    <Text ID="498191" Value="Podnośnik nie jest w pozycji dolnej 10"/>
+    <Text ID="498192" Value="Uruchomiony wyłącznik zatrzymania awaryjnego lub otwarta osłona zabezpieczająca            "/>
+    <Text ID="498193" Value="Wyłącznik zabezpieczający silnik          "/>
+    <Text ID="498194" Value="Wykryto niskie ciśnienie powietrza   "/>
+    <Text ID="498195" Value="Niepowodzenie kom z urządzeniem Jenway"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="498131" Value="No hanger from feeder."/>
+    <Text ID="498132" Value="Hanger inlet startup error"/>
+    <Text ID="498133" Value="Time out Hanger inlet"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Remove hanger from Inlet"/>
+    <Text ID="498136" Value="Collapsed hanger in Inlet"/>
+    <Text ID="498137" Value="No hanger read or double hanger"/>
+    <Text ID="498138" Value="Timeout hanger turner"/>
+    <Text ID="498139" Value="Hanger opener time out"/>
+    <Text ID="498140" Value="Hanger opener startup error"/>
+    <Text ID="498141" Value="Garment on hanger"/>
+    <Text ID="498142" Value="Hanger out error"/>
+    <Text ID="498143" Value="Out sensor ontime error"/>
+    <Text ID="498144" Value="Garment on hanger startup"/>
+    <Text ID="498145" Value="Hanger not on deloading unit, remove hanger and garment."/>
+    <Text ID="498146" Value="Garment stuck DU"/>
+    <Text ID="498147" Value="Overtime turn around"/>
+    <Text ID="498148" Value="Starup error Turn around conveyor"/>
+    <Text ID="498149" Value="Remove garment in turn around"/>
+    <Text ID="498150" Value="Hanger out stopped"/>
+    <Text ID="498151" Value="Lateral Error"/>
+    <Text ID="498152" Value="CrossA Error"/>
+    <Text ID="498153" Value="Watchdog STG 2"/>
+    <Text ID="498154" Value="Jam inlet STG 1"/>
+    <Text ID="498155" Value="Startup error STG 1"/>
+    <Text ID="498156" Value="Photocell covered at start STG 1"/>
+    <Text ID="498157" Value="Photocell covered at foldpoint STG 1"/>
+    <Text ID="498158" Value="Photocell covered STG1"/>
+    <Text ID="498159" Value="Watchdog STG 2"/>
+    <Text ID="498160" Value="Startup error STG 2"/>
+    <Text ID="498161" Value="Photocell covered at start STG 2"/>
+    <Text ID="498162" Value="Photocell covered at foldpoint STG 2"/>
+    <Text ID="498163" Value="Photocell covered STG2"/>
+    <Text ID="498164" Value="Jam inlet STG 3"/>
+    <Text ID="498165" Value="Startup error STG 3"/>
+    <Text ID="498166" Value="Photocell covered at start STG 3"/>
+    <Text ID="498167" Value="Photocell covered at foldpoint STG 3"/>
+    <Text ID="498168" Value="Photocell covered STG3"/>
+    <Text ID="498169" Value="Jam inlet STG 4"/>
+    <Text ID="498170" Value="Startup error STG 4"/>
+    <Text ID="498171" Value="Photocell covered at start STG 4"/>
+    <Text ID="498172" Value="Photocell covered at foldpoint STG 4"/>
+    <Text ID="498173" Value="Photocell covered STG4"/>
+    <Text ID="498174" Value="Jam inlet STG 5"/>
+    <Text ID="498175" Value="Startup error STG 5"/>
+    <Text ID="498176" Value="Photocell covered at start STG 5"/>
+    <Text ID="498177" Value="Photocell covered at foldpoint STG 5"/>
+    <Text ID="498178" Value="Photocell covered STG 5"/>
+    <Text ID="498179" Value="Outlet time out error"/>
+    <Text ID="498180" Value="Outlet startup error"/>
+    <Text ID="498181" Value="Disturbance Photocell Liftstacker, Product jam in "/>
+    <Text ID="498182" Value="Lift not down 1"/>
+    <Text ID="498183" Value="Lift not down 2"/>
+    <Text ID="498184" Value="Lift not down 3"/>
+    <Text ID="498185" Value="Lift not down 4"/>
+    <Text ID="498186" Value="Lift not down 5"/>
+    <Text ID="498187" Value="Lift not down 6"/>
+    <Text ID="498188" Value="Lift not down 7"/>
+    <Text ID="498189" Value="Lift not down 8"/>
+    <Text ID="498190" Value="Lift not down 9"/>
+    <Text ID="498191" Value="Lift not down 10"/>
+    <Text ID="498192" Value="Emergency Stop or Security-Cover open            "/>
+    <Text ID="498193" Value="Protective Motor Switch          "/>
+    <Text ID="498194" Value="Low air pressure detected   "/>
+    <Text ID="498195" Value="Jenway com failed"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="498131" Value="No hanger from feeder."/>
+    <Text ID="498132" Value="Hanger inlet startup error"/>
+    <Text ID="498133" Value="Time out Hanger inlet"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Remove hanger from Inlet"/>
+    <Text ID="498136" Value="Collapsed hanger in Inlet"/>
+    <Text ID="498137" Value="No hanger read or double hanger"/>
+    <Text ID="498138" Value="Timeout hanger turner"/>
+    <Text ID="498139" Value="Hanger opener time out"/>
+    <Text ID="498140" Value="Hanger opener startup error"/>
+    <Text ID="498141" Value="Garment on hanger"/>
+    <Text ID="498142" Value="Hanger out error"/>
+    <Text ID="498143" Value="Out sensor ontime error"/>
+    <Text ID="498144" Value="Garment on hanger startup"/>
+    <Text ID="498145" Value="Hanger not on deloading unit, remove hanger and garment."/>
+    <Text ID="498146" Value="Garment stuck DU"/>
+    <Text ID="498147" Value="Overtime turn around"/>
+    <Text ID="498148" Value="Starup error Turn around conveyor"/>
+    <Text ID="498149" Value="Remove garment in turn around"/>
+    <Text ID="498150" Value="Hanger out stopped"/>
+    <Text ID="498151" Value="Lateral Error"/>
+    <Text ID="498152" Value="CrossA Error"/>
+    <Text ID="498153" Value="Cross-Folding Overtime               "/>
+    <Text ID="498154" Value="Jam inlet STG 1"/>
+    <Text ID="498155" Value="Startup error STG 1"/>
+    <Text ID="498156" Value="Photocell covered at start STG 1"/>
+    <Text ID="498157" Value="Photocell covered at foldpoint STG 1"/>
+    <Text ID="498158" Value="Photocell covered STG1"/>
+    <Text ID="498159" Value="Jam inlet STG 2"/>
+    <Text ID="498160" Value="Startup error STG 2"/>
+    <Text ID="498161" Value="Photocell covered at start STG 2"/>
+    <Text ID="498162" Value="Photocell covered at foldpoint STG 2"/>
+    <Text ID="498163" Value="Photocell covered STG2"/>
+    <Text ID="498164" Value="Jam inlet STG 3"/>
+    <Text ID="498165" Value="Startup error STG 3"/>
+    <Text ID="498166" Value="Photocell covered at start STG 3"/>
+    <Text ID="498167" Value="Photocell covered at foldpoint STG 3"/>
+    <Text ID="498168" Value="Photocell covered STG3"/>
+    <Text ID="498169" Value="Jam inlet STG 4"/>
+    <Text ID="498170" Value="Startup error STG 4"/>
+    <Text ID="498171" Value="Photocell covered at start STG 4"/>
+    <Text ID="498172" Value="Photocell covered at foldpoint STG 4"/>
+    <Text ID="498173" Value="Photocell covered STG4"/>
+    <Text ID="498174" Value="Jam inlet STG 5"/>
+    <Text ID="498175" Value="Startup error STG 5"/>
+    <Text ID="498176" Value="Photocell covered at start STG 5"/>
+    <Text ID="498177" Value="Photocell covered at foldpoint STG 5"/>
+    <Text ID="498178" Value="Photocell covered STG 5"/>
+    <Text ID="498179" Value="Outlet time out error"/>
+    <Text ID="498180" Value="Outlet startup error"/>
+    <Text ID="498181" Value="Disturbance Photocell Liftstacker, Product jam in "/>
+    <Text ID="498182" Value="Lift not down 1"/>
+    <Text ID="498183" Value="Lift not down 2"/>
+    <Text ID="498184" Value="Lift not down 3"/>
+    <Text ID="498185" Value="Lift not down 4"/>
+    <Text ID="498186" Value="Lift not down 5"/>
+    <Text ID="498187" Value="Lift not down 6"/>
+    <Text ID="498188" Value="Lift not down 7"/>
+    <Text ID="498189" Value="Lift not down 8"/>
+    <Text ID="498190" Value="Lift not down 9"/>
+    <Text ID="498191" Value="Lift not down 10"/>
+    <Text ID="498192" Value="Emergency Stop or Security-Cover open            "/>
+    <Text ID="498193" Value="Protective Motor Switch          "/>
+    <Text ID="498194" Value="Low air pressure detected   "/>
+    <Text ID="498195" Value="Jenway com failed"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="498131" Value="Ingen henger fra innmating"/>
+    <Text ID="498132" Value="henger innløp oppstartsfeil"/>
+    <Text ID="498133" Value="Time out Henger innløp"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Fjern henger fra innløp"/>
+    <Text ID="498136" Value="Henger ikke resatt i innløp"/>
+    <Text ID="498137" Value="Ingen henger lest eller dobbel henger"/>
+    <Text ID="498138" Value="Timeout hanger turner"/>
+    <Text ID="498139" Value="Henger åpner timeout"/>
+    <Text ID="498140" Value="Feil på hengeråpner etter oppstart"/>
+    <Text ID="498141" Value="Tøy på Henger"/>
+    <Text ID="498142" Value="Ingen henger sett på utløp"/>
+    <Text ID="498143" Value="Out sensor ontime error"/>
+    <Text ID="498144" Value="Tøy på henger under oppstart"/>
+    <Text ID="498145" Value="Henger ikke i avlaster enhet, fjern henger"/>
+    <Text ID="498146" Value="Garment stuck DU"/>
+    <Text ID="498147" Value="Ikke tøy ved fotocelle"/>
+    <Text ID="498148" Value="Oppstartsfeil vendekonveyor"/>
+    <Text ID="498149" Value="Fjern tøy I vendeseksjon"/>
+    <Text ID="498150" Value="Henger utløp stoppet"/>
+    <Text ID="498151" Value="Feil Langsfold"/>
+    <Text ID="498152" Value="Feil Kryssfold A"/>
+    <Text ID="498153" Value="Transporttid kryssfold overtid                      "/>
+    <Text ID="498154" Value="Jam inlet STG 1"/>
+    <Text ID="498155" Value="Startup error STG 1"/>
+    <Text ID="498156" Value="Fotocelle tildekket under start STG 1"/>
+    <Text ID="498157" Value="Fotocelle tildekket foldepunkt STG 1"/>
+    <Text ID="498158" Value="Fotocelle tildekket STG 1"/>
+    <Text ID="498159" Value="Jam inlet STG 2"/>
+    <Text ID="498160" Value="Startup error STG 2"/>
+    <Text ID="498161" Value="Fotocelle tildekket under start STG 2"/>
+    <Text ID="498162" Value="Fotocelle tildekket foldepunkt STG 2"/>
+    <Text ID="498163" Value="Fotocelle tildekket STG 2"/>
+    <Text ID="498164" Value="Jam inlet STG 3"/>
+    <Text ID="498165" Value="Startup error STG 3"/>
+    <Text ID="498166" Value="Fotocelle tildekket under start STG 3"/>
+    <Text ID="498167" Value="Fotocelle tildekket foldepunkt STG 3"/>
+    <Text ID="498168" Value="Fotocelle tildekket STG 3"/>
+    <Text ID="498169" Value="Jam inlet STG 4"/>
+    <Text ID="498170" Value="Startup error STG 4"/>
+    <Text ID="498171" Value="Fotocelle tildekket under start STG 4"/>
+    <Text ID="498172" Value="Fotocelle tildekket foldepunkt STG 4"/>
+    <Text ID="498173" Value="Fotocelle tildekket STG 4"/>
+    <Text ID="498174" Value="Jam inlet STG 5"/>
+    <Text ID="498175" Value="Startup error STG 5"/>
+    <Text ID="498176" Value="Fotocelle tildekket under start STG 5"/>
+    <Text ID="498177" Value="Fotocelle tildekket foldepunkt STG 5"/>
+    <Text ID="498178" Value="Fotocelle tildekket STG 5"/>
+    <Text ID="498179" Value="Feil Utløpstid"/>
+    <Text ID="498180" Value="Feil oppstart utløp"/>
+    <Text ID="498181" Value="Feil fotocelle liftstacker"/>
+    <Text ID="498182" Value="Heis ikke nede 1"/>
+    <Text ID="498183" Value="Heis ikke nede 2"/>
+    <Text ID="498184" Value="Heis ikke nede 3"/>
+    <Text ID="498185" Value="Heis ikke nede 4"/>
+    <Text ID="498186" Value="Heis ikke nede 5"/>
+    <Text ID="498187" Value="Heis ikke nede 6"/>
+    <Text ID="498188" Value="Heis ikke nede 7"/>
+    <Text ID="498189" Value="Heis ikke nede 8"/>
+    <Text ID="498190" Value="Heis ikke nede 9"/>
+    <Text ID="498191" Value="Heis ikke nede 10"/>
+    <Text ID="498192" Value="Nödstopp eller sikkerhetsdeksel åpent            "/>
+    <Text ID="498193" Value="Motorvernbryter                  "/>
+    <Text ID="498194" Value="Lufttrykk for lavt"/>
+    <Text ID="498195" Value="Jenway kommunikasjon feilet"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="498131" Value="Sem cabides provenientes da entrada."/>
+    <Text ID="498132" Value="Erro no arranque da entrada de cabides"/>
+    <Text ID="498133" Value="Tempo limite de entrada de cabides excedido"/>
+    <Text ID="498134" Value=""/>
+    <Text ID="498135" Value="Remover cabide da entrada"/>
+    <Text ID="498136" Value="Cabide partido na entrada"/>
+    <Text ID="498137" Value="Nenhum cabide lido ou cabide duplo."/>
+    <Text ID="498138" Value="Tempo limite do mecanismo de viragem de cabides excedido"/>
+    <Text ID="498139" Value="Tempo limite do abridor de cabides excedido"/>
+    <Text ID="498140" Value="Erro no arranque do abridor de cabides"/>
+    <Text ID="498141" Value="Peça de roupa no cabide"/>
+    <Text ID="498142" Value="Erro na saída de cabide"/>
+    <Text ID="498143" Value="Erro de tempo de funcionamento do sensor de saída"/>
+    <Text ID="498144" Value="Peça de roupa no cabide durante o arranque"/>
+    <Text ID="498145" Value="O cabide não está na unidade de transferência, remover cabide e peça de roupa."/>
+    <Text ID="498146" Value="Peça de roupa encravada DU"/>
+    <Text ID="498147" Value="Tempo limite de inversão excedido"/>
+    <Text ID="498148" Value="Erro de arranque na esteira de inversão"/>
+    <Text ID="498149" Value="Remover peça de roupa da esteira de inversão"/>
+    <Text ID="498150" Value="Cabide de saída parado"/>
+    <Text ID="498151" Value="Erro lateral"/>
+    <Text ID="498152" Value="Erro na dobra cruzada A"/>
+    <Text ID="498153" Value="Tempo limite para dobragem cruzada excedido               "/>
+    <Text ID="498154" Value="Entrada obstruída STG 1"/>
+    <Text ID="498155" Value="Erro de arranque STG 1"/>
+    <Text ID="498156" Value="Fotocélula coberta no início STG 1"/>
+    <Text ID="498157" Value="Fotocélula coberta no ponto de dobragem STG 1"/>
+    <Text ID="498158" Value="Fotocélula coberta STG1"/>
+    <Text ID="498159" Value="Entrada obstruída STG 2"/>
+    <Text ID="498160" Value="Erro de arranque STG 2"/>
+    <Text ID="498161" Value="Fotocélula coberta no início STG 2"/>
+    <Text ID="498162" Value="Fotocélula coberta no ponto de dobragem STG 2"/>
+    <Text ID="498163" Value="Fotocélula coberta STG2"/>
+    <Text ID="498164" Value="Entrada obstruída STG 3"/>
+    <Text ID="498165" Value="Erro de arranque STG 3"/>
+    <Text ID="498166" Value="Fotocélula coberta no início STG 3"/>
+    <Text ID="498167" Value="Fotocélula coberta no ponto de dobragem STG 3"/>
+    <Text ID="498168" Value="Fotocélula coberta STG3"/>
+    <Text ID="498169" Value="Entrada obstruída STG 4"/>
+    <Text ID="498170" Value="Erro de arranque STG 4"/>
+    <Text ID="498171" Value="Fotocélula coberta no início STG 4"/>
+    <Text ID="498172" Value="Fotocélula coberta no ponto de dobragem STG 4"/>
+    <Text ID="498173" Value="Fotocélula coberta STG4"/>
+    <Text ID="498174" Value="Entrada obstruída STG 5"/>
+    <Text ID="498175" Value="Erro de arranque STG 5"/>
+    <Text ID="498176" Value="Fotocélula coberta no início STG 5"/>
+    <Text ID="498177" Value="Fotocélula coberta no ponto de dobragem STG 5"/>
+    <Text ID="498178" Value="Fotocélula coberta STG 5"/>
+    <Text ID="498179" Value="Erro de tempo limite excedido na saída"/>
+    <Text ID="498180" Value="Erro de arranque na saída"/>
+    <Text ID="498181" Value="Fotocélula obstruída no empilhador elevador, produto encravado "/>
+    <Text ID="498182" Value="O elevador não desce 1"/>
+    <Text ID="498183" Value="O elevador não desce 2"/>
+    <Text ID="498184" Value="O elevador não desce 3"/>
+    <Text ID="498185" Value="O elevador não desce 4"/>
+    <Text ID="498186" Value="O elevador não desce 5"/>
+    <Text ID="498187" Value="O elevador não desce 6"/>
+    <Text ID="498188" Value="O elevador não desce 7"/>
+    <Text ID="498189" Value="O elevador não desce 8"/>
+    <Text ID="498190" Value="O elevador não desce 9"/>
+    <Text ID="498191" Value="O elevador não desce 10"/>
+    <Text ID="498192" Value="Paragem de emergência ou tampa de segurança aberta            "/>
+    <Text ID="498193" Value="Interruptor protetor do motor          "/>
+    <Text ID="498194" Value="Baixa pressão de ar detetada   "/>
+    <Text ID="498195" Value="Com. com a Jenway falhada"/>
+    <Text ID="498196" Value=""/>
+    <Text ID="498197" Value=""/>
+    <Text ID="498198" Value=""/>
+    <Text ID="498199" Value=""/>
+    <Text ID="498200" Value=""/>
+    <Text ID="498201" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="498131" Value="3"/>
+    <Index ID="498132" Value="2"/>
+    <Index ID="498133" Value="1"/>
+    <Index ID="498134" Value="0"/>
+    <Index ID="498135" Value="4"/>
+    <Index ID="498136" Value="5"/>
+    <Index ID="498137" Value="6"/>
+    <Index ID="498138" Value="7"/>
+    <Index ID="498139" Value="8"/>
+    <Index ID="498140" Value="9"/>
+    <Index ID="498141" Value="10"/>
+    <Index ID="498142" Value="11"/>
+    <Index ID="498143" Value="12"/>
+    <Index ID="498144" Value="13"/>
+    <Index ID="498145" Value="14"/>
+    <Index ID="498146" Value="15"/>
+    <Index ID="498147" Value="16"/>
+    <Index ID="498148" Value="17"/>
+    <Index ID="498149" Value="18"/>
+    <Index ID="498150" Value="19"/>
+    <Index ID="498151" Value="20"/>
+    <Index ID="498152" Value="21"/>
+    <Index ID="498153" Value="22"/>
+    <Index ID="498154" Value="23"/>
+    <Index ID="498155" Value="24"/>
+    <Index ID="498156" Value="25"/>
+    <Index ID="498157" Value="26"/>
+    <Index ID="498158" Value="27"/>
+    <Index ID="498159" Value="28"/>
+    <Index ID="498160" Value="29"/>
+    <Index ID="498161" Value="30"/>
+    <Index ID="498162" Value="31"/>
+    <Index ID="498163" Value="32"/>
+    <Index ID="498164" Value="33"/>
+    <Index ID="498165" Value="34"/>
+    <Index ID="498166" Value="35"/>
+    <Index ID="498167" Value="36"/>
+    <Index ID="498168" Value="37"/>
+    <Index ID="498169" Value="38"/>
+    <Index ID="498170" Value="39"/>
+    <Index ID="498171" Value="40"/>
+    <Index ID="498172" Value="41"/>
+    <Index ID="498173" Value="42"/>
+    <Index ID="498174" Value="43"/>
+    <Index ID="498175" Value="44"/>
+    <Index ID="498176" Value="45"/>
+    <Index ID="498177" Value="46"/>
+    <Index ID="498178" Value="47"/>
+    <Index ID="498179" Value="48"/>
+    <Index ID="498180" Value="49"/>
+    <Index ID="498181" Value="50"/>
+    <Index ID="498182" Value="51"/>
+    <Index ID="498183" Value="52"/>
+    <Index ID="498184" Value="53"/>
+    <Index ID="498185" Value="54"/>
+    <Index ID="498186" Value="55"/>
+    <Index ID="498187" Value="56"/>
+    <Index ID="498188" Value="57"/>
+    <Index ID="498189" Value="58"/>
+    <Index ID="498190" Value="59"/>
+    <Index ID="498191" Value="60"/>
+    <Index ID="498192" Value="61"/>
+    <Index ID="498193" Value="62"/>
+    <Index ID="498194" Value="63"/>
+    <Index ID="498195" Value="64"/>
+    <Index ID="498196" Value="65"/>
+    <Index ID="498197" Value="66"/>
+    <Index ID="498198" Value="67"/>
+    <Index ID="498199" Value="68"/>
+    <Index ID="498200" Value="69"/>
+    <Index ID="498201" Value="70"/>
+  </IndexMap>
+</TextGroup>

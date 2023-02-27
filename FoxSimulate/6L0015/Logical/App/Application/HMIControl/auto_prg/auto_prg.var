@@ -1,0 +1,26 @@
+VAR
+	StatusSetMenu : UDINT;
+	NewPage : UINT;
+	OpenPage : BOOL := FALSE;
+	Index : UINT;
+	HmiAutoProgram : AutoProgramHmiSetup_Type;
+	MainAutoProgram : AutoProgramHmiMain_Type := (0);
+	MainGetAutoProgram : REFERENCE TO ACfg_Type;
+	LocalFoldProgram : REFERENCE TO ARRAY[0..99] OF RCfg_Type;
+	LocalAutoProgram : REFERENCE TO ACfg_Type;
+	LastMainAutoProgram : UINT;
+END_VAR
+VAR RETAIN
+	OldCustomerNumber : UDINT;
+	OldSelectedAutoProgram : UINT;
+END_VAR
+VAR CONSTANT
+	MAX_AUTO_LIST_5 : UINT := 5;
+	MAX_AUTO_PROGRAM_99 : UINT := 99;
+END_VAR
+VAR
+	LogBookFlag : UINT;
+	Count : ARRAY[0..20] OF UINT := [21(0)];
+	i : USINT := 0;
+	TestCount : ARRAY[0..20] OF UDINT := [21(0)];
+END_VAR

@@ -1,0 +1,36 @@
+VAR
+	Reboot_Required : BOOL;
+	connections : USINT;
+	IP_Max2XML : USINT;
+	IP_Min2XML : USINT;
+	RIPMin : USINT;
+	RIPMax : USINT;
+	TON_CommCheck : ARRAY[0..9] OF TON;
+	FlatId : ARRAY[0..9] OF M2M_Info_Type;
+	ComState : USINT;
+	CountByte : USINT;
+	EthGenUDINT : UDINT;
+	EthAddressBuffer : ARRAY[0..3] OF USINT;
+	FileSave_status : UINT;
+	TON_AlarmCheck : TON;
+	IP_Max : ARRAY[0..3] OF USINT;
+	IP_Min : ARRAY[0..3] OF USINT;
+	FlatServer : ARRAY[0..9] OF M2M_Flat_Type;
+	Cnt : USINT;
+	Save_And_Restart : BOOL;
+	InitDone : BOOL;
+	FlatClient : ARRAY[0..9] OF M2M_Flat_Type;
+	ConfState : USINT;
+	XMLClientComInfo : ARRAY[0..3] OF JenTransCommonInfo_Type;
+	count : USINT;
+	XMLServerComInfo : ARRAY[0..3] OF JenTransCommonInfo_Type;
+	XML_ClientData : ARRAY[0..3] OF STRING[35];
+	XML_ServerData : ARRAY[0..3] OF STRING[35];
+	FlatText : ARRAY[0..9] OF M2M_Info_Type;
+	No : USINT;
+	IpInvalid : BOOL;
+	XML_PVs_ident : UDINT;
+	(*XML_PVs_status : DINT;*)
+	XML_PVs_data : XMLPVsinit_typ;
+	XML_Connection : XML_Connection_Type;
+END_VAR

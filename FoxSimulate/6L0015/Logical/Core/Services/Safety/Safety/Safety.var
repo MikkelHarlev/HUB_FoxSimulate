@@ -1,0 +1,9 @@
+VAR
+	autoLoad : autoLoad_typ := (0);
+	hmi : hmi_typ;
+	brdk_safety_remote_control_0 : brdk_safety_remote_control;
+	brdk_safety_data_0 : brdk_safety_data;
+	brdk_safety_application_0 : brdk_safety_application;
+	delayCyclic : BOOL := 0;
+	TON_delayCyclic : TON := (0);
+END_VAR

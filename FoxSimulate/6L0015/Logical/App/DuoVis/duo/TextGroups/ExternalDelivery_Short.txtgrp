@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.4.4.112"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ExternalDelivery_Short">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="60"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="S"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="M"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="465903" Value="c"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="s"/>
+    <Text ID="465906" Value="R "/>
+    <Text ID="465907" Value="l"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="Minuten"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="sv-SE">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="S"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="M"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr-FR">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="s"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="m"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="da-DK">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="S"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="M"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="it-IT">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="S"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="M"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="fi-FI">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="S"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="M"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="s"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="m"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="s"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="m"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl-PL">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="s"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="m"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="ru-RU">
+    <Text ID="465903" Value=""/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value=""/>
+    <Text ID="465906" Value=""/>
+    <Text ID="465907" Value=""/>
+    <Text ID="465908" Value=""/>
+    <Text ID="465909" Value=""/>
+    <Text ID="465910" Value=""/>
+    <Text ID="465911" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="en">
+    <Text ID="465903" Value=""/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value=""/>
+    <Text ID="465906" Value=""/>
+    <Text ID="465907" Value=""/>
+    <Text ID="465908" Value=""/>
+    <Text ID="465909" Value=""/>
+    <Text ID="465910" Value=""/>
+    <Text ID="465911" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="s"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="m"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="cs-CZ">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="S"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="M"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="en-US">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="S"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="M"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="S"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="M"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-PT">
+    <Text ID="465903" Value="C"/>
+    <Text ID="465904" Value=""/>
+    <Text ID="465905" Value="s"/>
+    <Text ID="465906" Value="R"/>
+    <Text ID="465907" Value="L"/>
+    <Text ID="465908" Value="K"/>
+    <Text ID="465909" Value="Z"/>
+    <Text ID="465910" Value="m"/>
+    <Text ID="465911" Value="B"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="465903" Value="1"/>
+    <Index ID="465904" Value="0"/>
+    <Index ID="465905" Value="2"/>
+    <Index ID="465906" Value="3"/>
+    <Index ID="465907" Value="4"/>
+    <Index ID="465908" Value="5"/>
+    <Index ID="465909" Value="6"/>
+    <Index ID="465910" Value="7"/>
+    <Index ID="465911" Value="8"/>
+  </IndexMap>
+</TextGroup>

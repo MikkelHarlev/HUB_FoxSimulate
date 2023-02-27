@@ -1,0 +1,136 @@
+VAR_CONFIG
+	IOAlarm:IoAlarmCheck.Io.Module[0].ModuleOk AT %IX."X20PS9600".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[1].ModuleOk AT %IX."X20DI9371".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[2].ModuleOk AT %IX."X20DI9371a".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[3].ModuleOk AT %IX."X20DI9371b".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[4].ModuleOk AT %IX."X20DI9371c".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[5].ModuleOk AT %IX."X20PS2100".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[6].ModuleOk AT %IX."X20DO9322".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[7].ModuleOk AT %IX."X20DO9322a".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[8].ModuleOk AT %IX."X20DO9322b".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[9].ModuleOk AT %IX."X20DO9322c".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[10].ModuleOk AT %IX."X20DO9322d".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[11].ModuleOk AT %IX."X20DO9322e".ModuleOk;
+	IOAlarm:IoAlarmCheck.Io.Module[12].ModuleOk AT %IX."X20DO9322f".ModuleOk;
+	g_Inverter.Drive[0].ModuleOk AT %IX."8I66T400075.0P-000".ModuleOk;
+	g_Inverter.Drive[0].ModuleID AT %ID."8I66T400075.0P-000".ModuleID;
+	g_Inverter.Drive[0].SerialNumber AT %ID."8I66T400075.0P-000".SerialNumber;
+	g_Inverter.Drive[0].HardwareVariant AT %ID."8I66T400075.0P-000".HardwareVariant;
+	g_Inverter.Drive[0].FirmwareVersion AT %ID."8I66T400075.0P-000".FirmwareVersion;
+	g_Inverter.Drive[0].GetStatus AT %IW."8I66T400075.0P-000".ETAD_Input;
+	g_Inverter.Drive[0].GetState AT %IW."8I66T400075.0P-000".HMIS_Input;
+	g_Inverter.Drive[0].GetStatusExtended AT %IW."8I66T400075.0P-000".ETI_Input;
+	g_Inverter.Drive[0].GetSpeed AT %IW."8I66T400075.0P-000".RFRD_Input;
+	g_Inverter.Drive[0].GetCurrent AT %IW."8I66T400075.0P-000".LCR_Input;
+	g_Inverter.Drive[0].GetDriveTemperature AT %IW."8I66T400075.0P-000".THD_Input;
+	g_Inverter.Drive[0].GetMotorTemperature AT %IW."8I66T400075.0P-000".THR_Input;
+	g_Inverter.Drive[0].GetLastErrorUINT AT %IW."8I66T400075.0P-000".LFT_Input;
+	g_Inverter.Drive[0].SetControl AT %QW."8I66T400075.0P-000".CMDD_Output;
+	g_Inverter.Drive[0].SetSpeed AT %QW."8I66T400075.0P-000".LFRD_Output;
+	ISafeSBit0 AT %IX."X20DI9371".DigitalInput01; (*STATUS BIT 0 EMERGENCY STOP SYSTEM*)
+	ISafeSBit1 AT %IX."X20DI9371".DigitalInput02; (*STATUS BIT 1 EMERGENCY STOP SYSTEM*)
+	ISControlPlc AT %IX."X20DI9371".DigitalInput03; (*START CIRCUIT ACTIVATED*)
+	ISThermoOk AT %IX."X20DI9371".DigitalInput04; (*THERMAL FAULT MOTOR*)
+	ISAirOk AT %IX."X20DI9371".DigitalInput05; (*AIR PRESSURE OK*)
+	IWhC AT %IX."X20DI9371".DigitalInput06; (*ACTUAL MACHIN SPEED PULS WHEEL*)
+	IIPrestopIn AT %IX."X20DI9371".DigitalInput07; (*PRESTOP*)
+	IISeperationIn AT %IX."X20DI9371".DigitalInput08; (*SEPARATION*)
+	IISupervisionSeperation AT %IX."X20DI9371".DigitalInput09; (*SUPERVISION SEPARATION*)
+	IBGarmentDetection AT %IX."X20DI9371".DigitalInput10; (*INLET SLEEVE INSERTER*)
+	IBLeftTrouseDetection AT %IX."X20DI9371".DigitalInput11; (*TROUSERS DETECTION*)
+	IBRightTrouseDetection AT %IX."X20DI9371".DigitalInput12; (*TROUSERS DETECTION*)
+	IBHangerDeloadReady AT %IX."X20DI9371a".DigitalInput01; (*HANGER IN DELOADING PLATE*)
+	IBHangerMove AT %IX."X20DI9371a".DigitalInput02; (*JAM HANGER TAKE-OFF*)
+	IBLeftOverallDetection AT %IX."X20DI9371a".DigitalInput05; (*DETECTION OVERALL TROUSER LEGS*)
+	IBRightOverallDetection AT %IX."X20DI9371a".DigitalInput06; (*DETECTION OVERALL TROUSER LEGS*)
+	IBJamDeloading AT %IX."X20DI9371a".DigitalInput07; (*JAM DELOADING PLATE*)
+	IIJamDeloadingOut AT %IX."X20DI9371a".DigitalInput08; (*JAM HANGER OUTLET*)
+	IBVertical[1] AT %IX."X20DI9371a".DigitalInput09; (*TURNER CENTER LEFT*)
+	IBVertical[2] AT %IX."X20DI9371a".DigitalInput10; (*TURNER CENTER RIGHT*)
+	IBHorizontal AT %IX."X20DI9371a".DigitalInput11; (*TURNER SIDE BOX*)
+	IIBladeRightHome AT %IX."X20DI9371a".DigitalInput12; (*FOLDING BLADE RIGHT*)
+	IBXAFold AT %IX."X20DI9371b".DigitalInput01; (*CROSSFOLD A*)
+	IBXAFoldHorizontal AT %IX."X20DI9371b".DigitalInput02; (*CROSSFOLD A*)
+	IBXBFold AT %IX."X20DI9371b".DigitalInput03; (*CROSSFOLD B*)
+	ISHangerOutletFree AT %IX."X20DI9371b".DigitalInput04; (*SIGNAL METRICON IN OPERATION*)
+	IFuseOkSideConv AT %IX."X20DI9371b".DigitalInput05; (*FUSE, CONVEYOR*)
+	IBDeliveryBeltBegin AT %IX."X20DI9371b".DigitalInput06; (*START DELIVERY CONVEYOR/STACKER*)
+	ISOutlet[0] AT %IX."X20DI9371b".DigitalInput07; (*SWITCH OUTLET STACKER*)
+	IBStacker[1] AT %IX."X20DI9371b".DigitalInput08; (*INLET STACKER MODULE*)
+	IBStackLowerTable[1] AT %IX."X20DI9371b".DigitalInput09; (*LOWERING TABLE*)
+	ISFuseOk[1] AT %IX."X20DI9371b".DigitalInput10; (*FUSE, STACKER 1*)
+	ISWrapperRunning AT %IX."X20DI9371c".DigitalInput01; (*WRAPPER RUNNING*)
+	IBDeliveryBeltEnd AT %IX."X20DI9371c".DigitalInput02; (*END DELIVERY CONVEYOR STACKER*)
+	IBStacker[2] AT %IX."X20DI9371c".DigitalInput08; (*INLET STACKER MODULE*)
+	IBStackLowerTable[2] AT %IX."X20DI9371c".DigitalInput09; (*LOWERING TABLE*)
+	ISFuseOk[2] AT %IX."X20DI9371c".DigitalInput10; (*FUSE, STACKER 2*)
+	QKStartOk AT %QX."X20DO9322".DigitalOutput01; (*START OK*)
+	QHBuzz AT %QX."X20DO9322".DigitalOutput02; (*ALARM BUZZER*)
+	QMInlet AT %QX."X20DO9322".DigitalOutput03; (*TRANSPORT SLEEVE INSERTER*)
+	QMTopConveyor AT %QX."X20DO9322".DigitalOutput04; (*TRANSPORT TURNER*)
+	QMLFold[1] AT %QX."X20DO9322".DigitalOutput05; (*INLET LF*)
+	QMXAFold2 AT %QX."X20DO9322".DigitalOutput07; (*CROSSFOLD A*)
+	QMXAFoldForward AT %QX."X20DO9322".DigitalOutput09; (*FORWARD*)
+	QMXAFoldReverse AT %QX."X20DO9322".DigitalOutput10; (*REVERSE*)
+	QMXBFoldForward AT %QX."X20DO9322".DigitalOutput11; (*FORWARD*)
+	QMXBFoldReverse AT %QX."X20DO9322".DigitalOutput12; (*REVERSE*)
+	QYAirLeftSleeve AT %QX."X20DO9322a".DigitalOutput01; (*AIRBLAST SHORT SLEEVES LEFT*)
+	QYAirRightSleeve AT %QX."X20DO9322a".DigitalOutput02; (*AIRBLAST SHORT SLEEVES RIGHT*)
+	QYAirXAFold AT %QX."X20DO9322a".DigitalOutput03; (*AIRBLASTPIPE QF A*)
+	QYAirXBFoldInlet AT %QX."X20DO9322a".DigitalOutput04; (*AIRBLASTPIPE QF B INLET*)
+	QYAirXBFoldOutlet AT %QX."X20DO9322a".DigitalOutput05; (*AIRBLASTPIPE QF B STACKER*)
+	QYAirTrouses AT %QX."X20DO9322a".DigitalOutput06; (*OVERALL LEGS CORRECT*)
+	QYReleaseDeloadingBrake AT %QX."X20DO9322a".DigitalOutput07; (*BRAKE DELOADING PLATE*)
+	QYPreStop AT %QX."X20DO9322a".DigitalOutput08; (*PRESTOP 1*)
+	QYSeparation AT %QX."X20DO9322a".DigitalOutput09; (*SEPARATION 1*)
+	QYHangerOpener AT %QX."X20DO9322a".DigitalOutput10; (*HANGER RELEASE*)
+	QYHoldDownPlate AT %QX."X20DO9322a".DigitalOutput11; (*HOLD DOWN PLATE*)
+	QYFlapsLegsAdjustment AT %QX."X20DO9322a".DigitalOutput12; (*FLAP OVERALL LEGS*)
+	QYHangerClampDown AT %QX."X20DO9322b".DigitalOutput01; (*HANGER RECEIVE*)
+	QYHangerClampLock AT %QX."X20DO9322b".DigitalOutput02; (*HANGER LOCK*)
+	QYHangerClampBelow AT %QX."X20DO9322b".DigitalOutput03; (*HANGER CLAMP BELOW*)
+	QYHangerClampTop AT %QX."X20DO9322b".DigitalOutput04; (*HANGER CLAMP TOP*)
+	QYLFoldBladeLeft AT %QX."X20DO9322b".DigitalOutput05; (*FOLDING BLADE LEFT*)
+	QYLFoldBladeRight AT %QX."X20DO9322b".DigitalOutput06; (*FOLDING BLADE RIGHT*)
+	QYBrakeLFold AT %QX."X20DO9322b".DigitalOutput07; (*BRAKE, LATERAL FOLD*)
+	QYBrakeXAFold AT %QX."X20DO9322b".DigitalOutput08; (*BRAKE, CROSSFOLD A*)
+	QYRaiseBlades AT %QX."X20DO9322b".DigitalOutput09; (*FOLDING BLADES RAISE, 0*)
+	QYTemplatesUp[0] AT %QX."X20DO9322b".DigitalOutput10; (*TEMPLATES UP, 0*)
+	QYXBFoldDoffer AT %QX."X20DO9322b".DigitalOutput11; (*SEESAW QF B*)
+	QKBrakeInlet AT %QX."X20DO9322b".DigitalOutput12; (*BRAKE INLET CONVEYOR*)
+	QMStacker[1] AT %QX."X20DO9322c".DigitalOutput01; (*STACKER MOTOR 1*)
+	QYBrakeStacker[1] AT %QX."X20DO9322c".DigitalOutput02; (*BRAKE STACKER, MODULE 1*)
+	QYStackerFlap[1] AT %QX."X20DO9322c".DigitalOutput03; (*STACKER FLAPS MODULE 1*)
+	QYStackerAir[1] AT %QX."X20DO9322c".DigitalOutput04; (*AIRBLASTPIPE FOR MICROFIBER*)
+	QMLiftOutlet[1] AT %QX."X20DO9322c".DigitalOutput05; (*OUTLET CONVEYOR 1 MOTOR LIFT*)
+	QMRollOff[1] AT %QX."X20DO9322c".DigitalOutput06; (*OUTLET CONVEYOR 1 MOTOR STACKER*)
+	QYLiftDown[1] AT %QX."X20DO9322c".DigitalOutput07; (*LOWERING TABLE LIFTING STACKER 1*)
+	QYLiftDownStop[1] AT %QX."X20DO9322c".DigitalOutput08; (*LOWERING TABLE STOP STACKER 1*)
+	QYRollOffOut[1] AT %QX."X20DO9322c".DigitalOutput09; (*ROLL-OFF 1*)
+	QKBrakeTopConveyor AT %QX."X20DO9322c".DigitalOutput10; (*BRAKE TOP CONVEYOR*)
+	QMCrossConveyor AT %QX."X20DO9322c".DigitalOutput11; (*TRANSFER CONVEYOR*)
+	QMDeliveryConveyor AT %QX."X20DO9322c".DigitalOutput12; (*DELIVERY CONVEYOR/STACKER*)
+	QYXAFoldKnife AT %QX."X20DO9322d".DigitalOutput06; (*KNIFE CROSSFOLD A*)
+	QMVacuumInletConveyor AT %QX."X20DO9322d".DigitalOutput07; (*INLET CONVEYOR*)
+	QMVacuum AT %QX."X20DO9322d".DigitalOutput08; (*MOTOR VACUUM INLET*)
+	QYVacuumCleaning AT %QX."X20DO9322d".DigitalOutput09; (*FILTER CLEAN, INLET CONVEYOR*)
+	QYVacuumFlap AT %QX."X20DO9322d".DigitalOutput10; (*VACUUM FLAP*)
+	QYOverallCenter AT %QX."X20DO9322d".DigitalOutput11; (*TROUSER LEGS ADJUST*)
+	QYXAOpen[0] AT %QX."X20DO9322d".DigitalOutput12; (*QF ADJUST INDUSTRIAL*)
+	QMStacker[2] AT %QX."X20DO9322e".DigitalOutput01; (*STACKER MOTOR 2*)
+	QYBrakeStacker[2] AT %QX."X20DO9322e".DigitalOutput02; (*BRAKE STACKER, MODULE 2*)
+	QYStackerFlap[2] AT %QX."X20DO9322e".DigitalOutput03; (*STACKER FLAPS MODULE 2*)
+	QMLiftOutlet[2] AT %QX."X20DO9322e".DigitalOutput05; (*OUTLET CONVEYOR 2 MOTOR LIFT*)
+	QMRollOff[2] AT %QX."X20DO9322e".DigitalOutput06; (*OUTLET CONVEYOR 2 MOTOR STACKER*)
+	QYLiftDown[2] AT %QX."X20DO9322e".DigitalOutput07; (*LOWERING TABLE LIFTING STACKER 2*)
+	QYLiftDownStop[2] AT %QX."X20DO9322e".DigitalOutput08; (*LOWERING TABLE STOP STACKER 2*)
+	QYWidthFront05 AT %QX."X20DO9322f".DigitalOutput01; (*TEMPLATE ADJUSTMENT INLET 05*)
+	QYWidthFront10 AT %QX."X20DO9322f".DigitalOutput02; (*TEMPLATE ADJUSTMENT INLET 10*)
+	QYWidthFront20 AT %QX."X20DO9322f".DigitalOutput03; (*TEMPLATE ADJUSTMENT INLET 20*)
+	QYWidthFront40 AT %QX."X20DO9322f".DigitalOutput04; (*TEMPLATE ADJUSTMENT INLET 40*)
+	QYWidthBack05 AT %QX."X20DO9322f".DigitalOutput05; (*TEMPLATE ADJUSTMENT QF A 05*)
+	QYWidthBack10 AT %QX."X20DO9322f".DigitalOutput06; (*TEMPLATE ADJUSTMENT QF A 10*)
+	QYWidthBack20 AT %QX."X20DO9322f".DigitalOutput07; (*TEMPLATE ADJUSTMENT QF A 20*)
+	QYWidthBack40 AT %QX."X20DO9322f".DigitalOutput08; (*TEMPLATE ADJUSTMENT QF A 40*)
+	g_ModuleFuseFault[0] AT %IX."X20PS9600".StatusInput02;
+END_VAR

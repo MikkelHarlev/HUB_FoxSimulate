@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Library" Language="binary" Description="IEC Text-System Library.">ArTextSys</Object>
+    <Object Type="Library" Language="IEC">JenOEE</Object>
+    <Object Type="Library" Language="ANSIC">brdkSTR</Object>
+    <Object Type="Library" Language="binary" Description="This library contains FBKs for exchanging and formatting data (message based) via HTTP (TCP).">AsHttp</Object>
+    <Object Type="Library" Language="IEC">HMILib</Object>
+    <Object Type="Library" Language="Binary" Description="rtk">rtk</Object>
+  </Objects>
+</Package>
